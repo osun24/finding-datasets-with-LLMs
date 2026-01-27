@@ -7,7 +7,6 @@ from matplotlib.patches import Rectangle
 from datetime import datetime
 import sys
 
-# Set publication-quality style
 plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("husl")
 
@@ -131,13 +130,13 @@ def format_metric_value(summary: dict, metric: str, include_range: bool, decimal
     """Format a metric using its median and range (or provide alternatives)."""
     median = summary.get("median", {}).get(metric)
     if median is None:
-        return "–"
+        return "-"
 
     lower, upper = summary.get("range", {}).get(metric, (median, median))
 
     def _fmt(value: float, precision: int) -> str:
         if value is None:
-            return "–"
+            return "-"
         if abs(value - round(value)) < 10 ** (-(precision + 1)):
             return f"{int(round(value))}"
         return f"{value:.{precision}f}"
@@ -162,7 +161,7 @@ def format_metric_value(summary: dict, metric: str, include_range: bool, decimal
     return value_label
 
 def create_publication_plot(data, metadata):
-    """Create main publication-quality figure with 6 subplots (A-F)"""
+    """Create main figure with 6 subplots (A-F)"""
     # Create figure with subplots (3 rows x 2 cols)
     fig, axes = plt.subplots(3, 2, figsize=(16, 18))
     fig.suptitle(f'Performance of LLMs for ProteomeXchange Dataset Screening Across Prompt Versions\n',
@@ -648,7 +647,7 @@ def main():
     
     plt.show()
     
-    print(f"\n📈 Publication-quality plots saved with timestamp {timestamp}:")
+    print(f"\n📈 Plots saved with timestamp {timestamp}:")
     print(f"1. ProteomeXchange_LLM_model_performance_{timestamp}.png/pdf - Main figure with 4 subplots")
     for version in cm_figs.keys():
         print(f"2. ProteomeXchange_LLM_confusion_matrices_{version}_{timestamp}.png - Confusion matrices for {version}")

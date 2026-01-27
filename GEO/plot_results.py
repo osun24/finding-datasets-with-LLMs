@@ -7,7 +7,6 @@ from matplotlib.patches import Rectangle
 from datetime import datetime
 import sys
 
-# Set publication-quality style
 plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("husl")
 
@@ -162,7 +161,7 @@ def format_metric_value(summary: dict, metric: str, include_range: bool, decimal
     return value_label
 
 def create_publication_plot(data, metadata):
-    """Create main publication-quality figure with 6 subplots (A-F)"""
+    """Create main figure with 6 subplots (A-F)"""
     # Create figure with subplots (3 rows x 2 cols)
     fig, axes = plt.subplots(3, 2, figsize=(16, 18))
     fig.suptitle(

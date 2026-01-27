@@ -77,22 +77,6 @@ def discover_file_paths() -> List[str]:
 
 file_paths = discover_file_paths()
 
-from pathlib import Path
-import shutil
-
-# Copy and move to a new folder for all files
-TARGET_DIR = Path("/Users/owensun/Downloads/code/llm paper one data")
-
-for src in file_paths:
-    src_path = Path(src)
-    if src_path.is_file():
-        dest = TARGET_DIR / src_path.name
-        shutil.copy2(src_path, dest)
-        print(f"Copied {src_path} -> {dest}")
-    else:
-        print(f"Skip missing: {src_path}")
-
-
 MODEL_ALIASES = sorted(
     [
         ("gpt-5-mini", "GPT-5-mini"),
