@@ -1,0 +1,5 @@
+# TITLE: DUSP1/MKP1 promotes angiogenesis, invasion and metastasis in non-small cell lung cancer
+# SUMMARY: DUSP1 is involved in different cellular pathways including cancer cell proliferation, angiogenesis, invasion and resistance to chemotherapy. To understand more about the cellular responses regulated by DUSP1 in NSCLC cells, we interfered DUSP1 expression in the NSCLC cell line H460 and studied the changes in gene expression differentially regulated by this phosphatase. Keywords: Expression profiling by array in cells with genetic modification
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Cell type
+-,GSM488171,H460v,human non small cell lung cancer H460 wt expressing an empty vector psuperretro,H460,non small cell lung cancer
+-,GSM488172,H460cri,human non small cell lung cancer H460 expressing DUSP1 siRNA,H460,non small cell lung cancer

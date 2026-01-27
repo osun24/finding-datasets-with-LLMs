@@ -1,0 +1,2 @@
+Title: BioID of PAX8 in human ovarian cancer cells
+Description: Investigation of interactors for the human transcription factor PAX8 using BioID-based proximity labeling, as described in Galli et al.

@@ -1,0 +1,7 @@
+# TITLE: NimbleGen Sequence Capture Array in A549 cells after 125I seed irradiation
+# SUMMARY: Purpose:To investigate the biological behavior on the invation, proliferation, and apoptosis, and the molecular mechanism of A549 cell which induced by 125I seed irradiation. Design:The first part cell Experiment: cultured A549 cell in vitro, then divided into 125I seeds group and control group. Using MTT, Transwell experiment, flow cytometric analysis the difference among cell proliferation, invasion, and apoptosis, after 125I seeds different treatment time on the A549 cell. Nimblegen human genome microarray detection to find out the genes expression changes between the two groups. Then screen out target gene, using protein chip technology and western-blot further verified target gene protein expression.
+GPL18451_Group,GPL18451_Accession,GPL18451_Title,GPL18451_Source name,GPL18451_Cell line,GPL18451_Protocol
+-,GSM4829709,A549 ir 72h rep1,A549 non-small cell lung cancer cells,A549,125I seeds for 72 hours
+-,GSM4829710,A549 ir 72h rep2,A549 non-small cell lung cancer cells,A549,125I seeds for 72 hours
+-,GSM4829711,A549 72h rep1,A549 non-small cell lung cancer cells,A549,cultured for 72 hours
+-,GSM4829712,A549 72h rep2,A549 non-small cell lung cancer cells,A549,cultured for 72 hours

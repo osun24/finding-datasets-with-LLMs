@@ -1,0 +1,4 @@
+# TITLE: Identification of differentially expressed genes through miR-7 overexpression in H1299 cells
+# SUMMARY: Transcription profiling comparing control H1299 with hsa-miR7-5p overexpressing H1299 cells
+GPL20844_Group,GPL20844_Accession,GPL20844_Title,GPL20844_Source name 1,GPL20844_Source name 2,GPL20844_Cell line (Ch1),GPL20844_Cell type (Ch1),GPL20844_Overexpression (Ch1),GPL20844_Cell line (Ch2),GPL20844_Cell type (Ch2),GPL20844_Overexpression (Ch2)
+-,GSM4816078,H1299_control vs. H1299_miR-7_overexpression,H1299 cells,hsa-miR7 overexpressing H1299 cells,H1299,Non-small cell lung cancer cell line,control,H1299,Non-small cell lung cancer cell line,hsa-miR7

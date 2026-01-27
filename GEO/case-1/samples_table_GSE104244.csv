@@ -1,0 +1,23 @@
+# TITLE: Bone Marrow Derived Macrophages, NSCLC cell lines, and Kras G12D Lung Tumors Treated with Epigenetic Agents
+# SUMMARY: Transcriptional profiling of Aza+ITF-2357 treated bone marrow derived macrophages vs. Mock treated bone marrow derived macrophages. Aim was to elucidate the effects of epigentic drug treatment on in vitro cultured macrophages and to compare these data to in vivo treated macrophage populations. Transcriptional profiling of NSCLC cell lines treated with epigenetic agents Transcriptional profiling of immune populations in the lung Kras G12D tumor micronevironment treated with combination epigenetic therapy Transcriptional profiling of lung Kras G12D tumors treated with combination epigenetic therapy
+GPL13497_Group,GPL13497_Accession,GPL13497_Title,GPL13497_Source name 1,GPL13497_Source name 2,GPL13497_Cell line (Ch1),GPL13497_Day (Ch1),GPL13497_Cell line (Ch2),GPL13497_Day (Ch2)
+-,GSM2876286,H460 Mock v. 100nM MS-275  rep1,Mock,MS-275,H460,8,H460,8
+-,GSM2876287,H460 Mock v. 100nM ITF-2357 rep1,Mock,ITF-2357,H460,8,H460,8
+-,GSM2876288,H460 Mock v. 500nM Azacitidine rep1,Mock,Azacitidine,H460,8,H460,8
+-,GSM2876289,H460 Mock v. 500nM Azacitidine + 100nM MS-275 rep1,Mock,Azacitidine+MS-275,H460,8,H460,8
+-,GSM2876290,H460 Mock v. 500nM Azacitidine + 100nM ITF-2357 rep1,Mock,Azacitidine+ITF-2357,H460,8,H460,8
+-,GSM2876291,H23 Mock v. 100nM MS-275 rep2,Mock,MS-275,H23,8,H23,8
+-,GSM2876292,H23 Mock v. 100nM ITF-2357 rep2,Mock,ITF-2357,H23,8,H23,8
+-,GSM2876293,H23 Mock v. 500nM Azacitidine rep2,Mock,Azacitidine,H23,8,H23,8
+-,GSM2876294,H23 Mock v. 500nM Azacitidine + 100nM MS-275 rep2,Mock,Azacitidine+MS-275,H23,8,H23,8
+-,GSM2876295,H23 Mock v. 500nM Azacitidine + 100nM ITF-2357 rep2,Mock,Azacitidine+ITF-2357,H23,8,H23,8
+-,GSM2876296,H1299 Mock v. 100nM MS-275 rep3,Mock,MS-275,H1299,8,H1299,8
+-,GSM2876297,H1299 Mock v. 100nM ITF-2357 rep3,Mock,ITF-2357,H1299,8,H1299,8
+-,GSM2876298,H1299 Mock v. 500nM Azacitidine rep3,Mock,Azacitidine,H1299,8,H1299,8
+-,GSM2876299,H1299 Mock v. 500nM Azacitidine + 100nM MS-275 rep3,Mock,Azacitidine+MS-275,H1299,8,H1299,8
+-,GSM2876300,H1299 Mock v. 500nM Azacitidine + 100nM ITF-2357 rep3,Mock,Azacitidine+ITF-2357,H1299,8,H1299,8
+-,GSM2876301,A549 Mock v. 100nM MS-275 rep4,Mock,MS-275,A549,8,A549,8
+-,GSM2876302,A549 Mock v. 100nM ITF-2357 rep4,Mock,ITF-2357,A549,8,A549,8
+-,GSM2876303,A549 Mock v. 500nM Azacitidine rep4,Mock,Azacitidine,A549,8,A549,8
+-,GSM2876304,A549 Mock v. 500nM Azacitidine + 100nM MS-275 rep4,Mock,Azacitidine+MS-275,A549,8,A549,8
+-,GSM2876305,A549 Mock v. 500nM Azacitidine + 100nM ITF-2357,Mock,Azacitidine+ITF-2357,A549,8,A549,8

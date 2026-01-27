@@ -1,0 +1,31 @@
+# TITLE: Expression data comparing azacitidine and decitabine in non-small cell lung cancer lines
+# SUMMARY: Azacitidine (AZA) and decitabine (DAC) are cytidine azanucleoside analogs with clinical activity in myelodysplastic syndromes (MDS) and potential activity in solid tumors. To better understand the mechanism of action of these drugs, we examined the effects of AZA and DAC in a panel of non-small cell lung cancer (NSCLC) cell lines. Of 5 NSCLC lines tested in a cell viability assay, all were sensitive to AZA (EC50 of 1.8–10.5 µM), while only H1299 cells were equally sensitive to DAC (EC50 of 5.1 µM). In the relatively DAC-insensitive cell line A549, both AZA and DAC caused DNA methyltransferase I depletion and DNA hypomethylation; however, only AZA significantly induced markers of DNA damage and apoptosis, suggesting that mechanisms in addition to, or other than, DNA hypomethylation are important for AZA-induced cell death. Cell cycle analysis indicated that AZA induced an accumulation of cells in sub-G1 phase, whereas DAC mainly caused an increase of cells in G2/M. Gene expression analysis of AZA- and DAC-treated cells revealed strikingly different profiles, with many genes distinctly regulated by each drug. In summary, while both AZA and DAC caused DNA hypomethylation, distinct effects were demonstrated on regulation of gene expression, cell cycle, DNA damage, and apoptosis.
+GPL571_Group,GPL571_Accession,GPL571_Title,GPL571_Source name,GPL571_Cell line,GPL571_Agent,GPL571_Dose
+-,GSM720475,A549 vehicle control (3206),A549 cells,A549,DMSO,control
+-,GSM720476,A549 vehicle control (3207),A549 cells,A549,DMSO,control
+-,GSM720477,A549 AZA 0.3uM (3210),A549 cells,A549,azacitidine,0.3uM
+-,GSM720478,A549 AZA 0.3uM (3211),A549 cells,A549,azacitidine,0.3uM
+-,GSM720479,A549 AZA 1 uM (3212),A549 cells,A549,azacitidine,1 uM
+-,GSM720480,A549 AZA 1 uM (3213),A549 cells,A549,azacitidine,1 uM
+-,GSM720481,A549 AZA 3 uM (3214),A549 cells,A549,azacitidine,3 uM
+-,GSM720482,A549 AZA 3 uM (3215),A549 cells,A549,azacitidine,3 uM
+-,GSM720483,A549 DAC 0.3 uM (3218),A549 cells,A549,decitabine,0.3 uM
+-,GSM720484,A549 DAC 0.3 uM (3219),A549 cells,A549,decitabine,0.3 uM
+-,GSM720485,A549 DAC 1 uM (3220),A549 cells,A549,decitabine,1 uM
+-,GSM720486,A549 DAC 1 uM (3221),A549 cells,A549,decitabine,1 uM
+-,GSM720487,A549 DAC 3 uM (3222),A549 cells,A549,decitabine,3 uM
+-,GSM720488,A549 DAC 3 uM (3223),A549 cells,A549,decitabine,3 uM
+-,GSM720489,H1299 vehicle control (3224),H1299 cells,H1299,DMSO,control
+-,GSM720490,H1299 vehicle control (3225),H1299 cells,H1299,DMSO,control
+-,GSM720491,H1299 AZA 0.3 uM (3228),H1299 cells,H1299,azacitidine,0.3 uM
+-,GSM720492,H1299 AZA 0.3 uM (3229),H1299 cells,H1299,azacitidine,0.3 uM
+-,GSM720493,H1299 AZA 1 uM (3230),H1299 cells,H1299,azacitidine,1 uM
+-,GSM720494,H1299 AZA 1 uM (3231),H1299 cells,H1299,azacitidine,1 uM
+-,GSM720495,H1299 AZA 3 uM (3232),H1299 cells,H1299,azacitidine,3 uM
+-,GSM720496,H1299 AZA 3 uM (3233),H1299 cells,H1299,azacitidine,3 uM
+-,GSM720497,H1299 DAC 0.3 uM (3236),H1299 cells,H1299,decitabine,0.3 uM
+-,GSM720498,H1299 DAC 0.3 uM (3237),H1299 cells,H1299,decitabine,0.3 uM
+-,GSM720499,H1299 DAC 1 uM (3238),H1299 cells,H1299,decitabine,1 uM
+-,GSM720500,H1299 DAC 1 uM (3239),H1299 cells,H1299,decitabine,1 uM
+-,GSM720501,H1299 DAC 3 uM (3240),H1299 cells,H1299,decitabine,3 uM
+-,GSM720502,H1299 DAC 3 uM (3241),H1299 cells,H1299,decitabine,3 uM

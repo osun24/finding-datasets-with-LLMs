@@ -1,0 +1,72 @@
+# TITLE: Expression profiling of lung cancer cell lines (UTSW Lung Panel V2)
+# SUMMARY: Epithelial/mesenchymal transition (EMT) is associated with loss of cell adhesion molecules, such as E-cadherin, and increased invasion, migration, and proliferation in epithelial cancers. In non-small cell lung cancer (NSCLC), EMT is associated with greater resistance to EGFR inhibitors. However, its potential to predict response to other targeted drugs or chemotherapy has not been well characterized. The goal of this study was to develop a robust, platform-independent EMT gene expression signature and to investigate the association of EMT and drug response in NSCLC. A 76-gene EMT signature was derived in 54 DNA-fingerprinted NSCLC cell lines and tested in an independent set of cell lines and in NSCLC patients from the BATTLE clinical trial. The signature classified cell lines as epithelial or mesenchymal independent of the microarray platform and correlated strongly with E-cadherin protein levels, as measured by reverse phase protein array. Higher protein expression of Rab25 (in epithelial lines) and Axl (in mesenchymal lines), two signature genes associated with in EMT in other cancer types, was also confirmed. Mesenchymal cell lines demonstrated significantly greater resistance to EGFR inhibition, independent of EGFR mutation status and were more resistant to drugs targeting the PI3K/Akt pathway. We observed no association between EMT and response to cytotoxic chemotherapies, including cisplatin, pemetrexed, and docetaxel monotherapy and/or doublets (p-values ?0.2). In NSCLC patients, the EMT signature predicted 8-week disease control in the erlotinib arm, but not in other treatment arms. In conclusion, we have developed a robust EMT signature that predicts resistance to EGFR inhibitors and PI3K/Akt pathway inhibitors.
+GPL13376_Group,GPL13376_Accession,GPL13376_Title,GPL13376_Source name,GPL13376_Cell line,GPL13376_Cell line name,GPL13376_Atcc alias,GPL13376_Histology,GPL13376_Age,GPL13376_Race,GPL13376_Gender
+-,GSM817062,A549,Lung cancer cell line,NSCLC cell line,A549,CCL-185,Adenocarcinoma,58,Caucasian,M
+-,GSM817063,Calu-1,Lung cancer cell line,NSCLC cell line,Calu-1,HTB-54,Muco-epidermoid carcinoma,47,Caucasian,M
+-,GSM817064,Calu-3,Lung cancer cell line,NSCLC cell line,Calu-3,HTB-55,Adenocarcinoma,25,Caucasian,M
+-,GSM817065,Calu-6,Lung cancer cell line,NSCLC cell line,Calu-6,HTB-56,Adenocarcinoma,61,Caucasian,F
+-,GSM817066,H23,Lung cancer cell line,NSCLC cell line,H23,CRL-5800,Adenocarcinoma,51,Black,M
+-,GSM817067,H125,Lung cancer cell line,NSCLC cell line,H125,,Adenosquamous,61,Black,M
+-,GSM817068,H157,Lung cancer cell line,NSCLC cell line,H157,,Squamous,59,Caucasian,M
+-,GSM817069,H290,Lung cancer cell line,NSCLC cell line,H290,,Mesothelioma,,,M
+-,GSM817070,H322,Lung cancer cell line,NSCLC cell line,H322,,Adenocarcinoma,52,Caucasian,M
+-,GSM817071,H324,Lung cancer cell line,NSCLC cell line,H324,,Adenocarcinoma,63,Black,M
+-,GSM817072,H358,Lung cancer cell line,NSCLC cell line,H358,CRL-5807,Adenocarcinoma,,Caucasian,M
+-,GSM817073,H441,Lung cancer cell line,NSCLC cell line,H441,HTB-174,Adenocarcinoma,33,,M
+-,GSM817074,H460,Lung cancer cell line,NSCLC cell line,H460,HTB-177,Large Cell,,,M
+-,GSM817075,H596,Lung cancer cell line,NSCLC cell line,H596,HTB-178,Adenosquamous,73,Caucasian,M
+-,GSM817076,H647,Lung cancer cell line,NSCLC cell line,H647,CRL-5834,Adenosquamous,56,Caucasian,M
+-,GSM817077,H661,Lung cancer cell line,NSCLC cell line,H661,HTB-183,Large Cell,43,Caucasian,M
+-,GSM817078,H820,Lung cancer cell line,NSCLC cell line,H820,HTB-181,Adenocarcinoma,53,Caucasian,M
+-,GSM817079,H1155,Lung cancer cell line,NSCLC cell line,H1155,CRL-5818,Large Cell Neuroendocrine,36,Caucasian,M
+-,GSM817080,H1299,Lung cancer cell line,NSCLC cell line,H1299,CRL-5803,Large Cell Neuroendocrine,43,Caucasian,M
+-,GSM817081,H1355,Lung cancer cell line,NSCLC cell line,H1355,CRL-5865,Adenocarcinoma,53,Caucasian,M
+-,GSM817082,H1373,Lung cancer cell line,NSCLC cell line,H1373,CRL-5866,Adenocarcinoma,56,Black,M
+-,GSM817083,H1395,Lung cancer cell line,NSCLC cell line,H1395,CRL-5868,Adenocarcinoma,55,Caucasian,F
+-,GSM817084,H1437,Lung cancer cell line,NSCLC cell line,H1437,CRL-5872,Adenocarcinoma,60,Caucasian,M
+-,GSM817085,H1648,Lung cancer cell line,NSCLC cell line,H1648,CRL-5882,Adenocarcinoma,39,Black,M
+-,GSM817086,H1650,Lung cancer cell line,NSCLC cell line,H1650,CRL-5883,Adenocarcinoma,27,Caucasian,M
+-,GSM817087,H1666,Lung cancer cell line,NSCLC cell line,H1666,CRL-5885,Adenocarcinoma,50,Caucasian,F
+-,GSM817088,H1693,Lung cancer cell line,NSCLC cell line,H1693,CRL-5887,Adenocarcinoma,55,Caucasian,F
+-,GSM817089,H1755,Lung cancer cell line,NSCLC cell line,H1755,CRL-5892,Adenocarcinoma,65,Caucasian,F
+-,GSM817091,H1781,Lung cancer cell line,NSCLC cell line,H1781,CRL-5894,Adenocarcinoma,66,Caucasian,F
+-,GSM817092,H1792,Lung cancer cell line,NSCLC cell line,H1792,CRL-5895,Adenocarcinoma,50,Caucasian,M
+-,GSM817093,H1819,Lung cancer cell line,NSCLC cell line,H1819,CRL-5897,Adenocarcinoma,55,Caucasian,F
+-,GSM817094,H1975,Lung cancer cell line,NSCLC cell line,H1975,CRL-5908,Adenocarcinoma,,,F
+-,GSM817095,H1993,Lung cancer cell line,NSCLC cell line,H1993,CRL-5909,Adenocarcinoma,47,Caucasian,F
+-,GSM817096,H2009,Lung cancer cell line,NSCLC cell line,H2009,CRL-5911,Adenocarcinoma,68,Caucasian,F
+-,GSM817097,H2030,Lung cancer cell line,NSCLC cell line,H2030,CRL-5914,Adenocarcinoma,,,M
+-,GSM817098,H2052,Lung cancer cell line,NSCLC cell line,H2052,CRL-5915,Mesothelioma,65,Caucasian,M
+-,GSM817099,H2077,Lung cancer cell line,NSCLC cell line,H2077,,Adenocarcinoma,58,Caucasian,M
+-,GSM817100,H2087,Lung cancer cell line,NSCLC cell line,H2087,CRL-5922,Adenocarcinoma,69,Caucasian,M
+-,GSM817101,H2106,Lung cancer cell line,NSCLC cell line,H2106,CRL-5923,Large Cell Neuroendocrine,57,Caucasian,M
+-,GSM817102,H2122,Lung cancer cell line,NSCLC cell line,H2122,CRL-5985,Adenocarcinoma,46,Caucasian,F
+-,GSM817103,H2126,Lung cancer cell line,NSCLC cell line,H2126,CCL-256,Adenocarcinoma,65,Caucasian,M
+-,GSM817104,H2347,Lung cancer cell line,NSCLC cell line,H2347,CRL-5942,Adenocarcinoma,54,Caucasian,F
+-,GSM817105,H2882,Lung cancer cell line,NSCLC cell line,H2882,,NSCLC,61,,F
+-,GSM817106,H2887,Lung cancer cell line,NSCLC cell line,H2887,,NSCLC,31,,M
+-,GSM817107,H3122,Lung cancer cell line,NSCLC cell line,H3122,,NSCLC,,,
+-,GSM817108,H3255,Lung cancer cell line,NSCLC cell line,H3255,,Adenocarcinoma,47,Caucasian,F
+-,GSM817109,HCC15,Lung cancer cell line,NSCLC cell line,HCC15,,Squamous,55,Black,M
+-,GSM817110,HCC44,Lung cancer cell line,NSCLC cell line,HCC44,,Adenocarcinoma,54,Caucasian,F
+-,GSM817111,HCC78,Lung cancer cell line,NSCLC cell line,HCC78,,Adenocarcinoma,55,Caucasian,M
+-,GSM817112,HCC95,Lung cancer cell line,NSCLC cell line,HCC95,,Squamous,65,Caucasian,M
+-,GSM817113,HCC364,Lung cancer cell line,NSCLC cell line,HCC364,,Adenocarcinoma,76,,M
+-,GSM817114,HCC366,Lung cancer cell line,NSCLC cell line,HCC366,,Adenosquamous,80,,F
+-,GSM817115,HCC461,Lung cancer cell line,NSCLC cell line,HCC461,,Adenocarcinoma,69,Caucasian,M
+-,GSM817116,HCC515,Lung cancer cell line,NSCLC cell line,HCC515,,Adenocarcinoma,39,Caucasian,F
+-,GSM817117,HCC827,Lung cancer cell line,NSCLC cell line,HCC827,CRL-2868,Adenocarcinoma (BAC features),38,Caucasian,F
+-,GSM817118,HCC1171,Lung cancer cell line,NSCLC cell line,HCC1171,,NSCLC (poorly diff),58,Caucasian,M
+-,GSM817119,HCC1195,Lung cancer cell line,NSCLC cell line,HCC1195,,Adenocarcinoma (mixed),47,Black,M
+-,GSM817120,HCC1359,Lung cancer cell line,NSCLC cell line,HCC1359,,Large Cell,55,Black,F
+-,GSM817121,HCC1833,Lung cancer cell line,NSCLC cell line,HCC1833,,Adenocarcinoma,69,Caucasian,F
+-,GSM817122,HCC2279,Lung cancer cell line,NSCLC cell line,HCC2279,,Adenocarcinoma,52,Asian,F
+-,GSM817123,HCC2429,Lung cancer cell line,NSCLC cell line,HCC2429,,NSCLC (poorly diff),,,F
+-,GSM817124,HCC2450,Lung cancer cell line,NSCLC cell line,HCC2450,,Squamous,52,Caucasian,M
+-,GSM817125,HCC2935,Lung cancer cell line,NSCLC cell line,HCC2935,CRL-2869,Adenocarcinoma,39,Caucasian,M
+-,GSM817126,HCC4006,Lung cancer cell line,NSCLC cell line,HCC4006,CRL-2871,Adenocarcinoma,,Caucasian,M
+-,GSM817127,HCC4011,Lung cancer cell line,NSCLC cell line,HCC4011,,Adenocarcinoma,53,Caucasian,M
+-,GSM817128,HCC4017,Lung cancer cell line,NSCLC cell line,HCC4017,,Large Cell,62,Caucasian,F
+-,GSM817129,HCC4018,Lung cancer cell line,NSCLC cell line,HCC4018,,Adenocarcinoma,75,Caucasian,F
+-,GSM817130,HBEC30-KT,Immortalized human bronchial epithelial cells,HBEC-KT cell line (normal lung cells immortalized with CDK4 and hTERT),HBEC30-KT,,Immortalized Normal,62,Caucasian,F
+-,GSM817131,HBEC34-KT,Immortalized human bronchial epithelial cells,HBEC-KT cell line (normal lung cells immortalized with CDK4 and hTERT),HBEC34-KT,,Immortalized Normal,75,,F

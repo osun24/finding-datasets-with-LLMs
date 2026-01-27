@@ -1,0 +1,50 @@
+# TITLE: Genetic programming and gene expression profiling for molecular discrimination and characterization of lung cancers
+# SUMMARY: Lung cancers are a heterogeneous group of diseases with respect to biology and clinical behavior. So far, diagnosis and classification are based on histological morphology and immunohistological methods for discrimination between two main histologic groups: small cell lung cancer (SCLC) and non-small cell lung cancer which account for 20% and 80% of lung carcinomas, respectively. While SCLCs express properties of neuroendocrine cells, NSCLCs, which are divided into the three major subtypes adenocarcinoma, squamous cell carcinoma and dedifferentiated large cell carcinoma, show different characteristics such as the expression of certain keratins or production of mucin and lack neuroedocrine differentiation. The molecular pathogenesis of lung cancer involves the accumulation of genetic und epigenetic alterations including the activation of proto-oncogenes and inactivation of tumor suppressor genes which are different for lung cancer subgroups. The development of microarray technologies opened up the possibility to quantify the expression of a large number of genes simultaneously in a given sample. There are several recent reports on expression profiling on lung cancers but the analysis interpretation of the results might be difficult because of the heterogeneity of cellular components. A contamination of the tumor sample with normal epithelia, blood vessels, stromal cells, leucocytes and tumor necrosis may confound the true expression profile of the tumor. The use of laser capture microdissection (LCM) greatly improves the sample preparation for microarray expression analysis. Consequently, we used advanced technology including LCM and microarray analysis. In detail, we examined gene expression profiles of tumor cells from 29 previously untreated patients with lung cancer (10 adenocarcinomas (AC), 10 squamous cell carcinomas (SCC), 9 small cell lung cancer (SCLC)) in comparison to normal lung tissue (LT) of 5 control patients without tumor. Bronchoscopical biopsies from the primary lung tumor were taken before treatment. Biopsies were cut into 8µm sections and from each section cancer cells were isolated using laser capture microdissection in order to obtain pure samples of tumor cells. Total RNA was extracted, reversely transcribed, in-vitro transcribed, labelled and hybridized to the array. For expression analysis, microarrays covering 8793 defined genes (Human HG Focus Array, Affymetrix) were used. Following quality control, array data were normalized and analysed for significant differences using variance stabilizing transformation (VSN) and significance analysis of microarrays (SAM), respectively. Based on differentially expressed genes cancer samples could be clearly separated from non cancer samples using hierarchical clustering. Comparing AC, SCC and SCLC with normal lung tissue, we found 205, 335 and 404 genes, respectively, that were at least 2-fold differentially expressed with an estimated false discovery rate < 2.6%. Each histological subtype showed a distinct expression profile. Further, using a genetic programming approach we constructed a classificator to discriminate AC, SCC, NT and SCLC. To this end, the 50 genes with the greatest signal-to-noise ratio were selected to train the classificator. By leave-one-out cross validation all 34 samples were correctly classified in this training set. In order to validate the 50-gene-classificator on a test set, further 13 microdissected lung cancer samples were used and correctly classified in concordance to pathologic finding. In conclusion, the different lung cancer subtypes have distinct molecular phenotypes which reflect biological characteristics of the tumor cells and which might be the basis for development of targeted therapy. Moreover, gene expression profiling and genetic programming is a suitable tool for classification and discrimination of different histological subtypes in lung cancer in comparison to normal lung tissue. Keywords: ordered
+GPL201_Group,GPL201_Accession,GPL201_Title,GPL201_Source name,GPL201_Age,GPL201_Gender,GPL201_Disease,GPL201_Received platinum-based therapy with progression
+-,GSM140166,Adenocarcinoma A1,Primary lung cancer samples,62,m,Adenocarcinoma,no
+-,GSM140167,Adenocarcinoma A2,Primary lung cancer samples,80,w,Adenocarcinoma,no
+-,GSM140168,Adenocarcinoma A3,Primary lung cancer samples,63,m,Adenocarcinoma,no
+-,GSM140169,Adenocarcinoma A4,Primary lung cancer samples,45,w,Adenocarcinoma,no
+-,GSM140170,Adenocarcinoma A5,Primary lung cancer samples,62,m,Adenocarcinoma,no
+-,GSM140171,Adenocarcinoma A6,Primary lung cancer samples,72,m,Adenocarcinoma,no
+-,GSM140172,Adenocarcinoma A7,Primary lung cancer samples,61,m,Adenocarcinoma,no
+-,GSM140173,Adenocarcinoma A8,Primary lung cancer samples,52,m,Adenocarcinoma,no
+-,GSM140174,Adenocarcinoma A9,Primary lung cancer samples,59,w,Adenocarcinoma,no
+-,GSM140175,Adenocarcinoma A10,Primary lung cancer samples,59,m,Adenocarcinoma,no
+-,GSM140176,Small Cell Lung Cancer K1,Primary lung cancer samples,74,m,Small Cell Lung Cancer,no
+-,GSM140177,Small Cell Lung Cancer K2,Primary lung cancer samples,74,m,Small Cell Lung Cancer,no
+-,GSM140178,Small Cell Lung Cancer K3,Primary lung cancer samples,66,w,Small Cell Lung Cancer,no
+-,GSM140179,Small Cell Lung Cancer K4,Primary lung cancer samples,39,w,Small Cell Lung Cancer,no
+-,GSM140180,Small Cell Lung Cancer K5,Primary lung cancer samples,80,w,Small Cell Lung Cancer,no
+-,GSM140181,Small Cell Lung Cancer K6,Primary lung cancer samples,64,w,Small Cell Lung Cancer,no
+-,GSM140182,Small Cell Lung Cancer K7,Primary lung cancer samples,61,m,Small Cell Lung Cancer,no
+-,GSM140183,Small Cell Lung Cancer K8,Primary lung cancer samples,69,m,Small Cell Lung Cancer,no
+-,GSM140184,Small Cell Lung Cancer K9,Primary lung cancer samples,54,w,Small Cell Lung Cancer,no
+-,GSM140185,Normal Lung Tissue N1,Lung samples,74,m,Normal Lung Tissue,no
+-,GSM140186,Normal Lung Tissue N2,Lung samples,72,m,Normal Lung Tissue,no
+-,GSM140187,Normal Lung Tissue N3,Lung samples,63,m,Normal Lung Tissue,no
+-,GSM140188,Normal Lung Tissue N4,Lung samples,64,w,Normal Lung Tissue,no
+-,GSM140189,Normal Lung Tissue N5,Lung samples,76,w,Normal Lung Tissue,no
+-,GSM140190,Squamous Cell Carcinoma P1,Primary lung cancer samples,79,m,Squamous Cell Carcinoma,no
+-,GSM140191,Squamous Cell Carcinoma P2,Primary lung cancer samples,75,m,Squamous Cell Carcinoma,no
+-,GSM140192,Squamous Cell Carcinoma P3,Primary lung cancer samples,57,m,Squamous Cell Carcinoma,no
+-,GSM140194,Squamous Cell Carcinoma P4,Primary lung cancer samples,73,m,Squamous Cell Carcinoma,no
+-,GSM140195,Squamous Cell Carcinoma P5,Primary lung cancer samples,56,m,Squamous Cell Carcinoma,no
+-,GSM140196,Squamous Cell Carcinoma P6,Primary lung cancer samples,69,m,Squamous Cell Carcinoma,no
+-,GSM140197,Squamous Cell Carcinoma P7,Primary lung cancer samples,45,m,Squamous Cell Carcinoma,no
+-,GSM140198,Squamous Cell Carcinoma P8,Primary lung cancer samples,73,w,Squamous Cell Carcinoma,no
+-,GSM140200,Squamous Cell Carcinoma P9,Primary lung cancer samples,75,m,Squamous Cell Cancer,no
+-,GSM140201,Squamous Cell Carcinoma P10,Primary lung cancer samples,59,m,Squamous Cell Carcinoma,no
+-,GSM140205,Primary lung cancer therapy T1,Primary lung cancer samples,77,m,,yes
+-,GSM140207,Adenocarcinoma therapy T2,Primary lung cancer samples,52,m,Adenocarcinoma,yes
+-,GSM140209,Adenocarcinoma therapy T3,Primary lung cancer samples,62,m,Adenocarcinoma,yes
+-,GSM140211,Primary lung cancer therapy T4,Primary lung cancer samples,66,m,,yes
+-,GSM140212,Adenocarcinoma therapy T5,Primary lung cancer samples,48,m,Adenocarcinoma,yes
+-,GSM140214,Adenocarcinoma therapy T6,Primary lung cancer samples,49,w,Adenocarcinoma,yes
+-,GSM140215,Adenocarcinoma therapy T7,Primary lung cancer samples,69,m,Adenocarcinoma,yes
+-,GSM140216,Adenocarcinoma therapy T8,Primary lung cancer samples,60,m,Adenocarcinoma,yes
+-,GSM140217,Squamous Cell Carcinoma therapy T9,Primary lung cancer samples,74,m,Squamous Cell Carcinoma,yes
+-,GSM140218,Squamous Cell Carcinoma therapy T10,Primary lung cancer samples,53,m,Squamous Cell Carcinoma,yes
+-,GSM140219,Squamous Cell Carcinoma therapy T11,Primary lung cancer samples,53,m,Squamous Cell Carcinoma,yes
+-,GSM140220,Squamous Cell Carcinoma therapy T12,Primary lung cancer samples,67,m,Squamous Cell Carcinoma,yes
+-,GSM140221,Squamous Cell Carcinoma therapy T13,Primary lung cancer samples,58,m,Squamous Cell Carcinoma,yes

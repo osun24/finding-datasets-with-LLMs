@@ -1,0 +1,2 @@
+Title: Quantitative proteomics of a human fetal ovary development timecourse
+Description: A quantitative proteomics approach was used to assess protein expression from a time course of human fetal ovarian tissue in comparison to reproductive-aged tissue.

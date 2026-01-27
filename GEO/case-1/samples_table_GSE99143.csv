@@ -1,0 +1,11 @@
+# TITLE: Plasma MicroRNA alterations between EGFR-activating mutational NSCLC patients with and without primary resistance to TKI
+# SUMMARY: The aim of the present study was to examine differentially expressed miRNAs in plasma between EGFR-TKIs sensitive and EGFR-TKIs primary resistance patients.
+GPL21439_Group,GPL21439_Accession,GPL21439_Title,GPL21439_Source name,GPL21439_Tissue,GPL21439_Diagnosis
+-,GSM2634094,plasma-mirna-1,patient with primary resistance to TKI,plasma,NSCLC
+-,GSM2634095,plasma-mirna-2,patient with primary resistance to TKI,plasma,NSCLC
+-,GSM2634096,plasma-mirna-3,patient with secondary resistance to TKI,plasma,NSCLC
+-,GSM2634097,plasma-mirna-4,patient with secondary resistance to TKI,plasma,NSCLC
+-,GSM2634098,plasma-mirna-5,patient with primary resistance to TKI,plasma,NSCLC
+-,GSM2634099,plasma-mirna-6,patient with secondary resistance to TKI,plasma,NSCLC
+-,GSM2634100,plasma-mirna-7,patient with primary resistance to TKI,plasma,NSCLC
+-,GSM2634101,plasma-mirna-8,patient with secondary resistance to TKI,plasma,NSCLC

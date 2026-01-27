@@ -1,0 +1,32 @@
+# TITLE: Multi-parametric profiling of non-small cell lung cancers reveals distinct immunophenotypes [Nanostring]
+# SUMMARY: Background: Immune checkpoint blockade improves survival in a subset of patients with non-small cell lung cancer (NSCLC), but robust biomarkers that predict response to PD-1 pathway inhibitors are lacking. Furthermore, our understanding of the diversity of the NSCLC tumor immune microenvironment remains limited. Methods: We performed comprehensive flow-cytometric immunoprofiling on both tumor and immune cells from 51 NSCLCs and integrated this analysis with clinical and histopathologic characteristics, next generation sequencing, mRNA expression, and PD-L1 immunohistochemistry (IHC). Results: Cytometric profiling identified an immunologically “hot” cluster with abundant CD8+ T cells expressing high levels of the PD-1 and TIM-3, and an immunologically “cold” cluster with lower relative abundance of CD8+ T cells and expression of inhibitory markers. The “hot” cluster was highly enriched for expression of genes associated with T cell trafficking and cytotoxic function, and high PD-L1 expression by IHC. There was no correlation between immunophenotype and KRAS or EGFR mutation, or patient smoking history, but we did observe an enrichment of squamous subtype and tumors with higher mutation burden in the “hot” cluster. Additionally, ~20% of cases had high B cell infiltrates with a subset producing IL-10. Conclusions: Our results support the use of immune-based metrics to study response and resistance to immunotherapy in lung cancer. Background: Immune checkpoint blockade improves survival in a subset of patients with non-small cell lung cancer (NSCLC), but robust biomarkers that predict response to PD-1 pathway inhibitors are lacking. Furthermore, our understanding of the diversity of the NSCLC tumor immune microenvironment remains limited. Methods: We performed comprehensive flow-cytometric immunoprofiling on both tumor and immune cells from 51 NSCLCs and integrated this analysis with clinical and histopathologic characteristics, next generation sequencing, mRNA expression, and PD-L1 immunohistochemistry (IHC). Results: Cytometric profiling identified an immunologically “hot” cluster with abundant CD8+ T cells expressing high levels of the PD-1 and TIM-3, and an immunologically “cold” cluster with lower relative abundance of CD8+ T cells and expression of inhibitory markers. The “hot” cluster was highly enriched for expression of genes associated with T cell trafficking and cytotoxic function, and high PD-L1 expression by IHC. There was no correlation between immunophenotype and KRAS or EGFR mutation, or patient smoking history, but we did observe an enrichment of squamous subtype and tumors with higher mutation burden in the “hot” cluster. Additionally, ~20% of cases had high B cell infiltrates with a subset producing IL-10. Conclusions: Our results support the use of immune-based metrics to study response and resistance to immunotherapy in lung cancer. 29 NSCLC cases analyzed wth Nanostring human PanCancer immune module
+GPL19965_Group,GPL19965_Accession,GPL19965_Title,GPL19965_Source name,GPL19965_Tissue,GPL19965_Histology,GPL19965_Gender,GPL19965_Stage
+-,GSM2251547,patient case 16,NSCLC,primary lung cancer,adenocarcinoma,M,IA
+-,GSM2251548,patient case 17,NSCLC,primary lung cancer,adenocarcinoma,F,IVA
+-,GSM2251549,patient case 18,NSCLC,primary lung cancer,adenocarcinoma,F,IVA
+-,GSM2251550,patient case 19,NSCLC,primary lung cancer,squamous,M,IIB
+-,GSM2251551,patient case 23,NSCLC,primary lung cancer,adenocarcinoma,F,IVB
+-,GSM2251552,patient case 24,NSCLC,primary lung cancer,adenocarcinoma,F,IIIB
+-,GSM2251553,patient case 25,NSCLC,primary lung cancer,squamous,F,IIIA
+-,GSM2251554,patient case 32,NSCLC,primary lung cancer,squamous,M,IIA
+-,GSM2251555,patient case 37,NSCLC,primary lung cancer,adenocarcinoma,M,IVB
+-,GSM2251556,patient case 52,NSCLC,primary lung cancer,adenocarcinoma,F,IA
+-,GSM2251557,patient case 53,NSCLC,primary lung cancer,adenocarcinoma,F,IIB
+-,GSM2251558,patient case 57,NSCLC,primary lung cancer,adenocarcinoma,M,IIB
+-,GSM2251559,patient case 65,NSCLC,primary lung cancer,adenocarcinoma,F,IA
+-,GSM2251560,patient case 77,NSCLC,primary lung cancer,adenocarcinoma,F,IIA
+-,GSM2251561,patient case 78,NSCLC,primary lung cancer,adenocarcinoma,M,IVB
+-,GSM2251562,patient case 85,NSCLC,primary lung cancer,adenocarcinoma,M,IB
+-,GSM2251563,patient case 86,NSCLC,primary lung cancer,adenocarcinoma,M,IIA
+-,GSM2251564,patient case 97,NSCLC,primary lung cancer,squamous,M,IA
+-,GSM2251565,patient case 100,NSCLC,primary lung cancer,adenocarcinoma,F,IB
+-,GSM2251566,patient case 101,NSCLC,primary lung cancer,adenocarcinoma,M,IIA
+-,GSM2251567,patient case 102,NSCLC,primary lung cancer,squamous,M,IIIA
+-,GSM2251568,patient case 145,NSCLC,primary lung cancer,adenocarcinoma,F,IA
+-,GSM2251569,patient case 148,NSCLC,primary lung cancer,squamous,M,IIIA
+-,GSM2251570,patient case 159,NSCLC,primary lung cancer,adenocarcinoma,F,IB
+-,GSM2251571,patient case 162,NSCLC,primary lung cancer,adenocarcinoma,F,IA
+-,GSM2251572,patient case 179,NSCLC,primary lung cancer,adenocarcinoma,F,IA
+-,GSM2251573,patient case 189,NSCLC,primary lung cancer,squamous,M,IIIA
+-,GSM2251574,patient case 190,NSCLC,primary lung cancer,adenocarcinoma,F,IIIA
+-,GSM2251575,patient case 195,NSCLC,primary lung cancer,adenocarcinoma,F,IIIA

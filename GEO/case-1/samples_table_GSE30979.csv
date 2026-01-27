@@ -1,0 +1,23 @@
+# TITLE: Gene expression in hypoxic non-small cell lung cancer
+# SUMMARY: Hypoxia triggers aggressive cancer growth and contributes to chemotherapy resistance. Novel therapeutic strategies aim at targeting hypoxia activated signaling pathways. Tumor hypoxia not only affects neoplastic tumor cells but also the surrounding stroma cells. Therefore, a novel ex vivo model was established, which allows the study of hypoxia effects in fragments of non-small cell lung cancer (NSCLC) with preserved tumor microenvironment and 3D-structure. Microarray analysis identified 107 significantly regulated genes with at least two-fold expression change in hypoxic compared to normoxic fragments. However, only four genes were significantly regulated in both subtypes, adenocarcinoma and squamous cell carcinoma. The hypoxic regulation of these four genes was verified in an independent set using quantitative PCR.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Tissue,GPL6244_Histology,GPL6244_Treatment
+-,GSM767776,Hypoxic NSCLC fragments patient #1010,Ex-vivo cultured tumor fragments from patient #1010,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Hypoxia
+-,GSM767777,Hypoxic NSCLC fragments patient #1209,Ex-vivo cultured tumor fragments from patient #1209,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma,Hypoxia
+-,GSM767778,Hypoxic NSCLC fragments patient #1210,Ex-vivo cultured tumor fragments from patient #1210,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Hypoxia
+-,GSM767779,Hypoxic NSCLC fragments patient #1309,Ex-vivo cultured tumor fragments from patient #1309,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma,Hypoxia
+-,GSM767780,Hypoxic NSCLC fragments patient #1310,Ex-vivo cultured tumor fragments from patient #1310,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma/large cell carcinoma,Hypoxia
+-,GSM767781,Hypoxic NSCLC fragments patient #1409,Ex-vivo cultured tumor fragments from patient #1409,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma,Hypoxia
+-,GSM767782,Hypoxic NSCLC fragments patient #1410,Ex-vivo cultured tumor fragments from patient #1410,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Hypoxia
+-,GSM767783,Hypoxic NSCLC fragments patient #2909,Ex-vivo cultured tumor fragments from patient #2909,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma,Hypoxia
+-,GSM767784,Hypoxic NSCLC fragments patient #3209,Ex-vivo cultured tumor fragments from patient #3209,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Hypoxia
+-,GSM767785,Hypoxic NSCLC fragments patient #3609,Ex-vivo cultured tumor fragments from patient #3609,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Hypoxia
+-,GSM767786,Normoxic NSCLC fragments patient #1010,Ex-vivo cultured tumor fragments from patient #1010,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Normoxia
+-,GSM767787,Normoxic NSCLC fragments patient #1209,Ex-vivo cultured tumor fragments from patient #1209,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma,Normoxia
+-,GSM767788,Normoxic NSCLC fragments patient #1210,Ex-vivo cultured tumor fragments from patient #1210,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Normoxia
+-,GSM767789,Normoxic NSCLC fragments patient #1309,Ex-vivo cultured tumor fragments from patient #1309,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma,Normoxia
+-,GSM767790,Normoxic NSCLC fragments patient #1310,Ex-vivo cultured tumor fragments from patient #1310,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma/large cell carcinoma,Normoxia
+-,GSM767791,Normoxic NSCLC fragments patient #1409,Ex-vivo cultured tumor fragments from patient #1409,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma,Normoxia
+-,GSM767792,Normoxic NSCLC fragments patient #1410,Ex-vivo cultured tumor fragments from patient #1410,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Normoxia
+-,GSM767793,Normoxic NSCLC fragments patient #2909,Ex-vivo cultured tumor fragments from patient #2909,Non-small cell lung cancer (NSCLC),Squamous cell carcinoma,Normoxia
+-,GSM767794,Normoxic NSCLC fragments patient #3209,Ex-vivo cultured tumor fragments from patient #3209,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Normoxia
+-,GSM767795,Normoxic NSCLC fragments patient #3609,Ex-vivo cultured tumor fragments from patient #3609,Non-small cell lung cancer (NSCLC),Adenocarcinoma,Normoxia

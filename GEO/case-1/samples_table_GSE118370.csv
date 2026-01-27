@@ -1,0 +1,15 @@
+# TITLE: Expression data from lung adenocarcinoma tissues and paired normal lung tissues
+# SUMMARY: Lung adenocarcinoma is the most common histologic subtype of non-small cell lung cancer. There exists a need to identify new molecular regulators for lung adenocarcinoma, providing insights into potential therapeutic targets. We used microarrays to identify up-regulated genes in invasive lung adenocarcinoma.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue
+-,GSM3325818,Invasive lung adenocarcinoma tissue of patient No.1,Invasive lung adenocarcinoma tissue,tumor tissue
+-,GSM3325819,paired normal lung tissue of of patient No.1,normal lung tissue,normal tissue
+-,GSM3325820,paired normal lung tissue of of patient No.2,normal lung tissue,normal tissue
+-,GSM3325821,Invasive lung adenocarcinoma tissue of patient No.2,Invasive lung adenocarcinoma tissue,tumor tissue
+-,GSM3325822,Invasive lung adenocarcinoma tissue of patient No.3,Invasive lung adenocarcinoma tissue,tumor tissue
+-,GSM3325823,paired normal lung tissue of of patient No.3,normal lung tissue,normal tissue
+-,GSM3325824,Invasive lung adenocarcinoma tissue of patient No.4,lung adenocarcinoma tissue,tumor tissue
+-,GSM3325825,paired normal lung tissue of of patient No.4,normal lung tissue,normal tissue
+-,GSM3325826,Invasive lung adenocarcinoma tissue of patient No.5,Invasive lung adenocarcinoma tissue,tumor tissue
+-,GSM3325827,paired normal lung tissue of of patient No.5,normal lung tissue,normal tissue
+-,GSM3325828,Invasive lung adenocarcinoma tissue of patient No.6,Invasive lung adenocarcinoma tissue,tumor tissue
+-,GSM3325829,paired normal lung tissue of of patient No.6,normal lung tissue,normal tissue

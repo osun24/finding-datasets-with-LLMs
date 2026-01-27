@@ -1,0 +1,24 @@
+# TITLE: Autophagy and alternative NF-kappaB inhibition by RNAi against RELB, ATG5 or ULK1 in A549 human cancer cells
+# SUMMARY: In order to understand the contribution of autophagy and alternative NF-kappaB signalling to transcriptional output in A549 lung cancer cells, RNAi was used to knockdown the expression of core autophagy genes (ATG5, ULK1) or the key subunit of alternative NF-kappaB RELB.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Treatment
+-,GSM1887817,A549_ctrl_NTC1_rep1,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA  siGENOME Non-Targeting siRNA #1, Dharmacon catalogue number # D-001210-01-50"
+-,GSM1887818,A549_ctrl_NTC2_rep1,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,siRNA  Qiagen control siRNA catalogue number # 1022076
+-,GSM1887819,A549_ATG5 kd_ATG5 si_rep1,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA siGenome duplex 004374-03, Dharmacon"
+-,GSM1887820,A549_ATG5 kd(2)_ATG5 si(2)_rep1,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,siRNA target GCAACTCTGGATGGGATTG
+-,GSM1887821,A549_ULK1 kd_ULK1 si_rep1,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_ULK1_5 Validated siRNA, Qiagen"
+-,GSM1887822,A549_RELB kd_RELB si_rep1,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_RELB_3 Predesigned siRNA, Qiagen"
+-,GSM1887823,A549_RELB kd(2)_RELB si(2)_rep1,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_RELB_4 Predesigned siRNA, Qiagen"
+-,GSM1887824,A549_ctrl_NTC1_rep2,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA  siGENOME Non-Targeting siRNA #1, Dharmacon catalogue number # D-001210-01-50"
+-,GSM1887825,A549_ctrl_NTC2_rep2,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,siRNA  Qiagen control siRNA catalogue number # 1022076
+-,GSM1887826,A549_ATG5 kd_ATG5 si_rep2,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA siGenome duplex 004374-03, Dharmacon"
+-,GSM1887827,A549_ATG5 kd(2)_ATG5 si(2)_rep2,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,siRNA target GCAACTCTGGATGGGATTG
+-,GSM1887828,A549_ULK1 kd_ULK1 si_rep2,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_ULK1_5 Validated siRNA, Qiagen"
+-,GSM1887829,A549_RELB kd_RELB si_rep2,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_RELB_3 Predesigned siRNA, Qiagen"
+-,GSM1887830,A549_RELB kd(2)_RELB si(2)_rep2,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_RELB_4 Predesigned siRNA, Qiagen"
+-,GSM1887831,A549_ctrl_NTC1_rep3,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA  siGENOME Non-Targeting siRNA #1, Dharmacon catalogue number # D-001210-01-50"
+-,GSM1887832,A549_ctrl_NTC2_rep3,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,siRNA  Qiagen control siRNA catalogue number # 1022076
+-,GSM1887833,A549_ATG5 kd_ATG5 si_rep3,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA siGenome duplex 004374-03, Dharmacon"
+-,GSM1887834,A549_ATG5 kd(2)_ATG5 si(2)_rep3,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,siRNA target GCAACTCTGGATGGGATTG
+-,GSM1887835,A549_ULK1 kd_ULK1 si_rep3,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_ULK1_5 Validated siRNA, Qiagen"
+-,GSM1887836,A549_RELB kd_RELB si_rep3,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_RELB_3 Predesigned siRNA, Qiagen"
+-,GSM1887837,A549_RELB kd(2)_RELB si(2)_rep3,"A549 non-small cell lung cancer cell line, siRNA transfected 72 h",A549,"siRNA Hs_RELB_4 Predesigned siRNA, Qiagen"

@@ -1,0 +1,10 @@
+# TITLE: Expression data from lung cancer cells subjected to chronic cyclic strain
+# SUMMARY: Human lung cancer cell line A549 and H322m were subjected to cyclic strain (the frequency set in 15%, 0.5HZ) on 0h, 4h and 24h. We compared invasion assay, migration assay, colony formation and microarray assay in stretching and non-stretching groups.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Tissue,GPL16686_Cell type,GPL16686_Strain condition
+-,GSM3629973,normal_BEAS-2B_strained_0h,BEAS-2B cells were subjected to cyclic strain for 0 h,lung,normal epithelial cells,"15% surface distension, 0.5Hz"
+-,GSM3629974,lung cancer_A549_strained_0hr,A549 cells were subjected to cyclic strain for 0 h,lung,carcinoma,"15% surface distension, 0.5Hz"
+-,GSM3629975,lung cancer_A549_strained_4hr,A549 cells were subjected to cyclic strain for 4 h,lung,carcinoma,"15% surface distension, 0.5Hz"
+-,GSM3629976,lung cancer_A549_strained_24hr,A549 cells were subjected to cyclic strain for 24 h,lung,carcinoma,"15% surface distension, 0.5Hz"
+-,GSM3629977,lung cancer_H322m_strained_0hr,H322m cells were subjected to cyclic strain for 0 h,lung,non-small cell lung cancer,"15% surface distension, 0.5Hz"
+-,GSM3629978,lung cancer_H322m_strained_4hr,H322m cells were subjected to cyclic strain for 4 h,lung,non-small cell lung cancer,"15% surface distension, 0.5Hz"
+-,GSM3629979,lung cancer_H322m_strained_24hr,H322m cells were subjected to cyclic strain for 24 h,lung,non-small cell lung cancer,"15% surface distension, 0.5Hz"

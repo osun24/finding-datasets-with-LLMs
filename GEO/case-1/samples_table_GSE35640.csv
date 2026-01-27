@@ -1,0 +1,68 @@
+# TITLE: Identification of a predictive gene signature to recMAGE A3 antigen-specific cancer immunotherapy in metastatic melanoma and non-small-cell lung cancer
+# SUMMARY: Purpose: To evaluate the presence of a gene expression signature present before treatment as predictive of response to treatment with MAGE‑A3 immunotherapeutic in metastatic melanoma patients and to validate its predictivity in adjuvant therapy of early-stage lung cancer.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Treatment response for gene profiling,GPL570_Response,GPL570_Tissue
+-,GSM872328,Melanoma tumor sample from patient 1,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872329,Melanoma tumor sample from patient 2,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872330,Melanoma tumor sample from patient 3,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872331,Melanoma tumor sample from patient 4,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872332,Melanoma tumor sample from patient 5,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872333,Melanoma tumor sample from patient 6,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872334,Melanoma tumor sample from patient 7,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872335,Melanoma tumor sample from patient 8,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872336,Melanoma tumor sample from patient 9,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872337,Melanoma tumor sample from patient 10,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872338,Melanoma tumor sample from patient 11,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872339,Melanoma tumor sample from patient 12,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872340,Melanoma tumor sample from patient 13,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872341,Melanoma tumor sample from patient 14,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872342,Melanoma tumor sample from patient 15,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872343,Melanoma tumor sample from patient 16,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872344,Melanoma tumor sample from patient 17,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872345,Melanoma tumor sample from patient 18,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872346,Melanoma tumor sample from patient 19,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872347,Melanoma tumor sample from patient 20,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872348,Melanoma tumor sample from patient 21,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872349,Melanoma tumor sample from patient 22,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872350,Melanoma tumor sample from patient 23,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872351,Melanoma tumor sample from patient 24,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872352,Melanoma tumor sample from patient 25,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872353,Melanoma tumor sample from patient 26,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872354,Melanoma tumor sample from patient 27,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872355,Melanoma tumor sample from patient 28,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872356,Melanoma tumor sample from patient 29,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872357,Melanoma tumor sample from patient 30,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872358,Melanoma tumor sample from patient 31,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872359,Melanoma tumor sample from patient 32,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872360,Melanoma tumor sample from patient 33,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872361,Melanoma tumor sample from patient 34,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872362,Melanoma tumor sample from patient 35,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872363,Melanoma tumor sample from patient 36,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872364,Melanoma tumor sample from patient 37,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872365,Melanoma tumor sample from patient 38,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872366,Melanoma tumor sample from patient 39,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872367,Melanoma tumor sample from patient 40,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872368,Melanoma tumor sample from patient 41,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872369,Melanoma tumor sample from patient 42,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872370,Melanoma tumor sample from patient 43,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872371,Melanoma tumor sample from patient 44,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872372,Melanoma tumor sample from patient 45,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872373,Melanoma tumor sample from patient 46,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872374,Melanoma tumor sample from patient 47,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872375,Melanoma tumor sample from patient 48,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872376,Melanoma tumor sample from patient 49,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872377,Melanoma tumor sample from patient 50,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872378,Melanoma tumor sample from patient 51,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872379,Melanoma tumor sample from patient 52,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872380,Melanoma tumor sample from patient 53,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872381,Melanoma tumor sample from patient 54,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872382,Melanoma tumor sample from patient 55,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,R,responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872383,Melanoma tumor sample from patient 56,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NR,non-responder,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872384,Melanoma tumor sample from patient 57,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872385,Melanoma tumor sample from patient 58,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872386,Melanoma tumor sample from patient 59,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872387,Melanoma tumor sample from patient 60,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872388,Melanoma tumor sample from patient 61,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872389,Melanoma tumor sample from patient 62,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872390,Melanoma tumor sample from patient 63,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872391,Melanoma tumor sample from patient 64,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy
+-,GSM872392,Melanoma tumor sample from patient 65,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy,NE,not evaluable,Melanoma tumor biopsy prior to MAGE-A3 immunotherapy

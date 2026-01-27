@@ -1,0 +1,79 @@
+# TITLE: Exon expression for NCI small cell lung cancer cell line panel
+# SUMMARY: Characterization of 63 small cell lung cancer (SCLC) cell lines and a comparator set of non-small cell lung cancer and normal counterpart cells, including drug sensitivity testing, gene expression profiling and microRNA expression profiling have been completed. Data and tools for searching these data will be made publicly available through the NCI Developmental Therapeutics Program at http://SCLC.cancer.gov. SCLC is an aggressive, recalcitrant cancer and have seen limited treatment advances in the last 30 years. Drug sensitivity data coupled with the transcription and microRNA profiles of a cohort of SCLC cell lines may help define novel treatment paradigms.
+GPL11028_Group,GPL11028_Accession,GPL11028_Title,GPL11028_Source name,GPL11028_Cell type
+-,GSM1887886,HuEx_1_NARna,human cell line,Normal adrenal RNA
+-,GSM1887887,HuEx_10_NCI-H146,human cell line,SCLC
+-,GSM1887888,HuEx_11_NCI-H187,human cell line,SCLC
+-,GSM1887889,HuEx_12_NCI-H196,human cell line,SCLC
+-,GSM1887890,HuEx_13_NCI-H211,human cell line,SCLC
+-,GSM1887891,HuEx_14_NCI-H378,human cell line,SCLC
+-,GSM1887892,HuEx_15_NCI-H446,human cell line,SCLC
+-,GSM1887893,HuEx_16_NCI-H524,human cell line,SCLC
+-,GSM1887894,HuEx_17_NCI-H526,human cell line,SCLC
+-,GSM1887895,HuEx_19_NCI-H865,human cell line,SCLC
+-,GSM1887896,HuEx_2_NLRna1,human cell line,Normal lung RNA
+-,GSM1887897,HuEx_20_NCI-H889,human cell line,SCLC
+-,GSM1887898,HuEx_21_NCI-H1688,human cell line,SCLC
+-,GSM1887899,HuEx_22_NCI-H1963,human cell line,SCLC
+-,GSM1887900,HuEx_23_NCI-H1930,human cell line,SCLC
+-,GSM1887901,HuEx_24_NCI-H2171,human cell line,SCLC
+-,GSM1887902,HuEx_25_DMS 114,human cell line,SCLC
+-,GSM1887903,HuEx_26_DMS 187,human cell line,SCLC
+-,GSM1887904,HuEx_27_DMS 273,human cell line,SCLC
+-,GSM1887905,HuEx_29_NCI-H209,human cell line,SCLC
+-,GSM1887906,HuEx_3_NLRna2,human cell line,Normal lung RNA
+-,GSM1887907,HuEx_30_NCI-H249,human cell line,SCLC
+-,GSM1887908,HuEx_31_NCI-H250,human cell line,SCLC
+-,GSM1887909,HuEx_32_NCI-H345,human cell line,SCLC
+-,GSM1887910,HuEx_33_NCI-H510,human cell line,SCLC
+-,GSM1887911,HuEx_34_NCI-H660,human cell line,SCLC
+-,GSM1887912,HuEx_35_NCI-H720,human cell line,SCLC
+-,GSM1887913,HuEx_36_SHP-77,human cell line,SCLC
+-,GSM1887914,HuEx_37_NCI-H1105,human cell line,SCLC
+-,GSM1887915,HuEx_38_NCI-H2107,human cell line,SCLC
+-,GSM1887916,HuEx_39_NCI-H220,human cell line,SCLC
+-,GSM1887917,HuEx_4_MRC-9,human cell line,Fibroblast
+-,GSM1887918,HuEx_40_NCI-H1522,human cell line,SCLC
+-,GSM1887919,HuEx_41_NCI-H719,human cell line,SCLC
+-,GSM1887920,HuEx_42_NCI-H748,human cell line,SCLC
+-,GSM1887921,HuEx_43_NCI-H774,human cell line,SCLC
+-,GSM1887922,HuEx_44_NCI-H841,human cell line,SCLC
+-,GSM1887923,HuEx_45_LXFS 605L,human cell line,SCLC
+-,GSM1887924,HuEx_46_COR L88,human cell line,SCLC
+-,GSM1887925,HuEx_47_LXFS 650L,human cell line,SCLC
+-,GSM1887926,HuEx_48_NCI-H711,human cell line,SCLC
+-,GSM1887927,HuEx_49_NCI-H1048,human cell line,SCLC
+-,GSM1887928,HuEx_5_WI-38,human cell line,Fibroblast
+-,GSM1887929,HuEx_50_NCI-H1092,human cell line,SCLC
+-,GSM1887930,HuEx_51_NCI-H1417,human cell line,SCLC
+-,GSM1887931,HuEx_52_NCI-H1436,human cell line,SCLC
+-,GSM1887932,HuEx_53_NCI-H1618,human cell line,SCLC
+-,GSM1887933,HuEx_54_NCI-H1836,human cell line,SCLC
+-,GSM1887934,HuEx_55_NCI-H1876,human cell line,SCLC
+-,GSM1887935,HuEx_56_NCI-H2081,human cell line,SCLC
+-,GSM1887936,HuEx_57_NCI-H2330,human cell line,SCLC
+-,GSM1887937,HuEx_58_A549/ATCC,human cell line,NSCLC
+-,GSM1887938,HuEx_59_NCI-H735,human cell line,SCLC
+-,GSM1887939,HuEx_6_NCI-H28,human cell line,Mesothelioma
+-,GSM1887940,HuEx_60_NCI-H847,human cell line,SCLC
+-,GSM1887941,HuEx_61_NCI-H1341,human cell line,SCLC
+-,GSM1887942,HuEx_62_NCI-H1650,human cell line,NSCLC
+-,GSM1887943,HuEx_63_NCI-H1672,human cell line,SCLC
+-,GSM1887944,HuEx_64_NCI-H1694,human cell line,SCLC
+-,GSM1887945,HuEx_65_NCI-H1882,human cell line,SCLC
+-,GSM1887946,HuEx_66_NCI-H2066,human cell line,NSCLC
+-,GSM1887947,HuEx_67_NCI-H2141,human cell line,SCLC
+-,GSM1887948,HuEx_68_NCI-H69/CPR,human cell line,Made resistant
+-,GSM1887949,HuEx_69_NCI-H69/LX10,human cell line,Made resistant
+-,GSM1887950,HuEx_7_NCI-H69,human cell line,SCLC
+-,GSM1887951,HuEx_70_NCI-H69VCR/R,human cell line,Made resistant
+-,GSM1887952,HuEx_71_COLO 668,human cell line,SCLC
+-,GSM1887953,HuEx_72_COR-L32,human cell line,SCLC
+-,GSM1887954,HuEx_73_COR-L47,human cell line,SCLC
+-,GSM1887955,HuEx_74_DMS 53,human cell line,SCLC
+-,GSM1887956,HuEx_75_DMS 79,human cell line,SCLC
+-,GSM1887957,HuEx_76_NCI-H2029,human cell line,SCLC
+-,GSM1887958,HuEx_77_NCI-H2198,human cell line,SCLC
+-,GSM1887959,HuEx_78_SW 1271,human cell line,SCLC
+-,GSM1887960,HuEx_8_NCI-H82,human cell line,SCLC
+-,GSM1887961,HuEx_9_NCI-H128,human cell line,SCLC

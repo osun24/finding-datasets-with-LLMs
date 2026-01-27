@@ -1,0 +1,7 @@
+# TITLE: Effect of Mycoplasma hyorhinis infection on H292 lung adenocarcinoma cells
+# SUMMARY: Analysis of H292 cells infected with Mycoplasma hyorhinis. Mycoplasma infection reduces the cytotoxic effect of Nutlin3 on H292 cells. The results provide insight into molecular mechanisms underlying the response of H292 cells to Nutlin3.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Cell type,GPL10558_Infection
+-,GSM2037248,H292_1_control,"H292 lung adenocarcinoma cell line, uninfected",H292,non-small cell lung cancer cell line,none
+-,GSM2037249,H292_2_control,"H292 lung adenocarcinoma cell line, uninfected",H292,non-small cell lung cancer cell line,none
+-,GSM2037250,H292_1_mycoplasma,"H292 lung adenocarcinoma cell line, Mycoplasma infected",H292,non-small cell lung cancer cell line,Mycoplasma hyorhinis
+-,GSM2037251,H292_2_mycoplasma,"H292 lung adenocarcinoma cell line, Mycoplasma infected",H292,non-small cell lung cancer cell line,Mycoplasma hyorhinis

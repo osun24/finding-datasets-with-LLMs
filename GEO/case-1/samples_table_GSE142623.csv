@@ -1,0 +1,9 @@
+# TITLE: Microarray analysis of lung cancer cell lines
+# SUMMARY: We performed microarray analysis using PC-9, HCC827 and NCI-H322 with/without erlotinib or EGF to investigate of relationship between EGFR-signal and other molecule expression.
+GPL23159_Group,GPL23159_Accession,GPL23159_Title,GPL23159_Source name,GPL23159_Genotype,GPL23159_Cell line,GPL23159_Treatment
+-,GSM4233069,PC-9 with control,non-small cell lung cancer,EGFR mutant,PC-9,control
+-,GSM4233070,PC-9 with erlotinib,non-small cell lung cancer,EGFR mutant,PC-9,erlotinib
+-,GSM4233071,HCC827 with control,non-small cell lung cancer,EGFR mutant,HCC827,control
+-,GSM4233072,HCC827 with erlotinib,non-small cell lung cancer,EGFR mutant,HCC827,erlotinib
+-,GSM4233073,H322 with control,non-small cell lung cancer,wild-type,H322,control
+-,GSM4233074,H322 with EGF,non-small cell lung cancer,wild-type,H322,EGF

@@ -1,0 +1,159 @@
+# TITLE: Expression data for early stage NSCLC
+# SUMMARY: We identified a tumor signature of 5 genes that aggregates the 156 tumor and normal samples into the expected groups. We also identified a histology signature of 75 genes, which classifies the samples in the major histological subtypes of NSCLC. A prognostic signature of 17 genes showed the best association with post-surgery survival time. The performance of the signatures was validated using a patient cohort of similar size
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue type,GPL570_Cell type,GPL570_Overall survival,GPL570_Status,GPL570_Gender
+-,GSM475656,NSCLC EMC TB0069tu,frozen tissue,tumor,LCC,12.5,deceased,M
+-,GSM475657,NSCLC EMC 2333N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475658,NSCLC EMC 2335N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475659,NSCLC EMC 2344T,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475660,NSCLC EMC 2381N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475661,NSCLC EMC 2382T,frozen tissue,tumor,LCC,Not available,Not available,Not available
+-,GSM475662,NSCLC EMC 2384T,frozen tissue,tumor,ADC,Not available,Not available,Not available
+-,GSM475663,NSCLC EMC 2387N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475664,NSCLC EMC 2388T,frozen tissue,tumor,SCC,Not available,Not available,Not available
+-,GSM475665,NSCLC EMC 2393N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475666,NSCLC EMC 2394T,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475667,NSCLC EMC 2405N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475668,NSCLC EMC 2406T,frozen tissue,tumor,SCC,Not available,Not available,Not available
+-,GSM475669,NSCLC EMC 2407N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475670,NSCLC EMC 2408T,frozen tissue,tumor,ADC,Not available,Not available,Not available
+-,GSM475671,NSCLC EMC 2409N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475672,NSCLC EMC 2410T,frozen tissue,tumor,ADC,Not available,Not available,Not available
+-,GSM475673,NSCLC EMC 2411N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475674,NSCLC EMC 2412T,frozen tissue,tumor,SCC,Not available,Not available,Not available
+-,GSM475675,NSCLC EMC 2419N,frozen tissue,healthy,healthy,Not available,Not available,Not available
+-,GSM475676,NSCLC EMC 2420T,frozen tissue,tumor,ADC,Not available,Not available,Not available
+-,GSM475677,NSCLC EMC 2439T,frozen tissue,tumor,ADC,Not available,Not available,Not available
+-,GSM475678,NSCLC EMC ADC2231N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475679,NSCLC EMC ADC2243T,frozen tissue,tumor,ADC,127,alive,F
+-,GSM475680,NSCLC EMC ADC2245N,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475681,NSCLC EMC ADC2246T,frozen tissue,tumor,ADC,12.57,deceased,F
+-,GSM475682,NSCLC EMC ADC2247N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475683,NSCLC EMC ADC2248T,frozen tissue,tumor,ADC,0.67,deceased,M
+-,GSM475684,NSCLC EMC ADC2255N,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475685,NSCLC EMC ADC2256T,frozen tissue,tumor,ADC,98.93,alive,F
+-,GSM475686,NSCLC EMC ADC2257N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475687,NSCLC EMC ADC2260T,frozen tissue,tumor,ADC,87.7,deceased,F
+-,GSM475688,NSCLC EMC ADC2263N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475689,NSCLC EMC ADC2264T,frozen tissue,tumor,ADC,10.33,deceased,M
+-,GSM475690,NSCLC EMC ADC2269N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475691,NSCLC EMC ADC2270T,frozen tissue,tumor,ADC,4.87,deceased,M
+-,GSM475692,NSCLC EMC ADC2272T,frozen tissue,tumor,ADC,20.37,deceased,M
+-,GSM475693,NSCLC EMC ADC2277N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475694,NSCLC EMC ADC2278T,frozen tissue,tumor,SCC,37.63,deceased,M
+-,GSM475695,NSCLC EMC ADC2293N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475696,NSCLC EMC ADC2294T,frozen tissue,tumor,ADC,66.47,deceased,M
+-,GSM475697,NSCLC EMC ADC2295N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475698,NSCLC EMC ADC2296T,frozen tissue,tumor,ADC,110.8,alive,M
+-,GSM475699,NSCLC EMC ADC2307N,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475700,NSCLC EMC ADC2308T,frozen tissue,tumor,ADC,22.57,deceased,F
+-,GSM475701,NSCLC EMC ADC2310T,frozen tissue,tumor,ADC,103.7,alive,F
+-,GSM475702,NSCLC EMC ADC2315N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475703,NSCLC EMC ADC2316T,frozen tissue,tumor,ADC,124.83,alive,M
+-,GSM475704,NSCLC EMC ADC2320N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475705,NSCLC EMC ADC2325N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475706,NSCLC EMC ADC2326T,frozen tissue,tumor,ADC,21.3,deceased,M
+-,GSM475707,NSCLC EMC ADC2330N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475708,NSCLC EMC ADC2340T,frozen tissue,tumor,ADC,0.87,deceased,M
+-,GSM475709,NSCLC EMC ADC2347T,frozen tissue,tumor,ADC,8.27,deceased,M
+-,GSM475710,NSCLC EMC ADC2348T,frozen tissue,tumor,ADC,116.83,alive,M
+-,GSM475711,NSCLC EMC LCC2217N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475712,NSCLC EMC LCC2218T,frozen tissue,tumor,ADC,17.3,deceased,M
+-,GSM475713,NSCLC EMC LCC2228T,frozen tissue,tumor,SCC,127.17,alive,F
+-,GSM475714,NSCLC EMC LCC2233N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475715,NSCLC EMC LCC2234T,frozen tissue,tumor,ADC,79.87,deceased,M
+-,GSM475716,NSCLC EMC LCC2249N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475717,NSCLC EMC LCC2250T,frozen tissue,tumor,LCC,79.27,deceased,M
+-,GSM475718,NSCLC EMC LCC2281N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475719,NSCLC EMC LCC2282T,frozen tissue,tumor,SCC,10.03,deceased,M
+-,GSM475720,NSCLC EMC LCC2286T,frozen tissue,tumor,LCC,5.5,deceased,M
+-,GSM475721,NSCLC EMC LCC2303N,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475722,NSCLC EMC LCC2304T,frozen tissue,tumor,LCC,17.67,deceased,F
+-,GSM475723,NSCLC EMC LCC2311N,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475724,NSCLC EMC LCC2312T,frozen tissue,tumor,LCC,51.9,alive,F
+-,GSM475725,NSCLC EMC LCC2327N,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475726,NSCLC EMC LCC2334N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475727,NSCLC EMC LCC2349T,frozen tissue,tumor,LCC,56.5,deceased,M
+-,GSM475728,NSCLC EMC SCC2208T,frozen tissue,tumor,SCC,15.07,deceased,M
+-,GSM475729,NSCLC EMC SCC2213N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475730,NSCLC EMC SCC2214T,frozen tissue,tumor,SCC,2.43,deceased,M
+-,GSM475731,NSCLC EMC SCC2222T,frozen tissue,tumor,SCC,86.27,deceased,M
+-,GSM475732,NSCLC EMC SCC2235N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475733,NSCLC EMC SCC2236T,frozen tissue,tumor,SCC,51.23,alive,M
+-,GSM475734,NSCLC EMC SCC2239N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475735,NSCLC EMC SCC2252T,frozen tissue,tumor,SCC,27.17,deceased,F
+-,GSM475736,NSCLC EMC SCC2261N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475737,NSCLC EMC SCC2262T,frozen tissue,tumor,LCC,6.77,deceased,M
+-,GSM475738,NSCLC EMC SCC2265N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475739,NSCLC EMC SCC2266T,frozen tissue,tumor,LCC,2.67,alive,M
+-,GSM475740,NSCLC EMC SCC2267N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475741,NSCLC EMC SCC2268T,frozen tissue,tumor,LCC,47.23,alive,M
+-,GSM475742,NSCLC EMC SCC2273N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475743,NSCLC EMC SCC2279N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475744,NSCLC EMC SCC2280T,frozen tissue,tumor,SCC,32.77,alive,M
+-,GSM475745,NSCLC EMC SCC2283N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475746,NSCLC EMC SCC2287N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475747,NSCLC EMC SCC2288T,frozen tissue,tumor,ADC,16.7,deceased,M
+-,GSM475748,NSCLC EMC SCC2298T,frozen tissue,tumor,SCC,110,alive,M
+-,GSM475749,NSCLC EMC SCC2299N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475750,NSCLC EMC SCC2301N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475751,NSCLC EMC SCC2302T,frozen tissue,tumor,SCC,0.07,deceased,M
+-,GSM475752,NSCLC EMC SCC2305N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475753,NSCLC EMC SCC2306T,frozen tissue,tumor,SCC,108.3,alive,M
+-,GSM475754,NSCLC EMC SCC2313N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475755,NSCLC EMC SCC2317N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475756,NSCLC EMC SCC2318T,frozen tissue,tumor,SCC,31.47,deceased,M
+-,GSM475757,NSCLC EMC SCC2321N,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475758,NSCLC EMC SCC2341T,frozen tissue,tumor,SCC,11.43,deceased,M
+-,GSM475759,NSCLC EMC SCC2358T,frozen tissue,tumor,SCC,55.07,alive,M
+-,GSM475760,NSCLC EMC TB0003tu,frozen tissue,tumor,SCC,63.03,deceased,M
+-,GSM475761,NSCLC EMC TB0006tu,frozen tissue,tumor,ADC,24.17,deceased,F
+-,GSM475762,NSCLC EMC TB0007tu,frozen tissue,tumor,SCC,32.07,deceased,M
+-,GSM475763,NSCLC EMC TB0008tu,frozen tissue,tumor,SCC,3.17,deceased,M
+-,GSM475764,NSCLC EMC TB0009he,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475765,NSCLC EMC TB0009tu,frozen tissue,tumor,ADC,46.7,deceased,F
+-,GSM475766,NSCLC EMC TB0010he,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475767,NSCLC EMC TB0011he,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475768,NSCLC EMC TB0013tu,frozen tissue,tumor,ADC,2.53,deceased,F
+-,GSM475769,NSCLC EMC TB0014tu,frozen tissue,tumor,LCC,26.43,deceased,F
+-,GSM475770,NSCLC EMC TB0015tu,frozen tissue,tumor,ADC,63.87,alive,F
+-,GSM475771,NSCLC EMC TB0017he,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475772,NSCLC EMC TB0018tu,frozen tissue,tumor,ADC,27.97,alive,M
+-,GSM475773,NSCLC EMC TB0019tu,frozen tissue,tumor,ADC,89.73,alive,F
+-,GSM475774,NSCLC EMC TB0020tu,frozen tissue,tumor,LCC,29.27,alive,F
+-,GSM475775,NSCLC EMC TB0022he,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475776,NSCLC EMC TB0022tu,frozen tissue,tumor,LCC,35.73,alive,F
+-,GSM475777,NSCLC EMC TB0023tu,frozen tissue,tumor,LCC,9.23,deceased,M
+-,GSM475778,NSCLC EMC TB0024tu,frozen tissue,tumor,SCC,98.5,deceased,M
+-,GSM475779,NSCLC EMC TB0025tu,frozen tissue,tumor,ADC,110.8,alive,M
+-,GSM475780,NSCLC EMC TB0027tu,frozen tissue,tumor,ADC,20.53,deceased,F
+-,GSM475781,NSCLC EMC TB0028tu,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475782,NSCLC EMC TB0030tu,frozen tissue,tumor,SCC,3.97,deceased,M
+-,GSM475783,NSCLC EMC TB0031he,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475784,NSCLC EMC TB0031tu,frozen tissue,tumor,ADC,67.87,alive,M
+-,GSM475785,NSCLC EMC TB0032tu,frozen tissue,tumor,LCC,50.53,alive,M
+-,GSM475786,NSCLC EMC TB0033he,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475787,NSCLC EMC TB0033tu,frozen tissue,tumor,ADC,20.93,alive,F
+-,GSM475788,NSCLC EMC TB0034tu,frozen tissue,tumor,ADC,23.13,alive,M
+-,GSM475789,NSCLC EMC TB0035tu,frozen tissue,tumor,SCC,97.73,alive,M
+-,GSM475790,NSCLC EMC TB0036he,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475791,NSCLC EMC TB0036tu,frozen tissue,tumor,LCC,67.63,alive,M
+-,GSM475792,NSCLC EMC TB0037tu,frozen tissue,tumor,ADC,20.37,deceased,M
+-,GSM475793,NSCLC EMC TB0038tu,frozen tissue,tumor,LCC,78.9,alive,M
+-,GSM475794,NSCLC EMC TB0041tu,frozen tissue,tumor,ADC,5.53,deceased,M
+-,GSM475795,NSCLC EMC TB0044tu,frozen tissue,tumor,ADC,13.73,deceased,M
+-,GSM475796,NSCLC EMC TB0045tu,frozen tissue,tumor,ADC,124.3,alive,M
+-,GSM475797,NSCLC EMC TB0047tu,frozen tissue,tumor,ADC,89.03,alive,F
+-,GSM475798,NSCLC EMC TB0050he,frozen tissue,healthy,healthy,Not available,Not available,F
+-,GSM475799,NSCLC EMC TB0052tu,frozen tissue,tumor,ADC,78.63,alive,F
+-,GSM475800,NSCLC EMC TB0053he,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475801,NSCLC EMC TB0058tu,frozen tissue,tumor,SCC,1.13,deceased,M
+-,GSM475802,NSCLC EMC TB0060tu,frozen tissue,tumor,LCC,9.47,deceased,M
+-,GSM475803,NSCLC EMC TB0062tu,frozen tissue,tumor,ADC,60.73,deceased,M
+-,GSM475804,NSCLC EMC TB0063tu,frozen tissue,tumor,SCC,19.17,deceased,M
+-,GSM475805,NSCLC EMC TB0064tu,frozen tissue,tumor,LCC,94.57,alive,F
+-,GSM475806,NSCLC EMC TB0066tu,frozen tissue,tumor,SCC,80.03,deceased,M
+-,GSM475807,NSCLC EMC TB0067he,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475808,NSCLC EMC TB0067tu,frozen tissue,tumor,ADC,2.5,deceased,M
+-,GSM475809,NSCLC EMC TB0068he,frozen tissue,healthy,healthy,Not available,Not available,M
+-,GSM475810,NSCLC EMC TB0068tu,frozen tissue,tumor,ADC,7.13,deceased,M
+-,GSM475811,NSCLC EMC 2323N,frozen tissue,healthy,healthy,Not available,Not available,Not available

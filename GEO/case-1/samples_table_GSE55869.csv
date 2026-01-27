@@ -1,0 +1,53 @@
+# TITLE: Radiation-induced bystander effects and gene expression in cells deficient for RAD9
+# SUMMARY: Background: The radiation bystander response is an important component of the overall response of cells to radiation and critical to understanding health risks of radiation exposure to humans. The mechanism of radiation response includes inter-cellular signaling and intra-cellular communication by which the bystander signal is propagated. Methods: We measured the bystander response to 1Gy a-particle radiation in Mrad9-/- mouse stem cells and H1299shRAD9 cells, using chromosomal aberration and micronucleus formation as DNA damage endpoints. In the H1299 model we used whole genome microarray analyses to profile the transcriptome of irradiated and bystander cells. Results: We investigated the role of RAD9 in the bystander response and showed that depletion or mutation of RAD9 had an effect of increasing chromosomal structural damage as well as micronucleus formation in bystander cells. The enhancement of the damage effect correlated strongly with a transcriptomic response in critical pathways. RAD9 depletion affected many pathways in the cell, including the UV-MAPK pathway, involving p38MAPK members, STAT1 and PARP1 at the mRNA levels. There was an overall reduction of RNA biogenesis of gene members of this pathway suggesting that perhaps these signaling pathways do not function optimally after RAD9 depletion. Using network analysis we found there may be differential activation of transcriptional regulators between the irradiated and bystander cells involving the SP1 and NUPR1 transcription factors. Network analysis also suggested that HIF1a (Hypoxia induced factor 1a) activation could be a negative predictor of the bystander effect and perhaps that local hypoxic stress observed by cells that are directly exposed to radiation may predict whether or not they will elicit a bystander response.
+GPL13497_Group,GPL13497_Accession,GPL13497_Title,GPL13497_Source name,GPL13497_Cell line,GPL13497_Rad9 status
+-,GSM1347778,H1299shRAD9_4 h_ control_rep1,"NSCLC H1299shRAD9, control, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347779,H1299shRAD9_4 h_ control_rep2,"NSCLC H1299shRAD9, control, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347780,H1299shRAD9_4 h_ control_rep3,"NSCLC H1299shRAD9, control, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347781,H1299shRAD9_4 h_ control_rep4,"NSCLC H1299shRAD9, control, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347782,H1299shRAD9_4 h_ control_rep5,"NSCLC H1299shRAD9, control, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347783,H1299shRAD9_4 h_direct bystander negative_rep1,"NSCLC H1299shRAD9, direct irradiated bystander negative, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347784,H1299shRAD9_4 h_direct bystander negative_rep2,"NSCLC H1299shRAD9, direct irradiated bystander negative, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347785,H1299shRAD9_4 h_direct bystander negative_rep3,"NSCLC H1299shRAD9, direct irradiated bystander negative, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347786,H1299shRAD9_4 h_direct bystander negative_rep4,"NSCLC H1299shRAD9, direct irradiated bystander negative, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347787,H1299shRAD9_4 h_direct bystander negative_rep5,"NSCLC H1299shRAD9, direct irradiated bystander negative, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347788,H1299shRAD9_4 h_ bystander negative_rep1,"NSCLC H1299shRAD9, irradiated bystander negative, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347789,H1299shRAD9_4 h_ bystander negative_rep2,"NSCLC H1299shRAD9, irradiated bystander negative, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347790,H1299shRAD9_4 h_ bystander negative_rep3,"NSCLC H1299shRAD9, irradiated bystander negative, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347791,H1299shRAD9_4 h_ bystander negative_rep4,"NSCLC H1299shRAD9, irradiated bystander negative, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347792,H1299shRAD9_4 h_ bystander negative_rep5,"NSCLC H1299shRAD9, irradiated bystander negative, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347793,H1299shRAD9_4 h_direct bystander positive_rep1,"NSCLC H1299shRAD9, direct irradiated bystander positive, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347794,H1299shRAD9_4 h_direct bystander positive_rep2,"NSCLC H1299shRAD9, direct irradiated bystander positive, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347795,H1299shRAD9_4 h_direct bystander positive_rep3,"NSCLC H1299shRAD9, direct irradiated bystander positive, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347796,H1299shRAD9_4 h_direct bystander positive_rep4,"NSCLC H1299shRAD9, direct irradiated bystander positive, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347797,H1299shRAD9_4 h_direct bystander positive_rep5,"NSCLC H1299shRAD9, direct irradiated bystander positive, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347798,H1299shRAD9_4 h_ bystander positive_rep1,"NSCLC H1299shRAD9, irradiated bystander positive, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347799,H1299shRAD9_4 h_ bystander positive_rep2,"NSCLC H1299shRAD9, irradiated bystander positive, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347800,H1299shRAD9_4 h_ bystander positive_rep3,"NSCLC H1299shRAD9, irradiated bystander positive, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347801,H1299shRAD9_4 h_ bystander positive_rep4,"NSCLC H1299shRAD9, irradiated bystander positive, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347802,H1299shRAD9_4 h_ bystander positive_rep5,"NSCLC H1299shRAD9, irradiated bystander positive, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 depleted
+-,GSM1347803,H1299_4 h_ control_rep1,"NSCLC H1299, control, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347804,H1299_4 h_ control_rep2,"NSCLC H1299, control, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347805,H1299_4 h_ control_rep3,"NSCLC H1299, control, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347806,H1299_4 h_ control_rep4,"NSCLC H1299, control, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347807,H1299_4 h_ control_rep5,"NSCLC H1299, control, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347808,H1299_4 h_direct bystander negative_rep1,"NSCLC H1299, direct irradiated bystander negative, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347809,H1299_4 h_direct bystander negative_rep2,"NSCLC H1299, direct irradiated bystander negative, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347810,H1299_4 h_direct bystander negative_rep3,"NSCLC H1299, direct irradiated bystander negative, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347811,H1299_4 h_direct bystander negative_rep4,"NSCLC H1299, direct irradiated bystander negative, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347812,H1299_4 h_direct bystander negative_rep5,"NSCLC H1299, direct irradiated bystander negative, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347813,H1299_4 h_ bystander negative_rep1,"NSCLC H1299, irradiated bystander negative, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347814,H1299_4 h_ bystander negative_rep2,"NSCLC H1299, irradiated bystander negative, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347815,H1299_4 h_ bystander negative_rep3,"NSCLC H1299, irradiated bystander negative, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347816,H1299_4 h_ bystander negative_rep4,"NSCLC H1299, irradiated bystander negative, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347817,H1299_4 h_ bystander negative_rep5,"NSCLC H1299, irradiated bystander negative, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347818,H1299_4 h_direct bystander positive_rep1,"NSCLC H1299, direct irradiated bystander positive, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347819,H1299_4 h_direct bystander positive_rep2,"NSCLC H1299, direct irradiated bystander positive, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347820,H1299_4 h_direct bystander positive_rep3,"NSCLC H1299, direct irradiated bystander positive, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347821,H1299_4 h_direct bystander positive_rep4,"NSCLC H1299, direct irradiated bystander positive, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347822,H1299_4 h_direct bystander positive_rep5,"NSCLC H1299, direct irradiated bystander positive, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347823,H1299_4 h_ bystander positive_rep1,"NSCLC H1299, irradiated bystander positive, 4 h, rep1","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347824,H1299_4 h_ bystander positive_rep2,"NSCLC H1299, irradiated bystander positive, 4 h, rep2","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347825,H1299_4 h_ bystander positive_rep3,"NSCLC H1299, irradiated bystander positive, 4 h, rep3","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347826,H1299_4 h_ bystander positive_rep4,"NSCLC H1299, irradiated bystander positive, 4 h, rep4","Non small cell lung cancer cell line, H1299",RAD9 normal
+-,GSM1347827,H1299_4 h_ bystander positive_rep5,"NSCLC H1299, irradiated bystander positive, 4 h, rep5","Non small cell lung cancer cell line, H1299",RAD9 normal

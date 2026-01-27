@@ -1,0 +1,5 @@
+# TITLE: Expression data from chemoresistant human non-small cell lung cancer
+# SUMMARY: Chemoresistance induced by cisplatin application hinders the clinical outcomes of chemotherapy and needs resolving, hence we sought to find its modulating role in tumorogenesis or drug resistance between human lung adenocarcinoma cancer cell line A549 and its chemoresistant cell line A549/DDP.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue,GPL570_Cell line,GPL570_Disease state,GPL570_Phenotype
+-,GSM4667502,A549,Non-small cell lung caner cells cultured in vitro,Lung,A549,Adenocarcinoma,parental cell line
+-,GSM4667503,A549/DDP,Non-small cell lung caner cells cultured in vitro,Lung,A549,Adenocarcinoma,chemoresistant

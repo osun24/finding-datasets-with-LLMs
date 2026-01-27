@@ -1,0 +1,19 @@
+# TITLE: 8 NSCLC cell lines treated with either 50nM or 100nM of AUY for 24 hours.
+# SUMMARY: RNA from treated cell lines are compared to RNA from matched untreated samples on the same chip to assess differential gene expression.
+GPL6480_Group,GPL6480_Accession,GPL6480_Title,GPL6480_Source name 1,GPL6480_Source name 2,GPL6480_Cell line (Ch1),GPL6480_Tissue (Ch1),GPL6480_Treatment (Ch1),GPL6480_Cell line (Ch2),GPL6480_Tissue (Ch2),GPL6480_Treatment (Ch2)
+-,GSM1065594,A549 100nM AUY 24h,A549 100nM AUY 24h,A549,A549,non-small cell lung cancer (NSCLC),Treated with 100nM of AUY for 24 hours,A549,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065595,A549 50nM AUY 24h,A549 50nM AUY 24h,A549,A549,non-small cell lung cancer (NSCLC),Treated with 50nM of AUY for 24 hours,A549,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065596,H1155 100nM AUY 24h,H1155 100nM AUY 24h,H1155,H1155,non-small cell lung cancer (NSCLC),Treated with 100nM of AUY for 24 hours,H1155,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065597,H1155 50nM AUY 24h,H1155 50nM AUY 24h,H1155,H1155,non-small cell lung cancer (NSCLC),Treated with 50nM of AUY for 24 hours,H1155,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065598,H1435 100nM AUY 24h,H1435 100nM AUY 24h,H1435,H1435,non-small cell lung cancer (NSCLC),Treated with 100nM of AUY for 24 hours,H1435,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065599,H1435 50nM AUY 24h,H1435 50nM AUY 24h,H1435,H1435,non-small cell lung cancer (NSCLC),Treated with 50nM of AUY for 24 hours,H1435,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065600,H1793 100nM AUY 24h,H1793 100nM AUY 24h,H1793,H1793,non-small cell lung cancer (NSCLC),Treated with 100nM of AUY for 24 hours,H1793,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065601,H1793 50nM AUY 24h,H1793 50nM AUY 24h,H1793,H1793,non-small cell lung cancer (NSCLC),Treated with 50nM of AUY for 24 hours,H1793,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065602,H1975 100nM AUY 24h,H1975 100nM AUY 24h,H1975,H1975,non-small cell lung cancer (NSCLC),Treated with 100nM of AUY for 24 hours,H1975,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065603,H1975 50nM AUY 24h,H1975 50nM AUY 24h,H1975,H1975,non-small cell lung cancer (NSCLC),Treated with 50nM of AUY for 24 hours,H1975,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065604,H2172 100nM AUY 24h,H2172 100nM AUY 24h,H2172,H2172,non-small cell lung cancer (NSCLC),Treated with 100nM of AUY for 24 hours,H2172,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065605,H2172 50nM AUY 24h,H2172 50nM AUY 24h,H2172,H2172,non-small cell lung cancer (NSCLC),Treated with 50nM of AUY for 24 hours,H2172,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065606,H23 100nM AUY 24h,H23 100nM AUY 24h,H23,H23,non-small cell lung cancer (NSCLC),Treated with 100nM of AUY for 24 hours,H23,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065607,H23 50nM AUY 24h,H23 50nM AUY 24h,H23,H23,non-small cell lung cancer (NSCLC),Treated with 50nM of AUY for 24 hours,H23,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065608,HCC827 100nM AUY 24h,HCC827 100nM AUY 24h,HCC827,HCC827,non-small cell lung cancer (NSCLC),Treated with 100nM of AUY for 24 hours,HCC827,non-small cell lung cancer (NSCLC),Control - Untreated
+-,GSM1065609,HCC827 50nM AUY 24h,HCC827 50nM AUY 24h,HCC827,HCC827,non-small cell lung cancer (NSCLC),Treated with 50nM of AUY for 24 hours,HCC827,non-small cell lung cancer (NSCLC),Control - Untreated

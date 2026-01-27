@@ -1,0 +1,6 @@
+# TITLE: A Qualitative Transcriptional Signature for the Histological Classification of Non-Small Cell Lung Cancer
+# SUMMARY: Histological classification by routine pathology assessment with hematoxylin-eosin staining and immunostaining for poorly differentiated tumors, particularly those from small biopsies, is still challenging. In this study, using gene expression profiles of pathologically-determined lung squamous cell carcinomas and adenocarcinomas, denoted as pSCC and pADC respectively, we developed a qualitative transcriptional signature, based on the within-sample relative gene expression orderings (REOs) of gene pairs, to individually distinguish ADC from SCC. The signature was validated in the frozen tissues, FFPE materials, mixed tumors, small biopsy specimens and poorly differentiated samples.In summary, the qualitative signature, independent of the subjective diagnosis of pathologists, would be an effective auxiliary tool in distinguishing ADC from SCC.
+GPL20115_Group,GPL20115_Accession,GPL20115_Title,GPL20115_Source name,GPL20115_Gender,GPL20115_Age,GPL20115_Tnm,GPL20115_Smoke
+-,GSM3425895,B1,lung squamous cell carcinoma,M,58y,T1aN0M0 Ⅰa,
+-,GSM3425896,B2,lung squamous cell carcinoma,M,67y,T2aN0M0 Ⅰb,40y
+-,GSM3425897,B3,lung squamous cell carcinoma,M,60y,T1aN0M0 Ⅰa,

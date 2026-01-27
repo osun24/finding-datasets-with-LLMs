@@ -1,0 +1,47 @@
+# TITLE: MicroRNA transcriptional regulation in lung cancer
+# SUMMARY: Squamous cell lung cancer (SCC) and adenocarcinoma are the most common subtypes of the lung tumours. The search for cancer-directed treatments has increased the need for understanding molecular features of either histological subtype. The aim of this study was to identify transcriptional regulation differences due to miRNA expression profiles between SCC and adenocarcinoma. For this propose, a total of 44 patients were evaluated to assess the correlation between the miRNA and messenger RNA (mRNA) expression levels. Total RNA were isolated, amplified, labeled and hybridized on Agilent human whole genome V2 22 K microarray chip. qRT-PCR was conducted to validate our microarray data. MicroRNA expression was detected and quantified using the TaqMan Low Density Arrays. Predicted miRNA-mRNA interactions were taken from miRanda, miRWalk and TargetScan. After processing data, changes in 56 mRNAs as well as in 9 miRNAs were detected between SCC and adenocarcinoma. Nearly 20% of overall deregulated genes were targeted by at least one of the 9 miRNAs (miR-149, miR-205, miR-375, miR-378, miR-422a, miR-483-5p, miR-494, miR-601 and miR-708) differentially expressed between SCC and adenocarcinoma. Genes predicted (CEACAM6, CGN, CLDN3, ABCC3, MLPH, ACSL5, TMEM45B, MUC1) to be targeted by several miRNAs were individually validated by qRT-PCR. We found genes involved in tight junctions and other involved in resistance to anticancer agents. These genes were reliable biomarkers, with high sensitivity and specificity, to detect differences between the two most common histological subtypes of lung cancer. In conclusion, our data demonstrate that the transcriptional regulation differences through miRNA expression play an important role in key hallmarks of non-small cell lung cancer. Identification of new molecular markers in lung carcinoma
+GPL1708_Group,GPL1708_Accession,GPL1708_Title,GPL1708_Source name 1,GPL1708_Source name 2,GPL1708_Tissue (Ch1),GPL1708_Reference (Ch2)
+-,GSM1054641,7060047,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054642,7060270,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054643,7050866,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054644,7060311,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054645,7050880,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054646,7060037,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054647,7050377,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054648,7050288,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054649,7050359,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054650,7050315,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054651,7040375,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054652,7060446,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054653,7040404,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054654,7060455,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054655,7040288,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054656,7040015,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054657,7040343,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054658,7060353,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054659,7060502,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054660,7050265,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054661,7040531,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054662,7050289,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054663,7050276,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054664,7050762,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054665,7050475,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054666,7050338,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054667,7041015,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054668,7050192,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054669,7041009,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054670,7040778,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054671,7040532,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054672,7050059,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054673,7040422,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054674,7060414,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054675,7060447,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054676,7060358,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054677,7060051,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054678,7040627,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054679,7040625,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054680,7040139,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054681,7040176,Total RNA from lung tumor biopsies,Pool from the analysed samples,squamous lung cell carcinoma,Pool from the analysed samples
+-,GSM1054682,7040162,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054683,7040337,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples
+-,GSM1054684,7040272,Total RNA from lung tumor biopsies,Pool from the analysed samples,lung adenocarcinoma,Pool from the analysed samples

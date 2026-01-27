@@ -1,0 +1,7 @@
+# TITLE: Endothelial progenitor cells contribute to neovascularization of non-small cell lung cancer via HDAC7 mediated cytoskeleton regulation and angiogenic genes transcription
+# SUMMARY: To supply tumor tissues with nutrients and oxygen, endothelial progenitor cells (EPCs) are recruited to tumor bed and contribute to tumor neovascularization. HDAC7 is a critical regulator in EPC-mediated neovascularization. To explore the function of HDAC7 in neovascularization induced by EPCs, we use microarrays to profile the genes expression changes in HDAC7 lacking EPCs. HDAC7 silencing upregulated antiangiogenic genes transcription and suppressed proangiogenic genes expression, turning off the angiogenic switch for vessel formation.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Tissue,GPL15207_Infection
+-,GSM2729935,EPC_HDAC7_NC_rep1,EPCs infected with lentivirus carrying nonspecific random shRNA,umbilical cord blood,lentivirus carrying nonspecific random shRNA
+-,GSM2729936,EPC_HDAC7_NC_rep2,EPCs infected with lentivirus carrying nonspecific random shRNA,umbilical cord blood,lentivirus carrying nonspecific random shRNA
+-,GSM2729937,EPC_HDAC7_KD_rep1,EPCs infected with lentivirus carrying HDAC7 shRNA,umbilical cord blood,lentivirus carrying HDAC7 shRNA
+-,GSM2729938,EPC_HDAC7_KD_rep2,EPCs infected with lentivirus carrying HDAC7 shRNA,umbilical cord blood,lentivirus carrying HDAC7 shRNA

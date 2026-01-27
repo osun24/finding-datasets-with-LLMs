@@ -1,0 +1,33 @@
+# TITLE: SCREENING STUDY TO IDENTIFY DIAGNOSTIC MARKERS FOR LUNG CANCER IN ENDOBRONCHIAL LINING FLUID
+# SUMMARY: We investigated whether biomarker analysis in endobronchial epithelial lining fluid (ELF) collected by bronchoscopic microsampling may be useful for a definitive preoperative diagnosis. Therefore we compared ELF samples close to nodule and from the contralateral site from patients with malignant or benign diagnosis.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell type,GPL570_Site,GPL570_Patient,GPL570_Disease state
+-,GSM679226,ELF9IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679227,ELF9CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679228,ELF18IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679229,ELF18CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679230,ELF22IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679231,ELF22CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679232,ELF32IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679233,ELF32CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679234,ELF39IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679235,ELF39CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679236,ELF34IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679237,ELF34CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679238,ELF36IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679239,ELF36CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679240,ELF38IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679241,ELF38CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679242,ELF41IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679243,ELF41CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679244,ELF56IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679245,ELF56CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679246,ELF2IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679247,ELF2CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679248,ELF23IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679249,ELF23CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679250,ELF51IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679251,ELF51CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679252,ELF53IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679253,ELF53CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679254,ELF59IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679255,ELF59CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis

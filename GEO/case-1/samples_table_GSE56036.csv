@@ -1,0 +1,61 @@
+# TITLE: microRNA microarray on a cohort study of platinum-sensitive versus platinum-resistant NSCLC patients
+# SUMMARY: To identify microRNAs that regulate therapeutic resistance, we conducted a high-throughput miRNA microarray on a cohort study of primary NSCLC (non-small cell lung cancer) tissues and adjacent normal tissues. We found some microRNAs related to therapeutic resistance and poor prognosis.
+GPL15446_Group,GPL15446_Accession,GPL15446_Title,GPL15446_Source name,GPL15446_Subject id,GPL15446_Therapeutic response,GPL15446_Gender,GPL15446_Characteristics,GPL15446_Tissue,GPL15446_Pathological type,GPL15446_Pathological stage
+-,GSM1351746,Patient 1 NCCRI_2012-054_01,non-responder_adjacent normal tissue,Patient 1,non-responder,Male,age (yrs): 59,adjacent normal tissue,,
+-,GSM1351747,Patient 2 NCCRI_2012-054_02,non-responder_adjacent normal tissue,Patient 2,non-responder,Female,age (yrs): 56,adjacent normal tissue,,
+-,GSM1351748,Patient 3 NCCRI_2012-054_03,non-responder_adjacent normal tissue,Patient 3,non-responder,Male,age (yrs): 70,adjacent normal tissue,,
+-,GSM1351749,Patient 4 NCCRI_2012-054_04,non-responder_adjacent normal tissue,Patient 4,non-responder,Male,age (yrs): 63,adjacent normal tissue,,
+-,GSM1351750,Patient 5 NCCRI_2012-054_05,non-responder_adjacent normal tissue,Patient 5,non-responder,Male,age (yrs): 70,adjacent normal tissue,,
+-,GSM1351751,Patient 6 NCCRI_2012-054_06,non-responder_adjacent normal tissue,Patient 6,non-responder,Male,age (yrs): 52,adjacent normal tissue,,
+-,GSM1351752,Patient 7 NCCRI_2012-054_07,non-responder_adjacent normal tissue,Patient 7,non-responder,Male,age (yrs): 46,adjacent normal tissue,,
+-,GSM1351753,Patient 8 NCCRI_2012-054_08,non-responder_adjacent normal tissue,Patient 8,non-responder,Male,age (yrs): 74,adjacent normal tissue,,
+-,GSM1351754,Patient 9 NCCRI_2012-054_09,non-responder_adjacent normal tissue,Patient 9,non-responder,Male,age (yrs): 69,adjacent normal tissue,,
+-,GSM1351755,Patient 10 NCCRI_2012-054_10,non-responder_adjacent normal tissue,Patient 10,non-responder,Male,age (yrs): 68,adjacent normal tissue,,
+-,GSM1351756,Patient 11 NCCRI_2012-054_11,non-responder_adjacent normal tissue,Patient 11,non-responder,Male,age (yrs): 55,adjacent normal tissue,,
+-,GSM1351757,Patient 12 NCCRI_2012-054_12,non-responder_adjacent normal tissue,Patient 12,non-responder,Female,age (yrs): 66,adjacent normal tissue,,
+-,GSM1351758,Patient 1 NCCRI_2012-054_13,non-responder_primary lung cancer,Patient 1,non-responder,Male,age (yrs): 59,primary lung cancer,adenocarcinoma (AD),IB
+-,GSM1351759,Patient 2 NCCRI_2012-054_14,non-responder_primary lung cancer,Patient 2,non-responder,Female,age (yrs): 56,primary lung cancer,adenocarcinoma (AD),IIIB
+-,GSM1351760,Patient 3 NCCRI_2012-054_15,non-responder_primary lung cancer,Patient 3,non-responder,Male,age (yrs): 70,primary lung cancer,adenocarcinoma (AD),IA
+-,GSM1351761,Patient 4 NCCRI_2012-054_16,non-responder_primary lung cancer,Patient 4,non-responder,Male,age (yrs): 63,primary lung cancer,squamous cell carcinoma (SQ),IB
+-,GSM1351762,Patient 5 NCCRI_2012-054_17,non-responder_primary lung cancer,Patient 5,non-responder,Male,age (yrs): 70,primary lung cancer,squamous cell carcinoma (SQ),IIIB
+-,GSM1351763,Patient 6 NCCRI_2012-054_18,non-responder_primary lung cancer,Patient 6,non-responder,Male,age (yrs): 52,primary lung cancer,adenocarcinoma (AD),IIIB
+-,GSM1351764,Patient 7 NCCRI_2012-054_19,non-responder_primary lung cancer,Patient 7,non-responder,Male,age (yrs): 46,primary lung cancer,adenocarcinoma (AD),IIIA
+-,GSM1351765,Patient 8 NCCRI_2012-054_20,non-responder_primary lung cancer,Patient 8,non-responder,Male,age (yrs): 74,primary lung cancer,adenocarcinoma (AD),IIIB
+-,GSM1351766,Patient 9 NCCRI_2012-054_21,non-responder_primary lung cancer,Patient 9,non-responder,Male,age (yrs): 69,primary lung cancer,adenocarcinoma (AD),IB
+-,GSM1351767,Patient 10 NCCRI_2012-054_22,non-responder_primary lung cancer,Patient 10,non-responder,Male,age (yrs): 68,primary lung cancer,adenocarcinoma (AD),IA
+-,GSM1351768,Patient 11 NCCRI_2012-054_23,non-responder_primary lung cancer,Patient 11,non-responder,Male,age (yrs): 55,primary lung cancer,squamous cell carcinoma (SQ),IIB
+-,GSM1351769,Patient 12 NCCRI_2012-054_24,non-responder_primary lung cancer,Patient 12,non-responder,Female,age (yrs): 66,primary lung cancer,adenocarcinoma (AD),IIIA
+-,GSM1351770,Patient 13 NCCRI_2012-054_25,responder_adjacent normal tissue,Patient 13,responder,Female,age (yrs): 62,adjacent normal tissue,,
+-,GSM1351771,Patient 14 NCCRI_2012-054_26,responder_adjacent normal tissue,Patient 14,responder,Male,age (yrs): 67,adjacent normal tissue,,
+-,GSM1351772,Patient 15 NCCRI_2012-054_27,responder_adjacent normal tissue,Patient 15,responder,Male,age (yrs): 68,adjacent normal tissue,,
+-,GSM1351773,Patient 16 NCCRI_2012-054_28,responder_adjacent normal tissue,Patient 16,responder,Male,age (yrs): 70,adjacent normal tissue,,
+-,GSM1351774,Patient 17 NCCRI_2012-054_29,responder_adjacent normal tissue,Patient 17,responder,Male,age (yrs): 74,adjacent normal tissue,,
+-,GSM1351775,Patient 18 NCCRI_2012-054_30,responder_adjacent normal tissue,Patient 18,responder,Male,age (yrs): 67,adjacent normal tissue,,
+-,GSM1351776,Patient 19 NCCRI_2012-054_31,responder_adjacent normal tissue,Patient 19,responder,Female,age (yrs): 72,adjacent normal tissue,,
+-,GSM1351777,Patient 20 NCCRI_2012-054_32,responder_adjacent normal tissue,Patient 20,responder,Male,age (yrs): 53,adjacent normal tissue,,
+-,GSM1351778,Patient 21 NCCRI_2012-054_33,responder_adjacent normal tissue,Patient 21,responder,Male,age (yrs): 68,adjacent normal tissue,,
+-,GSM1351779,Patient 22 NCCRI_2012-054_34,responder_adjacent normal tissue,Patient 22,responder,Male,age (yrs): 64,adjacent normal tissue,,
+-,GSM1351780,Patient 23 NCCRI_2012-054_35,responder_adjacent normal tissue,Patient 23,responder,Male,age (yrs): 71,adjacent normal tissue,,
+-,GSM1351781,Patient 24 NCCRI_2012-054_36,responder_adjacent normal tissue,Patient 24,responder,Female,age (yrs): 51,adjacent normal tissue,,
+-,GSM1351782,Patient 25 NCCRI_2012-054_37,responder_adjacent normal tissue,Patient 25,responder,Male,age (yrs): 52,adjacent normal tissue,,
+-,GSM1351783,Patient 26 NCCRI_2012-054_38,responder_adjacent normal tissue,Patient 26,responder,Male,age (yrs): 62,adjacent normal tissue,,
+-,GSM1351784,Patient 27 NCCRI_2012-054_39,responder_adjacent normal tissue,Patient 27,responder,Male,age (yrs): 60,adjacent normal tissue,,
+-,GSM1351785,Patient 28 NCCRI_2012-054_40,responder_adjacent normal tissue,Patient 28,responder,Male,age (yrs): 44,adjacent normal tissue,,
+-,GSM1351786,Patient 29 NCCRI_2012-054_41,responder_adjacent normal tissue,Patient 29,responder,Female,age (yrs): 61,adjacent normal tissue,,
+-,GSM1351787,Patient 13 NCCRI_2012-054_42,responder_primary lung cancer,Patient 13,responder,Female,age (yrs): 62,primary lung cancer,adenocarcinoma (AD),IIIA
+-,GSM1351788,Patient 14 NCCRI_2012-054_43,responder_primary lung cancer,Patient 14,responder,Male,age (yrs): 67,primary lung cancer,squamous cell carcinoma (SQ),IIIA
+-,GSM1351789,Patient 15 NCCRI_2012-054_44,responder_primary lung cancer,Patient 15,responder,Male,age (yrs): 68,primary lung cancer,squamous cell carcinoma (SQ),IA
+-,GSM1351790,Patient 16 NCCRI_2012-054_45,responder_primary lung cancer,Patient 16,responder,Male,age (yrs): 70,primary lung cancer,adenocarcinoma (AD),IIIA
+-,GSM1351791,Patient 17 NCCRI_2012-054_46,responder_primary lung cancer,Patient 17,responder,Male,age (yrs): 74,primary lung cancer,squamous cell carcinoma (SQ),IIB
+-,GSM1351792,Patient 18 NCCRI_2012-054_47,responder_primary lung cancer,Patient 18,responder,Male,age (yrs): 67,primary lung cancer,squamous cell carcinoma (SQ),IIIA
+-,GSM1351793,Patient 19 NCCRI_2012-054_48,responder_primary lung cancer,Patient 19,responder,Female,age (yrs): 72,primary lung cancer,squamous cell carcinoma (SQ),IIB
+-,GSM1351794,Patient 20 NCCRI_2012-054_49,responder_primary lung cancer,Patient 20,responder,Male,age (yrs): 53,primary lung cancer,adenocarcinoma (AD),IIIB
+-,GSM1351795,Patient 21 NCCRI_2012-054_50,responder_primary lung cancer,Patient 21,responder,Male,age (yrs): 68,primary lung cancer,adenocarcinoma (AD),IIIB
+-,GSM1351796,Patient 22 NCCRI_2012-054_51,responder_primary lung cancer,Patient 22,responder,Male,age (yrs): 64,primary lung cancer,squamous cell carcinoma (SQ),IIB
+-,GSM1351797,Patient 23 NCCRI_2012-054_52,responder_primary lung cancer,Patient 23,responder,Male,age (yrs): 71,primary lung cancer,adenocarcinoma (AD),IIB
+-,GSM1351798,Patient 24 NCCRI_2012-054_53,responder_primary lung cancer,Patient 24,responder,Female,age (yrs): 51,primary lung cancer,adenocarcinoma (AD),IIIB
+-,GSM1351799,Patient 25 NCCRI_2012-054_54,responder_primary lung cancer,Patient 25,responder,Male,age (yrs): 52,primary lung cancer,squamous cell carcinoma (SQ),IIB
+-,GSM1351800,Patient 26 NCCRI_2012-054_55,responder_primary lung cancer,Patient 26,responder,Male,age (yrs): 62,primary lung cancer,adenocarcinoma (AD),IB
+-,GSM1351801,Patient 27 NCCRI_2012-054_56,responder_primary lung cancer,Patient 27,responder,Male,age (yrs): 60,primary lung cancer,adenocarcinoma (AD),IIB
+-,GSM1351802,Patient 28 NCCRI_2012-054_57,responder_primary lung cancer,Patient 28,responder,Male,age (yrs): 44,primary lung cancer,squamous cell carcinoma (SQ),IIIA
+-,GSM1351803,Patient 29 NCCRI_2012-054_58,responder_primary lung cancer,Patient 29,responder,Female,age (yrs): 61,primary lung cancer,adenocarcinoma (AD),IIIA

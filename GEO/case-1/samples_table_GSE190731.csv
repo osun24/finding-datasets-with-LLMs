@@ -1,0 +1,26 @@
+# TITLE: Expression data from durvalumab, oleclumab and combo-treated xenograft NSCLC tumors
+# SUMMARY: Non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) mutations do not respond to anti-PD-1 (L1) as well as tumors without an EGFR mutation. We showed in a xenograft mouse model of EGFR-mutated NSCLC that, neither durvalumab nor oleclumab alone inhibited tumor growth compared to the isotype control. In contrast, the combination of both antibodies significantly inhibited tumor growth and increased gene expressions that corresponded to inflammation and T cell function in tumors treated. We used microarrays to study gene expressions that corresponded to enhanced immune response in antibody-treated mice.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Mouse strain,GPL570_Tissue,GPL570_Treatment
+-,GSM5729874,Mouse 3: No T cells,Xenograft tumors from untreated mouse,NSG,NSCLC tumor,untreated
+-,GSM5729875,Mouse 4: No T cells,Xenograft tumors from untreated mouse,NSG,NSCLC tumor,untreated
+-,GSM5729876,Mouse 5: No T cells,Xenograft tumors from untreated mouse,NSG,NSCLC tumor,untreated
+-,GSM5729877,Mouse 6: T cells with isotype,Xenograft tumors from isotype-treated mouse,NSG,NSCLC tumor,isotype
+-,GSM5729878,Mouse 7: T cells with isotype,Xenograft tumors from isotype-treated mouse,NSG,NSCLC tumor,isotype
+-,GSM5729879,Mouse 8: T cells with isotype,Xenograft tumors from isotype-treated mouse,NSG,NSCLC tumor,isotype
+-,GSM5729880,Mouse 9: T cells with isotype,Xenograft tumors from isotype-treated mouse,NSG,NSCLC tumor,isotype
+-,GSM5729881,Mouse 10: T cells with isotype,Xenograft tumors from isotype-treated mouse,NSG,NSCLC tumor,isotype
+-,GSM5729882,Mouse 6: T cells with MEDI4736,Xenograft tumors from durvalumab-treated mouse,NSG,NSCLC tumor,durvalumab
+-,GSM5729883,Mouse 7: T cells with MEDI4736,Xenograft tumors from durvalumab-treated mouse,NSG,NSCLC tumor,durvalumab
+-,GSM5729884,Mouse 8: T cells with MEDI4736,Xenograft tumors from durvalumab-treated mouse,NSG,NSCLC tumor,durvalumab
+-,GSM5729885,Mouse 9: T cells with MEDI4736,Xenograft tumors from durvalumab-treated mouse,NSG,NSCLC tumor,durvalumab
+-,GSM5729886,Mouse 10: T cells with MEDI4736,Xenograft tumors from durvalumab-treated mouse,NSG,NSCLC tumor,durvalumab
+-,GSM5729887,Mouse 6: T cells with MEDI9447,Xenograft tumors from oleclumab-treated mouse,NSG,NSCLC tumor,oleclumab
+-,GSM5729888,Mouse 7: T cells with MEDI9447,Xenograft tumors from oleclumab-treated mouse,NSG,NSCLC tumor,oleclumab
+-,GSM5729889,Mouse 8: T cells with MEDI9447,Xenograft tumors from oleclumab-treated mouse,NSG,NSCLC tumor,oleclumab
+-,GSM5729890,Mouse 9: T cells with MEDI9447,Xenograft tumors from oleclumab-treated mouse,NSG,NSCLC tumor,oleclumab
+-,GSM5729891,Mouse 10: T cells with MEDI9447,Xenograft tumors from oleclumab-treated mouse,NSG,NSCLC tumor,oleclumab
+-,GSM5729892,Mouse 6: T cells with combo,Xenograft tumors from combo-treated mouse,NSG,NSCLC tumor,combo
+-,GSM5729893,Mouse 7: T cells with combo,Xenograft tumors from combo-treated mouse,NSG,NSCLC tumor,combo
+-,GSM5729894,Mouse 8: T cells with combo,Xenograft tumors from combo-treated mouse,NSG,NSCLC tumor,combo
+-,GSM5729895,Mouse 9: T cells with combo,Xenograft tumors from combo-treated mouse,NSG,NSCLC tumor,combo
+-,GSM5729896,Mouse 10: T cells with combo,Xenograft tumors from combo-treated mouse,NSG,NSCLC tumor,combo

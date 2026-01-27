@@ -1,0 +1,21 @@
+# TITLE: Microarray analysis of drug-tolerant cells in ALK-rearranged non-small cell lung cancer cell lines induced by ALK-TKIs
+# SUMMARY: To investigate the molecular mechanisms underlying the emergence and maintenance of drug-tolerant (DT) cells in anaplastic lymphoma kinase (ALK)-rearranged lung cancer, we isolated DT cells from H2228 and A925L cells exposed to high doses of alectinib or lorlatinib for 9 days, and performed transcriptome analysis between parental and DT cells using a gene expression microarray.
+GPL23159_Group,GPL23159_Accession,GPL23159_Title,GPL23159_Source name,GPL23159_Cell line,GPL23159_Treatment
+-,GSM5680770,"H2228 parent, biological rep1",H2228 parental cells,H2228,DMSO
+-,GSM5680771,"H2228 parent, biological rep2",H2228 parental cells,H2228,DMSO
+-,GSM5680772,"H2228 parent, biological rep3",H2228 parental cells,H2228,DMSO
+-,GSM5680773,"H2228 alectinib-DT, biological rep1",H2228 cells treated with alectinib for 9 days,H2228,Alectinib 3 umol/L
+-,GSM5680774,"H2228 alectinib-DT, biological rep2",H2228 cells treated with alectinib for 9 days,H2228,Alectinib 3 umol/L
+-,GSM5680775,"H2228 alectinib-DT, biological rep3",H2228 cells treated with alectinib for 9 days,H2228,Alectinib 3 umol/L
+-,GSM5680776,"H2228 lorlatinib-DT, biological rep1",H2228 cells treated with lorlatinib for 9 days,H2228,Lorlatinib 10 umol/L
+-,GSM5680777,"H2228 lorlatinib-DT, biological rep2",H2228 cells treated with lorlatinib for 9 days,H2228,Lorlatinib 10 umol/L
+-,GSM5680778,"H2228 lorlatinib-DT, biological rep3",H2228 cells treated with lorlatinib for 9 days,H2228,Lorlatinib 10 umol/L
+-,GSM5680779,"A925L parent, biological rep1",A925L parental cells,A925L,DMSO
+-,GSM5680780,"A925L parent, biological rep2",A925L parental cells,A925L,DMSO
+-,GSM5680781,"A925L parent, biological rep3",A925L parental cells,A925L,DMSO
+-,GSM5680782,"A925L alectinib-DT, biological rep1",A925L cells treated with alectinib for 9 days,A925L,Alectinib 3 umol/L
+-,GSM5680783,"A925L alectinib-DT, biological rep2",A925L cells treated with alectinib for 9 days,A925L,Alectinib 3 umol/L
+-,GSM5680784,"A925L alectinib-DT, biological rep3",A925L cells treated with alectinib for 9 days,A925L,Alectinib 3 umol/L
+-,GSM5680785,"A925L lorlatinib-DT, biological rep1",A925L cells treated with lorlatinib for 9 days,A925L,Lorlatinib 1 umol/L
+-,GSM5680786,"A925L lorlatinib-DT, biological rep2",A925L cells treated with lorlatinib for 9 days,A925L,Lorlatinib 1 umol/L
+-,GSM5680787,"A925L lorlatinib-DT, biological rep3",A925L cells treated with lorlatinib for 9 days,A925L,Lorlatinib 1 umol/L

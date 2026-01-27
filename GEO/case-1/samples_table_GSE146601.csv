@@ -1,0 +1,9 @@
+# TITLE: Expression data from advanced non-small cell lung cancer
+# SUMMARY: We used microarrays to detail the differentially expressed miRNA before and after down-regulation of miR-744 in lung cancer cell lines by genome-wide expression microarray To gain insights into the molecular mechanism of miR-744 in the promotion of malignant phenotype of lung cancer cells, we analyzed the mRNAs differentially expressed before and after miR-744 down-regulation.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Tissue,GPL15207_Transfection
+-,GSM4396413,140220-131323A_NC1_(PrimeView),cells were transfected with antagomir-NC,Advanced lung cancer cells,antagomir-NC
+-,GSM4396414,140220-131323A_NC2_(PrimeView),cells were transfected with antagomir-NC,Advanced lung cancer cells,antagomir-NC
+-,GSM4396415,140220-131323A_NC3_(PrimeView),cells were transfected with antagomir-NC,Advanced lung cancer cells,antagomir-NC
+-,GSM4396416,140220-131323A_IN1_(PrimeView),cells were transfected with antagomir-744,Advanced lung cancer cells,antagomir-744
+-,GSM4396417,140220-131323A_IN2_(PrimeView),cells were transfected with antagomir-744,Advanced lung cancer cells,antagomir-744
+-,GSM4396418,140220-131323A_IN3_(PrimeView),cells were transfected with antagomir-744,Advanced lung cancer cells,antagomir-744

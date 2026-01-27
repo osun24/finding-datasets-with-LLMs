@@ -1,0 +1,15 @@
+# TITLE: Recombinant human lactoferrin activates human dendritic cells via Toll-like receptors-2 and -4
+# SUMMARY: Talactoferrin alfa (TLF) is a unique recombinant version of human lactoferrin, an important immunomodulatory protein present in exocrine secretions and in the secondary granules of neutrophils. Talactoferrin has demonstrated anti-cancer activity in preclinical studies and in Phase III clinical trials in patients with Renal Cell Cancer and non-small cell lung cancer. We have shown that TLF induces the maturation of human DCs derived from monocytes, suggesting that the linkage of the innate and adaptive immunity through DC maturation is a key immune function mediated by TLF. In this study we used genome-wide expression analysis to explore the mechanisms by which TLF leads to the functional maturation of DC. We show that GMP level recombinant TLF activates human DCs in a Toll-like receptor (TLR) -2 and -4 dependent manner.
+GPL6884_Group,GPL6884_Accession,GPL6884_Title,GPL6884_Source name,GPL6884_Tissue,GPL6884_Cell type
+-,GSM648573,"immature DC, iDC7",immature DC,peripheral blood,immature dendritic cells
+-,GSM648574,"TNF/IL1 matured DC, mDC8",mature DC,peripheral blood,conventionally matured dendritic cells
+-,GSM648575,"TLF matured DC, TLF9","mature DC, TLF",peripheral blood,talactoferrin-matured DC
+-,GSM648576,"immature DC, iDC10",immature DC,peripheral blood,immature dendritic cells
+-,GSM648577,"TNF/IL1 matured DC, mDC11",mature DC,peripheral blood,conventionally matured dendritic cells
+-,GSM648578,"TLF matured DC, TLF12","mature DC, TLF",peripheral blood,talactoferrin-matured DC
+-,GSM648579,"immature DC, iDC16",immature DC,peripheral blood,immature dendritic cells
+-,GSM648580,"TNF/IL1 matured DC, mDC17",mature DC,peripheral blood,conventionally matured dendritic cells
+-,GSM648581,"TLF matured DC, TLF18","mature DC, TLF",peripheral blood,talactoferrin-matured DC
+-,GSM648582,"immature DC, iDC19",immature DC,peripheral blood,immature dendritic cells
+-,GSM648583,"TNF/IL1 matured DC, mDC20",mature DC,peripheral blood,conventionally matured dendritic cells
+-,GSM648584,"TLF matured DC, TLF21","mature DC, TLF",peripheral blood,talactoferrin-matured DC

@@ -1,0 +1,68 @@
+# TITLE: microRNA expression Data from cerebrospinal fluid of cancer patients
+# SUMMARY: Purpose: Leptomeningeal metastasis (LM) is a dismal terminal stage disease of solid cancer without definitive treatment. Both the limitation of cerebrospinal fluid (CSF) sample volume and a paucity of floating cancer cells are difficulties to study the genomic profiling of LM. As the profiling of microRNAs reflect the strategy and behavior of cancer cells to survive, and CSF is carrying micro-molecules from central nervous system (CNS), we evaluated the extracellular microRNA profiles of CSF from different CNS tumor status including LM. Materials and Methods: We prospectively collected CSF from 65 patients of five groups of cancer control (CC), healthy control (HC), LM, brain metastasis (BM); and brain tumor (BT). Extracellular RNA was extracted from 2 mL of CSF after proper cell down, and preceded to small RNA microarray with Affymetrix miRNA 4.0 microarray chips. Results: The mean RNA yield of LM patients was significantly higher compared to that of other patients groups (9.28 vs. 6.30 ㎍, p = 0.003). The small RNA (< 70 nucleotides) percentage was the highest in controls than that of other groups (53% vs. 26%, p < 0.001). Among 6,599 small RNA probes, mature microRNAs showed higher expression than that of pre-microRNAs and small nucleolar RNAs. The number of probes with the Present call in all samples is 22 mature microRNAs, 18 pre-mature microRNAs, and 27 small nucleolar RNAs. Expression value of mature microRNAs regarding their direction of 5 prime (5p) and 3 prime (3p), the expression of 3p microRNA is higher than those of 5p microRNA in both LM and BM samples (p < 0.001). Both supervised and unsupervised hierarchical clustering of 263 microRNAs, which showed more than 2 fold change at a significance level of p < 0.05, can differentiate LM from other CNS tumor patient groups. Prediction analysis of microarray (PAM) identified 13 microRNAs differentiate LM group from others including hsa-miR-335-5p and hsa-miR-466. MicroRNA profiling using significance of analysis of microarrays (SAM) analysis did not differentiate HC and CC. Whereas CSF samples from patients with LM showed the most number of 108 differentially expressed (more than 2 fold change) microRNAs compared to control group and also revealed 36 differentially expressed microRNAs between LM and BM including hsa-miR-466, hsa-miR-190a-3p, hsa-miR-98-3p, hsa-miR-34b-3p and so on. Representative discriminative microRNAs from microarray data were confirmed their expression level by digital droplet PCR in available CSF samples among the microarray samples. Gene Set Enrichment Analysis was performed using both 10 highly expressed and 6 suppressed microRNAs between LM and BM after normalization and 13 microRNAs from PAM analysis. The most targeted pathway was ‘positive-/ negative-transcription from RNA polymerase II promoter followed by ‘positive regulation of transcription, DNA-templated’ by discriminative microRNAs. When pathways were denoted by microRNAs from PAM, the most enriched pathway was inflammatory response and transcription relative to immune response. Conclusion: We performed extracellular small RNA microarray successfully with small volume of CSF. Analysis of profiles of microRNA according to patients with various CNS tumor status suggested the unique profiles might responsible for leptomeningeal metastasis.
+GPL19117_Group,GPL19117_Accession,GPL19117_Title,GPL19117_Source name,GPL19117_Tissue,GPL19117_Age
+-,GSM4099119,CSF_CancerControl_1,CSF from melanoma,Cerebrospinal fluids,77
+-,GSM4099120,CSF_CancerControl_2,CSF from Cholangioca,Cerebrospinal fluids,61
+-,GSM4099121,CSF_CancerControl_3,CSF from Pre-B All,Cerebrospinal fluids,9
+-,GSM4099122,CSF_CancerControl_4,CSF from Pre-T All,Cerebrospinal fluids,3
+-,GSM4099123,CSF_CancerControl_5,CSF from Pre-B All,Cerebrospinal fluids,4
+-,GSM4099124,CSF_CancerControl_6,CSF from Lymphoma NOS,Cerebrospinal fluids,78
+-,GSM4099125,CSF_CancerControl_7,CSF from Pre-B All,Cerebrospinal fluids,6
+-,GSM4099126,CSF_CancerControl_8,"CSF from Unruptured an, AcoA",Cerebrospinal fluids,52
+-,GSM4099127,CSF_CancerControl_9,CSF from Mature B-cell leukemia Burkitt-type,Cerebrospinal fluids,6
+-,GSM4099128,CSF_CancerControl_10,CSF from Breast cancer,Cerebrospinal fluids,46
+-,GSM4099129,CSF_CancerControl_11,"CSF from Chordoma, Bone and articular cartilage",Cerebrospinal fluids,61
+-,GSM4099130,CSF_CancerControl_12,CSF from Germ Cell Tumor,Cerebrospinal fluids,2.4
+-,GSM4099131,CSF_HealthyControl_13,CSF from essential hypertension,Cerebrospinal fluids,49
+-,GSM4099132,CSF_HealthyControl_14,"CSF from Unruptured an, AcoA",Cerebrospinal fluids,54
+-,GSM4099133,CSF_HealthyControl_15,"CSF from Unruptured an, MCABA",Cerebrospinal fluids,72
+-,GSM4099134,CSF_HealthyControl_16,"CSF from Unruptued an., ACoA",Cerebrospinal fluids,63
+-,GSM4099135,CSF_HealthyControl_17,"CSF from Unruptured an, ACoA",Cerebrospinal fluids,68
+-,GSM4099136,CSF_HealthyControl_18,"CSF from Unruptued an., ACoA",Cerebrospinal fluids,61
+-,GSM4099137,CSF_HealthyControl_19,"CSF from Unruptured an, ACoA",Cerebrospinal fluids,50
+-,GSM4099138,CSF_HealthyControl_20,"CSF from Unruptured aneurysm, middle cerebral artery",Cerebrospinal fluids,62
+-,GSM4099139,CSF_HealthyControl_21,"CSF from Unruptured ophthalmic aneurysm, Lt",Cerebrospinal fluids,55
+-,GSM4099140,CSF_HealthyControl_22,CSF from Unruptured aneurysm,Cerebrospinal fluids,72
+-,GSM4099141,CSF_HealthyControl_23,CSF from Intracerebral hemorrhage,Cerebrospinal fluids,62
+-,GSM4099142,CSF_LMC_24,CSF from NSCLC,Cerebrospinal fluids,61
+-,GSM4099143,CSF_LMC_25,CSF from NSCLC,Cerebrospinal fluids,66
+-,GSM4099144,CSF_LMC_26,CSF from NSCLC,Cerebrospinal fluids,66
+-,GSM4099145,CSF_LMC_27,CSF from NSCLC,Cerebrospinal fluids,54
+-,GSM4099146,CSF_LMC_28,CSF from NSCLC,Cerebrospinal fluids,61
+-,GSM4099147,CSF_LMC_29,CSF from Breast Cancer,Cerebrospinal fluids,36
+-,GSM4099148,CSF_LMC_30,CSF from Breast Cancer,Cerebrospinal fluids,36
+-,GSM4099149,CSF_LMC_31,"CSF from Lung Cancer, Rectal Cancer",Cerebrospinal fluids,67
+-,GSM4099150,CSF_LMC_32,"CSF from Lung Cancer, Rectal Cancer",Cerebrospinal fluids,67
+-,GSM4099151,CSF_LMC_33,CSF from Breast cancer,Cerebrospinal fluids,36
+-,GSM4099152,CSF_LMC_34,CSF from Adenocarcinoma of Lung,Cerebrospinal fluids,56
+-,GSM4099153,CSF_LMC_35,CSF from Adenocarcinoma of Lung,Cerebrospinal fluids,56
+-,GSM4099154,CSF_LMC_36,CSF from Lung Cancer,Cerebrospinal fluids,71
+-,GSM4099155,CSF_LMC_37,CSF from Lung Cancer,Cerebrospinal fluids,71
+-,GSM4099156,CSF_LMC_38,CSF from Adenocarcinoma of Lung,Cerebrospinal fluids,69
+-,GSM4099157,CSF_LMC_39,CSF from Adenocarcinoma of Lung,Cerebrospinal fluids,69
+-,GSM4099158,CSF_LMC_40,CSF from Breast Cancer,Cerebrospinal fluids,36
+-,GSM4099159,CSF_LMC_41,CSF from Breast Cancer,Cerebrospinal fluids,36
+-,GSM4099160,CSF_LMC_42,CSF from Lung Cancer,Cerebrospinal fluids,55
+-,GSM4099161,CSF_LMC_43,CSF from Lung Cancer,Cerebrospinal fluids,55
+-,GSM4099162,CSF_LMC_44,CSF from Ovarian Cancer,Cerebrospinal fluids,57
+-,GSM4099163,CSF_LMC_45,CSF from Ovarian Cancer,Cerebrospinal fluids,57
+-,GSM4099164,CSF_BM(Brain_Metastasis)_46,CSF from Hepatocellular Carcinoma,Cerebrospinal fluids,57
+-,GSM4099165,CSF_BM_47,CSF from NSCLC,Cerebrospinal fluids,61
+-,GSM4099166,CSF_BM_48,CSF from Breast Cancer,Cerebrospinal fluids,33
+-,GSM4099167,CSF_BM_49,CSF from NSCLC,Cerebrospinal fluids,66
+-,GSM4099168,CSF_BM_50,CSF from SCLC,Cerebrospinal fluids,66
+-,GSM4099169,CSF_BM_51,CSF from Breast Cancer,Cerebrospinal fluids,47
+-,GSM4099170,CSF_BM_52,CSF from NSCLC,Cerebrospinal fluids,44
+-,GSM4099171,CSF_BM_53,CSF from NSCLC,Cerebrospinal fluids,68
+-,GSM4099172,CSF_BM_54,CSF from Melanoma,Cerebrospinal fluids,42
+-,GSM4099173,CSF_BT(Brain_Tumor)_55,CSF from Schwannoma,Cerebrospinal fluids,58
+-,GSM4099174,CSF_BT_56,CSF from Brainstem Glioma,Cerebrospinal fluids,22
+-,GSM4099175,CSF_BT_57,CSF from Pituitray Adenoma,Cerebrospinal fluids,27
+-,GSM4099176,CSF_BT_58,CSF from Glioblastoma,Cerebrospinal fluids,10
+-,GSM4099177,CSF_BT_59,CSF from Acoustic neurinoma,Cerebrospinal fluids,22
+-,GSM4099178,CSF_BT_60,CSF from Glioblastoma,Cerebrospinal fluids,48
+-,GSM4099179,CSF_BT_61,CSF from Melanoma,Cerebrospinal fluids,42
+-,GSM4099180,CSF_BT_62,CSF from Melanoma,Cerebrospinal fluids,42
+-,GSM4099181,CSF_BT_63,CSF from Chondroma,Cerebrospinal fluids,30
+-,GSM4099182,CSF_BT_64,CSF from Cerebellar Hemangioblastoma,Cerebrospinal fluids,67
+-,GSM4099183,CSF_BT_65,CSF from Meningioma,Cerebrospinal fluids,76

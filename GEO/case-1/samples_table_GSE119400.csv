@@ -1,0 +1,9 @@
+# TITLE: Expression data from hyperthermia- and/or radiation-treated A549 lung cancer cells
+# SUMMARY: Lung cancer is one of the leading incident cancers among the various cancer types that occur in human. About 85% of lung cancer is non-small cell lung cancer (NSCLC). NSCLC is often diagnosed at the advanced stage and metastasis occurs in most cases, which explains why the overall survival rates for NSCLC are still low. Hyperthermia (HT) is one of the promising therapies in combination with chemotherapy and radiotherapy, and is known to be effective in improving survival and quality of life in patients with advanced lung cancer. We used microarrays to detail the global program of gene expression underlying HT and ionizing radiation (IR) combination therapy and identified a variety of genes whose expressions were regulated during this process.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line
+-,GSM3374162,A549_control,"A549 cells, control",A549
+-,GSM3374163,A549_IR,"A549 cells, irradiated",A549
+-,GSM3374164,A549_HT 41.5,"A549 cells, HT 41.5 degrees celsius",A549
+-,GSM3374165,A549_HT 44,"A549 cells, HT 44 degrees celsius",A549
+-,GSM3374166,A549_IR_HT 41.5,"A549 cells, irradiated and HT 41.5 degrees celsius",A549
+-,GSM3374167,A549_IR_HT 44,"A549 cells, irradiated and HT 44 degrees celsius",A549

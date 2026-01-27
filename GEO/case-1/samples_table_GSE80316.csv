@@ -1,0 +1,15 @@
+# TITLE: gene expression profiles in PC9 erlotinib resistance cells after erlotinib, HDAC inhibitor YF454A or combination treatment
+# SUMMARY: To identify the potential mechanisms of enhanced activity of combined inhibition of erlotinib and YF454A, we conducted a microarray analysis on gene expression profiles in PC9 erlotinib cells. We used Affymetrix GeneChip® Human Transcriptome Array 2.0 to detail gene expression after indicated treatments and identified the molecular mechanism during this process to facilitate further studies.
+GPL17586_Group,GPL17586_Accession,GPL17586_Title,GPL17586_Source name,GPL17586_Tissue,GPL17586_Cell type,GPL17586_Genotype,GPL17586_Disease,GPL17586_Treatment
+-,GSM2124147,Control-1,"erlotinib resistance PC9 NSCLC cells, no treatment (control)",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,none
+-,GSM2124148,Control-2,"erlotinib resistance PC9 NSCLC cells, no treatment (control)",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,none
+-,GSM2124149,Control-3,"erlotinib resistance PC9 NSCLC cells, no treatment (control)",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,none
+-,GSM2124150,Combination-1,"erlotinib resistance PC9 NSCLC cells,5μM erlotinib+0.2μM YF454A",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,5μM erlotinib and 0.2μM YF454A
+-,GSM2124151,Combination-2,"erlotinib resistance PC9 NSCLC cells,5μM erlotinib+0.2μM YF454A",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,5μM erlotinib and 0.2μM YF454A
+-,GSM2124152,Combination-3,"erlotinib resistance PC9 NSCLC cells,5μM erlotinib+0.2μM YF454A",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,5μM erlotinib and 0.2μM YF454A
+-,GSM2124153,Erlotinib-1,"erlotinib resistance PC9 NSCLC cells,5μM erlotinib",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,5μM erlotinib
+-,GSM2124154,Erlotinib-2,"erlotinib resistance PC9 NSCLC cells,5μM erlotinib",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,5μM erlotinib
+-,GSM2124155,Erlotinib-3,"erlotinib resistance PC9 NSCLC cells,5μM erlotinib",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,5μM erlotinib
+-,GSM2124156,YF454A-1,"erlotinib resistance PC9 NSCLC cells,0.2μM YF454A",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,0.2μM YF454A
+-,GSM2124157,YF454A-2,"erlotinib resistance PC9 NSCLC cells,0.2μM YF454A",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,0.2μM YF454A
+-,GSM2124158,YF454A-3,"erlotinib resistance PC9 NSCLC cells,0.2μM YF454A",Lung,epithelial cell,"EGFR exon 19 deletion, activating mutation",Carcinoma,0.2μM YF454A

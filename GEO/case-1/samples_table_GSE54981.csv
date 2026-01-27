@@ -1,0 +1,11 @@
+# TITLE: Comparison of H460 derived CSCs and cisplatin-resistant cells
+# SUMMARY: Transcription profile of cancer stem cells isolated from human non-small cells lung cancer (NSCLC) H460 cells. The profile of H460 cells that were made resistant to cisplatin after a single treatment with the drug was also determined. Both profiles were finally compared.
+GPL4133_Group,GPL4133_Accession,GPL4133_Title,GPL4133_Source name 1,GPL4133_Source name 2,GPL4133_Cell line (Ch1),GPL4133_Cell line (Ch2)
+-,GSM1327427,H460C1 vs WT TechRep1,H460 NSCLC cell line,H460C Rep1,H460 (HTB-177),H460-derived cancer stem cells (H460C)
+-,GSM1327428,H460C1 vs WT TechRep2,H460C Rep1,H460 NSCLC cell line,H460-derived cancer stem cells (H460C),H460 (HTB-177)
+-,GSM1327429,H460C2 vs WT TechRep1,H460 NSCLC cell line,H460C Rep2,H460 (HTB-177),H460-derived cancer stem cells (H460C)
+-,GSM1327430,H460C2 vs WT TechRep2,H460C Rep2,H460 NSCLC cell line,H460-derived cancer stem cells (H460C),H460 (HTB-177)
+-,GSM1327431,H460R1 vs WT TechRep1,H460 NSCLC cell line,H460R Rep1,H460 (HTB-177),cisplatin-resistant H460 cells (H460R)
+-,GSM1327432,H460R1 vs WT TechRep2,H460R Rep1,H460 NSCLC cell line,cisplatin-resistant H460 cells (H460R),H460 (HTB-177)
+-,GSM1327433,H460R2 vs WT TechRep1,H460 NSCLC cell line,H460R Rep2,H460 (HTB-177),cisplatin-resistant H460 cells (H460R)
+-,GSM1327434,H460R2 vs WT TechRep2,H460R Rep2,H460 NSCLC cell line,cisplatin-resistant H460 cells (H460R),H460 (HTB-177)

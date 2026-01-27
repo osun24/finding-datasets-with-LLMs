@@ -1,0 +1,13 @@
+# TITLE: Comparative gene expression analysis of mesenchymal stem cells (MSC) derived from non-small cell lung cancer (NSCLC) and corresponding normal lung tissue (NLT)
+# SUMMARY: The stromal microenvironment plays a vital role in cancer initiation and progression. We performed a comparative expression profiling of pulmonary MSC derived from NSCLC and corresponding normal lung tissue of 5 newly diagnosed patients. The analysis indicated variable expression of genes involved in DNA repair, apoptosis, proliferation or angiogenesis between NSCLC-MSC and NLT-MSC.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell type,GPL570_Patient
+-,GSM568879,Fibroblast_Normal_13,human fibroblasts from normal bronchial tissue,normal bronchial fibroblast,13
+-,GSM568880,Fibroblast_Tumor_13,human fibroblasts from NSCLC tissue,NSCLC-associated fibroblast,13
+-,GSM568881,Fibroblast_Normal_1061,human fibroblasts from normal bronchial tissue,normal bronchial fibroblast,1061
+-,GSM568882,Fibroblast_Tumor_1061,human fibroblasts from NSCLC tissue,NSCLC-associated fibroblast,1061
+-,GSM568883,Fibroblast_Normal_2106,human fibroblasts from normal bronchial tissue,normal bronchial fibroblast,2106
+-,GSM568884,Fibroblast_Tumor_2106,human fibroblasts from NSCLC tissue,NSCLC-associated fibroblast,2106
+-,GSM568885,Fibroblast_Normal_2183,human fibroblasts from normal bronchial tissue,normal bronchial fibroblast,2183
+-,GSM568886,Fibroblast_Tumor_2183,human fibroblasts from NSCLC tissue,NSCLC-associated fibroblast,2183
+-,GSM568887,Fibroblast_Normal_2299,human fibroblasts from normal bronchial tissue,normal bronchial fibroblast,2299
+-,GSM568888,Fibroblast_Tumor_2299,human fibroblasts from NSCLC tissue,NSCLC-associated fibroblast,2299

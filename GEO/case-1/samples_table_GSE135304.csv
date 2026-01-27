@@ -1,0 +1,715 @@
+# TITLE: Non-Small Cell Lung Cancer, Peripheral Immunity, Extending the Tumor Macroenvironment
+# SUMMARY: We recently established that gene expression in PAXgene stabilized blood RNA distinguishes benign (BN) from malignant (MN) pulmonary nodules in high risk candidates with an AUC of 0.84. We now expand our studies to include incidental nodules identified in routine clinical settings using data from 603 patients analyzed on Illumina microarrays. We identify 300 gene probes achieving an AUC of 0.84 for Indeterminate Pulmonary Nodules (IPN) from 6-25 mm and 0.824 for IPN from 8-20 mm, outperforming 3 prominent clinical models that achieve AUCs of 0.60-0.689. We address the basis for these differences by in silico flow cytometry using CIBERSORT and identify significant differences between MN and BN patients including proportions of T-cells, M0 macrophages, NK cells, B cells and exhausted CD8 T-cells. We identify major increases in expression of genes promoting cell death and strong decreases in functions promoting transcription, lymphogenesis and cell viability. A preferential use of oxidative phosphorylation and a signature of mitochondrial dysfunction are also associated with the presence of a MN.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Patient,GPL10558_Patient sample id,GPL10558_Nodule class,GPL10558_Collection site,GPL10558_Cancer type,GPL10558_Nodule histology,GPL10558_Gender,GPL10558_Age,GPL10558_Race,GPL10558_Smoking,GPL10558_Packyears,GPL10558_Characteristics,GPL10558_Cancer stage,GPL10558_Post treatment sample,GPL10558_Post treatment days,GPL10558_Training set,GPL10558_Validation set,GPL10558_Tissue
+-,GSM4003137,"Whole blood, BN.T.514W.pre.1",Whole blood,514W,1,BN,Temple,na,na,female,64,caucasian,quit,34,"nodule size, mm: 9",na,no,na,no,yes,whole blood
+-,GSM4003138,"Whole blood, MN.T.533W.pre.1",Whole blood,533W,1,MN,Temple,adenocarcinoma,na,female,55,african american,never,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003139,"Whole blood, MN.T.547W.pre.1",Whole blood,547W,1,MN,Temple,adenocarcinoma,na,female,42,african american,quit,na,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003140,"Whole blood, BN.T.567W.pre.1",Whole blood,567W,1,BN,Temple,na,na,female,36,other,never,0,"nodule size, mm: 90",na,no,na,yes,no,whole blood
+-,GSM4003141,"Whole blood, MN.T.575W.pre.1",Whole blood,575W,1,MN,Temple,na,na,male,75,african american,quit,14,"nodule size, mm: 22.5",na,no,na,no,yes,whole blood
+-,GSM4003142,"Whole blood, BN.T.583W.pre.1",Whole blood,583W,1,BN,Temple,na,na,female,74,african american,quit,49,"nodule size, mm: 27",na,no,na,yes,no,whole blood
+-,GSM4003143,"Whole blood, BN.T.586W.pre.1",Whole blood,586W,1,BN,Temple,na,na,male,71,african american,quit,55,"nodule size, mm: 22",na,no,na,no,yes,whole blood
+-,GSM4003144,"Whole blood, BN.T.597W.pre.1",Whole blood,597W,1,BN,Temple,na,solid,female,67,caucasian,quit,45,"nodule size, mm: 12",na,no,na,yes,no,whole blood
+-,GSM4003145,"Whole blood, BN.T.622W.pre.1",Whole blood,622W,1,BN,Temple,na,na,male,66,caucasian,quit,150,"nodule size, mm: 17",na,no,na,yes,no,whole blood
+-,GSM4003146,"Whole blood, BN.T.636W.pre.1",Whole blood,636W,1,BN,Temple,na,na,female,56,african american,smoker,21,"nodule size, mm: 26",na,no,na,no,yes,whole blood
+-,GSM4003147,"Whole blood, MN.T.615W.post.84",Whole blood,615W,1,MN,Temple,na,na,male,78,african american,quit,na,"nodule size, mm: na",na,yes,84,no,no,whole blood
+-,GSM4003148,"Whole blood, BN.T.618W.pre.1",Whole blood,618W,1,BN,Temple,na,na,male,67,caucasian,quit,140,"nodule size, mm: 9",na,no,na,no,yes,whole blood
+-,GSM4003149,"Whole blood, BN.T.630W.pre.1",Whole blood,630W,1,BN,Temple,na,na,female,60,african american,quit,25,"nodule size, mm: 4",na,no,na,no,yes,whole blood
+-,GSM4003150,"Whole blood, MN.T.644W.post.62",Whole blood,644W,1,MN,Temple,adenocarcinoma,na,female,56,caucasian,quit,135,"nodule size, mm: 36",na,yes,62,no,no,whole blood
+-,GSM4003151,"Whole blood, BN.T.646W.pre.1",Whole blood,646W,1,BN,Temple,na,na,female,68,caucasian,quit,30,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003152,"Whole blood, MN.H.CCHS_1001.pre.1",Whole blood,CCHS_1001,1,MN,HFGCC,adenocarcinoma,na,male,73,caucasian,quit,60,"nodule size, mm: 25",1,no,na,yes,no,whole blood
+-,GSM4003153,"Whole blood, MN.H.CCHS_1002.pre.1",Whole blood,CCHS_1002,1,MN,HFGCC,other non-small cell,na,male,66,caucasian,quit,40.5,"nodule size, mm: 19",3,no,na,no,yes,whole blood
+-,GSM4003154,"Whole blood, MN.H.CCHS_1003.pre.1",Whole blood,CCHS_1003,1,MN,HFGCC,adenocarcinoma,na,female,58,caucasian,quit,60,"nodule size, mm: 30",4,no,na,yes,no,whole blood
+-,GSM4003155,"Whole blood, MN.H.CCHS_1004.pre.1",Whole blood,CCHS_1004,1,MN,HFGCC,adenocarcinoma,na,male,54,caucasian,quit,75,"nodule size, mm: 29",3,no,na,yes,no,whole blood
+-,GSM4003156,"Whole blood, MN.H.CCHS_1005.pre.1",Whole blood,CCHS_1005,1,MN,HFGCC,adenocarcinoma,na,male,61,african american,quit,10,"nodule size, mm: 10",1,no,na,no,yes,whole blood
+-,GSM4003157,"Whole blood, MN.H.CCHS_1006.pre.1",Whole blood,CCHS_1006,1,MN,HFGCC,squamous cell carcinoma,na,male,62,other,quit,90,"nodule size, mm: 24",2,no,na,yes,no,whole blood
+-,GSM4003158,"Whole blood, MN.H.CCHS_1007.pre.1",Whole blood,CCHS_1007,1,MN,HFGCC,adenocarcinoma,na,female,74,caucasian,quit,30,"nodule size, mm: 22",1,no,na,no,yes,whole blood
+-,GSM4003159,"Whole blood, MN.H.CCHS_1008.pre.1",Whole blood,CCHS_1008,1,MN,HFGCC,squamous cell carcinoma,na,female,71,caucasian,smoker,112,"nodule size, mm: 25",1,no,na,yes,no,whole blood
+-,GSM4003160,"Whole blood, MN.H.CCHS_1009.pre.1",Whole blood,CCHS_1009,1,MN,HFGCC,adenocarcinoma,na,male,66,caucasian,quit,20,"nodule size, mm: 27",4,no,na,yes,no,whole blood
+-,GSM4003161,"Whole blood, MN.H.CCHS_1010.pre.1",Whole blood,CCHS_1010,1,MN,HFGCC,adenocarcinoma,na,female,68,caucasian,quit,52,"nodule size, mm: 25",1,no,na,no,yes,whole blood
+-,GSM4003162,"Whole blood, MN.H.CCHS_1012.pre.1",Whole blood,CCHS_1012,1,MN,HFGCC,squamous cell carcinoma,na,male,82,caucasian,quit,40,"nodule size, mm: 58",2,no,na,yes,no,whole blood
+-,GSM4003163,"Whole blood, BN.H.CCHS_2002.pre.1",Whole blood,CCHS_2002,1,BN,HFGCC,na,ground glass opacity,male,66,caucasian,smoker,119,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003164,"Whole blood, BN.H.CCHS_2003.pre.1",Whole blood,CCHS_2003,1,BN,HFGCC,na,na,female,73,caucasian,quit,17,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003165,"Whole blood, BN.H.CCHS_2005.pre.1",Whole blood,CCHS_2005,1,BN,HFGCC,na,na,female,51,caucasian,quit,20,"nodule size, mm: 4",na,no,na,no,yes,whole blood
+-,GSM4003166,"Whole blood, BN.H.CCHS_2007.pre.1",Whole blood,CCHS_2007,1,BN,HFGCC,na,ground glass opacity,male,70,caucasian,smoker,56,"nodule size, mm: 12",na,no,na,yes,no,whole blood
+-,GSM4003167,"Whole blood, MN.H.CCHS_1011.pre.1",Whole blood,CCHS_1011,1,MN,HFGCC,adenocarcinoma,na,female,56,caucasian,quit,20,"nodule size, mm: 21",1,no,na,yes,no,whole blood
+-,GSM4003168,"Whole blood, MN.H.CCHS_1013.pre.1",Whole blood,CCHS_1013,1,MN,HFGCC,adenocarcinoma,na,male,79,caucasian,quit,10,"nodule size, mm: 50",1,no,na,yes,no,whole blood
+-,GSM4003169,"Whole blood, MN.H.CCHS_1014.pre.1",Whole blood,CCHS_1014,1,MN,HFGCC,other non-small cell,na,male,69,caucasian,quit,31,"nodule size, mm: 33",4,no,na,no,yes,whole blood
+-,GSM4003170,"Whole blood, MN.H.CCHS_1015.pre.1",Whole blood,CCHS_1015,1,MN,HFGCC,squamous cell carcinoma,na,female,68,caucasian,quit,26.5,"nodule size, mm: 25",4,no,na,yes,no,whole blood
+-,GSM4003171,"Whole blood, MN.H.CCHS_1016.pre.1",Whole blood,CCHS_1016,1,MN,HFGCC,adenocarcinoma,na,female,74,caucasian,quit,15,"nodule size, mm: 13",1,no,na,yes,no,whole blood
+-,GSM4003172,"Whole blood, MN.H.CCHS_1017.pre.1",Whole blood,CCHS_1017,1,MN,HFGCC,squamous cell carcinoma,na,female,76,african american,quit,20.5,"nodule size, mm: 16",1,no,na,no,yes,whole blood
+-,GSM4003173,"Whole blood, MN.H.CCHS_1018.pre.1",Whole blood,CCHS_1018,1,MN,HFGCC,squamous cell carcinoma,na,male,71,caucasian,quit,49,"nodule size, mm: 26",3,no,na,yes,no,whole blood
+-,GSM4003174,"Whole blood, MN.H.CCHS_1021.pre.1",Whole blood,CCHS_1021,1,MN,HFGCC,adenocarcinoma,na,male,67,african american,smoker,12.5,"nodule size, mm: 22",3,no,na,no,yes,whole blood
+-,GSM4003175,"Whole blood, MN.H.CCHS_1022.pre.1",Whole blood,CCHS_1022,1,MN,HFGCC,na,na,male,71,african american,quit,70,"nodule size, mm: 4",3,no,na,yes,no,whole blood
+-,GSM4003176,"Whole blood, MN.H.CCHS_1023.pre.1",Whole blood,CCHS_1023,1,MN,HFGCC,squamous cell carcinoma,na,male,61,african american,quit,70,"nodule size, mm: 39",3,no,na,yes,no,whole blood
+-,GSM4003177,"Whole blood, MN.H.CCHS_1024.pre.1",Whole blood,CCHS_1024,1,MN,HFGCC,adenocarcinoma,na,female,56,caucasian,smoker,132,"nodule size, mm: 23",na,no,na,yes,no,whole blood
+-,GSM4003178,"Whole blood, MN.H.CCHS_1026.pre.1",Whole blood,CCHS_1026,1,MN,HFGCC,adenocarcinoma,na,female,53,african american,smoker,18.5,"nodule size, mm: 23",1,no,na,yes,no,whole blood
+-,GSM4003179,"Whole blood, MN.H.CCHS_1027.pre.1",Whole blood,CCHS_1027,1,MN,HFGCC,adenocarcinoma,na,female,57,other,never,0,"nodule size, mm: 37",4,no,na,yes,no,whole blood
+-,GSM4003180,"Whole blood, MN.H.CCHS_1028.pre.1",Whole blood,CCHS_1028,1,MN,HFGCC,adenocarcinoma,na,female,54,african american,smoker,47,"nodule size, mm: 26",1,no,na,yes,no,whole blood
+-,GSM4003181,"Whole blood, MN.H.CCHS_1029.pre.1",Whole blood,CCHS_1029,1,MN,HFGCC,squamous cell carcinoma,na,male,72,caucasian,quit,57,"nodule size, mm: na",4,no,na,yes,no,whole blood
+-,GSM4003182,"Whole blood, MN.H.CCHS_1030.pre.1",Whole blood,CCHS_1030,1,MN,HFGCC,other non-small cell,na,female,64,caucasian,smoker,50,"nodule size, mm: na",4,no,na,no,yes,whole blood
+-,GSM4003183,"Whole blood, MN.H.CCHS_1032.pre.1",Whole blood,CCHS_1032,1,MN,HFGCC,other non-small cell,na,female,55,caucasian,quit,60,"nodule size, mm: 57",2,no,na,yes,no,whole blood
+-,GSM4003184,"Whole blood, MN.H.CCHS_1034.pre.1",Whole blood,CCHS_1034,1,MN,HFGCC,other non-small cell,na,male,68,caucasian,quit,124,"nodule size, mm: na",4,no,na,yes,no,whole blood
+-,GSM4003185,"Whole blood, NN.H.CCHS_2004.pre.1",Whole blood,CCHS_2004,1,NN,HFGCC,na,na,female,69,caucasian,smoker,50,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003186,"Whole blood, BN.H.CCHS_2006.pre.1",Whole blood,CCHS_2006,1,BN,HFGCC,na,na,female,49,african american,smoker,27,"nodule size, mm: 13",na,no,na,yes,no,whole blood
+-,GSM4003187,"Whole blood, BN.H.CCHS_2008.pre.1",Whole blood,CCHS_2008,1,BN,HFGCC,na,na,female,80,african american,smoker,30,"nodule size, mm: 21",na,no,na,yes,no,whole blood
+-,GSM4003188,"Whole blood, BN.H.CCHS_2009.pre.1",Whole blood,CCHS_2009,1,BN,HFGCC,na,na,female,57,caucasian,quit,30,"nodule size, mm: 10.4",na,no,na,yes,no,whole blood
+-,GSM4003189,"Whole blood, BN.H.CCHS_2010.pre.1",Whole blood,CCHS_2010,1,BN,HFGCC,na,na,female,53,african american,smoker,15,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003190,"Whole blood, MN.H.CCHS_1005.post.197",Whole blood,CCHS_1005,1,MN,HFGCC,adenocarcinoma,na,male,62,african american,quit,10,"nodule size, mm: na",1,yes,197,no,no,whole blood
+-,GSM4003191,"Whole blood, MN.H.CCHS_1020.pre.1",Whole blood,CCHS_1020,1,MN,HFGCC,small cell carcinoma,na,male,76,caucasian,quit,35,"nodule size, mm: 74",4,no,na,no,yes,whole blood
+-,GSM4003192,"Whole blood, MN.H.CCHS_1031.pre.1",Whole blood,CCHS_1031,1,MN,HFGCC,squamous cell carcinoma,na,male,78,caucasian,quit,40,"nodule size, mm: 19",1,no,na,yes,no,whole blood
+-,GSM4003193,"Whole blood, MN.H.CCHS_1033.pre.1",Whole blood,CCHS_1033,1,MN,HFGCC,squamous cell carcinoma,na,female,58,caucasian,quit,30,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003194,"Whole blood, MN.H.CCHS_1035.pre.1",Whole blood,CCHS_1035,1,MN,HFGCC,adenocarcinoma,na,male,45,caucasian,quit,40,"nodule size, mm: 80",3,no,na,no,yes,whole blood
+-,GSM4003195,"Whole blood, MN.H.CCHS_1036.pre.1",Whole blood,CCHS_1036,1,MN,HFGCC,small cell carcinoma,na,female,54,caucasian,quit,30,"nodule size, mm: 26",na,no,na,yes,no,whole blood
+-,GSM4003196,"Whole blood, MN.H.CCHS_1038.pre.1",Whole blood,CCHS_1038,1,MN,HFGCC,adenocarcinoma,na,female,51,african american,smoker,18,"nodule size, mm: 20",2,no,na,yes,no,whole blood
+-,GSM4003197,"Whole blood, MN.H.CCHS_1039.pre.1",Whole blood,CCHS_1039,1,MN,HFGCC,squamous cell carcinoma,na,male,72,caucasian,quit,14,"nodule size, mm: 52",2,no,na,yes,no,whole blood
+-,GSM4003198,"Whole blood, MN.H.CCHS_1040.pre.1",Whole blood,CCHS_1040,1,MN,HFGCC,squamous cell carcinoma,na,female,64,african american,smoker,50,"nodule size, mm: 70",4,no,na,yes,no,whole blood
+-,GSM4003199,"Whole blood, MN.H.CCHS_1041.pre.1",Whole blood,CCHS_1041,1,MN,HFGCC,squamous cell carcinoma,na,female,66,caucasian,smoker,150,"nodule size, mm: 82",1,no,na,yes,no,whole blood
+-,GSM4003200,"Whole blood, MN.H.CCHS_1042.pre.1",Whole blood,CCHS_1042,1,MN,HFGCC,squamous cell carcinoma,na,female,58,caucasian,smoker,38,"nodule size, mm: 11",1,no,na,yes,no,whole blood
+-,GSM4003201,"Whole blood, MN.H.CCHS_1043.pre.1",Whole blood,CCHS_1043,1,MN,HFGCC,adenocarcinoma,na,female,50,caucasian,quit,2,"nodule size, mm: 14",1,no,na,yes,no,whole blood
+-,GSM4003202,"Whole blood, MN.H.CCHS_1044.pre.1",Whole blood,CCHS_1044,1,MN,HFGCC,squamous cell carcinoma,na,male,80,caucasian,quit,12.5,"nodule size, mm: 32",1,no,na,yes,no,whole blood
+-,GSM4003203,"Whole blood, MN.H.CCHS_1045.pre.1",Whole blood,CCHS_1045,1,MN,HFGCC,squamous cell carcinoma,na,female,62,caucasian,quit,40,"nodule size, mm: 72",3,no,na,no,yes,whole blood
+-,GSM4003204,"Whole blood, MN.H.CCHS_1046.pre.1",Whole blood,CCHS_1046,1,MN,HFGCC,small cell carcinoma,na,male,56,caucasian,smoker,176,"nodule size, mm: na",4,no,na,no,yes,whole blood
+-,GSM4003205,"Whole blood, MN.H.CCHS_1047.pre.1",Whole blood,CCHS_1047,1,MN,HFGCC,adenocarcinoma,na,female,83,other,quit,20.5,"nodule size, mm: 16",1,no,na,yes,no,whole blood
+-,GSM4003206,"Whole blood, MN.H.CCHS_1048.pre.1",Whole blood,CCHS_1048,1,MN,HFGCC,other non-small cell,na,male,79,caucasian,quit,45,"nodule size, mm: 13",3,no,na,yes,no,whole blood
+-,GSM4003207,"Whole blood, MN.H.CCHS_1049.pre.1",Whole blood,CCHS_1049,1,MN,HFGCC,other non-small cell,na,female,72,caucasian,quit,47,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003208,"Whole blood, MN.H.CCHS_1050.pre.1",Whole blood,CCHS_1050,1,MN,HFGCC,other non-small cell,na,female,78,caucasian,quit,50,"nodule size, mm: 27",1,no,na,no,yes,whole blood
+-,GSM4003209,"Whole blood, MN.H.CCHS_1053.pre.1",Whole blood,CCHS_1053,1,MN,HFGCC,adenocarcinoma,na,male,77,caucasian,quit,5,"nodule size, mm: 23",1,no,na,yes,no,whole blood
+-,GSM4003210,"Whole blood, MN.H.CCHS_1054.pre.1",Whole blood,CCHS_1054,1,MN,HFGCC,adenocarcinoma,na,female,81,caucasian,quit,135,"nodule size, mm: 28",1,no,na,yes,no,whole blood
+-,GSM4003211,"Whole blood, MN.H.CCHS_1056.pre.1",Whole blood,CCHS_1056,1,MN,HFGCC,squamous cell carcinoma,na,male,61,caucasian,quit,27,"nodule size, mm: 60",3,no,na,yes,no,whole blood
+-,GSM4003212,"Whole blood, MN.H.CCHS_1057.pre.1",Whole blood,CCHS_1057,1,MN,HFGCC,squamous cell carcinoma,na,male,66,caucasian,quit,38,"nodule size, mm: 11",1,no,na,yes,no,whole blood
+-,GSM4003213,"Whole blood, MN.H.CCHS_1059.pre.1",Whole blood,CCHS_1059,1,MN,HFGCC,adenocarcinoma,na,female,71,caucasian,quit,44,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003214,"Whole blood, MN.H.CCHS_1062.pre.1",Whole blood,CCHS_1062,1,MN,HFGCC,adenocarcinoma,na,male,80,caucasian,smoker,66,"nodule size, mm: 12",1,no,na,no,yes,whole blood
+-,GSM4003215,"Whole blood, BN.H.CCHS_2011.pre.1",Whole blood,CCHS_2011,1,BN,HFGCC,na,ground glass opacity,female,54,caucasian,smoker,41,"nodule size, mm: 13",na,no,na,yes,no,whole blood
+-,GSM4003216,"Whole blood, BN.H.CCHS_2012.pre.1",Whole blood,CCHS_2012,1,BN,HFGCC,na,solid/ground glass opacity,male,54,caucasian,quit,52.5,"nodule size, mm: 28",na,no,na,yes,no,whole blood
+-,GSM4003217,"Whole blood, MN.H.CCHS_1014.post.220",Whole blood,CCHS_1014,1,MN,HFGCC,other non-small cell,na,male,69,caucasian,quit,31,"nodule size, mm: 16",4,yes,220,no,no,whole blood
+-,GSM4003218,"Whole blood, MN.H.CCHS_1015.post.178",Whole blood,CCHS_1015,1,MN,HFGCC,squamous cell carcinoma,na,female,69,caucasian,quit,26.5,"nodule size, mm: na",4,yes,178,no,no,whole blood
+-,GSM4003219,"Whole blood, MN.H.CCHS_1052.pre.1",Whole blood,CCHS_1052,1,MN,HFGCC,squamous cell carcinoma,na,male,62,caucasian,smoker,90,"nodule size, mm: na",2,no,na,no,yes,whole blood
+-,GSM4003220,"Whole blood, MN.H.CCHS_1055.pre.1",Whole blood,CCHS_1055,1,MN,HFGCC,squamous cell carcinoma,na,male,46,caucasian,smoker,30,"nodule size, mm: 48",3,no,na,yes,no,whole blood
+-,GSM4003221,"Whole blood, MN.H.CCHS_1060.pre.1",Whole blood,CCHS_1060,1,MN,HFGCC,squamous cell carcinoma,na,female,76,caucasian,smoker,20,"nodule size, mm: 17",1,no,na,yes,no,whole blood
+-,GSM4003222,"Whole blood, MN.H.CCHS_1061.pre.1",Whole blood,CCHS_1061,1,MN,HFGCC,other non-small cell,na,male,59,african american,smoker,8,"nodule size, mm: 27",1,no,na,yes,no,whole blood
+-,GSM4003223,"Whole blood, MN.H.CCHS_1063.pre.1",Whole blood,CCHS_1063,1,MN,HFGCC,other non-small cell,na,female,54,african american,smoker,40,"nodule size, mm: 12",1,no,na,yes,no,whole blood
+-,GSM4003224,"Whole blood, MN.H.CCHS_1065.pre.1",Whole blood,CCHS_1065,1,MN,HFGCC,squamous cell carcinoma,na,female,70,caucasian,quit,24,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003225,"Whole blood, MN.H.CCHS_1066.pre.1",Whole blood,CCHS_1066,1,MN,HFGCC,adenocarcinoma,na,female,67,caucasian,smoker,45,"nodule size, mm: 15",1,no,na,no,yes,whole blood
+-,GSM4003226,"Whole blood, MN.H.CCHS_1067.pre.1",Whole blood,CCHS_1067,1,MN,HFGCC,squamous cell carcinoma,na,male,81,caucasian,quit,68,"nodule size, mm: 30",1,no,na,yes,no,whole blood
+-,GSM4003227,"Whole blood, MN.H.CCHS_1069.pre.1",Whole blood,CCHS_1069,1,MN,HFGCC,adenocarcinoma,na,female,80,caucasian,quit,38,"nodule size, mm: 60",4,no,na,yes,no,whole blood
+-,GSM4003228,"Whole blood, MN.H.CCHS_1070.pre.1",Whole blood,CCHS_1070,1,MN,HFGCC,other non-small cell,na,male,84,caucasian,quit,65,"nodule size, mm: 33",3,no,na,no,yes,whole blood
+-,GSM4003229,"Whole blood, MN.H.CCHS_1071.pre.1",Whole blood,CCHS_1071,1,MN,HFGCC,adenocarcinoma,na,male,76,caucasian,quit,30,"nodule size, mm: 33",1,no,na,yes,no,whole blood
+-,GSM4003230,"Whole blood, MN.H.CCHS_1072.pre.1",Whole blood,CCHS_1072,1,MN,HFGCC,squamous cell carcinoma,na,female,79,caucasian,quit,60,"nodule size, mm: 27",1,no,na,yes,no,whole blood
+-,GSM4003231,"Whole blood, MN.H.CCHS_1074.pre.1",Whole blood,CCHS_1074,1,MN,HFGCC,adenocarcinoma,na,female,60,other,smoker,40,"nodule size, mm: 14",1,no,na,yes,no,whole blood
+-,GSM4003232,"Whole blood, MN.H.CCHS_1075.pre.1",Whole blood,CCHS_1075,1,MN,HFGCC,other non-small cell,na,male,60,caucasian,quit,71,"nodule size, mm: 125",4,no,na,no,yes,whole blood
+-,GSM4003233,"Whole blood, BN.H.CCHS_2013.pre.1",Whole blood,CCHS_2013,1,BN,HFGCC,na,solid/ground glass opacity,female,65,caucasian,smoker,25,"nodule size, mm: 17",na,no,na,yes,no,whole blood
+-,GSM4003234,"Whole blood, BN.H.CCHS_2014.pre.1",Whole blood,CCHS_2014,1,BN,HFGCC,na,na,female,63,caucasian,quit,52.5,"nodule size, mm: 11",na,no,na,yes,no,whole blood
+-,GSM4003235,"Whole blood, MN.H.CCHS_2015.pre.1",Whole blood,CCHS_2015,1,MN,HFGCC,adenocarcinoma,na,female,59,caucasian,smoker,19.5,"nodule size, mm: 13",1,no,na,yes,no,whole blood
+-,GSM4003236,"Whole blood, BN.H.CCHS_2016.pre.1",Whole blood,CCHS_2016,1,BN,HFGCC,na,na,male,70,caucasian,quit,48,"nodule size, mm: 15",na,no,na,no,yes,whole blood
+-,GSM4003237,"Whole blood, BN.H.CCHS_3002.pre.1",Whole blood,CCHS_3002,1,BN,HFGCC,na,na,male,82,caucasian,quit,18.5,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003238,"Whole blood, NN.H.CCHS_3003.pre.1",Whole blood,CCHS_3003,1,NN,HFGCC,na,na,female,67,african american,smoker,25,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003239,"Whole blood, NN.H.CCHS_3004.pre.1",Whole blood,CCHS_3004,1,NN,HFGCC,na,na,female,51,caucasian,smoker,35,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003240,"Whole blood, NN.H.CCHS_3005.pre.1",Whole blood,CCHS_3005,1,NN,HFGCC,na,na,male,51,caucasian,smoker,18,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003241,"Whole blood, NN.H.CCHS_3006.pre.1",Whole blood,CCHS_3006,1,NN,HFGCC,na,na,female,51,caucasian,quit,20,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003242,"Whole blood, MN.H.CCHS_1001.post.303",Whole blood,CCHS_1001,1,MN,HFGCC,adenocarcinoma,na,male,74,caucasian,quit,60,"nodule size, mm: 3",1,yes,303,no,no,whole blood
+-,GSM4003243,"Whole blood, MN.H.CCHS_1012.post.233",Whole blood,CCHS_1012,1,MN,HFGCC,squamous cell carcinoma,na,male,83,caucasian,quit,40,"nodule size, mm: na",2,yes,233,no,no,whole blood
+-,GSM4003244,"Whole blood, MN.H.CCHS_1025.post.194",Whole blood,CCHS_1025,1,MN,HFGCC,small cell carcinoma,na,male,58,caucasian,quit,70,"nodule size, mm: na",na,yes,194,no,no,whole blood
+-,GSM4003245,"Whole blood, MN.H.CCHS_1030.post.176",Whole blood,CCHS_1030,1,MN,HFGCC,other non-small cell,na,female,65,caucasian,smoker,51,"nodule size, mm: na",4,yes,176,no,no,whole blood
+-,GSM4003246,"Whole blood, MN.H.CCHS_1032.post.183",Whole blood,CCHS_1032,1,MN,HFGCC,other non-small cell,na,female,55,caucasian,quit,60,"nodule size, mm: na",2,yes,183,no,no,whole blood
+-,GSM4003247,"Whole blood, MN.H.CCHS_1034.post.180",Whole blood,CCHS_1034,1,MN,HFGCC,other non-small cell,na,male,68,caucasian,quit,124,"nodule size, mm: na",4,yes,180,no,no,whole blood
+-,GSM4003248,"Whole blood, MN.H.CCHS_1035.post.196",Whole blood,CCHS_1035,1,MN,HFGCC,adenocarcinoma,na,male,45,caucasian,quit,40,"nodule size, mm: 40",3,yes,196,no,no,whole blood
+-,GSM4003249,"Whole blood, MN.H.CCHS_1051.pre.1",Whole blood,CCHS_1051,1,MN,HFGCC,squamous cell carcinoma,na,male,68,caucasian,smoker,126,"nodule size, mm: na",1,no,na,no,yes,whole blood
+-,GSM4003250,"Whole blood, MN.H.CCHS_1076.pre.1",Whole blood,CCHS_1076,1,MN,HFGCC,adenocarcinoma,na,female,78,african american,quit,62,"nodule size, mm: 25",4,no,na,yes,no,whole blood
+-,GSM4003251,"Whole blood, MN.H.CCHS_1078.pre.1",Whole blood,CCHS_1078,1,MN,HFGCC,adenocarcinoma,na,female,73,caucasian,quit,30,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003252,"Whole blood, MN.H.CCHS_1079.pre.1",Whole blood,CCHS_1079,1,MN,HFGCC,squamous cell carcinoma,na,male,66,caucasian,smoker,50,"nodule size, mm: 46",4,no,na,no,yes,whole blood
+-,GSM4003253,"Whole blood, MN.H.CCHS_1080.pre.1",Whole blood,CCHS_1080,1,MN,HFGCC,adenocarcinoma,na,male,44,caucasian,quit,60,"nodule size, mm: 40",4,no,na,no,yes,whole blood
+-,GSM4003254,"Whole blood, MN.H.CCHS_1081.pre.1",Whole blood,CCHS_1081,1,MN,HFGCC,adenocarcinoma,na,female,75,caucasian,smoker,90,"nodule size, mm: 9",1,no,na,yes,no,whole blood
+-,GSM4003255,"Whole blood, MN.H.CCHS_1082.pre.1",Whole blood,CCHS_1082,1,MN,HFGCC,adenocarcinoma,na,female,54,caucasian,quit,28.5,"nodule size, mm: 12",3,no,na,no,yes,whole blood
+-,GSM4003256,"Whole blood, MN.H.CCHS_1083.pre.1",Whole blood,CCHS_1083,1,MN,HFGCC,adenocarcinoma,na,female,66,caucasian,quit,30,"nodule size, mm: 25",4,no,na,no,yes,whole blood
+-,GSM4003257,"Whole blood, MN.H.CCHS_1084.pre.1",Whole blood,CCHS_1084,1,MN,HFGCC,squamous cell carcinoma,na,female,88,caucasian,smoker,75,"nodule size, mm: 17",1,no,na,yes,no,whole blood
+-,GSM4003258,"Whole blood, MN.H.CCHS_1085.pre.1",Whole blood,CCHS_1085,1,MN,HFGCC,other non-small cell,na,female,60,caucasian,quit,20,"nodule size, mm: 65",4,no,na,no,yes,whole blood
+-,GSM4003259,"Whole blood, BN.H.CCHS_2017.pre.1",Whole blood,CCHS_2017,1,BN,HFGCC,na,na,female,74,caucasian,quit,26,"nodule size, mm: 22",na,no,na,no,no,whole blood
+-,GSM4003260,"Whole blood, BN.H.CCHS_2018.pre.1",Whole blood,CCHS_2018,1,BN,HFGCC,na,na,female,65,caucasian,quit,24,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003261,"Whole blood, MN.H.CCHS_1033.post.217",Whole blood,CCHS_1033,1,MN,HFGCC,squamous cell carcinoma,na,female,59,caucasian,quit,30,"nodule size, mm: 71",4,yes,217,no,no,whole blood
+-,GSM4003262,"Whole blood, MN.H.CCHS_1048.post.152",Whole blood,CCHS_1048,1,MN,HFGCC,other non-small cell,na,male,79,caucasian,quit,45,"nodule size, mm: 19",3,yes,152,no,no,whole blood
+-,GSM4003263,"Whole blood, MN.H.CCHS_1077.pre.1",Whole blood,CCHS_1077,1,MN,HFGCC,squamous cell carcinoma,na,female,58,african american,smoker,47,"nodule size, mm: 35",3,no,na,yes,no,whole blood
+-,GSM4003264,"Whole blood, MN.H.CCHS_1086.pre.1",Whole blood,CCHS_1086,1,MN,HFGCC,adenocarcinoma,na,male,57,caucasian,quit,120,"nodule size, mm: 14",1,no,na,yes,no,whole blood
+-,GSM4003265,"Whole blood, MN.H.CCHS_1087.pre.1",Whole blood,CCHS_1087,1,MN,HFGCC,squamous cell carcinoma,na,female,76,caucasian,quit,25,"nodule size, mm: 20",1,no,na,no,yes,whole blood
+-,GSM4003266,"Whole blood, MN.H.CCHS_1088.pre.1",Whole blood,CCHS_1088,1,MN,HFGCC,adenocarcinoma,na,male,76,caucasian,quit,43,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003267,"Whole blood, MN.H.CCHS_1089.pre.1",Whole blood,CCHS_1089,1,MN,HFGCC,squamous cell carcinoma,na,male,74,caucasian,smoker,90,"nodule size, mm: 30",1,no,na,no,yes,whole blood
+-,GSM4003268,"Whole blood, MN.H.CCHS_1090.pre.1",Whole blood,CCHS_1090,1,MN,HFGCC,squamous cell carcinoma,na,female,81,caucasian,quit,51,"nodule size, mm: 71",3,no,na,yes,no,whole blood
+-,GSM4003269,"Whole blood, MN.H.CCHS_1091.pre.1",Whole blood,CCHS_1091,1,MN,HFGCC,small cell carcinoma,na,male,69,african american,smoker,82.5,"nodule size, mm: 47",na,no,na,yes,no,whole blood
+-,GSM4003270,"Whole blood, MN.H.CCHS_1092.pre.1",Whole blood,CCHS_1092,1,MN,HFGCC,small cell carcinoma,na,male,51,caucasian,quit,84,"nodule size, mm: 20",na,no,na,yes,no,whole blood
+-,GSM4003271,"Whole blood, MN.H.CCHS_1093.pre.1",Whole blood,CCHS_1093,1,MN,HFGCC,squamous cell carcinoma,na,male,77,caucasian,quit,90,"nodule size, mm: 12",1,no,na,yes,no,whole blood
+-,GSM4003272,"Whole blood, BN.H.CCHS_2019.pre.1",Whole blood,CCHS_2019,1,BN,HFGCC,na,na,female,53,african american,smoker,35,"nodule size, mm: 7",na,no,na,yes,no,whole blood
+-,GSM4003273,"Whole blood, NN.H.CCHS_3007.pre.1",Whole blood,CCHS_3007,1,NN,HFGCC,na,na,male,71,caucasian,quit,53,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003274,"Whole blood, BN.H.CCHS_3008.pre.1",Whole blood,CCHS_3008,1,BN,HFGCC,na,ground glass opacity,female,69,caucasian,quit,24.5,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003275,"Whole blood, MN.H.CCHS_1006.post.305",Whole blood,CCHS_1006,1,MN,HFGCC,squamous cell carcinoma,na,male,63,other,quit,90,"nodule size, mm: 4",2,yes,305,no,no,whole blood
+-,GSM4003276,"Whole blood, MN.H.CCHS_1031.post.195",Whole blood,CCHS_1031,1,MN,HFGCC,squamous cell carcinoma,na,male,79,caucasian,quit,40,"nodule size, mm: 15",1,yes,195,no,no,whole blood
+-,GSM4003277,"Whole blood, MN.H.CCHS_1094.pre.1",Whole blood,CCHS_1094,1,MN,HFGCC,other non-small cell,na,male,63,caucasian,quit,33,"nodule size, mm: 65",3,no,na,yes,no,whole blood
+-,GSM4003278,"Whole blood, MN.H.CCHS_1095.pre.1",Whole blood,CCHS_1095,1,MN,HFGCC,adenocarcinoma,na,female,66,caucasian,smoker,50,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003279,"Whole blood, MN.H.CCHS_1096.pre.1",Whole blood,CCHS_1096,1,MN,HFGCC,adenocarcinoma,na,female,59,caucasian,quit,21.5,"nodule size, mm: 16",1,no,na,yes,no,whole blood
+-,GSM4003280,"Whole blood, MN.H.CCHS_2020.pre.1",Whole blood,CCHS_2020,1,MN,HFGCC,squamous cell carcinoma,na,female,58,african american,smoker,40,"nodule size, mm: 9",1,no,na,no,yes,whole blood
+-,GSM4003281,"Whole blood, BN.H.CCHS_3009.pre.1",Whole blood,CCHS_3009,1,BN,HFGCC,na,ground glass opacity,female,57,caucasian,smoker,48,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003282,"Whole blood, MN.H.CCHS_1054.post.233",Whole blood,CCHS_1054,1,MN,HFGCC,adenocarcinoma,na,female,81,caucasian,quit,135,"nodule size, mm: 34",1,yes,233,no,no,whole blood
+-,GSM4003283,"Whole blood, MN.H.CCHS_1036.post.233",Whole blood,CCHS_1036,1,MN,HFGCC,small cell carcinoma,na,female,54,caucasian,quit,30,"nodule size, mm: 18",na,yes,233,no,no,whole blood
+-,GSM4003284,"Whole blood, MN.H.CCHS_1044.post.194",Whole blood,CCHS_1044,1,MN,HFGCC,squamous cell carcinoma,na,male,81,caucasian,quit,12.5,"nodule size, mm: na",1,yes,194,no,no,whole blood
+-,GSM4003285,"Whole blood, BN.H.CCHS_2023.pre.1",Whole blood,CCHS_2023,1,BN,HFGCC,na,na,male,50,other,smoker,40,"nodule size, mm: 31",na,no,na,yes,no,whole blood
+-,GSM4003286,"Whole blood, MN.H.CCHS_1107.pre.1",Whole blood,CCHS_1107,1,MN,HFGCC,adenocarcinoma,na,female,74,caucasian,quit,36,"nodule size, mm: 17",1,no,na,no,yes,whole blood
+-,GSM4003287,"Whole blood, MN.H.CCHS_1027.post.272",Whole blood,CCHS_1027,1,MN,HFGCC,adenocarcinoma,na,female,58,other,never,0,"nodule size, mm: 22",4,yes,272,no,no,whole blood
+-,GSM4003288,"Whole blood, MN.H.CCHS_1046.post.180",Whole blood,CCHS_1046,1,MN,HFGCC,small cell carcinoma,na,male,57,caucasian,smoker,176,"nodule size, mm: na",4,yes,180,no,no,whole blood
+-,GSM4003289,"Whole blood, BN.H.CCHS_3010.pre.1",Whole blood,CCHS_3010,1,BN,HFGCC,na,ground glass opacity,female,69,caucasian,quit,43,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003290,"Whole blood, MN.H.CCHS_1043.post.194",Whole blood,CCHS_1043,1,MN,HFGCC,adenocarcinoma,na,female,51,caucasian,quit,2,"nodule size, mm: na",1,yes,194,no,no,whole blood
+-,GSM4003291,"Whole blood, BN.H.CCHS_2021.pre.1",Whole blood,CCHS_2021,1,BN,HFGCC,na,na,male,55,african american,smoker,41,"nodule size, mm: 8",na,no,na,no,yes,whole blood
+-,GSM4003292,"Whole blood, MN.H.CCHS_1105.pre.1",Whole blood,CCHS_1105,1,MN,HFGCC,squamous cell carcinoma,na,male,65,caucasian,smoker,48,"nodule size, mm: 8",1,no,na,yes,no,whole blood
+-,GSM4003293,"Whole blood, MN.H.CCHS_1102.pre.1",Whole blood,CCHS_1102,1,MN,HFGCC,adenocarcinoma,na,male,60,caucasian,smoker,50,"nodule size, mm: 38",2,no,na,no,yes,whole blood
+-,GSM4003294,"Whole blood, MN.H.CCHS_1100.pre.1",Whole blood,CCHS_1100,1,MN,HFGCC,adenocarcinoma,na,female,79,caucasian,quit,106,"nodule size, mm: 21",1,no,na,yes,no,whole blood
+-,GSM4003295,"Whole blood, MN.H.CCHS_1098.pre.1",Whole blood,CCHS_1098,1,MN,HFGCC,adenocarcinoma,na,female,83,other,quit,36.5,"nodule size, mm: 32",4,no,na,yes,no,whole blood
+-,GSM4003296,"Whole blood, MN.H.CCHS_1101.pre.1",Whole blood,CCHS_1101,1,MN,HFGCC,adenocarcinoma,na,female,72,caucasian,quit,13.475,"nodule size, mm: 52",1,no,na,yes,no,whole blood
+-,GSM4003297,"Whole blood, MN.H.CCHS_1104.pre.1",Whole blood,CCHS_1104,1,MN,HFGCC,squamous cell carcinoma,na,male,66,caucasian,smoker,84,"nodule size, mm: 19",1,no,na,yes,no,whole blood
+-,GSM4003298,"Whole blood, MN.H.CCHS_1099.pre.1",Whole blood,CCHS_1099,1,MN,HFGCC,other non-small cell,na,female,67,african american,smoker,11,"nodule size, mm: 52",4,no,na,yes,no,whole blood
+-,GSM4003299,"Whole blood, MN.H.CCHS_1103.pre.1",Whole blood,CCHS_1103,1,MN,HFGCC,adenocarcinoma,na,female,76,caucasian,smoker,118,"nodule size, mm: 31",1,no,na,no,yes,whole blood
+-,GSM4003300,"Whole blood, MN.H.CCHS_1097.pre.1",Whole blood,CCHS_1097,1,MN,HFGCC,other non-small cell,na,male,57,caucasian,smoker,62,"nodule size, mm: 51",3,no,na,no,yes,whole blood
+-,GSM4003301,"Whole blood, BN.H.CCHS_2022.pre.1",Whole blood,CCHS_2022,1,BN,HFGCC,na,na,male,65,african american,quit,18,"nodule size, mm: 17",na,no,na,no,yes,whole blood
+-,GSM4003302,"Whole blood, MN.H.CCHS_1108.pre.1",Whole blood,CCHS_1108,1,MN,HFGCC,squamous cell carcinoma,na,male,53,caucasian,smoker,74,"nodule size, mm: 65",3,no,na,no,yes,whole blood
+-,GSM4003303,"Whole blood, BN.H.CCHS_2024.pre.1",Whole blood,CCHS_2024,1,BN,HFGCC,na,na,female,45,caucasian,smoker,14.5,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003304,"Whole blood, BN.H.CCHS_3011.pre.1",Whole blood,CCHS_3011,1,BN,HFGCC,na,na,male,72,caucasian,quit,43,"nodule size, mm: 13",na,no,na,no,yes,whole blood
+-,GSM4003305,"Whole blood, MN.H.CCHS_1052.post.215",Whole blood,CCHS_1052,1,MN,HFGCC,squamous cell carcinoma,na,male,63,caucasian,smoker,92,"nodule size, mm: na",2,yes,215,no,no,whole blood
+-,GSM4003306,"Whole blood, MN.H.CCHS_1055.post.204",Whole blood,CCHS_1055,1,MN,HFGCC,squamous cell carcinoma,na,male,46,caucasian,smoker,30,"nodule size, mm: 10",3,yes,204,no,no,whole blood
+-,GSM4003307,"Whole blood, MN.H.CCHS_1071.post.201",Whole blood,CCHS_1071,1,MN,HFGCC,adenocarcinoma,na,male,76,caucasian,quit,30,"nodule size, mm: 4",1,yes,201,no,no,whole blood
+-,GSM4003308,"Whole blood, MN.H.CCHS_1073.pre.1",Whole blood,CCHS_1073,1,MN,HFGCC,adenocarcinoma,na,female,71,caucasian,never,0,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003309,"Whole blood, MN.H.CCHS_1109.pre.1",Whole blood,CCHS_1109,1,MN,HFGCC,squamous cell carcinoma,na,male,89,caucasian,quit,20,"nodule size, mm: 41",3,no,na,yes,no,whole blood
+-,GSM4003310,"Whole blood, MN.H.CCHS_1110.pre.1",Whole blood,CCHS_1110,1,MN,HFGCC,adenocarcinoma,na,female,72,caucasian,smoker,58,"nodule size, mm: 18",1,no,na,yes,no,whole blood
+-,GSM4003311,"Whole blood, MN.H.CCHS_4001.pre.1",Whole blood,CCHS_4001,1,MN,HFGCC,squamous cell carcinoma,na,female,73,caucasian,quit,40,"nodule size, mm: 35",1,no,na,yes,no,whole blood
+-,GSM4003312,"Whole blood, MN.H.CCHS_4002.pre.1",Whole blood,CCHS_4002,1,MN,HFGCC,adenocarcinoma,na,female,77,african american,quit,22.5,"nodule size, mm: 29",1,no,na,yes,no,whole blood
+-,GSM4003313,"Whole blood, MN.H.CCHS_4003.pre.1",Whole blood,CCHS_4003,1,MN,HFGCC,adenocarcinoma,na,male,73,caucasian,smoker,25,"nodule size, mm: 19",1,no,na,yes,no,whole blood
+-,GSM4003314,"Whole blood, BN.H.CCHS_5001.pre.1",Whole blood,CCHS_5001,1,BN,HFGCC,na,na,male,76,caucasian,quit,18,"nodule size, mm: 4",na,no,na,no,yes,whole blood
+-,GSM4003315,"Whole blood, NN.H.CCHS_6001.pre.1",Whole blood,CCHS_6001,1,NN,HFGCC,na,na,male,58,caucasian,smoker,46,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003316,"Whole blood, NN.H.CCHS_6002.pre.1",Whole blood,CCHS_6002,1,NN,HFGCC,na,na,male,49,caucasian,smoker,37.5,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003317,"Whole blood, BN.H.CCHS_6003.pre.1",Whole blood,CCHS_6003,1,BN,HFGCC,na,na,female,71,african american,quit,75,"nodule size, mm: 7",na,no,na,yes,no,whole blood
+-,GSM4003318,"Whole blood, BN.H.CCHS_6004.pre.1",Whole blood,CCHS_6004,1,BN,HFGCC,na,na,female,62,caucasian,smoker,30,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003319,"Whole blood, NN.H.CCHS_6005.pre.1",Whole blood,CCHS_6005,1,NN,HFGCC,na,na,female,78,african american,smoker,16.5,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003320,"Whole blood, BN.H.CCHS_6006.pre.1",Whole blood,CCHS_6006,1,BN,HFGCC,na,ground glass opacity,male,82,caucasian,quit,90,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003321,"Whole blood, NN.H.CCHS_6007.pre.1",Whole blood,CCHS_6007,1,NN,HFGCC,na,na,female,74,caucasian,quit,76,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003322,"Whole blood, NN.H.CCHS_6008.pre.1",Whole blood,CCHS_6008,1,NN,HFGCC,na,na,male,73,african american,quit,20,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003323,"Whole blood, BN.H.CCHS_6009.pre.1",Whole blood,CCHS_6009,1,BN,HFGCC,na,na,female,70,caucasian,smoker,56,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003324,"Whole blood, BN.H.CCHS_6010.pre.1",Whole blood,CCHS_6010,1,BN,HFGCC,na,na,female,74,caucasian,smoker,58,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003325,"Whole blood, NN.H.CCHS_6011.pre.1",Whole blood,CCHS_6011,1,NN,HFGCC,na,na,male,72,caucasian,quit,56,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003326,"Whole blood, BN.H.CCHS_6012.pre.1",Whole blood,CCHS_6012,1,BN,HFGCC,na,na,female,68,caucasian,quit,45,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003327,"Whole blood, NN.H.CCHS_6013.pre.1",Whole blood,CCHS_6013,1,NN,HFGCC,na,na,female,66,caucasian,quit,40,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003328,"Whole blood, MN.H.CCHS_1106.pre.1",Whole blood,CCHS_1106,1,MN,HFGCC,small cell carcinoma,na,male,69,caucasian,smoker,104,"nodule size, mm: 15",3,no,na,no,yes,whole blood
+-,GSM4003329,"Whole blood, MN.H.CCHS_1111.pre.1",Whole blood,CCHS_1111,1,MN,HFGCC,adenocarcinoma,na,male,63,african american,smoker,48,"nodule size, mm: 22",1,no,na,yes,no,whole blood
+-,GSM4003330,"Whole blood, MN.H.CCHS_4004.pre.1",Whole blood,CCHS_4004,1,MN,HFGCC,squamous cell carcinoma,na,male,65,caucasian,smoker,49,"nodule size, mm: 21",2,no,na,yes,no,whole blood
+-,GSM4003331,"Whole blood, NN.H.CCHS_6014.pre.1",Whole blood,CCHS_6014,1,NN,HFGCC,na,na,female,77,caucasian,quit,48,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003332,"Whole blood, NN.H.CCHS_6015.pre.1",Whole blood,CCHS_6015,1,NN,HFGCC,na,na,male,55,caucasian,quit,68,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003333,"Whole blood, NN.H.CCHS_6016.pre.1",Whole blood,CCHS_6016,1,NN,HFGCC,na,na,female,68,caucasian,quit,42,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003334,"Whole blood, MN.H.CCHS_1085.post.176",Whole blood,CCHS_1085,1,MN,HFGCC,other non-small cell,na,female,60,caucasian,quit,20,"nodule size, mm: na",4,yes,176,no,no,whole blood
+-,GSM4003335,"Whole blood, MN.H.CCHS_1112.pre.1",Whole blood,CCHS_1112,1,MN,HFGCC,other non-small cell,na,female,64,caucasian,smoker,48,"nodule size, mm: 26",3,no,na,no,yes,whole blood
+-,GSM4003336,"Whole blood, MN.H.CCHS_4005.pre.1",Whole blood,CCHS_4005,1,MN,HFGCC,small cell carcinoma,na,male,72,caucasian,quit,80,"nodule size, mm: 67",na,no,na,yes,no,whole blood
+-,GSM4003337,"Whole blood, MN.H.CCHS_4006.pre.1",Whole blood,CCHS_4006,1,MN,HFGCC,other non-small cell,na,female,76,caucasian,smoker,61,"nodule size, mm: na",4,no,na,no,yes,whole blood
+-,GSM4003338,"Whole blood, MN.H.CCHS_4009.pre.1",Whole blood,CCHS_4009,1,MN,HFGCC,squamous cell carcinoma,na,female,59,african american,smoker,50,"nodule size, mm: 18",1,no,na,no,yes,whole blood
+-,GSM4003339,"Whole blood, BN.H.CCHS_5002.pre.1",Whole blood,CCHS_5002,1,BN,HFGCC,na,granuloma,male,62,african american,smoker,43,"nodule size, mm: 15",na,no,na,no,yes,whole blood
+-,GSM4003340,"Whole blood, MN.H.CCHS_4008.pre.1",Whole blood,CCHS_4008,1,MN,HFGCC,adenocarcinoma,na,male,na,other,na,0,"nodule size, mm: 36",4,no,na,no,yes,whole blood
+-,GSM4003341,"Whole blood, MN.H.CCHS_4010.pre.1",Whole blood,CCHS_4010,1,MN,HFGCC,adenocarcinoma,na,female,82,african american,quit,41,"nodule size, mm: 39",2,no,na,yes,no,whole blood
+-,GSM4003342,"Whole blood, MN.H.CCHS_4011.pre.1",Whole blood,CCHS_4011,1,MN,HFGCC,adenocarcinoma,na,female,67,caucasian,quit,50,"nodule size, mm: 27",2,no,na,yes,no,whole blood
+-,GSM4003343,"Whole blood, MN.H.CCHS_4012.pre.1",Whole blood,CCHS_4012,1,MN,HFGCC,other non-small cell,na,female,62,caucasian,quit,30,"nodule size, mm: 17",1,no,na,yes,no,whole blood
+-,GSM4003344,"Whole blood, MN.H.CCHS_4013.pre.1",Whole blood,CCHS_4013,1,MN,HFGCC,adenocarcinoma,na,female,59,african american,quit,19.5,"nodule size, mm: 19",1,no,na,yes,no,whole blood
+-,GSM4003345,"Whole blood, NN.H.CCHS_6017.pre.1",Whole blood,CCHS_6017,1,NN,HFGCC,na,na,female,63,caucasian,smoker,73.65,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003346,"Whole blood, BN.H.CCHS_6018.pre.1",Whole blood,CCHS_6018,1,BN,HFGCC,na,granuloma,male,77,african american,quit,78,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003347,"Whole blood, MN.H.CCHS_1056.post.342",Whole blood,CCHS_1056,1,MN,HFGCC,squamous cell carcinoma,na,male,62,caucasian,quit,27,"nodule size, mm: 31",3,yes,342,no,no,whole blood
+-,GSM4003348,"Whole blood, MN.H.CCHS_1066.post.344",Whole blood,CCHS_1066,1,MN,HFGCC,adenocarcinoma,na,female,68,caucasian,smoker,46,"nodule size, mm: 6",1,yes,344,no,no,whole blood
+-,GSM4003349,"Whole blood, MN.H.CCHS_1091.post.210",Whole blood,CCHS_1091,1,MN,HFGCC,small cell carcinoma,na,male,70,african american,smoker,84,"nodule size, mm: na",na,yes,210,no,no,whole blood
+-,GSM4003350,"Whole blood, MN.H.CCHS_1103.post.177",Whole blood,CCHS_1103,1,MN,HFGCC,adenocarcinoma,na,female,76,caucasian,smoker,118,"nodule size, mm: na",1,yes,177,no,no,whole blood
+-,GSM4003351,"Whole blood, MN.H.CCHS_4014.pre.1",Whole blood,CCHS_4014,1,MN,HFGCC,adenocarcinoma,na,female,68,caucasian,quit,35,"nodule size, mm: 24",2,no,na,yes,no,whole blood
+-,GSM4003352,"Whole blood, MN.H.CCHS_4015.pre.1",Whole blood,CCHS_4015,1,MN,HFGCC,adenocarcinoma,na,female,69,caucasian,never,0,"nodule size, mm: 24",3,no,na,yes,no,whole blood
+-,GSM4003353,"Whole blood, MN.H.CCHS_4016.pre.1",Whole blood,CCHS_4016,1,MN,HFGCC,adenocarcinoma,na,female,64,caucasian,quit,38,"nodule size, mm: 23",1,no,na,yes,no,whole blood
+-,GSM4003354,"Whole blood, MN.H.CCHS_4017.pre.1",Whole blood,CCHS_4017,1,MN,HFGCC,adenocarcinoma,na,female,47,caucasian,smoker,68,"nodule size, mm: 48",2,no,na,yes,no,whole blood
+-,GSM4003355,"Whole blood, NN.H.CCHS_6019.pre.1",Whole blood,CCHS_6019,1,NN,HFGCC,na,na,male,52,caucasian,smoker,43.5,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003356,"Whole blood, NN.H.CCHS_6020.pre.1",Whole blood,CCHS_6020,1,NN,HFGCC,na,na,female,69,caucasian,quit,48,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003357,"Whole blood, NN.H.CCHS_6021.pre.1",Whole blood,CCHS_6021,1,NN,HFGCC,na,na,female,78,caucasian,smoker,30,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003358,"Whole blood, MN.H.CCHS_1107.post.192",Whole blood,CCHS_1107,1,MN,HFGCC,adenocarcinoma,na,female,75,caucasian,quit,36,"nodule size, mm: na",1,yes,192,no,no,whole blood
+-,GSM4003359,"Whole blood, MN.H.CCHS_4018.pre.1",Whole blood,CCHS_4018,1,MN,HFGCC,squamous cell carcinoma,na,male,71,caucasian,quit,33,"nodule size, mm: 25",1,no,na,yes,no,whole blood
+-,GSM4003360,"Whole blood, MN.H.CCHS_4019.pre.1",Whole blood,CCHS_4019,1,MN,HFGCC,squamous cell carcinoma,na,female,73,caucasian,quit,57,"nodule size, mm: 6",4,no,na,yes,no,whole blood
+-,GSM4003361,"Whole blood, MN.H.CCHS_4020.pre.1",Whole blood,CCHS_4020,1,MN,HFGCC,squamous cell carcinoma,na,female,93,caucasian,quit,36,"nodule size, mm: 29",1,no,na,yes,no,whole blood
+-,GSM4003362,"Whole blood, MN.H.CCHS_4021.pre.1",Whole blood,CCHS_4021,1,MN,HFGCC,adenocarcinoma,na,female,68,caucasian,quit,40,"nodule size, mm: 14",1,no,na,yes,no,whole blood
+-,GSM4003363,"Whole blood, MN.H.CCHS_4022.pre.1",Whole blood,CCHS_4022,1,MN,HFGCC,adenocarcinoma,na,male,71,caucasian,smoker,93,"nodule size, mm: 8",1,no,na,yes,no,whole blood
+-,GSM4003364,"Whole blood, MN.H.CCHS_4023.pre.1",Whole blood,CCHS_4023,1,MN,HFGCC,adenocarcinoma,na,female,53,caucasian,quit,40,"nodule size, mm: 20.1",1,no,na,yes,no,whole blood
+-,GSM4003365,"Whole blood, BN.H.CCHS_6022.pre.1",Whole blood,CCHS_6022,1,BN,HFGCC,na,granuloma,female,71,caucasian,quit,43,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003366,"Whole blood, NN.H.CCHS_6023.pre.1",Whole blood,CCHS_6023,1,NN,HFGCC,na,na,female,81,caucasian,quit,35,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003367,"Whole blood, NN.H.CCHS_6024.pre.1",Whole blood,CCHS_6024,1,NN,HFGCC,na,na,female,26,caucasian,quit,15,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003368,"Whole blood, BN.H.CCHS_6025.pre.1",Whole blood,CCHS_6025,1,BN,HFGCC,na,na,male,65,caucasian,quit,100,"nodule size, mm: 17",na,no,na,yes,no,whole blood
+-,GSM4003369,"Whole blood, NN.H.CCHS_6026.pre.1",Whole blood,CCHS_6026,1,NN,HFGCC,na,na,male,85,caucasian,quit,34,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003370,"Whole blood, NN.H.CCHS_6027.pre.1",Whole blood,CCHS_6027,1,NN,HFGCC,na,na,male,60,caucasian,quit,43,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003371,"Whole blood, NN.H.CCHS_6028.pre.1",Whole blood,CCHS_6028,1,NN,HFGCC,na,na,male,78,caucasian,quit,21,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003372,"Whole blood, BN.H.CCHS_6029.pre.1",Whole blood,CCHS_6029,1,BN,HFGCC,na,na,male,55,caucasian,smoker,34,"nodule size, mm: 3",na,no,na,yes,no,whole blood
+-,GSM4003373,"Whole blood, NN.H.CCHS_6030.pre.1",Whole blood,CCHS_6030,1,NN,HFGCC,na,na,female,61,caucasian,quit,64,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003374,"Whole blood, NN.H.CCHS_6031.pre.1",Whole blood,CCHS_6031,1,NN,HFGCC,na,na,female,77,caucasian,quit,45,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003375,"Whole blood, BN.H.CCHS_6032.pre.1",Whole blood,CCHS_6032,1,BN,HFGCC,na,na,male,89,caucasian,quit,122,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003376,"Whole blood, NN.H.CCHS_6033.pre.1",Whole blood,CCHS_6033,1,NN,HFGCC,na,na,male,57,caucasian,quit,51,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003377,"Whole blood, NN.H.CCHS_6034.pre.1",Whole blood,CCHS_6034,1,NN,HFGCC,na,na,female,58,caucasian,quit,100,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003378,"Whole blood, BN.H.CCHS_6035.pre.1",Whole blood,CCHS_6035,1,BN,HFGCC,na,na,female,67,caucasian,quit,47,"nodule size, mm: 9",na,no,na,yes,no,whole blood
+-,GSM4003379,"Whole blood, NN.H.CCHS_6036.pre.1",Whole blood,CCHS_6036,1,NN,HFGCC,na,na,female,58,caucasian,quit,33,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003380,"Whole blood, BN.H.CCHS_6037.pre.1",Whole blood,CCHS_6037,1,BN,HFGCC,na,na,male,72,caucasian,quit,63,"nodule size, mm: 11",na,no,na,yes,no,whole blood
+-,GSM4003381,"Whole blood, MN.H.CCHS_4007.pre.1",Whole blood,CCHS_4007,1,MN,HFGCC,adenocarcinoma,na,male,73,other,never,0,"nodule size, mm: 27",1,no,na,yes,no,whole blood
+-,GSM4003382,"Whole blood, MN.H.CCHS_4024.pre.1",Whole blood,CCHS_4024,1,MN,HFGCC,other non-small cell,na,male,71,caucasian,quit,96,"nodule size, mm: 80",4,no,na,yes,no,whole blood
+-,GSM4003383,"Whole blood, MN.H.CCHS_4025.pre.1",Whole blood,CCHS_4025,1,MN,HFGCC,na,na,female,63,caucasian,smoker,70,"nodule size, mm: na",1,no,na,no,yes,whole blood
+-,GSM4003384,"Whole blood, MN.H.CCHS_5003.post.0",Whole blood,CCHS_5003,1,MN,HFGCC,adenocarcinoma,na,female,66,caucasian,quit,66,"nodule size, mm: 23",na,yes,0,no,no,whole blood
+-,GSM4003385,"Whole blood, BN.H.CCHS_5004.pre.1",Whole blood,CCHS_5004,1,BN,HFGCC,na,solid/ground glass opacity,female,71,caucasian,quit,26,"nodule size, mm: 18",na,no,na,yes,no,whole blood
+-,GSM4003386,"Whole blood, BN.H.CCHS_5005.pre.1",Whole blood,CCHS_5005,1,BN,HFGCC,na,granuloma,male,86,caucasian,quit,25,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003387,"Whole blood, NN.H.CCHS_6038.pre.1",Whole blood,CCHS_6038,1,NN,HFGCC,na,na,female,70,caucasian,quit,50,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003388,"Whole blood, NN.H.CCHS_6039.pre.1",Whole blood,CCHS_6039,1,NN,HFGCC,na,na,male,82,caucasian,quit,60,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003389,"Whole blood, MN.H.CCHS_1073.post.197",Whole blood,CCHS_1073,1,MN,HFGCC,adenocarcinoma,na,female,72,caucasian,never,0,"nodule size, mm: 15",1,yes,197,no,no,whole blood
+-,GSM4003390,"Whole blood, MN.H.CCHS_4002.post.188",Whole blood,CCHS_4002,1,MN,HFGCC,adenocarcinoma,na,female,78,african american,quit,22.5,"nodule size, mm: 9",1,yes,188,no,no,whole blood
+-,GSM4003391,"Whole blood, MN.H.CCHS_4026.pre.1",Whole blood,CCHS_4026,1,MN,HFGCC,small cell carcinoma,na,male,62,caucasian,smoker,0,"nodule size, mm: 10.8",4,no,na,no,yes,whole blood
+-,GSM4003392,"Whole blood, BN.H.CCHS_6040.pre.1",Whole blood,CCHS_6040,1,BN,HFGCC,na,na,male,77,african american,quit,50,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003393,"Whole blood, MN.H.CCHS_1086.post.351",Whole blood,CCHS_1086,1,MN,HFGCC,adenocarcinoma,na,male,58,caucasian,quit,120,"nodule size, mm: na",1,yes,351,no,no,whole blood
+-,GSM4003394,"Whole blood, MN.H.CCHS_1093.post.343",Whole blood,CCHS_1093,1,MN,HFGCC,squamous cell carcinoma,na,male,78,caucasian,quit,90,"nodule size, mm: 3",1,yes,343,no,no,whole blood
+-,GSM4003395,"Whole blood, MN.H.CCHS_1096.post.326",Whole blood,CCHS_1096,1,MN,HFGCC,adenocarcinoma,na,female,60,caucasian,quit,21.5,"nodule size, mm: na",1,yes,326,no,no,whole blood
+-,GSM4003396,"Whole blood, MN.H.CCHS_1100.post.303",Whole blood,CCHS_1100,1,MN,HFGCC,adenocarcinoma,na,female,79,caucasian,quit,106,"nodule size, mm: 34",1,yes,303,no,no,whole blood
+-,GSM4003397,"Whole blood, MN.H.CCHS_1101.post.304",Whole blood,CCHS_1101,1,MN,HFGCC,adenocarcinoma,na,female,73,caucasian,quit,13.475,"nodule size, mm: na",1,yes,304,no,no,whole blood
+-,GSM4003398,"Whole blood, MN.H.CCHS_1105.post.349",Whole blood,CCHS_1105,1,MN,HFGCC,squamous cell carcinoma,na,male,66,caucasian,smoker,49,"nodule size, mm: na",1,yes,349,no,no,whole blood
+-,GSM4003399,"Whole blood, MN.H.CCHS_1112.post.198",Whole blood,CCHS_1112,1,MN,HFGCC,other non-small cell,na,female,65,caucasian,smoker,49,"nodule size, mm: na",3,yes,198,no,no,whole blood
+-,GSM4003400,"Whole blood, MN.H.CCHS_4001.post.0",Whole blood,CCHS_4001,1,MN,HFGCC,squamous cell carcinoma,na,female,74,caucasian,quit,40,"nodule size, mm: na",1,yes,0,no,no,whole blood
+-,GSM4003401,"Whole blood, MN.H.CCHS_4010.post.152",Whole blood,CCHS_4010,1,MN,HFGCC,adenocarcinoma,na,female,83,african american,quit,41,"nodule size, mm: na",2,yes,152,no,no,whole blood
+-,GSM4003402,"Whole blood, MN.U.20048.pre.1",Whole blood,20048,1,MN,UPenn,adenocarcinoma,na,female,76,caucasian,smoker,0,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003403,"Whole blood, MN.U.20052.pre.1",Whole blood,20052,1,MN,UPenn,adenocarcinoma,na,male,73,caucasian,quit,0,"nodule size, mm: na",1,no,na,no,yes,whole blood
+-,GSM4003404,"Whole blood, MN.U.20054.pre.1",Whole blood,20054,1,MN,UPenn,adenocarcinoma,na,male,69,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003405,"Whole blood, MN.U.20059.pre.1",Whole blood,20059,1,MN,UPenn,adenocarcinoma,na,male,68,caucasian,quit,0,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003406,"Whole blood, MN.U.20060.pre.1",Whole blood,20060,1,MN,UPenn,adenocarcinoma,na,male,58,caucasian,quit,0,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003407,"Whole blood, MN.U.20061.pre.1",Whole blood,20061,1,MN,UPenn,adenocarcinoma,na,female,72,caucasian,quit,0,"nodule size, mm: na",2,no,na,no,yes,whole blood
+-,GSM4003408,"Whole blood, BN.U.20063.pre.1",Whole blood,20063,1,BN,UPenn,na,granuloma,female,61,caucasian,quit,0,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003409,"Whole blood, MN.U.20067.pre.1",Whole blood,20067,1,MN,UPenn,adenocarcinoma,na,male,83,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003410,"Whole blood, MN.U.20069.pre.1",Whole blood,20069,1,MN,UPenn,adenocarcinoma,na,male,77,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003411,"Whole blood, MN.U.20273.pre.1",Whole blood,20273,1,MN,UPenn,adenocarcinoma,na,female,80,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003412,"Whole blood, BN.U.20277.pre.1",Whole blood,20277,1,BN,UPenn,na,granuloma,male,45,caucasian,quit,0,"nodule size, mm: 11",na,no,na,yes,no,whole blood
+-,GSM4003413,"Whole blood, MN.U.20280.pre.1",Whole blood,20280,1,MN,UPenn,adenocarcinoma,na,female,72,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003414,"Whole blood, MN.U.20281.pre.1",Whole blood,20281,1,MN,UPenn,adenocarcinoma,na,female,68,caucasian,quit,0,"nodule size, mm: na",1,no,na,no,yes,whole blood
+-,GSM4003415,"Whole blood, BN.U.20282.pre.1",Whole blood,20282,1,BN,UPenn,na,na,female,74,caucasian,quit,0,"nodule size, mm: 16",na,no,na,yes,no,whole blood
+-,GSM4003416,"Whole blood, BN.U.20283.pre.1",Whole blood,20283,1,BN,UPenn,na,other,female,36,caucasian,quit,0,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003417,"Whole blood, MN.U.20288.pre.1",Whole blood,20288,1,MN,UPenn,adenocarcinoma,na,female,75,caucasian,quit,0,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003418,"Whole blood, BN.U.20290.pre.1",Whole blood,20290,1,BN,UPenn,na,other,male,69,caucasian,quit,0,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003419,"Whole blood, MN.U.20293.pre.1",Whole blood,20293,1,MN,UPenn,adenocarcinoma,na,male,85,caucasian,quit,0,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003420,"Whole blood, MN.U.20296.pre.1",Whole blood,20296,1,MN,UPenn,adenocarcinoma,na,male,72,caucasian,quit,0,"nodule size, mm: na",2,no,na,yes,no,whole blood
+-,GSM4003421,"Whole blood, BN.U.20302.pre.1",Whole blood,20302,1,BN,UPenn,na,granuloma,female,63,caucasian,quit,0,"nodule size, mm: 10",na,no,na,no,yes,whole blood
+-,GSM4003422,"Whole blood, MN.U.20304.pre.1",Whole blood,20304,1,MN,UPenn,adenocarcinoma,na,female,72,caucasian,quit,0,"nodule size, mm: na",4,no,na,no,yes,whole blood
+-,GSM4003423,"Whole blood, BN.U.20312.pre.1",Whole blood,20312,1,BN,UPenn,na,granuloma,male,69,caucasian,quit,0,"nodule size, mm: 20",na,no,na,no,yes,whole blood
+-,GSM4003424,"Whole blood, MN.U.20325.pre.1",Whole blood,20325,1,MN,UPenn,adenocarcinoma,na,female,64,caucasian,smoker,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003425,"Whole blood, MN.U.20333.pre.1",Whole blood,20333,1,MN,UPenn,adenocarcinoma,na,female,69,caucasian,quit,0,"nodule size, mm: na",2,no,na,yes,no,whole blood
+-,GSM4003426,"Whole blood, MN.U.20338.pre.1",Whole blood,20338,1,MN,UPenn,adenocarcinoma,na,female,50,caucasian,smoker,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003427,"Whole blood, MN.U.20340.pre.1",Whole blood,20340,1,MN,UPenn,adenocarcinoma,na,male,52,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003428,"Whole blood, MN.U.20342.pre.1",Whole blood,20342,1,MN,UPenn,adenocarcinoma,na,male,72,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003429,"Whole blood, MN.U.20369.pre.1",Whole blood,20369,1,MN,UPenn,adenocarcinoma,na,female,68,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003430,"Whole blood, MN.U.20376.pre.1",Whole blood,20376,1,MN,UPenn,adenocarcinoma,na,male,63,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003431,"Whole blood, MN.U.20377.pre.1",Whole blood,20377,1,MN,UPenn,adenocarcinoma,na,male,78,caucasian,quit,0,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003432,"Whole blood, MN.U.20380.pre.1",Whole blood,20380,1,MN,UPenn,adenocarcinoma,na,male,73,caucasian,quit,0,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003433,"Whole blood, MN.U.20390.pre.1",Whole blood,20390,1,MN,UPenn,adenocarcinoma,na,female,68,caucasian,quit,0,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003434,"Whole blood, BN.U.20392.pre.1",Whole blood,20392,1,BN,UPenn,na,granuloma,female,70,caucasian,quit,0,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003435,"Whole blood, BN.U.20403.pre.1",Whole blood,20403,1,BN,UPenn,na,granuloma,male,72,caucasian,quit,0,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003436,"Whole blood, BN.U.20414.pre.1",Whole blood,20414,1,BN,UPenn,na,granuloma,female,71,caucasian,quit,0,"nodule size, mm: 30",na,no,na,yes,no,whole blood
+-,GSM4003437,"Whole blood, BN.U.20468.pre.1",Whole blood,20468,1,BN,UPenn,na,granuloma,female,51,caucasian,quit,0,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003438,"Whole blood, BN.U.20475.pre.1",Whole blood,20475,1,BN,UPenn,na,granuloma,female,64,caucasian,quit,0,"nodule size, mm: 7",na,no,na,yes,no,whole blood
+-,GSM4003439,"Whole blood, NN.U.40122.pre.1",Whole blood,40122,1,NN,UPenn,na,na,female,58,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003440,"Whole blood, NN.U.40129.pre.1",Whole blood,40129,1,NN,UPenn,na,na,female,59,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003441,"Whole blood, NN.U.40130.pre.1",Whole blood,40130,1,NN,UPenn,na,na,female,55,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003442,"Whole blood, NN.U.40131.pre.1",Whole blood,40131,1,NN,UPenn,na,na,male,65,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003443,"Whole blood, NN.U.40138.pre.1",Whole blood,40138,1,NN,UPenn,na,na,male,54,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003444,"Whole blood, NN.U.40153.pre.1",Whole blood,40153,1,NN,UPenn,na,na,male,60,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003445,"Whole blood, NN.U.40162.pre.1",Whole blood,40162,1,NN,UPenn,na,na,male,54,caucasian,smoker,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003446,"Whole blood, NN.U.40167.pre.1",Whole blood,40167,1,NN,UPenn,na,na,female,61,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003447,"Whole blood, NN.U.40168.pre.1",Whole blood,40168,1,NN,UPenn,na,na,male,74,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003448,"Whole blood, NN.U.40169.pre.1",Whole blood,40169,1,NN,UPenn,na,na,male,64,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003449,"Whole blood, NN.U.40170.pre.1",Whole blood,40170,1,NN,UPenn,na,na,male,55,caucasian,smoker,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003450,"Whole blood, NN.U.40171.pre.1",Whole blood,40171,1,NN,UPenn,na,na,male,62,caucasian,quit,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003451,"Whole blood, NN.U.40172.pre.1",Whole blood,40172,1,NN,UPenn,na,na,male,53,caucasian,smoker,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003452,"Whole blood, MN.U.20426.pre.1",Whole blood,20426,1,MN,UPenn,squamous cell carcinoma,na,male,59.4496919917864,caucasian,quit,80,"nodule size, mm: 55",3,no,na,yes,no,whole blood
+-,GSM4003453,"Whole blood, MN.U.20479.pre.1",Whole blood,20479,1,MN,UPenn,squamous cell carcinoma,na,female,69.6728268309377,caucasian,quit,116,"nodule size, mm: 14",1,no,na,no,yes,whole blood
+-,GSM4003454,"Whole blood, MN.U.20326.pre.1",Whole blood,20326,1,MN,UPenn,squamous cell carcinoma,na,female,69.555099247091,african american,quit,55,"nodule size, mm: 76",3,no,na,no,yes,whole blood
+-,GSM4003455,"Whole blood, MN.U.20378.pre.1",Whole blood,20378,1,MN,UPenn,squamous cell carcinoma,na,male,70.3956194387406,caucasian,quit,50,"nodule size, mm: 13",1,no,na,yes,no,whole blood
+-,GSM4003456,"Whole blood, MN.U.20540.pre.1",Whole blood,20540,1,MN,UPenn,squamous cell carcinoma,na,male,66.5763175906913,other,quit,0,"nodule size, mm: 40",3,no,na,yes,no,whole blood
+-,GSM4003457,"Whole blood, MN.U.20368.pre.1",Whole blood,20368,1,MN,UPenn,squamous cell carcinoma,na,male,63.1512662559891,caucasian,never,0,"nodule size, mm: 20",na,no,na,yes,no,whole blood
+-,GSM4003458,"Whole blood, MN.U.20405.pre.1",Whole blood,20405,1,MN,UPenn,squamous cell carcinoma,na,male,64.8240930869268,caucasian,quit,40,"nodule size, mm: 50",2,no,na,no,yes,whole blood
+-,GSM4003459,"Whole blood, MN.U.20481.pre.1",Whole blood,20481,1,MN,UPenn,squamous cell carcinoma,na,female,70.3764544832307,caucasian,smoker,57,"nodule size, mm: 10",2,no,na,yes,no,whole blood
+-,GSM4003460,"Whole blood, MN.U.20471.pre.1",Whole blood,20471,1,MN,UPenn,squamous cell carcinoma,na,male,54.6009582477755,caucasian,smoker,70,"nodule size, mm: 87",3,no,na,no,yes,whole blood
+-,GSM4003461,"Whole blood, MN.U.20433.pre.1",Whole blood,20433,1,MN,UPenn,squamous cell carcinoma,na,male,59.7754962354552,caucasian,quit,40,"nodule size, mm: 37",1,no,na,yes,no,whole blood
+-,GSM4003462,"Whole blood, NN.U.40191.pre.1",Whole blood,40191,1,NN,UPenn,na,na,male,60,caucasian,quit,30,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003463,"Whole blood, NN.U.40177.pre.1",Whole blood,40177,1,NN,UPenn,na,na,male,65,caucasian,smoker,37.5,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003464,"Whole blood, NN.U.40200.pre.1",Whole blood,40200,1,NN,UPenn,na,na,female,54,caucasian,smoker,16,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003465,"Whole blood, NN.U.40159.pre.1",Whole blood,40159,1,NN,UPenn,na,na,male,54,african american,quit,37.5,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003466,"Whole blood, BN.U.40183.pre.1",Whole blood,40183,1,BN,UPenn,na,granuloma,male,59,caucasian,smoker,24,"nodule size, mm: 6",na,no,na,no,yes,whole blood
+-,GSM4003467,"Whole blood, NN.U.40203.pre.1",Whole blood,40203,1,NN,UPenn,na,na,male,63,caucasian,smoker,32,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003468,"Whole blood, NN.U.40193.pre.1",Whole blood,40193,1,NN,UPenn,na,na,female,74,caucasian,quit,37.5,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003469,"Whole blood, BN.U.40181.pre.1",Whole blood,40181,1,BN,UPenn,na,granuloma,female,53,caucasian,quit,25,"nodule size, mm: 3",na,no,na,yes,no,whole blood
+-,GSM4003470,"Whole blood, NN.U.40187.pre.1",Whole blood,40187,1,NN,UPenn,na,na,male,60,caucasian,smoker,28,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003471,"Whole blood, BN.U.40184.pre.1",Whole blood,40184,1,BN,UPenn,na,granuloma,male,63,caucasian,quit,78,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003472,"Whole blood, MN.U.20415.pre.1",Whole blood,20415,1,MN,UPenn,adenocarcinoma,na,female,60.0219028062971,caucasian,never,0,"nodule size, mm: 25",1,no,na,yes,no,whole blood
+-,GSM4003473,"Whole blood, MN.U.20484.pre.1",Whole blood,20484,1,MN,UPenn,adenocarcinoma,na,female,71.1184120465435,caucasian,quit,0,"nodule size, mm: 20",1,no,na,yes,no,whole blood
+-,GSM4003474,"Whole blood, MN.U.20562.pre.1",Whole blood,20562,1,MN,UPenn,adenocarcinoma,na,female,49.2457221081451,caucasian,quit,20,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003475,"Whole blood, MN.U.20553.pre.1",Whole blood,20553,1,MN,UPenn,adenocarcinoma,na,female,58.3189596167009,caucasian,never,0,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003476,"Whole blood, MN.U.20557.pre.1",Whole blood,20557,1,MN,UPenn,adenocarcinoma,na,male,61.0759753593429,other,quit,90,"nodule size, mm: na",4,no,na,yes,no,whole blood
+-,GSM4003477,"Whole blood, MN.U.20488.pre.1",Whole blood,20488,1,MN,UPenn,adenocarcinoma,na,female,57.2676249144422,caucasian,quit,18.5,"nodule size, mm: 18",1,no,na,yes,no,whole blood
+-,GSM4003478,"Whole blood, MN.U.20449.pre.1",Whole blood,20449,1,MN,UPenn,adenocarcinoma,na,female,56.9363449691992,african american,quit,85,"nodule size, mm: 50",2,no,na,no,yes,whole blood
+-,GSM4003479,"Whole blood, MN.U.20416.pre.1",Whole blood,20416,1,MN,UPenn,adenocarcinoma,na,male,71.7700205338809,caucasian,quit,60,"nodule size, mm: 35",1,no,na,yes,no,whole blood
+-,GSM4003480,"Whole blood, MN.U.20473.pre.1",Whole blood,20473,1,MN,UPenn,adenocarcinoma,na,female,56.5119780971937,caucasian,quit,42,"nodule size, mm: 25",1,no,na,yes,no,whole blood
+-,GSM4003481,"Whole blood, MN.U.20450.pre.1",Whole blood,20450,1,MN,UPenn,adenocarcinoma,na,male,46.6913073237509,caucasian,quit,32,"nodule size, mm: 12",1,no,na,yes,no,whole blood
+-,GSM4003482,"Whole blood, NN.U.40201.pre.1",Whole blood,40201,1,NN,UPenn,na,na,male,62,caucasian,smoker,41,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003483,"Whole blood, NN.U.40220.pre.1",Whole blood,40220,1,NN,UPenn,na,na,male,64,caucasian,quit,15,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003484,"Whole blood, BN.U.40221.pre.1",Whole blood,40221,1,BN,UPenn,na,granuloma,male,78,caucasian,quit,37.5,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003485,"Whole blood, NN.U.40199.pre.1",Whole blood,40199,1,NN,UPenn,na,na,female,55,caucasian,smoker,30,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003486,"Whole blood, NN.U.40214.pre.1",Whole blood,40214,1,NN,UPenn,na,na,female,78,caucasian,quit,30,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003487,"Whole blood, NN.U.40216.pre.1",Whole blood,40216,1,NN,UPenn,na,na,male,52,caucasian,quit,22,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003488,"Whole blood, NN.U.40202.pre.1",Whole blood,40202,1,NN,UPenn,na,na,female,45,caucasian,smoker,30,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003489,"Whole blood, NN.U.40117.pre.1",Whole blood,40117,1,NN,UPenn,na,na,male,63,african american,smoker,26,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003490,"Whole blood, NN.U.40217.pre.1",Whole blood,40217,1,NN,UPenn,na,na,male,63,caucasian,quit,20,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003491,"Whole blood, BN.U.40182.pre.1",Whole blood,40182,1,BN,UPenn,na,granuloma,male,62,caucasian,smoker,235,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003492,"Whole blood, MN.U.20434.pre.1",Whole blood,20434,1,MN,UPenn,squamous cell carcinoma,na,male,61.8726899383984,caucasian,smoker,84,"nodule size, mm: 38",2,no,na,yes,no,whole blood
+-,GSM4003493,"Whole blood, MN.U.20551.pre.1",Whole blood,20551,1,MN,UPenn,squamous cell carcinoma,na,female,53.5715263518138,african american,quit,5,"nodule size, mm: 22",3,no,na,yes,no,whole blood
+-,GSM4003494,"Whole blood, MN.U.20460.pre.1",Whole blood,20460,1,MN,UPenn,squamous cell carcinoma,na,male,53.3634496919918,caucasian,quit,114,"nodule size, mm: 25",2,no,na,yes,no,whole blood
+-,GSM4003495,"Whole blood, MN.U.20601.pre.1",Whole blood,20601,1,MN,UPenn,squamous cell carcinoma,na,female,46,caucasian,smoker,25,"nodule size, mm: 55",4,no,na,yes,no,whole blood
+-,GSM4003496,"Whole blood, MN.U.20493.pre.1",Whole blood,20493,1,MN,UPenn,squamous cell carcinoma,na,male,60.1396303901437,african american,smoker,40,"nodule size, mm: 90",3,no,na,no,yes,whole blood
+-,GSM4003497,"Whole blood, MN.U.20278.pre.1",Whole blood,20278,1,MN,UPenn,squamous cell carcinoma,na,male,71.7946611909651,caucasian,quit,45,"nodule size, mm: 22",1,no,na,yes,no,whole blood
+-,GSM4003498,"Whole blood, MN.U.20394.pre.1",Whole blood,20394,1,MN,UPenn,squamous cell carcinoma,na,male,72.6023271731691,caucasian,quit,100,"nodule size, mm: 26",1,no,na,yes,no,whole blood
+-,GSM4003499,"Whole blood, MN.U.20361.pre.1",Whole blood,20361,1,MN,UPenn,squamous cell carcinoma,na,female,70.4476386036961,caucasian,quit,45,"nodule size, mm: 12",2,no,na,yes,no,whole blood
+-,GSM4003500,"Whole blood, MN.U.20358.pre.1",Whole blood,20358,1,MN,UPenn,squamous cell carcinoma,na,male,58.9295003422313,caucasian,quit,30,"nodule size, mm: 13",2,no,na,no,yes,whole blood
+-,GSM4003501,"Whole blood, MN.U.20428.pre.1",Whole blood,20428,1,MN,UPenn,squamous cell carcinoma,na,female,67.170431211499,caucasian,quit,20,"nodule size, mm: 22",2,no,na,yes,no,whole blood
+-,GSM4003502,"Whole blood, MN.U.20496.pre.1",Whole blood,20496,1,MN,UPenn,adenocarcinoma,na,male,59.2060232717317,caucasian,quit,60,"nodule size, mm: 36",1,no,na,no,yes,whole blood
+-,GSM4003503,"Whole blood, MN.U.20451.pre.1",Whole blood,20451,1,MN,UPenn,adenocarcinoma,na,male,64.870636550308,caucasian,quit,62.5,"nodule size, mm: 24",3,no,na,yes,no,whole blood
+-,GSM4003504,"Whole blood, NN.U.40178.pre.1",Whole blood,40178,1,NN,UPenn,na,na,male,55,caucasian,smoker,64.5,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003505,"Whole blood, BN.U.40185.pre.1",Whole blood,40185,1,BN,UPenn,na,granuloma,male,61,caucasian,smoker,45,"nodule size, mm: 8",na,no,na,no,yes,whole blood
+-,GSM4003506,"Whole blood, NN.U.40179.pre.1",Whole blood,40179,1,NN,UPenn,na,na,female,54,caucasian,quit,46.5,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003507,"Whole blood, BN.U.40175.pre.1",Whole blood,40175,1,BN,UPenn,na,granuloma,male,72,caucasian,quit,78.75,"nodule size, mm: 17",na,no,na,yes,no,whole blood
+-,GSM4003508,"Whole blood, NN.U.40188.pre.1",Whole blood,40188,1,NN,UPenn,na,na,female,52,caucasian,smoker,35,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003509,"Whole blood, NN.U.40065.pre.1",Whole blood,40065,1,NN,UPenn,na,na,female,61,african american,quit,30,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003510,"Whole blood, NN.U.40198.pre.1",Whole blood,40198,1,NN,UPenn,na,na,female,63,caucasian,smoker,11.25,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003511,"Whole blood, NN.U.40215.pre.1",Whole blood,40215,1,NN,UPenn,na,na,female,60,caucasian,quit,15,"nodule size, mm: na",na,no,na,no,no,whole blood
+-,GSM4003512,"Whole blood, MN.U.20376.pre.2",Whole blood,20376,2,MN,UPenn,adenocarcinoma,na,male,63.5947980835045,caucasian,quit,45,"nodule size, mm: 18",1,no,na,yes,no,whole blood
+-,GSM4003513,"Whole blood, MN.U.20445.pre.1",Whole blood,20445,1,MN,UPenn,adenocarcinoma,na,male,56.9281314168378,caucasian,quit,52.5,"nodule size, mm: 13",2,no,na,yes,no,whole blood
+-,GSM4003514,"Whole blood, MN.U.20413.pre.1",Whole blood,20413,1,MN,UPenn,adenocarcinoma,na,male,58.0889801505818,african american,quit,32,"nodule size, mm: 17",1,no,na,yes,no,whole blood
+-,GSM4003515,"Whole blood, MN.U.20384.pre.1",Whole blood,20384,1,MN,UPenn,adenocarcinoma,na,female,57.2402464065708,caucasian,quit,15,"nodule size, mm: 25",1,no,na,yes,no,whole blood
+-,GSM4003516,"Whole blood, MN.U.20430.pre.1",Whole blood,20430,1,MN,UPenn,adenocarcinoma,na,female,64.8377823408624,caucasian,smoker,50,"nodule size, mm: 31",1,no,na,yes,no,whole blood
+-,GSM4003517,"Whole blood, MN.U.20534.pre.1",Whole blood,20534,1,MN,UPenn,adenocarcinoma,na,female,54.5516769336071,caucasian,quit,35,"nodule size, mm: 35",3,no,na,yes,no,whole blood
+-,GSM4003518,"Whole blood, MN.U.20438.pre.1",Whole blood,20438,1,MN,UPenn,adenocarcinoma,na,male,59.5783709787817,caucasian,quit,86,"nodule size, mm: 12",1,no,na,yes,no,whole blood
+-,GSM4003519,"Whole blood, BN.U.20612.pre.1",Whole blood,20612,1,BN,UPenn,na,granuloma,female,57.1854893908282,caucasian,quit,10,"nodule size, mm: 12",na,no,na,yes,no,whole blood
+-,GSM4003520,"Whole blood, BN.U.20524.pre.1",Whole blood,20524,1,BN,UPenn,na,granuloma,female,67.5509924709103,caucasian,never,0,"nodule size, mm: 12",na,no,na,yes,no,whole blood
+-,GSM4003521,"Whole blood, BN.U.20302.pre.2",Whole blood,20302,2,BN,UPenn,na,granuloma,female,63.6303901437372,caucasian,never,0,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003522,"Whole blood, BN.U.20570.pre.1",Whole blood,20570,1,BN,UPenn,na,other,male,52.2956878850103,caucasian,quit,9,"nodule size, mm: 41",na,no,na,yes,no,whole blood
+-,GSM4003523,"Whole blood, BN.U.20590.pre.1",Whole blood,20590,1,BN,UPenn,na,granuloma,female,68.0465434633812,caucasian,quit,16.5,"nodule size, mm: 12",na,no,na,yes,no,whole blood
+-,GSM4003524,"Whole blood, BN.U.20656.pre.1",Whole blood,20656,1,BN,UPenn,na,granuloma,female,48.6926762491444,caucasian,smoker,45,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003525,"Whole blood, BN.U.20277.pre.2",Whole blood,20277,2,BN,UPenn,na,granuloma,male,45.1690622861054,caucasian,quit,2.25,"nodule size, mm: 11",na,no,na,yes,no,whole blood
+-,GSM4003526,"Whole blood, BN.U.20475.pre.2",Whole blood,20475,2,BN,UPenn,na,granuloma,female,64.3011635865845,caucasian,never,0,"nodule size, mm: 7",na,no,na,yes,no,whole blood
+-,GSM4003527,"Whole blood, BN.U.20527.pre.1",Whole blood,20527,1,BN,UPenn,na,granuloma,male,67.3620807665982,caucasian,quit,6,"nodule size, mm: 12",na,no,na,yes,no,whole blood
+-,GSM4003528,"Whole blood, BN.U.20622.pre.1",Whole blood,20622,1,BN,UPenn,na,na,male,36.0273785078713,caucasian,quit,5,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003529,"Whole blood, BN.U.20578.pre.1",Whole blood,20578,1,BN,UPenn,na,granuloma,female,70.2149212867899,caucasian,quit,55,"nodule size, mm: 9",na,no,na,yes,no,whole blood
+-,GSM4003530,"Whole blood, BN.U.20497.pre.1",Whole blood,20497,1,BN,UPenn,na,granuloma,male,47.8329911019849,caucasian,smoker,30,"nodule size, mm: 17",na,no,na,yes,no,whole blood
+-,GSM4003531,"Whole blood, BN.U.20576.pre.1",Whole blood,20576,1,BN,UPenn,na,other,male,55.7891854893908,african american,quit,15,"nodule size, mm: 24",na,no,na,no,yes,whole blood
+-,GSM4003532,"Whole blood, BN.U.20290.pre.2",Whole blood,20290,2,BN,UPenn,na,na,male,69.2867898699521,caucasian,quit,60,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003533,"Whole blood, BN.U.20283.pre.2",Whole blood,20283,2,BN,UPenn,na,other,female,36.7118412046543,caucasian,quit,3.5,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003534,"Whole blood, BN.U.20414.pre.2",Whole blood,20414,2,BN,UPenn,na,granuloma,female,71.586584531143,caucasian,never,0,"nodule size, mm: 30",na,no,na,no,yes,whole blood
+-,GSM4003535,"Whole blood, BN.U.20519.pre.1",Whole blood,20519,1,BN,UPenn,na,na,female,74.90212183436,caucasian,quit,150,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003536,"Whole blood, BN.U.20403.pre.2",Whole blood,20403,2,BN,UPenn,na,granuloma,male,72.9226557152635,caucasian,quit,15,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003537,"Whole blood, BN.U.20282.pre.2",Whole blood,20282,2,BN,UPenn,na,na,female,74.590006844627,caucasian,quit,100,"nodule size, mm: 16",na,no,na,yes,no,whole blood
+-,GSM4003538,"Whole blood, BN.U.20312.pre.2",Whole blood,20312,2,BN,UPenn,na,granuloma,male,69.8945927446954,caucasian,quit,98,"nodule size, mm: 20",na,no,na,no,yes,whole blood
+-,GSM4003539,"Whole blood, MN.U.20498.pre.1",Whole blood,20498,1,MN,UPenn,adenocarcinoma,na,female,71.937029431896,caucasian,quit,39,"nodule size, mm: 105",2,no,na,yes,no,whole blood
+-,GSM4003540,"Whole blood, MN.U.20448.pre.1",Whole blood,20448,1,MN,UPenn,adenocarcinoma,na,female,62.5352498288843,caucasian,quit,25,"nodule size, mm: 55",2,no,na,no,yes,whole blood
+-,GSM4003541,"Whole blood, MN.U.20499.pre.1",Whole blood,20499,1,MN,UPenn,adenocarcinoma,na,female,69.5167693360712,caucasian,quit,53,"nodule size, mm: 13",1,no,na,yes,no,whole blood
+-,GSM4003542,"Whole blood, MN.U.20448.post.0",Whole blood,20448,1,MN,UPenn,adenocarcinoma,na,female,62.5352498288843,caucasian,quit,25,"nodule size, mm: 55",2,yes,0,no,no,whole blood
+-,GSM4003543,"Whole blood, MN.U.20666.pre.1",Whole blood,20666,1,MN,UPenn,adenocarcinoma,na,male,63,caucasian,smoker,36,"nodule size, mm: 25",2,no,na,no,yes,whole blood
+-,GSM4003544,"Whole blood, MN.U.20516.pre.1",Whole blood,20516,1,MN,UPenn,adenocarcinoma,na,female,63,caucasian,smoker,30,"nodule size, mm: 65",2,no,na,yes,no,whole blood
+-,GSM4003545,"Whole blood, MN.U.20582.post.0",Whole blood,20582,1,MN,UPenn,squamous cell carcinoma,na,female,61,caucasian,smoker,69,"nodule size, mm: 30",1,yes,0,no,no,whole blood
+-,GSM4003546,"Whole blood, MN.U.20582.pre.1",Whole blood,20582,1,MN,UPenn,squamous cell carcinoma,na,female,61,caucasian,smoker,69,"nodule size, mm: 30",1,no,na,yes,no,whole blood
+-,GSM4003547,"Whole blood, MN.U.20443.post.0",Whole blood,20443,1,MN,UPenn,adenocarcinoma,na,male,48.0985626283368,caucasian,smoker,64,"nodule size, mm: 35",3,yes,0,no,no,whole blood
+-,GSM4003548,"Whole blood, MN.U.20608.pre.1",Whole blood,20608,1,MN,UPenn,adenocarcinoma,na,male,66,caucasian,quit,50,"nodule size, mm: 10",1,no,na,yes,no,whole blood
+-,GSM4003549,"Whole blood, MN.U.20666.post.0",Whole blood,20666,1,MN,UPenn,adenocarcinoma,na,male,63,caucasian,smoker,36,"nodule size, mm: 25",2,yes,0,no,no,whole blood
+-,GSM4003550,"Whole blood, MN.U.20443.post.na",Whole blood,20443,2,MN,UPenn,adenocarcinoma,na,male,48.0985626283368,caucasian,smoker,64,"nodule size, mm: 35",3,yes,na,no,no,whole blood
+-,GSM4003551,"Whole blood, MN.U.20454.post.0",Whole blood,20454,1,MN,UPenn,squamous cell carcinoma,na,male,62.0999315537303,african american,smoker,23.5,"nodule size, mm: 25",1,yes,0,no,no,whole blood
+-,GSM4003552,"Whole blood, MN.U.20499.post.0",Whole blood,20499,1,MN,UPenn,adenocarcinoma,na,female,69.5167693360712,caucasian,quit,53,"nodule size, mm: 13",1,yes,0,no,no,whole blood
+-,GSM4003553,"Whole blood, MN.U.20516.post.0",Whole blood,20516,1,MN,UPenn,adenocarcinoma,na,female,63,caucasian,smoker,30,"nodule size, mm: 65",2,yes,0,no,no,whole blood
+-,GSM4003554,"Whole blood, MN.U.20498.post.0",Whole blood,20498,1,MN,UPenn,adenocarcinoma,na,female,71.937029431896,caucasian,quit,39,"nodule size, mm: 105",2,yes,0,no,no,whole blood
+-,GSM4003555,"Whole blood, MN.U.20454.pre.1",Whole blood,20454,1,MN,UPenn,squamous cell carcinoma,na,male,62.0999315537303,african american,smoker,23.5,"nodule size, mm: 25",1,no,na,yes,no,whole blood
+-,GSM4003556,"Whole blood, MN.U.20608.post.0",Whole blood,20608,1,MN,UPenn,adenocarcinoma,na,male,66,caucasian,quit,50,"nodule size, mm: 10",1,yes,0,no,no,whole blood
+-,GSM4003557,"Whole blood, MN.U.20443.pre.1",Whole blood,20443,1,MN,UPenn,adenocarcinoma,na,male,48.0985626283368,caucasian,smoker,64,"nodule size, mm: 35",3,no,na,no,yes,whole blood
+-,GSM4003558,"Whole blood, MN.N.NYU578.post.1225",Whole blood,NYU578,1,MN,NYU,adenocarcinoma,na,female,66,caucasian,quit,28,"nodule size, mm: 6",1,yes,1225,no,no,whole blood
+-,GSM4003559,"Whole blood, MN.N.NYU251.post.2337",Whole blood,NYU251,1,MN,NYU,adenocarcinoma,na,male,70,caucasian,quit,26,"nodule size, mm: 16",1,yes,2337,no,no,whole blood
+-,GSM4003560,"Whole blood, BN.N.NYU1343.pre.1",Whole blood,NYU1343,1,BN,NYU,na,solid,male,49,caucasian,quit,33,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003561,"Whole blood, MN.N.NYU811.pre.1",Whole blood,NYU811,1,MN,NYU,squamous cell carcinoma,na,female,63,caucasian,quit,72,"nodule size, mm: 12",1,no,na,yes,no,whole blood
+-,GSM4003562,"Whole blood, MN.N.NYU524.pre.1",Whole blood,NYU524,1,MN,NYU,adenocarcinoma,na,male,74,caucasian,quit,82.5,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003563,"Whole blood, MN.N.NYU697.pre.1",Whole blood,NYU697,1,MN,NYU,adenocarcinoma,na,female,65,caucasian,smoker,51,"nodule size, mm: 8",1,no,na,no,yes,whole blood
+-,GSM4003564,"Whole blood, BN.N.NYU630.pre.1",Whole blood,NYU630,1,BN,NYU,na,solid/ground glass opacity,female,68,caucasian,quit,86,"nodule size, mm: 12",na,no,na,no,yes,whole blood
+-,GSM4003565,"Whole blood, MN.N.NYU1311.pre.1",Whole blood,NYU1311,1,MN,NYU,adenocarcinoma,na,female,64,caucasian,quit,47.25,"nodule size, mm: na",1,no,na,no,yes,whole blood
+-,GSM4003566,"Whole blood, BN.N.NYU780.pre.1",Whole blood,NYU780,1,BN,NYU,na,solid/ground glass opacity,male,80,caucasian,quit,70,"nodule size, mm: 18",na,no,na,yes,no,whole blood
+-,GSM4003567,"Whole blood, BN.N.NYU377.pre.1",Whole blood,NYU377,1,BN,NYU,na,solid/ground glass opacity,female,73,caucasian,smoker,59,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003568,"Whole blood, MN.N.NYU1055.pre.1",Whole blood,NYU1055,1,MN,NYU,adenocarcinoma,na,female,66,caucasian,quit,55.5,"nodule size, mm: 7",1,no,na,yes,no,whole blood
+-,GSM4003569,"Whole blood, BN.N.NYU1331.pre.1",Whole blood,NYU1331,1,BN,NYU,na,solid/ground glass opacity,male,62,caucasian,smoker,42,"nodule size, mm: 18",na,no,na,no,yes,whole blood
+-,GSM4003570,"Whole blood, MN.N.NYU613.post.566",Whole blood,NYU613,1,MN,NYU,adenocarcinoma,na,female,66,caucasian,quit,35,"nodule size, mm: 15",1,yes,566,no,no,whole blood
+-,GSM4003571,"Whole blood, MN.N.NYU524.pre.2",Whole blood,NYU524,2,MN,NYU,adenocarcinoma,na,male,74,caucasian,quit,82.5,"nodule size, mm: 18",1,no,na,yes,no,whole blood
+-,GSM4003572,"Whole blood, MN.N.NYU697.post.174",Whole blood,NYU697,1,MN,NYU,adenocarcinoma,na,female,65,caucasian,smoker,51,"nodule size, mm: 5",1,yes,174,no,no,whole blood
+-,GSM4003573,"Whole blood, MN.N.NYU1452.pre.1",Whole blood,NYU1452,1,MN,NYU,other non-small cell,na,male,53,caucasian,quit,15,"nodule size, mm: 29",1,no,na,yes,no,whole blood
+-,GSM4003574,"Whole blood, BN.N.NYU361.pre.1",Whole blood,NYU361,1,BN,NYU,na,solid/ground glass opacity,male,62,caucasian,quit,27,"nodule size, mm: 11",na,no,na,no,yes,whole blood
+-,GSM4003575,"Whole blood, MN.N.NYU674.post.240",Whole blood,NYU674,1,MN,NYU,squamous cell carcinoma,na,female,62,caucasian,smoker,67.5,"nodule size, mm: 7",1,yes,240,no,no,whole blood
+-,GSM4003576,"Whole blood, BN.N.NYU485.pre.1",Whole blood,NYU485,1,BN,NYU,na,solid/ground glass opacity,female,65,caucasian,smoker,33.8,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003577,"Whole blood, MN.N.NYU20.pre.1",Whole blood,NYU20,1,MN,NYU,adenocarcinoma,na,male,74,caucasian,quit,55,"nodule size, mm: 11",1,no,na,yes,no,whole blood
+-,GSM4003578,"Whole blood, BN.N.NYU8.pre.1",Whole blood,NYU8,1,BN,NYU,na,solid,male,75,caucasian,quit,80,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003579,"Whole blood, BN.N.NYU1475.pre.1",Whole blood,NYU1475,1,BN,NYU,na,solid/ground glass opacity,female,56,caucasian,smoker,38,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003580,"Whole blood, MN.N.NYU811.post.295",Whole blood,NYU811,1,MN,NYU,squamous cell carcinoma,na,female,64,caucasian,quit,72,"nodule size, mm: na",1,yes,295,no,no,whole blood
+-,GSM4003581,"Whole blood, MN.N.NYU1476.pre.1",Whole blood,NYU1476,1,MN,NYU,adenocarcinoma,na,female,66,caucasian,smoker,41,"nodule size, mm: 20",1,no,na,yes,no,whole blood
+-,GSM4003582,"Whole blood, NN.N.NYU1495.pre.1",Whole blood,NYU1495,1,NN,NYU,na,na,male,na,caucasian,smoker,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003583,"Whole blood, BN.N.NYU187.pre.1",Whole blood,NYU187,1,BN,NYU,na,solid,female,54,caucasian,smoker,36.6520547945206,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003584,"Whole blood, BN.N.NYU261.pre.1",Whole blood,NYU261,1,BN,NYU,na,solid,male,77,caucasian,quit,26,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003585,"Whole blood, BN.N.NYU466.pre.1",Whole blood,NYU466,1,BN,NYU,na,ground glass opacity,female,60,caucasian,quit,42.5,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003586,"Whole blood, BN.N.NYU203.pre.1",Whole blood,NYU203,1,BN,NYU,na,solid/ground glass opacity,male,73,caucasian,smoker,55,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003587,"Whole blood, NN.N.NYU1549.pre.1",Whole blood,NYU1549,1,NN,NYU,na,na,male,68,caucasian,quit,28,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003588,"Whole blood, BN.N.NYU730.pre.1",Whole blood,NYU730,1,BN,NYU,na,ground glass opacity,female,70,caucasian,quit,45,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003589,"Whole blood, NN.N.NYU1550.pre.1",Whole blood,NYU1550,1,NN,NYU,na,na,male,66,caucasian,smoker,12,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003590,"Whole blood, NN.N.NYU1467.pre.1",Whole blood,NYU1467,1,NN,NYU,na,na,male,66,other,quit,62.5,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003591,"Whole blood, NN.N.NYU1551.pre.1",Whole blood,NYU1551,1,NN,NYU,na,na,female,61,caucasian,smoker,42,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003592,"Whole blood, BN.N.NYU1359.pre.1",Whole blood,NYU1359,1,BN,NYU,na,solid/ground glass opacity,female,63,caucasian,quit,40.25,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003593,"Whole blood, BN.N.NYU630.pre.2",Whole blood,NYU630,2,BN,NYU,na,solid/ground glass opacity,female,70,caucasian,quit,86,"nodule size, mm: 12",na,no,na,yes,no,whole blood
+-,GSM4003594,"Whole blood, BN.N.NYU1024.pre.1",Whole blood,NYU1024,1,BN,NYU,na,solid/ground glass opacity,female,68,caucasian,smoker,37.5,"nodule size, mm: 11",na,no,na,no,yes,whole blood
+-,GSM4003595,"Whole blood, BN.N.NYU897.pre.1",Whole blood,NYU897,1,BN,NYU,na,solid,male,68,caucasian,quit,15,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003596,"Whole blood, NN.N.NYU202.pre.1",Whole blood,NYU202,1,NN,NYU,na,na,male,54,other,quit,38,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003597,"Whole blood, BN.N.NYU1207.pre.1",Whole blood,NYU1207,1,BN,NYU,na,solid,male,64,other,smoker,46,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003598,"Whole blood, BN.N.NYU377.pre.2",Whole blood,NYU377,2,BN,NYU,na,solid/ground glass opacity,female,76,caucasian,smoker,62,"nodule size, mm: 10",na,no,na,no,yes,whole blood
+-,GSM4003599,"Whole blood, NN.N.NYU770064.pre.1",Whole blood,NYU770064,1,NN,NYU,na,na,male,71,other,na,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003600,"Whole blood, BN.N.NYU1157.pre.1",Whole blood,NYU1157,1,BN,NYU,na,ground glass opacity,female,51,caucasian,quit,32.4,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003601,"Whole blood, MN.N.NYU1559.pre.1",Whole blood,NYU1559,1,MN,NYU,adenocarcinoma,na,female,66,caucasian,quit,43.75,"nodule size, mm: 12",1,no,na,yes,no,whole blood
+-,GSM4003602,"Whole blood, MN.N.NYU1452.post.558",Whole blood,NYU1452,1,MN,NYU,other non-small cell,na,male,55,caucasian,quit,15,"nodule size, mm: na",1,yes,558,no,no,whole blood
+-,GSM4003603,"Whole blood, BN.N.NYU267.pre.1",Whole blood,NYU267,1,BN,NYU,na,solid,male,54,caucasian,smoker,54,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003604,"Whole blood, BN.N.NYU1477.pre.1",Whole blood,NYU1477,1,BN,NYU,na,ground glass opacity,female,54,caucasian,smoker,37,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003605,"Whole blood, BN.N.NYU1564.pre.1",Whole blood,NYU1564,1,BN,NYU,na,solid,male,60,caucasian,quit,23.75,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003606,"Whole blood, BN.N.NYU169.pre.1",Whole blood,NYU169,1,BN,NYU,na,solid,male,58,caucasian,quit,28.5,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003607,"Whole blood, MN.N.NYU697.post.860",Whole blood,NYU697,1,MN,NYU,adenocarcinoma,na,female,67,caucasian,smoker,53,"nodule size, mm: 5",1,yes,860,no,no,whole blood
+-,GSM4003608,"Whole blood, MN.N.NYU20.post.539",Whole blood,NYU20,1,MN,NYU,adenocarcinoma,na,male,76,caucasian,quit,55,"nodule size, mm: 12",1,yes,539,no,no,whole blood
+-,GSM4003609,"Whole blood, MN.N.NYU722.post.2862",Whole blood,NYU722,1,MN,NYU,adenocarcinoma,na,female,80,caucasian,quit,0.1,"nodule size, mm: 4",1,yes,2862,no,no,whole blood
+-,GSM4003610,"Whole blood, MN.N.NYU1429.pre.1",Whole blood,NYU1429,1,MN,NYU,adenocarcinoma,na,female,66,caucasian,quit,63,"nodule size, mm: 6",1,no,na,yes,no,whole blood
+-,GSM4003611,"Whole blood, MN.N.NYU3.pre.1",Whole blood,NYU3,1,MN,NYU,adenocarcinoma,na,male,69,caucasian,quit,43,"nodule size, mm: 6",1,no,na,yes,no,whole blood
+-,GSM4003612,"Whole blood, NN.N.NYU1338.pre.1",Whole blood,NYU1338,1,NN,NYU,na,na,male,49,african american,smoker,33,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003613,"Whole blood, BN.N.NYU1439.pre.1",Whole blood,NYU1439,1,BN,NYU,na,ground glass opacity,male,74,caucasian,quit,42,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003614,"Whole blood, NN.N.NYU488.pre.1",Whole blood,NYU488,1,NN,NYU,na,na,female,na,caucasian,quit,na,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003615,"Whole blood, MN.N.NYU674.post.918",Whole blood,NYU674,1,MN,NYU,squamous cell carcinoma,na,female,64,caucasian,smoker,20.5,"nodule size, mm: 7",1,yes,918,no,no,whole blood
+-,GSM4003616,"Whole blood, MN.N.NYU1476.post.521",Whole blood,NYU1476,1,MN,NYU,adenocarcinoma,na,female,67,caucasian,smoker,42,"nodule size, mm: na",1,yes,521,no,no,whole blood
+-,GSM4003617,"Whole blood, MN.N.NYU1587.pre.1",Whole blood,NYU1587,1,MN,NYU,adenocarcinoma,na,female,58,african american,smoker,69,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003618,"Whole blood, BN.N.NYU1589.pre.1",Whole blood,NYU1589,1,BN,NYU,na,solid,female,63,caucasian,quit,28,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003619,"Whole blood, BN.N.NYU211.pre.1",Whole blood,NYU211,1,BN,NYU,na,ground glass opacity,male,58,caucasian,quit,33,"nodule size, mm: 14",na,no,na,yes,no,whole blood
+-,GSM4003620,"Whole blood, BN.N.NYU556.pre.1",Whole blood,NYU556,1,BN,NYU,na,solid/ground glass opacity,female,65,caucasian,smoker,33,"nodule size, mm: 8",na,no,na,no,yes,whole blood
+-,GSM4003621,"Whole blood, BN.N.NYU1072.pre.1",Whole blood,NYU1072,1,BN,NYU,na,solid/ground glass opacity,female,79,caucasian,quit,40,"nodule size, mm: 9",na,no,na,no,yes,whole blood
+-,GSM4003622,"Whole blood, MN.N.NYU1055.post.101",Whole blood,NYU1055,1,MN,NYU,adenocarcinoma,na,female,68,caucasian,quit,55.5,"nodule size, mm: 6",1,yes,101,no,no,whole blood
+-,GSM4003623,"Whole blood, BN.N.NYU1572.pre.1",Whole blood,NYU1572,1,BN,NYU,na,ground glass opacity,male,59,caucasian,smoker,117,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003624,"Whole blood, BN.N.NYU1574.pre.1",Whole blood,NYU1574,1,BN,NYU,na,solid,male,54,caucasian,smoker,147,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003625,"Whole blood, BN.N.NYU1575.pre.1",Whole blood,NYU1575,1,BN,NYU,na,solid,male,63,other,smoker,36,"nodule size, mm: 3",na,no,na,yes,no,whole blood
+-,GSM4003626,"Whole blood, BN.N.NYU683.pre.1",Whole blood,NYU683,1,BN,NYU,na,ground glass opacity,female,71,caucasian,smoker,51,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003627,"Whole blood, MN.N.NYU1337.pre.1",Whole blood,NYU1337,1,MN,NYU,adenocarcinoma,na,male,73,caucasian,quit,66,"nodule size, mm: na",4,no,na,yes,no,whole blood
+-,GSM4003628,"Whole blood, BN.N.NYU1579.pre.1",Whole blood,NYU1579,1,BN,NYU,na,solid,male,59,caucasian,smoker,84,"nodule size, mm: 3",na,no,na,no,yes,whole blood
+-,GSM4003629,"Whole blood, BN.N.NYU1578.pre.1",Whole blood,NYU1578,1,BN,NYU,na,solid,male,66,caucasian,smoker,108,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003630,"Whole blood, BN.N.NYU1414.pre.1",Whole blood,NYU1414,1,BN,NYU,na,ground glass opacity,female,73,caucasian,quit,52.5,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003631,"Whole blood, MN.N.NYU578.post.2227",Whole blood,NYU578,1,MN,NYU,adenocarcinoma,na,female,68,caucasian,quit,28,"nodule size, mm: 7",1,yes,2227,no,no,whole blood
+-,GSM4003632,"Whole blood, BN.N.NYU1591.pre.1",Whole blood,NYU1591,1,BN,NYU,na,solid,male,65,african american,smoker,50,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003633,"Whole blood, BN.N.NYU678.pre.1",Whole blood,NYU678,1,BN,NYU,na,ground glass opacity,female,49,african american,smoker,17.5,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003634,"Whole blood, BN.N.NYU1592.pre.1",Whole blood,NYU1592,1,BN,NYU,na,solid/ground glass opacity,female,50,caucasian,smoker,44,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003635,"Whole blood, BN.N.NYU663.pre.1",Whole blood,NYU663,1,BN,NYU,na,solid/ground glass opacity,female,60,caucasian,smoker,27.95,"nodule size, mm: 7",na,no,na,yes,no,whole blood
+-,GSM4003636,"Whole blood, MN.N.NYU524.pre.3",Whole blood,NYU524,3,MN,NYU,adenocarcinoma,na,male,76,caucasian,smoker,85.5,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003637,"Whole blood, MN.N.NYU811.post.932",Whole blood,NYU811,1,MN,NYU,squamous cell carcinoma,na,female,65,caucasian,quit,72,"nodule size, mm: na",1,yes,932,no,no,whole blood
+-,GSM4003638,"Whole blood, BN.N.NYU1118.pre.1",Whole blood,NYU1118,1,BN,NYU,na,solid/ground glass opacity,female,77,caucasian,quit,75,"nodule size, mm: 20",na,no,na,yes,no,whole blood
+-,GSM4003639,"Whole blood, BN.N.NYU1123.pre.1",Whole blood,NYU1123,1,BN,NYU,na,solid/ground glass opacity,female,70,other,quit,88,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003640,"Whole blood, BN.N.NYU781.pre.1",Whole blood,NYU781,1,BN,NYU,na,solid/ground glass opacity,male,69,caucasian,quit,54,"nodule size, mm: 14",na,no,na,yes,no,whole blood
+-,GSM4003641,"Whole blood, BN.N.NYU1593.pre.1",Whole blood,NYU1593,1,BN,NYU,na,solid,female,61,caucasian,smoker,45,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003642,"Whole blood, MN.N.NYU1595.pre.1",Whole blood,NYU1595,1,MN,NYU,squamous cell carcinoma,na,male,67,caucasian,smoker,50,"nodule size, mm: 10",3,no,na,no,yes,whole blood
+-,GSM4003643,"Whole blood, BN.N.NYU361.pre.2",Whole blood,NYU361,2,BN,NYU,na,solid/ground glass opacity,male,64,caucasian,smoker,33.75,"nodule size, mm: 12",na,no,na,no,no,whole blood
+-,GSM4003644,"Whole blood, BN.N.NYU1475.pre.2",Whole blood,NYU1475,2,BN,NYU,na,na,female,58,caucasian,na,0,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003645,"Whole blood, BN.N.NYU712.pre.1",Whole blood,NYU712,1,BN,NYU,na,solid/ground glass opacity,female,56,caucasian,smoker,42,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003646,"Whole blood, BN.N.NYU1524.pre.1",Whole blood,NYU1524,1,BN,NYU,na,solid/ground glass opacity,female,60,caucasian,never,0,"nodule size, mm: 16",na,no,na,yes,no,whole blood
+-,GSM4003647,"Whole blood, BN.N.NYU863.pre.1",Whole blood,NYU863,1,BN,NYU,na,solid,female,72,caucasian,quit,26,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003648,"Whole blood, BN.N.NYU1509.pre.1",Whole blood,NYU1509,1,BN,NYU,na,solid,female,75,caucasian,smoker,57,"nodule size, mm: 3",na,no,na,no,yes,whole blood
+-,GSM4003649,"Whole blood, BN.N.NYU1600.pre.1",Whole blood,NYU1600,1,BN,NYU,na,solid,female,50,caucasian,smoker,36,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003650,"Whole blood, BN.N.NYU1547.pre.1",Whole blood,NYU1547,1,BN,NYU,na,solid,male,56,caucasian,never,0,"nodule size, mm: 10",na,no,na,no,yes,whole blood
+-,GSM4003651,"Whole blood, BN.N.NYU1235.pre.1",Whole blood,NYU1235,1,BN,NYU,na,solid/ground glass opacity,female,63,caucasian,smoker,47,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003652,"Whole blood, BN.N.NYU83.pre.1",Whole blood,NYU83,1,BN,NYU,na,solid,male,58,caucasian,smoker,41,"nodule size, mm: 13",na,no,na,yes,no,whole blood
+-,GSM4003653,"Whole blood, MN.N.NYU524.post.25",Whole blood,NYU524,1,MN,NYU,adenocarcinoma,na,male,76,caucasian,smoker,85.5,"nodule size, mm: na",1,yes,25,no,no,whole blood
+-,GSM4003654,"Whole blood, BN.N.NYU1601.pre.1",Whole blood,NYU1601,1,BN,NYU,na,solid,male,61,caucasian,quit,35,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003655,"Whole blood, NN.N.NYU1536.pre.1",Whole blood,NYU1536,1,NN,NYU,na,na,female,69,african american,quit,63,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003656,"Whole blood, BN.N.NYU1603.pre.1",Whole blood,NYU1603,1,BN,NYU,na,solid,female,51,other,smoker,34,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003657,"Whole blood, BN.N.NYU823.pre.1",Whole blood,NYU823,1,BN,NYU,na,solid/ground glass opacity,male,67,caucasian,quit,63.75,"nodule size, mm: 11",na,no,na,yes,no,whole blood
+-,GSM4003658,"Whole blood, BN.N.NYU1539.pre.1",Whole blood,NYU1539,1,BN,NYU,na,solid,female,67,caucasian,quit,81,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003659,"Whole blood, BN.N.NYU1594.pre.1",Whole blood,NYU1594,1,BN,NYU,na,solid,male,75,caucasian,quit,33,"nodule size, mm: 12",na,no,na,no,yes,whole blood
+-,GSM4003660,"Whole blood, BN.N.NYU317.pre.1",Whole blood,NYU317,1,BN,NYU,na,ground glass opacity,female,60,caucasian,smoker,61.5,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003661,"Whole blood, MN.N.NYU1605.post.0",Whole blood,NYU1605,1,MN,NYU,na,na,male,69,caucasian,quit,37,"nodule size, mm: na",na,yes,0,no,no,whole blood
+-,GSM4003662,"Whole blood, MN.N.NYU755.post.172",Whole blood,NYU755,1,MN,NYU,other non-small cell,na,male,64,caucasian,quit,55.5,"nodule size, mm: 5",1,yes,172,no,no,whole blood
+-,GSM4003663,"Whole blood, BN.N.NYU8.pre.2",Whole blood,NYU8,2,BN,NYU,na,solid,male,77,caucasian,quit,80,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003664,"Whole blood, BN.N.NYU1024.pre.2",Whole blood,NYU1024,2,BN,NYU,na,solid/ground glass opacity,female,68,caucasian,smoker,37.5,"nodule size, mm: 10",na,no,na,no,yes,whole blood
+-,GSM4003665,"Whole blood, MN.N.NYU50.post.131",Whole blood,NYU50,1,MN,NYU,other non-small cell,na,male,72,other,smoker,39,"nodule size, mm: 34",na,yes,131,no,no,whole blood
+-,GSM4003666,"Whole blood, MN.N.NYU524.post.67",Whole blood,NYU524,1,MN,NYU,adenocarcinoma,na,male,76,caucasian,smoker,85.5,"nodule size, mm: na",1,yes,67,no,no,whole blood
+-,GSM4003667,"Whole blood, BN.N.NYU377.pre.3",Whole blood,NYU377,3,BN,NYU,na,solid/ground glass opacity,female,76,caucasian,smoker,62,"nodule size, mm: 11",na,no,na,yes,no,whole blood
+-,GSM4003668,"Whole blood, MN.N.NYU1559.post.118",Whole blood,NYU1559,1,MN,NYU,adenocarcinoma,na,female,67,caucasian,quit,43.75,"nodule size, mm: 7",1,yes,118,no,no,whole blood
+-,GSM4003669,"Whole blood, BN.N.NYU994.pre.1",Whole blood,NYU994,1,BN,NYU,na,solid/ground glass opacity,male,71,caucasian,quit,75,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003670,"Whole blood, MN.N.NYU1476.post.619",Whole blood,NYU1476,1,MN,NYU,adenocarcinoma,na,female,67,caucasian,smoker,42,"nodule size, mm: na",1,yes,619,no,no,whole blood
+-,GSM4003671,"Whole blood, NN.N.NYU1499.pre.1",Whole blood,NYU1499,1,NN,NYU,na,na,male,67,other,smoker,75,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003672,"Whole blood, MN.N.NYU360.post.2122",Whole blood,NYU360,1,MN,NYU,adenocarcinoma,na,female,70,caucasian,quit,66,"nodule size, mm: na",1,yes,2122,no,no,whole blood
+-,GSM4003673,"Whole blood, BN.N.NYU634.pre.1",Whole blood,NYU634,1,BN,NYU,na,solid/ground glass opacity,female,71,caucasian,smoker,46,"nodule size, mm: 12",na,no,na,yes,no,whole blood
+-,GSM4003674,"Whole blood, MN.N.NYU251.post.3451",Whole blood,NYU251,1,MN,NYU,adenocarcinoma,na,male,73,caucasian,quit,26,"nodule size, mm: 15",1,yes,3451,no,no,whole blood
+-,GSM4003675,"Whole blood, MN.N.NYU1595.pre.2",Whole blood,NYU1595,2,MN,NYU,squamous cell carcinoma,na,male,67,caucasian,smoker,50,"nodule size, mm: 10",3,no,na,no,yes,whole blood
+-,GSM4003676,"Whole blood, BN.N.NYU485.pre.2",Whole blood,NYU485,2,BN,NYU,na,solid/ground glass opacity,female,67,caucasian,smoker,35.1,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003677,"Whole blood, MN.N.NYU1559.post.183",Whole blood,NYU1559,1,MN,NYU,adenocarcinoma,na,female,67,caucasian,quit,43.75,"nodule size, mm: 7",1,yes,183,no,no,whole blood
+-,GSM4003678,"Whole blood, BN.N.NYU99.pre.1",Whole blood,NYU99,1,BN,NYU,na,solid,male,74,caucasian,quit,29,"nodule size, mm: 6",na,no,na,yes,no,whole blood
+-,GSM4003679,"Whole blood, BN.N.NYU180.pre.1",Whole blood,NYU180,1,BN,NYU,na,solid,male,72,african american,quit,14,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003680,"Whole blood, BN.N.NYU1612.pre.1",Whole blood,NYU1612,1,BN,NYU,na,solid,female,61,caucasian,smoker,67.5,"nodule size, mm: 9",na,no,na,no,yes,whole blood
+-,GSM4003681,"Whole blood, BN.N.NYU1484.pre.1",Whole blood,NYU1484,1,BN,NYU,na,solid,male,62,caucasian,quit,39,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003682,"Whole blood, BN.N.NYU1296.pre.1",Whole blood,NYU1296,1,BN,NYU,na,solid/ground glass opacity,female,60,caucasian,quit,70,"nodule size, mm: 9",na,no,na,yes,no,whole blood
+-,GSM4003683,"Whole blood, BN.N.NYU1614.pre.1",Whole blood,NYU1614,1,BN,NYU,na,solid/ground glass opacity,female,72,caucasian,smoker,47,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003684,"Whole blood, BN.N.NYU1309.pre.1",Whole blood,NYU1309,1,BN,NYU,na,solid/ground glass opacity,female,74,caucasian,quit,62,"nodule size, mm: 9",na,no,na,no,yes,whole blood
+-,GSM4003685,"Whole blood, BN.N.NYU1240.pre.1",Whole blood,NYU1240,1,BN,NYU,na,solid,female,52,african american,quit,26,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003686,"Whole blood, BN.N.NYU1615.pre.1",Whole blood,NYU1615,1,BN,NYU,na,solid,male,59,caucasian,quit,2,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003687,"Whole blood, BN.N.NYU682.pre.1",Whole blood,NYU682,1,BN,NYU,na,solid,female,63,caucasian,quit,40,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003688,"Whole blood, BN.N.NYU8.pre.3",Whole blood,NYU8,3,BN,NYU,na,solid,male,77,caucasian,quit,80,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003689,"Whole blood, BN.N.NYU1041.pre.1",Whole blood,NYU1041,1,BN,NYU,na,solid/ground glass opacity,male,70,caucasian,smoker,52,"nodule size, mm: 9",na,no,na,yes,no,whole blood
+-,GSM4003690,"Whole blood, MN.N.NYU1426.pre.1",Whole blood,NYU1426,1,MN,NYU,adenocarcinoma,na,female,64,caucasian,quit,36,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003691,"Whole blood, BN.N.NYU1632.pre.1",Whole blood,NYU1632,1,BN,NYU,na,ground glass opacity,male,73,caucasian,quit,12,"nodule size, mm: 13",na,no,na,yes,no,whole blood
+-,GSM4003692,"Whole blood, MN.N.NYU1426.post.25",Whole blood,NYU1426,1,MN,NYU,adenocarcinoma,na,female,64,caucasian,quit,36,"nodule size, mm: 9",1,yes,25,no,no,whole blood
+-,GSM4003693,"Whole blood, BN.N.NYU1545.pre.1",Whole blood,NYU1545,1,BN,NYU,na,solid,male,59,caucasian,smoker,44,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003694,"Whole blood, BN.N.NYU819.pre.1",Whole blood,NYU819,1,BN,NYU,na,solid/ground glass opacity,male,78,caucasian,quit,30,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003695,"Whole blood, MN.N.NYU524.post.298",Whole blood,NYU524,1,MN,NYU,adenocarcinoma,na,male,77,caucasian,quit,82.5,"nodule size, mm: na",1,yes,298,no,no,whole blood
+-,GSM4003696,"Whole blood, MN.N.NYU697.post.1231",Whole blood,NYU697,1,MN,NYU,adenocarcinoma,na,female,68,caucasian,smoker,54,"nodule size, mm: 5",1,yes,1231,no,no,whole blood
+-,GSM4003697,"Whole blood, MN.N.NYU1055.post.500",Whole blood,NYU1055,1,MN,NYU,adenocarcinoma,na,female,69,caucasian,quit,55.5,"nodule size, mm: 4",1,yes,500,no,no,whole blood
+-,GSM4003698,"Whole blood, MN.N.NYU1426.post.102",Whole blood,NYU1426,1,MN,NYU,adenocarcinoma,na,female,65,caucasian,quit,36,"nodule size, mm: na",1,yes,102,no,no,whole blood
+-,GSM4003699,"Whole blood, BN.N.NYU377.pre.4",Whole blood,NYU377,4,BN,NYU,na,solid/ground glass opacity,female,77,caucasian,smoker,63,"nodule size, mm: 5",na,no,na,no,yes,whole blood
+-,GSM4003700,"Whole blood, MN.N.NYU20.post.964",Whole blood,NYU20,1,MN,NYU,adenocarcinoma,na,male,77,caucasian,quit,55,"nodule size, mm: na",1,yes,964,no,no,whole blood
+-,GSM4003701,"Whole blood, BN.N.NYU1343.pre.2",Whole blood,NYU1343,2,BN,NYU,na,solid,male,53,caucasian,quit,33,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003702,"Whole blood, BN.N.NYU422.pre.1",Whole blood,NYU422,1,BN,NYU,na,solid/ground glass opacity,female,68,caucasian,smoker,49,"nodule size, mm: 14",na,no,na,yes,no,whole blood
+-,GSM4003703,"Whole blood, MN.N.NYU1429.post.35",Whole blood,NYU1429,1,MN,NYU,adenocarcinoma,na,female,67,caucasian,quit,63,"nodule size, mm: na",1,yes,35,no,no,whole blood
+-,GSM4003704,"Whole blood, BN.N.NYU83.pre.2",Whole blood,NYU83,2,BN,NYU,na,solid,male,59,caucasian,smoker,42,"nodule size, mm: 13",na,no,na,yes,no,whole blood
+-,GSM4003705,"Whole blood, MN.N.NYU1426.post.215",Whole blood,NYU1426,1,MN,NYU,adenocarcinoma,na,female,65,caucasian,quit,36,"nodule size, mm: 4",1,yes,215,no,no,whole blood
+-,GSM4003706,"Whole blood, MN.N.NYU613.post.1807",Whole blood,NYU613,1,MN,NYU,adenocarcinoma,na,female,69,caucasian,quit,35,"nodule size, mm: 15",1,yes,1807,no,no,whole blood
+-,GSM4003707,"Whole blood, MN.N.NYU1669.pre.1",Whole blood,NYU1669,1,MN,NYU,adenocarcinoma,na,female,75,caucasian,quit,44,"nodule size, mm: 20",1,no,na,no,yes,whole blood
+-,GSM4003708,"Whole blood, BN.N.NYU634.pre.2",Whole blood,NYU634,2,BN,NYU,na,solid/ground glass opacity,female,72,caucasian,smoker,47,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003709,"Whole blood, BN.N.NYU1331.pre.2",Whole blood,NYU1331,2,BN,NYU,na,solid/ground glass opacity,male,66,caucasian,quit,42,"nodule size, mm: 16",na,no,na,yes,no,whole blood
+-,GSM4003710,"Whole blood, BN.N.NYU994.pre.2",Whole blood,NYU994,2,BN,NYU,na,solid/ground glass opacity,male,72,caucasian,quit,75,"nodule size, mm: 11",na,no,na,yes,no,whole blood
+-,GSM4003711,"Whole blood, MN.N.NYU251.post.3834",Whole blood,NYU251,1,MN,NYU,adenocarcinoma,na,male,74,caucasian,quit,26,"nodule size, mm: 11",1,yes,3834,no,no,whole blood
+-,GSM4003712,"Whole blood, MN.N.NYU1625.pre.1",Whole blood,NYU1625,1,MN,NYU,adenocarcinoma,na,female,60,caucasian,never,0,"nodule size, mm: na",3,no,na,no,yes,whole blood
+-,GSM4003713,"Whole blood, MN.N.NYU1625.pre.2",Whole blood,NYU1625,2,MN,NYU,adenocarcinoma,na,female,60,caucasian,never,0,"nodule size, mm: na",3,no,na,no,yes,whole blood
+-,GSM4003714,"Whole blood, MN.N.NYU1672.pre.1",Whole blood,NYU1672,1,MN,NYU,na,na,male,75,caucasian,quit,30,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003715,"Whole blood, MN.N.NYU1672.pre.2",Whole blood,NYU1672,2,MN,NYU,na,na,male,75,caucasian,quit,30,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003716,"Whole blood, MN.N.NYU1675.pre.1",Whole blood,NYU1675,1,MN,NYU,adenocarcinoma,na,male,74,caucasian,quit,60,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003717,"Whole blood, MN.N.NYU1675.pre.2",Whole blood,NYU1675,2,MN,NYU,adenocarcinoma,na,male,74,caucasian,quit,60,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003718,"Whole blood, MN.N.NYU1690.pre.1",Whole blood,NYU1690,1,MN,NYU,adenocarcinoma,na,male,70,caucasian,quit,20,"nodule size, mm: na",2,no,na,no,yes,whole blood
+-,GSM4003719,"Whole blood, MN.N.NYU1690.pre.2",Whole blood,NYU1690,2,MN,NYU,adenocarcinoma,na,male,70,caucasian,quit,20,"nodule size, mm: na",2,no,na,no,yes,whole blood
+-,GSM4003720,"Whole blood, MN.N.NYU1715.pre.1",Whole blood,NYU1715,1,MN,NYU,adenocarcinoma,na,female,68,caucasian,quit,45,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003721,"Whole blood, MN.N.NYU1715.pre.2",Whole blood,NYU1715,2,MN,NYU,adenocarcinoma,na,female,68,caucasian,quit,45,"nodule size, mm: na",1,no,na,yes,no,whole blood
+-,GSM4003722,"Whole blood, MN.N.NYU510S.pre.1",Whole blood,NYU510S,1,MN,NYU,adenocarcinoma,na,female,67,african american,quit,80,"nodule size, mm: 6",1,no,na,yes,no,whole blood
+-,GSM4003723,"Whole blood, MN.N.NYU1329S.pre.1",Whole blood,NYU1329S,1,MN,NYU,adenocarcinoma,na,male,80,african american,smoker,65,"nodule size, mm: 9",1,no,na,yes,no,whole blood
+-,GSM4003724,"Whole blood, MN.N.NYU1669.pre.2",Whole blood,NYU1669,2,MN,NYU,adenocarcinoma,na,female,65,african american,quit,20,"nodule size, mm: 15",1,no,na,no,yes,whole blood
+-,GSM4003725,"Whole blood, MN.N.NYU1676.pre.1",Whole blood,NYU1676,1,MN,NYU,squamous cell carcinoma,na,female,81,african american,quit,na,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003726,"Whole blood, MN.N.NYU1680.pre.1",Whole blood,NYU1680,1,MN,NYU,adenocarcinoma,na,female,59,african american,never,0,"nodule size, mm: 6",1,no,na,yes,no,whole blood
+-,GSM4003727,"Whole blood, MN.N.NYU1682.pre.1",Whole blood,NYU1682,1,MN,NYU,adenocarcinoma,na,female,69,other,never,0,"nodule size, mm: 25",1,no,na,no,yes,whole blood
+-,GSM4003728,"Whole blood, MN.N.NYU1683.pre.1",Whole blood,NYU1683,1,MN,NYU,adenocarcinoma,na,female,63,caucasian,quit,10,"nodule size, mm: 11",1,no,na,yes,no,whole blood
+-,GSM4003729,"Whole blood, MN.N.NYU1690.pre.3",Whole blood,NYU1690,3,MN,NYU,adenocarcinoma,na,male,70,caucasian,quit,20,"nodule size, mm: 15",2,no,na,yes,no,whole blood
+-,GSM4003730,"Whole blood, MN.N.NYU1700.pre.1",Whole blood,NYU1700,1,MN,NYU,adenocarcinoma,na,female,72,caucasian,quit,0.4,"nodule size, mm: 22",1,no,na,yes,no,whole blood
+-,GSM4003731,"Whole blood, MN.N.NYU1721.pre.1",Whole blood,NYU1721,1,MN,NYU,adenocarcinoma,na,male,75,caucasian,quit,54,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003732,"Whole blood, MN.N.NYU1743.pre.1",Whole blood,NYU1743,1,MN,NYU,adenocarcinoma,na,female,75,caucasian,quit,30,"nodule size, mm: 22",1,no,na,yes,no,whole blood
+-,GSM4003733,"Whole blood, MN.N.NYU1748.pre.1",Whole blood,NYU1748,1,MN,NYU,adenocarcinoma,na,female,73,african american,quit,60,"nodule size, mm: 12",1,no,na,no,yes,whole blood
+-,GSM4003734,"Whole blood, MN.N.NYU1749.pre.1",Whole blood,NYU1749,1,MN,NYU,adenocarcinoma,na,female,47,caucasian,quit,0.8,"nodule size, mm: 16",1,no,na,yes,no,whole blood
+-,GSM4003735,"Whole blood, MN.N.NYU1754.pre.1",Whole blood,NYU1754,1,MN,NYU,adenocarcinoma,na,female,80,caucasian,quit,40,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003736,"Whole blood, MN.N.NYU1760.pre.1",Whole blood,NYU1760,1,MN,NYU,squamous cell carcinoma,na,male,74,other,quit,35,"nodule size, mm: 13",1,no,na,no,yes,whole blood
+-,GSM4003737,"Whole blood, MN.N.NYU1767.pre.1",Whole blood,NYU1767,1,MN,NYU,adenocarcinoma,na,female,73,caucasian,quit,20,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003738,"Whole blood, MN.N.NYU1774.pre.1",Whole blood,NYU1774,1,MN,NYU,adenocarcinoma,na,female,73,caucasian,quit,na,"nodule size, mm: 12",1,no,na,yes,no,whole blood
+-,GSM4003739,"Whole blood, MN.N.NYU1777.pre.1",Whole blood,NYU1777,1,MN,NYU,adenocarcinoma,na,male,70,caucasian,quit,30,"nodule size, mm: 7",1,no,na,no,yes,whole blood
+-,GSM4003740,"Whole blood, MN.N.NYU1782.pre.1",Whole blood,NYU1782,1,MN,NYU,adenocarcinoma,na,female,73,caucasian,quit,30,"nodule size, mm: 21",1,no,na,no,yes,whole blood
+-,GSM4003741,"Whole blood, MN.N.NYU1783.pre.1",Whole blood,NYU1783,1,MN,NYU,adenocarcinoma,na,female,58,caucasian,never,0,"nodule size, mm: 12",1,no,na,yes,no,whole blood
+-,GSM4003742,"Whole blood, MN.N.NYU1787.pre.1",Whole blood,NYU1787,1,MN,NYU,adenocarcinoma,na,female,68,caucasian,quit,9,"nodule size, mm: 18",1,no,na,yes,no,whole blood
+-,GSM4003743,"Whole blood, MN.N.NYU1792.pre.1",Whole blood,NYU1792,1,MN,NYU,adenocarcinoma,na,male,56,caucasian,quit,20,"nodule size, mm: 10",1,no,na,yes,no,whole blood
+-,GSM4003744,"Whole blood, MN.N.NYU1798.pre.1",Whole blood,NYU1798,1,MN,NYU,adenocarcinoma,na,female,68,caucasian,quit,35,"nodule size, mm: 18",1,no,na,yes,no,whole blood
+-,GSM4003745,"Whole blood, MN.N.NYU1799.pre.1",Whole blood,NYU1799,1,MN,NYU,squamous cell carcinoma,na,male,75,caucasian,smoker,60,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003746,"Whole blood, MN.N.NYU1815.pre.1",Whole blood,NYU1815,1,MN,NYU,adenocarcinoma,na,male,73,caucasian,quit,116,"nodule size, mm: 6",1,no,na,yes,no,whole blood
+-,GSM4003747,"Whole blood, MN.N.NYU1816.pre.1",Whole blood,NYU1816,1,MN,NYU,adenocarcinoma,na,female,85,caucasian,quit,138,"nodule size, mm: 13",1,no,na,yes,no,whole blood
+-,GSM4003748,"Whole blood, MN.N.NYU1818.pre.1",Whole blood,NYU1818,1,MN,NYU,adenocarcinoma,na,female,49,caucasian,never,0,"nodule size, mm: 9",1,no,na,yes,no,whole blood
+-,GSM4003749,"Whole blood, MN.N.NYU1822.pre.1",Whole blood,NYU1822,1,MN,NYU,adenocarcinoma,na,male,65,caucasian,never,0,"nodule size, mm: 20",1,no,na,yes,no,whole blood
+-,GSM4003750,"Whole blood, MN.N.NYU1825.pre.1",Whole blood,NYU1825,1,MN,NYU,adenocarcinoma,na,male,75,caucasian,quit,40,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003751,"Whole blood, MN.N.NYU1828.pre.1",Whole blood,NYU1828,1,MN,NYU,squamous cell carcinoma,na,female,80,caucasian,quit,60,"nodule size, mm: 8",1,no,na,yes,no,whole blood
+-,GSM4003752,"Whole blood, MN.N.NYU1843.pre.1",Whole blood,NYU1843,1,MN,NYU,adenocarcinoma,na,female,66,caucasian,quit,70,"nodule size, mm: 15",1,no,na,yes,no,whole blood
+-,GSM4003753,"Whole blood, MN.N.NYU1847.pre.1",Whole blood,NYU1847,1,MN,NYU,adenocarcinoma,na,female,68,caucasian,quit,38,"nodule size, mm: 10",1,no,na,yes,no,whole blood
+-,GSM4003754,"Whole blood, MN.N.NYU1852.pre.1",Whole blood,NYU1852,1,MN,NYU,adenocarcinoma,na,female,66,caucasian,never,0,"nodule size, mm: 16",1,no,na,no,yes,whole blood
+-,GSM4003755,"Whole blood, MN.N.NYU1854.pre.1",Whole blood,NYU1854,1,MN,NYU,adenocarcinoma,na,female,67,other,quit,80,"nodule size, mm: 14",1,no,na,yes,no,whole blood
+-,GSM4003756,"Whole blood, MN.N.NYU1855.pre.1",Whole blood,NYU1855,1,MN,NYU,squamous cell carcinoma,na,male,86,caucasian,quit,30,"nodule size, mm: 11",1,no,na,no,yes,whole blood
+-,GSM4003757,"Whole blood, MN.N.NYU1862.pre.1",Whole blood,NYU1862,1,MN,NYU,adenocarcinoma,na,female,78,caucasian,quit,40,"nodule size, mm: 13",1,no,na,yes,no,whole blood
+-,GSM4003758,"Whole blood, MN.N.NYU1871.pre.1",Whole blood,NYU1871,1,MN,NYU,adenocarcinoma,na,female,63,caucasian,quit,23,"nodule size, mm: 18",1,no,na,yes,no,whole blood
+-,GSM4003759,"Whole blood, MN.N.NYU1877.pre.1",Whole blood,NYU1877,1,MN,NYU,adenocarcinoma,na,female,60,caucasian,never,0,"nodule size, mm: 12",1,no,na,no,yes,whole blood
+-,GSM4003760,"Whole blood, MN.N.NYU1883.pre.1",Whole blood,NYU1883,1,MN,NYU,adenocarcinoma,na,female,65,caucasian,quit,52.5,"nodule size, mm: 13",1,no,na,no,yes,whole blood
+-,GSM4003761,"Whole blood, MN.H.WS001.pre.1",Whole blood,WS001,1,MN,HFGCC,squamous cell carcinoma,na,male,68,caucasian,quit,55,"nodule size, mm: 33",1,no,na,yes,no,whole blood
+-,GSM4003762,"Whole blood, BN.N.NYU1206.pre.1",Whole blood,NYU1206,1,BN,NYU,na,ground glass opacity,female,49,caucasian,quit,21,"nodule size, mm: na",na,no,na,yes,no,whole blood
+-,GSM4003763,"Whole blood, BN.N.NYU1562.pre.1",Whole blood,NYU1562,1,BN,NYU,na,solid,male,63,caucasian,smoker,53.763698630137,"nodule size, mm: 6",na,no,na,no,yes,whole blood
+-,GSM4003764,"Whole blood, BN.N.NYU1435.pre.1",Whole blood,NYU1435,1,BN,NYU,na,na,male,75,other,quit,85,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003765,"Whole blood, BN.N.NYU487.pre.1",Whole blood,NYU487,1,BN,NYU,na,ground glass opacity,male,59,caucasian,smoker,41,"nodule size, mm: na",na,no,na,no,yes,whole blood
+-,GSM4003766,"Whole blood, BN.N.NYU409.pre.1",Whole blood,NYU409,1,BN,NYU,na,solid/ground glass opacity,female,56,caucasian,smoker,38,"nodule size, mm: 7",na,no,na,no,yes,whole blood
+-,GSM4003767,"Whole blood, BN.N.NYU1480.pre.1",Whole blood,NYU1480,1,BN,NYU,na,solid,male,67,other,quit,37.5,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003768,"Whole blood, BN.N.NYU1192.pre.1",Whole blood,NYU1192,1,BN,NYU,na,ground glass opacity,female,67,caucasian,quit,41,"nodule size, mm: 10",na,no,na,no,yes,whole blood
+-,GSM4003769,"Whole blood, BN.N.NYU1419.pre.1",Whole blood,NYU1419,1,BN,NYU,na,solid,female,71,african american,smoker,53,"nodule size, mm: 5",na,no,na,no,yes,whole blood
+-,GSM4003770,"Whole blood, BN.N.NYU255.pre.1",Whole blood,NYU255,1,BN,NYU,na,solid,male,66,other,quit,48,"nodule size, mm: 7",na,no,na,no,yes,whole blood
+-,GSM4003771,"Whole blood, BN.N.NYU1187.pre.1",Whole blood,NYU1187,1,BN,NYU,na,solid,female,61,african american,quit,27.75,"nodule size, mm: 5",na,no,na,no,yes,whole blood
+-,GSM4003772,"Whole blood, MN.H.WS011.post.19",Whole blood,WS011,1,MN,HFGCC,squamous cell carcinoma,na,male,69,caucasian,quit,0,"nodule size, mm: 31",1,yes,19,no,no,whole blood
+-,GSM4003773,"Whole blood, BN.N.NYU369.pre.1",Whole blood,NYU369,1,BN,NYU,na,ground glass opacity,female,60,other,smoker,69,"nodule size, mm: 9",na,no,na,yes,no,whole blood
+-,GSM4003774,"Whole blood, BN.N.NYU486.pre.1",Whole blood,NYU486,1,BN,NYU,na,ground glass opacity,female,65,other,smoker,50.6027397260274,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003775,"Whole blood, BN.N.NYU1576.pre.1",Whole blood,NYU1576,1,BN,NYU,na,ground glass opacity,male,58,other,quit,22,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003776,"Whole blood, BN.N.NYU910.pre.1",Whole blood,NYU910,1,BN,NYU,na,ground glass opacity,male,50,african american,smoker,105.45,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003777,"Whole blood, BN.N.NYU1364.pre.1",Whole blood,NYU1364,1,BN,NYU,na,solid/ground glass opacity,male,60,caucasian,smoker,44,"nodule size, mm: 5",na,no,na,no,yes,whole blood
+-,GSM4003778,"Whole blood, BN.N.NYU1367.pre.1",Whole blood,NYU1367,1,BN,NYU,na,solid/ground glass opacity,male,64,caucasian,quit,32,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003779,"Whole blood, BN.N.NYU1372.pre.1",Whole blood,NYU1372,1,BN,NYU,na,solid/ground glass opacity,female,71,caucasian,smoker,76.5,"nodule size, mm: 8",na,no,na,no,yes,whole blood
+-,GSM4003780,"Whole blood, BN.N.NYU955.pre.1",Whole blood,NYU955,1,BN,NYU,na,solid/ground glass opacity,female,54,caucasian,quit,54,"nodule size, mm: 10",na,no,na,yes,no,whole blood
+-,GSM4003781,"Whole blood, BN.N.NYU1488.pre.1",Whole blood,NYU1488,1,BN,NYU,na,solid,male,50,african american,quit,12.5,"nodule size, mm: 9",na,no,na,yes,no,whole blood
+-,GSM4003782,"Whole blood, BN.N.NYU1489.pre.1",Whole blood,NYU1489,1,BN,NYU,na,solid/ground glass opacity,male,66,caucasian,quit,4,"nodule size, mm: 8",na,no,na,yes,no,whole blood
+-,GSM4003783,"Whole blood, MN.H.WS002.pre.1",Whole blood,WS002,1,MN,HFGCC,adenocarcinoma,na,male,70,caucasian,quit,70,"nodule size, mm: 18",3,no,na,yes,no,whole blood
+-,GSM4003784,"Whole blood, MN.H.WS003.pre.1",Whole blood,WS003,1,MN,HFGCC,adenocarcinoma,na,female,71,caucasian,quit,8,"nodule size, mm: 19",1,no,na,yes,no,whole blood
+-,GSM4003785,"Whole blood, MN.H.WS004.pre.1",Whole blood,WS004,1,MN,HFGCC,squamous cell carcinoma,na,male,82,caucasian,quit,50,"nodule size, mm: 59",2,no,na,yes,no,whole blood
+-,GSM4003786,"Whole blood, MN.H.WS005.post.0",Whole blood,WS005,1,MN,HFGCC,adenocarcinoma,na,female,61,african american,smoker,8.4,"nodule size, mm: 22",1,yes,0,no,no,whole blood
+-,GSM4003787,"Whole blood, MN.H.WS006.pre.1",Whole blood,WS006,1,MN,HFGCC,adenocarcinoma,na,male,76,african american,smoker,57,"nodule size, mm: 14",1,no,na,no,yes,whole blood
+-,GSM4003788,"Whole blood, MN.H.WS007.pre.1",Whole blood,WS007,1,MN,HFGCC,squamous cell carcinoma,na,female,65,caucasian,smoker,75,"nodule size, mm: 20",1,no,na,yes,no,whole blood
+-,GSM4003789,"Whole blood, MN.R.112001255.pre.1",Whole blood,112001255,1,MN,Roswell-Park,adenocarcinoma,na,female,41,caucasian,quit,16,"nodule size, mm: 20",1,no,na,yes,no,whole blood
+-,GSM4003790,"Whole blood, MN.R.113220508.pre.1",Whole blood,113220508,1,MN,Roswell-Park,adenocarcinoma,na,male,48,caucasian,quit,85,"nodule size, mm: na",4,no,na,yes,no,whole blood
+-,GSM4003791,"Whole blood, MN.R.112171143.pre.1",Whole blood,112171143,1,MN,Roswell-Park,adenocarcinoma,na,male,53,caucasian,never,0,"nodule size, mm: 80",3,no,na,yes,no,whole blood
+-,GSM4003792,"Whole blood, MN.R.112571342.pre.1",Whole blood,112571342,1,MN,Roswell-Park,adenocarcinoma,na,female,53,caucasian,quit,40,"nodule size, mm: na",4,no,na,no,yes,whole blood
+-,GSM4003793,"Whole blood, MN.R.112421623.pre.1",Whole blood,112421623,1,MN,Roswell-Park,squamous cell carcinoma,na,male,54,caucasian,smoker,39,"nodule size, mm: 40",3,no,na,yes,no,whole blood
+-,GSM4003794,"Whole blood, MN.R.113210875.pre.1",Whole blood,113210875,1,MN,Roswell-Park,other non-small cell,na,male,55,caucasian,quit,9,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003795,"Whole blood, MN.R.111740443.pre.1",Whole blood,111740443,1,MN,Roswell-Park,adenocarcinoma,na,female,56,caucasian,quit,61.5,"nodule size, mm: 35",2,no,na,yes,no,whole blood
+-,GSM4003796,"Whole blood, MN.R.112771060.pre.1",Whole blood,112771060,1,MN,Roswell-Park,other non-small cell,na,female,56,other,smoker,22,"nodule size, mm: na",4,no,na,yes,no,whole blood
+-,GSM4003797,"Whole blood, MN.R.113260164.pre.1",Whole blood,113260164,1,MN,Roswell-Park,squamous cell carcinoma,na,female,56,caucasian,smoker,35,"nodule size, mm: 60",3,no,na,yes,no,whole blood
+-,GSM4003798,"Whole blood, MN.R.112221600.pre.1",Whole blood,112221600,1,MN,Roswell-Park,adenocarcinoma,na,female,57,caucasian,smoker,18,"nodule size, mm: 24",1,no,na,no,yes,whole blood
+-,GSM4003799,"Whole blood, NN.R.111721926.pre.1",Whole blood,111721926,1,NN,Roswell-Park,na,na,female,49,caucasian,smoker,32,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003800,"Whole blood, NN.R.112001840.pre.1",Whole blood,112001840,1,NN,Roswell-Park,na,na,female,49,caucasian,smoker,na,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003801,"Whole blood, BN.R.113191734.pre.1",Whole blood,113191734,1,BN,Roswell-Park,na,granuloma,female,49,caucasian,quit,26,"nodule size, mm: 3",na,no,na,yes,no,whole blood
+-,GSM4003802,"Whole blood, BN.R.111791965.pre.1",Whole blood,111791965,1,BN,Roswell-Park,na,granuloma,male,50,caucasian,quit,na,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003803,"Whole blood, NN.R.112631738.pre.1",Whole blood,112631738,1,NN,Roswell-Park,na,na,female,50,caucasian,smoker,na,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003804,"Whole blood, BN.R.112211588.pre.1",Whole blood,112211588,1,BN,Roswell-Park,na,granuloma,male,51,caucasian,quit,na,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003805,"Whole blood, NN.R.111511463.pre.1",Whole blood,111511463,1,NN,Roswell-Park,na,na,male,52,caucasian,smoker,34,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003806,"Whole blood, BN.R.111581879.pre.1",Whole blood,111581879,1,BN,Roswell-Park,na,granuloma,female,52,caucasian,smoker,na,"nodule size, mm: 3",na,no,na,yes,no,whole blood
+-,GSM4003807,"Whole blood, NN.R.112771452.pre.1",Whole blood,112771452,1,NN,Roswell-Park,na,na,female,54,caucasian,quit,24,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003808,"Whole blood, BN.R.112421811.pre.1",Whole blood,112421811,1,BN,Roswell-Park,na,granuloma,female,56,caucasian,quit,10,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003809,"Whole blood, MN.R.112871070.pre.1",Whole blood,112871070,1,MN,Roswell-Park,squamous cell carcinoma,na,female,59,caucasian,quit,30,"nodule size, mm: 22",1,no,na,no,yes,whole blood
+-,GSM4003810,"Whole blood, MN.R.113220342.pre.1",Whole blood,113220342,1,MN,Roswell-Park,adenocarcinoma,na,male,59,caucasian,smoker,43,"nodule size, mm: 61",4,no,na,yes,no,whole blood
+-,GSM4003811,"Whole blood, MN.R.112381441.pre.1",Whole blood,112381441,1,MN,Roswell-Park,adenocarcinoma,na,female,60,caucasian,quit,42,"nodule size, mm: 9",1,no,na,yes,no,whole blood
+-,GSM4003812,"Whole blood, MN.R.112841378.pre.1",Whole blood,112841378,1,MN,Roswell-Park,adenocarcinoma,na,male,60,african american,quit,30,"nodule size, mm: 14",1,no,na,yes,no,whole blood
+-,GSM4003813,"Whole blood, MN.R.112151610.pre.1",Whole blood,112151610,1,MN,Roswell-Park,other non-small cell,na,female,62,caucasian,quit,54,"nodule size, mm: 65",2,no,na,yes,no,whole blood
+-,GSM4003814,"Whole blood, MN.R.112491645.pre.1",Whole blood,112491645,1,MN,Roswell-Park,adenocarcinoma,na,female,62,caucasian,quit,80,"nodule size, mm: 11",1,no,na,yes,no,whole blood
+-,GSM4003815,"Whole blood, MN.R.112931491.pre.1",Whole blood,112931491,1,MN,Roswell-Park,other non-small cell,na,female,63,caucasian,quit,40,"nodule size, mm: 60",3,no,na,yes,no,whole blood
+-,GSM4003816,"Whole blood, MN.R.112840353.pre.1",Whole blood,112840353,1,MN,Roswell-Park,squamous cell carcinoma,na,male,65,caucasian,quit,80,"nodule size, mm: 25",1,no,na,yes,no,whole blood
+-,GSM4003817,"Whole blood, MN.R.113201335.pre.1",Whole blood,113201335,1,MN,Roswell-Park,other non-small cell,na,female,65,caucasian,quit,37,"nodule size, mm: 41",4,no,na,yes,no,whole blood
+-,GSM4003818,"Whole blood, MN.R.112141797.pre.1",Whole blood,112141797,1,MN,Roswell-Park,squamous cell carcinoma,na,male,66,caucasian,quit,98,"nodule size, mm: 36",1,no,na,yes,no,whole blood
+-,GSM4003819,"Whole blood, BN.R.112001686.pre.1",Whole blood,112001686,1,BN,Roswell-Park,na,granuloma,female,57,other,smoker,30,"nodule size, mm: 3",na,no,na,yes,no,whole blood
+-,GSM4003820,"Whole blood, BN.R.112771573.pre.1",Whole blood,112771573,1,BN,Roswell-Park,na,granuloma,male,57,caucasian,quit,40,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003821,"Whole blood, BN.R.112981531.pre.1",Whole blood,112981531,1,BN,Roswell-Park,na,granuloma,male,57,caucasian,quit,20,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003822,"Whole blood, NN.R.113130598.pre.1",Whole blood,113130598,1,NN,Roswell-Park,na,na,male,57,caucasian,smoker,41,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003823,"Whole blood, BN.R.112981220.pre.1",Whole blood,112981220,1,BN,Roswell-Park,na,granuloma,male,59,caucasian,smoker,60,"nodule size, mm: 7",na,no,na,yes,no,whole blood
+-,GSM4003824,"Whole blood, NN.R.112631585.pre.1",Whole blood,112631585,1,NN,Roswell-Park,na,na,female,60,caucasian,smoker,40,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003825,"Whole blood, BN.R.112351978.pre.1",Whole blood,112351978,1,BN,Roswell-Park,na,granuloma,male,61,caucasian,never,0,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003826,"Whole blood, BN.R.112211431.pre.1",Whole blood,112211431,1,BN,Roswell-Park,na,granuloma,male,62,caucasian,quit,na,"nodule size, mm: 5",na,no,na,no,yes,whole blood
+-,GSM4003827,"Whole blood, BN.R.112990273.pre.1",Whole blood,112990273,1,BN,Roswell-Park,na,granuloma,female,62,caucasian,quit,na,"nodule size, mm: 42",na,no,na,no,yes,whole blood
+-,GSM4003828,"Whole blood, BN.R.112561255.pre.1",Whole blood,112561255,1,BN,Roswell-Park,na,granuloma,female,64,caucasian,quit,na,"nodule size, mm: 4",na,no,na,yes,no,whole blood
+-,GSM4003829,"Whole blood, MN.R.113121318.pre.1",Whole blood,113121318,1,MN,Roswell-Park,squamous cell carcinoma,na,male,67,caucasian,quit,54,"nodule size, mm: na",3,no,na,yes,no,whole blood
+-,GSM4003830,"Whole blood, MN.R.112701470.pre.1",Whole blood,112701470,1,MN,Roswell-Park,adenocarcinoma,na,female,69,caucasian,quit,11.5,"nodule size, mm: 30",1,no,na,yes,no,whole blood
+-,GSM4003831,"Whole blood, MN.R.113080126.pre.1",Whole blood,113080126,1,MN,Roswell-Park,squamous cell carcinoma,na,female,69,caucasian,quit,36,"nodule size, mm: 23",3,no,na,yes,no,whole blood
+-,GSM4003832,"Whole blood, MN.R.111541162.pre.1",Whole blood,111541162,1,MN,Roswell-Park,squamous cell carcinoma,na,male,70,caucasian,quit,67.5,"nodule size, mm: 20",2,no,na,yes,no,whole blood
+-,GSM4003833,"Whole blood, MN.R.112281500.pre.1",Whole blood,112281500,1,MN,Roswell-Park,adenocarcinoma,na,male,70,caucasian,quit,150,"nodule size, mm: 16",1,no,na,no,yes,whole blood
+-,GSM4003834,"Whole blood, MN.R.112580837.pre.1",Whole blood,112580837,1,MN,Roswell-Park,adenocarcinoma,na,female,71,caucasian,quit,na,"nodule size, mm: 11",4,no,na,yes,no,whole blood
+-,GSM4003835,"Whole blood, MN.R.112580217.pre.1",Whole blood,112580217,1,MN,Roswell-Park,other non-small cell,na,male,71,caucasian,quit,30,"nodule size, mm: 32",4,no,na,yes,no,whole blood
+-,GSM4003836,"Whole blood, MN.R.112791841.pre.1",Whole blood,112791841,1,MN,Roswell-Park,squamous cell carcinoma,na,female,71,caucasian,quit,56,"nodule size, mm: 53",4,no,na,yes,no,whole blood
+-,GSM4003837,"Whole blood, MN.R.112760264.pre.1",Whole blood,112760264,1,MN,Roswell-Park,adenocarcinoma,na,female,73,caucasian,quit,86,"nodule size, mm: 17",1,no,na,yes,no,whole blood
+-,GSM4003838,"Whole blood, MN.R.111742064.pre.1",Whole blood,111742064,1,MN,Roswell-Park,adenocarcinoma,na,male,74,caucasian,quit,10,"nodule size, mm: na",4,no,na,yes,no,whole blood
+-,GSM4003839,"Whole blood, BN.R.112981219.pre.1",Whole blood,112981219,1,BN,Roswell-Park,na,granuloma,male,65,caucasian,quit,20,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003840,"Whole blood, NN.R.111780211.pre.1",Whole blood,111780211,1,NN,Roswell-Park,na,na,female,66,caucasian,smoker,na,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003841,"Whole blood, BN.R.111651498.pre.1",Whole blood,111651498,1,BN,Roswell-Park,na,granuloma,female,67,caucasian,quit,na,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003842,"Whole blood, BN.R.111721925.pre.1",Whole blood,111721925,1,BN,Roswell-Park,na,granuloma,female,69,caucasian,smoker,75,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003843,"Whole blood, BN.R.112001556.pre.1",Whole blood,112001556,1,BN,Roswell-Park,na,granuloma,male,69,caucasian,quit,125,"nodule size, mm: 3",na,no,na,no,yes,whole blood
+-,GSM4003844,"Whole blood, BN.R.111651586.pre.1",Whole blood,111651586,1,BN,Roswell-Park,na,granuloma,female,71,caucasian,quit,na,"nodule size, mm: 5",na,no,na,yes,no,whole blood
+-,GSM4003845,"Whole blood, NN.R.112492173.pre.1",Whole blood,112492173,1,NN,Roswell-Park,na,na,female,72,caucasian,smoker,54,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003846,"Whole blood, BN.R.111511647.pre.1",Whole blood,111511647,1,BN,Roswell-Park,na,na,male,74,caucasian,quit,49,"nodule size, mm: 15",na,no,na,yes,no,whole blood
+-,GSM4003847,"Whole blood, NN.R.112701401.pre.1",Whole blood,112701401,1,NN,Roswell-Park,na,na,male,77,caucasian,never,0,"nodule size, mm: 0",na,no,na,no,no,whole blood
+-,GSM4003848,"Whole blood, NN.R.112731315.pre.1",Whole blood,112731315,1,NN,Roswell-Park,na,na,female,83,caucasian,quit,65,"nodule size, mm: 0",na,no,na,no,no,whole blood

@@ -1,0 +1,94 @@
+# TITLE: Lung cancer
+# SUMMARY: Two prognostically significant subtypes of high-grade lung neuroendocrine tumors independent of small-cell and large-cell neuroendocrine carcinomas identified by gene expression profiles. BACKGROUND: Classification of high-grade neuroendocrine tumors (HGNT) of the lung currently recognises large-cell neuroendocrine carcinoma (LCNEC) and small-cell lung carcinoma (SCLC) as distinct groups. However, a similarity in histology for these two carcinomas and uncertain clinical course have led to suggestions that a single HGNT classification would be more appropriate. Gene expression profiling, which can reproduce histopathological classification, and often defines new subclasses with prognostic significance, can be used to resolve HGNT classification. METHODS: We used cDNA microarrays with 40386 elements to analyze the gene expression profiles of 38 surgically resected samples of lung neuroendocrine tumors and 11 SCLC cell lines. Samples of large-cell carcinoma, adenocarcinoma, and normal lung were also included to give a total of 105 samples analyzed. The data were subjected to filtering to yield informative genes before unsupervised hierarchical clustering that identified relatedness of tumor samples. FINDINGS: Distinct groups for carcinoids, large-cell carcinoma, adenocarcinoma, and normal lung were readily identified. However, we were unable to distinguish LCNEC from SCLC by gene expression profiling. Three independent rounds of unsupervised hierarchical clustering consistently divided SCLC samples into two main groups with LCNEC samples largely integrated with these groups. Furthermore, patients in one of the groups identified by clustering had a significantly better clinical outcome than the other (83% vs 12% survived for 5 years; p=0.0094. None of the highly proliferative SCLC cell lines subsequently analyzed clustered with this good-prognosis group. INTERPRETATION: Our findings show that HGNT of the lung can be classified into two groups independent of SCLC and LCNEC. To this end, we have identified many genes, some of which encode well-characterized markers of cancer that distinguish the HGNT groups. These results have implications for the diagnosis, classification, and treatment of lung neuroendocrine tumors, and provide important insights into their underlying biology. Keywords: other
+GPL962_Group,GPL962_Accession,GPL962_Title,GPL962_Source name 1,GPL962_Source name 2
+-,GSM16557,adenocarcinoma 3088,adenocarcinoma 3088,lung reference mix
+-,GSM16558,adenocarcinoma 3193,adenocarcinoma 3193,lung reference mix
+-,GSM16559,adenocarcinoma 3200,adenocarcinoma 3200,lung reference mix
+-,GSM16560,adenocarcinoma 3216,adenocarcinoma 3216,lung reference mix
+-,GSM16561,adenocarcinoma 3240,adenocarcinoma 3240,lung reference mix
+-,GSM16562,adenocarcinoma 3336,adenocarcinoma 3336,lung reference mix
+-,GSM16563,adenocarcinoma 3368,adenocarcinoma 3368,lung reference mix
+-,GSM16564,adenocarcinoma 3420,adenocarcinoma 3420,lung reference mix
+-,GSM16565,adenocarcinoma 3447,adenocarcinoma 3447,lung reference mix
+-,GSM16566,adenocarcinoma 3479,adenocarcinoma 3479,lung reference mix
+-,GSM16567,adenocarcinoma 3806,adenocarcinoma 3806,lung reference mix
+-,GSM16568,adenocarcinoma 3863,adenocarcinoma 3863,lung reference mix
+-,GSM17195,Colo 668 SCLC cell line,Colo 668 SCLC cell line,Lng reference mix
+-,GSM17196,Corl51 SCLC cell line,Corl51 SCLC cel line,ung reference mix
+-,GSM17287,normal 1037,primary normal lung tissue 1037,lung reference
+-,GSM17288,normal 1050,primary normal lung tissue 1050,lung reference
+-,GSM17289,normal 1074,primary normal lung tissue 1074,lung reference
+-,GSM17290,normal 1090,primary normal lung tissue 1090,lung reference
+-,GSM17291,normal 1103,primary normal lung tissue 1103,lung reference
+-,GSM17292,normal 1112,primary normal lung tissue 1112,lung reference
+-,GSM17293,normal 1144,primary normal lung tissue 1144,lung reference
+-,GSM17294,normal 1319,primary normal lung tissue 1319,lung reference
+-,GSM17295,normal 1345,primary normal lung tissue 1345,lung reference
+-,GSM17296,normal 1361,primary normal lung tissue 1361,lung reference
+-,GSM17297,normal 1455,primary normal lung tissue 1455,lung reference
+-,GSM17298,normal 1473,primary normal lung tissue 1473,lung reference
+-,GSM17299,normal 1502,primary normal lung tissue 1502,lung reference
+-,GSM17300,normal 1546,primary normal lung tissue 1546,lung reference
+-,GSM17301,normal 2266,primary normal lung tissue 2266,lung reference
+-,GSM17302,normal 2841,primary normal lung tissue 2841,lung reference
+-,GSM17303,normal 2911,primary normal lung tissue 2911,lung reference
+-,GSM17304,normal 3208,primary normal lung tissue 3208,lung reference
+-,GSM17305,normal 3370,primary normal lung tissue 3370,lung reference
+-,GSM17306,SCLC cell line COR-L88,SCLC cell line COR-L88,lung reference
+-,GSM17307,SCLC cell line DMS53,SCLC cell line DMS53,lung reference
+-,GSM17308,SCLC cell line DMS79,SCLC cell line DMS79,lung reference
+-,GSM17309,SCLC cell line Lu-130,SCLC cell line Lu-130,lung reference
+-,GSM17310,SCLC cell line Lu-134a,SCLC cell line Lu-134a,lung reference
+-,GSM17311,SCLC cell line MS-1,SCLC cell line MS-1,lung reference
+-,GSM17312,SCLC cell line SBC-2,SCLC cell line SBC-2,lung reference
+-,GSM17313,SCLC cell line SBC-3,SCLC cell line SBC-3,lung reference
+-,GSM17314,SCLC cell line SBC-5,SCLC cell line SBC-5,lung reference
+-,GSM17315,Primary typical carcinoid 134,Primary typical carcinoid 134,lung reference
+-,GSM17316,Primary typical carcinoid 791,Primary typical carcinoid 791,lung reference
+-,GSM17317,Primary typical carcinoid 1498,primary typical carcinoid 1498,lung reference
+-,GSM17318,Primary typical carcinoid 1753,primary typical carcinoid 1753,lung reference
+-,GSM17319,Primary typical carcinoid 2013,primary typical carcinoid 2013,lung reference
+-,GSM17320,Primary typical carcinoid 3313,primary typical carcinoid 3313,lung reference
+-,GSM17321,Primary typical carcinoid 4423,primary typical carcinoid 4423,lung reference
+-,GSM17322,Primary typical carcinoid 4837,primary typical carcinoid 4837,lung reference
+-,GSM17323,Primary typical carcinoid 4838,primary typical carcinoid 4838,lung reference
+-,GSM17324,Primary typical carcinoid 6618,primary typical carcinoid 6618,lung reference
+-,GSM17325,Primary typical carcinoid 7787,primary typical carcinoid 7787,lung reference
+-,GSM17326,Primary typical carcinoid 8512,primary typical carcinoid 8512,lung reference
+-,GSM17327,Primary large cell neuroendocrine carcinoma 571,Primary large cell neuroendocrine carcinoma 571,lung reference
+-,GSM17328,Primary large cell neuroendocrine carcinoma 2144,Primary large cell neuroendocrine carcinoma 2144,lung reference
+-,GSM17329,Primary large cell neuroendocrine carcinoma 5020,Primary large cell neuroendocrine carcinoma 5020,lung reference
+-,GSM17330,Primary large cell neuroendocrine carcinoma 5883,Primary large cell neuroendocrine carcinoma 5883,lung reference
+-,GSM17331,Primary large cell neuroendocrine carcinoma 6042,Primary large cell neuroendocrine carcinoma 6042,lung reference
+-,GSM17332,Primary large cell neuroendocrine carcinoma 1408,Primary large cell neuroendocrine carcinoma 1408,lung reference
+-,GSM17333,Primary large cell neuroendocrine carcinoma 6065,Primary large cell neuroendocrine carcinoma 6065,lung reference
+-,GSM17334,Primary large cell neuroendocrine carcinoma 6564,Primary large cell neuroendocrine carcinoma 6564,lung reference
+-,GSM17335,Primary small cell lung carcinoma 544,Primary small cell lung carcinoma 544,lung reference
+-,GSM17336,Primary small cell lung carcinoma 1926,Primary small cell lung carcinoma 1926,lung reference
+-,GSM17337,Primary small cell lung carcinoma 2212,Primary small cell lung carcinoma 2212,lung reference
+-,GSM17338,Primary small cell lung carcinoma 2229,Primary small cell lung carcinoma 2229,lung reference
+-,GSM17339,Primary small cell lung carcinoma 2243,Primary small cell lung carcinoma 2243,lung reference
+-,GSM17340,Primary small cell lung carcinoma 2425,Primary small cell lung carcinoma 2425,lung reference
+-,GSM17341,Primary small cell lung carcinoma 2760,Primary small cell lung carcinoma 2760,lung reference
+-,GSM17342,Primary small cell lung carcinoma 2942,Primary small cell lung carcinoma 2942,lung reference
+-,GSM17343,Primary small cell lung carcinoma 3105,Primary small cell lung carcinoma 3105,lung reference
+-,GSM17344,Primary small cell lung carcinoma 3170,Primary small cell lung carcinoma 3170,lung reference
+-,GSM17345,Primary small cell lung carcinoma 3424,Primary small cell lung carcinoma 3424,lung reference
+-,GSM17346,Primary small cell lung carcinoma 4271,Primary small cell lung carcinoma 4271,lung reference
+-,GSM17347,Primary small cell lung carcinoma 4567,Primary small cell lung carcinoma 4567,lung reference
+-,GSM17348,Primary small cell lung carcinoma 5395,Primary small cell lung carcinoma 5395,lung reference
+-,GSM17349,Primary small cell lung carcinoma 8526,Primary small cell lung carcinoma 8526,lung reference
+-,GSM17350,Primary large cell carcinoma 1934,Primary large cell carcinoma 1934,lung reference
+-,GSM17351,Primary large cell carcinoma 2081,Primary large cell carcinoma 2081,lung reference
+-,GSM17352,Primary large cell carcinoma 2985,Primary large cell carcinoma 2985,lung reference
+-,GSM17353,Primary large cell carcinoma 3259,Primary large cell carcinoma 3259,lung reference
+-,GSM17354,Primary large cell carcinoma 3387,Primary large cell carcinoma 3387,lung reference
+-,GSM17355,Primary large cell carcinoma 4222,Primary large cell carcinoma 4222,lung reference
+-,GSM17356,Primary large cell carcinoma 4319,Primary large cell carcinoma 4319,lung reference
+-,GSM18306,Primary large cell carcinoma 525,Primary large cell carcinoma 525,lung reference
+-,GSM18307,Primary large cell carcinoma 745,Primary large cell carcinoma 745,lung reference
+-,GSM18308,Primary large cell carcinoma 1485,Primary large cell carcinoma 1485,lung reference
+-,GSM18309,Primary large cell carcinoma 1531,Primary large cell carcinoma 1531,lung reference
+-,GSM18310,Primary large cell carcinoma 1997,Primary large cell carcinoma 1997,lung reference
+-,GSM18311,Primary combined SCLC-AD 1870,Primary combined SCLC-AD 1870,lung reference
+-,GSM18312,Primary combined SCLC-AD 4544,Primary combined SCLC-AD 4544,lung reference

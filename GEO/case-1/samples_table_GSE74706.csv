@@ -1,0 +1,39 @@
+# TITLE: Transcriptome of human NSCLC tissues
+# SUMMARY: RNA from patient samples was isolated to examine the TGFb pathway expression between matching pairs of tumor-free lung and NSCLC specimen
+GPL13497_Group,GPL13497_Accession,GPL13497_Title,GPL13497_Source name,GPL13497_Individual id,GPL13497_Tissue,GPL13497_Tissue type
+-,GSM1930616,17962_08 Lung,Lung,17962,Tumor-free lung,
+-,GSM1930617,17962_08 Tumor,Lung,17962,NSCLC,Adenocarcinoma
+-,GSM1930618,21577_08 Lung,Lung,21577,Tumor-free lung,
+-,GSM1930619,21577_08 Tumor,Lung,21577,NSCLC,Adenocarcinoma
+-,GSM1930620,6495_08 Lung,Lung,6495,Tumor-free lung,
+-,GSM1930621,6495_08 Tumor,Lung,6495,NSCLC,Squamous Cell Carcinoma
+-,GSM1930622,12097_07 Lung,Lung,12097,Tumor-free lung,
+-,GSM1930623,12097_07 Tumor,Lung,12097,NSCLC,Squamous Cell Carcinoma
+-,GSM1930624,15982_07 Lung,Lung,15982,Tumor-free lung,
+-,GSM1930625,15982_07 Tumor,Lung,15982,NSCLC,Squamous Cell Carcinoma
+-,GSM1930626,12799_12 Lung,Lung,12799,Tumor-free lung,
+-,GSM1930627,12799_12 Tumor,Lung,12799,NSCLC,Squamous Cell Carcinoma
+-,GSM1930628,1888_12 Lung,Lung,1888,Tumor-free lung,
+-,GSM1930629,1888_12 Tumor,Lung,1888,NSCLC,Squamous Cell Carcinoma
+-,GSM1930630,11560_12 Lung,Lung,11560,Tumor-free lung,
+-,GSM1930631,11560_12 Tumor,Lung,11560,NSCLC,Adenocarcinoma
+-,GSM1930632,3302_12 Lung,Lung,3302,Tumor-free lung,
+-,GSM1930633,3302_12 Tumor,Lung,3302,NSCLC,Adenocarcinoma
+-,GSM1930634,12893_12 Lung,Lung,12893,Tumor-free lung,
+-,GSM1930635,12893_12 Tumor,Lung,12893,NSCLC,Adenocarcinoma
+-,GSM1930636,5622_12 Lung,Lung,5622,Tumor-free lung,
+-,GSM1930637,5622_12 Tumor,Lung,5622,NSCLC,Adenocarcinoma
+-,GSM1930638,12928_12 Lung,Lung,12928,Tumor-free lung,
+-,GSM1930639,12928_12 Tumor,Lung,12928,NSCLC,Adenocarcinoma
+-,GSM1930640,1799_12 Lung,Lung,1799,Tumor-free lung,
+-,GSM1930641,1799_12 Tumor,Lung,1799,NSCLC,Adenocarcinoma
+-,GSM1930642,21918_11 Lung,Lung,21918,Tumor-free lung,
+-,GSM1930643,21918_11 Tumor,Lung,21918,NSCLC,Adenocarcinoma
+-,GSM1930644,2508_11 Lung,Lung,2508,Tumor-free lung,
+-,GSM1930645,2508_11 Tumor,Lung,2508,NSCLC,Squamous Cell Carcinoma
+-,GSM1930646,22024_11 Lung,Lung,22024,Tumor-free lung,
+-,GSM1930647,22024_11 Tumor,Lung,22024,NSCLC,Adenocarcinoma
+-,GSM1930648,13230_12 Lung,Lung,13230,Tumor-free lung,
+-,GSM1930649,13230_12 Tumor,Lung,13230,NSCLC,Squamous Cell Carcinoma
+-,GSM1930650,9495_10 Lung,Lung,9495,Tumor-free lung,
+-,GSM1930651,9495_10 Tumor,Lung,9495,NSCLC,Squamous Cell Carcinoma

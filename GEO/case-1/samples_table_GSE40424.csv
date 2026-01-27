@@ -1,0 +1,7 @@
+# TITLE: Expression data regulated by hMOF in non-small cell lung cancer (NSCLC) cell lines
+# SUMMARY: A549 and H1299 cell lines were transfected with hMOF specific siRNA or control siRNA, and Affymetrix oligonucleotide microarray was conducted to systematically determine downstream targets regulated by hMOF.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Source tissue,GPL570_Cell line,GPL570_Treatment
+-,GSM993788,A549 NC,A549 cells transfected by scramble siRNA,lung,A549,hMOF siRNA
+-,GSM993789,A549 siM,A549 cells transfected by hMOF siRNA,lung,A549,hMOF siRNA
+-,GSM993790,H1299 NC,H1299 cells transfected by scramble siRNA,lung,H1299,control siRNA
+-,GSM993791,H1299 siM,H1299 cells transfected by hMOF siRNA,lung,H1299,control siRNA

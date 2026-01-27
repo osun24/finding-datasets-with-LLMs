@@ -1,0 +1,9 @@
+# TITLE: KRAS mutation (G12V) expression by pBABE-Puro vector in NCI-H1703 cells
+# SUMMARY: The goal of this study was to determine genes affected by expressing KRAS mutation (G12V) in NCI-H1703 cells This data was used in Meng Wang et. al. Cancer Research 2016 to determine the alterations of gene expression profiling associated with expression of KRAS mutation (G12V).
+GPL18943_Group,GPL18943_Accession,GPL18943_Title,GPL18943_Source name,GPL18943_Genotype,GPL18943_Derivation,GPL18943_Cell line
+-,GSM2095884,MGH_NCI-H1703_vector_rep1,NSCLC NCI-H1703 empty vector control,"mut p53, mut p16, wild type KRAS",stage 1 lung squamous cell carcinoma of a 54-year-old Caucasian male smoker.,NCI-H1703
+-,GSM2095885,MGH_NCI-H1703_vector_rep2,NSCLC NCI-H1703 empty vector control,"mut p53, mut p16, wild type KRAS",stage 1 lung squamous cell carcinoma of a 54-year-old Caucasian male smoker.,NCI-H1703
+-,GSM2095886,MGH_NCI-H1703_vector_rep3,NSCLC NCI-H1703 empty vector control,"mut p53, mut p16, wild type KRAS",stage 1 lung squamous cell carcinoma of a 54-year-old Caucasian male smoker.,NCI-H1703
+-,GSM2095887,MGH_NCI-H1703_mutant KRAS_rep1,NSCLC NCI-H1703 mutant KRAS,"mut p53, mut p16, wild type KRAS",stage 1 lung squamous cell carcinoma of a 54-year-old Caucasian male smoker.,NCI-H1703
+-,GSM2095888,MGH_NCI-H1703_mutant KRAS_rep2,NSCLC NCI-H1703 mutant KRAS,"mut p53, mut p16, wild type KRAS",stage 1 lung squamous cell carcinoma of a 54-year-old Caucasian male smoker.,NCI-H1703
+-,GSM2095889,MGH_NCI-H1703_mutant KRAS_rep3,NSCLC NCI-H1703 mutant KRAS,"mut p53, mut p16, wild type KRAS",stage 1 lung squamous cell carcinoma of a 54-year-old Caucasian male smoker.,NCI-H1703

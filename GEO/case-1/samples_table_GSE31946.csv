@@ -1,0 +1,7 @@
+# TITLE: Factors affecting the yield of microRNAs from laser microdissectates of formalin-fixed tissue sections
+# SUMMARY: Sixth generation Exiqon® locked nucleic acid miRCURY™ LNA microarrays were used to profile in duplicate the expression of microRNAs in 250 or 400 ng of RNA isolated from a laser microdissectate of a formalin-fixed and paraffin-embedded human non-small cell lung cancer tumor.
+GPL11434_Group,GPL11434_Accession,GPL11434_Title,GPL11434_Source name 1,GPL11434_Source name 2,GPL11434_Tissue (Ch1),GPL11434_Disease (Ch1),GPL11434_Tissue (Ch2),GPL11434_Gender (Ch2)
+-,GSM791686,"250 ng, duplicate 1",Non-small cell lung cancer tumor,Human universal reference RNA from Ambion®,Lung,Non-small cell lung cancer,Multiple,Mixed
+-,GSM791687,"250 ng, duplicate 2",Non-small cell lung cancer tumor,Human universal reference RNA from Ambion®,Lung,Non-small cell lung cancer,Multiple,Mixed
+-,GSM791688,"400 ng, duplicate 1",Non-small cell lung cancer tumor,Human universal reference RNA from Ambion®,Lung,Non-small cell lung cancer,Multiple,Mixed
+-,GSM791689,"400 ng, duplicate 2",Non-small cell lung cancer tumor,Human universal reference RNA from Ambion®,Lung,Non-small cell lung cancer,Multiple,Mixed

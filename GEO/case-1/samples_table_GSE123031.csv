@@ -1,0 +1,21 @@
+# TITLE: Transcriptomic analysis of epithelial to mesenchymal transition in EGFR-mutant NSCLC cell lines.
+# SUMMARY: We have employed a transcriptomic approach to find a molecular target that could compensate for the loss of EGFR signaling in NSCLC cell lines with acquired resistance to EGFR TKIs with an EMT phenotype.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Treatment
+-,GSM3494176,"HCC827 cells, parental, rep1",HCC827 cell line,HCC827,parental
+-,GSM3494177,"HCC827 cells, parental, rep2",HCC827 cell line,HCC827,parental
+-,GSM3494178,"HCC827 cells, parental, rep3",HCC827 cell line,HCC827,parental
+-,GSM3494179,"HCC827 cells, TGFB1-treated rep1",HCC827 cell line,HCC827,TGFB1-treated (30 days)
+-,GSM3494180,"HCC827 cells, TGFB1-treated rep2",HCC827 cell line,HCC827,TGFB1-treated (30 days)
+-,GSM3494181,"HCC827 cells, TGFB1-treated rep3",HCC827 cell line,HCC827,TGFB1-treated (30 days)
+-,GSM3494182,"HCC827 cells, pLX303-lacZ control, rep1",HCC827 cell line,HCC827,"Control lentivirus, SNAIL experiment"
+-,GSM3494183,"HCC827 cells, pLX303-lacZ control, rep2",HCC827 cell line,HCC827,"Control lentivirus, SNAIL experiment"
+-,GSM3494184,"HCC827 cells, pLX303-lacZ control, rep3",HCC827 cell line,HCC827,"Control lentivirus, SNAIL experiment"
+-,GSM3494185,"HCC827 cells, pLKO1 shRNA CDH1, rep1",HCC827 cell line,HCC827,shRNA against CDH1
+-,GSM3494186,"HCC827 cells, pLKO1 shRNA CDH1, rep2",HCC827 cell line,HCC827,shRNA against CDH1
+-,GSM3494187,"HCC827 cells, pLKO1 shRNA CDH1, rep3",HCC827 cell line,HCC827,shRNA against CDH1
+-,GSM3494188,"HCC827 cells, pLKO1 shRNA non target NT, rep1",HCC827 cell line,HCC827,"shRNA control, CDH1 experiment"
+-,GSM3494189,"HCC827 cells, pLKO1 shRNA non target NT, rep2",HCC827 cell line,HCC827,"shRNA control, CDH1 experiment"
+-,GSM3494190,"HCC827 cells, pLKO1 shRNA non target NT, rep3",HCC827 cell line,HCC827,"shRNA control, CDH1 experiment"
+-,GSM3494191,"HCC827 cells, pLX303-lacZ SNAIL-V5, rep1",HCC827 cell line,HCC827,"SNAIL, lentiviral overexpression"
+-,GSM3494192,"HCC827 cells, pLX303-lacZ SNAIL-V5, rep2",HCC827 cell line,HCC827,"SNAIL, lentiviral overexpression"
+-,GSM3494193,"HCC827 cells, pLX303-lacZ SNAIL-V5, rep3",HCC827 cell line,HCC827,"SNAIL, lentiviral overexpression"

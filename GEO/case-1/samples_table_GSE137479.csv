@@ -1,0 +1,9 @@
+# TITLE: Expression profiling of isogenic A549 cell lines with and without ELF3 knock-down
+# SUMMARY: Gene function in cancer is often cell type-specific. The epithelial cell-specific transcription factor ELF3 is a documented tumour suppressor in many epithelial tumours yet displays oncogenic properties in others. Here, we show that ELF3 is an oncogene in the adenocarcinoma subtype of lung cancer (LUAD), providing genetic, functional, and clinical evidence of subtype specificity. We discover a region of focal amplification at chromosome 1q32.1 encompassing the ELF3 locus in LUAD which is absent in the squamous subtype. Gene dosage and promoter hypomethylation affect the locus in up to 80% of LUAD analysed. ELF3 expression was required for tumour growth and a pan-cancer expression network analysis supports its subtype and tissue specificity. We further show that ELF3 displays strong prognostic value in LUAD but not LUSC. We conclude that, contrary to many other tumours of epithelial origin, ELF3 is an oncogene and putative therapeutic target in LUAD.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line,GPL16686_Cell type,GPL16686_Genotype/variation
+-,GSM4080029,A549_empty_vector_control_rep1,A549 non-small cell lung cancer cell line,A549,non-small cell lung cancer,control
+-,GSM4080030,A549_empty_vector_control_rep2,A549 non-small cell lung cancer cell line,A549,non-small cell lung cancer,control
+-,GSM4080031,A549_empty_vector_control_rep3,A549 non-small cell lung cancer cell line,A549,non-small cell lung cancer,control
+-,GSM4080032,A549_ELF3_knockdown_rep2,A549 non-small cell lung cancer cell line,A549,non-small cell lung cancer,ELF3 knock-down
+-,GSM4080033,A549_ELF3_knockdown_rep3,A549 non-small cell lung cancer cell line,A549,non-small cell lung cancer,ELF3 knock-down
+-,GSM4080034,A549_ELF3_knockdown_rep1,A549 non-small cell lung cancer cell line,A549,non-small cell lung cancer,ELF3 knock-down

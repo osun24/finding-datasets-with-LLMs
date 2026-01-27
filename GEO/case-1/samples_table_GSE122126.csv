@@ -1,0 +1,93 @@
+# TITLE: Comprehensive human cell-type methylation atlas reveals origins of circulating cell-free DNA in health and disease
+# SUMMARY: Genome wide DNA methylation profiling of 59 cfDNA samples, 27 isolated cell populations used in deconvolution of cfDNA samples, and 15 samples used as technical controls.
+GPL13534_Group,GPL13534_Accession,GPL13534_Title,GPL13534_Source name,GPL13534_Sample type,GPL13534_Disease state,GPL13534_Gender,GPL13534_Age,GPL21145_Group,GPL21145_Accession,GPL21145_Title,GPL21145_Source name,GPL21145_Sample type,GPL21145_Disease state,GPL21145_Gender,GPL21145_Age
+-,GSM3455765,pancreatic_beta_cells_rep1,pancreatic beta cells,Pancreatic beta cells,Normal,Female,66,-,GSM3455776,cfDNA_young_male_pool_rep1,"cfDNA of young males, pooled from multiple donors",cfDNA,Normal,Male,
+-,GSM3455766,pancreatic_beta_cells_rep2,pancreatic beta cells,Pancreatic beta cells,Normal,Female,26,-,GSM3455777,cfDNA_young_male_pool_rep2,"cfDNA of young males, pooled from multiple donors",cfDNA,Normal,Male,
+-,GSM3455767,pancreatic_beta_cells_rep3,pancreatic beta cells,Pancreatic beta cells,Normal,Female,52,-,GSM3455778,cfDNA_young_female_pool_rep1,"cfDNA of young females, pooled from multiple donors",cfDNA,Normal,Female,
+-,GSM3455768,pancreatic_duct_cells_rep1,pancreatic duct cells,Pancreatic duct cells,Normal,,,-,GSM3455779,cfDNA_young_female_pool_rep2,"cfDNA of young females, pooled from multiple donors",cfDNA,Normal,Female,
+-,GSM3455769,pancreatic_acinar_cells_rep1,pancreatic acinar cells,Pancreatic acinar cells,Normal,,,-,GSM3455780,cfDNA_old_male_pool_rep1,"cfDNA of old males, pooled from multiple donors",cfDNA,Normal,Male,
+-,GSM3455770,adipocytes_rep1,adipocytes,Adipocytes,Normal,Female,35,-,GSM3455781,cfDNA_old_male_pool_rep2,"cfDNA of old males, pooled from multiple donors",cfDNA,Normal,Male,
+-,GSM3455771,adipocytes_rep2,adipocytes,Adipocytes,Normal,Female,37,-,GSM3455782,cfDNA_old_female_pool_rep1,"cfDNA of old females, pooled from multiple donors",cfDNA,Normal,Female,
+-,GSM3455772,adipocytes_rep3,adipocytes,Adipocytes,Normal,Female,53,-,GSM3455783,cfDNA_old_female_pool_rep2,"cfDNA of old females, pooled from multiple donors",cfDNA,Normal,Female,
+-,GSM3455773,cortical_neurons_rep1,cortical neurons,Cortical neurons,Normal,Male,31,-,GSM3455784,cfDNA_sepsis_2,"cfDNA, sepsis",cfDNA,Sepsis,NA,52
+-,GSM3455774,hepatocytes_rep1,hepatocytes,Hepatocytes,Normal,Female,17,-,GSM3455785,cfDNA_sepsis_3,"cfDNA, sepsis",cfDNA,Sepsis,NA,76
+-,GSM3455775,cfDNA_post_islet_transplant_pool,"cfDNA, 1 hr post pancreatic islet transplantation, pooled from multiple donors",cfDNA,Pancreatic islet transplant recipients,,,-,GSM3455786,cfDNA_sepsis_26_250ng_rep1,"cfDNA, sepsis",cfDNA,Sepsis,NA,81
+,,,,,,,,-,GSM3455787,cfDNA_sepsis_26_250ng_rep2,"cfDNA, sepsis",cfDNA,Sepsis,NA,81
+,,,,,,,,-,GSM3455788,cfDNA_sepsis_26_100ng,"cfDNA, sepsis, 100 ng DNA used",cfDNA,Sepsis,NA,81
+,,,,,,,,-,GSM3455789,cfDNA_sepsis_26_50ng,"cfDNA, sepsis, 50 ng DNA used",cfDNA,Sepsis,NA,81
+,,,,,,,,-,GSM3455790,cfDNA_sepsis_17_250ng_rep1,"cfDNA, sepsis",cfDNA,Sepsis,NA,81
+,,,,,,,,-,GSM3455791,cfDNA_sepsis_17_250ng_rep2,"cfDNA, sepsis",cfDNA,Sepsis,NA,81
+,,,,,,,,-,GSM3455792,cfDNA_sepsis_17_50ng_rep2,"cfDNA, sepsis, 50 ng DNA used",cfDNA,Sepsis,NA,81
+,,,,,,,,-,GSM3455793,cfDNA_sepsis_23_250ng_rep1,"cfDNA, sepsis",cfDNA,Sepsis,NA,34
+,,,,,,,,-,GSM3455794,cfDNA_sepsis_23_250ng_rep2,"cfDNA, sepsis",cfDNA,Sepsis,NA,98
+,,,,,,,,-,GSM3455795,cfDNA_sepsis_23_50ng,"cfDNA, sepsis, 50 ng DNA used",cfDNA,Sepsis,NA,98
+,,,,,,,,-,GSM3455796,cfDNA_sepsis_16,"cfDNA, sepsis",cfDNA,Sepsis,NA,91
+,,,,,,,,-,GSM3455797,cfDNA_sepsis_5,"cfDNA, sepsis",cfDNA,Sepsis,NA,52
+,,,,,,,,-,GSM3455798,cfDNA_sepsis_31,"cfDNA, sepsis",cfDNA,Sepsis,NA,61
+,,,,,,,,-,GSM3455799,cfDNA_sepsis_20,"cfDNA, sepsis",cfDNA,Sepsis,NA,69
+,,,,,,,,-,GSM3455800,cfDNA_sepsis_45,"cfDNA, sepsis",cfDNA,Sepsis,NA,61
+,,,,,,,,-,GSM3455801,cfDNA_sepsis_4,"cfDNA, sepsis",cfDNA,Sepsis,NA,76
+,,,,,,,,-,GSM3455802,cfDNA_sepsis_18,"cfDNA, sepsis",cfDNA,Sepsis,NA,76
+,,,,,,,,-,GSM3455803,cfDNA_sepsis_55,"cfDNA, sepsis",cfDNA,Sepsis,NA,52
+,,,,,,,,-,GSM3455804,cfDNA_sepsis_49,"cfDNA, sepsis",cfDNA,Sepsis,NA,74
+,,,,,,,,-,GSM3455805,cfDNA_sepsis_34,"cfDNA, sepsis",cfDNA,Sepsis,NA,86
+,,,,,,,,-,GSM3455806,vascular_endothelial_cells_rep1,vascular endothelial cells,Vascular endothelial cells,Normal,,
+,,,,,,,,-,GSM3455807,cfDNA_healthy_individual_1,"cfDNA, normal",cfDNA,Normal,Male,48
+,,,,,,,,-,GSM3455808,cfDNA_colon_cancer_806,"cfDNA, colon adenocarcinoma",cfDNA,Colon adenocarcinoma,Male,87
+,,,,,,,,-,GSM3455809,cfDNA_colon_cancer_684,"cfDNA, colon adenocarcinoma",cfDNA,Colon adenocarcinoma,Female,36
+,,,,,,,,-,GSM3455810,cfDNA_colon_cancer_806_50ng,"cfDNA, colon adenocarcinoma, 50 ng DNA used",cfDNA,Colon adenocarcinoma,Male,87
+,,,,,,,,-,GSM3455811,cfDNA_lung_cancer_1,"cfDNA, lung carcinoma",cfDNA,Non-small-cell lung carcinoma,Female,86
+,,,,,,,,-,GSM3455812,cfDNA_pancreatic_islet_recipient_151_1_pre,"cfDNA, pancreatic islet transplant recipient, pre-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455813,cfDNA_pancreatic_islet_recipient_151_1_1hr_post,"cfDNA, pancreatic islet transplant recipient, 1 hour post-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455814,cfDNA_pancreatic_islet_recipient_151_1_2hr_post,"cfDNA, pancreatic islet transplant recipient, 2 hours post-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455815,cfDNA_pancreatic_islet_recipient_151_2_pre,"cfDNA, pancreatic islet transplant recipient, pre-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455816,cfDNA_pancreatic_islet_recipient_151_2_1hr_post,"cfDNA, pancreatic islet transplant recipient, 1 hour post-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455817,cfDNA_pancreatic_islet_recipient_151_2_2hr_post,"cfDNA, pancreatic islet transplant recipient, 2 hours post-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455818,cfDNA_pancreatic_islet_recipient_144_2_pre,"cfDNA, pancreatic islet transplant recipient, pre-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455819,cfDNA_pancreatic_islet_recipient_144_2_1hr_post,"cfDNA, pancreatic islet transplant recipient, 1 hour post-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455820,cfDNA_pancreatic_islet_recipient_144_2_2hr_post,"cfDNA, pancreatic islet transplant recipient, 2 hours post-transplant",cfDNA,Pancreatic islet transplant recipient,NA,NA
+,,,,,,,,-,GSM3455821,pancreatic_beta_cells_rep4,pancreatic beta cells,Pancreatic beta cells,Normal,Female,73
+,,,,,,,,-,GSM3455822,vascular_endothelial_cells_rep2,vascular endothelial cells,Vascular endothelial cells,Normal,,
+,,,,,,,,-,GSM3455823,lung_epithelial_cells_rep2,lung epithelial cells,Lung epithelial cells,Normal,Male,68
+,,,,,,,,-,GSM3455824,lung_epithelial_cells_rep1,lung epithelial cells,Lung epithelial cells,Normal,Male,81
+,,,,,,,,-,GSM3455825,hepatocytes_rep2,hepatocytes,Hepatocytes,Normal,Female,17
+,,,,,,,,-,GSM3455826,pancreatic_duct_cells_rep2,pancreatic duct cells,Pancreatic duct cells,Normal,Male,37
+,,,,,,,,-,GSM3455827,pancreatic_acinar_cells_rep2,pancreatic acinar cells,Pancreatic acinar cells,Normal,Male,37
+,,,,,,,,-,GSM3455828,pancreatic_duct_cells_rep3,pancreatic duct cells,Pancreatic duct cells,Normal,Female,65
+,,,,,,,,-,GSM3455829,pancreatic_acinar_cells_rep3,pancreatic acinar cells,Pancreatic acinar cells,Normal,Female,65
+,,,,,,,,-,GSM3455830,cfDNA_CUP_1302,"cfDNA, CUP",cfDNA,Cancer of Unkown Primary,Female,78
+,,,,,,,,-,GSM3455831,cfDNA_CUP_1149,"cfDNA, CUP",cfDNA,Cancer of Unkown Primary,Male,70
+,,,,,,,,-,GSM3455832,cfDNA_CUP_1322,"cfDNA, CUP",cfDNA,Cancer of Unkown Primary,Male,83
+,,,,,,,,-,GSM3455833,hepatocytes_rep3,hepatocytes,Hepatocytes,Normal,Male,24
+,,,,,,,,-,GSM3455834,cortical_neurons_rep2,cortical neurons,Cortical neurons,Normal,Male,19
+,,,,,,,,-,GSM3455835,cortical_neurons_rep3,cortical neurons,Cortical neurons,Normal,Male,38
+,,,,,,,,-,GSM3455836,cfDNA_CUP_1936_1994,"cfDNA, CUP",cfDNA,Cancer of Unkown Primary,Female,59
+,,,,,,,,-,GSM3455837,cfDNA_mix_5,"cfDNA, in vitro mix",cfDNA In vitro mix,Mix,,
+,,,,,,,,-,GSM3455838,cfDNA_mix_6,"cfDNA, in vitro mix",cfDNA In vitro mix,Mix,,
+,,,,,,,,-,GSM3455839,cfDNA_mix_7,"cfDNA, in vitro mix",cfDNA In vitro mix,Mix,,
+,,,,,,,,-,GSM3455840,cfDNA_healthy_individual_2,"cfDNA, normal",cfDNA,Normal,Male,50
+,,,,,,,,-,GSM3455841,cfDNA_lung_cancer_1478,"cfDNA, lung carcinoma",cfDNA,Non-small-cell lung carcinoma,Male,62
+,,,,,,,,-,GSM3455842,cfDNA_colon_cancer_2010,"cfDNA, colon adenocarcinoma",cfDNA,Colon adenocarcinoma,Female,75
+,,,,,,,,-,GSM3455843,cfDNA_breast_cancer_1040,"cfDNA, breast adenocarcinoma",cfDNA,Breast adenocarcinoma,Female,70
+,,,,,,,,-,GSM3455844,cfDNA_breast_cancer_1711,"cfDNA, breast adenocarcinoma",cfDNA,Breast adenocarcinoma,Female,65
+,,,,,,,,-,GSM3455845,cfDNA_mix_1,"cfDNA, in vitro mix",cfDNA In vitro mix,Mix,,
+,,,,,,,,-,GSM3455846,cfDNA_healthy_individual_3,"cfDNA, normal",cfDNA,Normal,Female,61
+,,,,,,,,-,GSM3455847,cfDNA_mix_3,"cfDNA, in vitro mix",cfDNA In vitro mix,Mix,,
+,,,,,,,,-,GSM3455848,cfDNA_healthy_individual_4,"cfDNA, normal",cfDNA,Normal,Male,42
+,,,,,,,,-,GSM3455849,cfDNA_breast_cancer_1438,"cfDNA, breast adenocarcinoma",cfDNA,Breast adenocarcinoma,Female,42
+,,,,,,,,-,GSM3455850,cfDNA_lung_cancer_2244,"cfDNA, lung carcinoma",cfDNA,Small-cell lung carcinoma,Female,62
+,,,,,,,,-,GSM3455851,cfDNA_lung_cancer_1433,"cfDNA, lung carcinoma",cfDNA,Non-small-cell lung carcinoma,Male,60
+,,,,,,,,-,GSM3455852,colon_epithelial_cells_rep1,colon epithelial cells,Colon epithelial cells,Normal,Male,55
+,,,,,,,,-,GSM3455853,in_vitro_mix_9,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455854,in_vitro_mix_10,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455855,in_vitro_mix_11,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455856,in_vitro_mix_12,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455857,in_vitro_mix_13,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455858,in_vitro_mix_14,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455859,in_vitro_mix_17,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455860,in_vitro_mix_16,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455861,in_vitro_mix_15,in vitro mix of genomic DNA,In vitro mix,Mix,,
+,,,,,,,,-,GSM3455862,leukocytes_1,leukocytes,Leukocytes,Normal,Male,50
+,,,,,,,,-,GSM3455863,colon_epithelial_cells_rep2,colon epithelial cells,Colon epithelial cells,Normal,Female,80
+,,,,,,,,-,GSM3455864,colon_epithelial_cells_rep3,colon epithelial cells,Colon epithelial cells,Normal,Male,51
+,,,,,,,,-,GSM3455865,lung_epithelial_cells_rep3,lung epithelial cells,Lung epithelial cells,Normal,Male,68

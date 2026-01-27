@@ -1,0 +1,11 @@
+# TITLE: Lentiviral shRNA knockdown of PTK7 in lung adenocarcinoma cell lines NCI-H1299 and NCI-H2009
+# SUMMARY: PTK7 was identified from a meta-analysis of 1905 non-small-cell lung cancer (NSCLC) samples across 12 datasets to be one of seven genes commonly up-regulated in lung adenocarcinoma (ADC). Using ADC cell lines NCI-H1299 and NCI-H2009, disruption of PTK7 resulted in decreased cell viability and induction of apoptosis. A xenotransplantation model of the cell lines with PTK7 knock-down also resulted in decreased tumor burden. We assayed gene expression in these cell lines after PTK7 knock-down by shRNA to uncover deregulated pathways and genes.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Cell line,GPL6244_Cell type,GPL6244_Transfected with
+-,GSM1214636,H1299_shGFP,H1299_shGFP,NCI-H1299,lung cancer cells,control hairpins targeting GFP
+-,GSM1214637,H1299_shLUC,H1299_shLUC,NCI-H1299,lung cancer cells,control hairpins targeting luciferase
+-,GSM1214638,H1299_shPTK7-1,H1299_shPTK7,NCI-H1299,lung cancer cells,shPTK7 (PTK7 knockdown)
+-,GSM1214639,H1299_shPTK7-2,H1299_shPTK7,NCI-H1299,lung cancer cells,shPTK7 (PTK7 knockdown)
+-,GSM1214640,H2009_shGFP,H2009_shGFP,NCI-H2009,lung cancer cells,control hairpins targeting GFP
+-,GSM1214641,H2009_shLUC,H2009_shLUC,NCI-H2009,lung cancer cells,control hairpins targeting luciferase
+-,GSM1214642,H2009_shPTK7-1,H2009_shPTK7,NCI-H2009,lung cancer cells,shPTK7 (PTK7 knockdown)
+-,GSM1214643,H2009_shPTK7-2,H2009_shPTK7,NCI-H2009,lung cancer cells,shPTK7 (PTK7 knockdown)

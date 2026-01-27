@@ -1,0 +1,5 @@
+# TITLE: Analysis of gene expression in CNOT2-depleted A549 lung cancer cells
+# SUMMARY: CNOT2 depletion partially decreased number of colony in colony forming assay and cell number in proliferation assay for NSCLC cells. Co-treatment with TRAIL and depletion of CNOT2 dramatically declined survival rate and increased apoptosis compared with TRAIL only in TRAIL resistant NSCLC cells. So, to find major signaling molecules in CNOT2 depleted condition of A549 cells, gene expression analysis was designed.
+GPL17077_Group,GPL17077_Accession,GPL17077_Title,GPL17077_Source name,GPL17077_Cell line,GPL17077_Genotype/variation,GPL17077_Cell type,GPL17077_Gender
+-,GSM3783667,A549-sh_con,A549-control,A549,control,Non-small cell lung cancer cell line,male
+-,GSM3783668,A549-sh_CNOT2,A549-CNOT2 K/D,A549,CNOT2 knockdown,Non-small cell lung cancer cell line,male

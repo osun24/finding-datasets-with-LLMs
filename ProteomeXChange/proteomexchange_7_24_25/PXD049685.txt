@@ -1,0 +1,2 @@
+Title: Proteomic analysis of paclitaxel or Pelophen B -treated spheroids formed from SKOV3 ovarian carcinoma cells
+Description: SKOV3 spheroids were treated with Paclitaxel,  Pelophen B or vehicle (DMSO). The spheroids were lysed and  proteomic analysis was carried out to  compare mechanistically the effects between the two drugs at IC50 concentrations.

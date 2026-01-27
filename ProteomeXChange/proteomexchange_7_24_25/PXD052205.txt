@@ -1,0 +1,2 @@
+Title: Identification of p85beta protein interaction partners in ovarian cancer cells
+Description: p85beta is one of the regulatory subunits of the PI3K. Apart from its canonical role in binding to and regulating the p110 catalytic subunit, the protein may bind to other interacting proteins to perform other biological functions. In this study, the protein binding partners of p85beta were determined by immunoprecipitation followed by mass spectrometry using samples of ovarian cancer cells OVCAR8.

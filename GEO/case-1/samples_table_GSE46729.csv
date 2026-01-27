@@ -1,0 +1,99 @@
+# TITLE: Serum miRNA expression is associated with lung cancer in a case-control study and normalizes following surgical resection
+# SUMMARY: microRNAs are small, non-coding, single-stranded RNAs between 18-22 nucleotides long that regulate gene expression. Expression of microRNAs is altered in tumor compared to normal tissue; there is some evidence that these changes may be reflected in the serum of cancer cases compared to healthy individuals. Several case-control studies have found evidence of differential levels of serum miRNAs in early stage non-small cell lung cancer (NSCLC) patients but with little consensus on specific miRNAs. Similarly, it is unclear whether miRNAs that show differential levels in tumors are the same miRNAs that are found in serum, and whether surgical resection of tumors leads to normalization of serum miRNA levels in cases. We used Affymetrix arrays to examine serum miRNA expression profiles in a small series of surgically resected non-small cell lung cancer cases to investigate circulating levels of miRNAs.
+GPL8786_Group,GPL8786_Accession,GPL8786_Title,GPL8786_Source name,GPL8786_Batch,GPL8786_Status,GPL8786_Age,GPL8786_Sex
+-,GSM1136167,9929 surgery 1,Serum,set1,surgery,64,MALE
+-,GSM1136168,9930 month 1,Serum,set1,1 month,64,MALE
+-,GSM1136169,9931 6 month 1,Serum,set1,6 month,64,MALE
+-,GSM1136170,9932 control 1,Plasma,set1,control,59,MALE
+-,GSM1136171,9958 surgery 2,Serum,set1,surgery,57,FEMALE
+-,GSM1136172,9959 month 2,Serum,set1,1 month,57,FEMALE
+-,GSM1136173,9960 6 month 2,Serum,set1,6 month,57,FEMALE
+-,GSM1136174,9961 control 2,Plasma,set1,control,57,FEMALE
+-,GSM1136175,9962 surgery 3,Serum,set1,surgery,64,FEMALE
+-,GSM1136176,9963 month 3,Serum,set1,1 month,64,FEMALE
+-,GSM1136177,9964 6 month 3,Serum,set1,6 month,64,FEMALE
+-,GSM1136178,9965 control 3,Plasma,set1,control,44,FEMALE
+-,GSM1136179,9966 surgery 4,Serum,set1,surgery,61,FEMALE
+-,GSM1136180,9967 month 4,Serum,set1,1 month,61,FEMALE
+-,GSM1136181,9968 6 month 4,Serum,set1,6 month,61,FEMALE
+-,GSM1136182,9969 control 4,Plasma,set1,control,40,FEMALE
+-,GSM1136183,10915 surgery 5,Serum,set2,surgery,62,FEMALE
+-,GSM1136184,10916 month 5,Serum,set2,1 month,62,FEMALE
+-,GSM1136185,10917 6 month 5,Serum,set2,6 month,62,FEMALE
+-,GSM1136186,10918 control 5,Plasma,set2,control,63,FEMALE
+-,GSM1136187,10919 surgery 6,Serum,set2,surgery,71,FEMALE
+-,GSM1136188,10920 month 6,Serum,set2,1 month,71,FEMALE
+-,GSM1136189,10921 6 month 6,Serum,set2,6 month,71,FEMALE
+-,GSM1136190,10922 control 6,Plasma,set2,control,76,FEMALE
+-,GSM1136191,10923 surgery 7,Serum,set2,surgery,59,FEMALE
+-,GSM1136192,10924 month 7,Serum,set2,1 month,59,FEMALE
+-,GSM1136193,10925 6 month 7,Serum,set2,6 month,59,FEMALE
+-,GSM1136194,10926 control 7,Plasma,set2,control,58,FEMALE
+-,GSM1136195,10927 surgery 8,Serum,set2,surgery,69,MALE
+-,GSM1136196,10928 month 8,Serum,set2,1 month,69,MALE
+-,GSM1136197,10929 6 month 8,Serum,set2,6 month,69,MALE
+-,GSM1136198,10930 control 8,Plasma,set2,control,49,MALE
+-,GSM1136199,10931 surgery 9,Serum,set3,surgery,80,MALE
+-,GSM1136200,10932 month 9,Serum,set3,1 month,80,MALE
+-,GSM1136201,10933 6 month 9,Serum,set3,6 month,80,MALE
+-,GSM1136202,10934 control 9,Plasma,set3,control,77,MALE
+-,GSM1136203,10935 surgery 10,Serum,set3,surgery,66,FEMALE
+-,GSM1136204,10936 month 10,Serum,set3,1 month,66,FEMALE
+-,GSM1136205,10937 6 month 10,Serum,set3,6 month,66,FEMALE
+-,GSM1136206,10938 control 10,Plasma,set3,control,74,FEMALE
+-,GSM1136207,10939 surgery 11,Serum,set3,surgery,76,MALE
+-,GSM1136208,10940 month 11,Serum,set3,1 month,76,MALE
+-,GSM1136209,10941 6 month 11,Serum,set3,6 month,76,MALE
+-,GSM1136210,10942 control 11,Plasma,set3,control,73,MALE
+-,GSM1136211,10943 surgery 12,Serum,set3,surgery,55,MALE
+-,GSM1136212,10944 month 12,Serum,set3,1 month,55,MALE
+-,GSM1136213,10945 6 month 12,Serum,set3,6 month,55,MALE
+-,GSM1136214,10946 control 12,Plasma,set3,control,56,MALE
+-,GSM1136215,11032 surgery 13,Serum,set4,surgery,66,MALE
+-,GSM1136216,11033 month 13,Serum,set4,1 month,66,MALE
+-,GSM1136217,11034 6 month 13,Serum,set4,6 month,66,MALE
+-,GSM1136218,11035 control 13,Plasma,set4,control,66,MALE
+-,GSM1136219,11036 surgery 14,Serum,set4,surgery,64,MALE
+-,GSM1136220,11037 month 14,Serum,set4,1 month,64,MALE
+-,GSM1136221,11038 6 month 14,Serum,set4,6 month,64,MALE
+-,GSM1136222,11039 control 14,Plasma,set4,control,54,MALE
+-,GSM1136223,11040 surgery 15,Serum,set4,surgery,79,FEMALE
+-,GSM1136224,11041 month 15,Serum,set4,1 month,79,FEMALE
+-,GSM1136225,11042 6 month 15,Serum,set4,6 month,79,FEMALE
+-,GSM1136226,11043 control 15,Plasma,set4,control,55,FEMALE
+-,GSM1136227,11044 surgery 16,Serum,set4,surgery,55,MALE
+-,GSM1136228,11045 month 16,Serum,set4,1 month,55,MALE
+-,GSM1136229,11046 6 month 16,Serum,set4,6 month,55,MALE
+-,GSM1136230,11047 control 16,Plasma,set4,control,65,MALE
+-,GSM1136231,11048 surgery 17,Serum,set5,surgery,70,FEMALE
+-,GSM1136232,11049 month 17,Serum,set5,1 month,70,FEMALE
+-,GSM1136233,11050 6 month 17,Serum,set5,6 month,70,FEMALE
+-,GSM1136234,11051 control 17,Plasma,set5,control,68,MALE
+-,GSM1136235,11052 surgery 18,Serum,set5,surgery,56,MALE
+-,GSM1136236,11053 month 18,Serum,set5,1 month,56,MALE
+-,GSM1136237,11054 6 month 18,Serum,set5,6 month,56,MALE
+-,GSM1136238,11055 control 18,Plasma,set5,control,47,MALE
+-,GSM1136239,11056 surgery 19,Serum,set5,surgery,73,FEMALE
+-,GSM1136240,11057 month 19,Serum,set5,1 month,73,FEMALE
+-,GSM1136241,11058 6 month 19,Serum,set5,6 month,73,FEMALE
+-,GSM1136242,11059 control 19,Plasma,set5,control,69,FEMALE
+-,GSM1136243,11060 surgery 20,Serum,set5,surgery,53,FEMALE
+-,GSM1136244,11061 month 20,Serum,set5,1 month,53,FEMALE
+-,GSM1136245,11062 6 month 20,Serum,set5,6 month,53,FEMALE
+-,GSM1136246,11063 control 20,Plasma,set5,control,76,FEMALE
+-,GSM1136247,11064 surgery 21,Serum,set6,surgery,81,FEMALE
+-,GSM1136248,11065 month 21,Serum,set6,1 month,81,FEMALE
+-,GSM1136249,11066 6 month 21,Serum,set6,6 month,81,FEMALE
+-,GSM1136250,11067 control 21,Plasma,set6,control,78,FEMALE
+-,GSM1136251,11068 surgery 22,Serum,set6,surgery,73,MALE
+-,GSM1136252,11069 month 22,Serum,set6,1 month,73,MALE
+-,GSM1136253,11070 6 month 22,Serum,set6,6 month,73,MALE
+-,GSM1136254,11071 control 22,Plasma,set6,control,59,MALE
+-,GSM1136255,11072 surgery 23,Serum,set6,surgery,66,FEMALE
+-,GSM1136256,11073 month 23,Serum,set6,1 month,66,FEMALE
+-,GSM1136257,11074 6 month 23,Serum,set6,6 month,66,FEMALE
+-,GSM1136258,11075 control 23,Plasma,set6,control,53,FEMALE
+-,GSM1136259,11076 surgery 24,Serum,set6,surgery,48,MALE
+-,GSM1136260,11077 month 24,Serum,set6,1 month,48,MALE
+-,GSM1136261,11078 6 month 24,Serum,set6,6 month,48,MALE
+-,GSM1136262,11079 control 24,Plasma,set6,control,62,MALE

@@ -1,0 +1,23 @@
+# TITLE: Gene expression profiling of Lentivirus-mediated Gene Silencing of RARβ Inhibits A549 Non-Small Cell Lung Cancer stem cells
+# SUMMARY: Retinoic acid Receptor Beta (RARβ) protein encoded by RARβ gene is a nuclear receptor protein that binds to retinoic acid (RA) to mediate RA function in cellular signalling in embryogenic morphogenesis, cell growth and differentiation. However, the function of RARβ in cancer stem cells (CSCs) maintenance of non-small cell lung cancer (NSCLC) is yet to be determined We used microarrays to analyse the trancriptomic changes in lung cancer and cancer stem cells following RARβ silencing.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Tissue
+-,GSM3968758,"A549 Parental cells, normal, biological rep1",A549 cells,Adenocarcinoma lung cancer cell line
+-,GSM3968759,"A549 Parental cells, normal, biological rep2",A549 cells,Adenocarcinoma lung cancer cell line
+-,GSM3968760,"A549 Parental cells, silencing, biological rep1",A549 cells with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968761,"A549 Parental cells, silencing, biological rep2",A549 cells with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968762,"A549 Putative CSCs 1, normal, biological rep1",A549 cells CD166+EpCAM+ normal,Adenocarcinoma lung cancer cell line
+-,GSM3968763,"A549 Putative CSCs 1, normal, biological rep2",A549 cells CD166+EpCAM+ normal,Adenocarcinoma lung cancer cell line
+-,GSM3968764,"A549 Putative CSCs 1, silencing, biological rep1",A549 cells CD166+EpCAM+ with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968765,"A549 Putative CSCs 1, silencing, biological rep2",A549 cells CD166+EpCAM+ with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968766,"A549 Putative non-CSCs 1, normal, biological rep1",A549 cells CD166-EpCAM- normal,Adenocarcinoma lung cancer cell line
+-,GSM3968767,"A549 Putative non-CSCs 1, normal, biological rep2",A549 cells CD166-EpCAM- normal,Adenocarcinoma lung cancer cell line
+-,GSM3968768,"A549 Putative non-CSCs 1, silencing, biological rep1",A549 cells CD166-EpCAM- with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968769,"A549 Putative non-CSCs 1, silencing, biological rep2",A549 cells CD166-EpCAM- with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968770,"A549 Putative CSCs 2, normal, biological rep1",A549 cells CD166+CD44+ normal,Adenocarcinoma lung cancer cell line
+-,GSM3968771,"A549 Putative CSCs 2, normal, biological rep2",A549 cells CD166+CD44+ normal,Adenocarcinoma lung cancer cell line
+-,GSM3968772,"A549 Putative CSCs 2, silencing, biological rep1",A549 cells CD166+CD44+ with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968773,"A549 Putative CSCs 2, silencing, biological rep2",A549 cells CD166+CD44+ with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968774,"A549 Putative non-CSCs 2, normal, biological rep1",A549 cells CD166-CD44- normal,Adenocarcinoma lung cancer cell line
+-,GSM3968775,"A549 Putative non-CSCs 2, normal, biological rep2",A549 cells CD166-CD44- normal,Adenocarcinoma lung cancer cell line
+-,GSM3968776,"A549 Putative non-CSCs 2, silencing, biological rep1",A549 cells CD166-CD44- with RARβ silencing,Adenocarcinoma lung cancer cell line
+-,GSM3968777,"A549 Putative non-CSCs 2, silencing, biological rep2",A549 cells CD166-CD44- with RARβ silencing,Adenocarcinoma lung cancer cell line

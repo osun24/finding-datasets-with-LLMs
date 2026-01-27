@@ -1,0 +1,11 @@
+# TITLE: Expression data from 5azaC- or gallic acid-treated human lung cancer H1299 cell line
+# SUMMARY: Gallic acid (also known as 3,4,5-trihydroxybenzoic acid, GA), a naturally occurring phenolic acid, is a major constituent of tea and red wine. It has been demonstrated that GA possess anti-cancer activities. We found the epigenetic effect of GA in tobacco-associated human cancer cell lines. In this dataset, we include the expression array data from human lung cancer H1299 cell line with or without the treatment of 5azaC or GA. These data were used to obtain genes upregulated in both 5azaC- orGA-treated H1299 cells.
+GPL23159_Group,GPL23159_Accession,GPL23159_Title,GPL23159_Source name,GPL23159_Tissue,GPL23159_Cell line,GPL23159_Tumor type,GPL23159_Treatment
+-,GSM2667438,"GA-treated H1299,bio rep-1","Lung cell line H1299, GA treated, 120 h",lung,H1299,non-small cell lung carcinoma,"GA treated, 120 h"
+-,GSM2667439,"GA-treated H1299, bio rep-2","Lung cell line H1299, GA treated, 120 h",lung,H1299,non-small cell lung carcinoma,"GA treated, 120 h"
+-,GSM2667440,"Ctrl for GA-treated H1299, bio rep-1","Lung cell line H1299, untreated",lung,H1299,non-small cell lung carcinoma,untreated
+-,GSM2667441,"Ctrl for GA-treated H1299, bio rep-2","Lung cell line H1299, untreated",lung,H1299,non-small cell lung carcinoma,untreated
+-,GSM2667442,"5azaC-treated H1299, bio rep-1","Lung cell line H1299, 5azaC treated, 120 h",lung,H1299,non-small cell lung carcinoma,"5azaC treated, 120 h"
+-,GSM2667443,"5azaC-treated H1299, bio rep-2","Lung cell line H1299, 5azaC treated, 120 h",lung,H1299,non-small cell lung carcinoma,"5azaC treated, 120 h"
+-,GSM2667444,"Ctrl for 5azaC-treated H1299, bio rep-1","Lung cell line H1299, untreated",lung,H1299,non-small cell lung carcinoma,untreated
+-,GSM2667445,"Ctrl for 5azaC-treated H1299, bio rep-2","Lung cell line H1299, untreated",lung,H1299,non-small cell lung carcinoma,untreated

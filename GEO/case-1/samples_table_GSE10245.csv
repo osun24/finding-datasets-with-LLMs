@@ -1,0 +1,61 @@
+# TITLE: Gene expression differences between adenocarcinoma and squamous cell carcinoma in human NSCLC
+# SUMMARY: Non-small cell lung cancer (NSCLC) can be classified into the major subtypes adenocarcinoma (AC) and squamous cell carcinoma (SCC) subtypes. Although explicit molecular, histological and clinical characteristics have been reported for both subtypes, no specific therapy exists so far. However, the characterization of suitable molecular targets holds great promises to develop novel therapies in NSCLC. In the present study, global gene expression profiling of 58 human high grade NSCLC specimens revealed large transcriptomic differences between AC and SCC subtypes: More than 1.700 genes were found to be differentially expressed. Keywords: disease subtype analysis
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Disease state
+-,GSM258551,NSCLC_AC_10,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258552,NSCLC_AC_16,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258553,NSCLC_SCC_22,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258554,NSCLC_AC_24,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258555,NSCLC_SCC_25,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258556,NSCLC_SCC_30,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258557,NSCLC_SCC_37,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258558,NSCLC_AC_40,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258559,NSCLC_AC_49,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258560,NSCLC_AC_51,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258561,NSCLC_AC_53,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258562,NSCLC_SCC_55,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258563,NSCLC_SCC_65,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258564,NSCLC_AC_70,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258565,NSCLC_SCC_75,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258566,NSCLC_SCC_77,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258567,NSCLC_AC_84,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258568,NSCLC_AC_88,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258569,NSCLC_AC_89,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258570,NSCLC_SCC_95,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258571,NSCLC_AC_97,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258572,NSCLC_AC_113,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258573,NSCLC_AC_136,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258574,NSCLC_AC_137,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258575,NSCLC_AC_147,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258576,NSCLC_AC_148,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258577,NSCLC_AC_161,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258578,NSCLC_SCC_165,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258579,NSCLC_AC_169,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258580,NSCLC_SCC_188,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258581,NSCLC_AC_202,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258582,NSCLC_AC_210,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258583,NSCLC_SCC_215,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258584,NSCLC_AC_233,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258585,NSCLC_SCC_248,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258586,NSCLC_AC_271,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258587,NSCLC_AC_273,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258588,NSCLC_AC_276,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258589,NSCLC_AC_282,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258590,NSCLC_SCC_301,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258591,NSCLC_AC_331,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258592,NSCLC_AC_334,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258593,NSCLC_AC_342,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258594,NSCLC_SCC_347,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258595,NSCLC_AC_348,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258596,NSCLC_SCC_364,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258597,NSCLC_AC_368,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258598,NSCLC_AC_378,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258599,NSCLC_SCC_390,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258600,NSCLC_AC_397,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258601,NSCLC_AC_400,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258602,NSCLC_AC_402,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258603,NSCLC_SCC_412,human non-small cell lung cancer tumor tissue,squamous cell carcinoma
+-,GSM258604,NSCLC_AC_426,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258605,NSCLC_AC_434,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258606,NSCLC_AC_445,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258607,NSCLC_AC_489,human non-small cell lung cancer tumor tissue,adenocarcinoma
+-,GSM258608,NSCLC_AC_492,human non-small cell lung cancer tumor tissue,adenocarcinoma

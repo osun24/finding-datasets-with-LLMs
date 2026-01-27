@@ -1,0 +1,6 @@
+# TITLE: Gene expression data in the human non-small cell lung cancer cell line NCI-H1975 and osimertinib-resistant OR1 and OR2 cells
+# SUMMARY: Osimertinib, a third-generation EGFR-TKI, has applied to non-small cell lung cancer harboring activated EGFR mutation with or without T790M. However, the appearance of tumors resistant to osimertinib has been reported. We established and characterized osimertinib-resistant cells derived from NCI-H1975 cells harboring activating EGFR and T790M mutation.
+GPL21185_Group,GPL21185_Accession,GPL21185_Title,GPL21185_Source name,GPL21185_Parental cell line,GPL21185_Cell type,GPL21185_Phenotype
+-,GSM6068510,H1975,NCI-H1975,NCI-H1975,non-small cell lung cancer cell line,osimertinib sensitive
+-,GSM6068511,OR1,osimertinib resistant cells derived from NCI-H1975,NCI-H1975,non-small cell lung cancer cell line,osimertinib resistant
+-,GSM6068512,OR2,osimertinib resistant cells derived from NCI-H1975,NCI-H1975,non-small cell lung cancer cell line,osimertinib resistant

@@ -1,0 +1,12 @@
+# TITLE: Expression data from KEAP1 overexpression and NRF2 siRNA knockdown of A549 NSCLC cell
+# SUMMARY: KEAP1 overexpressed and NRF2 siRNA knockdown A549 NSCLC cells were used to identify downstream genes of NRF2 pathway separately and by combinatorial analysis. We used triplicate microarrays of transfected A549 cells with mKeap1-GFP for overexpression, siRNAs targeting NRF2 for knockdown and siGFP as control respectively. As a result, we identified several genes which are involved in cancer metabolic functions in these cells. We used microarrays to identify the gene downregulated in both KEAP1 overexpressed and NRF2 siRNA knockdown A549 NSCLC cells and found a subset of downregulated genes which are involved in metabolic functions.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell line,GPL15207_Genotype/variation
+-,GSM2474572,KEAP1 overexpression biological rep1,Human lung adenocarcinoma A549 cell line transfected with mKeap1-GFP,A549,KEAP1 overexpression
+-,GSM2474573,KEAP1 overexpression biological rep2,Human lung adenocarcinoma A549 cell line transfected with mKeap1-GFP,A549,KEAP1 overexpression
+-,GSM2474574,KEAP1 overexpression biological rep3,Human lung adenocarcinoma A549 cell line transfected with mKeap1-GFP,A549,KEAP1 overexpression
+-,GSM2474575,NRF2 siRNA knockdown biological rep1,Human lung adenocarcinoma A549 cell line with transfected NRF2 siRNA,A549,NRF2 KD
+-,GSM2474576,NRF2 siRNA knockdown biological rep2,Human lung adenocarcinoma A549 cell line with transfected NRF2 siRNA,A549,NRF2 KD
+-,GSM2474577,NRF2 siRNA knockdown biological rep3,Human lung adenocarcinoma A549 cell line with transfected NRF2 siRNA,A549,NRF2 KD
+-,GSM2474578,Control biological rep1,Human lung adenocarcinoma A549 cell line with transfected siGFP,A549,Control
+-,GSM2474579,Control biological rep2,Human lung adenocarcinoma A549 cell line with transfected siGFP,A549,Control
+-,GSM2474580,Control biological rep3,Human lung adenocarcinoma A549 cell line with transfected siGFP,A549,Control

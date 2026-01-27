@@ -1,0 +1,5 @@
+Title: Proteomics comparison of ovarian cancer cells with drug administration and tRNA transfection
+Description: Quantitative proteome analyses of ovarian cancer cells (TOV-112D cells) in the following three conditions were carried out.
+1: Treatment with transfection reagent for 4 hours followed by treatment with DMSO
+2: Treatment with transfection reagent for 4 hours followed by treatment with 100nM Camptothecin
+3: Treatment with transfection reagent and 10nM tRNALeu(TAA) for 4 hours followed by treatment with 100nM Camptothecin

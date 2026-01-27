@@ -1,0 +1,14 @@
+# TITLE: Identification of HGF/c-MET as a biomarker of resistance to Vascular Endothelial Growth Factor Receptor (VEGFR) inhibitors
+# SUMMARY: Therapeutic resistance to VEGFR signaling inhibitors is a major obstacle in the treatment of non-small cell lung cancer (NSCLC). We investigated the contribution of stromal and tumor cells to resistance of NSCLC to VEGFR tyrosine kinase inhibitors (TKIs). Gene expression analysis of stromal (mouse) and tumor (human) compartments enabled us to identify the HGF/c-MET pathway as a driver and a potential biomarker of VEGFR TKI resistance.
+GPL6884_Group,GPL6884_Accession,GPL6884_Title,GPL6884_Source name,GPL6884_Mouse host strain,GPL6884_Tissue,GPL6887_Group,GPL6887_Accession,GPL6887_Title,GPL6887_Source name,GPL6887_Strain,GPL6887_Tissue
+-,GSM1571936,AZD2171 sensitive human xenograft 1,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571925,AZD2171 sensitive mouse xenograft 1,Mouse xenograft,Nci-nu,stroma
+-,GSM1571937,AZD2171 sensitive human xenograft 2,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571926,AZD2171 sensitive mouse xenograft 2,Mouse xenograft,Nci-nu,stroma
+-,GSM1571938,AZD2171 sensitive human xenograft 3,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571927,AZD2171 sensitive mouse xenograft 3,Mouse xenograft,Nci-nu,stroma
+-,GSM1571939,AZD2171 resistant human xenograft 1,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571928,AZD2171 resistant mouse xenograft 1,Mouse xenograft,Nci-nu,stroma
+-,GSM1571940,AZD2171 resistant human xenograft 2,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571929,AZD2171 resistant mouse xenograft 2,Mouse xenograft,Nci-nu,stroma
+-,GSM1571941,AZD2171 resistant human xenograft 3,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571930,AZD2171 resistant mouse xenograft 3,Mouse xenograft,Nci-nu,stroma
+-,GSM1571942,ZD6474 sensitive human xenograft 1,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571931,ZD6474 sensitive mouse xenograft 1,Mouse xenograft,Nci-nu,stroma
+-,GSM1571943,ZD6474 sensitive human xenograft 2,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571932,ZD6474 sensitive mouse xenograft 2,Mouse xenograft,Nci-nu,stroma
+-,GSM1571944,ZD6474 sensitive human xenograft 3,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571933,ZD6474 sensitive mouse xenograft 3,Mouse xenograft,Nci-nu,stroma
+-,GSM1571945,ZD6474 resistant human xenograft 1,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571934,ZD6474 resistant mouse xenograft 1,Mouse xenograft,Nci-nu,stroma
+-,GSM1571946,ZD6474 resistant human xenograft 2,Mouse xenograft,Nci-nu,tumor xenograft,-,GSM1571935,ZD6474 resistant mouse xenograft 2,Mouse xenograft,Nci-nu,stroma

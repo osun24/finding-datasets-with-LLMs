@@ -1,0 +1,2 @@
+Title: Immunoprecipitation-mass spectrometry to determine SWI/SNF protein-protein interactions in SCCO
+Description: Immunoprecipitation-mass spectrometry was performed on 6 SWI/SNF complex members in 3 small cell carcinoma of the ovary hypercalcemic type cell lines and a HAP1 parental cell line to deduce changes in protein-protein interactions with the loss of the ATPase subunit of the complex.

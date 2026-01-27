@@ -1,0 +1,2 @@
+Title: Peptidomic analysis of follicular fluid in patients with polycystic ovarian syndrome
+Description: The aim of this study was to analyze and compare the differential expression of peptides within the follicular fluid of polycystic ovary syndrome (PCOS) patients versus normal women by using peptidomics techniques. The underlying mechanisms involved in PCOS pathogenesis will be explored, together with screening and identification of potential functional peptides via bioinformatics analysis.

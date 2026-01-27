@@ -1,0 +1,5 @@
+# TITLE: miRNA expression in H460 cells treated with sulforaphane
+# SUMMARY: H460 cells treated with vehicle or sulforaphane (SFN) for 48 hours were used to acquire expression profiles of a total of 1891 unique miRNAs. We aimed at identifying the differentially expressed miRNAs between cells treated or untreated with SFN.
+GPL21854_Group,GPL21854_Accession,GPL21854_Title,GPL21854_Source name,GPL21854_Cell line,GPL21854_Cell type,GPL21854_Treatment
+-,GSM2149729,Ctrl,H460 cells treated with vehicle,H460,non-small cell lung cancer (NSCLC) cell line,vehicle
+-,GSM2149730,Treat,H460 cells treated with sulforaphane,H460,non-small cell lung cancer (NSCLC) cell line,sulforaphane

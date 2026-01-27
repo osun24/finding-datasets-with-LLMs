@@ -1,0 +1,15 @@
+# TITLE: Gene expression analysis in EGFR-mutant NSCLC cells treated with erlotinib versus DMSO
+# SUMMARY: This experiment is designed to detect genes differentially expressed in 2uM erlotinib treatment versus DMSO treatment and to identify differential gene set enrichments.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue,GPL570_Cell line,GPL570_Agent
+-,GSM1637493,PC-9 8day DMSO replicate 1,PC9 cells,lung,PC9,DMSO
+-,GSM1637494,PC-9 8day DMSO replicate 2,PC9 cells,lung,PC9,DMSO
+-,GSM1637495,PC-9 8day DMSO replicate 3,PC9 cells,lung,PC9,DMSO
+-,GSM1637496,PC-9 8day Erlotinib replicate 1,PC9 cells,lung,PC9,Erlotinib
+-,GSM1637497,PC-9 8day Erlotinib replicate 2,PC9 cells,lung,PC9,Erlotinib
+-,GSM1637498,PC-9 8day Erlotinib replicate 3,PC9 cells,lung,PC9,Erlotinib
+-,GSM1637499,HCC827 8day DMSO replicate 1,HCC827 cells,lung,HCC827,DMSO
+-,GSM1637500,HCC827 8day DMSO replicate 2,HCC827 cells,lung,HCC827,DMSO
+-,GSM1637501,HCC827 8day DMSO replicate 3,HCC827 cells,lung,HCC827,DMSO
+-,GSM1637502,HCC827 8day Erlotinib replicate 1,HCC827 cells,lung,HCC827,Erlotinib
+-,GSM1637503,HCC827 8day Erlotinib replicate 2,HCC827 cells,lung,HCC827,Erlotinib
+-,GSM1637504,HCC827 8day Erlotinib replicate 3,HCC827 cells,lung,HCC827,Erlotinib

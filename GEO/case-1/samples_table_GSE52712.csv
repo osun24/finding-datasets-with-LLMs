@@ -1,0 +1,23 @@
+# TITLE: Flexible multiplatform RNA profiling at the single cell level applied to enriched cancer initiating cells: Affymetrix array data
+# SUMMARY: Accurate profiling of RNA expression of single cells is a valuable approach for broadening our understanding of cancer biology and mechanisms of dissemination, but requires the development of reliable methods for their molecular characterization. Here we evaluate a single cell methodology which generates microgram amounts of cDNA suitable for next generation sequencing (RNA-Seq), high throughput RT-qPCR and Affymetrix array analysis. The approach was tested by comparing expression profiles of amplified single MCF7 and MCF10A cells to profiles generated from unamplified RNA. The expression profiles were compared by Affymetrix-U133 arrays, RNA-Seq and high-density qPCR. There were strong cross-platform correlations of >80% and concordance between single cell and unamplified material of >70%. We exemplify the approach through analysis of rare sorted cancer initiating cells (CICs) derived from a NSCLC patient-derived xenograft. Populations of 10 cells from total tumour and two distinct subsets of CIC, putatively involved in primary tumor maintenance or metastasis formation were FACS sorted then directly amplified. CIC expression profiles strongly correlated with published stem-cell and epithelial-mesenchymal transition (EMT) signatures. Our results confirm the utility of the amplification system and our methodology to detect and distinguish RNA profiles in rare cell populations that inform on EMT and stem-cell characteristics. This GEO dataset comprises the Affymetrix U-133 Plus 2.0 data for MCF7 and MCF10A cDNA amplified from 1ng RNA and single cell samples.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Sample type
+-,GSM1274482,MCF7_1ng_R1,MCF7 cells,MCF7,Amplified cDNA from 1ng RNA
+-,GSM1274483,MCF7_1ng_R2,MCF7 cells,MCF7,Amplified cDNA from 1ng RNA
+-,GSM1274484,MCF7_1ng_R3,MCF7 cells,MCF7,Amplified cDNA from 1ng RNA
+-,GSM1274485,MCF7_1ng_R4,MCF7 cells,MCF7,Amplified cDNA from 1ng RNA
+-,GSM1274486,MCF7_1ng_R5,MCF7 cells,MCF7,Amplified cDNA from 1ng RNA
+-,GSM1274487,MCF10A_1ng_R1,MCF10A cells,MCF10A,Amplified cDNA from 1ng RNA
+-,GSM1274488,MCF10A_1ng_R2,MCF10A cells,MCF10A,Amplified cDNA from 1ng RNA
+-,GSM1274489,MCF10A_1ng_R3,MCF10A cells,MCF10A,Amplified cDNA from 1ng RNA
+-,GSM1274490,MCF10A_1ng_R4,MCF10A cells,MCF10A,Amplified cDNA from 1ng RNA
+-,GSM1274491,MCF10A_1ng_R5,MCF10A cells,MCF10A,Amplified cDNA from 1ng RNA
+-,GSM1274492,MCF7_SC_R1,MCF7 single cell,MCF7,Amplified cDNA from single cell
+-,GSM1274493,MCF7_SC_R2,MCF7 single cell,MCF7,Amplified cDNA from single cell
+-,GSM1274494,MCF7_SC_R3,MCF7 single cell,MCF7,Amplified cDNA from single cell
+-,GSM1274495,MCF7_SC_R4,MCF7 single cell,MCF7,Amplified cDNA from single cell
+-,GSM1274496,MCF7_SC_R5,MCF7 single cell,MCF7,Amplified cDNA from single cell
+-,GSM1274497,MCF10A_SC_R1,MCF10A single cell,MCF10A,Amplified cDNA from single cell
+-,GSM1274498,MCF10A_SC_R2,MCF10A single cell,MCF10A,Amplified cDNA from single cell
+-,GSM1274499,MCF10A_SC_R3,MCF10A single cell,MCF10A,Amplified cDNA from single cell
+-,GSM1274500,MCF10A_SC_R4,MCF10A single cell,MCF10A,Amplified cDNA from single cell
+-,GSM1274501,MCF10A_SC_R5,MCF10A single cell,MCF10A,Amplified cDNA from single cell

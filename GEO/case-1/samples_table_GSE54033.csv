@@ -1,0 +1,23 @@
+# TITLE: Comparison of BRG1 reexpression, TSA treatment and 5dAzaC treatment on gene expression in human NCI-H522 NSCLC cells
+# SUMMARY: Transcription was assessed in the human H522 NSCLC cell line after reexpression of BRG1, one of the mutually exclusive subunits of the SWI/SNF chromatin remodeling complex, by adenovirus infection, after treatment with 5 micromolar 5-deAzacytidine or after treatment with 100nM Trichostatin A. Control treatments included infection with adenovirus expressing GFP and treatment with DMSO4 (vehicle control). The goal of the experiment was to identify target genes of the SWI/SNF complex and compart them to changes induced by DNA methylation and histone acetylation modifiers.
+GPL4133_Group,GPL4133_Accession,GPL4133_Title,GPL4133_Source name 1,GPL4133_Source name 2,GPL4133_Cell line (Ch1),GPL4133_Treatment (Ch1),GPL4133_Cell line (Ch2),GPL4133_Treatment (Ch2)
+-,GSM1306131,5dAzaC treatment replicate #1,[test] H522 cells treated with 5dAzaC,[reference] H522 untreated,NCI-H522 NSCLC cells,5dAzaC,NCI-H522 NSCLC cells,untreated
+-,GSM1306132,5dAzaC treatment replicate #2,[test] H522 cells treated with 5dAzaC,[reference] H522 untreated,NCI-H522 NSCLC cells,5dAzaC,NCI-H522 NSCLC cells,untreated
+-,GSM1306133,5dAzaC treatment replicate #3,[test] H522 cells treated with 5dAzaC,[reference] H522 untreated,NCI-H522 NSCLC cells,5dAzaC,NCI-H522 NSCLC cells,untreated
+-,GSM1306134,5dAzaC treatment replicate #4,[test] H522 cells treated with 5dAzaC,[reference] H522 untreated,NCI-H522 NSCLC cells,5dAzaC,NCI-H522 NSCLC cells,untreated
+-,GSM1306135,Adenovirus-BRG1 replicate #1,[test] H522 cells infected with Adenovirus-BRG1,[reference] H522 untreated,NCI-H522 NSCLC cells,Adenovirus-BRG1,NCI-H522 NSCLC cells,untreated
+-,GSM1306136,Adenovirus-BRG1 replicate #2,[test] H522 cells infected with Adenovirus-BRG1,[reference] H522 untreated,NCI-H522 NSCLC cells,Adenovirus-BRG1,NCI-H522 NSCLC cells,untreated
+-,GSM1306137,Adenovirus-BRG1 replicate #3,[test] H522 cells infected with Adenovirus-BRG1,[reference] H522 untreated,NCI-H522 NSCLC cells,Adenovirus-BRG1,NCI-H522 NSCLC cells,untreated
+-,GSM1306138,Adenovirus-BRG1 replicate #4,[test] H522 cells infected with Adenovirus-BRG1,[reference] H522 untreated,NCI-H522 NSCLC cells,Adenovirus-BRG1,NCI-H522 NSCLC cells,untreated
+-,GSM1306139,DMSO treatment replicate #1,[test] H522 cells treated with DMSO,[reference] H522 untreated,NCI-H522 NSCLC cells,DMSO,NCI-H522 NSCLC cells,untreated
+-,GSM1306140,DMSO treatment replicate #2,[test] H522 cells treated with DMSO,[reference] H522 untreated,NCI-H522 NSCLC cells,DMSO,NCI-H522 NSCLC cells,untreated
+-,GSM1306141,DMSO treatment replicate #3,[test] H522 cells treated with DMSO,[reference] H522 untreated,NCI-H522 NSCLC cells,DMSO,NCI-H522 NSCLC cells,untreated
+-,GSM1306142,DMSO treatment replicate #4,[test] H522 cells treated with DMSO,[reference] H522 untreated,NCI-H522 NSCLC cells,DMSO,NCI-H522 NSCLC cells,untreated
+-,GSM1306143,Adenovirus-GFP replicate #1,[test] H522 cells infected with Adenonvirus-GFP,[reference] H522 untreated,NCI-H522 NSCLC cells,Adenonvirus-GFP,NCI-H522 NSCLC cells,untreated
+-,GSM1306144,Adenovirus-GFP replicate #2,[test] H522 cells infected with Adenonvirus-GFP,[reference] H522 untreated,NCI-H522 NSCLC cells,Adenonvirus-GFP,NCI-H522 NSCLC cells,untreated
+-,GSM1306145,Adenovirus-GFP replicate #3,[test] H522 cells infected with Adenonvirus-GFP,[reference] H522 untreated,NCI-H522 NSCLC cells,Adenonvirus-GFP,NCI-H522 NSCLC cells,untreated
+-,GSM1306146,Adenovirus-GFP replicate #4,[test] H522 cells infected with Adenonvirus-GFP,[reference] H522 untreated,NCI-H522 NSCLC cells,Adenonvirus-GFP,NCI-H522 NSCLC cells,untreated
+-,GSM1306147,TSA treatment replicate #1,[test] H522 cells treated with TSA,[reference] H522 untreated,NCI-H522 NSCLC cells,TSA,NCI-H522 NSCLC cells,untreated
+-,GSM1306148,TSA treatment replicate #2,[test] H522 cells treated with TSA,[reference] H522 untreated,NCI-H522 NSCLC cells,TSA,NCI-H522 NSCLC cells,untreated
+-,GSM1306149,TSA treatment replicate #3,[test] H522 cells treated with TSA,[reference] H522 untreated,NCI-H522 NSCLC cells,TSA,NCI-H522 NSCLC cells,untreated
+-,GSM1306150,TSA treatment replicate #4,[test] H522 cells treated with TSA,[reference] H522 untreated,NCI-H522 NSCLC cells,TSA,NCI-H522 NSCLC cells,untreated

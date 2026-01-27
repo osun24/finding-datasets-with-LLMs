@@ -1,0 +1,5 @@
+# TITLE: Gene expression profiling of NCI-H292 cells after treatment of TFAP2C-specific siRNA
+# SUMMARY: Non-small cell lung cancer (NSCLC) remains one of the leading causes of death worldwide, and thus, new molecular targets need to be identified to improve treatment efficacy. Enhanced TFAP2C expression was found in lung cancer patient tissues and lung cancer cell lines, and its overexpression promoted cell proliferation and cell cycle progression. We conducted microarrays to find the possible downstream effectors regulated by TFAP2C which could play key roles in lung tumorigenesis.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line,GPL16686_Cell type,GPL16686_Genotype/variation,GPL16686_Transfected with
+-,GSM2088403,NCI-H292 cells_TFAP2C siRNA_rep1,NCI-H292_TFAP2C knockdown,NCI-H292,Non-small cell lung cancer (NSCLC) cell line,EGFR/KRAS-wild type cells,TFAP2C siRNA
+-,GSM2088404,NCI-H292 cells_Control siRNA_rep1,NCI-H292_control,NCI-H292,Non-small cell lung cancer (NSCLC) cell line,EGFR/KRAS-wild type cells,control siRNA

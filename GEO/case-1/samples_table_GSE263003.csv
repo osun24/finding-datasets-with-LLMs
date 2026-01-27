@@ -1,0 +1,9 @@
+# TITLE: Comprehensive analysis of circular RNA profiling in AZD9291-resistant non-small cell lung cancer cell lines
+# SUMMARY: Considering the important role of circular RNAs (circRNAs) in cancers, we established AZD9291-resistant NSCLC cell lines (H1975/AZDR and HCC827/AZDR) and used microarray analysis to determine the circRNA expression profiles of the cells. The H1975/AZDR and HCC827/AZDR cell lines were induced by gradually increasing the drug concentration. CircRNA microarray expression profiles were obtained from H1975, HCC827, H1975/AZDR, and HCC827/AZDR cells and validated by quantitative reverse transcription PCR. Expression data were analyzed bioinformatically.
+GPL22120_Group,GPL22120_Accession,GPL22120_Title,GPL22120_Source name,GPL22120_Cell line
+-,GSM8182931,H1975_rep1,"H1975,control,replicate 1",H1975
+-,GSM8182932,H1975/AZDR_rep1,"H1975,AZD9291-resistant,replicate 1",H1975
+-,GSM8182933,HCC827_rep1,"HCC827,control,replicate 1",HCC827
+-,GSM8182934,HCC827/AZDR_rep1,"HCC827,AZD9291-resistant,replicate 1",HCC827
+-,GSM8182935,H1975_rep2,"H1975,control,replicate 2",H1975
+-,GSM8182936,H1975/AZDR_rep2,"H1975,AZD9291-resistant,replicate 2",H1975

@@ -1,0 +1,15 @@
+# TITLE: Identification of expression patterns after B2M restoration in deficient lung cancer cell lines
+# SUMMARY: We have employed microarray expression profiling to identify genes up- and down-regulated after the restitution of beta-2 microglobulin (B2M) gene in lung cancer cell lines.
+GPL17077_Group,GPL17077_Accession,GPL17077_Title,GPL17077_Source name,GPL17077_Cell line,GPL17077_Cell type,GPL17077_Plasmid
+-,GSM2204327,H2009mock1,"NSCLC cell line H2009, mock",H2009,non-small cell lung cancer (NSCLC) cell line,empty vector
+-,GSM2204328,H2009mock2,"NSCLC cell line H2009, mock",H2009,non-small cell lung cancer (NSCLC) cell line,empty vector
+-,GSM2204329,H2009mock3,"NSCLC cell line H2009, mock",H2009,non-small cell lung cancer (NSCLC) cell line,empty vector
+-,GSM2204330,H2009wtB2M1,"NSCLC cell line H2009, wtB2M",H2009,non-small cell lung cancer (NSCLC) cell line,beta-2 microglobulin (B2M)
+-,GSM2204331,H2009wtB2M2,"NSCLC cell line H2009, wtB2M",H2009,non-small cell lung cancer (NSCLC) cell line,beta-2 microglobulin (B2M)
+-,GSM2204332,H2009wtB2M3,"NSCLC cell line H2009, wtB2M",H2009,non-small cell lung cancer (NSCLC) cell line,beta-2 microglobulin (B2M)
+-,GSM2204333,H2135mock1,"NSCLC cell line H2135, mock",H2135,non-small cell lung cancer (NSCLC) cell line,empty vector
+-,GSM2204334,H2135mock2,"NSCLC cell line H2135, mock",H2135,non-small cell lung cancer (NSCLC) cell line,empty vector
+-,GSM2204335,H2135mock3,"NSCLC cell line H2135, mock",H2135,non-small cell lung cancer (NSCLC) cell line,empty vector
+-,GSM2204336,H2135wtB2M1,"NSCLC cell line H2135, wtB2M",H2135,non-small cell lung cancer (NSCLC) cell line,beta-2 microglobulin (B2M)
+-,GSM2204337,H2135wtB2M2,"NSCLC cell line H2135, wtB2M",H2135,non-small cell lung cancer (NSCLC) cell line,beta-2 microglobulin (B2M)
+-,GSM2204338,H2135wtB2M3,"NSCLC cell line H2135, wtB2M",H2135,non-small cell lung cancer (NSCLC) cell line,beta-2 microglobulin (B2M)

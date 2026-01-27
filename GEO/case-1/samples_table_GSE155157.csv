@@ -1,0 +1,7 @@
+# TITLE: Small cell neuroendocrine transdifferentiation in EGFR-mutant lung cancer evolving from mesenchymal drug-tolerant state
+# SUMMARY: Small-cell neuroendocrine (SCN) transdifferentiation and epithelial-mesenchymal transition (EMT) are recognized as two kinds of lineage plasticity and they emerged as a model of targeted therapy evasion in a subset of EGFR-mutated NSCLC. Whether SCN transdifferentiation could phenocopy in isogenic acquired resistant clinically relevant cells and the association between EMT and SCN transdifferentiation remain unknown. 　We established several mesenchymal gefitinib-acquired resistant cells from HCC827 and showed SCN transdifferentiation could evolve from mesenchymal drug-tolerant state. The SCN property and the mesenchymal property in cancer cells are negatively correlated. Dynamic IL-6, correlated with mesenchymal property, could reflect this process and it might be a ready-to-use biomarker to monitor this process.
+GPL21185_Group,GPL21185_Accession,GPL21185_Title,GPL21185_Source name,GPL21185_Cell line,GPL21185_Tissue,GPL21185_Phenotype
+-,GSM4696390,HCC827,HCC827,HCC827,Lung,gefitinib resistance - No
+-,GSM4696391,HCC827GR,HCC827GR,HCC827,Lung,gefitinib resistance - Yes
+-,GSM4696392,HCC827GR+,HCC827GR+,HCC827,Lung,gefitinib resistance - Yes
+-,GSM4696393,HCC827GR.M6,HCC827GR.M6,HCC827,Lung,gefitinib resistance - Yes

@@ -1,0 +1,551 @@
+# TITLE: The prognostic and predictive value of a three-microRNA-based classifier in NSCLC
+# SUMMARY: MicroRNA expression profiles were sucessfully contructed in 397 patients with NSCLC and 151 corresponding adjacent noncancerous tissues using a custom microarray containing probes for 1888 miRNAs and an outcome prediction of miRNA signature was successfully identified for predicting prognosis in NSCLC.
+GPL18130_Group,GPL18130_Accession,GPL18130_Title,GPL18130_Source name,GPL18130_Survival
+-,GSM1306915,microRNA profile of case 143T,non-small-cell lung cancer,1
+-,GSM1306916,microRNA profile of case 145T,non-small-cell lung cancer,1
+-,GSM1306917,microRNA profile of case 147T,non-small-cell lung cancer,1
+-,GSM1306918,microRNA profile of case 148T,non-small-cell lung cancer,0
+-,GSM1306919,microRNA profile of case 149T,non-small-cell lung cancer,1
+-,GSM1306920,microRNA profile of case 153T,non-small-cell lung cancer,0
+-,GSM1306921,microRNA profile of case 159T,non-small-cell lung cancer,1
+-,GSM1306922,microRNA profile of case 163T,non-small-cell lung cancer,1
+-,GSM1306923,microRNA profile of case 168T,non-small-cell lung cancer,0
+-,GSM1306924,microRNA profile of case 169T,non-small-cell lung cancer,1
+-,GSM1306925,microRNA profile of case 170T,non-small-cell lung cancer,0
+-,GSM1306926,microRNA profile of case 173T,non-small-cell lung cancer,1
+-,GSM1306927,microRNA profile of case 185T,non-small-cell lung cancer,1
+-,GSM1306928,microRNA profile of case 193T,non-small-cell lung cancer,0
+-,GSM1306929,microRNA profile of case 216T,non-small-cell lung cancer,0
+-,GSM1306930,microRNA profile of case 217T,non-small-cell lung cancer,0
+-,GSM1306931,microRNA profile of case 230T,non-small-cell lung cancer,1
+-,GSM1306932,microRNA profile of case 231T,non-small-cell lung cancer,0
+-,GSM1306933,microRNA profile of case 236T,non-small-cell lung cancer,1
+-,GSM1306934,microRNA profile of case 237T,non-small-cell lung cancer,1
+-,GSM1306935,microRNA profile of case 238T,non-small-cell lung cancer,1
+-,GSM1306936,microRNA profile of case 240T,non-small-cell lung cancer,0
+-,GSM1306937,microRNA profile of case 249T,non-small-cell lung cancer,1
+-,GSM1306938,microRNA profile of case 265T,non-small-cell lung cancer,1
+-,GSM1306939,microRNA profile of case 266T,non-small-cell lung cancer,1
+-,GSM1306940,microRNA profile of case 268T,non-small-cell lung cancer,1
+-,GSM1306941,microRNA profile of case 269T,non-small-cell lung cancer,0
+-,GSM1306942,microRNA profile of case 270T,non-small-cell lung cancer,1
+-,GSM1306943,microRNA profile of case 275T,non-small-cell lung cancer,0
+-,GSM1306944,microRNA profile of case 279T,non-small-cell lung cancer,1
+-,GSM1306945,microRNA profile of case 280T,non-small-cell lung cancer,0
+-,GSM1306946,microRNA profile of case 283T,non-small-cell lung cancer,1
+-,GSM1306947,microRNA profile of case 285T,non-small-cell lung cancer,0
+-,GSM1306948,microRNA profile of case 286T,non-small-cell lung cancer,1
+-,GSM1306949,microRNA profile of case 287T,non-small-cell lung cancer,0
+-,GSM1306950,microRNA profile of case 290T,non-small-cell lung cancer,0
+-,GSM1306951,microRNA profile of case 291T,non-small-cell lung cancer,1
+-,GSM1306952,microRNA profile of case 292T,non-small-cell lung cancer,1
+-,GSM1306953,microRNA profile of case 294T,non-small-cell lung cancer,0
+-,GSM1306954,microRNA profile of case 295T,non-small-cell lung cancer,1
+-,GSM1306955,microRNA profile of case 296T,non-small-cell lung cancer,1
+-,GSM1306956,microRNA profile of case 297T,non-small-cell lung cancer,1
+-,GSM1306957,microRNA profile of case 298T,non-small-cell lung cancer,1
+-,GSM1306958,microRNA profile of case 299T,non-small-cell lung cancer,1
+-,GSM1306959,microRNA profile of case 300T,non-small-cell lung cancer,0
+-,GSM1306960,microRNA profile of case 301T,non-small-cell lung cancer,1
+-,GSM1306961,microRNA profile of case 302T,non-small-cell lung cancer,1
+-,GSM1306962,microRNA profile of case 304T,non-small-cell lung cancer,0
+-,GSM1306963,microRNA profile of case 305T,non-small-cell lung cancer,0
+-,GSM1306964,microRNA profile of case 306T,non-small-cell lung cancer,0
+-,GSM1306965,microRNA profile of case 307T,non-small-cell lung cancer,1
+-,GSM1306966,microRNA profile of case 309T,non-small-cell lung cancer,0
+-,GSM1306967,microRNA profile of case 311T,non-small-cell lung cancer,0
+-,GSM1306968,microRNA profile of case 315T,non-small-cell lung cancer,0
+-,GSM1306969,microRNA profile of case 317T,non-small-cell lung cancer,0
+-,GSM1306970,microRNA profile of case 319T,non-small-cell lung cancer,0
+-,GSM1306971,microRNA profile of case 321T,non-small-cell lung cancer,0
+-,GSM1306972,microRNA profile of case 322T,non-small-cell lung cancer,1
+-,GSM1306973,microRNA profile of case 323T,non-small-cell lung cancer,1
+-,GSM1306974,microRNA profile of case 325T,non-small-cell lung cancer,0
+-,GSM1306975,microRNA profile of case 326T,non-small-cell lung cancer,1
+-,GSM1306976,microRNA profile of case 327T,non-small-cell lung cancer,1
+-,GSM1306977,microRNA profile of case 328T,non-small-cell lung cancer,0
+-,GSM1306978,microRNA profile of case 329T,non-small-cell lung cancer,1
+-,GSM1306979,microRNA profile of case 330T,non-small-cell lung cancer,0
+-,GSM1306980,microRNA profile of case 335T,non-small-cell lung cancer,0
+-,GSM1306981,microRNA profile of case 337T,non-small-cell lung cancer,0
+-,GSM1306982,microRNA profile of case 338T,non-small-cell lung cancer,1
+-,GSM1306983,microRNA profile of case 339T,non-small-cell lung cancer,1
+-,GSM1306984,microRNA profile of case 342T,non-small-cell lung cancer,1
+-,GSM1306985,microRNA profile of case 343T,non-small-cell lung cancer,0
+-,GSM1306986,microRNA profile of case 345T,non-small-cell lung cancer,1
+-,GSM1306987,microRNA profile of case 347T,non-small-cell lung cancer,1
+-,GSM1306988,microRNA profile of case 351T,non-small-cell lung cancer,0
+-,GSM1306989,microRNA profile of case 355T,non-small-cell lung cancer,0
+-,GSM1306990,microRNA profile of case 357T,non-small-cell lung cancer,0
+-,GSM1306991,microRNA profile of case 358T,non-small-cell lung cancer,1
+-,GSM1306992,microRNA profile of case 359T,non-small-cell lung cancer,0
+-,GSM1306993,microRNA profile of case 363T,non-small-cell lung cancer,0
+-,GSM1306994,microRNA profile of case 364T,non-small-cell lung cancer,0
+-,GSM1306995,microRNA profile of case 366T,non-small-cell lung cancer,0
+-,GSM1306996,microRNA profile of case 367T,non-small-cell lung cancer,1
+-,GSM1306997,microRNA profile of case 369T,non-small-cell lung cancer,0
+-,GSM1306998,microRNA profile of case 370T,non-small-cell lung cancer,1
+-,GSM1306999,microRNA profile of case 373T,non-small-cell lung cancer,0
+-,GSM1307000,microRNA profile of case 374T,non-small-cell lung cancer,0
+-,GSM1307001,microRNA profile of case 376T,non-small-cell lung cancer,1
+-,GSM1307002,microRNA profile of case 378T,non-small-cell lung cancer,1
+-,GSM1307003,microRNA profile of case 379T,non-small-cell lung cancer,0
+-,GSM1307004,microRNA profile of case 380T,non-small-cell lung cancer,0
+-,GSM1307005,microRNA profile of case 381T,non-small-cell lung cancer,0
+-,GSM1307006,microRNA profile of case 382T,non-small-cell lung cancer,1
+-,GSM1307007,microRNA profile of case 383T,non-small-cell lung cancer,0
+-,GSM1307008,microRNA profile of case 384T,non-small-cell lung cancer,0
+-,GSM1307009,microRNA profile of case 385T,non-small-cell lung cancer,0
+-,GSM1307010,microRNA profile of case 387T,non-small-cell lung cancer,1
+-,GSM1307011,microRNA profile of case 388T,non-small-cell lung cancer,1
+-,GSM1307012,microRNA profile of case 389T,non-small-cell lung cancer,1
+-,GSM1307013,microRNA profile of case 390T,non-small-cell lung cancer,0
+-,GSM1307014,microRNA profile of case 391T,non-small-cell lung cancer,0
+-,GSM1307015,microRNA profile of case 392T,non-small-cell lung cancer,0
+-,GSM1307016,microRNA profile of case 393T,non-small-cell lung cancer,0
+-,GSM1307017,microRNA profile of case 394T,non-small-cell lung cancer,0
+-,GSM1307018,microRNA profile of case 395T,non-small-cell lung cancer,0
+-,GSM1307019,microRNA profile of case 396T,non-small-cell lung cancer,0
+-,GSM1307020,microRNA profile of case 397T,non-small-cell lung cancer,1
+-,GSM1307021,microRNA profile of case 398T,non-small-cell lung cancer,1
+-,GSM1307022,microRNA profile of case 399T,non-small-cell lung cancer,0
+-,GSM1307023,microRNA profile of case 400T,non-small-cell lung cancer,0
+-,GSM1307024,microRNA profile of case 401T,non-small-cell lung cancer,0
+-,GSM1307025,microRNA profile of case 402T,non-small-cell lung cancer,0
+-,GSM1307026,microRNA profile of case 403T,non-small-cell lung cancer,1
+-,GSM1307027,microRNA profile of case 406T,non-small-cell lung cancer,0
+-,GSM1307028,microRNA profile of case 409T,non-small-cell lung cancer,0
+-,GSM1307029,microRNA profile of case 410T,non-small-cell lung cancer,0
+-,GSM1307030,microRNA profile of case 411T,non-small-cell lung cancer,1
+-,GSM1307031,microRNA profile of case 413T,non-small-cell lung cancer,1
+-,GSM1307032,microRNA profile of case 414T,non-small-cell lung cancer,0
+-,GSM1307033,microRNA profile of case 415T,non-small-cell lung cancer,0
+-,GSM1307034,microRNA profile of case 416T,non-small-cell lung cancer,0
+-,GSM1307035,microRNA profile of case 417T,non-small-cell lung cancer,0
+-,GSM1307036,microRNA profile of case 418T,non-small-cell lung cancer,0
+-,GSM1307037,microRNA profile of case 419T,non-small-cell lung cancer,0
+-,GSM1307038,microRNA profile of case 420T,non-small-cell lung cancer,0
+-,GSM1307039,microRNA profile of case 421T,non-small-cell lung cancer,0
+-,GSM1307040,microRNA profile of case 422T,non-small-cell lung cancer,0
+-,GSM1307041,microRNA profile of case 423T,non-small-cell lung cancer,1
+-,GSM1307042,microRNA profile of case 424T,non-small-cell lung cancer,1
+-,GSM1307043,microRNA profile of case 425T,non-small-cell lung cancer,0
+-,GSM1307044,microRNA profile of case 426T,non-small-cell lung cancer,0
+-,GSM1307045,microRNA profile of case 427T,non-small-cell lung cancer,0
+-,GSM1307046,microRNA profile of case 428T,non-small-cell lung cancer,0
+-,GSM1307047,microRNA profile of case 429T,non-small-cell lung cancer,0
+-,GSM1307048,microRNA profile of case 430T,non-small-cell lung cancer,1
+-,GSM1307049,microRNA profile of case 431T,non-small-cell lung cancer,1
+-,GSM1307050,microRNA profile of case 433T,non-small-cell lung cancer,0
+-,GSM1307051,microRNA profile of case 434T,non-small-cell lung cancer,0
+-,GSM1307052,microRNA profile of case 436T,non-small-cell lung cancer,1
+-,GSM1307053,microRNA profile of case 438T,non-small-cell lung cancer,0
+-,GSM1307054,microRNA profile of case 439T,non-small-cell lung cancer,0
+-,GSM1307055,microRNA profile of case 441T,non-small-cell lung cancer,0
+-,GSM1307056,microRNA profile of case 445T,non-small-cell lung cancer,0
+-,GSM1307057,microRNA profile of case 446T,non-small-cell lung cancer,1
+-,GSM1307058,microRNA profile of case 447T,non-small-cell lung cancer,1
+-,GSM1307059,microRNA profile of case 448T,non-small-cell lung cancer,0
+-,GSM1307060,microRNA profile of case 449T,non-small-cell lung cancer,1
+-,GSM1307061,microRNA profile of case 451T,non-small-cell lung cancer,0
+-,GSM1307062,microRNA profile of case 452T,non-small-cell lung cancer,0
+-,GSM1307063,microRNA profile of case 453T,non-small-cell lung cancer,0
+-,GSM1307064,microRNA profile of case 454T,non-small-cell lung cancer,1
+-,GSM1307065,microRNA profile of case 455T,non-small-cell lung cancer,1
+-,GSM1307066,microRNA profile of case 456T,non-small-cell lung cancer,0
+-,GSM1307067,microRNA profile of case 457T,non-small-cell lung cancer,0
+-,GSM1307068,microRNA profile of case 458T,non-small-cell lung cancer,1
+-,GSM1307069,microRNA profile of case 459T,non-small-cell lung cancer,1
+-,GSM1307070,microRNA profile of case 460T,non-small-cell lung cancer,1
+-,GSM1307071,microRNA profile of case 461T,non-small-cell lung cancer,0
+-,GSM1307072,microRNA profile of case 462T,non-small-cell lung cancer,0
+-,GSM1307073,microRNA profile of case 463T,non-small-cell lung cancer,0
+-,GSM1307074,microRNA profile of case 464T,non-small-cell lung cancer,1
+-,GSM1307075,microRNA profile of case 465T,non-small-cell lung cancer,1
+-,GSM1307076,microRNA profile of case 466T,non-small-cell lung cancer,0
+-,GSM1307077,microRNA profile of case 467T,non-small-cell lung cancer,0
+-,GSM1307078,microRNA profile of case 468T,non-small-cell lung cancer,0
+-,GSM1307079,microRNA profile of case 469T,non-small-cell lung cancer,0
+-,GSM1307080,microRNA profile of case 470T,non-small-cell lung cancer,0
+-,GSM1307081,microRNA profile of case 471T,non-small-cell lung cancer,0
+-,GSM1307082,microRNA profile of case 472T,non-small-cell lung cancer,1
+-,GSM1307083,microRNA profile of case 473T,non-small-cell lung cancer,0
+-,GSM1307084,microRNA profile of case 474T,non-small-cell lung cancer,0
+-,GSM1307085,microRNA profile of case 475T,non-small-cell lung cancer,0
+-,GSM1307086,microRNA profile of case 478T,non-small-cell lung cancer,1
+-,GSM1307087,microRNA profile of case 479T,non-small-cell lung cancer,0
+-,GSM1307088,microRNA profile of case 480T,non-small-cell lung cancer,0
+-,GSM1307089,microRNA profile of case 481T,non-small-cell lung cancer,1
+-,GSM1307090,microRNA profile of case 482T,non-small-cell lung cancer,0
+-,GSM1307091,microRNA profile of case 483T,non-small-cell lung cancer,0
+-,GSM1307092,microRNA profile of case 484T,non-small-cell lung cancer,0
+-,GSM1307093,microRNA profile of case 485T,non-small-cell lung cancer,1
+-,GSM1307094,microRNA profile of case 487T,non-small-cell lung cancer,0
+-,GSM1307095,microRNA profile of case 488T,non-small-cell lung cancer,0
+-,GSM1307096,microRNA profile of case 489T,non-small-cell lung cancer,0
+-,GSM1307097,microRNA profile of case 491T,non-small-cell lung cancer,0
+-,GSM1307098,microRNA profile of case 492T,non-small-cell lung cancer,0
+-,GSM1307099,microRNA profile of case 493T,non-small-cell lung cancer,1
+-,GSM1307100,microRNA profile of case 494T,non-small-cell lung cancer,0
+-,GSM1307101,microRNA profile of case 496T,non-small-cell lung cancer,0
+-,GSM1307102,microRNA profile of case 498T,non-small-cell lung cancer,1
+-,GSM1307103,microRNA profile of case 501T,non-small-cell lung cancer,0
+-,GSM1307104,microRNA profile of case 502T,non-small-cell lung cancer,0
+-,GSM1307105,microRNA profile of case 503T,non-small-cell lung cancer,0
+-,GSM1307106,microRNA profile of case 504T,non-small-cell lung cancer,0
+-,GSM1307107,microRNA profile of case 505T,non-small-cell lung cancer,1
+-,GSM1307108,microRNA profile of case 506T,non-small-cell lung cancer,0
+-,GSM1307109,microRNA profile of case 508T,non-small-cell lung cancer,0
+-,GSM1307110,microRNA profile of case 509T,non-small-cell lung cancer,0
+-,GSM1307111,microRNA profile of case 510T,non-small-cell lung cancer,1
+-,GSM1307112,microRNA profile of case 511T,non-small-cell lung cancer,1
+-,GSM1307113,microRNA profile of case 512T,non-small-cell lung cancer,0
+-,GSM1307114,microRNA profile of case 513T,non-small-cell lung cancer,0
+-,GSM1307115,microRNA profile of case 516T,non-small-cell lung cancer,0
+-,GSM1307116,microRNA profile of case 517T,non-small-cell lung cancer,0
+-,GSM1307117,microRNA profile of case 520T,non-small-cell lung cancer,0
+-,GSM1307118,microRNA profile of case 523T,non-small-cell lung cancer,0
+-,GSM1307119,microRNA profile of case 528T,non-small-cell lung cancer,0
+-,GSM1307120,microRNA profile of case 530T,non-small-cell lung cancer,0
+-,GSM1307121,microRNA profile of case 532T,non-small-cell lung cancer,0
+-,GSM1307122,microRNA profile of case 533T,non-small-cell lung cancer,0
+-,GSM1307123,microRNA profile of case 534T,non-small-cell lung cancer,0
+-,GSM1307124,microRNA profile of case 535T,non-small-cell lung cancer,1
+-,GSM1307125,microRNA profile of case 536T,non-small-cell lung cancer,0
+-,GSM1307126,microRNA profile of case 537T,non-small-cell lung cancer,0
+-,GSM1307127,microRNA profile of case 538T,non-small-cell lung cancer,1
+-,GSM1307128,microRNA profile of case 539T,non-small-cell lung cancer,0
+-,GSM1307129,microRNA profile of case 540T,non-small-cell lung cancer,0
+-,GSM1307130,microRNA profile of case 541T,non-small-cell lung cancer,0
+-,GSM1307131,microRNA profile of case 542T,non-small-cell lung cancer,0
+-,GSM1307132,microRNA profile of case 543T,non-small-cell lung cancer,1
+-,GSM1307133,microRNA profile of case 545T,non-small-cell lung cancer,0
+-,GSM1307134,microRNA profile of case 547T,non-small-cell lung cancer,1
+-,GSM1307135,microRNA profile of case 548T,non-small-cell lung cancer,0
+-,GSM1307136,microRNA profile of case 549T,non-small-cell lung cancer,1
+-,GSM1307137,microRNA profile of case 550T,non-small-cell lung cancer,0
+-,GSM1307138,microRNA profile of case 552T,non-small-cell lung cancer,0
+-,GSM1307139,microRNA profile of case 553T,non-small-cell lung cancer,1
+-,GSM1307140,microRNA profile of case 555T,non-small-cell lung cancer,0
+-,GSM1307141,microRNA profile of case 556T,non-small-cell lung cancer,0
+-,GSM1307142,microRNA profile of case 557T,non-small-cell lung cancer,0
+-,GSM1307143,microRNA profile of case 558T,non-small-cell lung cancer,1
+-,GSM1307144,microRNA profile of case 559T,non-small-cell lung cancer,0
+-,GSM1307145,microRNA profile of case 561T,non-small-cell lung cancer,0
+-,GSM1307146,microRNA profile of case 562T,non-small-cell lung cancer,0
+-,GSM1307147,microRNA profile of case 565T,non-small-cell lung cancer,0
+-,GSM1307148,microRNA profile of case 566T,non-small-cell lung cancer,0
+-,GSM1307149,microRNA profile of case 567T,non-small-cell lung cancer,0
+-,GSM1307150,microRNA profile of case 568T,non-small-cell lung cancer,1
+-,GSM1307151,microRNA profile of case 569T,non-small-cell lung cancer,1
+-,GSM1307152,microRNA profile of case 570T,non-small-cell lung cancer,0
+-,GSM1307153,microRNA profile of case 571T,non-small-cell lung cancer,0
+-,GSM1307154,microRNA profile of case 573T,non-small-cell lung cancer,1
+-,GSM1307155,microRNA profile of case 574T,non-small-cell lung cancer,0
+-,GSM1307156,microRNA profile of case 575T,non-small-cell lung cancer,1
+-,GSM1307157,microRNA profile of case 579T,non-small-cell lung cancer,0
+-,GSM1307158,microRNA profile of case 582T,non-small-cell lung cancer,0
+-,GSM1307159,microRNA profile of case 583T,non-small-cell lung cancer,1
+-,GSM1307160,microRNA profile of case 584T,non-small-cell lung cancer,0
+-,GSM1307161,microRNA profile of case 586T,non-small-cell lung cancer,0
+-,GSM1307162,microRNA profile of case 588T,non-small-cell lung cancer,0
+-,GSM1307163,microRNA profile of case 589T,non-small-cell lung cancer,0
+-,GSM1307164,microRNA profile of case 590T,non-small-cell lung cancer,0
+-,GSM1307165,microRNA profile of case 591T,non-small-cell lung cancer,1
+-,GSM1307166,microRNA profile of case 592T,non-small-cell lung cancer,0
+-,GSM1307167,microRNA profile of case 593T,non-small-cell lung cancer,0
+-,GSM1307168,microRNA profile of case 594T,non-small-cell lung cancer,1
+-,GSM1307169,microRNA profile of case 595T,non-small-cell lung cancer,0
+-,GSM1307170,microRNA profile of case 597T,non-small-cell lung cancer,0
+-,GSM1307171,microRNA profile of case 598T,non-small-cell lung cancer,0
+-,GSM1307172,microRNA profile of case 599T,non-small-cell lung cancer,0
+-,GSM1307173,microRNA profile of case 600T,non-small-cell lung cancer,0
+-,GSM1307174,microRNA profile of case 601T,non-small-cell lung cancer,1
+-,GSM1307175,microRNA profile of case 603T,non-small-cell lung cancer,0
+-,GSM1307176,microRNA profile of case 605T,non-small-cell lung cancer,1
+-,GSM1307177,microRNA profile of case 606T,non-small-cell lung cancer,0
+-,GSM1307178,microRNA profile of case 607T,non-small-cell lung cancer,0
+-,GSM1307179,microRNA profile of case 608T,non-small-cell lung cancer,0
+-,GSM1307180,microRNA profile of case 611T,non-small-cell lung cancer,0
+-,GSM1307181,microRNA profile of case 612T,non-small-cell lung cancer,0
+-,GSM1307182,microRNA profile of case 613T,non-small-cell lung cancer,1
+-,GSM1307183,microRNA profile of case 614T,non-small-cell lung cancer,0
+-,GSM1307184,microRNA profile of case 615T,non-small-cell lung cancer,0
+-,GSM1307185,microRNA profile of case 616T,non-small-cell lung cancer,1
+-,GSM1307186,microRNA profile of case 617T,non-small-cell lung cancer,1
+-,GSM1307187,microRNA profile of case 618T,non-small-cell lung cancer,1
+-,GSM1307188,microRNA profile of case 619T,non-small-cell lung cancer,0
+-,GSM1307189,microRNA profile of case 620T,non-small-cell lung cancer,0
+-,GSM1307190,microRNA profile of case 622T,non-small-cell lung cancer,1
+-,GSM1307191,microRNA profile of case 623T,non-small-cell lung cancer,0
+-,GSM1307192,microRNA profile of case 624T,non-small-cell lung cancer,0
+-,GSM1307193,microRNA profile of case 625T,non-small-cell lung cancer,0
+-,GSM1307194,microRNA profile of case 626T,non-small-cell lung cancer,0
+-,GSM1307195,microRNA profile of case 627T,non-small-cell lung cancer,0
+-,GSM1307196,microRNA profile of case 628T,non-small-cell lung cancer,1
+-,GSM1307197,microRNA profile of case 629T,non-small-cell lung cancer,0
+-,GSM1307198,microRNA profile of case 630T,non-small-cell lung cancer,1
+-,GSM1307199,microRNA profile of case 631T,non-small-cell lung cancer,0
+-,GSM1307200,microRNA profile of case 632T,non-small-cell lung cancer,1
+-,GSM1307201,microRNA profile of case 633T,non-small-cell lung cancer,1
+-,GSM1307202,microRNA profile of case 635T,non-small-cell lung cancer,0
+-,GSM1307203,microRNA profile of case 636T,non-small-cell lung cancer,0
+-,GSM1307204,microRNA profile of case 640T,non-small-cell lung cancer,0
+-,GSM1307205,microRNA profile of case 641T,non-small-cell lung cancer,1
+-,GSM1307206,microRNA profile of case 642T,non-small-cell lung cancer,0
+-,GSM1307207,microRNA profile of case 644T,non-small-cell lung cancer,0
+-,GSM1307208,microRNA profile of case 645T,non-small-cell lung cancer,0
+-,GSM1307209,microRNA profile of case 646T,non-small-cell lung cancer,0
+-,GSM1307210,microRNA profile of case 647T,non-small-cell lung cancer,0
+-,GSM1307211,microRNA profile of case 650T,non-small-cell lung cancer,1
+-,GSM1307212,microRNA profile of case 652T,non-small-cell lung cancer,0
+-,GSM1307213,microRNA profile of case 653T,non-small-cell lung cancer,0
+-,GSM1307214,microRNA profile of case 654T,non-small-cell lung cancer,0
+-,GSM1307215,microRNA profile of case 655T,non-small-cell lung cancer,0
+-,GSM1307216,microRNA profile of case 657T,non-small-cell lung cancer,1
+-,GSM1307217,microRNA profile of case 659T,non-small-cell lung cancer,0
+-,GSM1307218,microRNA profile of case 660T,non-small-cell lung cancer,1
+-,GSM1307219,microRNA profile of case 661T,non-small-cell lung cancer,0
+-,GSM1307220,microRNA profile of case 662T,non-small-cell lung cancer,0
+-,GSM1307221,microRNA profile of case 664T,non-small-cell lung cancer,1
+-,GSM1307222,microRNA profile of case 665T,non-small-cell lung cancer,1
+-,GSM1307223,microRNA profile of case 666T,non-small-cell lung cancer,0
+-,GSM1307224,microRNA profile of case 667T,non-small-cell lung cancer,0
+-,GSM1307225,microRNA profile of case 668T,non-small-cell lung cancer,0
+-,GSM1307226,microRNA profile of case 669T,non-small-cell lung cancer,1
+-,GSM1307227,microRNA profile of case 672T,non-small-cell lung cancer,0
+-,GSM1307228,microRNA profile of case 674T,non-small-cell lung cancer,0
+-,GSM1307229,microRNA profile of case 675T,non-small-cell lung cancer,1
+-,GSM1307230,microRNA profile of case 676T,non-small-cell lung cancer,0
+-,GSM1307231,microRNA profile of case 677T,non-small-cell lung cancer,0
+-,GSM1307232,microRNA profile of case 678T,non-small-cell lung cancer,1
+-,GSM1307233,microRNA profile of case 679T,non-small-cell lung cancer,1
+-,GSM1307234,microRNA profile of case 680T,non-small-cell lung cancer,0
+-,GSM1307235,microRNA profile of case 681T,non-small-cell lung cancer,0
+-,GSM1307236,microRNA profile of case 683T,non-small-cell lung cancer,1
+-,GSM1307237,microRNA profile of case 684T,non-small-cell lung cancer,1
+-,GSM1307238,microRNA profile of case 685T,non-small-cell lung cancer,1
+-,GSM1307239,microRNA profile of case 686T,non-small-cell lung cancer,1
+-,GSM1307240,microRNA profile of case 687T,non-small-cell lung cancer,0
+-,GSM1307241,microRNA profile of case 689T,non-small-cell lung cancer,0
+-,GSM1307242,microRNA profile of case 690T,non-small-cell lung cancer,1
+-,GSM1307243,microRNA profile of case 692T,non-small-cell lung cancer,0
+-,GSM1307244,microRNA profile of case 693T,non-small-cell lung cancer,0
+-,GSM1307245,microRNA profile of case 694T,non-small-cell lung cancer,1
+-,GSM1307246,microRNA profile of case 696T,non-small-cell lung cancer,0
+-,GSM1307247,microRNA profile of case 697T,non-small-cell lung cancer,0
+-,GSM1307248,microRNA profile of case 698T,non-small-cell lung cancer,0
+-,GSM1307249,microRNA profile of case 699T,non-small-cell lung cancer,0
+-,GSM1307250,microRNA profile of case 700T,non-small-cell lung cancer,1
+-,GSM1307251,microRNA profile of case 701T,non-small-cell lung cancer,0
+-,GSM1307252,microRNA profile of case 703T,non-small-cell lung cancer,0
+-,GSM1307253,microRNA profile of case 704T,non-small-cell lung cancer,1
+-,GSM1307254,microRNA profile of case 705T,non-small-cell lung cancer,0
+-,GSM1307255,microRNA profile of case 706T,non-small-cell lung cancer,0
+-,GSM1307256,microRNA profile of case 709T,non-small-cell lung cancer,0
+-,GSM1307257,microRNA profile of case 710T,non-small-cell lung cancer,0
+-,GSM1307258,microRNA profile of case 711T,non-small-cell lung cancer,0
+-,GSM1307259,microRNA profile of case 714T,non-small-cell lung cancer,1
+-,GSM1307260,microRNA profile of case 717T,non-small-cell lung cancer,1
+-,GSM1307261,microRNA profile of case 718T,non-small-cell lung cancer,1
+-,GSM1307262,microRNA profile of case 719T,non-small-cell lung cancer,0
+-,GSM1307263,microRNA profile of case 720T,non-small-cell lung cancer,0
+-,GSM1307264,microRNA profile of case 721T,non-small-cell lung cancer,0
+-,GSM1307265,microRNA profile of case 722T,non-small-cell lung cancer,0
+-,GSM1307266,microRNA profile of case 724T,non-small-cell lung cancer,1
+-,GSM1307267,microRNA profile of case 725T,non-small-cell lung cancer,0
+-,GSM1307268,microRNA profile of case 726T,non-small-cell lung cancer,1
+-,GSM1307269,microRNA profile of case 728T,non-small-cell lung cancer,0
+-,GSM1307270,microRNA profile of case 729T,non-small-cell lung cancer,0
+-,GSM1307271,microRNA profile of case 732T,non-small-cell lung cancer,1
+-,GSM1307272,microRNA profile of case 733T,non-small-cell lung cancer,0
+-,GSM1307273,microRNA profile of case 734T,non-small-cell lung cancer,0
+-,GSM1307274,microRNA profile of case 735T,non-small-cell lung cancer,0
+-,GSM1307275,microRNA profile of case 736T,non-small-cell lung cancer,1
+-,GSM1307276,microRNA profile of case 738T,non-small-cell lung cancer,0
+-,GSM1307277,microRNA profile of case 739T,non-small-cell lung cancer,0
+-,GSM1307278,microRNA profile of case 741T,non-small-cell lung cancer,0
+-,GSM1307279,microRNA profile of case 745T,non-small-cell lung cancer,0
+-,GSM1307280,microRNA profile of case 747T,non-small-cell lung cancer,0
+-,GSM1307281,microRNA profile of case 749T,non-small-cell lung cancer,0
+-,GSM1307282,microRNA profile of case 752T,non-small-cell lung cancer,1
+-,GSM1307283,microRNA profile of case 753T,non-small-cell lung cancer,0
+-,GSM1307284,microRNA profile of case 756T,non-small-cell lung cancer,0
+-,GSM1307285,microRNA profile of case 757T,non-small-cell lung cancer,0
+-,GSM1307286,microRNA profile of case 758T,non-small-cell lung cancer,0
+-,GSM1307287,microRNA profile of case 759T,non-small-cell lung cancer,0
+-,GSM1307288,microRNA profile of case 760T,non-small-cell lung cancer,0
+-,GSM1307289,microRNA profile of case 762T,non-small-cell lung cancer,0
+-,GSM1307290,microRNA profile of case 763T,non-small-cell lung cancer,0
+-,GSM1307291,microRNA profile of case 764T,non-small-cell lung cancer,0
+-,GSM1307292,microRNA profile of case 765T,non-small-cell lung cancer,0
+-,GSM1307293,microRNA profile of case 766T,non-small-cell lung cancer,1
+-,GSM1307294,microRNA profile of case 767T,non-small-cell lung cancer,0
+-,GSM1307295,microRNA profile of case 768T,non-small-cell lung cancer,0
+-,GSM1307296,microRNA profile of case 770T,non-small-cell lung cancer,0
+-,GSM1307297,microRNA profile of case 771T,non-small-cell lung cancer,0
+-,GSM1307298,microRNA profile of case 772T,non-small-cell lung cancer,0
+-,GSM1307299,microRNA profile of case 776T,non-small-cell lung cancer,1
+-,GSM1307300,microRNA profile of case 778T,non-small-cell lung cancer,0
+-,GSM1307301,microRNA profile of case 779T,non-small-cell lung cancer,0
+-,GSM1307302,microRNA profile of case 780T,non-small-cell lung cancer,0
+-,GSM1307303,microRNA profile of case 781T,non-small-cell lung cancer,0
+-,GSM1307304,microRNA profile of case 782T,non-small-cell lung cancer,0
+-,GSM1307305,microRNA profile of case 784T,non-small-cell lung cancer,0
+-,GSM1307306,microRNA profile of case 785T,non-small-cell lung cancer,1
+-,GSM1307307,microRNA profile of case 786T,non-small-cell lung cancer,0
+-,GSM1307308,microRNA profile of case 787T,non-small-cell lung cancer,0
+-,GSM1307309,microRNA profile of case 789T,non-small-cell lung cancer,0
+-,GSM1307310,microRNA profile of case 791T,non-small-cell lung cancer,0
+-,GSM1307311,microRNA profile of case 793T,non-small-cell lung cancer,0
+-,GSM1307312,microRNA profile of case 400N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307313,microRNA profile of case 401N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307314,microRNA profile of case 402N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307315,microRNA profile of case 403N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307316,microRNA profile of case 406N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307317,microRNA profile of case 409N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307318,microRNA profile of case 410N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307319,microRNA profile of case 411N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307320,microRNA profile of case 413N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307321,microRNA profile of case 415N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307322,microRNA profile of case 416N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307323,microRNA profile of case 417N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307324,microRNA profile of case 418N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307325,microRNA profile of case 419N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307326,microRNA profile of case 420N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307327,microRNA profile of case 421N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307328,microRNA profile of case 422N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307329,microRNA profile of case 423N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307330,microRNA profile of case 424N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307331,microRNA profile of case 425N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307332,microRNA profile of case 426N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307333,microRNA profile of case 427N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307334,microRNA profile of case 428N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307335,microRNA profile of case 429N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307336,microRNA profile of case 430N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307337,microRNA profile of case 431N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307338,microRNA profile of case 433N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307339,microRNA profile of case 434N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307340,microRNA profile of case 436N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307341,microRNA profile of case 439N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307342,microRNA profile of case 441N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307343,microRNA profile of case 445N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307344,microRNA profile of case 446N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307345,microRNA profile of case 447N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307346,microRNA profile of case 449N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307347,microRNA profile of case 451N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307348,microRNA profile of case 452N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307349,microRNA profile of case 453N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307350,microRNA profile of case 454N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307351,microRNA profile of case 455N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307352,microRNA profile of case 456N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307353,microRNA profile of case 457N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307354,microRNA profile of case 458N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307355,microRNA profile of case 459N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307356,microRNA profile of case 460N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307357,microRNA profile of case 498N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307358,microRNA profile of case 501N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307359,microRNA profile of case 502N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307360,microRNA profile of case 503N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307361,microRNA profile of case 504N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307362,microRNA profile of case 505N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307363,microRNA profile of case 506N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307364,microRNA profile of case 508N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307365,microRNA profile of case 509N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307366,microRNA profile of case 510N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307367,microRNA profile of case 511N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307368,microRNA profile of case 512N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307369,microRNA profile of case 513N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307370,microRNA profile of case 516N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307371,microRNA profile of case 517N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307372,microRNA profile of case 523N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307373,microRNA profile of case 534N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307374,microRNA profile of case 535N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307375,microRNA profile of case 539N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307376,microRNA profile of case 541N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307377,microRNA profile of case 542N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307378,microRNA profile of case 543N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307379,microRNA profile of case 545N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307380,microRNA profile of case 547N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307381,microRNA profile of case 594N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307382,microRNA profile of case 597N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307383,microRNA profile of case 608N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307384,microRNA profile of case 611N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307385,microRNA profile of case 625N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307386,microRNA profile of case 626N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307387,microRNA profile of case 627N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307388,microRNA profile of case 640N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307389,microRNA profile of case 641N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307390,microRNA profile of case 642N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307391,microRNA profile of case 646N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307392,microRNA profile of case 652N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307393,microRNA profile of case 653N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307394,microRNA profile of case 655N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307395,microRNA profile of case 657N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307396,microRNA profile of case 659N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307397,microRNA profile of case 660N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307398,microRNA profile of case 692N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307399,microRNA profile of case 694N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307400,microRNA profile of case 696N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307401,microRNA profile of case 697N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307402,microRNA profile of case 698N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307403,microRNA profile of case 699N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307404,microRNA profile of case 700N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307405,microRNA profile of case 701N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307406,microRNA profile of case 703N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307407,microRNA profile of case 704N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307408,microRNA profile of case 705N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307409,microRNA profile of case 706N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307410,microRNA profile of case 709N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307411,microRNA profile of case 710N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307412,microRNA profile of case 711N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307413,microRNA profile of case 714N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307414,microRNA profile of case 717N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307415,microRNA profile of case 718N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307416,microRNA profile of case 721N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307417,microRNA profile of case 722N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307418,microRNA profile of case 724N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307419,microRNA profile of case 725N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307420,microRNA profile of case 726N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307421,microRNA profile of case 728N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307422,microRNA profile of case 729N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307423,microRNA profile of case 732N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307424,microRNA profile of case 733N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307425,microRNA profile of case 734N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307426,microRNA profile of case 735N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307427,microRNA profile of case 736N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307428,microRNA profile of case 738N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307429,microRNA profile of case 739N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307430,microRNA profile of case 741N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307431,microRNA profile of case 745N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307432,microRNA profile of case 747N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307433,microRNA profile of case 749N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307434,microRNA profile of case 752N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307435,microRNA profile of case 753N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307436,microRNA profile of case 756N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307437,microRNA profile of case 757N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307438,microRNA profile of case 758N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307439,microRNA profile of case 759N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307440,microRNA profile of case 760N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307441,microRNA profile of case 762N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307442,microRNA profile of case 763N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307443,microRNA profile of case 764N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307444,microRNA profile of case 765N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307445,microRNA profile of case 766N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307446,microRNA profile of case 767N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307447,microRNA profile of case 768N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307448,microRNA profile of case 770N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307449,microRNA profile of case 771N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307450,microRNA profile of case 772N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307451,microRNA profile of case 776N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307452,microRNA profile of case 778N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307453,microRNA profile of case 779N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307454,microRNA profile of case 780N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307455,microRNA profile of case 781N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307456,microRNA profile of case 782N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307457,microRNA profile of case 784N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307458,microRNA profile of case 785N,Matched noncancerous lung tissue of NSCLC,1
+-,GSM1307459,microRNA profile of case 786N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307460,microRNA profile of case 789N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307461,microRNA profile of case 791N,Matched noncancerous lung tissue of NSCLC,0
+-,GSM1307462,microRNA profile of case 793N,Matched noncancerous lung tissue of NSCLC,0

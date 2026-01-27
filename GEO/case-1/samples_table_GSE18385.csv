@@ -1,0 +1,164 @@
+# TITLE: Smoking-induced Up-regulation of AKR1B10 Expression in the Airway Epithelium of Healthy Individuals
+# SUMMARY: The aldokatoreductases (AKRs) represent a gene superfamily that code for monomeric, soluble NAD(P)H-dependent oxidoreductases that mediate elimination reactions. AKR1B10, an AKR that functions to eliminate retinals, has been observed to be upregulated in squamous metaplasma and non small cell lung cancer, and has been suggested as a diagnostic marker specific to tobacco-related carcinogenesis. In the context of the link of smoking and lung cancer and the enhanced expression of AKR1B10 expression in lung cancer, we hypothesize that enhanced expression of AKR1B10 may be initiated in healthy smokers, prior to the development of any evidence of lung cancer. For this purpose, expression of AKR1B10 was assessed at the mRNA level using microarrays in the large airway epithelium (21 healthy nonsmokers, 31 health smokers) and small airway epithelium (51 healthy nonsmokers, 58 healthy smokers) obtained by fiberoptic bronchoscopy and brushing, as well as assessment in a subset of this population by TaqMan PCR and in endobronchial biopsies by Western analysis and immunohistochemistry. Compared to healthy nonsmokers, ARK1B10 mRNA levels were markedly upregulated in both the large and small airway epithelium of healthy smokers (large airway microarray p<0.0001, small airway p<0.0001; TaqMan large airway, p<0.02, small airway p<0.01). Consistent with the mRNA data, AKR1B10 protein was significantly upregulated in the airway epithelium of healthy smokers as assessed by Western analysis and by immunohistochemistry, with AKR1B10 expressed in both differentiated and basal cells of the normal epithelium. Finally, cigarette smoke extract mediated up-regulation of AKR1B10 in airway epithelial cells in vitro. Thus, smoking per se mediates up-regulation of AKR1B10 expression in the airway epithelium of healthy smokers with no evidence of lung cancer. In the context of these observations, and the link of AKR1B10 to the metabolism of retinals and to lung cancer, the smoking-induced up-regulation of AKR1B10 may be an early process in the multiple events leading to the develop of lung cancer.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Age,GPL570_Sex,GPL570_Ethnic group,GPL570_Smoking Status,GPL570_Age,GPL570_Sex,GPL570_Ethnic group,GPL570_Smoking status,GPL570_Smoking status
+-,GSM101095,"small airways, non-smoker 001, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,41,M,black,non-smoker,,,,,
+-,GSM101096,"small airways, non-smoker 004, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,35,M,black,non-smoker,
+-,GSM101097,"small airways, non-smoker 002, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,61,M,white,non-smoker,
+-,GSM101098,"small airways, non-smoker 003, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,37,F,black,non-smoker,
+-,GSM101100,"small airways, non-smoker 006, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,M,black,non-smoker,
+-,GSM101101,"small airways, non-smoker 021, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,38,M,hispanic,non-smoker,
+-,GSM101102,"small airways, non-smoker 019, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,49,F,white,non-smoker,
+-,GSM101103,"small airways, non-smoker 014, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,45,M,white,non-smoker,
+-,GSM101104,"small airways, non-smoker 008, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,36,M,white,non-smoker,
+-,GSM101105,"small airways, non-smoker 015, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,38,M,black,non-smoker,
+-,GSM101106,"small airways, non-smoker 005, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,35,M,black,non-smoker,
+-,GSM101107,"small airways, smoker 002, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,46,M,white,"smoker, 21 pack-years",
+-,GSM101111,"small airways, smoker 001, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,37,F,black,"smoker, 23 pack-years",
+-,GSM101113,"small airways, smoker 048, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,45,M,black,"smoker, 28 pack-years",
+-,GSM101114,"small airways, smoker 041, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,48,M,white,"smoker, 20 pack-years",
+-,GSM101115,"small airways, smoker 044, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,50,M,white,"smoker, 38 pack-years",
+-,GSM101116,"small airways, smoker 049, RMA and MAS",airway epithelial cells obtained by bronchoscopy and brushing,,,,,46,F,black,"smoker, 23 pack-years",
+-,GSM114089,"small airways, smoker 058, MAS5",airway epithelial cells obtained by bronchoscopy and brushing,,,,,56,M,black,"smoker, 80 pack-years",
+-,GSM114090,"small airways, smoker 063, MAS5",airway epithelial cells obtained by bronchoscopy and brushing,,,,,59,M,white,"smoker, 60 pack-years",
+-,GSM190149,"Small airways, non-smoker 011",airway epithelial cells obtained by bronchoscopy and brushing,,,,,49,M,white,non-smoker,
+-,GSM190150,"Small airways, non-smoker 029",airway epithelial cells obtained by bronchoscopy and brushing,,,,,34,M,black,non-smoker,
+-,GSM190151,"small airways, non-smoker 034",airway epithelial cells obtained by bronchoscopy and brushing,,,,,44,M,black,non-smoker,
+-,GSM190152,"Small airways, non-smoker 035",airway epithelial cells obtained by bronchoscopy and brushing,45,M,white,,,,,,non-smoker
+-,GSM190153,"Small airways, non-smoker 036",airway epithelial cells obtained by bronchoscopy and brushing,,,,,45,F,hispanic,non-smoker,
+-,GSM190154,"Small airways, non-smoker 040",airway epithelial cells obtained by bronchoscopy and brushing,,,,,29,F,black/hispanic,non-smoker,
+-,GSM190155,"Small airways, non-smoker 042",airway epithelial cells obtained by bronchoscopy and brushing,,,,,42,M,black,non-smoker,
+-,GSM190156,"small airways, non-smoker 044",airway epithelial cells obtained by bronchoscopy and brushing,,,,,56,M,white,non-smoker,
+-,GSM252801,"large airways, non-smoker 005",airway epithelial cells obtained by bronchoscopy and brushing,38,M,black,,,,,,non-smoker
+-,GSM252802,"large airways, non-smoker 008",airway epithelial cells obtained by bronchoscopy and brushing,36,M,white,,,,,,non-smoker
+-,GSM252803,"large airways, non-smoker 011",airway epithelial cells obtained by bronchoscopy and brushing,49,M,white,,,,,,non-smoker
+-,GSM252804,"large airways, non-smoker 030",airway epithelial cells obtained by bronchoscopy and brushing,40,M,white,,,,,,non-smoker
+-,GSM252805,"large airways, non-smoker 035",airway epithelial cells obtained by bronchoscopy and brushing,45,M,white,,,,,,non-smoker
+-,GSM252806,"large airways, non-smoker 042",airway epithelial cells obtained by bronchoscopy and brushing,42,M,black,,,,,,non-smoker
+-,GSM252807,"large airways, non-smoker 044",airway epithelial cells obtained by bronchoscopy and brushing,56,M,white,,,,,,non-smoker
+-,GSM252808,"large airways, smoker 002",airway epithelial cells obtained by bronchoscopy and brushing,46,M,white,,,,,,"smoker, 21 pack-years"
+-,GSM252809,"large airways, smoker 003",airway epithelial cells obtained by bronchoscopy and brushing,40,F,black,,,,,,"smoker, 25 pack-years"
+-,GSM252810,"large airways, smoker 023",airway epithelial cells obtained by bronchoscopy and brushing,42,M,black,,,,,,"smoker, 20 pack-years"
+-,GSM252813,"large airways, smoker 057",airway epithelial cells obtained by bronchoscopy and brushing,45,M,black,,,,,,"smoker, 24 pack-years"
+-,GSM252814,"large airways, smoker 058",airway epithelial cells obtained by bronchoscopy and brushing,56,M,black,,,,,,"smoker, 80 pack-years"
+-,GSM252815,"large airways, smoker 063",airway epithelial cells obtained by bronchoscopy and brushing,59,M,white,,,,,,"smoker, 60 pack-years"
+-,GSM252816,"large airways, smoker 069",airway epithelial cells obtained by bronchoscopy and brushing,45,M,black,,,,,,"smoker, 70 pack-years"
+-,GSM252817,"large airways, smoker 074",airway epithelial cells obtained by bronchoscopy and brushing,41,M,black,,,,,,"smoker, 20 pack-years"
+-,GSM252818,"large airways, smoker 093",airway epithelial cells obtained by bronchoscopy and brushing,47,M,black,,,,,,"smoker, 29 pack-years"
+-,GSM252819,"large airways, smoker 094",airway epithelial cells obtained by bronchoscopy and brushing,41,M,black,,,,,,"smoker, 45 pack-years"
+-,GSM252820,"large airways, smoker 095",airway epithelial cells obtained by bronchoscopy and brushing,48,M,black,,,,,,"smoker, 32 pack-years"
+-,GSM252822,"large airways, smoker 098",airway epithelial cells obtained by bronchoscopy and brushing,43,F,black,,,,,,"smoker, 36 pack-years"
+-,GSM252823,"large airways, smoker 102",airway epithelial cells obtained by bronchoscopy and brushing,54,F,white,,,,,,"smoker, 45 pack-years"
+-,GSM252825,"large airways, smoker 112",airway epithelial cells obtained by bronchoscopy and brushing,45,M,white,,,,,,"smoker, 23 pack-years"
+-,GSM252826,"large airways, smoker 114",airway epithelial cells obtained by bronchoscopy and brushing,50,F,black,,,,,,"smoker, 22 pack-years"
+-,GSM252827,"large airways, smoker 119",airway epithelial cells obtained by bronchoscopy and brushing,46,F,white,,,,,,"smoker, 33 pack-years"
+-,GSM252871,"small airways, smoker 040",airway epithelial cells obtained by bronchoscopy and brushing,,,,,40,M,black,"smoker, 24 pack-years",
+-,GSM252876,"small airways, smoker 057",airway epithelial cells obtained by bronchoscopy and brushing,,,,,45,M,black,"smoker, 24 pack-years",
+-,GSM252879,"small airways, smoker 074",airway epithelial cells obtained by bronchoscopy and brushing,,,,,41,M,black,"smoker, 20 pack-years",
+-,GSM252880,"small airways, smoker 093",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,M,black,"smoker, 29 pack-years",
+-,GSM252881,"small airways, smoker 094",airway epithelial cells obtained by bronchoscopy and brushing,,,,,41,M,black,"smoker, 45 pack-years",
+-,GSM252882,"small airways, smoker 095",airway epithelial cells obtained by bronchoscopy and brushing,,,,,48,M,black,"smoker, 32 pack-years",
+-,GSM252884,"small airways, smoker 098",airway epithelial cells obtained by bronchoscopy and brushing,,,,,43,F,black,"smoker, 36 pack-years",
+-,GSM252885,"small airways, smoker 103",airway epithelial cells obtained by bronchoscopy and brushing,,,,,41,M,black,"smoker, 15 pack-years",
+-,GSM254149,"small airways, non-smoker 045",airway epithelial cells obtained by bronchoscopy and brushing,,,,,41,F,black,non-smoker,
+-,GSM254150,"small airways, non-smoker 059",airway epithelial cells obtained by bronchoscopy and brushing,,,,,35,M,black,non-smoker,
+-,GSM254151,"small airways, non-smoker 071",airway epithelial cells obtained by bronchoscopy and brushing,,,,,37,M,black,non-smoker,
+-,GSM254152,"small airways, non-smoker 078",airway epithelial cells obtained by bronchoscopy and brushing,,,,,31,M,white,non-smoker,
+-,GSM254157,"small airways, smoker 112",airway epithelial cells obtained by bronchoscopy and brushing,,,,,45,M,white,"smoker, 23 pack-years",
+-,GSM254158,"small airways, smoker 114",airway epithelial cells obtained by bronchoscopy and brushing,,,,,50,F,black,"smoker, 22 pack-years",
+-,GSM254159,"small airways, smoker 119",airway epithelial cells obtained by bronchoscopy and brushing,,,,,46,F,white,"smoker, 33 pack-years",
+-,GSM254160,"small airways, smoker 152",airway epithelial cells obtained by bronchoscopy and brushing,,,,,49,M,white,"smoker, 16 pack-years",
+-,GSM254161,"small airways, smoker 169",airway epithelial cells obtained by bronchoscopy and brushing,,,,,40,F,black,"smoker, 47 pack-years",
+-,GSM256181,"large airways, non-smoker 036",large airway epithelial cells obtained by bronchoscopy and brushing,45,F,hispnaic,,,,,,non-smoker
+-,GSM256182,"large airways, non-smoker 038",large airway epithelial cells obtained by bronchoscopy and brushing,47,F,asian,,,,,,non-smoker
+-,GSM256183,"large airways, non-smoker 040",large airway epithelial cells obtained by bronchoscopy and brushing,29,F,black/hispanic,,,,,,non-smoker
+-,GSM256184,"large airways, non-smoker 041",large airway epithelial cells obtained by bronchoscopy and brushing,39,F,hispanic,,,,,,non-smoker
+-,GSM256185,"large airways, non-smoker 050",large airway epithelial cells obtained by bronchoscopy and brushing,38,M,hispanic,,,,,,non-smoker
+-,GSM256186,"large airways, non-smoker 047",large airway epithelial cells obtained by bronchoscopy and brushing,49,M,white,,,,,,"smoker, 1 pack-years"
+-,GSM256187,"large airways, non-smoker 045",large airway epithelial cells obtained by bronchoscopy and brushing,41,F,black,,,,,,non-smoker
+-,GSM256188,"large airways, non-smoker 006",large airway epithelial cells obtained by bronchoscopy and brushing,47,M,black,,,,,,non-smoker
+-,GSM256189,"large airways, non-smoker 065",large airway epithelial cells obtained by bronchoscopy and brushing,49,M,black,,,,,,non-smoker
+-,GSM256190,"large airways, non-smoker 066",large airway epithelial cells obtained by bronchoscopy and brushing,39,M,black,,,,,,non-smoker
+-,GSM256191,"large airways, non-smoker 059",large airway epithelial cells obtained by bronchoscopy and brushing,35,M,black,,,,,,non-smoker
+-,GSM256192,"large airways, non-smoker 072",large airway epithelial cells obtained by bronchoscopy and brushing,22,F,black,,,,,,non-smoker
+-,GSM256193,"large airways, non-smoker 078",large airway epithelial cells obtained by bronchoscopy and brushing,31,M,white,,,,,,non-smoker
+-,GSM256194,"large airways, non-smoker 071",large airway epithelial cells obtained by bronchoscopy and brushing,37,M,black,,,,,,non-smoker
+-,GSM256195,"large airways, smoker 087",large airway epithelial cells obtained by bronchoscopy and brushing,39,M,hispanic,,,,,,"smoker, 30 pack-years"
+-,GSM256196,"large airways, smoker 122",large airway epithelial cells obtained by bronchoscopy and brushing,36,M,hispanic,,,,,,"smoker, 3 pack-years"
+-,GSM256197,"large airways, smoker 120",large airway epithelial cells obtained by bronchoscopy and brushing,43,M,black,,,,,,"smoker, 30 pack-years"
+-,GSM256198,"large airways, smoker 125",large airway epithelial cells obtained by bronchoscopy and brushing,46,F,black,,,,,,"smoker, 19 pack-years"
+-,GSM256199,"large airways, smoker 129",large airway epithelial cells obtained by bronchoscopy and brushing,47,M,black,,,,,,"smoker, 11 pack-years"
+-,GSM256201,"large airways, smoker 130",large airway epithelial cells obtained by bronchoscopy and brushing,41,M,white,,,,,,"smoker, 12 pack-years"
+-,GSM256202,"large airways, smoker 134",large airway epithelial cells obtained by bronchoscopy and brushing,42,F,white,,,,,,"smoker, 20 pack-years"
+-,GSM256204,"large airways, smoker 136",large airway epithelial cells obtained by bronchoscopy and brushing,46,M,hispnaic,,,,,,"smoker, 26 pack-years"
+-,GSM256205,"large airways, smoker 141",large airway epithelial cells obtained by bronchoscopy and brushing,41,M,hispnaic,,,,,,"smoker, 13 pack-years"
+-,GSM256206,"large airways, smoker 040",large airway epithelial cells obtained by bronchoscopy and brushing,40,M,black,,,,,,"smoker, 24 pack-years"
+-,GSM256208,"large airways, smoker 159",large airway epithelial cells obtained by bronchoscopy and brushing,27,F,black,,,,,,"smoker, 3.8 pack-years"
+-,GSM256209,"large airways, smoker 169",large airway epithelial cells obtained by bronchoscopy and brushing,40,F,black,,,,,,"smoker, 47 pack-years"
+-,GSM256210,"large airways, smoker 155",large airway epithelial cells obtained by bronchoscopy and brushing,32,F,black,,,,,,"smoker, 7.6 pack-years"
+-,GSM256211,"large airways, smoker 167",large airway epithelial cells obtained by bronchoscopy and brushing,48,M,black,,,,,,"smoker, 43 pack-years"
+-,GSM256212,"large airways, smoker 161",large airway epithelial cells obtained by bronchoscopy and brushing,35,M,black,,,,,,"smoker, 5 pack-years"
+-,GSM298219,"small airways, non-smoker 039",airway epithelial cells obtained by bronchoscopy and brushing,,,,,44,M,white,non-smoker,
+-,GSM298220,"small airways, non-smoker 046",airway epithelial cells obtained by bronchoscopy and brushing,,,,,60,M,white,non-smoker,
+-,GSM298221,"small airways, non-smoker 047",airway epithelial cells obtained by bronchoscopy and brushing,,,,,49,M,white,non-smoker,
+-,GSM298222,"small airways, non-smoker 048",airway epithelial cells obtained by bronchoscopy and brushing,,,,,36,F,white,non-smoker,
+-,GSM298223,"small airways, non-smoker 050",airway epithelial cells obtained by bronchoscopy and brushing,,,,,38,M,hispanic,non-smoker,
+-,GSM298224,"small airways, non-smoker 055",airway epithelial cells obtained by bronchoscopy and brushing,,,,,73,M,white,non-smoker,
+-,GSM298225,"small airways, non-smoker 065",airway epithelial cells obtained by bronchoscopy and brushing,,,,,49,M,black,non-smoker,
+-,GSM298226,"small airways, non-smoker 072",airway epithelial cells obtained by bronchoscopy and brushing,,,,,22,F,black,non-smoker,
+-,GSM298227,"small airways, non-smoker 076",airway epithelial cells obtained by bronchoscopy and brushing,,,,,29,M,hispanic,non-smoker,
+-,GSM298228,"small airways, non-smoker 080",airway epithelial cells obtained by bronchoscopy and brushing,,,,,39,F,asian,non-smoker,
+-,GSM298229,"small airways, non-smoker 083",airway epithelial cells obtained by bronchoscopy and brushing,,,,,48,F,black,non-smoker,
+-,GSM298230,"small airways, smoker 087",airway epithelial cells obtained by bronchoscopy and brushing,,,,,39,M,hispanic,"smoker, 30 pack-years",
+-,GSM298231,"small airways, smoker 102",airway epithelial cells obtained by bronchoscopy and brushing,,,,,54,F,white,"smoker, 45 pack-years",
+-,GSM298232,"small airways, smoker 120",airway epithelial cells obtained by bronchoscopy and brushing,,,,,43,M,black,"smoker, 30 pack-years",
+-,GSM298233,"small airways, smoker 122",airway epithelial cells obtained by bronchoscopy and brushing,,,,,36,M,hispanic,"smoker, 3 pack-years",
+-,GSM298234,"small airways, smoker 123",airway epithelial cells obtained by bronchoscopy and brushing,,,,,41,F,black,"smoker, 22.5 pack-years",
+-,GSM298235,"small airways, smoker 125",airway epithelial cells obtained by bronchoscopy and brushing,,,,,46,F,black,"smoker, 19 pack-years",
+-,GSM298236,"small airways, smoker 129",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,M,black,"smoker, 11 pack-years",
+-,GSM298237,"small airways, smoker 130",airway epithelial cells obtained by bronchoscopy and brushing,,,,,41,M,white,"smoker, 12 pack-years",
+-,GSM298238,"small airways, smoker 134",airway epithelial cells obtained by bronchoscopy and brushing,,,,,42,F,white,"smoker, 20 pack-years",
+-,GSM298239,"small airways, smoker 136",airway epithelial cells obtained by bronchoscopy and brushing,,,,,46,M,hispanic,"smoker, 26 pack-years",
+-,GSM298240,"small airways, smoker 141",airway epithelial cells obtained by bronchoscopy and brushing,,,,,41,M,hispanic,"smoker, 13 pack-years",
+-,GSM298241,"small airways, smoker 155",airway epithelial cells obtained by bronchoscopy and brushing,,,,,32,F,black,"smoker, 7.6 pack-years",
+-,GSM298242,"small airways, smoker 159",airway epithelial cells obtained by bronchoscopy and brushing,,,,,27,F,black,"smoker, 3.8 pack-years",
+-,GSM298243,"small airways, smoker 161",airway epithelial cells obtained by bronchoscopy and brushing,,,,,35,M,black,"smoker, 5 pack-years",
+-,GSM298244,"small airways, smoker 164",airway epithelial cells obtained by bronchoscopy and brushing,,,,,40,M,black,"smoker, 44.3 pack-years",
+-,GSM298245,"small airways, smoker 167",airway epithelial cells obtained by bronchoscopy and brushing,,,,,48,M,black,"smoker, 43 pack-years",
+-,GSM298246,"small airways, smoker 176",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,M,black,"smoker, 33 pack-years",
+-,GSM298247,"small airways, smoker 177",airway epithelial cells obtained by bronchoscopy and brushing,,,,,41,M,black,"smoker, 38 pack-years",
+-,GSM300859,"small airways, non-smoker 085",airway epithelial cells obtained by bronchoscopy and brushing,,,,,62,F,white,non-smoker,
+-,GSM302396,"small airways, non-smoker 022",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,M,white,non-smoker,
+-,GSM302397,"small airways, non-smoker 066",airway epithelial cells obtained by bronchoscopy and brushing,,,,,39,M,black,non-smoker,
+-,GSM302399,"small airways, smoker 195",airway epithelial cells obtained by bronchoscopy and brushing,,,,,27,F,white,"smoker, 38 pack-years",
+-,GSM350871,"small airways, non-smoker 094",airway epithelial cells obtained by bronchoscopy and brushing,,,,,24,M,black,non-smoker,
+-,GSM350874,"small airways, smoker 188",airway epithelial cells obtained by bronchoscopy and brushing,,,,,43,F,black,"smoker, 17.5 pack-years",
+-,GSM350955,"small airways, non-smoker 110",airway epithelial cells obtained by bronchoscopy and brushing,,,,,26,M,black,non-smoker,
+-,GSM350956,"small airways, non-smoker 118",airway epithelial cells obtained by bronchoscopy and brushing,,,,,33,F,white,non-smoker,
+-,GSM350957,"small airways, smoker 208",airway epithelial cells obtained by bronchoscopy and brushing,,,,,45,M,black,"smoker, 46 pack-years",
+-,GSM350958,"small airways, smoker 246",airway epithelial cells obtained by bronchoscopy and brushing,,,,,48,F,black,"smoker, 26.5 pack-years",
+-,GSM364046,"small airways, smoker 226",airway epithelial cells obtained by bronchoscopy and brushing,,,,,48,F,black,"smoker, 0.5 pack-years",
+-,GSM364048,"small airways, smoker 240",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,F,black,"smoker, 56.5 pack-years",
+-,GSM410161,"small airways, non-smoker 124",airway epithelial cells obtained by bronchoscopy and brushing,,,,,21,F,black,non-smoker,
+-,GSM410162,"small airways, non-smoker 138",airway epithelial cells obtained by bronchoscopy and brushing,,,,,45,M,black,non-smoker,
+-,GSM410163,"small airways, non-smoker 141",airway epithelial cells obtained by bronchoscopy and brushing,,,,,55,M,black,non-smoker,
+-,GSM410164,"small airways, smoker 241",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,M,black,"smoker, 45 pack-years",
+-,GSM410165,"small airways, smoker 264",airway epithelial cells obtained by bronchoscopy and brushing,,,,,39,M,black,"smoker, 11 pack-years",
+-,GSM434049,"small airways, non-smoker 109",airway epithelial cells obtained by bronchoscopy and brushing,,,,,68,M,white,non-smoker,
+-,GSM434050,"small airways, non-smoker 119",airway epithelial cells obtained by bronchoscopy and brushing,,,,,26,F,hispanic,non-smoker,
+-,GSM434051,"small airways, non-smoker 128",airway epithelial cells obtained by bronchoscopy and brushing,,,,,45,F,black,non-smoker,
+-,GSM434052,"small airways, non-smoker 137",airway epithelial cells obtained by bronchoscopy and brushing,,,,,40,M,white,non-smoker,
+-,GSM434053,"small airways, smoker 216",airway epithelial cells obtained by bronchoscopy and brushing,,,,,40,M,hispanic,"smoker, 29 pack-years",
+-,GSM434054,"small airways, smoker 229",airway epithelial cells obtained by bronchoscopy and brushing,,,,,46,M,white,"smoker, 47 pack-years",
+-,GSM434055,"small airways, smoker 247",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,M,black,"smoker, 19.5 pack-years",
+-,GSM434056,"small airways, smoker 256",airway epithelial cells obtained by bronchoscopy and brushing,,,,,29,M,hispanic,"smoker, 27 pack-years",
+-,GSM434057,"small airways, smoker 271",airway epithelial cells obtained by bronchoscopy and brushing,,,,,30,M,hispanic,"smoker, 10 pack-years",
+-,GSM434058,"small airways, smoker 272",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,M,white,"smoker, 24 pack-years",
+-,GSM434059,"small airways, smoker 275",airway epithelial cells obtained by bronchoscopy and brushing,,,,,43,F,hispanic,"smoker, 71 pack-years",
+-,GSM434060,"small airways, smoker 302",airway epithelial cells obtained by bronchoscopy and brushing,,,,,48,M,white,"smoker, 46 pack-years",
+-,GSM434061,"small airways, smoker 303",airway epithelial cells obtained by bronchoscopy and brushing,,,,,24,F,hispanic,"smoker, 10.5 pack-years",
+-,GSM434062,"small airways, smoker 314",airway epithelial cells obtained by bronchoscopy and brushing,,,,,27,F,black,"smoker,  1 pack-years",
+-,GSM434063,"small airways, smoker 317",airway epithelial cells obtained by bronchoscopy and brushing,,,,,54,M,black,"smoker, 26 pack-years",
+-,GSM458579,"small airways, non-smoker 132",airway epithelial cells obtained by bronchoscopy and brushing,,,,,27,M,white,non-smoker,
+-,GSM458580,"small airways, non-smoker 155",airway epithelial cells obtained by bronchoscopy and brushing,,,,,34,M,hispanic,non-smoker,
+-,GSM458581,"small airways, non-smoker 163",airway epithelial cells obtained by bronchoscopy and brushing,,,,,27,M,black,non-smoker,
+-,GSM458582,"small airways, non-smoker 169",airway epithelial cells obtained by bronchoscopy and brushing,,,,,47,F,white,non-smoker,

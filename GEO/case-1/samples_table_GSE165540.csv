@@ -1,0 +1,7 @@
+# TITLE: The expression profiles of exosomal miRNAs associated with resistance to osimertinib (AZD9291) in EGFR-mutant NSCLC cells
+# SUMMARY: Exosomal miRNAs involved in resistance to osimertinib in EGFR-mutant NSCLC cells were successfully identified through the microoarray analysis.
+GPL21263_Group,GPL21263_Accession,GPL21263_Title,GPL21263_Source name,GPL21263_Tissue,GPL21263_Cell line
+-,GSM5036359,SH82K33 HCC-827 Exo-RNA,primary lung cancer cell line,primary lung cancer cell line,SH82K33
+-,GSM5036360,SH82K33 AZD-827 Exo-RNA,primary lung cancer cell line,primary lung cancer cell line,SH82K33
+-,GSM5036361,SH82K33 PC9 Exo-RNA,primary lung cancer cell line,primary lung cancer cell line,SH82K33
+-,GSM5036362,SH82K33 AZD-PC9 Exo-RNA,primary lung cancer cell line,primary lung cancer cell line,SH82K33

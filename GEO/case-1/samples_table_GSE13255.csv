@@ -1,0 +1,294 @@
+# TITLE: Gene Expression Profiles in Peripheral Blood Mononuclear Cells Can Distinguish Patients with NonSmall Cell Lung Cancer.
+# SUMMARY: We report a 29-gene diagnostic signature, which distinguishes individuals with NSCLC from controls with non-malignant lung disease with 91% Sensitivity, 79% Specificity and a ROC AUC of 92%. Accuracy on an independent set of 18 NSCLC samples from the same location was 79%. Samples from an independent location including 12 stage 1 NSCLC and 15 controls, achieved an accuracy of 74%. A study of 18 paired samples taken pre and post surgery shows that the PBMC associated “cancer” signature is significantly reduced after tumor removal, supporting the hypothesis that the signature detected in pre-surgery samples is a response to the presence of the tumor.
+GPL6102_Group,GPL6102_Accession,GPL6102_Title,GPL6102_Source name,GPL6102_Class,GPL6102_Characteristics,GPL6102_Smoking,GPL6102_Race,GPL6102_Gender,GPL6102_Age,GPL6102_COPD,GPL6102_Dx,GPL6102_Stage
+-,GSM334354,Case/control experiment: C.9.10001.187.QbF83.u.HTN,PBMC,NHC,Patient.id: 10001,Q,b,F,83,u,HTN,
+-,GSM334355,Case/control experiment: Cm.9.10003.201.SbF43.u.HTN,PBMC,NHC,Patient.id: 10003,S,b,F,43,u,HTN,
+-,GSM334356,Case/control experiment: C.9.10004.194.QwM54.u.PS,PBMC,NHC,Patient.id: 10004,Q,w,M,54,u,PS,
+-,GSM334357,Case/control experiment: C.9.10005.214.QbF67.y.CR,PBMC,NHC,Patient.id: 10005,Q,b,F,67,y,CR,
+-,GSM334358,Case/control experiment: Cm.2.10008.163.QwF73.y.GI,PBMC,NHC,Patient.id: 10008,Q,w,F,73,y,GI,
+-,GSM334359,Case/control experiment: C.5.10010.044.QbF64.u.HTN,PBMC,NHC,Patient.id: 10010,Q,b,F,64,u,HTN,
+-,GSM334360,Case/control experiment: C.6.10012.259.QwF59.y.COPDx,PBMC,NHC,Patient.id: 10012,Q,w,F,59,y,COPD,
+-,GSM334361,Case/control experiment: C.6.10013.267.QwF68.y.COPDx,PBMC,NHC,Patient.id: 10013,Q,w,F,68,y,COPD,
+-,GSM334362,Case/control experiment: C.6.10018.260.QwM66.y.COPD,PBMC,NHC,Patient.id: 10018,Q,w,M,66,y,COPD,
+-,GSM334363,Case/control experiment: C.9.10019.202.NwM44.n.NHC,PBMC,NHC,Patient.id: 10019,N,w,M,44,n,NHC,
+-,GSM334364,Case/control experiment: C.6.10022.179.QwF65.u.COPD,PBMC,NHC,Patient.id: 10022,Q,w,F,65,y,COPD,
+-,GSM334365,Case/control experiment: Cm.9.10023.185.SwM49.u.CR,PBMC,NHC,Patient.id: 10023,S,w,M,49,u,CR,
+-,GSM334366,Case/control experiment: C.10.10027.294.SwM38.y.COPD,PBMC,NHC,Patient.id: 10027,S,w,M,38,y,COPD,
+-,GSM334367,Case/control experiment: C.6.10028.180.QwF68.y.COPD,PBMC,NHC,Patient.id: 10028,Q,w,F,68,y,COPD,
+-,GSM334368,Case/control experiment: C.6.10029.261.QwM61.y.COPD,PBMC,NHC,Patient.id: 10029,Q,w,M,61,y,COPD,
+-,GSM334369,Case/control experiment: C.16.10030.165.NwF48.n.SARC,PBMC,NHC,Patient.id: 10030,N,w,F,48,n,SARC,
+-,GSM334370,Case/control experiment: C.6.10031.262.QwM78.y.COPD,PBMC,NHC,Patient.id: 10031,Q,w,M,78,y,COPD,
+-,GSM334371,Case/control experiment: C.6.10032.195.QwM49.y.COPD,PBMC,NHC,Patient.id: 10032,Q,w,M,49,y,COPD,
+-,GSM334372,Case/control experiment: C.6.10033.263.QwM65.y.COPD,PBMC,NHC,Patient.id: 10033,Q,w,M,65,y,COPD,
+-,GSM334373,Case/control experiment: C.5.10034.166.QwM79.y.COPD,PBMC,NHC,Patient.id: 10034,Q,w,M,79,y,COPD,
+-,GSM334374,Case/control experiment: C.16.10035.167.NwM76.y.COPD,PBMC,NHC,Patient.id: 10035,N,w,M,76,y,COPD,
+-,GSM334375,Case/control experiment: Cm.4.10036.168.NwM67.y.COPD,PBMC,NHC,Patient.id: 10036,N,w,M,67,y,COPD,
+-,GSM334376,Case/control experiment: C.6.10037.264.QwM60.y.COPD,PBMC,NHC,Patient.id: 10037,Q,w,M,60,y,COPD,
+-,GSM334377,Case/control experiment: C.6.10038.265.QwF69.y.COPD,PBMC,NHC,Patient.id: 10038,Q,w,F,69,y,COPD,
+-,GSM334378,Case/control experiment: C.6.10039.266.QwF62.y.COPD,PBMC,NHC,Patient.id: 10039,Q,w,F,62,y,COPD,
+-,GSM334379,Case/control experiment: C.5.10040.001.QwF56.y.COPD,PBMC,NHC,Patient.id: 10040,Q,w,F,56,y,COPD,
+-,GSM334380,Case/control experiment: C.6.10041.182.QwM71.y.COPD,PBMC,NHC,Patient.id: 10041,Q,w,M,71,y,COPD,
+-,GSM334381,Case/control experiment: C.16.10042.169.QwM84.y.COPD,PBMC,NHC,Patient.id: 10042,Q,w,M,84,y,COPD,
+-,GSM334382,Case/control experiment: Cm.4.10043.170.QwM68.y.COPD,PBMC,NHC,Patient.id: 10043,Q,w,M,68,y,COPD,
+-,GSM334383,Case/control experiment: C.10.10044.297.SbF53.y.SARC,PBMC,NHC,Patient.id: 10044,S,b,F,53,y,SARC,
+-,GSM334384,Case/control experiment: C.6.10046.209.QwM63.y.COPD,PBMC,NHC,Patient.id: 10046,Q,w,M,63,y,COPD,
+-,GSM334385,Case/control experiment: C.11.10047.172.QwM68.y.COPD,PBMC,NHC,Patient.id: 10047,Q,w,M,68,y,COPD,
+-,GSM334386,Case/control experiment: C.6.10048.212.QbM67.y.COPD,PBMC,NHC,Patient.id: 10048,Q,b,M,67,y,COPD,
+-,GSM334387,Case/control experiment: C.6.10049.205.QwM57.y.COPD,PBMC,NHC,Patient.id: 10049,Q,w,M,57,y,COPD,
+-,GSM334388,Case/control experiment: C.6.10050.186.QbM66.y.COPD,PBMC,NHC,Patient.id: 10050,Q,b,M,66,y,COPD,
+-,GSM334389,Case/control experiment: C.6.10051.215.QwM75.y.COPD,PBMC,NHC,Patient.id: 10051,Q,w,M,75,y,COPD,
+-,GSM334390,Case/control experiment: C.11.10052.173.QwF56.y.COPD,PBMC,NHC,Patient.id: 10052,Q,w,F,56,y,COPD,
+-,GSM334391,Case/control experiment: C.6.10053.204.QwM61.y.COPD,PBMC,NHC,Patient.id: 10053,Q,w,M,61,y,COPD,
+-,GSM334392,Case/control experiment: Cm.4.10054.174.QwM70.y.COPD,PBMC,NHC,Patient.id: 10054,Q,w,M,70,y,COPD,
+-,GSM334393,Case/control experiment: C.6.10055.206.QoF63.y.COPD,PBMC,NHC,Patient.id: 10055,Q,o,F,63,y,COPD,
+-,GSM334394,Case/control experiment: C.6.10056.219.QwF70.y.COPD,PBMC,NHC,Patient.id: 10056,Q,w,F,70,y,COPD,
+-,GSM334395,Case/control experiment: C.16.10057.175.QwM70.y.COPD,PBMC,NHC,Patient.id: 10057,Q,w,M,70,y,COPD,
+-,GSM334396,Case/control experiment: C.11.10058.176.QwF81.y.COPD,PBMC,NHC,Patient.id: 10058,Q,w,F,81,y,COPD,
+-,GSM334397,Case/control experiment: Cm.6.10059.183.QwM79.y.COPD,PBMC,NHC,Patient.id: 10059,Q,w,M,79,y,COPD,
+-,GSM334398,Case/control experiment: C.2.10061.045.QwF57.y.COPD,PBMC,NHC,Patient.id: 10061,Q,w,F,57,y,COPD,
+-,GSM334399,Case/control experiment: C.2.10062.046.QwM68.y.COPDx,PBMC,NHC,Patient.id: 10062,Q,w,M,68,y,COPD,
+-,GSM334400,Case/control experiment: C.3.10063.047.QwM79.n.COPD,PBMC,NHC,Patient.id: 10063,Q,w,M,79,y,COPD,
+-,GSM334401,Case/control experiment: C.2.10064.048.QbM54.y.COPD,PBMC,NHC,Patient.id: 10064,Q,b,M,54,y,COPD,
+-,GSM334402,Case/control experiment: C.10.01146.295.SwM53.y.HAM,PBMC,NHC,Patient.id: 1146,S,w,M,53,y,HAM,
+-,GSM334403,Case/control experiment: C.9.01148.217.NbM71.n.GI,PBMC,NHC,Patient.id: 1148,N,b,M,71,n,GI,
+-,GSM334404,Case/control experiment: C.9.01182.203.QwM50.y.PN,PBMC,NHC,Patient.id: 1182,Q,w,M,50,y,PN,
+-,GSM334405,Case/control experiment: C.7.01184.199.QwM56.y.NM,PBMC,NHC,Patient.id: 1184,Q,w,M,56,y,NM,
+-,GSM334406,Case/control experiment: C.7.01185.210.QwM47.y.NM,PBMC,NHC,Patient.id: 1185,Q,w,M,47,y,NM,
+-,GSM334407,Case/control experiment: C.15.01186.155.QwF58.n.NM,PBMC,NHC,Patient.id: 1186,Q,w,F,58,n,NM,
+-,GSM334408,Case/control experiment: C.10.01191.298.QwM75.n.NM,PBMC,NHC,Patient.id: 1191,Q,w,M,75,n,NM,
+-,GSM334409,Case/control experiment: C.10.01218.301.NwM59.n.GI,PBMC,NHC,Patient.id: 1218,N,w,M,59,n,GI,
+-,GSM334410,Case/control experiment: C.6.01242.188.QwM72.y.NM,PBMC,NHC,Patient.id: 1242,Q,w,M,72,y,NM,
+-,GSM334411,Case/control experiment: Cm.4.01250.156.QwF58.u.NM,PBMC,NHC,Patient.id: 1250,Q,w,F,58,u,NM,
+-,GSM334412,Case/control experiment: Cm.9.01251.184.NbF52.n.GI,PBMC,NHC,Patient.id: 1251,N,b,F,52,n,GI,
+-,GSM334413,Case/control experiment: C.10.01260.296.QwM53.y.NM,PBMC,NHC,Patient.id: 1260,Q,w,M,53,y,NM,
+-,GSM334414,Case/control experiment: C.10.01263.302.QwM72.y.NM,PBMC,NHC,Patient.id: 1263,Q,w,M,72,y,NM,
+-,GSM334415,Case/control experiment: C.15.01267.157.NwF61.n.NM,PBMC,NHC,Patient.id: 1267,N,w,F,61,n,NM,
+-,GSM334416,Case/control experiment: C.15.01277.158.QwF68.y.NM,PBMC,NHC,Patient.id: 1277,Q,w,F,68,y,NM,
+-,GSM334417,Case/control experiment: C.6.01289.193.QwM52.y.NM,PBMC,NHC,Patient.id: 1289,Q,w,M,52,y,NM,
+-,GSM334418,Case/control experiment: C.7.01305.218.QwF57.y.GI,PBMC,NHC,Patient.id: 1305,Q,w,F,57,y,GI,
+-,GSM334419,Case/control experiment: C.15.01309.159.QwF57.n.NM,PBMC,NHC,Patient.id: 1309,Q,w,F,57,n,NM,
+-,GSM334420,Case/control experiment: C.16.01314.160.NaF67.y.GI,PBMC,NHC,Patient.id: 1314,N,a,F,67,y,GI,
+-,GSM334421,Case/control experiment: C.9.01328.192.NwM54.y.NM,PBMC,NHC,Patient.id: 1328,N,w,M,54,y,NM,
+-,GSM334422,Case/control experiment: C.16.01342.161.QwF74.n.GI,PBMC,NHC,Patient.id: 1342,Q,w,F,74,n,GI,
+-,GSM334423,Case/control experiment: C.7.01361.208.QwM54.y.NM,PBMC,NHC,Patient.id: 1361,Q,w,M,54,y,NM,
+-,GSM334424,Case/control experiment: C.7.01399.211.SwM58.y.GI,PBMC,NHC,Patient.id: 1399,S,w,M,58,y,GI,
+-,GSM334425,Case/control experiment: C.7.01424.196.QwM65.y.GI,PBMC,NHC,Patient.id: 1424,Q,w,M,65,y,GI,
+-,GSM334426,Case/control experiment: C.8.01438.207.QwM64.n.NM,PBMC,NHC,Patient.id: 1438,Q,w,M,64,n,NM,
+-,GSM334427,Case/control experiment: C.8.01442.220.QwM53.y.NM,PBMC,NHC,Patient.id: 1442,Q,w,M,53,y,NM,
+-,GSM334428,Case/control experiment: C.7.01450.221.SwF58.y.GI,PBMC,NHC,Patient.id: 1450,S,w,F,58,y,GI,
+-,GSM334429,Case/control experiment: C.7.01474.216.QwM69.y.NM,PBMC,NHC,Patient.id: 1474,Q,w,M,69,y,NM,
+-,GSM334430,Case/control experiment: C.7.01488.213.QwM77.y.GI,PBMC,NHC,Patient.id: 1488,Q,w,M,77,y,GI,
+-,GSM334431,Case/control experiment: C.9.01490.197.NwM74.n.NM,PBMC,NHC,Patient.id: 1490,N,w,M,74,n,NM,
+-,GSM334432,Case/control experiment: C.9.01522.283.SwM38.u.GI,PBMC,NHC,Patient.id: 1522,S,w,M,38,u,GI,
+-,GSM334433,Case/control experiment: C.5.01554.035.NwF60.n.NM,PBMC,NHC,Patient.id: 1554,N,w,F,60,n,NM,
+-,GSM334434,Case/control experiment: C.2.01562.036.QwF46.y.NM,PBMC,NHC,Patient.id: 1562,Q,w,F,46,y,NM,
+-,GSM334435,Case/control experiment: C.5.01575.037.QwF54.n.GI,PBMC,NHC,Patient.id: 1575,Q,w,F,54,n,GI,
+-,GSM334436,Case/control experiment: C.5.01588.038.QwM51.n.GI,PBMC,NHC,Patient.id: 1588,Q,w,M,51,n,GI,
+-,GSM334437,Case/control experiment: C.2.01594.039.QwF70.y.GI,PBMC,NHC,Patient.id: 1594,Q,w,F,70,y,GI,
+-,GSM334438,Case/control experiment: C.16.01616.051.NwF67.y.NM,PBMC,NHC,Patient.id: 1616,N,w,F,67,y,NM,
+-,GSM334439,Case/control experiment: C.5.01618.041.NwM58.u.GI,PBMC,NHC,Patient.id: 1618,N,w,M,58,u,GI,
+-,GSM334440,Case/control experiment: C.16.01619.052.QwM73.n.GI,PBMC,NHC,Patient.id: 1619,Q,w,M,73,n,GI,
+-,GSM334441,Case/control experiment: C.2.01628.043.QwM72.y.GI,PBMC,NHC,Patient.id: 1628,Q,w,M,72,y,GI,
+-,GSM334442,Case/control experiment: C.5.01657.070.NwM46.n.SARC,PBMC,NHC,Patient.id: 1657,N,w,M,46,n,SARC,
+-,GSM334443,Case/control experiment: C.5.01677.072.QwM88.u.GI,PBMC,NHC,Patient.id: 1677,Q,w,M,88,u,GI,
+-,GSM334444,Case/control experiment: C.2.01697.074.QbF68.y.GI,PBMC,NHC,Patient.id: 1697,Q,b,F,68,y,GI,
+-,GSM334445,Case/control experiment: P.10.01136.305.SwF62.y.AC,PBMC,NSCLC,Patient.id: 1136,S,w,F,62,y,AC,1A
+-,GSM334446,Case/control experiment: P.10.01137.306.QwM81.n.AC,PBMC,NSCLC,Patient.id: 1137,Q,w,M,81,n,AC,2B
+-,GSM334447,Case/control experiment: P.9.01138.131.QwM70.y.LSCC,PBMC,NSCLC,Patient.id: 1138,Q,w,M,70,y,LSCC,3B
+-,GSM334448,Case/control experiment: P.9.01140.126.QbM39.n.AC,PBMC,NSCLC,Patient.id: 1140,Q,b,M,39,n,AC,3B
+-,GSM334449,Case/control experiment: P.6.01141.240.QwF46.y.AC,PBMC,NSCLC,Patient.id: 1141,Q,w,F,46,y,AC,1B
+-,GSM334450,Case/control experiment: P.6.01143.233.QwM76.n.AC,PBMC,NSCLC,Patient.id: 1143,Q,w,M,76,n,AC,1A
+-,GSM334451,Case/control experiment: Pm.7.01153.227.SbM60.y.AC,PBMC,NSCLC,Patient.id: 1153,S,b,M,60,y,AC,1A
+-,GSM334452,Case/control experiment: P.8.01154.111.QwM77.y.AC,PBMC,NSCLC,Patient.id: 1154,Q,w,M,77,y,AC,3A
+-,GSM334453,Case/control experiment: P.8.01155.112.QwF72.y.AC,PBMC,NSCLC,Patient.id: 1155,Q,w,F,72,y,AC,3A
+-,GSM334454,Case/control experiment: P.10.01158.312.SwF59.y.AC,PBMC,NSCLC,Patient.id: 1158,S,w,F,59,y,AC,1A
+-,GSM334455,Case/control experiment: P.6.01166.224.QwF48.y.AC,PBMC,NSCLC,Patient.id: 1166,Q,w,F,48,y,AC,1B
+-,GSM334456,Case/control experiment: P.7.01167.237.SbF73.n.AC,PBMC,NSCLC,Patient.id: 1167,S,b,F,73,n,AC,1A
+-,GSM334457,Case/control experiment: P.8.01171.277.QwM75.y.LSCC,PBMC,NSCLC,Patient.id: 1171,Q,w,M,75,y,LSCC,1A
+-,GSM334458,Case/control experiment: P.6.01175.234.QwM68.y.AC,PBMC,NSCLC,Patient.id: 1175,Q,w,M,68,y,AC,1A
+-,GSM334459,Case/control experiment: P.6.01177.226.QwF67.y.AC,PBMC,NSCLC,Patient.id: 1177,Q,w,F,67,y,AC,1B
+-,GSM334460,Case/control experiment: P.9.01178.132.SwF75.y.LSCC,PBMC,NSCLC,Patient.id: 1178,S,w,F,75,y,LSCC,3B
+-,GSM334461,Case/control experiment: P.10.01183.307.QwM79.y.AC,PBMC,NSCLC,Patient.id: 1183,Q,w,M,79,y,AC,1A
+-,GSM334462,Case/control experiment: P.8.01189.136.QwM74.y.LSCC,PBMC,NSCLC,Patient.id: 1189,Q,w,M,74,y,LSCC,3A
+-,GSM334463,Case/control experiment: P.8.01192.270.SwF57.y.LSCC,PBMC,NSCLC,Patient.id: 1192,S,w,F,57,y,LSCC,1B
+-,GSM334464,Case/control experiment: P.10.01193.314.QwF70.y.AC,PBMC,NSCLC,Patient.id: 1193,Q,w,F,70,y,AC,1B
+-,GSM334465,Case/control experiment: P.10.01194.313.QwF55.y.AC,PBMC,NSCLC,Patient.id: 1194,Q,w,F,55,y,AC,4
+-,GSM334466,Case/control experiment: P.9.01196.278.QwF75.n.LSCC,PBMC,NSCLC,Patient.id: 1196,Q,w,F,75,n,LSCC,2B
+-,GSM334467,Case/control experiment: P.8.01200.113.QwF74.n.AC,PBMC,NSCLC,Patient.id: 1200,Q,w,F,74,n,AC,3A
+-,GSM334468,Case/control experiment: P.10.01202.315.QwF68.y.AC,PBMC,NSCLC,Patient.id: 1202,Q,w,F,68,y,AC,1B
+-,GSM334469,Case/control experiment: P.10.01204.310.QwM62.n.LSCC,PBMC,NSCLC,Patient.id: 1204,Q,w,M,62,n,LSCC,1A
+-,GSM334470,Case/control experiment: P.7.01211.232.SwF69.n.AC,PBMC,NSCLC,Patient.id: 1211,S,w,F,69,n,AC,1A
+-,GSM334471,Case/control experiment: P.10.01214.282.QwM61.n.LSCC,PBMC,NSCLC,Patient.id: 1214,Q,w,M,61,n,LSCC,1B
+-,GSM334472,Case/control experiment: P.7.01216.238.SwF69.n.AC,PBMC,NSCLC,Patient.id: 1216,S,w,F,69,n,AC,1A
+-,GSM334473,Case/control experiment: P.9.01221.105.QwM61.n.AC,PBMC,NSCLC,Patient.id: 1221,Q,w,M,61,n,AC,3A
+-,GSM334474,Case/control experiment: P.6.01222.231.QwM74.y.AC,PBMC,NSCLC,Patient.id: 1222,Q,w,M,74,y,AC,1B
+-,GSM334475,Case/control experiment: P.7.01224.229.SwF45.y.AC,PBMC,NSCLC,Patient.id: 1224,S,w,F,45,y,AC,2A
+-,GSM334476,Case/control experiment: Pm.10.01227.304.QwM64.n.AC,PBMC,NSCLC,Patient.id: 1227,Q,w,M,64,n,AC,1A
+-,GSM334477,Case/control experiment: P.9.01233.280.QwM61.n.LSCC,PBMC,NSCLC,Patient.id: 1233,Q,w,M,61,n,LSCC,2A
+-,GSM334478,Case/control experiment: P.9.01254.292.SwF77.y.LSCC,PBMC,NSCLC,Patient.id: 1254,S,w,F,77,y,LSCC,1A
+-,GSM334479,Case/control experiment: P.10.01262.303.NwF63.n.AC,PBMC,NSCLC,Patient.id: 1262,N,w,F,63,n,AC,1A
+-,GSM334480,Case/control experiment: P.8.01264.130.SwF78.y.LSCC,PBMC,NSCLC,Patient.id: 1264,S,w,F,78,y,LSCC,4
+-,GSM334481,Case/control experiment: P.10.01269.316.QwM68.n.LSCC,PBMC,NSCLC,Patient.id: 1269,Q,w,M,68,n,LSCC,1A
+-,GSM334482,Case/control experiment: P.9.01280.133.QwF72.n.LSCC,PBMC,NSCLC,Patient.id: 1280,Q,w,F,72,n,LSCC,3B
+-,GSM334483,Case/control experiment: P.9.01282.109.QwF72.n.AC,PBMC,NSCLC,Patient.id: 1282,Q,w,F,72,n,AC,3B
+-,GSM334484,Case/control experiment: P.9.01284.288.QwF73.n.LSCC,PBMC,NSCLC,Patient.id: 1284,Q,w,F,73,n,LSCC,1A
+-,GSM334485,Case/control experiment: P.10.01286.311.QwM50.n.AC,PBMC,NSCLC,Patient.id: 1286,Q,w,M,50,n,AC,1A
+-,GSM334486,Case/control experiment: P.10.01287.308.QwF52.n.AC,PBMC,NSCLC,Patient.id: 1287,Q,w,F,52,n,AC,1B
+-,GSM334487,Case/control experiment: P.10.01292.309.QwF79.n.LSCC,PBMC,NSCLC,Patient.id: 1292,Q,w,F,79,n,LSCC,1B
+-,GSM334488,Case/control experiment: P.8.01303.271.QwM62.u.LSCC,PBMC,NSCLC,Patient.id: 1303,Q,w,M,62,u,LSCC,1A
+-,GSM334489,Case/control experiment: P.10.01307.319.QwM69.n.AC,PBMC,NSCLC,Patient.id: 1307,Q,w,M,69,n,AC,1A
+-,GSM334490,Case/control experiment: P.6.01311.245.QwF75.y.AC,PBMC,NSCLC,Patient.id: 1311,Q,w,F,75,y,AC,1A
+-,GSM334491,Case/control experiment: P.10.01312.318.QwM74.y.AC,PBMC,NSCLC,Patient.id: 1312,Q,w,M,74,y,AC,2B
+-,GSM334492,Case/control experiment: P.6.01316.239.QwF60.n.AC,PBMC,NSCLC,Patient.id: 1316,Q,w,F,60,n,AC,1B
+-,GSM334493,Case/control experiment: P.10.01323.321.QwF53.n.AC,PBMC,NSCLC,Patient.id: 1323,Q,w,F,53,n,AC,4
+-,GSM334494,Case/control experiment: P.4.01325.002.QwF67.y.NSCLC,PBMC,NSCLC,Patient.id: 1325,Q,w,F,67,y,NSCLC,3B
+-,GSM334495,Case/control experiment: P.6.01337.235.SbF65.n.AC,PBMC,NSCLC,Patient.id: 1337,S,b,F,65,n,AC,1A
+-,GSM334496,Case/control experiment: P.9.01339.146.QwF63.y.LSCC,PBMC,NSCLC,Patient.id: 1339,Q,w,F,63,y,LSCC,2B
+-,GSM334497,Case/control experiment: P.6.01340.230.QwM66.n.AC,PBMC,NSCLC,Patient.id: 1340,Q,w,M,66,n,AC,1A
+-,GSM334498,Case/control experiment: P.8.01343.114.QwM62.n.AC,PBMC,NSCLC,Patient.id: 1343,Q,w,M,62,n,AC,3A
+-,GSM334499,Case/control experiment: P.6.01344.243.QwM68.y.AC,PBMC,NSCLC,Patient.id: 1344,Q,w,M,68,y,AC,1B
+-,GSM334500,Case/control experiment: P.6.01346.249.QwF83.y.AC,PBMC,NSCLC,Patient.id: 1346,Q,w,F,83,y,AC,2A
+-,GSM334501,Case/control experiment: P.4.01352.003.QwF72.u.BAC,PBMC,NSCLC,Patient.id: 1352,Q,w,F,72,u,BAC,1B
+-,GSM334502,Case/control experiment: P.9.01362.110.QwM70.n.AC,PBMC,NSCLC,Patient.id: 1362,Q,w,M,70,n,AC,3B
+-,GSM334503,Case/control experiment: P.6.01368.236.QwF56.n.AC,PBMC,NSCLC,Patient.id: 1368,Q,w,F,56,n,AC,1A
+-,GSM334504,Case/control experiment: P.9.01369.290.QwF73.y.AC,PBMC,NSCLC,Patient.id: 1369,Q,w,F,73,y,AC,1B
+-,GSM334505,Case/control experiment: P.9.01373.287.QwF57.n.AC,PBMC,NSCLC,Patient.id: 1373,Q,w,F,57,n,AC,1B
+-,GSM334506,Case/control experiment: P.3.01375.034.QwM75.y.NSCLC,PBMC,NSCLC,Patient.id: 1375,Q,w,M,75,y,NSCLC,1A
+-,GSM334507,Case/control experiment: P.9.01386.291.QwF45.n.AC,PBMC,NSCLC,Patient.id: 1386,Q,w,F,45,n,AC,1B
+-,GSM334508,Case/control experiment: P.9.01387.115.NwF53.n.AC,PBMC,NSCLC,Patient.id: 1387,N,w,F,53,n,AC,3A
+-,GSM334509,Case/control experiment: P.4.01388.004.SwF48.n.NSCLC,PBMC,NSCLC,Patient.id: 1388,S,w,F,48,n,NSCLC,3B
+-,GSM334510,Case/control experiment: P.8.01390.272.QwM80.n.LSCC,PBMC,NSCLC,Patient.id: 1390,Q,w,M,80,n,LSCC,2B
+-,GSM334511,Case/control experiment: P.10.01397.318.SwM67.y.AC,PBMC,NSCLC,Patient.id: 1397,S,w,M,67,y,AC,1A
+-,GSM334512,Case/control experiment: P.8.01400.268.QwM80.y.LSCC,PBMC,NSCLC,Patient.id: 1400,Q,w,M,80,y,LSCC,1A
+-,GSM334513,Case/control experiment: P.9.01402.125.SwM41.n.AC,PBMC,NSCLC,Patient.id: 1402,S,w,M,41,n,AC,4
+-,GSM334514,Case/control experiment: P.9.01403.127.QwM67.u.AC,PBMC,NSCLC,Patient.id: 1403,Q,w,M,67,u,AC,3B
+-,GSM334515,Case/control experiment: P.8.01413.279.QwM77.y.LSCC,PBMC,NSCLC,Patient.id: 1413,Q,w,M,77,y,LSCC,1B
+-,GSM334516,Case/control experiment: P.6.01415.256.QwM59.y.AC,PBMC,NSCLC,Patient.id: 1415,Q,w,M,59,y,AC,1A
+-,GSM334517,Case/control experiment: P.9.01423.276.SwF76.n.LSCC,PBMC,NSCLC,Patient.id: 1423,S,w,F,76,n,LSCC,1B
+-,GSM334518,Case/control experiment: P.6.01427.248.QwM58.n.AC,PBMC,NSCLC,Patient.id: 1427,Q,w,M,58,n,AC,1A
+-,GSM334519,Case/control experiment: P.8.01429.275.QwF77.y.LSCC,PBMC,NSCLC,Patient.id: 1429,Q,w,F,77,y,LSCC,1A
+-,GSM334520,Case/control experiment: P.6.01430.257.QwF61.y.AC,PBMC,NSCLC,Patient.id: 1430,Q,w,F,61,y,AC,1A
+-,GSM334521,Case/control experiment: P.6.01431.255.QwF64.y.AC,PBMC,NSCLC,Patient.id: 1431,Q,w,F,64,y,AC,1A
+-,GSM334522,Case/control experiment: P.10.01435.320.NwM65.n.AC,PBMC,NSCLC,Patient.id: 1435,N,w,M,65,n,AC,1A
+-,GSM334523,Case/control experiment: P.6.01436.253.QbM53.y.AC,PBMC,NSCLC,Patient.id: 1436,Q,b,M,53,y,AC,1A
+-,GSM334524,Case/control experiment: P.8.01437.137.QbF73.y.LSCC,PBMC,NSCLC,Patient.id: 1437,Q,b,F,73,y,LSCC,3A
+-,GSM334525,Case/control experiment: P.4.01439.005.NwM52.n.BAC,PBMC,NSCLC,Patient.id: 1439,N,w,M,52,n,BAC,3B
+-,GSM334526,Case/control experiment: P.9.01444.128.QwM73.y.AC,PBMC,NSCLC,Patient.id: 1444,Q,w,M,73,y,AC,3A
+-,GSM334527,Case/control experiment: P.6.01445.228.QwF56.n.AC,PBMC,NSCLC,Patient.id: 1445,Q,w,F,56,n,AC,2A
+-,GSM334528,Case/control experiment: P.8.01449.274.QwF73.y.LSCC,PBMC,NSCLC,Patient.id: 1449,Q,w,F,73,y,LSCC,1A
+-,GSM334529,Case/control experiment: P.9.01451.289.NwF52.n.AC,PBMC,NSCLC,Patient.id: 1451,N,w,F,52,n,AC,1B
+-,GSM334530,Case/control experiment: P.7.01453.151.QwM78.y.AC,PBMC,NSCLC,Patient.id: 1453,Q,w,M,78,y,AC,4
+-,GSM334531,Case/control experiment: P.9.01454.147.NwM73.n.LSCC,PBMC,NSCLC,Patient.id: 1454,N,w,M,73,n,LSCC,2B
+-,GSM334532,Case/control experiment: P.8.01455.269.QwM73.n.LSCC,PBMC,NSCLC,Patient.id: 1455,Q,w,M,73,n,LSCC,1A
+-,GSM334533,Case/control experiment: P.9.01463.286.QwF73.n.LSCC,PBMC,NSCLC,Patient.id: 1463,Q,w,F,73,n,LSCC,1A
+-,GSM334534,Case/control experiment: P.9.01466.285.SwM73.y.LSCC,PBMC,NSCLC,Patient.id: 1466,S,w,M,73,y,LSCC,2B
+-,GSM334535,Case/control experiment: P.9.01468.284.SwF73.y.LSCC,PBMC,NSCLC,Patient.id: 1468,S,w,F,73,y,LSCC,1A
+-,GSM334536,Case/control experiment: P.6.01469.241.QwF65.y.AC,PBMC,NSCLC,Patient.id: 1469,Q,w,F,65,y,AC,1A
+-,GSM334537,Case/control experiment: P.4.01471.006.SwM67.y.NSCLC,PBMC,NSCLC,Patient.id: 1471,S,w,M,67,y,NSCLC,3A
+-,GSM334538,Case/control experiment: P.6.01473.247.QwM56.y.AC,PBMC,NSCLC,Patient.id: 1473,Q,w,M,56,y,AC,1B
+-,GSM334539,Case/control experiment: P.8.01475.273.SwF73.n.LSCC,PBMC,NSCLC,Patient.id: 1475,S,w,F,73,n,LSCC,1A
+-,GSM334540,Case/control experiment: P.8.01482.281.QwM73.y.LSCC,PBMC,NSCLC,Patient.id: 1482,Q,w,M,73,y,LSCC,1A
+-,GSM334541,Case/control experiment: P.9.01484.138.QwF73.n.LSCC,PBMC,NSCLC,Patient.id: 1484,Q,w,F,73,n,LSCC,3A
+-,GSM334542,Case/control experiment: P.6.01489.250.QbF62.y.AC,PBMC,NSCLC,Patient.id: 1489,Q,b,F,62,y,AC,2A
+-,GSM334543,Case/control experiment: P.6.01491.246.QwF66.n.AC,PBMC,NSCLC,Patient.id: 1491,Q,w,F,66,n,AC,1B
+-,GSM334544,Case/control experiment: P.9.01519.144.QbM57.y.AC,PBMC,NSCLC,Patient.id: 1519,Q,b,M,57,y,AC,3A
+-,GSM334545,Case/control experiment: P.6.01542.225.QbF59.n.AC,PBMC,NSCLC,Patient.id: 1542,Q,b,F,59,n,AC,1A
+-,GSM334546,Case/control experiment: P.4.01548.007.QwM84.n.AC,PBMC,NSCLC,Patient.id: 1548,Q,w,M,84,n,AC,1B
+-,GSM334547,Case/control experiment: P.4.01550.008.NwM53.n.AC,PBMC,NSCLC,Patient.id: 1550,N,w,M,53,n,AC,2B
+-,GSM334548,Case/control experiment: P.4.01557.010.QwM76.y.NSCLC,PBMC,NSCLC,Patient.id: 1557,Q,w,M,76,y,NSCLC,1B
+-,GSM334549,Case/control experiment: P.8.01559.142.QwF72.n.AC,PBMC,NSCLC,Patient.id: 1559,Q,w,F,72,n,AC,3A
+-,GSM334550,Case/control experiment: P.4.01560.011.NwF48.n.ACx,PBMC,NSCLC,Patient.id: 1560,N,w,F,48,n,AC,3A
+-,GSM334551,Case/control experiment: P.4.01561.012.QwM60.n.LSCC,PBMC,NSCLC,Patient.id: 1561,Q,w,M,60,n,LSCC,2A
+-,GSM334552,Case/control experiment: P.4.01566.013.SwM69.u.LSCC,PBMC,NSCLC,Patient.id: 1566,S,w,M,69,u,LSCC,3B
+-,GSM334553,Case/control experiment: P.4.01569.014.QwM74.n.NSCLC,PBMC,NSCLC,Patient.id: 1569,Q,w,M,74,n,NSCLC,3A
+-,GSM334554,Case/control experiment: P.5.01572.015.QbF77.n.AC,PBMC,NSCLC,Patient.id: 1572,Q,b,F,77,n,AC,1A
+-,GSM334555,Case/control experiment: P.4.01573.016.QwM43.u.AC,PBMC,NSCLC,Patient.id: 1573,Q,w,M,43,u,AC,3B
+-,GSM334556,Case/control experiment: P.5.01582.017.QwM61.u.AC,PBMC,NSCLC,Patient.id: 1582,Q,w,M,61,u,AC,1B
+-,GSM334557,Case/control experiment: P.4.01583.018.NaF57.n.LSCC,PBMC,NSCLC,Patient.id: 1583,N,a,F,57,n,LSCC,3A
+-,GSM334558,Case/control experiment: P.4.01584.019.QwM78.n.AC,PBMC,NSCLC,Patient.id: 1584,Q,w,M,78,n,AC,1A
+-,GSM334559,Case/control experiment: P.4.01586.020.SwM70.y.LSCC,PBMC,NSCLC,Patient.id: 1586,S,w,M,70,y,LSCC,1A
+-,GSM334560,Case/control experiment: P.4.01589.021.SwF57.y.AC,PBMC,NSCLC,Patient.id: 1589,S,w,F,57,y,AC,2B
+-,GSM334561,Case/control experiment: P.4.01590.057.QwM71.n.AC,PBMC,NSCLC,Patient.id: 1590,Q,w,M,71,n,AC,3A
+-,GSM334562,Case/control experiment: P.5.01591.022.QwF75.y.AC,PBMC,NSCLC,Patient.id: 1591,Q,w,F,75,y,AC,1A
+-,GSM334563,Case/control experiment: P.4.01592.023.QwM50.y.LSCC,PBMC,NSCLC,Patient.id: 1592,Q,w,M,50,y,LSCC,1B
+-,GSM334564,Case/control experiment: P.4.01595.024.QwF70.n.LSCC,PBMC,NSCLC,Patient.id: 1595,Q,w,F,70,n,LSCC,1B
+-,GSM334565,Case/control experiment: P.3.01597.025.QwM45.y.AC,PBMC,NSCLC,Patient.id: 1597,Q,w,M,45,y,AC,3A
+-,GSM334566,Case/control experiment: P.4.01598.009.SwF68.y.AC,PBMC,NSCLC,Patient.id: 1598,S,w,F,68,y,AC,1A
+-,GSM334567,Case/control experiment: P.3.01600.026.QwM81.y.NSCLC,PBMC,NSCLC,Patient.id: 1600,Q,w,M,81,y,NSCLC,3B
+-,GSM334568,Case/control experiment: P.3.01602.027.QwM75.u.LSCC,PBMC,NSCLC,Patient.id: 1602,Q,w,M,75,u,LSCC,1A
+-,GSM334569,Case/control experiment: P.3.01604.028.QwF72.n.AC,PBMC,NSCLC,Patient.id: 1604,Q,w,F,72,n,AC,2B
+-,GSM334570,Case/control experiment: P.3.01614.029.QwM82.y.LSCC,PBMC,NSCLC,Patient.id: 1614,Q,w,M,82,y,LSCC,1B
+-,GSM334571,Case/control experiment: P.3.01622.030.QwF69.n.NSCLC,PBMC,NSCLC,Patient.id: 1622,Q,w,F,69,n,NSCLC,1A
+-,GSM334572,Case/control experiment: Pm.3.01630.032.QwM58.n.NSCLC,PBMC,NSCLC,Patient.id: 1630,Q,w,M,58,n,NSCLC,3A
+-,GSM334573,Case/control experiment: P.3.01631.033.QwF76.n.AC,PBMC,NSCLC,Patient.id: 1631,Q,w,F,76,n,AC,2B
+-,GSM334574,Case/control experiment: P.2.01632.066.SbM54.y.AC,PBMC,NSCLC,Patient.id: 1632,S,b,M,54,y,AC,2A
+-,GSM334575,Case/control experiment: P.2.01643.067.QwM67.y.AC,PBMC,NSCLC,Patient.id: 1643,Q,w,M,67,y,AC,3B
+-,GSM334576,Case/control experiment: P.5.01647.068.QwM69.n.LSCC,PBMC,NSCLC,Patient.id: 1647,Q,w,M,69,n,LSCC,3B
+-,GSM334577,Case/control experiment: P.2.01656.069.QwF80.y.AC,PBMC,NSCLC,Patient.id: 1656,Q,w,F,80,y,AC,3A
+-,GSM334578,Case/control experiment: P.2.01674.071.QwM46.u.AC,PBMC,NSCLC,Patient.id: 1674,Q,w,M,46,u,AC,3A
+-,GSM334579,Case/control experiment: P.5.01681.073.SwM52.n.NSCLC,PBMC,NSCLC,Patient.id: 1681,S,w,M,52,n,NSCLC,3B
+-,GSM334580,Case/control experiment: P.5.01709.075.QwF76.y.LSCC,PBMC,NSCLC,Patient.id: 1709,Q,w,F,76,y,LSCC,3B
+-,GSM334581,Case/control experiment: P.2.01713.076.QwM50.u.AC,PBMC,NSCLC,Patient.id: 1713,Q,w,M,50,u,AC,3B
+-,GSM334582,validation experiment: NYU_1_971R_AC,PBMC,NSCLC,Patient.id: 971R,,,,,,AC,1
+-,GSM334583,validation experiment: NYU_1_964R_AC,PBMC,NSCLC,Patient.id: 964R,,,,,,AC,1
+-,GSM334584,validation experiment: NYU_1_1208R_AC,PBMC,NSCLC,Patient.id: 1208R,,,,,,AC,1
+-,GSM334585,validation experiment: NYU_2_1_AC,PBMC,NSCLC,Patient.id: 1,,,,,,AC,1
+-,GSM334586,validation experiment: NYU_1_1000R_AC,PBMC,NSCLC,Patient.id: 1000R,,,,,,AC,1
+-,GSM334587,validation experiment: NYU_1_1111R_AC,PBMC,NSCLC,Patient.id: 1111R,,,,,,AC,1
+-,GSM334588,validation experiment: NYU_1_970R_AC,PBMC,NSCLC,Patient.id: 970R,,,,,,AC,1
+-,GSM334589,validation experiment: NYU_1_1016R_AC,PBMC,NSCLC,Patient.id: 1016R,,,,,,AC,1
+-,GSM334590,validation experiment: NYU_1_975R_AC,PBMC,NSCLC,Patient.id: 975R,,,,,,AC,1
+-,GSM334591,validation experiment: NYU_2_3_AC,PBMC,NSCLC,Patient.id: 3,,,,,,AC,1
+-,GSM334592,validation experiment: NYU_1_1002R_AC,PBMC,NSCLC,Patient.id: 1002R,,,,,,AC,1
+-,GSM334593,validation experiment: NYU_2_2_AC,PBMC,NSCLC,Patient.id: 2,,,,,,AC,1
+-,GSM334594,validation experiment: NYU_2_9_GGO,PBMC,NHC,Patient.id: 9,,,,,,GGO,
+-,GSM334595,validation experiment: NYU_2_10_N,PBMC,NHC,Patient.id: 10,,,,,,N,
+-,GSM334596,validation experiment: NYU_2_8_GGO,PBMC,NHC,Patient.id: 8,,,,,,GGO,
+-,GSM334597,validation experiment: NYU_2_11_N,PBMC,NHC,Patient.id: 11,,,,,,N,
+-,GSM334598,validation experiment: NYU_2_5_GGO,PBMC,NHC,Patient.id: 5,,,,,,GGO,
+-,GSM334599,validation experiment: NYU_2_18_N,PBMC,NHC,Patient.id: 18,,,,,,N,
+-,GSM334600,validation experiment: NYU_2_6_GGO,PBMC,NHC,Patient.id: 6,,,,,,GGO,
+-,GSM334601,validation experiment: NYU_2_14_N,PBMC,NHC,Patient.id: 14,,,,,,N,
+-,GSM334602,validation experiment: NYU_2_13_N,PBMC,NHC,Patient.id: 13,,,,,,N,
+-,GSM334603,validation experiment: NYU_2_12_N,PBMC,NHC,Patient.id: 12,,,,,,N,
+-,GSM334604,validation experiment: NYU_2_17_N,PBMC,NHC,Patient.id: 17,,,,,,N,
+-,GSM334605,validation experiment: NYU_2_15_N,PBMC,NHC,Patient.id: 15,,,,,,N,
+-,GSM334606,validation experiment: NYU_2_16_N,PBMC,NHC,Patient.id: 16,,,,,,N,
+-,GSM334607,validation experiment: NYU_2_4_GGO,PBMC,NHC,Patient.id: 4,,,,,,GGO,
+-,GSM334608,validation experiment: NYU_2_7_GGO,PBMC,NHC,Patient.id: 7,,,,,,GGO,
+-,GSM334609,Before vs after surgery experiment: P.3.01498.102.NwF78.n.AC,PBMC,PRE,Patient.id: 1498,N,w,F,78,n,AC,4
+-,GSM334610,Before vs after surgery experiment: P.4.01319.054.QwF67.y.AC,PBMC,PRE,Patient.id: 1319,Q,w,F,67,y,AC,1B
+-,GSM334611,Before vs after surgery experiment: P.4.01610.058.SwM68.n.NSCLC,PBMC,PRE,Patient.id: 1610,S,w,M,68,n,NSCLC,3B
+-,GSM334612,Before vs after surgery experiment: P.8.01278.053.QwM68.y.BAC,PBMC,PRE,Patient.id: 1278,Q,w,M,68,y,BAC,3B
+-,GSM334613,Before vs after surgery experiment: P.3.01374.093.NwM83.n.AC,PBMC,PRE,Patient.id: 1374,N,w,M,83,n,AC,1B
+-,GSM334614,Before vs after surgery experiment: P.3.01345.099.QwM72.y.LSCC,PBMC,PRE,Patient.id: 1345,Q,w,M,72,y,LSCC,1B
+-,GSM334615,Before vs after surgery experiment: P.4.01417.101.QwM57.n.LSCC,PBMC,PRE,Patient.id: 1417,Q,w,M,57,n,LSCC,3A
+-,GSM334616,Before vs after surgery experiment: P.3.01252.091.QwF65.n.AC,PBMC,PRE,Patient.id: 1252,Q,w,F,65,n,AC,4
+-,GSM334617,Before vs after surgery experiment: P.4.01240.090.QwF55.y.AC,PBMC,PRE,Patient.id: 1240,Q,w,F,55,y,AC,3B
+-,GSM334618,Before vs after surgery experiment: P.3.01407.100.QwF87.n.LSCC,PBMC,PRE,Patient.id: 1407,Q,w,F,87,n,LSCC,1A
+-,GSM334619,Before vs after surgery experiment: P.3.01394.056.QwF75.n.LSCC,PBMC,PRE,Patient.id: 1394,Q,w,F,75,n,LSCC,1A
+-,GSM334620,Before vs after surgery experiment: P.3.01297.098.QwF69.y.LSCC,PBMC,PRE,Patient.id: 1297,Q,w,F,69,y,LSCC,1A
+-,GSM334621,Before vs after surgery experiment: P.4.01220.097.QwM62.n.LSCC,PBMC,PRE,Patient.id: 1220,Q,w,M,62,n,LSCC,1B
+-,GSM334622,Before vs after surgery experiment: P.3.01485.096.QwM68.n.AC,PBMC,PRE,Patient.id: 1485,Q,w,M,68,n,AC,3A
+-,GSM334623,Before vs after surgery experiment: P.4.01391.055.QwM69.y.NSCLC,PBMC,PRE,Patient.id: 1391,Q,w,M,69,y,NSCLC,1A
+-,GSM334624,Before vs after surgery experiment: P.3.01246.092.QwF47.n.AC,PBMC,PRE,Patient.id: 1246,Q,w,F,47,n,AC,1B
+-,GSM334625,Before vs after surgery experiment: P.3.01433.095.QwM64.y.AC,PBMC,PRE,Patient.id: 1433,Q,w,M,64,y,AC,1A
+-,GSM334626,Before vs after surgery experiment: P.3.01408.094.QbM63.n.AC,PBMC,PRE,Patient.id: 1408,Q,b,M,63,n,AC,1B
+-,GSM334627,Before vs after surgery experiment: Pt.8.01498.089.NwF78.n.AC,PBMC,POST,Patient.id: 1498,N,w,F,78,n,AC,4
+-,GSM334628,Before vs after surgery experiment: Pt.4.01319.060.QwF67.y.AC,PBMC,POST,Patient.id: 1319,Q,w,F,67,y,AC,1B
+-,GSM334629,Before vs after surgery experiment: Pt.4.01610.064.SwM68.n.NSCLC,PBMC,POST,Patient.id: 1610,S,w,M,68,n,NSCLC,3B
+-,GSM334630,Before vs after surgery experiment: Pt.3.01278.059.QwM68.y.BAC,PBMC,POST,Patient.id: 1278,Q,w,M,68,y,BAC,3B
+-,GSM334631,Before vs after surgery experiment: Pt.3.01374.080.NwM83.n.AC,PBMC,POST,Patient.id: 1374,N,w,M,83,n,AC,1B
+-,GSM334632,Before vs after surgery experiment: Pt.3.01345.086.QwM72.y.LSCC,PBMC,POST,Patient.id: 1345,Q,w,M,72,y,LSCC,1B
+-,GSM334633,Before vs after surgery experiment: Pt.4.01417.088.QwM57.n.LSCC,PBMC,POST,Patient.id: 1417,Q,w,M,57,n,LSCC,3A
+-,GSM334634,Before vs after surgery experiment: Pt.8.01252.078.QwF65.n.AC,PBMC,POST,Patient.id: 1252,Q,w,F,65,n,AC,4
+-,GSM334635,Before vs after surgery experiment: Pt.4.01240.077.QwF55.y.AC,PBMC,POST,Patient.id: 1240,Q,w,F,55,y,AC,3B
+-,GSM334636,Before vs after surgery experiment: Pt.3.01407.087.QwF87.n.LSCC,PBMC,POST,Patient.id: 1407,Q,w,F,87,n,LSCC,1A
+-,GSM334637,Before vs after surgery experiment: Pt.3.01394.062.QwF75.n.LSCC,PBMC,POST,Patient.id: 1394,Q,w,F,75,n,LSCC,1A
+-,GSM334638,Before vs after surgery experiment: Pt.3.01297.085.QwF69.y.LSCC,PBMC,POST,Patient.id: 1297,Q,w,F,69,y,LSCC,1A
+-,GSM334639,Before vs after surgery experiment: Pt.4.01220.084.QwM62.n.LSCC,PBMC,POST,Patient.id: 1220,Q,w,M,62,n,LSCC,1B
+-,GSM334640,Before vs after surgery experiment: Pt.8.01485.083.QwM68.n.AC,PBMC,POST,Patient.id: 1485,Q,w,M,68,n,AC,3A
+-,GSM334641,Before vs after surgery experiment: Pt.4.01391.061.QwM69.y.NSCLC,PBMC,POST,Patient.id: 1391,Q,w,M,69,y,NSCLC,1A
+-,GSM334642,Before vs after surgery experiment: Pt.3.01246.079.QwF47.n.AC,PBMC,POST,Patient.id: 1246,Q,w,F,47,n,AC,1B
+-,GSM334643,Before vs after surgery experiment: Pt.8.01433.082.QwM64.y.AC,PBMC,POST,Patient.id: 1433,Q,w,M,64,y,AC,1A
+-,GSM334644,Before vs after surgery experiment: Pt.3.01408.081.QbM63.n.AC,PBMC,POST,Patient.id: 1408,Q,b,M,63,n,AC,1B

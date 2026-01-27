@@ -1,0 +1,9 @@
+# TITLE: Rawdata of miRNAs microarray from 3 fresh lung cancer tissues and 3 fresh non-tumor lung tissues
+# SUMMARY: We performed miRNAs microarray to analyze the differential miRNAs expression profiles according to the recommended protocols.
+GPL18058_Group,GPL18058_Accession,GPL18058_Title,GPL18058_Source name,GPL18058_Tissue,GPL18058_Status after 5 years,GPL18058_Histology,GPL18058_Age,GPL18058_Sex,GPL18058_Stage
+-,GSM7158571,Tumor 1,primary lung cancer,primary lung cancer,Alive,NSCLC,55 years,Male,IIB
+-,GSM7158572,Tumor 2,primary lung cancer,primary lung cancer,Dead,NSCLC,70 years,Male,IIIA
+-,GSM7158573,Tumor 3,primary lung cancer,primary lung cancer,Alive,NSCLC,61 years,Female,IB
+-,GSM7158574,ANT 1,primary lung cancer,adjacent nontumor tissues,Alive,NSCLC,55 years,Male,IIB
+-,GSM7158575,ANT 2,primary lung cancer,adjacent nontumor tissues,Dead,NSCLC,70 years,Male,IIIA
+-,GSM7158576,ANT 3,primary lung cancer,adjacent nontumor tissues,Alive,NSCLC,61 years,Female,IB

@@ -1,0 +1,2 @@
+Title: IEF fractionation OVCAR-5 cell line
+Description: Analysis of the ovarian cancer cell line OVCAR-5. A standard trypsin digest was carried out on the OVCAR-5 cell lysates which were then analysed in the un-fractionated and fractionated forms. Fractionation was completed using a peptide IEF separation method. All samples were analysed by nano-LC-ESI-MS/MS using a QTOF.

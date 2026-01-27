@@ -1,0 +1,2 @@
+Title: Human CAP ovarian cancer plasma (Huettenhain et al.)
+Description: A selection of cancer-associated proteins was targeted in crude human plasma digest from ovarian cancer patients and patients with benigh ovarian tumors, including heavy isotope labeled internal standards. The data was analyzed using mProphet

@@ -1,0 +1,15 @@
+# TITLE: gene expression profiles in KRAS mutant A549 cells after BI-2536 and fasudil combination treatment
+# SUMMARY: To identify the potential mechanisms of enhanced activity of combined inhibition of PLK1 and ROCK, we conducted a microarray analysis on gene expression profiles in KRAS mutant A549 cells. We used Affymetrix GeneChip PrimeView Human Gene Expression array to detail gene expression after indicated treatments and identified the molecular mechanism during this process to facilitate further studies.
+GPL16043_Group,GPL16043_Accession,GPL16043_Title,GPL16043_Source name,GPL16043_Cell line,GPL16043_Treatment,GPL16043_Tissue,GPL16043_Cell type,GPL16043_Genotype,GPL16043_Disease
+-,GSM1492907,A549_control_rep1,"A549 NSCLC cells,no treatment (control)",A549,no treatment (control),Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492908,A549_control_rep2,"A549 NSCLC cells,no treatment (control)",A549,no treatment (control),Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492909,A549_control_rep3,"A549 NSCLC cells,no treatment (control)",A549,no treatment (control),Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492910,A549_BI4_6h_rep1,"A549 NSCLC cells,4nM BI-2536 treat for 6 h",A549,4nM BI-2536 treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492911,A549_BI4_6h_rep2,"A549 NSCLC cells,4nM BI-2536 treat for 6 h",A549,4nM BI-2536 treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492912,A549_BI4_6h_rep3,"A549 NSCLC cells,4nM BI-2536 treat for 6 h",A549,4nM BI-2536 treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492913,A549_f20_6h_rep1,"A549 NSCLC cells,20μM fasudil treat for 6 h",A549,20μM fasudil treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492914,A549_f20_6h_rep2,"A549 NSCLC cells,20μM fasudil treat for 6 h",A549,20μM fasudil treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492915,A549_f20_6h_rep3,"A549 NSCLC cells,20μM fasudil treat for 6 h",A549,20μM fasudil treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492916,A549_B+F_6h_rep1,"A549 NSCLC cells,4nM BI-2536 and 20μM fasudil combined treat for 6 h",A549,4nM BI-2536 and 20μM fasudil combined treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492917,A549_B+F_6h_rep2,"A549 NSCLC cells,4nM BI-2536 and 20μM fasudil combined treat for 6 h",A549,4nM BI-2536 and 20μM fasudil combined treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma
+-,GSM1492918,A549_B+F_6h_rep3,"A549 NSCLC cells,4nM BI-2536 and 20μM fasudil combined treat for 6 h",A549,4nM BI-2536 and 20μM fasudil combined treat for 6 h,Lung,epithelial cell,KRAS mutation,Carcinoma

@@ -1,0 +1,22 @@
+# TITLE: Transcriptomic study of bronchoalveolar lavage cells in the local environment of non-small cell lung cancer
+# SUMMARY: Background: Lung-resident immune cells around local environment of non-small cell lung cancers implicate the balance of pro- and anti-tumor immunity; however the transcriptomic profiles of these cells remain poorly understood. Methods: Transcriptomic microarray study of lung-resident immune cells, harvested by bronchoalveolar lavage, was performed in the discovery group and the findings were validated in published microarray datasets and in an independent group by RT-qPCR
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Gender,GPL570_Age,GPL570_Smoking history,GPL570_Technical batches
+-,GSM2785570,BAL_adenoCA_stage3a_rep1,BAL_adenoCA_stage3a,male,53,non-smoker,A
+-,GSM2785571,BAL_adenoCA_stage4_rep2,BAL_adenoCA_stage4,male,47,smoker,A
+-,GSM2785572,BAL_squamousCA_stage3b_rep3,BAL_squamousCA_stage3b,male,70,smoker,B
+-,GSM2785573,BAL_adenoCA_stage4_rep4,BAL_adenoCA_stage4,male,69,smoker,B
+-,GSM2785574,BAL_adenoCA_stage4_rep5,BAL_adenoCA_stage4,male,51,smoker,B
+-,GSM2785575,BAL_adenoCA_stage3b_rep6,BAL_adenoCA_stage3b,female,54,non-smoker,B
+-,GSM2785576,BAL_squamousCA_stage4_rep7,BAL_squamousCA_stage4,female,36,non-smoker,C
+-,GSM2785577,BAL_adenoCA_stage4_rep8,BAL_adenoCA_stage4,female,69,non-smoker,B
+-,GSM2785578,BAL_squamousCA_stage3b_rep9,BAL_squamousCA_stage3b,male,76,smoker,C
+-,GSM2785579,BAL_adenoCA_stage4_rep10,BAL_adenoCA_stage4,female,56,non-smoker,C
+-,GSM2785580,BAL_adenoCA_stage4_rep11,BAL_adenoCA_stage4,female,62,non-smoker,C
+-,GSM2785581,BAL_squamousCA_stage4_rep12,BAL_squamousCA_stage4,male,48,non-smoker,C
+-,GSM2785582,BAL_adenoCA_stage4_rep13,BAL_adenoCA_stage4,male,56,smoker,C
+-,GSM2785583,BAL_normal control_rep14,BAL_normal control,female,37,non-smoker,B
+-,GSM2785584,BAL_normal control_rep15,BAL_normal control,female,45,non-smoker,B
+-,GSM2785585,BAL_normal control_rep16,BAL_normal control,male,65,non-smoker,C
+-,GSM2785586,BAL_normal control_rep17,BAL_normal control,female,46,non-smoker,C
+-,GSM2785587,BAL_normal control_rep18,BAL_normal control,male,55,,A
+-,GSM2785588,BAL_normal control_rep19,BAL_normal control,female,65,,A

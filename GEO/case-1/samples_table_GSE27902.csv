@@ -1,0 +1,97 @@
+# TITLE: Non-small-cell lung tumor and normal lung tissue methylation
+# SUMMARY: Using paired tumor and non-tumor lung tissues from 47 individuals we identified common changes in DNA methylation associated with the development of non-small cell lung cancer. Pathologically normal lung tissue taken at the time of cancer resection was matched to tumorous lung tissue and together were probed for methylation status using Illumina GoldenGate arrays. For each matched pair the change in methylation at each CpG was calculated (the odds ratio), and these ratios were averaged across individuals and ranked by magnitude to identify the CpG’s with the greatest change in methylation associated with tumor development.
+GPL9183_Group,GPL9183_Accession,GPL9183_Title,GPL9183_Source name,GPL9183_Tissue,GPL9183_Pathogenicity,GPL9183_Gender,GPL9183_Disease state,GPL9183_Tissue type,GPL9183_Age
+-,GSM484148,lung_13,lung,lung,normal,male,,,
+-,GSM484150,lung_15,lung,lung,normal,female,,,
+-,GSM484151,lung_21,lung,lung,normal,female,,,
+-,GSM484152,lung_23,lung,lung,normal,female,,,
+-,GSM484153,lung_24,lung,lung,normal,male,,,
+-,GSM484159,lung_44,lung,lung,normal,male,,,
+-,GSM484160,lung_46,lung,lung,normal,female,,,
+-,GSM484161,lung_56,lung,lung,normal,male,,,
+-,GSM484162,lung_68,lung,lung,normal,female,,,
+-,GSM484163,lung_71,lung,lung,normal,male,,,
+-,GSM484164,lung_77,lung,lung,normal,male,,,
+-,GSM484165,lung_100,lung,lung,normal,male,,,
+-,GSM484166,lung_113,lung,lung,normal,male,,,
+-,GSM484167,lung_115,lung,lung,normal,female,,,
+-,GSM484168,lung_116,lung,lung,normal,female,,,
+-,GSM484169,lung_119,lung,lung,normal,female,,,
+-,GSM484170,lung_127,lung,lung,normal,female,,,
+-,GSM484172,lung_140,lung,lung,normal,male,,,
+-,GSM484173,lung_141,lung,lung,normal,male,,,
+-,GSM484174,lung_145,lung,lung,normal,female,,,
+-,GSM484175,lung_146,lung,lung,normal,female,,,
+-,GSM484176,lung_202,lung,lung,normal,male,,,
+-,GSM484177,lung_204,lung,lung,normal,male,,,
+-,GSM484178,lung_205,lung,lung,normal,male,,,
+-,GSM484179,lung_211,lung,lung,normal,male,,,
+-,GSM484180,lung_224,lung,lung,normal,male,,,
+-,GSM484181,lung_226,lung,lung,normal,male,,,
+-,GSM484182,lung_233,lung,lung,normal,male,,,
+-,GSM484183,lung_234,lung,lung,normal,male,,,
+-,GSM484184,lung_244,lung,lung,normal,female,,,
+-,GSM484185,lung_245,lung,lung,normal,female,,,
+-,GSM484186,lung_268,lung,lung,normal,female,,,
+-,GSM484187,lung_286,lung,lung,normal,male,,,
+-,GSM484188,lung_307,lung,lung,normal,male,,,
+-,GSM484189,lung_528,lung,lung,normal,female,,,
+-,GSM484190,lung_554,lung,lung,normal,female,,,
+-,GSM484191,lung_587,lung,lung,normal,male,,,
+-,GSM484192,lung_615,lung,lung,normal,female,,,
+-,GSM484193,lung_621,lung,lung,normal,male,,,
+-,GSM484194,lung_622,lung,lung,normal,male,,,
+-,GSM484196,lung_723,lung,lung,normal,female,,,
+-,GSM484197,lung_759,lung,lung,normal,male,,,
+-,GSM484198,lung_778,lung,lung,normal,female,,,
+-,GSM484199,lung_889,lung,lung,normal,male,,,
+-,GSM484200,lung_900,lung,lung,normal,male,,,
+-,GSM484202,lung_924,lung,lung,normal,female,,,
+-,GSM484203,lung_986,lung,lung,normal,female,,,
+-,GSM689005,13_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,60.1
+-,GSM689006,15_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,63.6
+-,GSM689007,21_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,58.0
+-,GSM689008,23_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,74.2
+-,GSM689009,24_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,71.0
+-,GSM689010,44_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,76.4
+-,GSM689011,46_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,77.9
+-,GSM689012,56_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,81.2
+-,GSM689013,68_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,66.8
+-,GSM689014,71_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,72.1
+-,GSM689015,77_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,78.9
+-,GSM689016,100_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,75.9
+-,GSM689017,113_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,69.6
+-,GSM689018,115_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,64.8
+-,GSM689019,116_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,70.0
+-,GSM689020,119_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,77.4
+-,GSM689021,127_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,72.7
+-,GSM689022,140_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,69.1
+-,GSM689023,141_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,71.5
+-,GSM689024,145_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,74.2
+-,GSM689025,146_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,59.4
+-,GSM689026,202_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,88.6
+-,GSM689027,204_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,78.3
+-,GSM689028,205_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,65.1
+-,GSM689029,211_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,47.5
+-,GSM689030,224_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,61.8
+-,GSM689031,226_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,46.8
+-,GSM689032,233_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,69.5
+-,GSM689033,234_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,81.1
+-,GSM689034,244_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,58.6
+-,GSM689035,245_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,67.3
+-,GSM689036,268_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,67.8
+-,GSM689037,286_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,72.7
+-,GSM689038,307_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,65.6
+-,GSM689039,528_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,70.7
+-,GSM689040,554_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,52.1
+-,GSM689041,587_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,74.4
+-,GSM689042,615_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,57.1
+-,GSM689043,621_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,77.6
+-,GSM689044,622_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,70.3
+-,GSM689045,723_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,71.1
+-,GSM689046,759_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,54.6
+-,GSM689047,778_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,68.9
+-,GSM689048,889_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,79.1
+-,GSM689049,900_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,62.0
+-,GSM689050,924_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,57.9
+-,GSM689051,986_Tumor,Tumor,,,,Non-small-cell lung tumor,lung,76.2

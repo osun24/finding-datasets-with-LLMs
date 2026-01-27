@@ -1,0 +1,23 @@
+# TITLE: Development of a novel splice array platform and its application in the identification of alternative splice variants
+# SUMMARY: Changes in alternative splicing are associated with several pathological conditions, including cancer. Microarrays strategies, which allow for the characterization of thousands of alternative splice forms in a single test, can be applied to identify differential alternative splicing events. In this study, a novel splice array platform was developed, including the design of a high-density oligonucleotide array, a labeling procedure, and an algorithm to identify splice events. The array consists of exon probes and thermodynamically balanced junction probes. Suboptimal probes are tagged and considered in the final analysis. An unbiased labeling protocol was developed using random primers. The algorithm used to distinguish changes in expression from changes in splicing was calibrated using internal non-spliced control sequences. The performance of this splice array was first validated with artificial constructs for CDC6, VEGF, and PCBP4 isoforms. The platform was then applied to the analysis of differential splice forms for 8000 genes in lung cancer samples compared to matched normal lung tissue. The expression of lung cancer-associated splice isoforms was validated by RT-PCR. Overexpression of splice isoforms was identified for genes encoding CEACAM1, FHL-1, MLPH, and SUSD2. None of these splicing isoforms had been previously associated with lung cancer. In conclusion, this highly accurate methodology enables the detection of alternative splicing events in complex biological samples, providing a powerful tool to identify novel diagnostic and prognostic biomarkers for cancer and other pathologies.
+GPL9137_Group,GPL9137_Accession,GPL9137_Title,GPL9137_Source name 1,GPL9137_Source name 2,GPL9137_Tissue (Ch1),GPL9137_Patient (Ch1),GPL9137_Tissue (Ch2),GPL9137_Patient (Ch2)
+-,GSM457800,0202 vs 0201,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457805,304 vs 303,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457806,1779 vs 1778,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457807,1785 vs 1754,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457808,1803 vs 1802,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457809,1815 vs 1814,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457810,1821 vs 1820,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457811,1833 vs 1832,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457814,1839 vs 1838,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457821,1845 vs 1844,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457843,1857 vs 1856,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457844,1869 vs 1868,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457875,1875 vs 1874,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457888,1887 vs 1886,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457903,1899 vs 1989,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM457904,1905 vs 1904,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM458015,1947 vs 1946,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM458031,1965 vs 1964,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM458032,1971 vs 1970,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC
+-,GSM458033,1977 vs 1976,Paired normal tissue,Paired tumor tissue,normal lung,diagnostic NSCLC,lung tumor,diagnostic NSCLC

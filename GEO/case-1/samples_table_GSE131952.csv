@@ -1,0 +1,7 @@
+# TITLE: Expression data from CHST11 over-expression in A-549 or NCI-H358 cells
+# SUMMARY: To examine the CHST11 controls transcriptome in NSCLC cells, we preformed the Affymetrix Human Genome U133 Plus 2.0 Array with empty vector or CHST11 expression vector in A-549 or NCI-H358 cells Then the transcriptome were compared with each other to see the CHST11-regulating gene in NSCLC cells
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Genotype
+-,GSM3832538,A549 cells expressing empty vector,ATCC,A549,A549 cells expresses empty vector
+-,GSM3832539,A549 cells expressing CHST11 vector,ATCC,A549,A549 cells expresses CHST11 vector
+-,GSM3832540,NCI-H358 cells expressing empty vector,ATCC,NCI-H358,NCI-H358 cells expresses empty vector
+-,GSM3832541,NCI-H358 cells expressing CHST11 vector,ATCC,NCI-H358,NCI-H358 cells expresses CHST11 vector

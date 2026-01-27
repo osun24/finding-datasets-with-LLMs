@@ -1,0 +1,21 @@
+# TITLE: Microarray study to understand acquired resistance to EGFR-targeted therapy in lung cancer
+# SUMMARY: Activating mutations of EGFR have been characterized as important mechanisms for carcinogenesis in a subset of EGFR-dependent non-small cell lung cancers (NSCLC). EGFR tyrosine kinase inhibitors (TKI), such as erlotinib and gefitinib, have dramatic clinical effects on EGFR-addicted lung cancers and are used as first-line therapy for EGFR-mutant tumors. However, eventually all tumors acquire secondary resistance to the drugs and progress. We established a model to better understand mechanisms of acquired resistance. NCI- HCC827 cells are EGFR-mutant and highly erlotinib-sensitive. In this study we exposed HCC827 cells to increasing concentrations of erlotinib and two highly erlotinib-resistant subclones were developed (ER3 and T15-2). In these subclones no acquired alterations of EGFR or MET were found. We hereby performed a gene expression microarray studies to understand changes that might explain mechanisms of resistance. Through these studies we demonstrated in one resistant clone (ER3) overexpression of AXL, a tyrosine kinase implicated in imatinib and lapatinib resistance.
+GPL6947_Group,GPL6947_Accession,GPL6947_Title,GPL6947_Source name,GPL6947_Cell line,GPL6947_Cell type,GPL6947_Treated with
+-,GSM938752,HCC827_DMSO_12h rep1,HCC827_DMSO_12h,parental HCC827,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938753,HCC827_DMSO_12h rep2,HCC827_DMSO_12h,parental HCC827,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938754,HCC827_DMSO_12h rep3,HCC827_DMSO_12h,parental HCC827,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938755,HCC827_erlotinib_12h rep1,HCC827_erlotinib_12h,parental HCC827,non-small cell lung cancers,1uM erlotinib for 12 hr
+-,GSM938756,HCC827_erlotinib_12h rep2,HCC827_erlotinib_12h,parental HCC827,non-small cell lung cancers,1uM erlotinib for 12 hr
+-,GSM938757,HCC827_erlotinib_12h rep3,HCC827_erlotinib_12h,parental HCC827,non-small cell lung cancers,1uM erlotinib for 12 hr
+-,GSM938758,ER3_DMSO_12h rep1,ER3_DMSO_12h,erlotinib-resistant HCC827-originated sublines ER3,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938759,ER3_DMSO_12h rep2,ER3_DMSO_12h,erlotinib-resistant HCC827-originated sublines ER3,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938760,ER3_DMSO_12h rep3,ER3_DMSO_12h,erlotinib-resistant HCC827-originated sublines ER3,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938761,ER3_erlotinib_12h rep1,ER3_erlotinib_12h,erlotinib-resistant HCC827-originated sublines ER3,non-small cell lung cancers,1uM erlotinib for 12 hr
+-,GSM938762,ER3_erlotinib_12h rep2,ER3_erlotinib_12h,erlotinib-resistant HCC827-originated sublines ER3,non-small cell lung cancers,1uM erlotinib for 12 hr
+-,GSM938763,ER3_erlotinib_12h rep3,ER3_erlotinib_12h,erlotinib-resistant HCC827-originated sublines ER3,non-small cell lung cancers,1uM erlotinib for 12 hr
+-,GSM938764,T15-2_DMSO_12h rep1,T15-2_DMSO_12h,erlotinib-resistant HCC827-originated sublines T15-2,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938765,T15-2_DMSO_12h rep2,T15-2_DMSO_12h,erlotinib-resistant HCC827-originated sublines T15-2,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938766,T15-2_DMSO_12h rep3,T15-2_DMSO_12h,erlotinib-resistant HCC827-originated sublines T15-2,non-small cell lung cancers,DMSO for 12 hr
+-,GSM938767,T15-2_erlotinib_12h rep1,T15-2_erlotinib_12h,erlotinib-resistant HCC827-originated sublines T15-2,non-small cell lung cancers,1uM erlotinib for 12 hr
+-,GSM938768,T15-2_erlotinib_12h rep2,T15-2_erlotinib_12h,erlotinib-resistant HCC827-originated sublines T15-2,non-small cell lung cancers,1uM erlotinib for 12 hr
+-,GSM938769,T15-2_erlotinib_12h rep3,T15-2_erlotinib_12h,erlotinib-resistant HCC827-originated sublines T15-2,non-small cell lung cancers,1uM erlotinib for 12 hr

@@ -1,0 +1,19 @@
+# TITLE: An epigenomic approach to identifying differential overlapping and cis-acting lncRNAs in cisplatin-resistant cancer cells
+# SUMMARY: Long noncoding RNAs are newly discovered regulators that play a critical role in cell biology, crucial to the correct functioning of the cell. Alterations in lncRNAs can lead to the development of diseases such as cancer. However, the role of lncRNAs in resistance to platinum chemotherapy is largely unknown. To screen for epigenetic changes involved in the development of resistance, we combined lncRNA and mRNA expression microarrays with whole genome bisulfite sequencing (WGBS) in four paired cisplatin-sensitive/resistant cells from non-small cell lung cancer and ovarian cancer. We found low levels of expression changes in lncRNAs (1.5%) and mRNAs (2%) when comparing resistant vs. sensitive cells. The correlation between lncRNA/mRNA arrays and WGBS identified two groups of lncRNAs, classified according to their relationship with the gene they have in silico complementarity or with their possible epigenetic regulation at the DNA methylation level. Validation of the results of expression and methylation levels allowed us to characterize lncRNAs in cisplatin-resistant phenotypes. In this study, we characterized lncRNAs that change in cisplatin-resistant cells due to epigenetic regulation at the DNA methylation level and the associated changes in expression levels. We have identified two groups of differentially expressed and methylated lncRNAs, indicating a new approach to the study of the mechanisms involved in the development of acquired resistance to cisplatin in cancer cells.
+GPL16956_Group,GPL16956_Accession,GPL16956_Title,GPL16956_Source name,GPL16956_Cell line,GPL16956_Tissue,GPL16956_Chemoterapy drug,GPL16956_Phenotype,GPL16956_Replicate
+-,GSM2891065,A2780-Resistant-Rep1,Resistant cisplatin A2780 ovarian cancer cell line,A2780,Ovarian,cisplatin,Resistant,1
+-,GSM2891066,A2780-Resistant-Rep2,Resistant cisplatin A2780 ovarian cancer cell line,A2780,Ovarian,cisplatin,Resistant,2
+-,GSM2891067,A2780-Sensitive-Rep1,Sensitive cisplatin A2780 ovarian cancer cell line,A2780,Ovarian,cisplatin,Sensitive,1
+-,GSM2891068,A2780-Sensitive-Rep2,Sensitive cisplatin A2780 ovarian cancer cell line,A2780,Ovarian,cisplatin,Sensitive,2
+-,GSM2891069,H23-Resistant-Rep1,Resistant cisplatin H23 lung cancer cell line,H23,Lung,cisplatin,Resistant,1
+-,GSM2891070,H23-Resistant-Rep2,Resistant cisplatin H23 lung cancer cell line,H23,Lung,cisplatin,Resistant,2
+-,GSM2891071,H23-Sensitive-Rep1,Sensitive cisplatin H23 lung cancer cell line,H23,Lung,cisplatin,Sensitive,1
+-,GSM2891072,H23-Sensitive-Rep2,Sensitive cisplatin H23 lung cancer cell line,H23,Lung,cisplatin,Sensitive,2
+-,GSM2891073,H460-Resistant-Rep1,Resistant cisplatin H460 lung cancer cell line,H460,Lung,cisplatin,Resistant,1
+-,GSM2891074,H460-Resistant-Rep2,Resistant cisplatin H460 lung cancer cell line,H460,Lung,cisplatin,Resistant,2
+-,GSM2891075,H460-Sensitive-Rep1,Sensitive cisplatin H460 lung cancer cell line,H460,Lung,cisplatin,Sensitive,1
+-,GSM2891076,H460-Sensitive-Rep2,Sensitive cisplatin H460 lung cancer cell line,H460,Lung,cisplatin,Sensitive,2
+-,GSM2891077,OVCAR3-Resistant-Rep1,Resistant cisplatin OVCAR3 ovarian cancer cell line,OVCAR3,Ovarian,cisplatin,Resistant,1
+-,GSM2891078,OVCAR3-Resistant-Rep2,Resistant cisplatin OVCAR3 ovarian cancer cell line,OVCAR3,Ovarian,cisplatin,Resistant,2
+-,GSM2891079,OVCAR3-Sensitive-Rep1,Sensitive cisplatin OVCAR3 ovarian cancer cell line,OVCAR3,Ovarian,cisplatin,Sensitive,1
+-,GSM2891080,OVCAR3-Sensitive-Rep2,Sensitive cisplatin OVCAR3 ovarian cancer cell line,OVCAR3,Ovarian,cisplatin,Sensitive,2

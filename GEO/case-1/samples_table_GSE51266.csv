@@ -1,0 +1,20 @@
+# TITLE: Gene expression changes induced by LKB1 expression in human lung adenocarcinoma cell lines
+# SUMMARY: LKB1 is a tumor suppressor lost in approximately 30% of lung adenocarcinomas. It is a serine-threonine kinase involved in regulating metabolism, proliferation, and cell polarity. We have characterized its association with mRNA expression profiles in resected tumors and in cell lines, but little is known about the direct effects of LKB1 on the regulation of these genes. This study investigates the effects of LKB1 activity on mRNA expression in two LKB1-mutant lung adenocarcinoma cell lines, H2122 and A549. Wild-type LKB1 has been stably expressed in these cell lines using a pBABE retrovirus as well as an empty pBABE control and a kinase-dead mutant of LKB1 (K78I) control (Addgene). Samples submitted are two cell lines, three experimental conditions, and three replicates, for a total of 17 samples (one sample was excluded for poor RNA quality). Gene expression of these samples are analyzed to determine transcriptional regulatory effects of LKB1 expression. Results of this analysis are compared to our analysis of resected human tumors to determine gene patterns that are differentially expressed between LKB1-deficient and LKB1-wild-type tumors whose expression is also affected by restoration of LKB1 in vitro.
+GPL11532_Group,GPL11532_Accession,GPL11532_Title,GPL11532_Source name,GPL11532_Disease state,GPL11532_Cell line,GPL11532_Gene transduction
+-,GSM1241444,A549-pBABE_rep1,Lung cancer cell line A549 with empty vector pBABE,Non-small cell lung cancer,A549,pBABE empty vector
+-,GSM1241445,A549-LKB1_rep1,Lung cancer cell line A549 with wild-type LKB1,Non-small cell lung cancer,A549,pBABE LKB1 wild-type
+-,GSM1241446,A549-LKB1KD_rep1,Lung cancer cell line A549 with LKB1 K78I,Non-small cell lung cancer,A549,pBABE LKB1 K78I
+-,GSM1241447,A549-pBABE_rep2,Lung cancer cell line A549 with empty vector pBABE,Non-small cell lung cancer,A549,pBABE empty vector
+-,GSM1241448,A549-LKB1_rep2,Lung cancer cell line A549 with wild-type LKB1,Non-small cell lung cancer,A549,pBABE LKB1 wild-type
+-,GSM1241449,A549-LKB1KD_rep2,Lung cancer cell line A549 with LKB1 K78I,Non-small cell lung cancer,A549,pBABE LKB1 K78I
+-,GSM1241450,A549-pBABE_rep3,Lung cancer cell line A549 with empty vector pBABE,Non-small cell lung cancer,A549,pBABE empty vector
+-,GSM1241451,A549-LKB1_rep3,Lung cancer cell line A549 with wild-type LKB1,Non-small cell lung cancer,A549,pBABE LKB1 wild-type
+-,GSM1241452,A549-LKB1KD_rep3,Lung cancer cell line A549 with LKB1 K78I,Non-small cell lung cancer,A549,pBABE LKB1 K78I
+-,GSM1241453,H2122-pBABE_rep1,Lung cancer cell line H2122 with empty vector pBABE,Non-small cell lung cancer,H2122,pBABE empty vector
+-,GSM1241454,H2122-LKB1_rep1,Lung cancer cell line H2122 with wild-type LKB1,Non-small cell lung cancer,H2122,pBABE LKB1 wild-type
+-,GSM1241455,H2122-LKB1KD_rep1,Lung cancer cell line H2122 with LKB1 K78I,Non-small cell lung cancer,H2122,pBABE LKB1 K78I
+-,GSM1241456,H2122-pBABE_rep2,Lung cancer cell line H2122 with wild-type LKB1,Non-small cell lung cancer,H2122,pBABE empty vector
+-,GSM1241457,H2122-LKB1_rep2,Lung cancer cell line H2122 with wild-type LKB1,Non-small cell lung cancer,H2122,pBABE LKB1 wild-type
+-,GSM1241458,H2122-LKB1KD_rep2,Lung cancer cell line H2122 with LKB1 K78I,Non-small cell lung cancer,H2122,pBABE LKB1 K78I
+-,GSM1241459,H2122-LKB1_rep3,Lung cancer cell line H2122 with LKB1 K78I,Non-small cell lung cancer,H2122,pBABE LKB1 wild-type
+-,GSM1241460,H2122-LKB1KD_rep3,Lung cancer cell line H2122 with empty vector pBABE,Non-small cell lung cancer,H2122,pBABE LKB1 K78I

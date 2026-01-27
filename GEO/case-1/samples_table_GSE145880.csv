@@ -1,0 +1,5 @@
+# TITLE: Expression data from Human non-small cell lung cancer
+# SUMMARY: Chemoresistance induced by upregulated ZNF300 in A549/DDP, which was established with a low dosage of cisplatin treatment previously, was in clinical need of resolving. Because ZNF300 was selected as a regulator in associated with drug resisance, we sought to find its modulating role in tumorogenesis or drug resistance.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Transfection,GPL570_Cell line
+-,GSM4338366,A549-LV5,Non-small cell lung caner cells cultured in vitro,control vector,A549
+-,GSM4338367,A549-ZNF300,Non-small cell lung caner cells cultured in vitro,overexpressing ZNF300,A549

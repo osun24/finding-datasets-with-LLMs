@@ -1,0 +1,2 @@
+Title: Results of proteomic assay analysis in patients with polycystic ovary syndrome
+Description: This study investigated protein markers that are differentially expressed in the serum of PCOS patients and the normal population. Subproject IPX0006643002 is composed of High-abundance protein removal (the solution system was  10 mM PBS, 0.15 M NaCl, 0.02% azide, pH 7.4), LysC/trypsin digestion, Desalting.

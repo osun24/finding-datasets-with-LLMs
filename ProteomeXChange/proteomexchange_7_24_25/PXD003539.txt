@@ -1,0 +1,2 @@
+Title: NCI60 proteome by PCT-SWATH -  Quantitative Proteome Landscape of the NCI-60 Cancer Cell Lines
+Description: We obtained quantitative analysis of the NCI-60 cell panels using pressure cycling technology (PCT) and SWATH-MS. Each cell was analyzed in duplicate. The data were analyzed using a cell line SWATH assay library and OpenSWATH, followed by SWATH-expert refinement.

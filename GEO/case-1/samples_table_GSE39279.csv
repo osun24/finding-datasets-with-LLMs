@@ -1,0 +1,447 @@
+# TITLE: The CURELUNG Project from the Epigenetics Side (Patients dataset)
+# SUMMARY: Non-small cell lung cancer (NSCLC) is a very common solid tumor where only small advances in the reduction of relapse-free survival and overall survival have been accomplished. The issue is particularly critical for stage I patients where there are not available biomarkers, in the absence of detectable nodal or other metastatic involvement, that might indicate which high-risk patients should receive the beneficially proved adjuvant chemotherapy. We aimed to find DNA methylation markers with prognostic value that could be helpful in this regard and complement the conventional staging. A DNA methylation microarray that analyzes 450,000 CpG sites in the human genome was used to study primary tumoral DNA obtained from a multicenter cohort of 490 patients with NSCLC, corresponding to 339 adenocarcinomas, 133 squamous carcinomas and 18 large cell carcinomas, in addition to 25 normal lung epithelium samples. The obtained prognostic DNA methylation markers were validated by the development of a single methylation-pyrosequencing assay in an independent cohort of 143 patients with stage I NSCLC. The unsupervised clustering of the studied primary NSCLC distinguished two branches with distinct clinical outcomes. Those CpG sites that were the best predictors of recurrence in stage I NSCLC patients were further confirmed in the described independent cohort. Both the global DNA methylation classifier and the highly-ranked aberrantly methylated single genes improved prognostic accuracy beyond standard stagings.
+GPL13534_Group,GPL13534_Accession,GPL13534_Title,GPL13534_Source name,GPL13534_Tissue,GPL13534_Disease state,GPL13534_Nsclc type,GPL13534_Heatmap,GPL13534_Curep code,GPL13534_Stage,GPL13534_Smoker,GPL13534_Age,GPL13534_Gender,GPL13534_Tnm,GPL13534_Adjuvant chemotherapy,GPL13534_Recurrence,GPL13534_Characteristics,GPL13534_6th tnm stage,GPL13534_7th tnm stage
+-,GSM959306,Tumor 1,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-104,III,no,57,female,T2N2M0,-,,,,
+-,GSM959307,Tumor 2,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-106,I,yes,76,male,T1N0M0,no,no,time_rec (years): 3.79tumor size (cm): 2.0,IA,IA
+-,GSM959308,Tumor 15,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-108,I,yes,60,male,T1N0M0,no,no,time_rec (years): 3.87tumor size (cm): 1.7,IA,IA
+-,GSM959309,Tumor 3,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-110,II,yes,50,male,T1N1M0,-,,,,
+-,GSM959310,Tumor 14,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-111,II,no,70,female,T2N1M0,-,,,,
+-,GSM959312,Tumor 5,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-114,I,yes,71,male,T2N0M0,no,no,time_rec (years): 0.11tumor size (cm): 9.0,IB,IIB
+-,GSM959313,Tumor 6,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-117,II,NA,61,male,T2N1M0,-,,,,
+-,GSM959314,Tumor 7,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-118,I,yes,75,female,T2N0M0,no,yes,time_rec (years): 3.52tumor size (cm): 3.5,IB,IB
+-,GSM959315,Tumor 8,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-122,II,yes,54,male,T3N0M0,-,,,,
+-,GSM959316,Tumor 16,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-123,III,yes,41,female,unknown,-,,,,
+-,GSM959317,Tumor 9,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-124,II,yes,53,male,T3N0M0,-,,,,
+-,GSM959318,Tumor 10,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-127,I,yes,49,male,T1N0M0,no,no,time_rec (years): 3.42tumor size (cm): 2.3,IA,IA
+-,GSM959320,Tumor 12,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-130,II,yes,57,male,unknown,-,,,,
+-,GSM959321,Tumor 13,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-132,III,yes,39,male,T1N2M0,-,,,,
+-,GSM959322,Tumor 187,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-262,I,yes,68,male,T2N0M0,-,,,,
+-,GSM959323,Tumor 188,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-271,I,NA,71,male,T1N0M0,-,,,,
+-,GSM959324,Tumor 186,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-259,I,no,66,male,T2N0M0,-,,,,
+-,GSM959325,Tumor 189,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-278,II,NA,61,male,T2N1M0,-,,,,
+-,GSM959326,Tumor 190,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-280,I,NA,73,male,T2N0M0,-,,,,
+-,GSM959327,Tumor 43,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-289,I,no,59,female,T2N0M0,-,,,,
+-,GSM959328,Tumor 50,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-297,I,yes,62,female,T1N0M0,no,yes,time_rec (years): 2.17tumor size (cm): 1.1,IA,IA
+-,GSM959329,Tumor 52,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-299,I,yes,66,female,T2N0M0,-,,,,
+-,GSM959330,Tumor 54,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-301,I,yes,68,female,T2N0M0,no,yes,time_rec (years): 1.46tumor size (cm): 7.5,IB,IIB
+-,GSM959331,Tumor 48,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-295,II,yes,70,male,T3N0M0,-,,,,
+-,GSM959332,Tumor 49,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-296,I,yes,57,female,T1N0M0,no,yes,time_rec (years): 4.56tumor size (cm): 3.0,IA,IA
+-,GSM959333,Tumor 46,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-292,III,yes,55,male,T4N0M0,-,,,,
+-,GSM959334,Tumor 53,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-300,I,no,61,female,T2N0M0,no,yes,time_rec (years): 0.78tumor size (cm): 5.0,IB,IB
+-,GSM959335,Tumor 44,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-290,I,yes,65,female,T1N0M0,-,,,,
+-,GSM959336,Tumor 47,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-293,I,yes,63,female,T1N0M0,no,yes,time_rec (years): 0.27tumor size (cm): 2.0,IA,IA
+-,GSM959337,Tumor 45,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-291,I,yes,58,female,T1N0M0,-,,,,
+-,GSM959338,Tumor 42,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-288,I,no,88,female,T1N0M0,-,,,,
+-,GSM959339,Tumor 51,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-298,I,yes,60,male,T1N0M0,no,no,time_rec (years): 2.3tumor size (cm): 2.5,IA,IA
+-,GSM959340,Tumor 39,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-284,I,no,90,female,T1N0M0,-,,,,
+-,GSM959341,Tumor 40,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-285,I,yes,74,female,T1N0M0,-,,,,
+-,GSM959342,Tumor 41,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-286,I,yes,74,female,T2N0M0,-,,,,
+-,GSM959343,Tumor 38,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-283,I,yes,81,female,T1N0M0,-,,,,
+-,GSM959344,Tumor 55,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-302,I,yes,48,female,T2N0M0,no,yes,time_rec (years): 0.09tumor size (cm): 4.9,IB,IB
+-,GSM959345,Tumor 77,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-333,I,yes,73,female,T2N0M0,no,yes,time_rec (years): 9.63tumor size (cm): 4.0,IB,IB
+-,GSM959346,Tumor 67,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-321,I,yes,69,male,T1N0M0,no,no,time_rec (years): 12.72tumor size (cm): 3.0,IA,IA
+-,GSM959347,Tumor 72,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-327,I,yes,56,male,T1N0M0,no,yes,time_rec (years): 2.52tumor size (cm): 2.0,IA,IA
+-,GSM959348,Tumor 73,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-328,I,yes,69,female,T1N0M0,no,no,time_rec (years): 4.34tumor size (cm): 2.0,IA,IA
+-,GSM959349,Tumor 62,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-315,III,yes,79,male,T2N2M0,-,,,,
+-,GSM959350,Tumor 64,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-318,I,yes,81,male,T2N0M0,no,no,time_rec (years): 5.17tumor size (cm): 4.0,IB,IB
+-,GSM959351,Tumor 61,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-314,I,yes,59,male,T1N0M0,no,no,time_rec (years): 4.91tumor size (cm): 2.0,IA,IA
+-,GSM959352,Tumor 60,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-308,III,yes,72,female,T2N2M0,-,,,,
+-,GSM959353,Tumor 63,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-317,III,yes,78,female,T1N2M0,-,,,,
+-,GSM959354,Tumor 76,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-332,I,yes,65,male,T2N0M0,no,yes,time_rec (years): 8.55tumor size (cm): 3.5,IB,IB
+-,GSM959355,Tumor 65,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-319,I,yes,66,male,T2N0M0,no,yes,time_rec (years): 4.63tumor size (cm): 4.0,IB,IB
+-,GSM959356,Tumor 66,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-320,I,yes,70,male,T1N0M0,no,no,time_rec (years): 8.06tumor size (cm): 2.9,IA,IA
+-,GSM959357,Tumor 78,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-334,III,no,52,female,T3N2M0,-,,,,
+-,GSM959358,Tumor 70,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-324,I,yes,63,female,T2N0M0,-,,,,
+-,GSM959359,Tumor 58,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-305,I,yes,85,female,T1N0M0,-,,,,
+-,GSM959360,Tumor 69,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-323,I,NA,59,male,T2N0M0,no,no,time_rec (years): 3.81tumor size (cm): 3.5,IB,IB
+-,GSM959361,Tumor 71,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-326,I,yes,42,male,T1N0M0,-,,,,
+-,GSM959362,Tumor 59,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-307,III,yes,64,female,T3N1M0,no,yes,time_rec (years): 1.39,,
+-,GSM959363,Tumor 74,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-330,III,yes,62,male,T2N2M0,-,,,,
+-,GSM959364,Tumor 68,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-322,I,yes,73,male,T2N0M0,no,no,time_rec (years): 1.55tumor size (cm): 6.0,IB,IIA
+-,GSM959365,Tumor 56,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-303,I,yes,75,female,T1N0M0,no,yes,time_rec (years): 3.66tumor size (cm): 2.0,IA,IA
+-,GSM959366,Tumor 57,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-304,I,yes,60,female,T2N0M0,no,no,time_rec (years): 15.04tumor size (cm): 6.0,IB,IIA
+-,GSM959367,Tumor 75,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-331,I,yes,62,female,T1N0M0,no,no,time_rec (years): 13.09tumor size (cm): 3.0,IA,IA
+-,GSM959368,Tumor 124,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-403,I,yes,73,male,T2N0M0,no,no,time_rec (years): 0.95tumor size (cm): 3.5,IB,IB
+-,GSM959369,Tumor 32,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-369,II,yes,60,female,T1N1M0,no,yes,time_rec (years): 4.4,,
+-,GSM959370,Tumor 120,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-397,III,yes,77,female,T4N0M0,-,,,,
+-,GSM959371,Tumor 105,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-366,I,no,57,female,T1N0M0,no,no,time_rec (years): 6.54tumor size (cm): 3.0,IA,IA
+-,GSM959373,Tumor 99,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-358,I,yes,63,female,T2N0M0,no,no,time_rec (years): 5.36tumor size (cm): 3.0,IB,IB
+-,GSM959374,Tumor 148,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-444,III,yes,63,female,T2N2M0,-,,,,
+-,GSM959375,Tumor 31,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-362,II,yes,58,male,T2N1M0,no,yes,time_rec (years): 1.12,,
+-,GSM959376,Tumor 87,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-344,I,no,48,female,T1N0M0,no,no,time_rec (years): 15.65tumor size (cm): 3.0,IA,IA
+-,GSM959377,Tumor 114,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-388,I,yes,72,male,T1N0M0,no,no,time_rec (years): 8.19,IA,IA
+-,GSM959378,Tumor 108,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-375,II,yes,67,male,T1N1M0,-,,,,
+-,GSM959379,Tumor 119,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-396,III,yes,72,male,T2N2M0,-,,,,
+-,GSM959380,Tumor 98,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-356,I,yes,51,male,T2N0M0,no,no,time_rec (years): 10.49tumor size (cm): 4.0,IB,IB
+-,GSM959381,Tumor 157,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-464,III,yes,57,male,T2N2M0,-,,,,
+-,GSM959382,Tumor 147,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-443,III,yes,58,male,T1N2M0,-,,,,
+-,GSM959383,Tumor 96,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-354,III,yes,56,male,T2N2M0,-,,,,
+-,GSM959384,Tumor 145,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-440,III,yes,63,male,T2N2M0,-,,,,
+-,GSM959385,Tumor 79,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-335,I,yes,72,male,T1N0M0,no,no,time_rec (years): 1.58tumor size (cm): 2.0,IA,IA
+-,GSM959386,Tumor 136,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-430,I,no,71,female,T2N0M0,no,no,time_rec (years): 9.45tumor size (cm): 5.4,IB,IIA
+-,GSM959387,Tumor 144,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-438,I,yes,74,male,T1N0M0,no,no,time_rec (years): 6.1tumor size (cm): 2.5,IA,IA
+-,GSM959388,Tumor 93,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-350,I,yes,62,female,T1N0M0,no,yes,time_rec (years): 4.22tumor size (cm): 4.0,IA,IB
+-,GSM959389,Tumor 135,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-429,I,yes,57,female,T1N0M0,no,yes,time_rec (years): 0.6tumor size (cm): 3.0,IA,IA
+-,GSM959390,Tumor 152,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-452,I,no,75,female,T1N0M0,no,no,time_rec (years): 9.49tumor size (cm): 2.3,IA,IA
+-,GSM959391,Tumor 122,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-401,I,yes,59,female,T2N0M0,-,,,,
+-,GSM959392,Tumor 127,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-410,I,yes,73,female,T1N0M0,no,no,time_rec (years): 5.25tumor size (cm): 2.6,IA,IA
+-,GSM959393,Tumor 86,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-343,I,yes,59,female,T1N0M0,no,no,time_rec (years): 13.3tumor size (cm): 3.0,IA,IA
+-,GSM959394,Tumor 115,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-389,I,no,81,female,T1N0M0,no,yes,time_rec (years): 0.66tumor size (cm): 2.0,IA,IA
+-,GSM959395,Tumor 130,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-416,I,yes,85,male,T1N0M0,no,no,time_rec (years): 3.68tumor size (cm): 1.8,IA,IA
+-,GSM959396,Tumor 146,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-441,I,yes,64,male,T1N0M0,no,no,time_rec (years): 5.76tumor size (cm): 2.3,IA,IA
+-,GSM959397,Tumor 89,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-346,I,yes,40,female,T1N0M0,no,no,time_rec (years): 8.83tumor size (cm): 3.0,IA,IA
+-,GSM959398,Tumor 100,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-359,I,yes,85,female,T1N0M0,no,no,time_rec (years): 1.74tumor size (cm): 1.0,IA,IA
+-,GSM959399,Tumor 155,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-458,I,yes,71,male,T1N0M0,no,no,time_rec (years): 4.2tumor size (cm): 1.6,IA,IA
+-,GSM959400,Tumor 84,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-341,I,yes,54,female,T1N0M0,no,yes,time_rec (years): 8.14tumor size (cm): 1.1,IA,IA
+-,GSM959401,Tumor 150,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-447,I,yes,52,female,T1N0M0,no,no,time_rec (years): 2.11tumor size (cm): 2.8,IA,IA
+-,GSM959402,Tumor 125,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-407,I,yes,83,female,T2N0M0,-,,,,
+-,GSM959403,Tumor 140,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-434,III,yes,75,male,T2N2M0,-,,,,
+-,GSM959404,Tumor 83,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-340,I,no,63,male,T2N0M0,-,,,,
+-,GSM959405,Tumor 123,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-402,III,yes,76,male,T2N2M0,-,,,,
+-,GSM959406,Tumor 153,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-453,II,yes,66,male,T1N1M0,-,,,,
+-,GSM959407,Tumor 129,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-415,III,yes,63,female,T1N2M0,-,,,,
+-,GSM959408,Tumor 34,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-373,II,yes,68,male,T2N1M0,no,yes,time_rec (years): 0.1,,
+-,GSM959409,Tumor 104,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-365,II,no,81,female,T2N1M0,no,no,time_rec (years): 2.74,,
+-,GSM959410,Tumor 142,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-436,I,yes,73,female,T1N0M0,no,no,time_rec (years): 4.95tumor size (cm): 2.5,IA,IA
+-,GSM959411,Tumor 92,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-349,I,yes,67,male,T1N0M0,-,,,,
+-,GSM959412,Tumor 154,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-454,IV,yes,57,female,T1N0M1,-,,,,
+-,GSM959413,Tumor 102,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-363,I,yes,81,male,T1N0M0,no,no,time_rec (years): 7.96tumor size (cm): 2.5,IA,IA
+-,GSM959414,Tumor 33,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-371,I,yes,62,female,T1N0M0,no,yes,time_rec (years): 0.83tumor size (cm): 2.5,IA,IA
+-,GSM959415,Tumor 117,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-394,I,yes,72,male,T2N0M0,no,no,time_rec (years): 5.21tumor size (cm): 6.9,IB,IIA
+-,GSM959416,Tumor 103,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-364,II,yes,52,female,T2N1M0,no,yes,time_rec (years): 1.16,,
+-,GSM959417,Tumor 36,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-392,III,yes,59,male,T3N2M0,-,,,,
+-,GSM959418,Tumor 91,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-348,III,yes,69,male,T1N2M0,-,,,,
+-,GSM959419,Tumor 101,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-360,II,yes,60,female,T1N1M0,no,yes,time_rec (years): 1.78,,
+-,GSM959420,Tumor 113,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-385,II,no,43,female,T2N1M0,no,yes,time_rec (years): 1.09,,
+-,GSM959421,Tumor 133,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-426,I,yes,71,male,T1N0M0,-,,,,
+-,GSM959422,Tumor 88,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-345,I,yes,44,female,T1N0M0,no,no,time_rec (years): 6.36tumor size (cm): 2.0,IA,IA
+-,GSM959423,Tumor 109,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-379,II,yes,65,female,T1N1M0,-,,,,
+-,GSM959424,Tumor 149,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-445,I,no,69,female,T1N0M0,no,no,time_rec (years): 7.67tumor size (cm): 2.4,IA,IA
+-,GSM959425,Tumor 137,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-431,I,yes,81,male,T2N0M0,no,no,time_rec (years): 5.66tumor size (cm): 2.5,IB,IB
+-,GSM959426,Tumor 107,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-374,I,yes,73,male,T1N0M0,no,no,time_rec (years): 7.02tumor size (cm): 1.1,IA,IA
+-,GSM959427,Tumor 156,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-459,I,yes,67,male,T2N0M0,no,no,time_rec (years): 6.15tumor size (cm): 3.1,IB,IB
+-,GSM959428,Tumor 80,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-336,I,yes,65,male,T1N0M0,no,yes,time_rec (years): 6.53tumor size (cm): 3.0,IA,IA
+-,GSM959429,Tumor 118,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-395,IV,yes,84,female,T3N0M1,no,no,time_rec (years): 3.51,,
+-,GSM959430,Tumor 81,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-337,I,yes,65,female,T1N0M0,no,no,time_rec (years): 13.79tumor size (cm): 2.5,IA,IA
+-,GSM959431,Tumor 151,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-449,III,yes,55,male,T2N2M0,-,,,,
+-,GSM959432,Tumor 139,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-433,I,yes,53,female,T1N0M0,no,no,time_rec (years): 4.05tumor size (cm): 1.5,IA,IA
+-,GSM959433,Tumor 128,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-411,I,yes,73,male,T1N0M0,no,no,time_rec (years): 5.69tumor size (cm): 2.0,IA,IA
+-,GSM959434,Tumor 111,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-381,I,yes,70,male,T1N0M0,no,no,time_rec (years): 1.82tumor size (cm): 3.0,IA,IA
+-,GSM959435,Tumor 106,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-367,I,no,76,female,T1N0M0,-,,,,
+-,GSM959436,Tumor 85,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-342,I,NA,57,female,T1N0M0,no,no,time_rec (years): 10.9tumor size (cm): 2.5,IA,IA
+-,GSM959437,Tumor 112,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-382,I,yes,78,male,T1N0M0,no,no,time_rec (years): 4.76tumor size (cm): 2.0,IA,IA
+-,GSM959438,Tumor 90,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-347,III,yes,64,male,T2N2M0,-,,,,
+-,GSM959439,Tumor 82,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-339,I,yes,62,female,T1N0M0,no,no,time_rec (years): 13.55tumor size (cm): 2.5,IA,IA
+-,GSM959440,Tumor 95,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-353,III,yes,77,male,T1N2M0,-,,,,
+-,GSM959441,Tumor 126,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-408,I,yes,80,female,T1N0M0,-,,,,
+-,GSM959442,Tumor 121,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-399,I,yes,69,male,T1N0M0,-,,,,
+-,GSM959443,Tumor 138,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-432,I,yes,78,male,T1N0M0,no,no,time_rec (years): 3.02tumor size (cm): 1.5,IA,IA
+-,GSM959444,Tumor 94,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-352,I,yes,46,male,T1N0M0,no,no,time_rec (years): 18.64tumor size (cm): 2.0,IA,IA
+-,GSM959445,Tumor 97,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-355,I,yes,53,female,T1N0M0,no,no,time_rec (years): 13.02tumor size (cm): 2.9,IA,IA
+-,GSM959446,Tumor 131,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-422,I,yes,69,male,T2N0M0,no,no,time_rec (years): 2.2tumor size (cm): 1.9,IB,IB
+-,GSM959447,Tumor 143,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-437,III,yes,80,female,T4N2M0,no,yes,time_rec (years): 0.09,,
+-,GSM959448,Tumor 35,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-377,II,yes,71,male,T3N0M0,no,yes,time_rec (years): 1.18,,
+-,GSM959449,Tumor 132,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-423,I,yes,85,male,T2N0M0,no,yes,time_rec (years): 1.95tumor size (cm): 6.0,IB,IIA
+-,GSM959450,Tumor 158,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-466,IV,no,45,male,T1N2M1,-,,,,
+-,GSM959451,Tumor 141,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-435,I,yes,79,female,T1N0M0,no,no,time_rec (years): 9.09tumor size (cm): 2.5,IA,IA
+-,GSM959452,Tumor 37,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-455,I,yes,64,male,T2N0M0,no,no,time_rec (years): 0.05tumor size (cm): 6.5,IB,IIA
+-,GSM959453,Tumor 134,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-428,II,yes,62,female,T2N1M0,no,yes,time_rec (years): 2.74,,
+-,GSM959454,Tumor 110,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-380,I,yes,63,male,T2N0M0,no,no,time_rec (years): 8.1tumor size (cm): 3.2,IB,IB
+-,GSM959455,Tumor 289,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-608,III,yes,49,female,T4N0M0,no,no,time_rec (years): 5.17,,
+-,GSM959456,Tumor 165,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-473,IV,yes,56,male,T4N0M1,-,,,,
+-,GSM959457,Tumor 177,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-493,II,yes,62,female,T2N1M0,-,,,,
+-,GSM959458,Tumor 300,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-622,I,yes,60,female,T2N0M0,-,,,,
+-,GSM959459,Tumor 290,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-610,I,yes,63,male,unknown,-,,,,
+-,GSM959460,Tumor 161,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-469,III,yes,72,female,T4N0M0,no,yes,time_rec (years): 4.15,,
+-,GSM959461,Tumor 163,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-471,II,yes,55,female,T1N1M0,no,yes,time_rec (years): 0.99,,
+-,GSM959462,Tumor 174,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-485,I,yes,69,female,T1N0M0,-,,,,
+-,GSM959463,Tumor 288,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-607,I,yes,59,male,T2N0M0,-,,,,
+-,GSM959464,Tumor 160,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-468,II,yes,64,male,T2N1M0,-,,,,
+-,GSM959465,Tumor 180,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-499,I,yes,59,female,T2N0M0,no,no,time_rec (years): 5.24tumor size (cm): 4.0,IB,IB
+-,GSM959466,Tumor 169,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-479,I,yes,67,female,T1N0M0,no,no,time_rec (years): 7.82tumor size (cm): 1.7,IA,IA
+-,GSM959467,Tumor 270,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-583,III,yes,76,female,T4N2M0,-,,,,
+-,GSM959468,Tumor 182,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-502,I,no,70,female,T2N0M0,no,no,time_rec (years): 3.57tumor size (cm): 6.0,IB,IIA
+-,GSM959469,Tumor 299,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-621,II,yes,51,female,T3N0M0,-,,,,
+-,GSM959470,Tumor 29,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-560,I,yes,61,male,T1N0M0,no,yes,time_rec (years): 1.24tumor size (cm): 2.0,IA,IA
+-,GSM959471,Tumor 319,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-645,I,yes,83,male,T2N0M0,-,,,,
+-,GSM959472,Tumor 164,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-472,II,yes,56,male,T3N0M0,no,yes,time_rec (years): 0.35,,
+-,GSM959473,Tumor 185,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-528,I,yes,79,female,T2N0M0,no,no,time_rec (years): 6.9tumor size (cm): 3.5,IB,IB
+-,GSM959474,Tumor 279,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-597,I,yes,67,female,T1N0M0,-,,,,
+-,GSM959475,Tumor 26,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-553,II,yes,53,male,T3N0M0,-,,,,
+-,GSM959476,Tumor 265,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-572,I,yes,73,female,T2N0M0,-,,,,
+-,GSM959477,Tumor 320,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-646,I,yes,82,female,T2N0M0,no,yes,time_rec (years): 3.25tumor size (cm): 3.5,IB,IB
+-,GSM959478,Tumor 310,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-632,I,yes,53,male,T2N0M0,no,yes,time_rec (years): 10.58tumor size (cm): 4,IB,IB
+-,GSM959479,Tumor 159,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-467,IV,yes,48,female,T1N0M1,-,,,,
+-,GSM959480,Tumor 166,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-474,III,yes,59,female,T1N2M0,-,,,,
+-,GSM959481,Tumor 28,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-558,II,NA,85,male,T2N1M0,no,no,time_rec (years): 2.21,,
+-,GSM959482,Tumor 184,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-527,I,yes,72,male,T2N0M0,no,no,time_rec (years): 5.89tumor size (cm): 4.5,IB,IB
+-,GSM959483,Tumor 175,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-486,II,no,66,female,T2N1M0,-,,,,
+-,GSM959484,Tumor 311,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-634,I,yes,50,female,T1N0M0,-,,,,
+-,GSM959485,Tumor 298,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-620,I,yes,68,female,T2N0M0,-,,,,
+-,GSM959486,Tumor 25,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-524,I,yes,62,male,T1N0M0,-,,,,
+-,GSM959487,Tumor 266,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-575,IV,yes,77,female,T1M1,-,,,,
+-,GSM959488,Tumor 20,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-544,II,yes,68,female,T1N1M0,no,yes,time_rec (years): 1.49,,
+-,GSM959489,Tumor 176,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-487,I,yes,74,male,T1N0M0,-,,,,
+-,GSM959490,Tumor 271,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-584,I,no,57,female,T1N0M0,no,no,time_rec (years): 11.17tumor size (cm): 2,IA,IA
+-,GSM959491,Tumor 22,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-551,III,yes,54,female,T2N2M0,-,,,,
+-,GSM959492,Tumor 23,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-520,I,yes,64,male,T1N0M0,no,yes,time_rec (years): 5.61tumor size (cm): 1.0,IA,IA
+-,GSM959493,Tumor 278,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-596,I,yes,71,female,T2N0M0,no,no,time_rec (years): 10.67tumor size (cm): 3.4,IB,IB
+-,GSM959494,Tumor 24,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-522,III,yes,54,male,T2N2M0,-,,,,
+-,GSM959495,Tumor 172,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-483,III,no,75,female,T4N2M0,-,,,,
+-,GSM959496,Tumor 21,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-545,III,yes,72,male,T4N0M0,-,,,,
+-,GSM959497,Tumor 183,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-503,III,yes,56,male,T4N0M0,no,no,time_rec (years): 11.19,,
+-,GSM959498,Tumor 280,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-598,I,yes,59,male,T1N0M0,no,no,time_rec (years): 8.5tumor size (cm): 1.5,IA,IA
+-,GSM959499,Tumor 17,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-530,II,yes,58,male,T3N0M0,-,,,,
+-,GSM959500,Tumor 171,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-481,I,yes,82,female,T2N0M0,no,no,time_rec (years): 0.46tumor size (cm): 4.0,IB,IB
+-,GSM959501,Tumor 167,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-475,I,yes,62,female,T2N0M0,-,,,,
+-,GSM959502,Tumor 27,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-556,II,yes,52,male,T2N1M0,-,,,,
+-,GSM959503,Tumor 170,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-480,III,yes,79,male,T4N0M0,no,yes,time_rec (years): 1.89,,
+-,GSM959504,Tumor 18,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-532,III,no,68,male,T2N2M0,-,,,,
+-,GSM959505,Tumor 173,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-484,IV,no,54,female,T2N2M1,-,,,,
+-,GSM959506,Tumor 19,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-540,I,yes,65,male,T2N0M0,no,yes,time_rec (years): 7.12tumor size (cm): 5.0,IB,IB
+-,GSM959507,Tumor 181,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-501,I,yes,83,male,T1N0M0,-,,,,
+-,GSM959508,Tumor 178,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-495,I,yes,79,female,T1N0M0,no,no,time_rec (years): 6.08tumor size (cm): 1.8,IA,IA
+-,GSM959509,Tumor 168,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-477,I,yes,75,male,T1N0M0,-,,,,
+-,GSM959510,Tumor 179,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP1-497,I,yes,52,male,T1N0M0,-,,,,
+-,GSM959511,Tumor 272,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-585,I,yes,76,male,T1N0M0,no,no,time_rec (years): 10.33tumor size (cm): 2.2,IA,IA
+-,GSM959513,Tumor 30,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP1-561,I,yes,70,female,T2N0M0,no,no,time_rec (years): 3.8tumor size (cm): 4.0,IB,IB
+-,GSM959514,Tumor 225,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-903,II,yes,81,male,T3N0M0,no,yes,time_rec (years): 1.11,,
+-,GSM959517,Tumor 296,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-617,II,no,46,female,T1N1M0,-,,,,
+-,GSM959519,Tumor 204,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP4-861,I,no,51,male,T2N0M0,no,yes,time_rec (years): 0.49tumor size (cm): unknown,IB,unknown
+-,GSM959520,Tumor 314,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-639,I,yes,76,male,T1N0M0,no,no,time_rec (years): 5.83tumor size (cm): 1.5,IA,IA
+-,GSM959521,Tumor 216,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-892,III,no,75,female,T3N2M0,-,,,,
+-,GSM959522,Tumor 324,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-653,I,yes,80,male,T1N0M0,no,no,time_rec (years): 4.17tumor size (cm): 3,IA,IA
+-,GSM959523,Tumor 199,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-883,I,yes,65,male,T1N0M0,no,yes,time_rec (years): 2.3tumor size (cm): unknown,IA,unknown
+-,GSM959524,Tumor 315,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-640,I,yes,67,female,T1N0M0,no,no,time_rec (years): 3.67tumor size (cm): 3,IA,IA
+-,GSM959525,Tumor 196,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-880,III,no,65,female,T2N2M0,no,yes,time_rec (years): 2.06,,
+-,GSM959527,Tumor 221,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP4-897,III,yes,71,female,T3N1M0,no,yes,time_rec (years): 0.43,,
+-,GSM959528,Tumor 322,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-650,I,yes,69,male,T1N0M0,no,yes,time_rec (years): 3.58tumor size (cm): 2.2,IA,IA
+-,GSM959529,Tumor 197,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP4-881,III,yes,58,male,T4N1M0,no,yes,time_rec (years): 0.22,,
+-,GSM959530,Tumor 297,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-618,III,yes,68,female,T1N2Mx,-,,,,
+-,GSM959533,Tumor 306,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-628,III,yes,45,male,T2N2M0,-,,,,
+-,GSM959534,Tumor 323,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-651,I,yes,82,male,T1N0M0,no,no,time_rec (years): 3.58tumor size (cm): 0.9,IA,IA
+-,GSM959535,Tumor 293,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-613,III,yes,73,female,T1N2M0,-,,,,
+-,GSM959536,Tumor 308,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-630,III,yes,76,male,T2N2M0,-,,,,
+-,GSM959537,Tumor 282,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-601,I,yes,75,male,T1N0M0,no,no,time_rec (years): 7.75tumor size (cm): 0.6,IA,IA
+-,GSM959538,Tumor 285,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-604,I,yes,80,male,T1N0M0,no,no,time_rec (years): 7tumor size (cm): 2.5,IA,IB
+-,GSM959540,Tumor 273,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-587,II,yes,83,female,T1N1M0,-,,,,
+-,GSM959541,Tumor 206,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-866,I,yes,50,male,T2N0M0,no,yes,time_rec (years): 0.9tumor size (cm): unknown,IB,unknown
+-,GSM959543,Tumor 305,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-627,III,yes,76,female,T2N2M0,-,,,,
+-,GSM959544,Tumor 321,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-648,III,yes,54,female,T1N2M0,-,,,,
+-,GSM959545,Tumor 200,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-884,I,yes,52,male,T2N0M0,no,yes,time_rec (years): 1.71tumor size (cm): unknown,IB,unknown
+-,GSM959546,Tumor 281,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-599,I,yes,45,male,T1N0M0,no,no,time_rec (years): 8.5tumor size (cm): 2,IA,IA
+-,GSM959547,Tumor 283,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-602,I,no,65,female,T2N0M0,no,no,time_rec (years): 7.67tumor size (cm): 3.1,IB,IB
+-,GSM959549,Tumor 212,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-886,III,yes,67,male,T1N2M0,-,,,,
+-,GSM959550,Tumor 277,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-592,I,yes,69,female,T1N0M0,no,yes,time_rec (years): 7.66tumor size (cm): 2.7,IA,IA
+-,GSM959551,Tumor 302,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-624,II,yes,64,female,T1N1M0,-,,,,
+-,GSM959552,Tumor 292,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-612,I,yes,76,female,T2N0M0,no,no,time_rec (years): 4.75tumor size (cm): 3.5,IB,IB
+-,GSM959553,Tumor 213,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-889,I,NA,60,female,T2N0M0,no,yes,time_rec (years): 0.88tumor size (cm): unknown,IB,unknown
+-,GSM959555,Tumor 192,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-917,II,yes,53,male,T2N1M0,no,yes,time_rec (years): 2.3,,
+-,GSM959556,Tumor 316,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-641,IV,yes,66,female,T3N2M1,-,,,,
+-,GSM959557,Tumor 295,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-615,III,no,77,female,T3N2M0,no,yes,time_rec (years): 1,,
+-,GSM959558,Tumor 294,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-614,I,no,62,female,T1N0M0,-,,,,
+-,GSM959559,Tumor 195,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP4-879,III,yes,56,male,T4N1M0,no,yes,time_rec (years): 0.88,,
+-,GSM959560,Tumor 198,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-882,I,yes,62,male,T2N0M0,no,yes,time_rec (years): 3.1tumor size (cm): unknown,IB,unknown
+-,GSM959561,Tumor 317,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-642,I,yes,76,male,T2N0M0,no,no,time_rec (years): 3tumor size (cm): 3.5,IB,IB
+-,GSM959562,Tumor 217,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-893,I,yes,51,male,T2N0M0,no,yes,time_rec (years): 0.83tumor size (cm): unknown,IB,unknown
+-,GSM959564,Tumor 233,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-912,I,yes,43,male,T1N0M0,no,yes,time_rec (years): 0.84tumor size (cm): unknown,IA,unknown
+-,GSM959565,Tumor 312,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-636,I,yes,62,female,T1N0M0,no,no,time_rec (years): 10.17tumor size (cm): 1.8,IA,IA
+-,GSM959566,Tumor 268,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-578,II,no,69,female,T2N1M0,-,,,,
+-,GSM959567,Tumor 194,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-878,IV,yes,44,male,T4N2M1,no,yes,time_rec (years): 0.6,,
+-,GSM959568,Tumor 284,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-603,I,no,76,female,T1N0M0,no,no,time_rec (years): 7tumor size (cm): 1,IA,IA
+-,GSM959569,Tumor 325,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-654,I,yes,58,female,T1N0M0,no,no,time_rec (years): 5.17tumor size (cm): 1.5,IA,IA
+-,GSM959570,Tumor 313,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-637,I,yes,52,female,T1N0M0,-,,,,
+-,GSM959573,Tumor 286,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-605,III,no,77,female,T1N2M0,no,yes,time_rec (years): 5,,
+-,GSM959574,Tumor 219,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-896,II,no,83,female,T2N1M0,no,yes,time_rec (years): 0.5,,
+-,GSM959576,Tumor 307,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-629,III,yes,52,female,T1N2M0,-,,,,
+-,GSM959577,Tumor 232,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP4-911,III,yes,62,male,T3N2M0,no,yes,time_rec (years): 0.19,,
+-,GSM959578,Tumor 220,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP4-898,III,yes,51,male,T3N2M0,no,yes,time_rec (years): 0.28,,
+-,GSM959579,Tumor 226,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-905,IV,yes,70,male,T2N0M1,no,yes,time_rec (years): 0.81,,
+-,GSM959581,Tumor 267,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-576,III,yes,48,male,T4N3M0,-,,,,
+-,GSM959582,Tumor 202,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP4-859,I,yes,57,male,T1N0M0,no,yes,time_rec (years): 3.21tumor size (cm): unknown,IA,unknown
+-,GSM959583,Tumor 303,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-625,I,yes,67,male,T2N0M0,-,,,,
+-,GSM959584,Tumor 201,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-885,III,yes,67,male,T3N1M0,-,,,,
+-,GSM959585,Tumor 287,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-606,I,no,68,female,T1N0M0,no,no,time_rec (years): 6.58tumor size (cm): 2.6,IA,IA
+-,GSM959635,Tumor 326,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-655,I,yes,81,female,T1N0M0,no,no,time_rec (years): 3.92tumor size (cm): 2,IA,IA
+-,GSM959636,Tumor 214,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-890,III,yes,65,male,T1N2M0,-,,,,
+-,GSM959637,Tumor 205,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-865,III,no,61,male,T4N2M0,no,yes,time_rec (years): 0.11,,
+-,GSM959638,Tumor 218,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-894,II,yes,69,male,T3N0M0,-,,,,
+-,GSM959640,Tumor 209,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP4-873,I,yes,74,male,T2N0M0,no,yes,time_rec (years): 1.28tumor size (cm): unknown,IB,unknown
+-,GSM959642,Tumor 203,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-860,I,yes,65,male,T2N0M0,no,yes,time_rec (years): 5.06tumor size (cm): unknown,IB,unknown
+-,GSM959643,Tumor 275,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-589,III,yes,61,female,T1N2M0,-,,,,
+-,GSM959644,Tumor 318,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-644,I,yes,50,female,T1N0M0,no,no,time_rec (years): 5.25tumor size (cm): 0.5,IA,IA
+-,GSM959645,Tumor 274,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-588,II,yes,68,female,T2N1MO,-,,,,
+-,GSM959646,Tumor 304,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-626,III,yes,35,male,T4N2M0,-,,,,
+-,GSM959647,Tumor 291,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-611,I,yes,49,female,T2N0M0,no,no,time_rec (years): 4.83tumor size (cm): 4,IB,IB
+-,GSM959648,Tumor 269,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-582,I,yes,55,female,T2N0M0,-,,,,
+-,GSM959649,Tumor 309,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-631,III,yes,65,female,T2N2M0,-,,,,
+-,GSM959650,Tumor 301,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-623,II,yes,74,female,T3N0M0,-,,,,
+-,GSM959656,Tumor 260,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-234,I,yes,78,male,T1N0M0,no,yes,time_rec (years): 1.18tumor size (cm): 2.2,IA,IA
+-,GSM959661,Tumor 255,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-220,I,yes,74,male,T2N0M0,-,,,,
+-,GSM959662,Tumor 337,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-934,I,yes,73,male,T1N0M0,no,yes,time_rec (years): 0.67tumor size (cm): 3,IA,IA
+-,GSM959663,Tumor 405,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-833,I,yes,40,male,T2N0M0,-,,,,
+-,GSM959667,Tumor 359,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-958,I,yes,56,female,T2N0M0,-,,,,
+-,GSM959668,Tumor 360,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-959,III,yes,73,male,T3N2M0,-,,,,
+-,GSM959669,Tumor 253,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP6-216,I,yes,73,male,T1N0M0,no,yes,time_rec (years): 5.22tumor size (cm): 1.1,IA,IA
+-,GSM959672,Tumor 365,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-964,II,yes,67,male,T3N0M0,no,yes,time_rec (years): 0.92,,
+-,GSM959673,Tumor 340,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-937,II,yes,72,male,T2N1M0,-,,,,
+-,GSM959674,Tumor 348,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-945,I,yes,75,male,T2N0M0,no,no,time_rec (years): 0.92tumor size (cm): 3.2,IB,IB
+-,GSM959675,Tumor 353,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-952,III,yes,63,female,T2N2M0,-,,,,
+-,GSM959676,Tumor 236,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-180,I,yes,60,male,T1N0M0,-,,,,
+-,GSM959678,Tumor 330,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-925,I,yes,72,female,T2N0M0,no,no,time_rec (years): 2.08tumor size (cm): 5.8,IB,IIA
+-,GSM959679,Tumor 248,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP6-206,I,yes,54,female,T1N0M0,no,yes,time_rec (years): 5.1tumor size (cm): 2.5,IA,IA
+-,GSM959680,Tumor 239,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-186,I,yes,38,female,T2N0M0,no,yes,time_rec (years): 8.03tumor size (cm): 4.5,IB,IB
+-,GSM959682,Tumor 355,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-954,III,yes,72,male,unknown,-,,,,
+-,GSM959683,Tumor 211,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP4-918,IV,yes,46,male,T3N1M1,-,,,,
+-,GSM959684,Tumor 349,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-947,III,yes,68,female,unknown,-,,,,
+-,GSM959687,Tumor 341,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-938,I,yes,79,male,T1N0M0,no,no,time_rec (years): 1.58tumor size (cm): 2,IA,IA
+-,GSM959688,Tumor 358,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-957,II,yes,63,male,T3N0M0,no,yes,time_rec (years): 0.75,,
+-,GSM959690,Tumor 368,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-968,I,yes,62,male,T1N0M0,no,no,time_rec (years): 1.5tumor size (cm): 1.5,IA,IA
+-,GSM959693,Tumor 369,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-969,III,yes,61,female,T3N2M0,no,yes,time_rec (years): 0.92,,
+-,GSM959694,Tumor 361,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-960,I,yes,66,male,T2N0M0,no,no,time_rec (years): 1.58tumor size (cm): 4,IB,IB
+-,GSM959695,Tumor 329,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-924,I,yes,63,female,T1N0M0,no,no,time_rec (years): 2.08tumor size (cm): 1.5,IA,IA
+-,GSM959696,Tumor 346,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-943,II,yes,60,male,T3N0M0,no,yes,time_rec (years): 1.5,,
+-,GSM959697,Tumor 331,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-926,I,no,66,female,T2N0M0,no,no,time_rec (years): 1.83tumor size (cm): 2.1,IB,IB
+-,GSM959698,Tumor 252,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP6-214,II,yes,66,male,T3N0M0,no,yes,time_rec (years): 1.13,,
+-,GSM959699,Tumor 258,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP6-228,II,yes,61,male,T1N1M0,no,yes,time_rec (years): 4.94,,
+-,GSM959700,Tumor 367,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-967,III,yes,65,male,unknown,-,,,,
+-,GSM959701,Tumor 339,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-936,II,yes,72,male,T3N0M0,-,,,,
+-,GSM959703,Tumor 245,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-200,I,yes,70,male,T2N0M0,no,yes,time_rec (years): 4.24tumor size (cm): 5.5,IB,IIA
+-,GSM959704,Tumor 333,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-928,II,yes,69,female,T1N1M0,-,,,,
+-,GSM959705,Tumor 247,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-204,I,yes,83,male,T2N0M0,no,yes,time_rec (years): 4.78tumor size (cm): 3.3,IB,IB
+-,GSM959707,Tumor 352,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-951,I,yes,80,female,T2N0M0,no,no,time_rec (years): 1.08tumor size (cm): 4,IB,IB
+-,GSM959708,Tumor 338,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-935,III,no,69,male,T2N2M0,-,,,,
+-,GSM959709,Tumor 364,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-963,I,yes,72,female,T2N0M0,no,no,time_rec (years): 1.42tumor size (cm): 2.5,IB,IB
+-,GSM959712,Tumor 264,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-242,I,yes,63,male,T2N0M0,no,yes,time_rec (years): 5.01tumor size (cm): 3,IB,IB
+-,GSM959715,Tumor 327,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-922,I,no,45,female,T1N0M0,no,no,time_rec (years): 2.08tumor size (cm): 1.8,IA,IA
+-,GSM959717,Tumor 242,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-192,I,yes,75,male,T1N0M0,no,yes,time_rec (years): 5.69tumor size (cm): 2.5,IA,IA
+-,GSM959718,Tumor 342,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-939,III,yes,53,female,T4N2M0,no,yes,time_rec (years): 1.33,,
+-,GSM959719,Tumor 354,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-953,II,yes,80,male,T3N0M0,-,,,,
+-,GSM959720,Tumor 328,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-923,I,yes,58,male,T1N0M0,-,,,,
+-,GSM959721,Tumor 254,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-218,I,yes,46,male,T2N0M0,no,yes,time_rec (years): 0.06tumor size (cm): 4.5,IB,IB
+-,GSM959722,Tumor 237,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-182,I,yes,50,male,T2N0M0,no,yes,time_rec (years): 8.7tumor size (cm): 4.5,IB,IB
+-,GSM959723,Tumor 259,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP6-230,I,no,78,female,T2N0M0,no,yes,time_rec (years): 2tumor size (cm): 2.5,IB,IB
+-,GSM959724,Tumor 336,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-933,I,yes,72,male,T1N0M0,no,yes,time_rec (years): 1.33tumor size (cm): 1.5,IA,IA
+-,GSM959725,Tumor 244,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP6-198,III,yes,54,male,T2N2M0,no,yes,time_rec (years): 1.85,,
+-,GSM959726,Tumor 261,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP6-236,I,yes,51,male,T2N0M0,-,,,,
+-,GSM959727,Tumor 350,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP9-948,III,yes,76,male,T2N2M0,no,no,time_rec (years): 1.58,,
+-,GSM959728,Tumor 345,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-942,III,no,68,male,unknown,-,,,,
+-,GSM959730,Tumor 362,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-961,I,yes,67,male,T1N0M0,-,,,,
+-,GSM959731,Tumor 363,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-962,II,yes,61,male,T1N1M0,-,,,,
+-,GSM959732,Tumor 357,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP9-956,I,yes,67,male,T2N0M0,no,no,time_rec (years): 1.17tumor size (cm): 3.3,IB,IB
+-,GSM959733,Tumor 238,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP6-184,I,yes,62,female,T2N0M0,no,yes,time_rec (years): 3.34tumor size (cm): 5.5,IB,IIA
+-,GSM959734,Tumor 441,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1007,II,NA,76.6,male,unknown,-,,,,
+-,GSM959735,Tumor 452,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1019,I,NA,48.12,female,unknown,-,,,,
+-,GSM959736,Tumor 477,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1048,II,NA,52.3,female,unknown,-,,,,
+-,GSM959737,Tumor 470,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1037,III,NA,58.6,male,unknown,-,,,,
+-,GSM959738,Tumor 483,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1055,I,yes,63.3,female,unknown,-,,,,
+-,GSM959739,Tumor 455,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1022,II,NA,56.7,female,unknown,-,,,,
+-,GSM959740,Tumor 449,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1015,III,NA,74.2,female,unknown,-,,,,
+-,GSM959741,Tumor 490,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1062,III,yes,79.5,male,unknown,-,,,,
+-,GSM959742,Tumor 416,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-979,II,yes,66.1,female,unknown,-,,,,
+-,GSM959743,Tumor 437,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1002,III,NA,75.6,male,unknown,-,,,,
+-,GSM959745,Tumor 468,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1035,III,NA,89.18,male,unknown,-,,,,
+-,GSM959746,Tumor 431,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-995,I,NA,67.8,male,unknown,-,,,,
+-,GSM959747,Tumor 475,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1043,II,NA,57.9,male,unknown,-,,,,
+-,GSM959748,Tumor 435,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1000,II,NA,44.7,female,unknown,-,,,,
+-,GSM959749,Tumor 423,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-987,II,yes,79.59,male,unknown,-,,,,
+-,GSM959751,Tumor 440,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1006,III,NA,56,female,unknown,-,,,,
+-,GSM959752,Tumor 457,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1024,II,NA,65.9,male,unknown,-,,,,
+-,GSM959753,Tumor 463,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1030,II,NA,51.1,female,unknown,-,,,,
+-,GSM959754,Tumor 415,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-978,II,NA,72.6,male,unknown,-,,,,
+-,GSM959755,Tumor 447,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1013,III,NA,71.6,male,unknown,-,,,,
+-,GSM959757,Tumor 472,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1040,I,NA,73.3,male,unknown,-,,,,
+-,GSM959758,Tumor 417,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-980,II,NA,65.8,female,unknown,-,,,,
+-,GSM959759,Tumor 433,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-998,I,NA,71.4,female,unknown,-,,,,
+-,GSM959760,Tumor 434,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-999,III,yes,56.78,male,unknown,-,,,,
+-,GSM959761,Tumor 481,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1052,I,yes,59.9,male,unknown,-,,,,
+-,GSM959762,Tumor 445,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1011,I,NA,72.8,female,unknown,-,,,,
+-,GSM959763,Tumor 489,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1061,I,yes,57.7,female,unknown,-,,,,
+-,GSM959764,Tumor 418,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-981,II,NA,65.4,female,unknown,-,,,,
+-,GSM959765,Tumor 439,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1005,I,NA,54.19,male,unknown,-,,,,
+-,GSM959766,Tumor 487,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1059,I,yes,53.6,male,unknown,-,,,,
+-,GSM959767,Tumor 424,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-988,II,yes,70.21,female,unknown,-,,,,
+-,GSM959768,Tumor 411,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-972,I,NA,69.6,male,unknown,-,,,,
+-,GSM959769,Tumor 476,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1047,II,NA,unknown,female,unknown,-,,,,
+-,GSM959770,Tumor 460,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1027,I,yes,63.7,male,unknown,-,,,,
+-,GSM959771,Tumor 466,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1033,II,NA,69.88,male,unknown,-,,,,
+-,GSM959772,Tumor 461,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1028,II,NA,62.15,male,unknown,-,,,,
+-,GSM959773,Tumor 469,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1036,II,NA,47.7,female,unknown,-,,,,
+-,GSM959774,Tumor 421,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-985,I,NA,70.8,male,unknown,-,,,,
+-,GSM959775,Tumor 413,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-975,II,NA,72,male,unknown,-,,,,
+-,GSM959776,Tumor 438,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1003,I,NA,67.9,female,unknown,-,,,,
+-,GSM959777,Tumor 414,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-976,I,yes,55,male,unknown,-,,,,
+-,GSM959778,Tumor 420,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-983,I,NA,65.79,male,unknown,-,,,,
+-,GSM959779,Tumor 462,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1029,II,NA,66.7,male,unknown,-,,,,
+-,GSM959780,Tumor 482,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1053,I,yes,71.6,female,unknown,-,,,,
+-,GSM959781,Tumor 429,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-993,I,NA,54.2,male,unknown,-,,,,
+-,GSM959782,Tumor 464,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1031,II,NA,60.4,male,unknown,-,,,,
+-,GSM959783,Tumor 428,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-992,I,yes,76.45,male,unknown,-,,,,
+-,GSM959784,Tumor 410,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-970,II,yes,70.4,male,unknown,-,,,,
+-,GSM959785,Tumor 488,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1060,II,yes,72.9,female,unknown,-,,,,
+-,GSM959786,Tumor 486,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1058,III,yes,83.5,female,unknown,-,,,,
+-,GSM959787,Tumor 443,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1009,III,yes,67.29,male,unknown,-,,,,
+-,GSM959788,Tumor 446,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1012,I,NA,71.7,female,unknown,-,,,,
+-,GSM959789,Tumor 448,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1014,III,NA,47.03,male,unknown,-,,,,
+-,GSM959790,Tumor 436,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1001,II,NA,49.9,male,unknown,-,,,,
+-,GSM959791,Tumor 425,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-989,II,yes,56,male,unknown,-,,,,
+-,GSM959792,Tumor 412,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-974,II,NA,73.8,male,unknown,-,,,,
+-,GSM959793,Tumor 430,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-994,III,NA,68.9,male,unknown,-,,,,
+-,GSM959794,Tumor 444,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1010,III,NA,65.7,female,unknown,-,,,,
+-,GSM959795,Tumor 432,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-996,II,NA,72.9,female,unknown,-,,,,
+-,GSM959796,Tumor 426,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-990,I,yes,50.45,male,unknown,-,,,,
+-,GSM959797,Tumor 465,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1032,II,yes,55.9,male,unknown,-,,,,
+-,GSM959798,Tumor 471,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1039,III,NA,68.1,male,unknown,-,,,,
+-,GSM959799,Tumor 473,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1041,II,NA,59.9,male,unknown,-,,,,
+-,GSM959800,Tumor 458,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1025,I,NA,67.79,female,unknown,-,,,,
+-,GSM959801,Tumor 480,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1051,II,yes,65.8,female,unknown,-,,,,
+-,GSM959802,Tumor 484,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1056,I,yes,75.7,male,unknown,-,,,,
+-,GSM959803,Tumor 451,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1018,II,yes,77.9,male,unknown,-,,,,
+-,GSM959804,Tumor 442,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1008,I,NA,77.36,male,unknown,-,,,,
+-,GSM959805,Tumor 453,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1020,III,NA,50.39,male,unknown,-,,,,
+-,GSM959806,Tumor 422,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-986,II,yes,61.01,female,unknown,-,,,,
+-,GSM959807,Tumor 454,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1021,II,NA,81.55,male,unknown,-,,,,
+-,GSM959808,Tumor 419,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-982,II,NA,73.39,male,unknown,-,,,,
+-,GSM959809,Tumor 456,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1023,III,NA,67.2,male,unknown,-,,,,
+-,GSM959810,Tumor 459,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1026,I,yes,63.7,male,unknown,-,,,,
+-,GSM959811,Tumor 485,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-1057,III,yes,59.7,male,unknown,-,,,,
+-,GSM959812,Tumor 427,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP3-991,I,NA,70.73,female,unknown,-,,,,
+-,GSM959813,Tumor 479,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1050,II,NA,69.1,male,unknown,-,,,,
+-,GSM959814,Tumor 450,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1016,I,NA,58.79,male,unknown,-,,,,
+-,GSM959815,Tumor 478,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1049,II,NA,59.8,male,unknown,-,,,,
+-,GSM959816,Tumor 467,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1034,II,NA,53.78,female,unknown,-,,,,
+-,GSM959817,Tumor 474,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP3-1042,I,NA,82.7,male,unknown,-,,,,
+-,GSM959819,Tumor 391,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-971,I,yes,72,male,T2N0M0,-,,,,
+-,GSM959820,Tumor 392,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-972,III,yes,55,female,T4N0M0,no,yes,time_rec (years): 4.21,,
+-,GSM959821,Tumor 378,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-813,I,yes,68,male,T2N0M0,-,,,,
+-,GSM959822,Tumor 377,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-812,II,no,77,female,T2N1M0,-,,,,
+-,GSM959823,Tumor 394,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-974,I,yes,75,male,T2N0M0,-,,,,
+-,GSM959824,Tumor 380,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-815,III,yes,55,female,T2N2M0,-,,,,
+-,GSM959825,Tumor 384,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-829,I,yes,70,male,T2N0M0,-,,,,
+-,GSM959828,Tumor 381,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-820,II,yes,67,male,T1N1M0,no,yes,time_rec (years): 5.47,,
+-,GSM959829,Tumor 383,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-828,I,yes,62,male,T2N0M0,-,,,,
+-,GSM959831,Tumor 386,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-842,III,yes,64,male,T3N1M0,-,,,,
+-,GSM959832,Tumor 379,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-814,II,yes,71,male,T2N1M0,-,,,,
+-,GSM959833,Tumor 396,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-976,I,yes,59,male,T2N0M0,-,,,,
+-,GSM959834,Tumor 395,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-975,I,yes,58,male,T2N0M0,-,,,,
+-,GSM959836,Tumor 375,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-800,III,yes,79,female,T4N2M0,-,,,,
+-,GSM959837,Tumor 382,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-823,I,yes,71,male,T2N0M0,-,,,,
+-,GSM959838,Tumor 370,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-760,II,yes,69,male,T2N1M0,-,,,,
+-,GSM959839,Tumor 385,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-840,I,no,63,female,T2N0M0,-,,,,
+-,GSM959840,Tumor 371,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-970,III,yes,73,male,T3N2M0,no,yes,time_rec (years): 0.05,,
+-,GSM959841,Tumor 372,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-780,I,yes,77,male,T2N0M0,-,,,,
+-,GSM959842,Tumor 387,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-843,II,yes,57,male,T1N1M0,-,,,,
+-,GSM959843,Tumor 376,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-805,III,no,73,female,T1N2M0,no,yes,time_rec (years): 1.56,,
+-,GSM959844,Tumor 388,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-845,III,yes,60,female,T2N2M0,-,,,,
+-,GSM959845,Tumor 397,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-758,I,yes,67,male,T2N0M0,-,,,,
+-,GSM959846,Tumor 398,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-764,I,yes,69,male,T2N0M0,-,,,,
+-,GSM959847,Tumor 399,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-766,III,yes,67,male,T2N2M0,no,yes,time_rec (years): 0.32,,
+-,GSM959848,Tumor 400,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-772,III,yes,62,male,T2N2M0,-,,,,
+-,GSM959849,Tumor 401,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-774,I,no,55,female,T2N0M0,no,yes,time_rec (years): 3.31tumor size (cm): unknown,IB,unknown
+-,GSM959850,Tumor 402,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-786,III,yes,64,male,T4N2M0,no,yes,time_rec (years): 0.85,,
+-,GSM959851,Tumor 403,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-977,III,yes,44,male,T4N0M0,no,yes,time_rec (years): 1.58,,
+-,GSM959852,Tumor 404,"lung, squamous cell carcinoma",lung,non-small cell lung cancer (NSCLC),squamous cell carcinoma,yes,CUREP7-824,III,yes,69,male,T2N2M0,no,yes,time_rec (years): 0.18,,
+-,GSM959853,Tumor 406,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-841,III,yes,58,male,T2N2M0,-,,,,
+-,GSM959854,Tumor 407,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-847,II,yes,63,male,T2N1M0,-,,,,
+-,GSM959855,Tumor 408,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-978,II,yes,69,male,T1N1M0,-,,,,
+-,GSM959856,Tumor 409,"lung, adenocarcinoma",lung,non-small cell lung cancer (NSCLC),adenocarcinoma,yes,CUREP7-979,I,yes,61,male,T2N0M0,no,yes,time_rec (years): 4.76tumor size (cm): unknown,IB,unknown

@@ -1,0 +1,13 @@
+# TITLE: Integrative analysis of non-small cell lung cancer patient-derived xenografts identifies unique proteotypes associated with patient outcomes [HT12v4]
+# SUMMARY: Non-small cell lung cancer (NSCLC) death rates exceed the next 3 prevalent cancers combined; however, most NSCLC tumors lack actionable mutations. Recent studies of NSCLC and other cancers revealed profound proteome remodelling with prognostic impact that is not fully predicted by DNA or RNA analyses. These revelations portend proteome-based cancer classification and treatment. This will require model systems that recapitulate tumor proteomes and phenotypes. A subset (~35%) of the most aggressive NSCLC can form a patient-derived xenograft (PDX). We generated 137 PDX models of aggressive NSCLC, which represent the histological, genome, transcriptome, and DNA methylation features and proteome remodelling of primary NSCLC. The models indicate 3 lung adenocarcinoma and 2 squamous cell carcinoma proteotypes that are associated with different patient outcomes, protein-phosphotyrosine profiles, candidate targets, and in adenocarcinoma, distinct stromal immune features. The PDX resource will foster proteome-directed stratification and development of new treatments for aggressive NSCLC.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Tissue,GPL10558_Histology
+-,GSM5090471,PHLC55,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090472,PHLC162,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090473,PHLC85,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090474,PHLC123,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090475,PHLC57,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090476,PHLC113,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090477,PHLC152,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090478,PHLC50,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090479,PHLC110,Xenograft,patient-derived xenograft (PDX),LUAD
+-,GSM5090480,PHLC207,Xenograft,patient-derived xenograft (PDX),LUAD

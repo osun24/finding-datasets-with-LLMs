@@ -1,0 +1,15 @@
+# TITLE: Differentially expressed genes among cells constituting an in vitro human lung carcinogenesis system
+# SUMMARY: Genes differentially expressed among cells constituting an in vitro human lung carcinogenesis model consisting of normal, immortalized, transformed and tumorigenic bronchial epithelial cells were identified. The differentially expressed genes were then analyzed to determine their relevance to the gene expression patterns of clinical non-small cell lung cancer (NSCLC) samples as well as the clinical outcome of patients with this disease.
+GPL96_Group,GPL96_Accession,GPL96_Title,GPL96_Source name,GPL96_Cell line
+-,GSM427194,small airway epithelial cells (SAEC) replicate number 1,small airway epithelial cells in culture,SAEC
+-,GSM427195,small airway epithelial cells (SAEC) replicate number 2,small airway epithelial cells in culture,SAEC
+-,GSM427196,normal human bronchial epithelial cells (NHBE) replicate number 1,normal human bronchial epithelial cells in culture,NHBE
+-,GSM427197,normal human bronchial epithelial cells (NHBE) replicate number 2,transcriptome of normal human bronchial epithelial cells,NHBE
+-,GSM427198,immortalized bronchial epithelial cells (BEAS-2B) replicate number 1,SV40 large T-immortalized bronchial epithelial cells,BEAS-2B
+-,GSM427199,immortalized bronchial epithelial cells (BEAS-2B) replicate number 2,SV40 large T-immortalized bronchial epithelial cells,BEAS-2B
+-,GSM427200,1799 immortalized lung epithelial cells replicate number 1,1799 immortalized lung epithelial cells in culture isolated from xenografts in mice,1799
+-,GSM427201,1799 immortalized lung epithelial cells replicate number 2,1799 immortalized lung epithelial cells in culture isolated from xenografts in mice,1799
+-,GSM427202,1198 transformed lung epithelial cells replicate number 1,1198 transformed lung epithelial cells isolated from xenografts in mice,1198
+-,GSM427203,1198 transformed lung epithelial cells replicate number 2,1198 transformed lung epithelial cells isolated and cultured from xenografts in mice,1198
+-,GSM427204,1170-I tumorigenic lung epithelial cells replicate number 1,1170-I tumorigenic lung epithelial cells isolated and cultured from xenografts in mice,1170-I
+-,GSM427205,1170-I tumorigenic lung epithelial cells replicate number 2,1170-I tumorigenic lung epithelial cells isolated and cultured from xenografts in mice,1170-I

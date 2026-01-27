@@ -1,0 +1,2 @@
+Title: Proteomic analysis of tumor tissues form high-grade serous ovarian cancer patients
+Description: In the present project, in order to explore the molecular basis of platinum resistance and further determine potential biomarkers and therapeutic targets for high-grade serous ovarian cancer (HGSOC), we conducted a comparative proteomic analysis to identify the differentially expressed proteins between tumor tissues from platinum-sensitive and platinum-resistant HGSOC patient groups.

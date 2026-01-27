@@ -1,0 +1,51 @@
+# TITLE: Gene Expression Patterns that Predict Sensitivity to Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors in Lung Cancer Cell Lines and Human Lung Tumors
+# SUMMARY: Global gene expression data were generated from cultured non small cell lung cancer cell lines (NSCLC), normalized using MAS 5.0, filtered and used to predict response of cells to EGFR inhibition
+GPL96_Group,GPL96_Accession,GPL96_Title,GPL96_Source name,GPL96_Cell type,GPL96_Erlotinib sensitivity
+-,GSM785569,A431,epidermoid carcinoma,epidermoid carcinoma,Yes
+-,GSM785570,A549B,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785571,A549C,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785572,A549-3.05,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785573,A549p2,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785574,A549p3,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785575,A549p4,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785576,A549p5,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785577,A549p6,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785578,H358,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785579,H460-1,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785580,H460-2,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785581,H460-3,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785582,H460-5,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785583,H460-B,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785584,H460-C,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785585,H460-D,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785586,H460A,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785587,H1650-8,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785588,H1650-9,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785589,H1650-H,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785590,H1650A,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785591,H1650B,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785592,H1650C,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785593,H1650p8,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785594,H1975-6,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785595,H1975-7,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785596,H1975A,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785597,H1975C,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785598,H1975F,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785599,H1975G,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785600,H1975p19,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785601,H1975p20,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785602,H3255_1,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785603,H3255_2,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785604,H3255_3,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785605,H32551-Dec,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785606,K562,CML cell line,chronic myelogenous leukemia (CML),No
+-,GSM785607,PC-9_7,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785608,PC-9_8,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785609,PC-9_9,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785610,PC-9_10,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785611,PC9,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785612,PC92-4val,NSCLC cell line,non small cell lung cancer cell (NSCLC),Yes
+-,GSM785613,UKY-29_4,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785614,UKY-29_5,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785615,UKY-29_6,NSCLC cell line,non small cell lung cancer cell (NSCLC),No
+-,GSM785616,UKY29-3,NSCLC cell line,non small cell lung cancer cell (NSCLC),No

@@ -1,0 +1,2 @@
+Title: Deamidation and phosphorylation sites on SrfH-treated ERK2 kinase
+Description: This project has the aim of identifying possible post-translational modifications induced by the Salmonella effector SrfH on the host kinase ERK2.

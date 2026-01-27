@@ -1,0 +1,21 @@
+# TITLE: Differential Gene Expression in Erlotinib-Treated Fibroblasts
+# SUMMARY: Analysis of human, adult, dermal fibroblasts following treatment with 100nM or 1 uM of erlotinib, a tryrosine kinase inhibitor (TKI) that targets the epidermal growth factor receptor (EGFR) inhibiting EGFR activation and signaling. Erlotinib is widely used to effectively treat patients with advanced non-small cell lung cancer but treatment with erlotinib and other EGFR TKIs are associated with a painful skin rash. Results identified significantly differentially expressed genes in fibroblasts treated with erlotinib providing insight into how the drug alters the transcriptome in ways that may contribute to the TKI-related rash.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell type,GPL570_Tissue,GPL570_Treatment
+-,GSM2830518,Skin_Fibro_Erlot1uM1,Gene expression data from fibroblasts treated with erlotinib 1μM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830519,Skin_Fibro_Erlot1uM2,Gene expression data from fibroblasts treated with erlotinib 1μM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830520,Skin_Fibro_Erlot1uM3,Gene expression data from fibroblasts treated with erlotinib 1μM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830521,Skin_Fibro_Erlot1uM4,Gene expression data from fibroblasts treated with erlotinib 1μM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830522,Skin_Fibro_Erlot1uM5,Gene expression data from fibroblasts treated with erlotinib 1μM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830523,Skin_Fibro_Erlot100nM1,Gene expression data from fibroblasts treated with erlotinib 100nM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830524,Skin_Fibro_Erlot100nM2,Gene expression data from fibroblasts treated with erlotinib 100nM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830525,Skin_Fibro_Erlot100nM3,Gene expression data from fibroblasts treated with erlotinib 100nM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830526,Skin_Fibro_Erlot100nM4,Gene expression data from fibroblasts treated with erlotinib 100nM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830527,Skin_Fibro_Erlot100nM5,Gene expression data from fibroblasts treated with erlotinib 100nM daily for three days,dermal fibroblasts,skin,erlotinib
+-,GSM2830528,Skin_Fibro_No_Treatment1,Gene expression data from fibroblasts not treated,dermal fibroblasts,skin,none
+-,GSM2830529,Skin_Fibro_No_Treatment3,Gene expression data from fibroblasts not treated,dermal fibroblasts,skin,none
+-,GSM2830530,Skin_Fibro_No_Treatment4,Gene expression data from fibroblasts not treated,dermal fibroblasts,skin,none
+-,GSM2830531,Skin_Fibro_No_Treatment5,Gene expression data from fibroblasts not treated,dermal fibroblasts,skin,none
+-,GSM2830532,Skin_Fibro_Veh1,Gene expression data from fibroblasts treated with DMSO 1μM daily for three days,dermal fibroblasts,skin,DMSO
+-,GSM2830533,Skin_Fibro_Veh2,Gene expression data from fibroblasts treated with DMSO 1μM daily for three days,dermal fibroblasts,skin,DMSO
+-,GSM2830534,Skin_Fibro_Veh4,Gene expression data from fibroblasts treated with DMSO 1μM daily for three days,dermal fibroblasts,skin,DMSO
+-,GSM2830535,Skin_Fibro_Veh5,Gene expression data from fibroblasts treated with DMSO 1μM daily for three days,dermal fibroblasts,skin,DMSO

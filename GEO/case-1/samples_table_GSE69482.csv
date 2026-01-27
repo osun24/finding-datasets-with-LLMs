@@ -1,0 +1,5 @@
+# TITLE: Gene expression data from H1299 cells
+# SUMMARY: MiR-138 has a variety of biological functions because of its capacity to act on different target genes in various cells and tissues; however, the targets of miR-138 in human non-small cell lung cancer cell line H1299 cannot be determined by bioinformatics alone. Thus, H1299 cells overexpressing miR-138 in H1299 cells were subjected to microarray analysis to analyse the differences of gene expression.
+GPL17586_Group,GPL17586_Accession,GPL17586_Title,GPL17586_Source name,GPL17586_Cell line,GPL17586_Transfection
+-,GSM1701910,miR-138 group,Human H1299 cells,H1299,miR-138
+-,GSM1701911,NC mimic group,Human H1299 cells,H1299,NC mimics

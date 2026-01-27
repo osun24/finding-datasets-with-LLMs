@@ -1,0 +1,11 @@
+# TITLE: Gene expression profile of TRAIL-sensitive and -resistant H460 cells
+# SUMMARY: We generated H460 cells with acquired TRAIL resistance by exposing the parental sentisitve cells to subtoxic concentrations of TRAIL for 6 months. Then we compared the gene expression profile of the sensitive versus the resistant cells. We generated acquired TRAIL-resistant H460 cells from the sentisitve cells by treating subtoxic range of TRAIL for 6 month. And we tried to compare the expressional profile of the genes between two cell types to isolate genes regulating acquired TRAIL-resistance
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Genotype/variation
+-,GSM1347627,H460S-1,TRAIL-sensitive H460 cells,H460,control
+-,GSM1347628,H460S-2,TRAIL-sensitive H460 cells,H460,control
+-,GSM1347629,H460S-3,TRAIL-sensitive H460 cells,H460,control
+-,GSM1347630,H460S-4,TRAIL-sensitive H460 cells,H460,control
+-,GSM1347631,H460R-1,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance
+-,GSM1347632,H460R-2,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance
+-,GSM1347633,H460R-3,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance
+-,GSM1347634,H460R-4,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance

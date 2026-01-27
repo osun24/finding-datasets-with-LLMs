@@ -1,0 +1,9 @@
+# TITLE: Increased expression of Ankyrin repeat domain 1 (ANKRD1) associates with the resistance mechanism of osimertinib resistant non-small cell lung cancer
+# SUMMARY: EGFR tyrosine kinase inhibitors (EGFR-TKIs) induce a dramastic response in non-small cell lung cancer (NSCLC) patients with the EGFR mutation.However, acquired resistance to EGFR-TKIs in lung cancer cells
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line,GPL16686_Genotype/variation
+-,GSM2850068,PC-9,PC-9,PC-9,EGFR mutation positive(del.19)
+-,GSM2850069,PC-9-AR,PC-9-AR,PC-9-AR,afatinib resistant
+-,GSM2850070,PC-9-OR,PC-9-OR,PC-9-OR,osimertinib resistant
+-,GSM2850071,HCC827,HCC827,HCC827,EGFR mutation positive(del.19)
+-,GSM2850072,HCC827-AR,HCC827-AR,HCC827-AR,afatinib resistant
+-,GSM2850073,HCC827-OR,HCC827-OR,HCC827-OR,osimertinib resistant

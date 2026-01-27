@@ -1,0 +1,9 @@
+# TITLE: Therapeutic effect of γ-secretase inhibition in KrasG12V-driven non-small cell lung carcinoma through derepression of DUSP1 phosphatase and inhibition of ERK
+# SUMMARY: We have investigated the role of the Notch pathway in the generation and maintenance of KrasG12V-driven non-small cell lung carcinomas (NSCLCs). We demonstrate by genetic means that γ-secretase and Rbpj activities are both essential in the formation of NSCLCs. Interestingly, pharmacologic treatment of mice carrying endogenous NSCLCs with a γ-secretase inhibitor (GSI) blocks cancer growth and induces partial regression. Treated cancers show a reduction in Hes1 levels, reduced phosphorylated Erk, decreased proliferation and higher apoptosis. We demonstrate that HES1 directly binds and represses the promoter of DUSP1, a dual phosphatase with activity against phospho-ERK, and this repression is relieved by GSI treatment both in mouse and human NSCLCs. Our data provide proof for the in vivo therapeutic potential of γ-secretase inhibitors in primary NSCLCs and provide a mechanistic explanation for its therapeutical effect.
+GPL14550_Group,GPL14550_Accession,GPL14550_Title,GPL14550_Source name,GPL14550_Cell type,GPL14550_Cell line,GPL14550_Treatment
+-,GSM933076,vehicle rep1,vehicle rep1,human lung cancer cell line mutated in KRAS,NSCLC H358,vehicle
+-,GSM933077,vehicle rep2,vehicle rep2,human lung cancer cell line mutated in KRAS,NSCLC H358,vehicle
+-,GSM933078,vehicle rep3,vehicle rep3,human lung cancer cell line mutated in KRAS,NSCLC H358,vehicle
+-,GSM933079,DAPT rep1,DAPT rep1,human lung cancer cell line mutated in KRAS,NSCLC H358,DAPT
+-,GSM933080,DAPT rep2,DAPT rep2,human lung cancer cell line mutated in KRAS,NSCLC H358,DAPT
+-,GSM933081,DAPT rep3,DAPT rep3,human lung cancer cell line mutated in KRAS,NSCLC H358,DAPT

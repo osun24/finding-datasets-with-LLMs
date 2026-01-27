@@ -1,0 +1,37 @@
+# TITLE: Transcriptomic analysis of two human non-small-cell lung cancer cell lines in response to SN1 methylating-agents treatment
+# SUMMARY: Methylating agents of SN1 type constitute a widely used class of anticancer drugs, the effect of which on human non-small-cell lung cancer (NSCLC) has not been adequately studied. We thus studied the effect of N-methyl-N-nitrosourea (MNU), a model SN1 methylating agent, on two human NSCLC cell lines: A549 (p53wt) and H157 (p53null). We investigated the mechanism of MNU-induced cell death through a time course gene expression profiling study, 24, 48 and 72h following treatment.
+GPL6884_Group,GPL6884_Accession,GPL6884_Title,GPL6884_Source name,GPL6884_Cell line,GPL6884_Genotype/variation,GPL6884_Cell type,GPL6884_Treatment,GPL6884_Time point
+-,GSM1611363,A549_DMSO_24h_rep1,"A549, DMSO, 24h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,24h
+-,GSM1611364,A549_DMSO_24h_rep2,"A549, DMSO, 24h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,24h
+-,GSM1611365,A549_DMSO_24h_rep3,"A549, DMSO, 24h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,24h
+-,GSM1611366,A549_MNU_24h_rep1,"A549, MNU, 24h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),24h
+-,GSM1611367,A549_MNU_24h_rep2,"A549, MNU, 24h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),24h
+-,GSM1611368,A549_MNU_24h_rep3,"A549, MNU, 24h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),24h
+-,GSM1611369,A549_DMSO_48h_rep1,"A549, DMSO, 48h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,48h
+-,GSM1611370,A549_DMSO_48h_rep2,"A549, DMSO, 48h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,48h
+-,GSM1611371,A549_DMSO_48h_rep3,"A549, DMSO, 48h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,48h
+-,GSM1611372,A549_MNU_48h_rep1,"A549, MNU, 48h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),48h
+-,GSM1611373,A549_MNU_48h_rep2,"A549, MNU, 48h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),48h
+-,GSM1611374,A549_MNU_48h_rep3,"A549, MNU, 48h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),48h
+-,GSM1611375,A549_DMSO_72h_rep1,"A549, DMSO, 72h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,72h
+-,GSM1611376,A549_DMSO_72h_rep2,"A549, DMSO, 72h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,72h
+-,GSM1611377,A549_DMSO_72h_rep3,"A549, DMSO, 72h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,DMSO,72h
+-,GSM1611378,A549_MNU_72h_rep1,"A549, MNU, 72h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),72h
+-,GSM1611379,A549_MNU_72h_rep2,"A549, MNU, 72h",A549,p53-wt,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),72h
+-,GSM1611380,H157_DMSO_24h_rep1,"H157, DMSO, 24h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,DMSO,24h
+-,GSM1611381,H157_DMSO_24h_rep2,"H157, DMSO, 24h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,DMSO,24h
+-,GSM1611382,H157_DMSO_24h_rep3,"H157, DMSO, 24h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,DMSO,24h
+-,GSM1611383,H157_MNU_24h_rep1,"H157, MNU, 24h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),24h
+-,GSM1611384,H157_MNU_24h_rep2,"H157, MNU, 24h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),24h
+-,GSM1611385,H157_MNU_24h_rep3,"H157, MNU, 24h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),24h
+-,GSM1611386,H157_DMSO_48h_rep1,"H157, DMSO, 48h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,DMSO,48h
+-,GSM1611387,H157_DMSO_48h_rep2,"H157, DMSO, 48h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,DMSO,48h
+-,GSM1611388,H157_DMSO_48h_rep3,"H157, DMSO, 48h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,DMSO,48h
+-,GSM1611389,H157_MNU_48h_rep1,"H157, MNU, 48h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),48h
+-,GSM1611390,H157_MNU_48h_rep2,"H157, MNU, 48h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),48h
+-,GSM1611391,H157_MNU_48h_rep3,"H157, MNU, 48h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),48h
+-,GSM1611392,H157_DMSO_72h_rep1,"H157, DMSO, 72h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,DMSO,72h
+-,GSM1611393,H157_DMSO_72h_rep2,"H157, DMSO, 72h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,DMSO,72h
+-,GSM1611394,H157_MNU_72h_rep1,"H157, MNU, 72h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),72h
+-,GSM1611395,H157_MNU_72h_rep2,"H157, MNU, 72h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),72h
+-,GSM1611396,H157_MNU_72h_rep3,"H157, MNU, 72h",H157,p53-null,non-small-cell lung cancer (NSCLC) cell line,N-methyl-N-nitrosourea (MNU),72h

@@ -1,0 +1,3585 @@
+{
+  "datasets": [
+    [
+      "PXD051234",
+      "Ascites Exosomes from Epithelial Ovarian Cancer Patients Contain ITGA3, Which Promotes the Migration of Epithelial Ovarian Cancer Cell",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/40055916\" target=\"_blank\">Yin et al. (2025)</a>; <a href=\"https://dx.doi.org/10.3724/abbs.2025024\" target=\"_blank\">10.3724/abbs.2025024</a>",
+      "Xueyan Zhou",
+      "2025-07-20",
+      "S100, epithelial ovarian cancer, exosome, integrin, migration"
+    ],
+    [
+      "PXD066316",
+      "Design of combination therapeutics from protein response to drugs in ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "Dataset with its publication pending",
+      "Fabian Coscia",
+      "2025-07-19",
+      "Cell Culture, Drug Pertubation, HGSOC, Ovarian Cancer"
+    ],
+    [
+      "PXD066017",
+      "Defining the Ovarian Cancer Precancerous Landscape through Modeling Fallopian Tube Epithelium Reprogramming Driven by Extracellular Vesicles",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "Dataset with its publication pending",
+      "Dr. Andrew Godwin",
+      "2025-07-15",
+      "Extracellular Vesicles, Fallopian Tube, High Grade Serous Ovarian Cancer"
+    ],
+    [
+      "PXD050332",
+      "Global Proteomic Analysis of Ovarian Clear Cell Carcinoma Cells Lacking ARID1A Reveals Upregulated Mitochondrial Electron Transport Chain Activity",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive Plus",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/40564930\" target=\"_blank\">Perez et al. (2025)</a>; <a href=\"https://dx.doi.org/10.3390/ijms26125466\" target=\"_blank\">10.3390/ijms26125466</a>",
+      "Stefani N. Thomas",
+      "2025-07-06",
+      "ARID1A, mitochondria, mitochondrial electron transport chain, ovarian clear cell carcinoma"
+    ],
+    [
+      "PXD046354",
+      "Deep Visual Proteomics and spatial transcriptomics reveal the landscape of tumor malignancy in borderline ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF SCP",
+      "Dataset with its publication pending",
+      "Matthias Mann",
+      "2025-06-20",
+      "DVP, GeoMX, Low-grade serous cancer, Malignancy, Multi-omics, Ovarian Cancer, Pathology, Serous Borderline, Spatial"
+    ],
+    [
+      "PXD042150",
+      "Overcoming intra-tumoral heterogeneity for biomarker discovery in the High-Grade Serous Ovarian Cancer proteome",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 6600",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/40500315\" target=\"_blank\">Manda et al. (2025)</a>; <a href=\"https://dx.doi.org/10.1038/s41698-025-00911-y\" target=\"_blank\">10.1038/s41698-025-00911-y</a>",
+      "Rosemary Balleine",
+      "2025-06-13",
+      "HGSOC, SWATH-MS, cGAS-STING, heterogeneity, muti-omics"
+    ],
+    [
+      "PXD045503",
+      "YBX1 promotes homologous recombination and resistance to platinum-induced stress in ovarian cancer by recognizing m5C modification",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Wenjun Cheng",
+      "2025-06-03",
+      "YBX1"
+    ],
+    [
+      "PXD064540",
+      "Therapeutic effect and underlying mechanism of cell therapy on cyclophosphamide-induced premature ovarian insufficiency mouse model",
+      "iProX",
+      "Homo sapiens",
+      "LTQ Orbitrap",
+      "Dataset with its publication pending",
+      "Songying Zhang",
+      "2025-06-03",
+      "female fertility preservation, mesenchymal stem cells, oxidative stress, premature ovarian insufficiency, stromal vascular fraction"
+    ],
+    [
+      "PXD055521",
+      "Analysis of L1CAM-regulated signaling pathways and cellular responses to anti-L1CAM radioimmunotherapy in human ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "<a href=\"https://dx.doi.org/10.3390/ijms26104585\" target=\"_blank\">10.3390/ijms26104585</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/40429728\" target=\"_blank\">Todorov et al. (2025)</a>",
+      "Michal Grzmil",
+      "2025-06-01",
+      "Human ovarian cancer, L1CAM, TMT, phosphoproteomics, radioimmunotherapy"
+    ],
+    [
+      "PXD057890",
+      "Redefined complement C3c structures have significant increase in the plasma of ovarian cancer patients",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://dx.doi.org/10.1097/jcma.0000000000001249\" target=\"_blank\">10.1097/jcma.0000000000001249</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/40375456\" target=\"_blank\">Chen et al. (2025)</a>",
+      "Yeou-Guang Tsay",
+      "2025-05-25",
+      "biomarker discovery, complement component C3, ovarian cancer, plasam proteolysis"
+    ],
+    [
+      "PXD052458",
+      "Proteomics comparison of ovarian cancer cells with drug administration and tRNA transfection",
+      "jPOST",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Takeshi Masuda",
+      "2025-05-21",
+      "DIA, In-solution digestion"
+    ],
+    [
+      "PXD056100",
+      "A comprehensive multi-omics signature of doxorubicin-induced cellular senescence in the postmenopausal human ovary",
+      "MassIVE",
+      "Homo sapiens",
+      "Orbitrap Eclipse",
+      "no publication",
+      "Birgit Schilling",
+      "2025-05-13",
+      "Cellular senescence, Data-independent acquisition, Doxorubicin, Ovarian aging, Quantitative proteomics, Reproductive aging, Senescence-Associated Secretory Phenotype (SASP)"
+    ],
+    [
+      "PXD059026",
+      "CPT1A-mediated MFF succinylation promotes stemness maintenance in ovarian cancer stem cells",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"https://dx.doi.org/10.1038/s42003-025-07720-w\" target=\"_blank\">10.1038/s42003-025-07720-w</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/39956875\" target=\"_blank\">Zhu et al. (2025)</a>",
+      "Huanjie Shao",
+      "2025-05-07",
+      "CPT1A, MAMs, MFF, ovarian cancer stem cells, stemness maintenance"
+    ],
+    [
+      "PXD058234",
+      "Unveiling Multi-Omics and Immune Landscapes in COVID-19 Patients' Ovaries Microenvironment for Oocyte Competency Biomarkers Identification",
+      "PRIDE",
+      "Homo sapiens",
+      "autoflex",
+      "<a href=\"https://dx.doi.org/10.1038/s41392-025-02156-4\" target=\"_blank\">10.1038/s41392-025-02156-4</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/39966380\" target=\"_blank\">Geng et al. (2025)</a>",
+      "Chen Geng",
+      "2025-05-07",
+      "COVID-19, Immune Landscapes, ovary microenvironment"
+    ],
+    [
+      "PXD045689",
+      "Deciphering the ghost proteome in ovarian cancer cells by deep proteogenomic characterization.",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1038/s41419-024-07046-1\" target=\"_blank\">10.1038/s41419-024-07046-1</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/39349928\" target=\"_blank\">Garcia-Del Rio et al. (2024)</a>",
+      "Michel Salzet",
+      "2025-05-06",
+      "Alternative proteins, crosslinking, ovarian cancer, proteogenomics"
+    ],
+    [
+      "PXD056566",
+      "Comparative analysis of the Progesterone Receptor interactome in the human ovarian granulosa cell line KGN and other female reproductive cells",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "Dataset with its publication pending",
+      "Dr Natalie J Foot",
+      "2025-05-05",
+      "Progesterone Receptor, interactome, nuclear hormone receptor, ovary, transcription factor"
+    ],
+    [
+      "PXD061015",
+      "Quantitative proteomics and phosphoproteomics analysis of patient-derived ovarian cancer stem cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36977707\" target=\"_blank\">Nieddu et al. (2023)</a>; <a href=\"https://dx.doi.org/10.1038/s41419-023-05760-w\" target=\"_blank\">10.1038/s41419-023-05760-w</a>; <a href=\"https://dx.doi.org/10.1016/j.mcpro.2025.10096",
+      "Jesper V. Olsen",
+      "2025-04-24",
+      "Cancer stem cells, Orbitrap exploris 480, Ovarian cancer"
+    ],
+    [
+      "PXD034472",
+      "An Anticancer Rhenium Tricarbonyl Targets Fe-S Biogenesis in Ovarian Cancer Cells \u00e2\u20ac\u201c Profiling",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"https://dx.doi.org/10.1002/ANIE.202209136\" target=\"_blank\">10.1002/ANIE.202209136</a>",
+      "Christopher Gerner",
+      "2025-04-22",
+      "Cancer, mode of action, rhenium, target identification"
+    ],
+    [
+      "PXD034466",
+      "An Anticancer Rhenium Tricarbonyl Targets Fe-S Biogenesis in Ovarian Cancer Cells \u00e2\u20ac\u201c Pull-Down",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"https://dx.doi.org/10.1002/ANIE.202209136\" target=\"_blank\">10.1002/ANIE.202209136</a>",
+      "Christopher Gerner",
+      "2025-04-22",
+      "cancer, mode of action, rhenium, target identification"
+    ],
+    [
+      "PXD054649",
+      "Of mice and models: Investigating proteogenomic divergence in patient-derived xenograft models of ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive Plus",
+      "<a href=\"https://dx.doi.org/10.1038/s41598-024-84874-3\" target=\"_blank\">10.1038/s41598-024-84874-3</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/39755759\" target=\"_blank\">Perez et al. (2025)</a>",
+      "Stefani N. Thomas",
+      "2025-04-07",
+      "ovarian cancer, patient-derived xenograft models (PDX), proteogenomics"
+    ],
+    [
+      "PXD017041",
+      "Immunoprecipitation-mass spectrometry to determine SWI/SNF protein-protein interactions in SCCO",
+      "MassIVE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "no publication",
+      "Patrick Pirrotte",
+      "2025-04-03",
+      "IP-MS, SWI/SNF, chromatin remodeling, gene expression, ovarian cancer, protein-protein Interactions"
+    ],
+    [
+      "PXD059172",
+      "A Proteogenomic View of Synchronous Endometrioid Endometrial and Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "Dataset with its publication pending",
+      "Dr. Fabian Coscia",
+      "2025-03-11",
+      "endometrial cancer, ovarian cancer, synchronous cancer"
+    ],
+    [
+      "PXD060691",
+      "Small molecule inhibition of ubiquitin C-terminal hydrolase L1 alters cell metabolism proteins and exerts anti- or pro-tumorigenic effects contingent upon chemosensitivity status in high grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.3389/FPHAR.2025.1547164\" target=\"_blank\">10.3389/FPHAR.2025.1547164</a>",
+      "Nicole James",
+      "2025-02-26",
+      "LC-MS, Ovarian Cancer, Small Molecule Inhibitor"
+    ],
+    [
+      "PXD059628",
+      "Proteome-wide multipoint internal calibration curves for mass spectrometry-based quantitative proteomics",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Eclipse",
+      "Dataset with its publication pending",
+      "Eduard Sabid\u00f3",
+      "2025-02-24",
+      "TMT, calibration curves, multipoint, ovarian cancer, quantitative"
+    ],
+    [
+      "PXD056996",
+      "Proteomics of Extracellular Vesicles and tissue samples from High-Grade Serous Ovarian Carcinoma",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37418532\" target=\"_blank\">Yokoi et al. (2023)</a>; <a href=\"https://dx.doi.org/10.1016/J.BBADVA.2025.100140\" target=\"_blank\">10.1016/J.BBADVA.2025.100140</a>; <a href=\"https://dx.doi.org/10.1126/sciadv.ade6958\"",
+      "Rebeca Kawahara",
+      "2025-02-04",
+      "N-glycans, ascites, biomarker, extracellular vesicles, glycoproteins, glycoproteomics, high grade serous carcinoma"
+    ],
+    [
+      "PXD046381",
+      "Pre-mRNA fate decision by TTP safeguards the fidelity of the inflammatory response",
+      "PRIDE",
+      "Homo sapiens, Mus musculus",
+      "Orbitrap Exploris 480, Q Exactive HF-X",
+      "<a href=\"https://dx.doi.org/10.1016/J.MOLCEL.2025.01.001\" target=\"_blank\">10.1016/J.MOLCEL.2025.01.001</a>",
+      "Pavel Kovarik",
+      "2025-01-27",
+      "Inflammation, TTP, mRNA decay, pre-mRNA binding, resolution of inflammation"
+    ],
+    [
+      "PXD059795",
+      "Proteomic analysis of peripheral blood in 4 healthy controls and 4 patients with polycystic ovary syndrome",
+      "iProX",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "Dataset with its publication pending",
+      "Tizhen Yan",
+      "2025-01-14",
+      "polycystic ovary syndrome"
+    ],
+    [
+      "PXD055609",
+      "Immunogenic noncoding cryptic peptides dominate the antigenic landscape of ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Eclipse",
+      "Dataset with its publication pending",
+      "Akhilesh Pandey",
+      "2025-01-14",
+      "Immunopeptidomics, Neoantigens, Noncanonical peptides, Proteogenomics"
+    ],
+    [
+      "PXD051662",
+      "Cytoplasmic mRNA decay controlling inflammatory gene expression is determined by pre-mRNA fate decision",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "Dataset with its publication pending",
+      "Pavel Kovarik",
+      "2025-01-07",
+      "Inflammation, TTP, mRNA decay, pre-mRNA binding, resolution of inflammation"
+    ],
+    [
+      "PXD052205",
+      "Identification of p85beta protein interaction partners in ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "Dataset with its publication pending",
+      "Professor Cheung, Lydia Wai Ting",
+      "2024-12-23",
+      "IP-MS, Immunoprecipitation-mass spectrometry, PI3K, p85beta"
+    ],
+    [
+      "PXD055375",
+      "Targets of histone deacetylase inhibitors in ovarian cancer identified using proteome integral solubility alteration",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive Plus",
+      "Dataset with its publication pending",
+      "Stefani Thomas",
+      "2024-12-19",
+      "ALL, HDAC, HDAC inhibitor, HGSOC, PISA, cancer, thermal profiling"
+    ],
+    [
+      "PXD049685",
+      "Proteomic analysis of paclitaxel or Pelophen B -treated spheroids formed from SKOV3 ovarian carcinoma cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://dx.doi.org/10.1038/S41598-024-80672-Z\" target=\"_blank\">10.1038/S41598-024-80672-Z</a>",
+      "Olivier De Wever",
+      "2024-12-04",
+      "Taxanes, cancer, spheroids"
+    ],
+    [
+      "PXD032299",
+      "Discovery and validation of serum glycoprotein biomarker panel for detection of high grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"https://dx.doi.org/10.1002/prca.202200114\" target=\"_blank\">10.1002/prca.202200114</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37147936\" target=\"_blank\">Dutt et al. (2023)</a>",
+      "Michelle M. Hill",
+      "2024-10-22",
+      "LeMBA, STL, glycosylation, lectin, ovarian cancer screening"
+    ],
+    [
+      "PXD020024",
+      "Fallopian tube lesions as potential precursors of early ovarian cancer: A comprehensive proteomic analysis.",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1038/s41419-023-06165-5\" target=\"_blank\">10.1038/s41419-023-06165-5</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37775701\" target=\"_blank\">Wisztorski et al. (2023)</a>",
+      "Michel Salzet",
+      "2024-10-22",
+      "IHC, Oavrian cancer, pre-neoplastic lesions, spatially resolved proteomics"
+    ],
+    [
+      "PXD043233",
+      "Fuzzy interactions between the auto-phosphorylated C-terminus and the kinase domain of CK1\u00ce\u00b4 inhibits activation of TAp63\u00ce\u00b1",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37777570\" target=\"_blank\">Lambert et al. (2023)</a>; <a href=\"https://dx.doi.org/10.1038/s41598-023-43515-x\" target=\"_blank\">10.1038/s41598-023-43515-x</a>",
+      "Christian M\u00c3\u00bcnch",
+      "2024-10-22",
+      "CK1, DNA damage, ovarian reserve, p53 family, p63, phosphorylation, premature ovarian insufficiency, quality control, tetramerization"
+    ],
+    [
+      "PXD041060",
+      "TRPV2, a novel player in the human ovary and human granulosa cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "<a href=\"https://dx.doi.org/10.1093/MOLEHR/GAAD029\" target=\"_blank\">10.1093/MOLEHR/GAAD029</a>",
+      "Thomas Fr\u00f6hlich",
+      "2024-10-22",
+      "female gonad, granulosa cells, inflammation, ion channel"
+    ],
+    [
+      "PXD035084",
+      "A combination of molecular and clinical parameters provides a new strategy for high-grade serous ovarian cancer patient management",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://dx.doi.org/10.1186/s12967-022-03816-7\" target=\"_blank\">10.1186/s12967-022-03816-7</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36544142\" target=\"_blank\">Bradbury et al. (2022)</a>",
+      "Eduard Sabido",
+      "2024-10-22",
+      "ovarian cancer"
+    ],
+    [
+      "PXD020271",
+      "BRCA1-dependent ubiquitination and phosphorylation regulates signaling events in high-grade serous ovarian cancer tissues",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://dx.doi.org/10.1038/s41598-022-08461-0\" target=\"_blank\">10.1038/s41598-022-08461-0</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/35292711\" target=\"_blank\">Bradbury et al. (2022)</a>",
+      "Eduard Sabid\u00f3",
+      "2024-10-22",
+      "BRCA1, ProteomeXchange project tag: EPIC-XS, ovarian cancer, phosphorylation, ubiquitination"
+    ],
+    [
+      "PXD016555",
+      "Tumor-associated macrophages promote ovarian cancer cell migration by secreting transforming growth factor beta induced (TGFBI) and tenascin C",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1038/s41419-020-2438-8\" target=\"_blank\">10.1038/s41419-020-2438-8</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/32312959\" target=\"_blank\">Steitz et al. (2020)</a>",
+      "Rolf M\u00fcller",
+      "2024-10-22",
+      "ascites, cancer, high-grade serous ovarian carcinoma, tumor microenvironment, tumor-associated macrophages"
+    ],
+    [
+      "PXD010372",
+      "Multi-level proteomics identifies CT45 as a  chemosensitivity mediator and immunotherapy target in ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30241606\" target=\"_blank\">Coscia et al. (2018)</a>; <a href=\"https://dx.doi.org/10.1016/j.cell.2018.08.065\" target=\"_blank\">10.1016/j.cell.2018.08.065</a>",
+      "Matthias Mann",
+      "2024-10-22",
+      "Biomarker, Ovarian Cancer"
+    ],
+    [
+      "PXD012998",
+      "Proteomic analysis of endometrioid and high-grade serous ovarian tumour samples",
+      "PRIDE",
+      "Homo sapiens",
+      "Exactive Plus, LTQ Orbitrap Elite",
+      "<a href=\"https://dx.doi.org/10.1158/1078-0432.ccr-18-3818\" target=\"_blank\">10.1158/1078-0432.ccr-18-3818</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30979743\" target=\"_blank\">Dieters-Castator et al. (2019)</a>",
+      "Gilles A. Lajoie",
+      "2024-10-22",
+      "biomarker, endometrioid ovarian cancer, high grade serous ovarian cancer, immunohistochemistry, label-free quantification"
+    ],
+    [
+      "PXD012655",
+      "Integrated proteomic and N-glycoproteomic analyses of doxorubicin sensitive and resistant ovarian cancer cells reveal glycoprotein alteration in protein abundance and glycosylation",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28077793\" target=\"_blank\">Ji et al. (2017)</a>; <a href=\"https://dx.doi.org/10.18632/oncotarget.14542\" target=\"_blank\">10.18632/oncotarget.14542</a>",
+      "Fuquan Yang",
+      "2024-10-22",
+      "Glycoproteomics (B/D-HPP), Human Proteome Project, N-glycoproteome, ProteomeXchange project tag: Biology/Disease-Driven Human Proteome Project (B/D-HPP), SILAC, global pr, multidrug resistance, ovarian cancer"
+    ],
+    [
+      "PXD012731",
+      "Quantitative mass spectrometric analysis to unravel glycoproteomic signature of follicular fluid in women with polycystic ovary syndrome",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"https://dx.doi.org/10.1371/journal.pone.0214742\" target=\"_blank\">10.1371/journal.pone.0214742</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30946770\" target=\"_blank\">Patil et al. (2019)</a>",
+      "Dr. Srabani Mukherjee",
+      "2024-10-22",
+      "follicular fluid quantitative glycoproteomics, infertility, ovarian pathophysiology"
+    ],
+    [
+      "PXD009655",
+      "Microvesicle Proteomic profiling of Uterine Liquid Biopsy for Ovarian Cancer Early Detection",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30760538\" target=\"_blank\">0</a>; <a href=\"https://dx.doi.org/10.1074/mcp.ra119.001362\" target=\"_blank\">10.1074/mcp.ra119.001362</a>",
+      "Tamar Geiger",
+      "2024-10-22",
+      "Ovarian Cancer, Q-Exactive, biomarker, microvesicles, utero-tubal lavage"
+    ],
+    [
+      "PXD006396",
+      "Proteomics reveals NNMT as a master metabolic regulator of cancer associated fibroblasts",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1038/s41586-019-1173-8\" target=\"_blank\">10.1038/s41586-019-1173-8</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31043742\" target=\"_blank\">0</a>",
+      "Matthias Mann",
+      "2024-10-22",
+      "Ovarian Cancer Proteomics Laser Microdissection"
+    ],
+    [
+      "PXD007635",
+      "The immunopeptidomic landscape of ovarian carcinoma",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap",
+      "<a href=\"https://dx.doi.org/10.1073/pnas.1707658114\" target=\"_blank\">10.1073/pnas.1707658114</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29093164\" target=\"_blank\">Schuster et al. (2017)</a>",
+      "Hans-Georg Rammensee",
+      "2024-10-22",
+      "HLA, immunopeptidome, ovarian cancer"
+    ],
+    [
+      "PXD000695",
+      "In-depth proteomic analyses of ovarian cancer cell line exosomes reveals differential enrichment of functional categories compared to the NCI 60 proteome.",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/24434149\" target=\"_blank\">Sinha et al. (2014)</a>; <a href=\"https://dx.doi.org/10.1016/j.bbrc.2013.12.070\" target=\"_blank\">10.1016/j.bbrc.2013.12.070</a>",
+      "Thomas Kislinger",
+      "2024-10-22",
+      "Exosome, Ovarian Cancer"
+    ],
+    [
+      "PXD008546",
+      "In vivo DDR1 signalling -  Inhibition of DDR1-BCR signalling by nilotinib as\u00a0a\u00a0new therapeutic strategy for metastatic colorectal cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Elite",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29438985\" target=\"_blank\">Jeitany et al. (2018)</a>; <a href=\"https://dx.doi.org/10.15252/emmm.201707918\" target=\"_blank\">10.15252/emmm.201707918</a>",
+      "Debora Bonenfant, Novartis Institutes for BioMedical Research",
+      "2024-10-22",
+      "DDR1 tyrosine kinase, metastatic colorectal cancer, signalling"
+    ],
+    [
+      "PXD008582",
+      "In vitro DDR1 signalling -  Inhibition of DDR1-BCR signalling by nilotinib as\u00a0a\u00a0new therapeutic strategy for metastatic colorectal cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Elite",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29438985\" target=\"_blank\">Jeitany et al. (2018)</a>; <a href=\"https://dx.doi.org/10.15252/emmm.201707918\" target=\"_blank\">10.15252/emmm.201707918</a>",
+      "Debora Bonenfant, Novartis Institutes for BioMedical Research",
+      "2024-10-22",
+      "DDR1 tyrosine kinase, metastatic colorectal cancer, signalling"
+    ],
+    [
+      "PXD003668",
+      "Integrative proteomic profiling of ovarian cancer cell lines reveals precursor-cell associated proteins and functional status",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27561551\" target=\"_blank\">0</a>; <a href=\"https://dx.doi.org/10.1038/ncomms12645\" target=\"_blank\">10.1038/ncomms12645</a>",
+      "Matthias Mann",
+      "2024-10-22",
+      "Ovarian Cancer Proteomics, ProteomeXchange project tag: benchmarking, machine learning"
+    ],
+    [
+      "PXD001176",
+      "Down-regulation of Rab 5C-dependent Endocytosis and Glycolysis in Cisplatin-resistant Ovarian Cancer Cell Lines",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25096996\" target=\"_blank\">Jin et al. (2014)</a>; <a href=\"https://dx.doi.org/10.1074/mcp.M113.033217\" target=\"_blank\">10.1074/mcp.M113.033217</a>",
+      "Haiteng Deng",
+      "2024-10-22",
+      "Cisplatin, Rab 5C, drug-resistance, ovarian cancer cell line"
+    ],
+    [
+      "PXD010939",
+      "Univariate and classification analysis reveals potential diagnostic biomarkers for early-stage ovarian cancer type 1 and type 2",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion, Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1016/j.jprot.2019.01.017\" target=\"_blank\">10.1016/j.jprot.2019.01.017</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30710757\" target=\"_blank\">0</a>",
+      "Karin Sundfeldt",
+      "2024-10-22",
+      "Biomarker, Cyst fluid, FIGO stage I type 1 and type 2, Orbitrap Fusion, Ovarian cancer, Q Exactive"
+    ],
+    [
+      "PXD006138",
+      "Ovarian high grade serous carcinoma ascites cell proteoms",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1074/mcp.ra117.000400\" target=\"_blank\">10.1074/mcp.ra117.000400</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29141914\" target=\"_blank\">0</a>",
+      "Rolf Mueller",
+      "2024-10-22",
+      "HGSOC, OVCA, T cells, cancer, high grade serous ovarian carcinoma, macrophages, ovarian carcinoma"
+    ],
+    [
+      "PXD002549",
+      "MStern Blot - Urinary Biomarker Study",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26223766\" target=\"_blank\">0</a>",
+      "Hanno Steen, PhD",
+      "2024-10-22",
+      "MStern Blot, Ovarian Cyst, ProteomeXchange project tag: benchmarking, Urinary Biomarker, Urine, machine learning"
+    ],
+    [
+      "PXD015849",
+      "Identification of MRCKA as an integral component of ovarian cancer signaling and a therapeutic target",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1126/scisignal.aax8238\" target=\"_blank\">10.1126/scisignal.aax8238</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/32071169\" target=\"_blank\">0</a>",
+      "James Stuart Duncan",
+      "2024-10-22",
+      "CDC42BPA, High Grade Serous Ovarian Carcinoma, MRCKA"
+    ],
+    [
+      "PXD051500",
+      "Proteomics of 58 platinum-sensitive and 30 platinum-resistant ovarian cancer tissue-derived exosomes",
+      "PRIDE",
+      "Homo sapiens",
+      "autoflex",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/39104279\" target=\"_blank\">Shen et al. (2024)</a>; <a href=\"https://dx.doi.org/10.1002/jev2.12486\" target=\"_blank\">10.1002/jev2.12486</a>",
+      "Shizhen Shen",
+      "2024-10-17",
+      "4D DIA proteomics, Ovarian cancer, tissue-derived exosomes"
+    ],
+    [
+      "PXD051569",
+      "Serum Exosomal Omics Analysis: Revealing Energy Metabolism Anomalies and Promising Diagnostic Markers for Premature Ovarian Failure",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/39160560\" target=\"_blank\">Liu et al. (2024)</a>; <a href=\"https://dx.doi.org/10.1186/s12958-024-01277-9\" target=\"_blank\">10.1186/s12958-024-01277-9</a>",
+      "Zhen Liu",
+      "2024-10-17",
+      "POF, biomarker, exosomes, metabolomic"
+    ],
+    [
+      "PXD053289",
+      "Immunoaffinity-free chromatographic purification of ovarian cancer biomarker CA125 (MUC16) from blood serum",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Eclipse",
+      "<a href=\"https://dx.doi.org/10.1039/d4ay01172d\" target=\"_blank\">10.1039/d4ay01172d</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/39177265\" target=\"_blank\">Schuster-Little et al. (2024)</a>",
+      "Rebecca Whelan",
+      "2024-10-17",
+      "CA125, MUC16, ovarian, plasma"
+    ],
+    [
+      "PXD025880",
+      "Protease activity profiling of ovarian clear cell carcinoma",
+      "MassIVE",
+      "Homo sapiens",
+      "LTQ Orbitrap Elite",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/35716777\" target=\"_blank\">Mehner et al. (2022)</a>",
+      "Evette Radisky",
+      "2024-10-16",
+      "activity-based probe, activity-based protein profiling (ABPP), enzyme inhibitor, ovarian cancer, peptidase, protein chemical modification, proteolytic enzyme, serine protease, tumor microenvironment"
+    ],
+    [
+      "PXD042572",
+      "The effect of inhibition of receptor tyrosine kinase AXL on DNA damage response in ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://dx.doi.org/10.1038/S42003-023-05045-0\" target=\"_blank\">10.1038/S42003-023-05045-0</a>",
+      "Dennis Kappei",
+      "2024-10-07",
+      "AXL, Cholesterol biosynthesis, Combination treatment, DNA damage"
+    ],
+    [
+      "PXD026309",
+      "HMGB1 interactome in prostate and ovarian cancer cells treated with cisplatin",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Velos",
+      "<a href=\"https://dx.doi.org/10.3390/cancers13184686\" target=\"_blank\">10.3390/cancers13184686</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/34572914\" target=\"_blank\">Barreiro-Alonso et al. (2021)</a>",
+      "Jyoti Choudhary",
+      "2024-10-07",
+      "HMGB1, PC-3, SKOV-3, cisplatin, interactome, ovarian cancer, prostate cancer"
+    ],
+    [
+      "PXD056150",
+      "proteomics data of CypA IP inovarian cancer",
+      "iProX",
+      "Homo sapiens",
+      "LTQ Orbitrap Velos",
+      "Dataset with its publication pending",
+      "Ting Lan",
+      "2024-09-24",
+      "CypA IP ovarian cancer"
+    ],
+    [
+      "PXD046360",
+      "Changes in the tumor microenvironment mark transition from serous borderline tumor to low grade serous carcinoma",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Eclipse",
+      "<a href=\"https://dx.doi.org/10.1002/path.6338\" target=\"_blank\">10.1002/path.6338</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/39081243\" target=\"_blank\">Vallejos et al. (2024)</a>",
+      "Gregg Morin",
+      "2024-08-15",
+      "TMT, ovarian cancer, serous borderline tumor"
+    ],
+    [
+      "PXD033108",
+      "Discovery and validation of serum glycoprotein biomarker panel for detection of high grade serous ovarian cancer",
+      "PanoramaPublic",
+      "Homo sapiens",
+      "6490 Triple Quadrupole LC/MS",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37147936\" target=\"_blank\">Dutt et al. (2023)</a>",
+      "Michelle Hill",
+      "2024-08-06",
+      "LeMBA, STL, glycosylation, lectin, ovarian cancer screening"
+    ],
+    [
+      "PXD053625",
+      "Proteomic characterization of epithelial ovarian cancer",
+      "iProX",
+      "Homo sapiens, Mus musculus",
+      "Orbitrap Exploris 480, Q Exactive HF, Q Exactive HF-X, Triple Quad 4500",
+      "Dataset with its publication pending",
+      "Tiannan Guo",
+      "2024-07-10",
+      "FF tissue, PCT-PulseDIA, TMTpro, epithelial ovarian cancer, plasma"
+    ],
+    [
+      "PXD049682",
+      "TIMELESS haploinsufficiency induces a PARG-dependency that is rescued by nucleoside supplementation, thus mimicking intrinsic PARG inhibitor sensitivity of ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://dx.doi.org/10.1093/NARCAN/ZCAE030\" target=\"_blank\">10.1093/NARCAN/ZCAE030</a>",
+      "Stephen S. Taylor",
+      "2024-06-28",
+      "ADP-ribosylation DDA, DNA replication, HGSOC, PARG inhibitor, ethcd, replication stress"
+    ],
+    [
+      "PXD050782",
+      "Protein homeostasis maintained by HOOK1 levels promotes the tumorigenic and stemness properties of ovarian cancer cells through reticulum stress and autophagy",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/38807192\" target=\"_blank\">Su et al. (2024)</a>; <a href=\"https://dx.doi.org/10.1186/s13046-024-03071-2\" target=\"_blank\">10.1186/s13046-024-03071-2</a>",
+      "Connie Jimenez",
+      "2024-06-23",
+      "autophagy, cancer stem cells, cell death, endoplasmic reticulum stress, ovarian cancer"
+    ],
+    [
+      "PXD051282",
+      "Urinary proteomic analysis of HGSOC",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Maowei Ni",
+      "2024-06-18",
+      "ovarian cancer, prognostic  biomarkers, relapse-free survival, urine"
+    ],
+    [
+      "PXD019327",
+      "Proteome profiles of paired ovarian cancer ascites before and after chemotherapy",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://dx.doi.org/10.6019/PXD019327\" target=\"_blank\">10.6019/PXD019327</a>",
+      "Georgij Arapidi",
+      "2024-05-29",
+      "Combinatorial Peptide Libraries, Ovarian Cancer Ascites, Therapy-induced Secretome"
+    ],
+    [
+      "PXD045663",
+      "Cisplatin-Induced Changes in Proteomic Profiles of Ovarian Cancer Cell and HaCaT Secretomes",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://dx.doi.org/10.6019/PXD045663\" target=\"_blank\">10.6019/PXD045663</a>",
+      "Georgij Arapidi",
+      "2024-05-29",
+      "Ovarian Cancer, Therapy-induced Secretome"
+    ],
+    [
+      "PXD045647",
+      "Effect of malignant ascites before and after therapy on the proteome of ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://dx.doi.org/10.6019/PXD045647\" target=\"_blank\">10.6019/PXD045647</a>",
+      "Georgij Arapidi",
+      "2024-05-29",
+      "Ascites, Chemoresistance, Ovarian Cancer"
+    ],
+    [
+      "PXD019096",
+      "Cisplatin-Induced Changes in Proteomic Profiles of Ovarian Cancer Cell and Fibroblast Secretomes",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"https://dx.doi.org/10.6019/PXD019096\" target=\"_blank\">10.6019/PXD019096</a>",
+      "Georgij Arapidi",
+      "2024-05-29",
+      "Fibroblasts, Ovarian Cancer, Therapy-induced Secretome"
+    ],
+    [
+      "PXD027948",
+      "SILAC Strategy for Analysis of Proteins Released To the Extracellular Medium and Penetrated",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://dx.doi.org/10.6019/PXD027948\" target=\"_blank\">10.6019/PXD027948</a>",
+      "Georgij Pavlovich Arapidi",
+      "2024-05-29",
+      "Extracellular vesicles, Ovarian Cancer, SILAC, Therapy-induced Secretome"
+    ],
+    [
+      "PXD027950",
+      "The Role of Extracellular Spliceosomal snRNAs in Communication of Ovarian Cancer Cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://dx.doi.org/10.6019/PXD027950\" target=\"_blank\">10.6019/PXD027950</a>",
+      "Georgij Pavlovich Arapidi",
+      "2024-05-29",
+      "Ovarian Cancer, Small nuclear RNA, Spliceososme"
+    ],
+    [
+      "PXD019642",
+      "Subcellular Relocalization of Proteins in Response to Cisplatin-Induced DNA Damage",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"https://dx.doi.org/10.6019/PXD019642\" target=\"_blank\">10.6019/PXD019642</a>",
+      "Georgij Arapidi",
+      "2024-05-29",
+      "Cisplatin, Ovarian Cancer, Subcellular proteomics"
+    ],
+    [
+      "PXD027794",
+      "Effect of therapy-induced secretomes on the proteome of ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://dx.doi.org/10.6019/PXD027794\" target=\"_blank\">10.6019/PXD027794</a>",
+      "Georgij Pavlovich",
+      "2024-05-29",
+      "Ovarian Cancer, Therapy-induced Secretome"
+    ],
+    [
+      "PXD041751",
+      "Mass spectrometry analysis of extracellular vesicles from malignant ascites in ovarian cancer patients",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/38490958\" target=\"_blank\">Vyhl et al. (2024)</a>; <a href=\"https://dx.doi.org/10.1002/jev2.12420\" target=\"_blank\">10.1002/jev2.12420</a>",
+      "Zbynek Zdrahal",
+      "2024-05-24",
+      "ascites, extracellular vesicles (EV), fallopian tube and peritoneum (HGSC), high-grade serous carcinoma of the ovary, macrophage, ovarian cancer (OC), tandem mass spectrometry (MS/MS), tumor microenvironment"
+    ],
+    [
+      "PXD044703",
+      "In-depth proteome profiling of ovarian cancer FFPE tissues associated with therapeutic response to PARP inhibitor",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "<a href=\"https://dx.doi.org/10.1002/ctm2.1693\" target=\"_blank\">10.1002/ctm2.1693</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/38720404\" target=\"_blank\">Kim et al. (2024)</a>",
+      "Dohyun Han",
+      "2024-05-21",
+      "Ovarian cancer, PARP inhibitor, therapeutic response"
+    ],
+    [
+      "PXD044117",
+      "A revised molecular model of ovarian cancer biomarker CA125 (MUC16) enabled by long-read sequencing",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://dx.doi.org/10.1158/2767-9764.crc-23-0327\" target=\"_blank\">10.1158/2767-9764.crc-23-0327</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/38197671\" target=\"_blank\">Wang et al. (2024)</a>",
+      "Rebecca Jean Whelan",
+      "2024-05-21",
+      "CA125, MUC16, Nanopore sequencing, biomarker, ovarian cancer"
+    ],
+    [
+      "PXD044196",
+      "A Multi-Faceted Analysis Showing CRNDE Transcripts and a Recently Confirmed Micropeptide as Important Players in Ovarian Carcinogenesis (identification of the CRNDEP micropeptide by immunoprecipitation followed by MS in one OvCa sample)",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/38673965\" target=\"_blank\">Balcerak et al. (2024)</a>; <a href=\"https://dx.doi.org/10.6019/PXD044196\" target=\"_blank\">10.6019/PXD044196</a>; <a href=\"https://dx.doi.org/10.3390/ijms25084381\" target=\"_blank\">10.3",
+      "Lukasz Szafron",
+      "2024-04-28",
+      "CRNDE, DNA methylation, DNA sequence variant, SEP, TP53, adhesion, affinity chromatography, centrosome, cytoskeleton, lncRNA, micropeptide, microtubular toxin, microtubule, nucleolus, ovarian cancer, protein expression"
+    ],
+    [
+      "PXD044160",
+      "A Multi-Faceted Analysis Showing CRNDE Transcripts and a Recently Confirmed Micropeptide as Important Players in Ovarian Carcinogenesis (CRNDEP co-immunoprecipitation)",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/38673965\" target=\"_blank\">Balcerak et al. (2024)</a>; <a href=\"https://dx.doi.org/10.3390/ijms25084381\" target=\"_blank\">10.3390/ijms25084381</a>; <a href=\"https://dx.doi.org/10.6019/PXD044160\" target=\"_blank\">1",
+      "Lukasz Szafron",
+      "2024-04-28",
+      "CRNDE, DNA methylation, DNA sequence variant, SEP, TP53, adhesion, affinity chromatography, centrosome, cytoskeleton, lncRNA, micropeptide, microtubular toxin, microtubule, nucleolus, ovarian cancer, protein expression"
+    ],
+    [
+      "PXD045417",
+      "Proteogenomic Analysis of Enriched Tumor Epithelium Identifies Prognostic Signatures and an Increased Dependency of Homologous Recombination Proficient Cells on BMI1 in High Grade Serous Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "<a href=\"https://dx.doi.org/10.1038/S41698-024-00519-8\" target=\"_blank\">10.1038/S41698-024-00519-8</a>",
+      "Thomas P.",
+      "2024-03-16",
+      "APOLLO, homologous recombination deficiency, ovarian cancer, proteogenomics"
+    ],
+    [
+      "PXD045710",
+      "Evaluation of Tumor Infiltrating Lymphocytes in High-Grade Serous Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "<a href=\"https://dx.doi.org/10.1038/S41698-024-00519-8\" target=\"_blank\">10.1038/S41698-024-00519-8</a>",
+      "Thomas P. Conrads, PhD",
+      "2024-03-15",
+      "HGSOC, LC-MS, ovarian cancer, tumor infiltrating lymphocytes"
+    ],
+    [
+      "PXD043220",
+      "Proteomic and phosphoproteomic reprogramming in epithelial ovarian cancer metastasis",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive Plus",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37820923\" target=\"_blank\">Frederick et al. (2023)</a>; <a href=\"https://dx.doi.org/10.1016/j.mcpro.2023.100660\" target=\"_blank\">10.1016/j.mcpro.2023.100660</a>",
+      "Ilka Heinemann",
+      "2024-01-26",
+      "Aurora Kinase, Epithelial ovarian cancer, Rock1, metastasis, phosphoproteomics"
+    ],
+    [
+      "PXD047188",
+      "Detection of candidate ovarian cancer protein biomarkers in sera using a multiplexed targeted mass spectrometry assay",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/38172678\" target=\"_blank\">Ryu et al. (2024)</a>; <a href=\"https://dx.doi.org/10.1186/s12014-023-09447-4\" target=\"_blank\">10.1186/s12014-023-09447-4</a>",
+      "Stefani Thomas",
+      "2024-01-26",
+      "Parallel Reaction Monitoring (PRM), diagnostic biomarkers, high-grade serous ovarian cancer (HGSOC), insulin-like growth factor-binding protein 2 (IBP2), serum"
+    ],
+    [
+      "PXD039281",
+      "Elevated PAF1-RAD52 Axis Confers Chemoresistance to Human Cancers",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36709426\" target=\"_blank\">Rauth et al. (2023)</a>; <a href=\"https://dx.doi.org/10.1016/j.celrep.2023.112043\" target=\"_blank\">10.1016/j.celrep.2023.112043</a>; <a href=\"https://dx.doi.org/10.6019/PXD039281\" targ",
+      "Moorthy P. Ponnusamy",
+      "2024-01-26",
+      "Biology/Disease-Driven Human Proteome Project (B/D-HPP), Human Proteome Project, Lung Cancer, Ovarian Cancer, PAF1, Pancreatic Cancer, ProteomeXchange project tag: Cancer (B/D-HPP), RAD52"
+    ],
+    [
+      "PXD044157",
+      "ProteoMixture: A Cell Deconvolution Tool for Bulk Tissue Proteomics Data",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "Dataset with its publication pending",
+      "Thomas P. Conrads",
+      "2024-01-12",
+      "High grade serous ovarian cancer, cellular admixture, immune signature, laser microdissection, stroma signature, tumor signature"
+    ],
+    [
+      "PXD048369",
+      "Metabolomic Analysis of Follicular Fluid in Normal-weight Patients with PCOS (Polycystic Ovary Syndrome)",
+      "iProX",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "Dataset with its publication pending",
+      "Suming Chen",
+      "2024-01-10",
+      "LC\u00e2\u20ac\u2019MS, follicular fluid, metabolomics, polycystic ovary syndrome, reproductive"
+    ],
+    [
+      "PXD025358",
+      "Proteomic changes in adipose tissue and skeletal muscle in women with PCOS",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "Dataset with its publication pending",
+      "Carina Sihlbom",
+      "2024-01-09",
+      "fat, phosphopeptide, polycystic ovary syndrome, protein expression"
+    ],
+    [
+      "PXD044705",
+      "Interactions of Histone Deacetylase 6 with DNA damage repair fac-tors strengthens its utility as a combination drug target in high-grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/38107255\" target=\"_blank\">Duda & Thomas (2023)</a>; <a href=\"https://dx.doi.org/10.1021/acsptsci.3c00215\" target=\"_blank\">10.1021/acsptsci.3c00215</a>",
+      "Stefani N Thomas",
+      "2023-12-28",
+      "LC-MS, hdacs, histone deacetylase 6, ovarian cancer, protein-protein interaction"
+    ],
+    [
+      "PXD045423",
+      "Dynamics of single-cell protein covariation during epithelial-mesenchymal transition",
+      "MassIVE",
+      "Homo sapiens",
+      "Q Exactive",
+      "no publication",
+      "Nikolai Slavov",
+      "2023-12-21",
+      "Bulk LF DIA, Epithelial to Mesenchymal Transition, SCoPE2, Single Cell Proteomics, nPoP"
+    ],
+    [
+      "PXD042934",
+      "Regulation of human granulosa cells by oxygen",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "<a href=\"https://dx.doi.org/10.1093/MOLEHR/GAAD049\" target=\"_blank\">10.1093/MOLEHR/GAAD049</a>",
+      "Prof. Dr. med. Artur Mayerhofer",
+      "2023-12-20",
+      "Hypoxia, Inflammation, Ovary, proteomic analysis"
+    ],
+    [
+      "PXD040849",
+      "Comprehensive multi-omics analysis revealed WEE1 as a synergistic lethal target with hyperthermia through CDK super-activation",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "Dataset with its publication pending",
+      "Sun chaoyang",
+      "2023-12-12",
+      "AZD1775, CDK1, WEE1, hyperthermia, multi-omics, ovarian cancer"
+    ],
+    [
+      "PXD047551",
+      "Proteome profiling of ovarian clear cell carcinomas for the prognostic markers of the recurrence of the platinum therapy",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "Dataset with its publication pending",
+      "Tiannan Guo",
+      "2023-12-10",
+      "Cox regression, DIA, DNA repire, extracellular Matrix, ovarian clear cell carcinoma, platinum resistance, prognosic model, recurrence free survival"
+    ],
+    [
+      "PXD042320",
+      "Omentum gel enables the study of metastatic ovarian cancer and stromal cell functions in a physiologically relevant environment",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "Dataset with its publication pending",
+      "Sara Zanivan",
+      "2023-11-28",
+      "CAF, Extracellular matrix, Matrisome, Omentum, Ovarian cancer"
+    ],
+    [
+      "PXD042317",
+      "Omentum gel enables the study of metastatic ovarian cancer and stromal cell functions in a physiologically relevant environment",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "Dataset with its publication pending",
+      "Sara Zanivan",
+      "2023-11-28",
+      "CAF, Extracellular matrix, Matrisome, Omentum, Ovarian cancer"
+    ],
+    [
+      "PXD040959",
+      "Profiling of serum N-glycome in ovarian cancer by MALDI-MS",
+      "PRIDE",
+      "Homo sapiens",
+      "autoflex",
+      "Dataset with its publication pending",
+      "Xin Liu",
+      "2023-11-24",
+      "MALDI-MS, N-glycans, diagnosis, ovarian cancer, serum"
+    ],
+    [
+      "PXD041002",
+      "TMT data from ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Eclipse",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37140039\" target=\"_blank\">Declercq et al. (2023)</a>",
+      "Eduard Sabid\u00f3",
+      "2023-11-14",
+      "TMT cancer"
+    ],
+    [
+      "PXD033741",
+      "Proteomic Characterization of Epithelial Ovarian Cancer Delineates Molecular Signatures and Therapeutic Targets in Distinct Histological Subtypes",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "Dataset with its publication pending",
+      "Qi-Jun Wu",
+      "2023-10-30",
+      "epithelial ovarian cancer\u00ef\u00bc\u203aproteomics\u00ef\u00bc\u203ahistological subtype\u00ef\u00bc\u203atumor biomarkers\u00ef\u00bc\u203adrug target"
+    ],
+    [
+      "PXD045753",
+      "Peptidomic analysis of follicular fluid in patients with polycystic ovarian syndrome",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive Plus",
+      "Dataset with its publication pending",
+      "pingyin",
+      "2023-10-26",
+      "Assisted reproduction, Follicular fluid, In Vitro Fertilization, Peptidomics analysis, polycystic ovarian syndrome"
+    ],
+    [
+      "PXD037907",
+      "TMTC1 promotes invasiveness of ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37221403\" target=\"_blank\">Yeh et al. (2023)</a>",
+      "Min-Chuan Huang",
+      "2023-10-24",
+      "O-mannosylation, Ovarian cancer, TMTC1"
+    ],
+    [
+      "PXD036726",
+      "Lineage specific extracellular vesicle-associated protein biomarkers for the early detection of high grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://dx.doi.org/10.6019/PXD036726\" target=\"_blank\">10.6019/PXD036726</a>",
+      "Andrew K.",
+      "2023-10-09",
+      "biomarkers, early detection, exosomes, extracellular vesicles, fallopian tube, high grade serous, ovarian cancer"
+    ],
+    [
+      "PXD010631",
+      "Partial covariance two-dimensional mass spectrometry for bio-molecular primary structure",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ",
+      "Dataset with its publication pending",
+      "MarinaEdelson-Averbukh",
+      "2023-09-30",
+      "combinatorial modifications, two-dimensional"
+    ],
+    [
+      "PXD040742",
+      "Proteogenomic analysis of chemo-refractory high grade serous ovarian cancer",
+      "PanoramaPublic",
+      "Homo sapiens",
+      "QTRAP 6500",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37541199\" target=\"_blank\">Chowdhury et al. (2023)</a>",
+      "Jeff Whiteaker",
+      "2023-09-18",
+      "FFPE, HGSOC, MRM"
+    ],
+    [
+      "PXD045194",
+      "Targeting metabolic fluxes reverts metastatic transitions in ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Prof. Ramray Bhat",
+      "2023-09-07",
+      "Genome-scale metabolic models, OVCAR-3, drug repurposing, morphological transitions, oseltamivir, ovarian cancer"
+    ],
+    [
+      "PXD044243",
+      "TMT-based Quantitative Proteomics Identifies Protein Markers of Resistance to Neoadjuvant Chemotherapy in Ovarian Cancer",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "Dataset with its publication pending",
+      "Zhuo Yang",
+      "2023-07-31",
+      "chemoresistance, neoadjuvant chemotherapy, ovarian cancer"
+    ],
+    [
+      "PXD019863",
+      "Data-dependent and independent acquisition of Salmonella in epithelial cells throughout the infection process",
+      "PRIDE",
+      "Homo sapiens, Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344",
+      "Q Exactive HF",
+      "Dataset with its publication pending",
+      "Petra Van Damme",
+      "2023-07-29",
+      "HeLa cells, Salmonella, data-dependent acquisition (DDA), data-independent acquisition (DIA)"
+    ],
+    [
+      "PXD044121",
+      "Results of proteomic assay analysis in patients with polycystic ovary syndrome",
+      "iProX",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37854181\" target=\"_blank\">Tong et al. (2023)</a>",
+      "Cheng Tong",
+      "2023-07-26",
+      "LC-MS, PCOS, Serum"
+    ],
+    [
+      "PXD040430",
+      "A HUWE1 defect causes PARP inhibitor resistance by modulating the BRCA1-\u00e2\u02c6\u202011q splice variant",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "Dataset with its publication pending",
+      "Jyoti Choudhary",
+      "2023-07-18",
+      "BRCA1, HUWE1, PARP, PARPi, ovarian cancer"
+    ],
+    [
+      "PXD041990",
+      "Carnitine palmitoyltransferase 1A promotes mitochondrial fission by enhancing MFF succinylation in ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "Dataset with its publication pending",
+      "HuanjieShao",
+      "2023-05-14",
+      "MFF, mitochondrial dynamics, ovarian cancer, succinylation"
+    ],
+    [
+      "PXD037543",
+      "Matrix Gla Protein acts as a driver of stemness and tumor initiation in ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36977707\" target=\"_blank\">Nieddu et al. (2023)</a>",
+      "Jesper Velgaard Olsen",
+      "2023-05-10",
+      "Cancer stem cells, Exploris 480, Hedgehog pathway, Matrix Gla protein, Ovarian cancer, Tumor initiation"
+    ],
+    [
+      "PXD039422",
+      "Effect of cryopreservation of lysate/tissue on EOC tissue-derived EVs",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37123245\" target=\"_blank\">Shen et al. (2023)</a>",
+      "Shizhen Shen",
+      "2023-05-10",
+      "Extracellular Vesicles, Ovarian Cancer"
+    ],
+    [
+      "PXD033785",
+      "Label Free Quantification Mass Spectrometry Identifies Protein Markers of Chemoresistance in Serous Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "maXis",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37046833\" target=\"_blank\">Arentz et al. (2023)</a>; <a href=\"https://dx.doi.org/10.6019/PXD033785\" target=\"_blank\">10.6019/PXD033785</a>",
+      "Prof Peter Hoffmann",
+      "2023-05-10",
+      "chemoresistance, mass-spectrometry, ovarian cancer"
+    ],
+    [
+      "PXD040422",
+      "PPP2R1A mutations cause ATR inhibitor synthetic lethality in ARID1A deficient ovarian clear cell carcinoma",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "Dataset with its publication pending",
+      "JyotiChoudhary",
+      "2023-05-10",
+      "ARID1A, ATR, Ovarian clear cell carcinoma, synthetic lethality"
+    ],
+    [
+      "PXD036940",
+      "Extracellular matrix educates a tumor macrophage phenotype found in ovarian cancer metastasis",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Professor Pedro R Cutillas",
+      "2023-04-11",
+      "Decellularized tissue model, Tumor-associated macrophages, cancer, extracellular matrix, immunity"
+    ],
+    [
+      "PXD039689",
+      "Identification of phosphorylation sites regulated by lysophosphatidic acid (LPA) in OCMI91s ovarian cancer cells",
+      "MassIVE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "no publication",
+      "Rolf Mueller",
+      "2023-03-18",
+      "DOCK7, actomyosin dynamics, entosis, lysophosphatidic acid, ovarian cancer metastasis, phosphoproteome, protein kinases, protein phosphatase 1 regulatory subunit MYPT1, signal transduction"
+    ],
+    [
+      "PXD039690",
+      "Identification of phosphorylation sites regulated by lysophosphatidic acid (LPA) in OVCAR8 ovarian cancer cells",
+      "MassIVE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "no publication",
+      "Rolf Mueller",
+      "2023-03-18",
+      "DOCK7, actomyosin dynamics, entosis, lysophosphatidic acid, ovarian cancer metastasis, phosphoproteome, protein kinases, protein phosphatase 1 regulatory subunit MYPT1, signal transduction"
+    ],
+    [
+      "PXD034636",
+      "Proteomic analysis of blood biomarkers predicting prognosis of high-grade serous ovarian carcinoma",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36669591\" target=\"_blank\">Kim et al. (2023)</a>",
+      "Dohyun Han",
+      "2023-03-11",
+      "BoxCar, Plasma, biomarker"
+    ],
+    [
+      "PXD026929",
+      "miR141 Proteomic profile in Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36624516\" target=\"_blank\">Mo et al. (2023)</a>",
+      "Dr. David W. CHAN",
+      "2023-03-10",
+      "Exosome, LFQ"
+    ],
+    [
+      "PXD040651",
+      "PRAME and CTCFL-reactive TCRs for the treatment of ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos, Q Exactive",
+      "Dataset with its publication pending",
+      "Peter A. vanVeelen",
+      "2023-03-10",
+      "CLDN6, CTCFL, Ovarian cancer, PRAME, T-cell therapy, TCR gene transfer, allogeneic HLA, immunotherapy, peptide"
+    ],
+    [
+      "PXD036969",
+      "Multi-omics provide evidence for an anti-inflammatory immune signature and metabolic alterations in patients with Long COVID Syndrome \u00e2\u20ac\u201c an exploratory study (plasma)",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36507225\" target=\"_blank\">Kovarik et al. (2023)</a>",
+      "Christopher Gerner",
+      "2023-03-10",
+      "Chronic Fatigue Syndrome, Covid-19, Long Covid Syndrome, Macrophage Polarization, Metabolomics, ProteomeXchange project tag: Sars-cov-2"
+    ],
+    [
+      "PXD036970",
+      "Multi-omics provide evidence for an anti-inflammatory immune signature and metabolic alterations in patients with Long COVID Syndrome \u00e2\u20ac\u201c an exploratory study (supernatants of M1 and M2-like macrophages)",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36507225\" target=\"_blank\">Kovarik et al. (2023)</a>",
+      "Christopher Gerner",
+      "2023-03-10",
+      "Chronic Fatigue Syndrome, Covid-19, Long Covid Syndrome, Macrophage Polarization, Metabolomics, ProteomeXchange project tag: Sars-cov-2"
+    ],
+    [
+      "PXD040706",
+      "Integrated proteomics and metabolomics analysis reveals impaired glucose metabolism and oxidative phosphorylation in visceral adipose tissue of women with polycystic ovary syndrome",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "Dataset with its publication pending",
+      "Yue Zhao",
+      "2023-03-08",
+      "Polycystic ovary syndrome, Visceral adipose tissue"
+    ],
+    [
+      "PXD039160",
+      "Resistance prediction in HGSOC with NACT using data-independent acquisition proteomics and an ovarian tissue-specific spectral library",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/36855266\" target=\"_blank\">Qian et al. (2023)</a>",
+      "Tiannan Guo",
+      "2023-03-07",
+      "Data-Independent Acquisition, MS spectral library, machine learning, ovarian cancer, resistance, targeted proteomics"
+    ],
+    [
+      "PXD030034",
+      "The molecular landscape of homologous recombination deficient, end-stage, high grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Dr. Elizabeth L Christie",
+      "2023-02-28",
+      "Acquired resistance, High grade serous cancer, Multi-omics, Ovarian cancer"
+    ],
+    [
+      "PXD031629",
+      "Discovery proteomics in OVCAR-8 versus NCI/ADR-Res",
+      "jPOST",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Kelsey Fisher-Wellman",
+      "2023-02-11",
+      "drug resistance, mitochondria, ovarian cancer"
+    ],
+    [
+      "PXD031518",
+      "Classification of High-Grade Serous Ovarian Cancer Using Tumor Morphologic Characteristics",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "Dataset with its publication pending",
+      "Anil K. Sood",
+      "2023-01-27",
+      "diagnostic laparascopy, morphology, neoadjuvant chemotherapy, ovarian cancer"
+    ],
+    [
+      "PXD038859",
+      "Development of the non-receptor tyrosine kinase FER-targeting PROTACs as a potential strategy for antagonizing ovarian cancer metastasis",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/37196766\" target=\"_blank\">Zhang et al. (2023)</a>",
+      "Gaofeng Fan",
+      "2022-12-15",
+      "FER, Ovarian cancer, PROTAC, Protein degradation, Tyrosine kinase"
+    ],
+    [
+      "PXD029432",
+      "Integrative functional proteomics identifies PARP1 protein complex differences and PARP inhibitor-mediated DDR and AKT-mTOR signaling in ovarian carcinoma: Phosphoproteomics",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36183837\" target=\"_blank\">Deng et al. (2022)</a>; <a href=\"https://dx.doi.org/10.6019/PXD029432\" target=\"_blank\">10.6019/PXD029432</a>",
+      "Uwe Rix",
+      "2022-11-28",
+      "BRCA, Ovarian Cancer, PARP1, Phosphoproteomics"
+    ],
+    [
+      "PXD036467",
+      "Differential histone deacetylase inhibitor-induced perturbations of the global proteomic landscape in the setting of high-grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36193784\" target=\"_blank\">Duda, Twigg & Thomas (2023)</a>; <a href=\"https://dx.doi.org/10.6019/PXD036467\" target=\"_blank\">10.6019/PXD036467</a>",
+      "Stefani Thomas",
+      "2022-11-04",
+      "ProteomeXchange project tag: Human Proteome Project, high-grade serous ovarian cancer, histone deacetylase, histone deacetylase inhibitor"
+    ],
+    [
+      "PXD029428",
+      "Integrative functional proteomics identifies PARP1 protein complex differences and PARP inhibitor-mediated DDR and AKT-mTOR signaling in ovarian carcinoma:  ADP-Ribosylation",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.6019/PXD029428\" target=\"_blank\">10.6019/PXD029428</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36183837\" target=\"_blank\">Deng et al. (2022)</a>",
+      "Uwe Rix",
+      "2022-10-21",
+      "ADP-Ribosylation, BRCA, Ovarian Cancer, PARP1"
+    ],
+    [
+      "PXD029424",
+      "Integrative functional proteomics identifies PARP1 protein complex differences and PARP inhibitor-mediated DDR and AKT-mTOR signaling in ovarian carcinoma: Chemical Proteomics",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.6019/PXD029424\" target=\"_blank\">10.6019/PXD029424</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36183837\" target=\"_blank\">Deng et al. (2022)</a>",
+      "Uwe Rix",
+      "2022-10-21",
+      "BRCA-deficient, Ovarian cancer, PARP1, chemical proteomics"
+    ],
+    [
+      "PXD032160",
+      "Mitochondrial dynamics in ovarian granulosa cells during follicular growth and in human KGN cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/35944223\" target=\"_blank\">Kaseder et al. (2022)</a>",
+      "Prof. Dr. med. Artur Mayerhofer",
+      "2022-10-14",
+      "Forskolin, KGN, Ovary, cAMP, granulosa cells, mitochondrial dynamics"
+    ],
+    [
+      "PXD031996",
+      "Proteomic analysis of follicular fluid of Patients with Polycystic Ovary Syndrome",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36072434\" target=\"_blank\">Wang et al. (2022)</a>",
+      "Daimin Wei",
+      "2022-10-14",
+      "follicular fluid, polycystic ovary syndrome, tandem mass tag"
+    ],
+    [
+      "PXD037353",
+      "BCAA insufficiencies lead to premature ovarian insufficiency via ceramide induced elevation of ROS",
+      "iProX",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/36847712\" target=\"_blank\">Guo et al. (2023)</a>",
+      "Jin Li",
+      "2022-10-13",
+      "Ceramide, Low BCAA diet, Premature ovarian insufficiency, ROS"
+    ],
+    [
+      "PXD036148",
+      "Comparative Proteomic Analysis of the Mitochondria of Menstrual Stem Cells and Ovarian Cancer Cells",
+      "PRIDE",
+      "Homo sapiens",
+      "MaxQuant",
+      "Dataset with its publication pending",
+      "XiuhuiChen",
+      "2022-10-12",
+      "Energy metabolism, Menstrual stem cell, Mitochondria transplantation, OXPHOS"
+    ],
+    [
+      "PXD031929",
+      "Proteomic Alterations Associated with Residual Disease in Neoadjuvant Chemotherapy Treated Ovarian Cancer Tissues",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "Dataset with its publication pending",
+      "Thomas P. Conrads",
+      "2022-10-05",
+      "High-Grade Serous Ovarian Cancer, Neoadjuvant Chemotherapy, Precision Medicine, Residual Disease"
+    ],
+    [
+      "PXD031892",
+      "Sera Protein Signatures of Endometrial Cancer Lymph Node Metastases",
+      "jPOST",
+      "Homo sapiens",
+      "LCQ Advantage",
+      "",
+      "Jay Hanas & Doris Mangiaracina Benbrook ",
+      "2022-09-18",
+      "Ovarian cancer, endometrial cancer, lymph node metastases, sera"
+    ],
+    [
+      "PXD030390",
+      "Proteomic Signature for Detection of High Grade Ovarian Cancer in germline BRCA mutation carriers",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "Dataset with its publication pending",
+      "Tami Geiger",
+      "2022-09-13",
+      "BRCA, Ovarian cancer, biomarkers, liquid biopsies, uterine lavage"
+    ],
+    [
+      "PXD032355",
+      "The proteome of clear cell ovarian carcinoma",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "Dataset with its publication pending",
+      "Gregg Morin",
+      "2022-09-02",
+      "Clear cell, Ovarian carcinoma, TMT"
+    ],
+    [
+      "PXD028434",
+      "Perturbation of JAK-STAT signaling in macrophages by arachidonic acid with implications for the ovarian cancer microenvironment",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "Dataset with its publication pending",
+      "Rolf M\u00fcller",
+      "2022-08-25",
+      "Arachidonic Acid, JAK/STAT, Ovarian Cancer, lipid rafts, macrophages, monocyte-derived macrophages, tumor associated macrophages"
+    ],
+    [
+      "PXD033169",
+      "Novel Diagnostic Biomarkers for High-Grade Serous Ovarian Cancer Uncovered by Data-Independent Acquisition Mass Spectrometry",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/35939567\" target=\"_blank\">Huh et al. (2022)</a>",
+      "Un-Beom Kang",
+      "2022-08-11",
+      "data-independent acquisition, high-grade serous ovarian cancer, serum biomarker"
+    ],
+    [
+      "PXD034246",
+      "Chemoresistant Cancer Cell Lines are Characterized by Migratory, Amino Acid Metabolism, Protein Catabolism and IFN1 Signalling Perturbations.",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Exploris 480",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35681748\" target=\"_blank\">Acland et al. (2022)</a>",
+      "Manuela Klingler-Hoffmann",
+      "2022-08-11",
+      "cancer cell lines, chemoresistance, metabolomics, ovarian cancer"
+    ],
+    [
+      "PXD030450",
+      "Comparative assessment of quantification methods for tumor tissue phosphoproteomics",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35880733\" target=\"_blank\">Zhang et al. (2022)</a>",
+      "Peter L. Horvatovich",
+      "2022-08-09",
+      "ovarian cancer, phosphoproteomics, quantification, tissue"
+    ],
+    [
+      "PXD023912",
+      "ECM-enriched proteomics of human fallopian tube, fimbria and ovarian tissue",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34561272\" target=\"_blank\">Lecker et al. (2021)</a>",
+      "Professor Pedro R Cutillas",
+      "2022-06-21",
+      "ECM, TGFBI, fallopian tube, fimbria, ovarian cancer, ovary"
+    ],
+    [
+      "PXD024735",
+      "Changes in proteomics of endometrial tissue during secretion of polycystic ovary syndrome may affect endometrial receptivity",
+      "PRIDE",
+      "Homo sapiens",
+      "iTRAQ reagent",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35643455\" target=\"_blank\">Li et al. (2022)</a>",
+      "Zhaolian Wei",
+      "2022-06-09",
+      "PCOS, Proteomics., endometrial receptivity, endometrium"
+    ],
+    [
+      "PXD034266",
+      "CRMP2 derived from cancer associated fibroblasts facilitates progression of ovarian cancer via HIF-1\u00ce\u00b1-glycolysis signaling pathway",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35927239\" target=\"_blank\">Jin et al. (2022)</a>",
+      "Hua Jiang",
+      "2022-06-02",
+      "Cancer associated fibroblasts (CAFs), Ovarian cancer., Tumor microenvironment (TME)"
+    ],
+    [
+      "PXD028681",
+      "Redox Proteomics Analysis of Auranofin Exposed  Ovarian Cancer Cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35358852\" target=\"_blank\">Chiappetta et al. (2022)</a>",
+      "Joelle Vinh",
+      "2022-05-19",
+      "Auranofin, cysteine, gold, ovarian cancer, redox proteomics"
+    ],
+    [
+      "PXD025369",
+      "Comparison of human primordial oocyte follicles to ovarian somatic cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Eclipse",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35859172\" target=\"_blank\">Rodr\u00edguez-Nuevo et al. (2022)</a>",
+      "Elvan Boke",
+      "2022-05-09",
+      "mitochondria, oocyte"
+    ],
+    [
+      "PXD033569",
+      "La protein plays its RNA chaperone function by binding with the mRNAs of target genes and participates the pathological process of ovarian cancer",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/36110943\" target=\"_blank\">Huang et al. (2022)</a>",
+      "Jing Tang",
+      "2022-04-30",
+      "La protein, ovarian cancer, quantitative proteomics"
+    ],
+    [
+      "PXD027177",
+      "Proteomic analysis reveals low dose PARP inhibitor-induced differential protein expression in BRCA1-mutated high-grade serous ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34958553\" target=\"_blank\">Perez et al. (2022)</a>",
+      "Stefani N. Thomas",
+      "2022-04-15",
+      "PARP inhibitor (PARPi), ovarian cancer, tandem mass tags (TMT)"
+    ],
+    [
+      "PXD033137",
+      "Highly Active CAR T Cells that Bind to a Juxta-Membrane Region of Mesothelin and are Not Blocked by Shed Mesothelin",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "Dataset with its publication pending",
+      "Parastoo Azadi",
+      "2022-04-13",
+      "antibody, cancer, immunotherapy, ovarian cancer, pancreatic cancer"
+    ],
+    [
+      "PXD031485",
+      "Proteome of fluid from human ovarian small antral follicles reveals insights in folliculogenesis and oocyte maturation.",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/35330141\" target=\"_blank\">Pla et al. (2022)</a>",
+      "Johan Malm",
+      "2022-04-07",
+      "follicular fluid, oocyte maturation., small antral follicles"
+    ],
+    [
+      "PXD025940",
+      "Proteome-wide and matrisome-specific atlas of the human ovary from prepuberty to menopause",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://dx.doi.org/10.6019/PXD025940\" target=\"_blank\">10.6019/PXD025940</a>",
+      "Christiani Andrade Amorim",
+      "2022-04-06",
+      "human ovary, matrisome, reproduction"
+    ],
+    [
+      "PXD032383",
+      "Proteomics study of endometrium in patients with polycystic ovary syndrome",
+      "iProX",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35909514\" target=\"_blank\">Zhang et al. (2022)</a>",
+      "Fang Wang",
+      "2022-03-17",
+      "PCOS endometrium"
+    ],
+    [
+      "PXD026258",
+      "HMGB1 interactome in prostate and ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Velos",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34572914\" target=\"_blank\">Barreiro-Alonso et al. (2021)</a>",
+      "Jyoti Choudhary",
+      "2022-02-17",
+      "HMGB1, NuRD complex, PC3, RAB11, SKOV-1, THOC complex, ovarian cancer, prostate cancer, ribosome biogenesis, septin"
+    ],
+    [
+      "PXD025582",
+      "Quantitative proteomic screen identifies Annexin A2 as a host target for Salmonella pathogenicity island-2 effectors SopD2 and PipB2",
+      "PRIDE",
+      "Homo sapiens, Salmonella enterica subsp. enterica serovar Typhimurium str. 5579, Salmonella enterica subsp. enterica serovar Typhimurium str. A130",
+      "Bruker Daltonics instrument model",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34880286\" target=\"_blank\">Knuff-Janzen et al. (2021)</a>",
+      "Leonard J. Foster",
+      "2022-02-17",
+      "SILAC, Salmonella"
+    ],
+    [
+      "PXD022194",
+      "Immunopeptidomics by use of a microfluidics chip.",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34605646\" target=\"_blank\">Feola et al. (2021)</a>",
+      "Janne Lehtio",
+      "2022-02-16",
+      "HLA-I, Immunopeptidome, JY cell line, Ligandome, MHC-I, RCC, bladder cancer, chip, microfluidics, ovarian cancer, patient derived organoid, renal cell carcinoma"
+    ],
+    [
+      "PXD031024",
+      "Proteomics of SKOV3 treated with PBS/PL",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive HF-X",
+      "Dataset with its publication pending",
+      "Hua Linghu",
+      "2022-01-17",
+      "Ovarian cancer, Pyridoxal, SKOV3"
+    ],
+    [
+      "PXD027577",
+      "proteomic investigation of ovarian follicular fluid",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35185790\" target=\"_blank\">Wang et al. (2021)</a>",
+      "Xiaoyang Fei",
+      "2022-01-17",
+      "follicular fluid, maturation, oocytes quality"
+    ],
+    [
+      "PXD027466",
+      "Inward outward signaling in ovarian cancer: morpho-proteomics/phosphoproteomics profiling upon hypoxia and shear stress characterizes the adaptive potential of OVCAR-3 and SKOV-3 cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive, timsTOF Pro",
+      "Dataset with its publication pending",
+      "Christopher Gerner",
+      "2022-01-13",
+      "Ovarian cancer, fluid shear stress, hypoxia, morpho-metabolic adaptation, vasculogenic mimicry"
+    ],
+    [
+      "PXD020764",
+      "Multiomic analysis implicates OXPHOS/fatty acid oxidation as a potential druggable target in platinum-resistant high grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "Dataset with its publication pending",
+      "Amanda G Paulovich",
+      "2021-12-22",
+      "Cell line, Ovarian cancer, PDX, ProteomeXchange project tag: CPTAC Consortium, TMT, acetylation, fractionation, global, phosphorylation, shotgun proteomics, ubiquitinylation"
+    ],
+    [
+      "PXD022332",
+      "Y Box Binding Protein 1 Inhibition as a Targeted Therapy for Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Elite",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33713600\" target=\"_blank\">Tailor et al. (2021)</a>",
+      "Sharon Pitteri",
+      "2021-12-19",
+      "ovarian cancer, therapeutics"
+    ],
+    [
+      "PXD028248",
+      "The intercellular signaling network of ovarian cancer metastases",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34841720\" target=\"_blank\">Sommerfeld et al. (2021)</a>",
+      "Rolf M\u00fcller",
+      "2021-11-25",
+      "HSP70, WNT4, adipocyte, carcinoma-associated fibroblast, mesothelial cell, metastasis, omentum, ovarian carcinoma, signaling network, tumor microenvironment"
+    ],
+    [
+      "PXD021038",
+      "Phosphoproteomics identify arachidonic-acid-regulated signal transduction pathways modulating macrophage functions in ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33391540\" target=\"_blank\">Dietze et al. (2021)</a>",
+      "Rolf M\u00fcller",
+      "2021-10-29",
+      "arachidonic acid, macrophages, ovarian cancer"
+    ],
+    [
+      "PXD028225",
+      "Proteomic analysis of tumor tissues form high-grade serous ovarian cancer patients",
+      "iProX",
+      "Homo sapiens",
+      "Orbitrap Fusion, Q Exactive Plus",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34888242\" target=\"_blank\">Guo et al. (2021)</a>",
+      "Yan Wang",
+      "2021-09-29",
+      "Proteomic analysis, ovarian cancer, platinum resistant, platinum sensitive"
+    ],
+    [
+      "PXD022131",
+      "Network-based integration of multi-omics data identifies the determinants of miR-491-5p effects",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34439123\" target=\"_blank\">Meryet-Figuiere et al. (2021)</a>",
+      "Damarys Loew",
+      "2021-09-09",
+      "Multi-omics, Network, Ovarian Cancer, miRNA"
+    ],
+    [
+      "PXD021338",
+      "Proteome of fluid from human ovarian small antral follicles reveals insights in folliculogenesis and oocyte maturation.",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33313811\" target=\"_blank\">Pla et al. (2021)</a>",
+      "Johan Malm",
+      "2021-09-09",
+      "follicular fluid, oocyte maturation., small antral follicles"
+    ],
+    [
+      "PXD018416",
+      "Global Proteomic Profiling in Chronic Iron-Exposed Fallopian Tube Secretory Epithelial Cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/33737539\" target=\"_blank\">Chhabra et al. (2021)</a>; <a href=\"https://dx.doi.org/10.1038/s41598-021-85342-y\" target=\"_blank\">10.1038/s41598-021-85342-y</a>",
+      "Meera Nanjundan",
+      "2021-09-08",
+      "fallopian tube secretory epithelial cells, ferric ammonium citrate, initiation events, ovarian cancer, proteomic profiling"
+    ],
+    [
+      "PXD014352",
+      "Tissue Proteome Profiling of Ovarian cancer.",
+      "PRIDE",
+      "Homo sapiens",
+      "ultraflex",
+      "<a href=\"https://dx.doi.org/10.1021/acsomega.0c03262\" target=\"_blank\">10.1021/acsomega.0c03262</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/34056205\" target=\"_blank\">0</a>",
+      "Prof. Dr. M. Waheed Akhtar",
+      "2021-09-08",
+      "2D-PAGE, ELISA, Ovarian cancer, Proteome profiling, Western blotting"
+    ],
+    [
+      "PXD027574",
+      "A complex of BRCA2 and PP2A-B56 is required for homologous recombination-mediated DNA repair",
+      "MassIVE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos, Q Exactive Plus",
+      "no publication",
+      "Arminja Kettenbach",
+      "2021-09-03",
+      "ATM, ATR, BRCA2, DSB, HR, PARP, PP2A-B56, RAD51, breast, cancer, homologous recombination, kinase, ovarian"
+    ],
+    [
+      "PXD027695",
+      "A Novel Classifier Based on Urinary Proteomics for Distinguishing between Benign and Malignant Ovarian Tumors",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34527671\" target=\"_blank\">Ni et al. (2021)</a>",
+      "Maowei Ni",
+      "2021-08-04",
+      "machine learning, non-invasive biomarkers, ovarian cancer, urinary proteomics"
+    ],
+    [
+      "PXD025632",
+      "Analysis of cryopreservation of human granulosa cells",
+      "PRIDE",
+      "Homo sapiens",
+      "timsTOF Pro",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34313845\" target=\"_blank\">Beschta et al. (2021)</a>; <a href=\"http://dx.doi.org/10.1007/S00418-021-02019-3\" target=\"_blank\">10.1007/S00418-021-02019-3</a>",
+      "Prof. Dr. Artur Mayerhofer",
+      "2021-07-28",
+      "IVF, cell culture, cryopreservation, ovarian cells, progesterone"
+    ],
+    [
+      "PXD022436",
+      "proteomics  identified potential prognostic markers in early ovarian",
+      "iProX",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Lixin Chen",
+      "2021-06-30",
+      "ovarian cancer"
+    ],
+    [
+      "PXD026570",
+      "Extensive Three-Dimensional Intratumor Proteomic Heterogeneity Revealed by Multiregion Sampling in High-Grade Serous Ovarian Tumor Specimens",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos, Q Exactive",
+      "Dataset with its publication pending",
+      "Thomas P. Conrads, PhD",
+      "2021-06-30",
+      "heterogeneity, high grade serous ovarian cancer, laser microdissection, tumor microenvironment"
+    ],
+    [
+      "PXD023508",
+      "Human plasma LC-MSMS for identified protein biomarker for BRCA1/2 positive ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34064977\" target=\"_blank\">Ahn et al. (2021)</a>",
+      "Kyunggon Kim",
+      "2021-06-06",
+      "BRCA carrier, Ovarian cancer, Plasma"
+    ],
+    [
+      "PXD025239",
+      "Human, ovarian epithelial cancer cell line, LC-MSMS",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34244494\" target=\"_blank\">Yin et al. (2021)</a>",
+      "GONG YANG",
+      "2021-05-27",
+      "Antibodies (B/D-HPP), Biology/Disease-Driven Human Proteome Project (B/D-HPP), ECM1 subtypes, ECM1a, ECM1a wild type (WT), ECM1b, Human Proteome Project, Ovarian epithelial cell line, ProteomeXchange project tag: Cancer (B/D-HPP)"
+    ],
+    [
+      "PXD019935",
+      "Inhibition of the mTOR pathway and reprogramming of protein synthesis by MDM4 reduce ovarian cancer metastatic properties.",
+      "PRIDE",
+      "Homo sapiens, Mus musculus",
+      "Synapt MS",
+      "<a href=\"https://dx.doi.org/10.6019/PXD019935\" target=\"_blank\">10.6019/PXD019935</a>",
+      "Luisa Pieroni",
+      "2021-05-26",
+      "3D cell culture, MDM4, Ovarian Cancer"
+    ],
+    [
+      "PXD019544",
+      "Multiomics Characterization of Potential Therapeutic Vulnerabilities in Low-grade Serous Ovarian Carcinoma",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"https://dx.doi.org/10.1158/0008-5472.can-20-2222\" target=\"_blank\">10.1158/0008-5472.can-20-2222</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/33441310\" target=\"_blank\">Shrestha et al. (2021)</a>",
+      "Gregg Morin",
+      "2021-05-17",
+      "TMT, ovarian carcinoma"
+    ],
+    [
+      "PXD025864",
+      "LC-MS/MS of proteomics in human ovarian cancer versus control samples",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Lingjun Li",
+      "2021-05-07",
+      "Ovarian cancer"
+    ],
+    [
+      "PXD022996",
+      "Pilot data for Imputation, LC-MS/MS",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33939434\" target=\"_blank\">Dabke et al. (2021)</a>",
+      "Sarah Parker",
+      "2021-05-07",
+      "DIA-MS, Imputation, Ovarian cancer"
+    ],
+    [
+      "PXD023012",
+      "Dilution Series imputation, LC MS/MS",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Elite",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33939434\" target=\"_blank\">Dabke et al. (2021)</a>",
+      "Sarah Parker",
+      "2021-05-06",
+      "DIA-MS, Dilution series, Imputation, ovarian cancer"
+    ],
+    [
+      "PXD023040",
+      "Ovarian cancer imputation analysis, LC MS/MS",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33939434\" target=\"_blank\">Dabke et al. (2021)</a>",
+      "Sarah Parker",
+      "2021-05-06",
+      "DIA-MS, Ovarianc cancer, stroma, tumor"
+    ],
+    [
+      "PXD016996",
+      "NK cell proteome reponse to tumor microenvironment",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive HF",
+      "Dataset with its publication pending",
+      "Yu Lu",
+      "2021-04-12",
+      "NK cells, ovarian cancer, tumor microenvironment"
+    ],
+    [
+      "PXD021709",
+      "BioID of PAX8 in human ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "Dataset with its publication pending",
+      "Hans Voshol",
+      "2021-03-08",
+      "BioID, PAX8, PRDM3, ovarian cancer"
+    ],
+    [
+      "PXD013811",
+      "OC-MS/MS -  HSP60-regulated Mitochondrial Proteostasis and Protein Translation Promote Tumor Growth of Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1038/s41598-019-48992-7\" target=\"_blank\">10.1038/s41598-019-48992-7</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31477750\" target=\"_blank\">Guo et al. (2019)</a>",
+      "Haiteng Deng",
+      "2021-03-04",
+      "MS/MS, OC"
+    ],
+    [
+      "PXD014134",
+      "Re-expression of SMARCA4/BRG1 in Small Cell Carcinoma of Ovary, Hypercalcemic Type (SCCOHT) promotes an epithelial-like gene signature through an AP-1-dependent mechanism",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/33355532\" target=\"_blank\">Orlando et al. (2020)</a>; <a href=\"https://dx.doi.org/10.7554/elife.59073\" target=\"_blank\">10.7554/elife.59073</a>",
+      "Gregg Morin",
+      "2021-01-15",
+      "ovarian carcinoma SMARCA4"
+    ],
+    [
+      "PXD023272",
+      ": Pap test, cervical swab, and tumor tissue LC-MS/MS proteomics from a case of high grade serous ovarian cancer.",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Velos",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33413078\" target=\"_blank\">Boylan et al. (2021)</a>",
+      "Amy P.N. Skubitz",
+      "2021-01-11",
+      "Pap test, biomarkers, cervical swab, ovarian cancer, tumor tissue"
+    ],
+    [
+      "PXD020823",
+      "Divide-and-conquer matrisome protein (DC-MaP) strategy: an optimal approach to proteomic matrisome characterization",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33266304\" target=\"_blank\">Ouni et al. (2020)</a>",
+      "Amorim Christiani",
+      "2020-12-03",
+      "fractionation, identifcation, matrisome, ovarian, proteins"
+    ],
+    [
+      "PXD020557",
+      "Convergence of plasma metabolomics and proteomics analysis to discover signatures of high-grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/33228226\" target=\"_blank\">Ahn et al. (2020)</a>; <a href=\"https://dx.doi.org/10.3390/cancers12113447\" target=\"_blank\">10.3390/cancers12113447</a>",
+      "Kyunggon Kim",
+      "2020-11-30",
+      "Biology/Disease-Driven Human Proteome Project (B/D-HPP), Human Proteome Project, Ovarian cancer, Plasma, ProteomeXchange project tag: Cancer (B/D-HPP), metabolome"
+    ],
+    [
+      "PXD018079",
+      "IgA transcytosis and tumor antigen recognition govern anti-tumor immunity in ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive, Q Exactive HF",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33536615\" target=\"_blank\">Biswas et al. (2021)</a>",
+      "Jose Conejo-Garcia, MD/PhD",
+      "2020-11-30",
+      "Immunoglobulin A, Immunotherapy, Ovarian Cancer, PRM, Transcytosis"
+    ],
+    [
+      "PXD019393",
+      "Complement deposition on Chlamydia trachomatis",
+      "PRIDE",
+      "Chlamydia trachomatis, Chlamydia trachomatis L2/434/Bu, Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B), Homo sapiens",
+      "Q Exactive HF-X",
+      "<a href=\"https://dx.doi.org/10.1007/s00430-020-00695-x\" target=\"_blank\">10.1007/s00430-020-00695-x</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/33206237\" target=\"_blank\">Lausen et al. (2021)</a>",
+      "Svend Birkelund",
+      "2020-11-23",
+      "C3, Chlamydia trachomatis, complement, plasma"
+    ],
+    [
+      "PXD022084",
+      "FER-mediated phosphorylation and PIK3R2 recruitment on IRS4 promotes AKT activation and tumorigenesis in ovarian cancer",
+      "iProX",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35550247\" target=\"_blank\">Zhang et al. (2022)</a>",
+      "Gaofeng Fan",
+      "2020-10-19",
+      "Tyrosine phosphorylation"
+    ],
+    [
+      "PXD017510",
+      "Probing the ovarian cancer O-glycoproteome by the Macrophage Galactose like C-type Lectin (MGL): dissecting novel patterns of immune recognition",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"https://dx.doi.org/10.3390/cancers12102841\" target=\"_blank\">10.3390/cancers12102841</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/33019700\" target=\"_blank\">Napoletano et al. (2020)</a>",
+      "Sergey Vakhrushev",
+      "2020-10-19",
+      "DCs, O-glycosylation, Ovarian Cancer, Tn antigen, Tumor Biomarker, cancer immunotherapy"
+    ],
+    [
+      "PXD020560",
+      "An organometallic gold(I) bis-N-heterocyclic carbene complex with a multimodal mode of action in ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.6019/PXD020560\" target=\"_blank\">10.6019/PXD020560</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/32902006\" target=\"_blank\">Meier-Menches et al. (2020)</a>; <a href=\"https://dx.doi.org/10.1002/chem.202003495\" target=\"_blan",
+      "Christopher Gerner",
+      "2020-09-17",
+      "gold complexes \u00e2\u20ac\u00a2 N-heterocyclic carbenes \u00e2\u20ac\u00a2 G-quadruplexes \u00e2\u20ac\u00a2 telomeres \u00e2\u20ac\u00a2 proteomics \u00e2\u20ac\u00a2 cancer"
+    ],
+    [
+      "PXD018417",
+      "Ovarian Cancer Biomarkers - DIGE Spot identification",
+      "PRIDE",
+      "Homo sapiens",
+      "impact HD",
+      "Dataset with its publication pending",
+      "Martin K Oehler",
+      "2020-08-26",
+      "2D gel, LC-MS"
+    ],
+    [
+      "PXD019914",
+      "Glycoproteomic Characterization of Human High-Grade Serous Ovarian Cancer",
+      "MassIVE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos, Q Exactive",
+      "no publication",
+      "Hui Zhang",
+      "2020-06-20",
+      "Glycoproteomics, Glycosylation, High-Grade Serous Ovarian Carcinoma (HGSC), Tumor heterogeneity"
+    ],
+    [
+      "PXD003539",
+      "NCI60 proteome by PCT-SWATH -  Quantitative Proteome Landscape of the NCI-60 Cancer Cell Lines",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"https://dx.doi.org/10.1016/j.isci.2019.10.059\" target=\"_blank\">10.1016/j.isci.2019.10.059</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31733513\" target=\"_blank\">Guo et al. (2019)</a>",
+      "Ruedi Aebersold",
+      "2020-06-01",
+      "NCI-60 cell, PCT, SWATH, brain tumor, breast cancer, colon cancer, drug sensitivity, luekemia, lung cancer, melanoma, ovarian cancer, prostate cancer, renal cancer"
+    ],
+    [
+      "PXD014980",
+      "Molecular analysis of clinically defined subsets of high-grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion Lumos",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/32294438\" target=\"_blank\">Lee et al. (2020)</a>; <a href=\"https://dx.doi.org/10.1016/j.celrep.2020.03.066\" target=\"_blank\">10.1016/j.celrep.2020.03.066</a>",
+      "Thomas P. Conrads",
+      "2020-05-26",
+      "Ovarian Cancer, Tissue"
+    ],
+    [
+      "PXD016479",
+      "Cytokine-induced GBP1 release from human ovarian cancer cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"https://dx.doi.org/10.3390/cancers12020488\" target=\"_blank\">10.3390/cancers12020488</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/32093058\" target=\"_blank\">Carbotti et al. (2020)</a>",
+      "Andrea Petretto",
+      "2020-05-26",
+      "Guanosyl Binding Protein 1, Interferon-\u00ef\u0081\u00a7, Interleukin-27, Ovarian cancer, Secretome, microenvironment."
+    ],
+    [
+      "PXD011541",
+      "In Search of the Altering Salivary Proteome in Metastatic Breast and Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1096/fba.2018-00029\" target=\"_blank\">10.1096/fba.2018-00029</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/32123828\" target=\"_blank\">Giri, Mehta & Ambatipudi (2019)</a>",
+      "Kiran Ambatipudi",
+      "2020-05-26",
+      "Neoadjuvant Therapy, Organotropism, Quantitative proteomics, Saliva"
+    ],
+    [
+      "PXD019375",
+      "Secretome from Leptospira interrogans and Host Cells during Infection:Leptospiral Virulence Factors and Cellular Proteins Involved in Stress and Inflammation",
+      "iProX",
+      "Homo sapiens, Leptospira interrogans serovar Lai str. Lai",
+      "Thermo Fisher Scientific instrument model",
+      "Dataset with its publication pending",
+      "Jie Yan",
+      "2020-05-25",
+      "leptospira"
+    ],
+    [
+      "PXD019223",
+      "Fritz_STK11KO_MIB_2020_TripleTOF5600_complete",
+      "MassIVE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "no publication",
+      "Karen Colwill",
+      "2020-05-15",
+      "LKB1, NUAK1, STK11, fibronectin, metastasis, multiplexed inhibitor bead chromatography, ovarian cancer"
+    ],
+    [
+      "PXD016244",
+      "Inhibition of Collagen XI alpha 1\u00e2\u20ac\u201cinduced Fatty Acid Oxidation Triggers Apoptotic Cell Death in Cisplatin-Resistant Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Elite",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/32312965\" target=\"_blank\">Nallanthighal et al. (2020)</a>; <a href=\"https://dx.doi.org/10.1038/s41419-020-2442-z\" target=\"_blank\">10.1038/s41419-020-2442-z</a>",
+      "Wei Yang",
+      "2020-04-27",
+      "Collagen, Fatty acid oxidation, Ovarian cancer, TMT"
+    ],
+    [
+      "PXD010437",
+      "CPTAC High-grade serous ovarian carcinoma SWATH-MS",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/32534439\" target=\"_blank\">Thomas et al. (2020)</a>; <a href=\"https://dx.doi.org/10.1016/j.isci.2020.101079\" target=\"_blank\">10.1016/j.isci.2020.101079</a>",
+      "Rudolf Aebersold",
+      "2020-04-22",
+      "DIA, SWATH, cancer, ovarian cancer"
+    ],
+    [
+      "PXD015782",
+      "Identification of MRCKA as an integral component of ovarian cancer signaling and a therapeutic target",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "James Stuart Duncan",
+      "2020-02-19",
+      "CDC42BPA, High Grade Serous Ovarian Carcinoma, MRCKA"
+    ],
+    [
+      "PXD015781",
+      "Identification of MRCKA as an integral component of ovarian cancer signaling and a therapeutic target",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "James Stuart Duncan",
+      "2020-02-19",
+      "CDC42BPA, High Grade Serous Ovarian Carcinoma, MRCKA"
+    ],
+    [
+      "PXD015783",
+      "Identification of MRCKA as an integral component of ovarian cancer signaling and a therapeutic target",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "James Stuart Duncan",
+      "2020-02-19",
+      "CDC42BPA, High-Grade Serous Ovarian Carcinoma, MRCKA"
+    ],
+    [
+      "PXD015899",
+      "Time-Dependent Proteome Study: Human ovarian cancer tumor samples (0, 5, 30, 60 min)",
+      "MassIVE",
+      "Homo sapiens",
+      "LTQ Orbitrap Elite, LTQ Orbitrap XL, LTQ Velos",
+      "no publication",
+      "Forest White, Richard Smith",
+      "2020-01-23",
+      "CPTAC"
+    ],
+    [
+      "PXD015904",
+      "CPTAC, TCGA Ovarian Cancer Proteome Study Comparison and Reference Samples (CompRef)",
+      "MassIVE",
+      "Homo sapiens, Mus musculus",
+      "LTQ Orbitrap Velos, Q Exactive",
+      "no publication",
+      "Hui Zhang, Richard Smith",
+      "2020-01-23",
+      "CPTAC"
+    ],
+    [
+      "PXD015908",
+      "Integrated Proteogenomic Characterization of Human High-Grade Serous Ovarian Cancer",
+      "MassIVE",
+      "Homo sapiens",
+      "LTQ Orbitrap Velos, Q Exactive",
+      "no publication",
+      "Hui Zhang, Richard Smith",
+      "2020-01-23",
+      "CPTAC"
+    ],
+    [
+      "PXD000214",
+      "Identification of Autocrine Growth Factors Secreted by CHO cells for Applications in Single Cell Cloning Media",
+      "PRIDE",
+      "Cricetulus griseus (Chinese hamster) (Cricetulus barabensis griseus), Homo sapiens, Mus musculus",
+      "LTQ Orbitrap Velos",
+      "<a href=\"https://dx.doi.org/10.1021/pr400352n\" target=\"_blank\">10.1021/pr400352n</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/23763710\" target=\"_blank\">Lim et al. (2013)</a>",
+      "Say Kong Ng",
+      "2020-01-22",
+      "Autocrine Growth Factors, Chinese Hamster Ovary Cells, Secreted Proteins, Shotgun Proteomics"
+    ],
+    [
+      "PXD016183",
+      "Phosphoproteomics reveals key regulatory kinases and modulated pathways involved in tumorigenesis of ovarian cancer",
+      "iProX",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/32425555\" target=\"_blank\">Hu et al. (2020)</a>",
+      "Jinghe Lang",
+      "2020-01-01",
+      "Ti4+-IMAC, biomarker, kinases, ovarian cancer, phosphoproteomics"
+    ],
+    [
+      "PXD013827",
+      "Tissue Proteome Profiling of Ovarian cancer in Pakistani Population.",
+      "PRIDE",
+      "Homo sapiens",
+      "ultraflex",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31747122\" target=\"_blank\">Noreen et al. (2020)</a>; <a href=\"https://dx.doi.org/10.1002/prca.201900078\" target=\"_blank\">10.1002/prca.201900078</a>",
+      "Muhammad Akhtar, School of Biological Sciences, University of the Punjab, Lahore, Pakistan",
+      "2019-11-27",
+      "2D-PAGE, Ovarian cancer, Proteome profiling, ProteomeXchange project tag: Human Proteome Project"
+    ],
+    [
+      "PXD012034",
+      "Analysis of plasma proteome of pregnant women with polycystic ovary syndrome (PCOS",
+      "PRIDE",
+      "Homo sapiens",
+      "Synapt MS",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/31772271\" target=\"_blank\">Arffman et al. (2019)</a>",
+      "Terhi T. Piltonen",
+      "2019-11-25",
+      "MSE, PCOS, UDMSE, pregnant"
+    ],
+    [
+      "PXD010166",
+      "Septin-2 is overexpressed in epithelial ovarian cancer and mediates proliferation via regulation of cellular metabolism proteins",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/31105878\" target=\"_blank\">0</a>; <a href=\"https://dx.doi.org/10.18632/oncotarget.26836\" target=\"_blank\">10.18632/oncotarget.26836</a>",
+      "Nagib Ahsan",
+      "2019-11-12",
+      "Epithelial Ovarian Cancer, Septin2"
+    ],
+    [
+      "PXD015903",
+      "CPTAC, TCGA Cancer Proteome Study of Ovarian Tissue",
+      "MassIVE",
+      "Homo sapiens",
+      "LTQ Orbitrap Velos, Q Exactive",
+      "no publication",
+      "Richard Smith, Hui Zhang",
+      "2019-10-23",
+      "CPTAC"
+    ],
+    [
+      "PXD015303",
+      "Epithelial ovarian cancer biomarker",
+      "MassIVE",
+      "Homo sapiens",
+      "4000 QTRAP, QTRAP 5500, TSQ Vantage",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/31289117\" target=\"_blank\">H\u00fcttenhain et al. (2019)</a>",
+      "Ruth Huttenhain, Meena Choi",
+      "2019-09-03",
+      "Biomarker, Ovarian cancer, SRM"
+    ],
+    [
+      "PXD014474",
+      "A targeted strategy for developing proteomic biomarkers: a case study of epithelial ovarian cancer",
+      "PanoramaPublic",
+      "Homo sapiens",
+      "4000 QTRAP, QTRAP 5500, TSQ Vantage",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/31289117\" target=\"_blank\">0</a>",
+      "Ruth Huttenhain",
+      "2019-08-14",
+      "Cancer biomarker, Ovarian cancer, Plasma"
+    ],
+    [
+      "PXD006898",
+      "Quantitative proteomics of a human fetal ovary development timecourse",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1089/scd.2018.0002\" target=\"_blank\">10.1089/scd.2018.0002</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29631484\" target=\"_blank\">Bothun et al. (2018)</a>",
+      "Dori C Woods",
+      "2019-05-13",
+      "Organogenesis, Ovary"
+    ],
+    [
+      "PXD013433",
+      "CD83, a Novel MAPK Signaling Pathway Interactor, Determines Ovarian Cancer Cell Fate",
+      "iProX",
+      "Homo sapiens",
+      "LTQ",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/32823589\" target=\"_blank\">Batool et al. (2020)</a>",
+      "Suren Chen",
+      "2019-04-10",
+      "CD83"
+    ],
+    [
+      "PXD010769",
+      "identification of the endogenous host targets of the Salmonella effectors SSeK1 and 3",
+      "PRIDE",
+      "Homo sapiens, Mus musculus, Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344",
+      "LTQ Orbitrap Elite, Orbitrap Fusion Lumos",
+      "<a href=\"https://dx.doi.org/10.1074/mcp.ra118.001093\" target=\"_blank\">10.1074/mcp.ra118.001093</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30902834\" target=\"_blank\">Newson et al. (2019)</a>",
+      "Elizabeth L Hartland",
+      "2019-03-27",
+      "ProteomeXchange project tag: Glycoproteomics (B/D-HPP), Salmonella, glycopeptide enrichment, glycosylation, infection"
+    ],
+    [
+      "PXD009571",
+      "Purification of Cross-linked RNA-Protein Complexes by Phenol-Toluol Extraction",
+      "PRIDE",
+      "Homo sapiens, Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30824702\" target=\"_blank\">Urdaneta et al. (2019)</a>; <a href=\"https://dx.doi.org/10.1038/s41467-019-08942-3\" target=\"_blank\">10.1038/s41467-019-08942-3</a>",
+      "Matthias Selbach",
+      "2019-03-12",
+      "PTex, RNA-binding proteins, Salmonella, shotgun"
+    ],
+    [
+      "PXD004591",
+      "Integration of two in-depth proteomics approaches determines the high grade serous ovarian cancer-associated kallikrein-related peptidase 7 (KLK7) degradome",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30705123\" target=\"_blank\">Munasinghage Silva et al. (2019)</a>",
+      "D. Prof Judith Ann Clements",
+      "2019-02-15",
+      "Degradome, extracellular, high-grade serous, kallikrein-related peptidase, matrix metalloprotease, microenvironment, omics, ovarian cancer, protease, substrate, thrombospondin, transcriptome, tum"
+    ],
+    [
+      "PXD003752",
+      "Integration of two in-depth proteomics approaches determines the high grade serous ovarian cancer-associated kallikrein-related peptidase 7 (KLK7) degradome",
+      "PRIDE",
+      "Homo sapiens",
+      "mass spectrometry",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30705123\" target=\"_blank\">Munasinghage Silva et al. (2019)</a>",
+      "Dist. Prof. Judith Ann Clements",
+      "2019-02-15",
+      "Degradome, extracellular, high-grade serous, kallikrein-related peptidase, matrix metalloprotease, microenvironment, omics, ovarian cancer, protease, substrate, thrombospondin, transcriptome, tumour"
+    ],
+    [
+      "PXD003812",
+      "Integration of two in-depth proteomics approaches determines the high grade serous ovarian cancer-associated kallikrein-related peptidase 7 (KLK7) degradome",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30705123\" target=\"_blank\">Silva et al. (2019)</a>; <a href=\"https://dx.doi.org/10.1074/mcp.ra118.001304\" target=\"_blank\">10.1074/mcp.ra118.001304</a>",
+      "Dist Prof Judith Ann Clements",
+      "2019-02-15",
+      "Degradome, extracellular, high-grade serous, kallikrein-related peptidase, matrix metalloprotease, microenvironment, omics, ovarian cancer, protease, substrate, thrombospondin, transcriptome, tumour"
+    ],
+    [
+      "PXD012295",
+      "Differential proteome profile of tobacco abuser and oral cancer",
+      "iProX",
+      "Homo sapiens",
+      "Orbitrap Fusion",
+      "Dataset with its publication pending",
+      "Neel Sarovar Bhavesh",
+      "2019-01-10",
+      "oral cancer, tobacco abuse"
+    ],
+    [
+      "PXD003252",
+      "Ovarian cancer cell line LC-MS-MS",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27193186\" target=\"_blank\">Zheng et al. (2016)</a>; <a href=\"https://dx.doi.org/10.1038/srep26093\" target=\"_blank\">10.1038/srep26093</a>",
+      "Yue-Jin Hua",
+      "2018-10-25",
+      "LC-MS-MS, Ovarian cancer, cisplatin resistance"
+    ],
+    [
+      "PXD002825",
+      "Down-regulation of Vimentin Increased Drug Resistance in Ovarian Cancer Cells",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29296177\" target=\"_blank\">0</a>; <a href=\"https://dx.doi.org/10.18632/oncotarget.22488\" target=\"_blank\">10.18632/oncotarget.22488</a>",
+      "Haiteng Deng",
+      "2018-10-24",
+      "Cisplatin, Drug-resistance, Ovarian cancer cell line, Vimentin"
+    ],
+    [
+      "PXD008832",
+      "Evaluation of preservation quality and viability of FFPE ovarian cancer tissue samples",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/30087585\" target=\"_blank\">Piehowski et al. (2018)</a>; <a href=\"https://dx.doi.org/10.1186/s12014-018-9202-4\" target=\"_blank\">10.1186/s12014-018-9202-4</a>; <a href=\"https://dx.doi.org/10.6019/PXD008832\" target",
+      "Karin Rodland",
+      "2018-10-19",
+      "FFPE, Ovarian Cancer, ProteomeXchange project tag: CPTAC Consortium, phosphoproteomics"
+    ],
+    [
+      "PXD005436",
+      "Proteomic analysis of human follicular fluid in poor ovarian responders during in vitro fertilization",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1002/pmic.201600333\" target=\"_blank\">10.1002/pmic.201600333</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28130869\" target=\"_blank\">0</a>",
+      "Kwang Pyo Kim",
+      "2018-07-04",
+      "Biomarker, Follicular fluid, Multiple reaction monitoring, Poor ovarian response"
+    ],
+    [
+      "PXD007056",
+      "Discovery proteomics studies for the identification of a protein panel associated with the response to pemetrexed in platinum drug resistant cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "impact HD",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29867465\" target=\"_blank\">0</a>; <a href=\"https://dx.doi.org/10.3389/fphar.2018.00454\" target=\"_blank\">10.3389/fphar.2018.00454</a>",
+      "Stefania Ferrari",
+      "2018-06-06",
+      "LC MS/MS, discovery proteomics, ovarian cancer, platinum drug resistance"
+    ],
+    [
+      "PXD007867",
+      "Characterisation of HMGB1 interactome in PNT2 prostate cells",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Velos",
+      "<a href=\"https://dx.doi.org/10.18632/oncotarget.24887\" target=\"_blank\">10.18632/oncotarget.24887</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29721183\" target=\"_blank\">Barreiro-Alonso et al. (2018)</a>",
+      "Jyoti Choudhary",
+      "2018-05-07",
+      "Affinity Purification, Cancer, ovary, prostate"
+    ],
+    [
+      "PXD009382",
+      "Peptidome profiling of ovarian cancer and non-cancer proximal fluids: ascites and blood sera",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30627607\" target=\"_blank\">Shender et al. (2019)</a>",
+      "Georgij Arapidi",
+      "2018-04-05",
+      "Peptidome, ascites, blood sera, ovarian cancer"
+    ],
+    [
+      "PXD008183",
+      "Human Ovarian Proteome -  A draft map of the human ovarian proteome for tissue engineering and clinical applications",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ",
+      "<a href=\"https://dx.doi.org/10.1074/mcp.ra117.000469\" target=\"_blank\">10.1074/mcp.ra117.000469</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29475978\" target=\"_blank\">Ouni et al. (2019)</a>",
+      "Christiani Andrade Amorim",
+      "2018-02-27",
+      "Matrisome, Ovarian, ProteomeXchange project tag: tissue proteome"
+    ],
+    [
+      "PXD004060",
+      "Human omentum from patients with High-grade serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29196464\" target=\"_blank\">Pearce et al. (2018)</a>; <a href=\"https://dx.doi.org/10.1158/2159-8290.cd-17-0284\" target=\"_blank\">10.1158/2159-8290.cd-17-0284</a>",
+      "Pedro R Cutillas",
+      "2018-02-20",
+      "extracellular matrix, matrisome, ovarian cancer"
+    ],
+    [
+      "PXD007962",
+      "Discovery and validation of novel protein biomarkers in ovarian cancer patient urine",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29426060\" target=\"_blank\">Sandow et al. (2018)</a>; <a href=\"https://dx.doi.org/10.1002/prca.201700135\" target=\"_blank\">10.1002/prca.201700135</a>",
+      "Andrew Ian Webb",
+      "2018-02-15",
+      "HE4, LFQ, PRM, label free quantitation, ovarian cancer, parallel reaction monitoring, urine"
+    ],
+    [
+      "PXD008047",
+      "Ovarian high grade serous carcinoma ascites cell secretome",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1074/mcp.ra117.000400\" target=\"_blank\">10.1074/mcp.ra117.000400</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29141914\" target=\"_blank\">0</a>",
+      "Rolf Mueller",
+      "2017-11-17",
+      "HGSOC, OVCA, cancer, macrophages, secretome"
+    ],
+    [
+      "PXD005554",
+      "Analysis of ECM-enriched samples using different methods",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.6019/PXD005554\" target=\"_blank\">10.6019/PXD005554</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28675934\" target=\"_blank\">Naba et al. (2017)</a>; <a href=\"https://dx.doi.org/10.1021/acs.jproteome.7b00191\" target=\"_blank\"",
+      "Amanda Del Rosario",
+      "2017-07-11",
+      "ECM, breast cancer, ovarian cancer"
+    ],
+    [
+      "PXD006327",
+      "B-catenin downregulates Dicer to promote ovarian cancer metastasis",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap Velos",
+      "<a href=\"https://dx.doi.org/10.1038/onc.2017.185\" target=\"_blank\">10.1038/onc.2017.185</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28650464\" target=\"_blank\">To et al. (2017)</a>",
+      "Chi-Ming Che",
+      "2017-07-03",
+      "Dicer, metastasis, microRNA, ovarian cancer, \u00ef\u0081\u00a2-catenin"
+    ],
+    [
+      "PXD005420",
+      "Ovarian serous cancer tumor microenvironment investigated by MALDI MSI associated to Top-down microproteomic: Evidence of a hidden proteome as novel potential target",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1016/j.ebiom.2017.06.001\" target=\"_blank\">10.1016/j.ebiom.2017.06.001</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28629911\" target=\"_blank\">0</a>",
+      "Michel Salzet",
+      "2017-06-23",
+      "Alternative Proteins, MALDI Imaging, Top Down micro-proteomics"
+    ],
+    [
+      "PXD002394",
+      "Proteomic and phosphoproteomic analysis of cisplatin resistance in patient derived serous ovarian cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1074/mcp.M116.058321\" target=\"_blank\">10.1074/mcp.M116.058321</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28455291\" target=\"_blank\">Nguyen et al. (2017)</a>",
+      "Dr. David Goodlett",
+      "2017-05-02",
+      "MS/MS, cisplatin, ovarian cancer, phosphoproteomic, resistance"
+    ],
+    [
+      "PXD003531",
+      "Proteomics of Primary cells derived from Ovarian Cancer",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28355574\" target=\"_blank\">Francavilla et al. (2017)</a>; <a href=\"https://dx.doi.org/10.1016/j.celrep.2017.03.015\" target=\"_blank\">10.1016/j.celrep.2017.03.015</a>",
+      "Jesper V. Olsen",
+      "2017-04-03",
+      "CDK7, EOC, FTE, IHC, OSE, OVCAR3, Ovarian Cancer, primary cells, quantitative phosphoproteomics"
+    ],
+    [
+      "PXD004308",
+      "Diffacto quantification-centered large-scale differential analysis",
+      "MassIVE",
+      "BSA, Homo sapiens, Saccharomyces cerevisiae (Bakers yeast)",
+      "Q Exactive",
+      "Dataset with its publication pending",
+      "Roman Zubarev and Lukas K\u00ef\u00bf\u00bdll",
+      "2017-03-16",
+      "Bioinformatics, Covariation, Quantification"
+    ],
+    [
+      "PXD006078",
+      "Ovarian Cancer Lipid raft proteomics and role of OPCML",
+      "PRIDE",
+      "Homo sapiens",
+      "6520A Quadrupole Time-of-Flight LC/MS",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27384440\" target=\"_blank\">Shah et al. (2016)</a>",
+      "Michelle M. Hill",
+      "2017-03-16",
+      "Lipid raft, OPCML, P95R OPCML, SILAC, Skov-3"
+    ],
+    [
+      "PXD003607",
+      "Ovarian Cancer Proteomics of FFPE Tissue",
+      "PRIDE",
+      "Homo sapiens",
+      "Orbitrap Fusion ETD",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27713570\" target=\"_blank\">Hughes et al. (2016)</a>; <a href=\"https://dx.doi.org/10.1038/srep34949\" target=\"_blank\">10.1038/srep34949</a>",
+      "Gregg Morin",
+      "2016-10-13",
+      "Clear Cell, Endometrioid, Orbitrap Fusion, Ovarian Cancer, Ovary, Serous, Tandem Mass Tags"
+    ],
+    [
+      "PXD003547",
+      "IEF fractionation OVCAR-5 cell line",
+      "PRIDE",
+      "Homo sapiens",
+      "maXis",
+      "<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27569743\" target=\"_blank\">Weiland et al. (2016)</a>",
+      "Peter Hoffmann",
+      "2016-09-27",
+      "IEF fractionation LC-MS/MS ovarian cancer cell line, ProteomeXchange project tag: Human Proteome Project"
+    ],
+    [
+      "PXD004570",
+      "Proteome analyses of two ovarian clear cell carcinoma cell lines with or without ARID1A manipulation",
+      "MassIVE",
+      "Homo sapiens",
+      "Q Exactive",
+      "     Aaron R. Goldman, Benjamin G. Bitler, Zachary Schug, Jose R. Conejo-Garcia, Rugang Zhang, and David W. Speicher. The Primary Effect on the Proteome of ARID1A-Mutated Ovarian Clear Cell Carcinoma is Downregulation of the Mevalonate Pathway at the Post",
+      "David W. Speicher",
+      "2016-09-21",
+      "ARID1A, BAF250a, Cancer, Epithelial ovarian cancer, Label-free quantitation, OVCA429, OVISE, Ovarian cancer, Ovarian clear cell carcinoma, SWI/SNF chromatin-remodeling complex"
+    ],
+    [
+      "PXD003794",
+      "Glycomic and proteomic analyses of malignant ascites fluid were used to identify  potential metastatic biomarkers of epithelial ovarian cancer : Partial",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ, LTQ FT",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/27500424\" target=\"_blank\">Miyamoto et al. (2016)</a>",
+      "Brett Phinney",
+      "2016-08-15",
+      "ascites, concanavalin A, epithelial ovarian cancer"
+    ],
+    [
+      "PXD000901",
+      "Phospho-networks in Ovarian Cancer Cell Lines",
+      "PRIDE",
+      "Homo sapiens",
+      "Q Exactive",
+      "<a href=\"https://dx.doi.org/10.1016/j.cell.2015.08.056\" target=\"_blank\">10.1016/j.cell.2015.08.056</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26388441\" target=\"_blank\">Creixell et al. (2015)</a>",
+      "Rune Linding",
+      "2016-07-08",
+      "Cancer, Ovarian, Phospho, SILAC, TiO2"
+    ],
+    [
+      "PXD003304",
+      "Deamidation and phosphorylation sites on SrfH-treated ERK2 kinase",
+      "PRIDE",
+      "Escherichia coli, Homo sapiens, Salmonella enterica subsp. enterica serovar Typhimurium str. 14028s Wu",
+      "LTQ Orbitrap",
+      "Dataset with its publication pending",
+      "Ernesto S. Nakayasu",
+      "2016-06-20",
+      "bacterial effector, deamidation, phosphorylation, post-translational modification"
+    ],
+    [
+      "PXD001849",
+      "Proteomic analysis of gynecologic cancer tissue",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap",
+      "<a href=\"https://dx.doi.org/10.1038/bjc.2016.27\" target=\"_blank\">10.1038/bjc.2016.27</a>; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26889980\" target=\"_blank\">0</a>",
+      "Tetsuji Naka",
+      "2016-04-27",
+      "endometrioid, gynecology, high-grade serous, ovary, uterus"
+    ],
+    [
+      "PXD001403",
+      "Proteome profiling of ovarian cancer and cirrhosis ascites",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25271300\">Shender et al. (2014)</a>",
+      "Georgij Arapidi",
+      "2014-10-23",
+      "ascites, intercellular communication, ovarian cencer"
+    ],
+    [
+      "PXD001402",
+      "Proteome profiling of microvesicles, exosomes and supernatant from SKOV3",
+      "PRIDE",
+      "Homo sapiens",
+      "TripleTOF 5600",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25271300\">Shender et al. (2014)</a>",
+      "Georgij Arapidi",
+      "2014-10-23",
+      "SKOV3, exosome, microvesicle, ovarian cancer, supernatant"
+    ],
+    [
+      "PXD001084",
+      "Label-free LC-MSe in tissue and serum reveals protein networks underlying differences between benign and malignant serous ovarian tumors",
+      "PRIDE",
+      "Homo sapiens",
+      "Synapt G2 MS",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25265318\">Wegdam et al. (2014)</a>",
+      "Johannes M.F.G. Aerts",
+      "2014-10-13",
+      "All Ions Fragmentation, Label Free Quantitation, Ovarian Cancer, Serum, TOPX peptide quantitation, Tissue"
+    ],
+    [
+      "PXD000079",
+      "Formalin-fixed Human Ovarian Cancer Tryptic Peptide LC-MS/MS",
+      "PRIDE",
+      "Homo sapiens",
+      "LTQ Orbitrap",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/23214983\">Meding et al. (2013)</a>",
+      "",
+      "2013-02-28",
+      "FFPE, MALDI imaging, formalin, ovarian cancer"
+    ],
+    [
+      "PXD000100",
+      "Human CAP ovarian cancer plasma (Huettenhain et al.)",
+      "PeptideAtlas",
+      "Homo sapiens",
+      "QTRAP 5500",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22786679\">H\u00c3\u00bcttenhain et al. (2012)</a>",
+      "Ruedi Aebersold",
+      "2012-12-11",
+      "SRM, selected reaction monitoring, targeted"
+    ],
+    [
+      "PXD000003",
+      "Human CAP ovarian cancer plasma (Huettenhain et al.)",
+      "PeptideAtlas",
+      "Homo sapiens",
+      "QTRAP 5500",
+      "<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22786679\">H\u00c3\u00bcttenhain et al. (2012)</a>",
+      "Ruedi Aebersold",
+      "2012-05-11",
+      "SRM, selected reaction monitoring, targeted"
+    ]
+  ],
+  "facets": {
+    "instrument": [
+      {
+        "count": 74,
+        "name": "Q Exactive"
+      },
+      {
+        "count": 29,
+        "name": "Orbitrap Fusion Lumos"
+      },
+      {
+        "count": 28,
+        "name": "Q Exactive HF"
+      },
+      {
+        "count": 19,
+        "name": "Orbitrap Fusion"
+      },
+      {
+        "count": 15,
+        "name": "timsTOF Pro"
+      },
+      {
+        "count": 14,
+        "name": "Q Exactive HF-X"
+      },
+      {
+        "count": 11,
+        "name": "Orbitrap Exploris 480"
+      },
+      {
+        "count": 11,
+        "name": "TripleTOF 5600"
+      },
+      {
+        "count": 10,
+        "name": "LTQ Orbitrap Velos"
+      },
+      {
+        "count": 9,
+        "name": "LTQ Orbitrap Elite"
+      },
+      {
+        "count": 7,
+        "name": "LTQ Orbitrap"
+      },
+      {
+        "count": 7,
+        "name": "Q Exactive Plus"
+      },
+      {
+        "count": 7,
+        "name": "Orbitrap Eclipse"
+      },
+      {
+        "count": 4,
+        "name": "LTQ"
+      },
+      {
+        "count": 4,
+        "name": "QTRAP 5500"
+      },
+      {
+        "count": 3,
+        "name": "autoflex"
+      },
+      {
+        "count": 2,
+        "name": "maXis"
+      },
+      {
+        "count": 2,
+        "name": "ultraflex"
+      },
+      {
+        "count": 2,
+        "name": "Synapt MS"
+      },
+      {
+        "count": 2,
+        "name": "impact HD"
+      },
+      {
+        "count": 2,
+        "name": "4000 QTRAP"
+      },
+      {
+        "count": 2,
+        "name": "TSQ Vantage"
+      },
+      {
+        "count": 1,
+        "name": "timsTOF SCP"
+      },
+      {
+        "count": 1,
+        "name": "TripleTOF 6600"
+      },
+      {
+        "count": 1,
+        "name": "Exactive Plus"
+      },
+      {
+        "count": 1,
+        "name": "6490 Triple Quadrupole LC/MS"
+      },
+      {
+        "count": 1,
+        "name": "Triple Quad 4500"
+      },
+      {
+        "count": 1,
+        "name": "QTRAP 6500"
+      },
+      {
+        "count": 1,
+        "name": "MaxQuant"
+      },
+      {
+        "count": 1,
+        "name": "LCQ Advantage"
+      },
+      {
+        "count": 1,
+        "name": "iTRAQ reagent"
+      },
+      {
+        "count": 1,
+        "name": "Bruker Daltonics instrument model"
+      },
+      {
+        "count": 1,
+        "name": "Thermo Fisher Scientific instrument model"
+      },
+      {
+        "count": 1,
+        "name": "LTQ Orbitrap XL"
+      },
+      {
+        "count": 1,
+        "name": "LTQ Velos"
+      },
+      {
+        "count": 1,
+        "name": "mass spectrometry"
+      },
+      {
+        "count": 1,
+        "name": "6520A Quadrupole Time-of-Flight LC/MS"
+      },
+      {
+        "count": 1,
+        "name": "Orbitrap Fusion ETD"
+      },
+      {
+        "count": 1,
+        "name": "LTQ FT"
+      },
+      {
+        "count": 1,
+        "name": "Synapt G2 MS"
+      }
+    ],
+    "keywords": [
+      {
+        "count": 67,
+        "name": "ovarian cancer"
+      },
+      {
+        "count": 29,
+        "name": "Ovarian cancer"
+      },
+      {
+        "count": 27,
+        "name": "Ovarian Cancer"
+      },
+      {
+        "count": 10,
+        "name": "cancer"
+      },
+      {
+        "count": 8,
+        "name": "HGSOC"
+      },
+      {
+        "count": 7,
+        "name": "TMT"
+      },
+      {
+        "count": 7,
+        "name": "biomarker"
+      },
+      {
+        "count": 6,
+        "name": "ascites"
+      },
+      {
+        "count": 6,
+        "name": "tumor microenvironment"
+      },
+      {
+        "count": 5,
+        "name": "phosphoproteomics"
+      },
+      {
+        "count": 5,
+        "name": "LC-MS"
+      },
+      {
+        "count": 5,
+        "name": "SILAC"
+      },
+      {
+        "count": 5,
+        "name": "Therapy-induced Secretome"
+      },
+      {
+        "count": 5,
+        "name": "follicular fluid"
+      },
+      {
+        "count": 4,
+        "name": "ovary"
+      },
+      {
+        "count": 4,
+        "name": "Cancer"
+      },
+      {
+        "count": 4,
+        "name": "polycystic ovary syndrome"
+      },
+      {
+        "count": 4,
+        "name": "phosphorylation"
+      },
+      {
+        "count": 4,
+        "name": "Biomarker"
+      },
+      {
+        "count": 4,
+        "name": "Human Proteome Project"
+      },
+      {
+        "count": 4,
+        "name": "machine learning"
+      },
+      {
+        "count": 4,
+        "name": "macrophages"
+      },
+      {
+        "count": 4,
+        "name": "CDC42BPA"
+      },
+      {
+        "count": 4,
+        "name": "MRCKA"
+      },
+      {
+        "count": 4,
+        "name": "metastasis"
+      },
+      {
+        "count": 4,
+        "name": "Ovary"
+      },
+      {
+        "count": 4,
+        "name": "Salmonella"
+      },
+      {
+        "count": 4,
+        "name": "Plasma"
+      },
+      {
+        "count": 4,
+        "name": "CPTAC"
+      },
+      {
+        "count": 4,
+        "name": "high-grade serous"
+      },
+      {
+        "count": 3,
+        "name": "epithelial ovarian cancer"
+      },
+      {
+        "count": 3,
+        "name": "ARID1A"
+      },
+      {
+        "count": 3,
+        "name": "mitochondria"
+      },
+      {
+        "count": 3,
+        "name": "Multi-omics"
+      },
+      {
+        "count": 3,
+        "name": "DIA"
+      },
+      {
+        "count": 3,
+        "name": "proteogenomics"
+      },
+      {
+        "count": 3,
+        "name": "Inflammation"
+      },
+      {
+        "count": 3,
+        "name": "glycosylation"
+      },
+      {
+        "count": 3,
+        "name": "Cisplatin"
+      },
+      {
+        "count": 3,
+        "name": "ovarian carcinoma"
+      },
+      {
+        "count": 3,
+        "name": "High Grade Serous Ovarian Carcinoma"
+      },
+      {
+        "count": 3,
+        "name": "ovarian"
+      },
+      {
+        "count": 3,
+        "name": "plasma"
+      },
+      {
+        "count": 3,
+        "name": "prostate cancer"
+      },
+      {
+        "count": 3,
+        "name": "protein expression"
+      },
+      {
+        "count": 3,
+        "name": "Biology/Disease-Driven Human Proteome Project (B/D-HPP)"
+      },
+      {
+        "count": 3,
+        "name": "ProteomeXchange project tag: Cancer (B/D-HPP)"
+      },
+      {
+        "count": 3,
+        "name": "Matrisome"
+      },
+      {
+        "count": 3,
+        "name": "biomarkers"
+      },
+      {
+        "count": 3,
+        "name": "FFPE"
+      },
+      {
+        "count": 3,
+        "name": "chemoresistance"
+      },
+      {
+        "count": 3,
+        "name": "PCOS"
+      },
+      {
+        "count": 3,
+        "name": "BRCA"
+      },
+      {
+        "count": 3,
+        "name": "PARP1"
+      },
+      {
+        "count": 3,
+        "name": "ProteomeXchange project tag: Human Proteome Project"
+      },
+      {
+        "count": 3,
+        "name": "matrisome"
+      },
+      {
+        "count": 3,
+        "name": "DIA-MS"
+      },
+      {
+        "count": 3,
+        "name": "SRM"
+      },
+      {
+        "count": 3,
+        "name": "Degradome"
+      },
+      {
+        "count": 3,
+        "name": "extracellular"
+      },
+      {
+        "count": 3,
+        "name": "kallikrein-related peptidase"
+      },
+      {
+        "count": 3,
+        "name": "matrix metalloprotease"
+      },
+      {
+        "count": 3,
+        "name": "microenvironment"
+      },
+      {
+        "count": 3,
+        "name": "omics"
+      },
+      {
+        "count": 3,
+        "name": "protease"
+      },
+      {
+        "count": 3,
+        "name": "substrate"
+      },
+      {
+        "count": 3,
+        "name": "thrombospondin"
+      },
+      {
+        "count": 3,
+        "name": "transcriptome"
+      },
+      {
+        "count": 2,
+        "name": "exosome"
+      },
+      {
+        "count": 2,
+        "name": "Extracellular Vesicles"
+      },
+      {
+        "count": 2,
+        "name": "ovarian clear cell carcinoma"
+      },
+      {
+        "count": 2,
+        "name": "heterogeneity"
+      },
+      {
+        "count": 2,
+        "name": "premature ovarian insufficiency"
+      },
+      {
+        "count": 2,
+        "name": "Quantitative proteomics"
+      },
+      {
+        "count": 2,
+        "name": "MFF"
+      },
+      {
+        "count": 2,
+        "name": "interactome"
+      },
+      {
+        "count": 2,
+        "name": "Cancer stem cells"
+      },
+      {
+        "count": 2,
+        "name": "mode of action"
+      },
+      {
+        "count": 2,
+        "name": "rhenium"
+      },
+      {
+        "count": 2,
+        "name": "target identification"
+      },
+      {
+        "count": 2,
+        "name": "IP-MS"
+      },
+      {
+        "count": 2,
+        "name": "endometrial cancer"
+      },
+      {
+        "count": 2,
+        "name": "N-glycans"
+      },
+      {
+        "count": 2,
+        "name": "extracellular vesicles"
+      },
+      {
+        "count": 2,
+        "name": "TTP"
+      },
+      {
+        "count": 2,
+        "name": "mRNA decay"
+      },
+      {
+        "count": 2,
+        "name": "pre-mRNA binding"
+      },
+      {
+        "count": 2,
+        "name": "resolution of inflammation"
+      },
+      {
+        "count": 2,
+        "name": "LeMBA"
+      },
+      {
+        "count": 2,
+        "name": "STL"
+      },
+      {
+        "count": 2,
+        "name": "lectin"
+      },
+      {
+        "count": 2,
+        "name": "ovarian cancer screening"
+      },
+      {
+        "count": 2,
+        "name": "IHC"
+      },
+      {
+        "count": 2,
+        "name": "DNA damage"
+      },
+      {
+        "count": 2,
+        "name": "granulosa cells"
+      },
+      {
+        "count": 2,
+        "name": "BRCA1"
+      },
+      {
+        "count": 2,
+        "name": "high grade serous ovarian cancer"
+      },
+      {
+        "count": 2,
+        "name": "Exosome"
+      },
+      {
+        "count": 2,
+        "name": "DDR1 tyrosine kinase"
+      },
+      {
+        "count": 2,
+        "name": "metastatic colorectal cancer"
+      }
+    ],
+    "repository": [
+      {
+        "count": 207,
+        "name": "PRIDE"
+      },
+      {
+        "count": 27,
+        "name": "iProX"
+      },
+      {
+        "count": 16,
+        "name": "MassIVE"
+      },
+      {
+        "count": 3,
+        "name": "jPOST"
+      },
+      {
+        "count": 3,
+        "name": "PanoramaPublic"
+      },
+      {
+        "count": 2,
+        "name": "PeptideAtlas"
+      }
+    ],
+    "species": [
+      {
+        "count": 258,
+        "name": "Homo sapiens"
+      },
+      {
+        "count": 6,
+        "name": "Mus musculus"
+      },
+      {
+        "count": 3,
+        "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344"
+      },
+      {
+        "count": 1,
+        "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 5579"
+      },
+      {
+        "count": 1,
+        "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. A130"
+      },
+      {
+        "count": 1,
+        "name": "Chlamydia trachomatis"
+      },
+      {
+        "count": 1,
+        "name": "Chlamydia trachomatis L2/434/Bu"
+      },
+      {
+        "count": 1,
+        "name": "Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)"
+      },
+      {
+        "count": 1,
+        "name": "Leptospira interrogans serovar Lai str. Lai"
+      },
+      {
+        "count": 1,
+        "name": "Cricetulus griseus (Chinese hamster) (Cricetulus barabensis griseus)"
+      },
+      {
+        "count": 1,
+        "name": "BSA"
+      },
+      {
+        "count": 1,
+        "name": "Saccharomyces cerevisiae (Bakers yeast)"
+      },
+      {
+        "count": 1,
+        "name": "Escherichia coli"
+      },
+      {
+        "count": 1,
+        "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028s Wu"
+      }
+    ],
+    "year": [
+      {
+        "count": 29,
+        "name": "2025"
+      },
+      {
+        "count": 60,
+        "name": "2024"
+      },
+      {
+        "count": 38,
+        "name": "2023"
+      },
+      {
+        "count": 34,
+        "name": "2022"
+      },
+      {
+        "count": 27,
+        "name": "2021"
+      },
+      {
+        "count": 25,
+        "name": "2020"
+      },
+      {
+        "count": 14,
+        "name": "2019"
+      },
+      {
+        "count": 10,
+        "name": "2018"
+      },
+      {
+        "count": 8,
+        "name": "2017"
+      },
+      {
+        "count": 7,
+        "name": "2016"
+      },
+      {
+        "count": 3,
+        "name": "2014"
+      },
+      {
+        "count": 1,
+        "name": "2013"
+      },
+      {
+        "count": 2,
+        "name": "2012"
+      }
+    ]
+  },
+  "query": {
+    "accession": null,
+    "contact": null,
+    "instrument": null,
+    "keywords": null,
+    "modification": null,
+    "pageNumber": 1,
+    "pageSize": 1000000,
+    "publication": null,
+    "repository": null,
+    "resultType": "compact",
+    "search": "ovar",
+    "species": "Homo sapiens",
+    "year": null
+  },
+  "result_set": {
+    "datasets_title_list": [
+      "dataset identifier",
+      "title",
+      "repository",
+      "species",
+      "instrument",
+      "publication",
+      "lab head",
+      "announce date",
+      "keywords"
+    ],
+    "n_available_pages": 1,
+    "n_available_rows": 258,
+    "n_rows_returned": 258,
+    "page_number": 1,
+    "page_size": 1000000
+  },
+  "status": {
+    "description": "Sent 258 datasets",
+    "error_code": null,
+    "status": "OK",
+    "status_code": 200
+  }
+}

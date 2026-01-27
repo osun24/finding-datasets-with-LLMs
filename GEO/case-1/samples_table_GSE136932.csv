@@ -1,0 +1,27 @@
+# TITLE: Effect of Pirfenidone on NSCLC [A549/H1975 0.75 mg/ml Pirf]
+# SUMMARY: Investigating the effect of Pirfenidone on NSCLC cells Although immune checkpoint and targeted therapies offer remarkable benefits for lung cancer treatment, some patients do not qualify for these regimens or do not exhibit consistent benefit. Provided that lung cancer appears to be driven by transforming growth factor beta signaling, we investigated the single drug potency of Pirfenidone, an approved drug for the treatment of lung fibrosis which is known to inhibit TGFB1 mRNA. Human A549 and H1975 lung adenocarcinoma cell lines were stimulated for 6h and 25h with 0.75 mg/ml or 1.5 mg/ml Pirfenidone or the respective volume of PBS as vehicle control. Total RNA was extracted and subjected to transcriptome analysis by microarrays.
+GPL13497_Group,GPL13497_Accession,GPL13497_Title,GPL13497_Source name,GPL13497_Cell line,GPL13497_Treatmnet,GPL13497_Treatment  time
+-,GSM4061960,A549_0-75mg_PBS_ctrl_6h_Rep1,A549_0-75mg_PBS_ctrl_6h,A549,PBS,6h
+-,GSM4061961,A549_0-75mg_PBS_ctrl_6h_Rep2,A549_0-75mg_PBS_ctrl_6h,A549,PBS,6h
+-,GSM4061962,A549_0-75mg_PBS_ctrl_6h_Rep3,A549_0-75mg_PBS_ctrl_6h,A549,PBS,6h
+-,GSM4061963,A549_0-75mg_PBS_ctrl_24h_Rep1,A549_0-75mg_PBS_ctrl_24h,A549,PBS,24h
+-,GSM4061964,A549_0-75mg_PBS_ctrl_24h_Rep2,A549_0-75mg_PBS_ctrl_24h,A549,PBS,24h
+-,GSM4061965,A549_0-75mg_PBS_ctrl_24h_Rep3,A549_0-75mg_PBS_ctrl_24h,A549,PBS,24h
+-,GSM4061966,A549_0-75mg_Pirf_6h_Rep1,A549_0-75mg_Pirf_6h,A549,Pirfenidone,6h
+-,GSM4061967,A549_0-75mg_Pirf_6h_Rep2,A549_0-75mg_Pirf_6h,A549,Pirfenidone,6h
+-,GSM4061968,A549_0-75mg_Pirf_6h_Rep3,A549_0-75mg_Pirf_6h,A549,Pirfenidone,6h
+-,GSM4061969,A549_0-75mg_Pirf_24h_Rep1,A549_0-75mg_Pirf_24h,A549,Pirfenidone,24h
+-,GSM4061970,A549_0-75mg_Pirf_24h_Rep2,A549_0-75mg_Pirf_24h,A549,Pirfenidone,24h
+-,GSM4061971,A549_0-75mg_Pirf_24h_Rep3,A549_0-75mg_Pirf_24h,A549,Pirfenidone,24h
+-,GSM4061972,H1975_0-75mg_PBS_ctrl_6h_Rep1,H1975_0-75mg_PBS_ctrl_6h,H1975,PBS,6h
+-,GSM4061973,H1975_0-75mg_PBS_ctrl_6h_Rep2,H1975_0-75mg_PBS_ctrl_6h,H1975,PBS,6h
+-,GSM4061974,H1975_0-75mg_PBS_ctrl_6h_Rep3,H1975_0-75mg_PBS_ctrl_6h,H1975,PBS,6h
+-,GSM4061975,H1975_0-75mg_PBS_ctrl_24h_Rep1,H1975_0-75mg_PBS_ctrl_24h,H1975,PBS,24h
+-,GSM4061976,H1975_0-75mg_PBS_ctrl_24h_Rep2,H1975_0-75mg_PBS_ctrl_24h,H1975,PBS,24h
+-,GSM4061977,H1975_0-75mg_PBS_ctrl_24h_Rep3,H1975_0-75mg_PBS_ctrl_24h,H1975,PBS,24h
+-,GSM4061978,H1975_0-75mg_Pirf_6h_Rep1,H1975_0-75mg_Pirf_6h,H1975,Pirfenidone,6h
+-,GSM4061979,H1975_0-75mg_Pirf_6h_Rep2,H1975_0-75mg_Pirf_6h,H1975,Pirfenidone,6h
+-,GSM4061980,H1975_0-75mg_Pirf_6h_Rep3,H1975_0-75mg_Pirf_6h,H1975,Pirfenidone,6h
+-,GSM4061981,H1975_0-75mg_Pirf_24h_Rep1,H1975_0-75mg_Pirf_24h,H1975,Pirfenidone,24h
+-,GSM4061982,H1975_0-75mg_Pirf_24h_Rep2,H1975_0-75mg_Pirf_24h,H1975,Pirfenidone,24h
+-,GSM4061983,H1975_0-75mg_Pirf_24h_Rep3,H1975_0-75mg_Pirf_24h,H1975,Pirfenidone,24h

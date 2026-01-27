@@ -1,0 +1,95 @@
+# TITLE: High frequency of pathogenic germline variants in genes associated with homologous recombination repair in patients with advanced solid cancers
+# SUMMARY: We identified pathogenic and likely pathogenic variants in 17.8% of the patients within a wide range of cancer types. In particular, mesothelioma, ovarian cancer, cervical cancer, urothelial cancer, and cancer of unknown primary origin displayed high frequencies of pathogenic variants. In total, 22 BRCA1 and BRCA2 germline variant were identified in 12 different cancer types, of which 10 (45%) variants were not previously identified in these patients. Pathogenic germline variants were predominantly found in DNA repair pathways; approximately half of the variants were within genes involved in homologous recombination repair. Loss of heterozygosity and somatic second hits were identified in several of these genes, supporting possible causality for cancer development. A potential treatment target based on pathogenic germline variant could be suggested in 25 patients (4%).
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue,GPL570_Cancer,GPL570_Mutated gene,GPL570_Predicted,GPL570_Parp predicted
+-,GSM3759992,sample 01 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,ATR,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3759993,sample 02 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,FAN1,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3759994,sample 03 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,ERCC3,HRDEXP: NO_HRD,kmeans-2: PARP sensitive
+-,GSM3759995,sample 04 [Bile duct cancer],tumor biopsy,tumor biopsy,Bile duct cancer,FANCD2,HRDEXP: NO_HRD,kmeans-2: PARP sensitive
+-,GSM3759996,sample 05 [Mesothelioma],tumor biopsy,tumor biopsy,Mesothelioma,BAP1,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3759997,sample 06 [Urothelial cancer],tumor biopsy,tumor biopsy,Urothelial cancer,DDB2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3759998,sample 07 [Pancreatic cancer],tumor biopsy,tumor biopsy,Pancreatic cancer,TP53,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3759999,sample 08 [Melanoma],tumor biopsy,tumor biopsy,Melanoma,ATM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760000,sample 09 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CHEK1,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760001,sample 10 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,BRCA1,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760002,sample 11 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,WRN,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760003,sample 12 [Hepatocellular carcinoma],tumor biopsy,tumor biopsy,Hepatocellular carcinoma,CHEK2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760004,sample 13 [Ovarian cancer],tumor biopsy,tumor biopsy,Ovarian cancer,BRCA2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760005,sample 14 [Mesothelioma],tumor biopsy,tumor biopsy,Mesothelioma,BRCA2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760006,sample 15 [Cervical cancer],tumor biopsy,tumor biopsy,Cervical cancer,XPC,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760007,sample 16 [Mesothelioma],tumor biopsy,tumor biopsy,Mesothelioma,FANCD2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760008,sample 17 [Pancreatic cancer],tumor biopsy,tumor biopsy,Pancreatic cancer,PALB2,HRDEXP: NO_HRD,kmeans-2: PARP sensitive
+-,GSM3760009,sample 18 [Head and Neck cancer],tumor biopsy,tumor biopsy,Head and Neck cancer,ABRAXAS1,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760010,sample 19 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CHEK2,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760011,sample 20 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,BRCA2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760012,sample 21 [Sarcoma],tumor biopsy,tumor biopsy,Sarcoma,WRN,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760013,sample 22 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CHEK1,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760014,sample 23 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CHEK2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760015,sample 24 [Cervical cancer],tumor biopsy,tumor biopsy,Cervical cancer,NBN,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760016,sample 25 [Pancreatic cancer],tumor biopsy,tumor biopsy,Pancreatic cancer,BLM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760017,sample 26 [Prostate cancer],tumor biopsy,tumor biopsy,Prostate cancer,BRCA2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760018,sample 27 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,FAM111B,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760019,sample 28 [Adenoid cystic carcinoma],tumor biopsy,tumor biopsy,Adenoid cystic carcinoma,BRCA1,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760020,sample 29 [Head and Neck cancer],tumor biopsy,tumor biopsy,Head and Neck cancer,FANCA,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760021,sample 30 [Sarcoma],tumor biopsy,tumor biopsy,Sarcoma,CHEK1,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760022,sample 31 [Ovarian cancer],tumor biopsy,tumor biopsy,Ovarian cancer,BRCA1,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760023,sample 32 [Mesothelioma],tumor biopsy,tumor biopsy,Mesothelioma,FANCA,HRDEXP: NO_HRD,kmeans-2: PARP sensitive
+-,GSM3760024,sample 33 [Pancreatic cancer],tumor biopsy,tumor biopsy,Pancreatic cancer,MLH1,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760025,sample 34 [Ovarian cancer],tumor biopsy,tumor biopsy,Ovarian cancer,BRCA2,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760026,sample 35 [NSCLC],tumor biopsy,tumor biopsy,NSCLC,CHEK2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760027,sample 36 [Ovarian cancer],tumor biopsy,tumor biopsy,Ovarian cancer,ATM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760028,sample 37 [Bile duct cancer],tumor biopsy,tumor biopsy,Bile duct cancer,BRIP1,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760029,sample 38 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CHEK2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760030,sample 39 [NSCLC],tumor biopsy,tumor biopsy,NSCLC,CHEK2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760031,sample 40 [Oesophageal cancer],tumor biopsy,tumor biopsy,Oesophageal cancer,ATM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760032,sample 41 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,BRCA2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760033,sample 42 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CHEK2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760034,sample 43 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,BRCA2,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760035,sample 44 [Thymoma],tumor biopsy,tumor biopsy,Thymoma,BLM,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760036,sample 45 [Bile duct cancer],tumor biopsy,tumor biopsy,Bile duct cancer,ATM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760037,sample 46 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,BRCA2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760038,sample 47 [Others],tumor biopsy,tumor biopsy,Others,IPMK,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760039,sample 48 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,CHEK1,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760040,sample 49 [Urothelial cancer],tumor biopsy,tumor biopsy,Urothelial cancer,BRCA2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760041,sample 50 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,CHEK2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760042,sample 51 [CUP],tumor biopsy,tumor biopsy,CUP,RECQL,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760043,sample 52 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,FAN1,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760044,sample 53 [Pancreatic cancer],tumor biopsy,tumor biopsy,Pancreatic cancer,RAD50,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760045,sample 54 [Mesothelioma],tumor biopsy,tumor biopsy,Mesothelioma,FANCM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760046,sample 55 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,BLM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760047,sample 56 [Ovarian cancer],tumor biopsy,tumor biopsy,Ovarian cancer,ATR,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760048,sample 57 [Melanoma],tumor biopsy,tumor biopsy,Melanoma,BAP1,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760049,sample 58 [Bile duct cancer],tumor biopsy,tumor biopsy,Bile duct cancer,BRCA1,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760050,sample 59 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CHEK2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760051,sample 60 [Sarcoma],tumor biopsy,tumor biopsy,Sarcoma,XPC,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760052,sample 61 [NSCLC],tumor biopsy,tumor biopsy,NSCLC,NBN,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760053,sample 62 [Cervical cancer],tumor biopsy,tumor biopsy,Cervical cancer,XPC,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760054,sample 63 [Urothelial cancer],tumor biopsy,tumor biopsy,Urothelial cancer,GALNT12,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760055,sample 64 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,BRCA2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760056,sample 65 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,SMAD9,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760057,sample 66 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,ERCC2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760058,sample 67 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,FANCD2,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760059,sample 68 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,BRIP1,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760060,sample 69 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,CHEK2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760061,sample 70 [Renal cell carcinoma],tumor biopsy,tumor biopsy,Renal cell carcinoma,CHEK2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760062,sample 71 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,BLM,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760063,sample 72 [Breast cancer],tumor biopsy,tumor biopsy,Breast cancer,CHEK2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760064,sample 73 [Mesothelioma],tumor biopsy,tumor biopsy,Mesothelioma,FANCC,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760065,sample 74 [Gastric cancer],tumor biopsy,tumor biopsy,Gastric cancer,GALNT12,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760066,sample 75 [CUP],tumor biopsy,tumor biopsy,CUP,BRCA2,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760067,sample 76 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,NF1,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760068,sample 77 [Renal cell carcinoma],tumor biopsy,tumor biopsy,Renal cell carcinoma,SEC23B,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760069,sample 78 [Pancreatic cancer],tumor biopsy,tumor biopsy,Pancreatic cancer,FANCM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760070,sample 79 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,FANCA,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760071,sample 80 [Cervical cancer],tumor biopsy,tumor biopsy,Cervical cancer,CHEK2,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760072,sample 81 [NSCLC],tumor biopsy,tumor biopsy,NSCLC,BLM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760073,sample 82 [Neuroendocrine cancer],tumor biopsy,tumor biopsy,Neuroendocrine cancer,ERCC3,HRDEXP: HRD,kmeans-2: PARP sensitive
+-,GSM3760074,sample 83 [Prostate cancer],tumor biopsy,tumor biopsy,Prostate cancer,FAN1,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760075,sample 84 [Ovarian cancer],tumor biopsy,tumor biopsy,Ovarian cancer,MRE11,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760076,sample 85 [Mesothelioma],tumor biopsy,tumor biopsy,Mesothelioma,XPC,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760077,sample 86 [vulvovaginal],tumor biopsy,tumor biopsy,vulvovaginal,PMS2,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760078,sample 87 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,ATM,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760079,sample 88 [Bile duct cancer],tumor biopsy,tumor biopsy,Bile duct cancer,PALB2,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760080,sample 89 [Prostate cancer],tumor biopsy,tumor biopsy,Prostate cancer,NBN,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760081,sample 90 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CEP57,HRDEXP: NO_HRD,kmeans-2: PARP insensitive
+-,GSM3760082,sample 91 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,CDH1,HRDEXP: HRD,kmeans-2: PARP insensitive
+-,GSM3760083,sample 92 [Colorectal cancer],tumor biopsy,tumor biopsy,Colorectal cancer,FANCM,HRDEXP: HRD,kmeans-2: PARP insensitive

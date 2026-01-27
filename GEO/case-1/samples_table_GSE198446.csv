@@ -1,0 +1,19 @@
+# TITLE: UHRF1 is a mediator of KRAS driven oncogenesis in lung adenocarcinoma [epic_methyl]
+# SUMMARY: Methylation array was performed to understand the role of UHRF1 in DNA methylation in KRAS mutant lung cancer cell lines. Knock-down of UHRF1 leads to significant changes in global DNA methylation in both cell lines.
+GPL21145_Group,GPL21145_Accession,GPL21145_Title,GPL21145_Source name,GPL21145_Cell line,GPL21145_Treatment,GPL21145_Disease,GPL21145_Mutation
+-,GSM5947019,siNeg_H358_KK_01,H358,H358,siNeg,non-small cell lung cancer (NSCLC),KRAS G12C
+-,GSM5947020,siNeg_H358_KK_02,H358,H358,siNeg,non-small cell lung cancer (NSCLC),KRAS G12C
+-,GSM5947021,siKRAS_H358_KK_03,H358,H358,siKRAS,non-small cell lung cancer (NSCLC),KRAS G12C
+-,GSM5947022,siKRAS_H358_KK_04,H358,H358,siKRAS,non-small cell lung cancer (NSCLC),KRAS G12C
+-,GSM5947023,siKRAS_H358_KK_05,H358,H358,siKRAS,non-small cell lung cancer (NSCLC),KRAS G12C
+-,GSM5947024,siUHRF1_H358_KK_06,H358,H358,siUHRF1,non-small cell lung cancer (NSCLC),KRAS G12C
+-,GSM5947025,siUHRF1_H358_KK_07,H358,H358,siUHRF1,non-small cell lung cancer (NSCLC),KRAS G12C
+-,GSM5947026,siUHRF1_H358_KK_08,H358,H358,siUHRF1,non-small cell lung cancer (NSCLC),KRAS G12C
+-,GSM5947027,siNeg_A549_KK_09,A549,A549,siNeg,non-small cell lung cancer (NSCLC),KRAS G12S
+-,GSM5947028,siNeg_A549_KK_10,A549,A549,siNeg,non-small cell lung cancer (NSCLC),KRAS G12S
+-,GSM5947029,siKRAS_A549_KK_11,A549,A549,siKRAS,non-small cell lung cancer (NSCLC),KRAS G12S
+-,GSM5947030,siKRAS_A549_KK_12,A549,A549,siKRAS,non-small cell lung cancer (NSCLC),KRAS G12S
+-,GSM5947031,siKRAS_A549_KK_13,A549,A549,siKRAS,non-small cell lung cancer (NSCLC),KRAS G12S
+-,GSM5947032,siUHRF1_A549_KK_14,A549,A549,siUHRF1,non-small cell lung cancer (NSCLC),KRAS G12S
+-,GSM5947033,siUHRF1_A549_KK_15,A549,A549,siUHRF1,non-small cell lung cancer (NSCLC),KRAS G12S
+-,GSM5947034,siUHRF1_A549_KK_16,A549,A549,siUHRF1,non-small cell lung cancer (NSCLC),KRAS G12S

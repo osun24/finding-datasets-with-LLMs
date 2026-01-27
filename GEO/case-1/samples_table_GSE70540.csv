@@ -1,0 +1,15 @@
+# TITLE: Transcribed ultraconserved region 339 promotes carcinogenesis by sequestering tumor suppressor microRNAs
+# SUMMARY: The transcribed ultraconserved regions (T-UCRs) are a family of long non-coding RNAs implicated in human carcinogenesis. The mechanism of action of T-UCRs and the factors regulating their expression in human cancers are poorly understood. In this study we show that high expression of uc.339 correlates with lower survival in 204 non-small cell lung cancer (NSCLC) patients. We also show that uc.339 found up-regulated in archival NSCLC samples, functions as a decoy for miR-339-3p, -663-3p and -95-5p. As a result, Cyclin E2, a direct target of these microRNAs is up-regulated, promoting cancer growth and migration. We provide evidence from cell lines and primary samples suggesting that TP53 directly regulates uc.339. Our results support a key role for uc.339 in lung cancer.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Histology,GPL570_Cell line
+-,GSM1808777,A339-1,lung cancer,adenocarcinoma,A549
+-,GSM1808778,A339-2,lung cancer,adenocarcinoma,A549
+-,GSM1808779,A339-3,lung cancer,adenocarcinoma,A549
+-,GSM1808780,AE-1,lung cancer,adenocarcinoma,A549
+-,GSM1808781,AE-2,lung cancer,adenocarcinoma,A549
+-,GSM1808782,AE-3,lung cancer,adenocarcinoma,A549
+-,GSM1808783,L339-1,colorectal cancer,adenocarcinoma,LoVo
+-,GSM1808784,L339-2,colorectal cancer,adenocarcinoma,LoVo
+-,GSM1808785,L339-3,colorectal cancer,adenocarcinoma,LoVo
+-,GSM1808786,LE-1,colorectal cancer,adenocarcinoma,LoVo
+-,GSM1808787,LE-2,colorectal cancer,adenocarcinoma,LoVo
+-,GSM1808788,LE-3,colorectal cancer,adenocarcinoma,LoVo

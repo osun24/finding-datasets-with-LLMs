@@ -1,0 +1,5 @@
+# TITLE: Human Non-Small Cell Lung Cancer cells: Control vs gefitinib treated cells
+# SUMMARY: Total gene expression difference after treatment gefitinib for 24 h compared to control NSCLCs To determine which proteins are responsible for the differences in glutamine metabolism in response to the gefitinib treatment between gefitinib-sensitive and gefitinib-resistant cells
+GPL24009_Group,GPL24009_Accession,GPL24009_Title,GPL24009_Source name 1,GPL24009_Source name 2,GPL24009_Tissue (Ch1),GPL24009_Genotype (Ch1),GPL24009_Cell line (Ch1),GPL24009_Cell type (Ch1),GPL24009_Tissue (Ch2),GPL24009_Genotype (Ch2),GPL24009_Cell line (Ch2),GPL24009_Cell type (Ch2)
+-,GSM2781795,A549 cells_control vs 20 µM gefitinib_24h,"NSCLC A549 cells, 20 µM gefitinib treatment, 24h","NSCLC A549 cells, control, 24h",Lung,EGFR wild type,A549,NSCLC,Lung,EGFR wild type,A549,NSCLC
+-,GSM2781796,PC-9 cells_control vs 20 nM gefitinib_24h,"NSCLC PC-9 cells, 20 nM gefitinib treatment, 24h","NSCLC PC-9 cells, control, 24h",Lung,EGFR delE746-A750,PC_9,NSCLC,Lung,EGFR delE746-A750,PC-9,NSCLC

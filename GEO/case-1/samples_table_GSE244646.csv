@@ -1,0 +1,22 @@
+# TITLE: Platelet miRNA expression in NSCLC patients
+# SUMMARY: Gene expression profile of platelets have been explored due to their stability and abundance in plasma. In this study, we try to address the knowledge gap regarding liquid biopsy markers for early detection of non-small cell lung cancer (NSCLC). For that blood samples were collected in two time points, in the presence and absence of NSCLC. Platelets were isolated and miRNA expression evaluated by microarray technique.
+GPL21572_Group,GPL21572_Accession,GPL21572_Title,GPL21572_Source name,GPL21572_Blood,GPL21572_Condition,GPL21572_Histology,GPL21572_Tnm,GPL21572_Sex,GPL21572_Age
+-,GSM7823209,Platelets_NSCLC patient pre-treatment_P7F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,T1bcN0Mx,Female,71
+-,GSM7823210,Platelets_NSCLC patient pre-treatment_P8F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,T1bN0,Male,56
+-,GSM7823211,Platelets_NSCLC patient post-treatment_P8F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Male,56
+-,GSM7823212,Platelets_NSCLC patient pre-treatment_P9F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,T1N0M0,Female,64
+-,GSM7823213,Platelets_NSCLC patient post-treatment_P9F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Female,64
+-,GSM7823214,Platelets_NSCLC patient pre-treatment_P13F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,T1bcN0M0,Female,58
+-,GSM7823215,Platelets_NSCLC patient post-treatment_P13F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Female,58
+-,GSM7823216,Platelets_NSCLC patient pre-treatment_P19F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,no information,Male,64
+-,GSM7823217,Platelets_NSCLC patient post-treatment_P19F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Male,64
+-,GSM7823218,Platelets_NSCLC patient pre-treatment_P20F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung squamous cell carcinoma,T1bN0,Male,71
+-,GSM7823219,Platelets_NSCLC patient post-treatment_P20F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Male,71
+-,GSM7823220,Platelets_NSCLC patient pre-treatment_P21F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,no information,Female,77
+-,GSM7823221,Platelets_NSCLC patient post-treatment_P21F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Female,77
+-,GSM7823222,Platelets_NSCLC patient pre-treatment_P27F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,T1ccN0,Female,61
+-,GSM7823223,Platelets_NSCLC patient post-treatment_P27F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Female,61
+-,GSM7823224,Platelets_NSCLC patient pre-treatment_P31F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,T1N0M0,Female,69
+-,GSM7823225,Platelets_NSCLC patient post-treatment_P31F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Female,69
+-,GSM7823226,Platelets_NSCLC patient pre-treatment_P32F0_miRNA,Blood platelet in tumour presence,platelet,Tumour presence,Lung adenocarcinoma,T1bcN0,Female,65
+-,GSM7823227,Platelets_NSCLC patient post-treatment_P32F1_miRNA,Blood platelet tumour free,platelet,Tumour free,-,-,Female,65

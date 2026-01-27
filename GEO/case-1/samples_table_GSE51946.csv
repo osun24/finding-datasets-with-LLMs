@@ -1,0 +1,21 @@
+# TITLE: miRNA profile of lung adenocarcinoma cells treatment with monoclonal antibody NJ001 [miRNA_12h_24h_48h]
+# SUMMARY: Previously, we developed a newly monoclonal antibody named NJ001 which selectively reacted to non-small cell lung cancer and exhibited anti-tumor activity both in vitro and in vivo by inhibiting proliferation, colony formation, apoptosis and so on. MiRNA ubiquitously regulates cell processes such as cell cycle regulation, invasion, differentiation and proliferation. We used microarrays to detail the miRNA changes in the lung adenocarcinoma cell SPC-A1 after treatment with NJ001. These miRNA may have contribution to the effect of NJ001 on cancer cells.
+GPL14613_Group,GPL14613_Accession,GPL14613_Title,GPL14613_Source name,GPL14613_Cell line,GPL14613_Cell type
+-,GSM1255625,"SPC-A1 control group, without NJ001 treatment for 12h, biological rep1",SPC-A1 cells treated without monoclonal antibody NJ001 for 12h,SPC-A1,lung adenocarcinoma
+-,GSM1255626,"SPC-A1 control group, without NJ001 treatment for 12h, biological rep2",SPC-A1 cells treated without monoclonal antibody NJ001 for 12h,SPC-A1,lung adenocarcinoma
+-,GSM1255627,"SPC-A1 control group, without NJ001 treatment for 12h, biological rep3",SPC-A1 cells treated without monoclonal antibody NJ001 for 12h,SPC-A1,lung adenocarcinoma
+-,GSM1255628,"SPC-A1 study group, with NJ001 treatment for 12h, biological rep1",SPC-A1 cells treated with monoclonal antibody NJ001 for 12h,SPC-A1,lung adenocarcinoma
+-,GSM1255629,"SPC-A1 study group, with NJ001 treatment for 12h, biological rep2",SPC-A1 cells treated with monoclonal antibody NJ001 for 12h,SPC-A1,lung adenocarcinoma
+-,GSM1255630,"SPC-A1 study group, with NJ001 treatment for 12h, biological rep3",SPC-A1 cells treated with monoclonal antibody NJ001 for 12h,SPC-A1,lung adenocarcinoma
+-,GSM1255631,"SPC-A1 control group, without NJ001 treatment for 24h, biological rep1",SPC-A1 cells treated without monoclonal antibody NJ001 for 24h,SPC-A1,lung adenocarcinoma
+-,GSM1255632,"SPC-A1 control group, without NJ001 treatment  for 24h, biological rep2",SPC-A1 cells treated without monoclonal antibody NJ001 for 24h,SPC-A1,lung adenocarcinoma
+-,GSM1255633,"SPC-A1 control group, without NJ001 treatment  for 24h, biological rep3",SPC-A1 cells treated without monoclonal antibody NJ001 for 24h,SPC-A1,lung adenocarcinoma
+-,GSM1255634,"SPC-A1 study group, with NJ001 treatment  for 24h, biological rep1",SPC-A1 cells treated with monoclonal antibody NJ001 for 24h,SPC-A1,lung adenocarcinoma
+-,GSM1255635,"SPC-A1 study group, with NJ001 treatment  for 24h, biological rep2",SPC-A1 cells treated with monoclonal antibody NJ001 for 24h,SPC-A1,lung adenocarcinoma
+-,GSM1255636,"SPC-A1 study group, with NJ001 treatment  for24h, biological rep3",SPC-A1 cells treated with monoclonal antibody NJ001 for 24h,SPC-A1,lung adenocarcinoma
+-,GSM1255637,"SPC-A1 control group, without NJ001 treatment  for 48h, biological rep1",SPC-A1 cells treated without monoclonal antibody NJ001 for 48h,SPC-A1,lung adenocarcinoma
+-,GSM1255638,"SPC-A1 control group, without NJ001 treatment  for 48h, biological rep2",SPC-A1 cells treated without monoclonal antibody NJ001 for 48h,SPC-A1,lung adenocarcinoma
+-,GSM1255639,"SPC-A1 control group, without NJ001 treatment  for 48h, biological rep3",SPC-A1 cells treated without monoclonal antibody NJ001 for 48h,SPC-A1,lung adenocarcinoma
+-,GSM1255640,"SPC-A1 study group, with NJ001 treatment  for 48h, biological rep1",SPC-A1 cells treated with monoclonal antibody NJ001 for 48h,SPC-A1,lung adenocarcinoma
+-,GSM1255641,"SPC-A1 study group, with NJ001 treatment  for 48h, biological rep2",SPC-A1 cells treated with monoclonal antibody NJ001 for 48h,SPC-A1,lung adenocarcinoma
+-,GSM1255642,"SPC-A1 study group, with NJ001 treatment  for 48h, biological rep3",SPC-A1 cells treated with monoclonal antibody NJ001 for 48h,SPC-A1,lung adenocarcinoma

@@ -1,0 +1,11 @@
+# TITLE: Gene expression analysis in TGFbeta/TNFalpha treated A549 spheroid cultures
+# SUMMARY: TGFbeta/TNFalpha treated spheroid A549 cultures are a model of the epithelial-mesenchymal transition (EMT). These experiments capture the changes in global gene expression that result from cells being induced to undergo EMT (3D control vs 3D treated), but also the differences in gene expression when A549 is grown in spheroid cultures (2D control vs 3D untreated). EMT is efficiently induced only in the spheroid culture model.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Culture,GPL570_Treated twice with
+-,GSM1038431,a549-2d-control-1,a549-2d-control,A549,2D,
+-,GSM1038432,a549-2d-control-2,a549-2d-control,A549,2D,
+-,GSM1038433,a549-2d-treated-1,a549-2d-treated,A549,2D,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+-,GSM1038434,a549-2d-treated-2,a549-2d-treated,A549,2D,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+-,GSM1038435,a549-3d-control-1,a549-3d-control,A549,3D,
+-,GSM1038436,a549-3d-control-2,a549-3d-control,A549,3D,
+-,GSM1038437,a549-3d-treated-1,a549-3d-treated,A549,3D,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+-,GSM1038438,a549-3d-treated-2,a549-3d-treated,A549,3D,10 ng/mL TNF and 2 ng/mL TGF for 48hr each

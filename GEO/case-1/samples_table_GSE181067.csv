@@ -1,0 +1,15 @@
+# TITLE: Expression data from human A549 cells and exosomes under room air (RA) or intermittent hypoxia (IH)
+# SUMMARY: Studies have shown that IH may promote the development of non-small-cell lung cancer (NSCLC), Exosomes carry specific proteins, lipids, small molecule RNAs (miRNAs) as well as other bioactive substances, which play an important role in tumor growth. The role of exosomal miRNAs in the promotion of tumor development by IH has not been studied.
+GPL21572_Group,GPL21572_Accession,GPL21572_Title,GPL21572_Source name,GPL21572_Cell,GPL21572_Condition
+-,GSM5484147,RA A549 cells-1,RA A549 cells,A549 cell,room air (RA）
+-,GSM5484148,RA A549 cells-2,RA A549 cells,A549 cell,room air (RA）
+-,GSM5484149,RA A549 cells-3,RA A549 cells,A549 cell,room air (RA）
+-,GSM5484150,IH A549 cells-1,IH A549 cells,A549 cell,room air (RA）
+-,GSM5484151,IH A549 cells-2,IH A549 cells,A549 cell,room air (RA）
+-,GSM5484152,IH A549 cells-3,IH A549 cells,A549 cell,room air (RA）
+-,GSM5484153,RA exosome-1,RA exosomes,exosome isolated from A549 cell,intermittent hypoxia (IH)
+-,GSM5484154,RA exosome-2,RA exosomes,exosome isolated from A549 cell,intermittent hypoxia (IH)
+-,GSM5484155,RA exosome-3,RA exosomes,exosome isolated from A549 cell,intermittent hypoxia (IH)
+-,GSM5484156,IH exosome-1,IH exosomes,exosome isolated from A549 cell,intermittent hypoxia (IH)
+-,GSM5484157,IH exosome-2,IH exosomes,exosome isolated from A549 cell,intermittent hypoxia (IH)
+-,GSM5484158,IH exosome-3,IH exosomes,exosome isolated from A549 cell,intermittent hypoxia (IH)

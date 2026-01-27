@@ -1,0 +1,11 @@
+# TITLE: Oncogenic KRAS mediates amino acid metabolism during nutrient stress via regulation of NRF2 and ATF4 in NSCLC [shKRAS low Q]
+# SUMMARY: Glutamine is a key nutrient for tumor cells that supports nucleotide and amino acid biosynthesis, replenishes the TCA cycle intermediates and contributes to redox metabolism. We identified oncogenic KRAS as a critical regulator of the response to glutamine deprivation in NSCLC. Full activation of the ATF4 stress response pathway is dependent on expression of NRF2 downstream of oncogenic KRAS in NSCLC. Through this mechanism, KRAS alters amino acid uptake and metabolism and sustains mTORC1 signaling during nutrient stress. Furthermore, we identified regulation of asparagine synthetase (ASNS) as a key effect of oncogenic KRAS signaling via ATF4 during glutamine deprivation, and a potential therapeutic target in KRAS mutant NSCLC.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Cell type,GPL10558_ShRNA,GPL10558_Q concentration
+-,GSM2160110,H460 shGFP_low Q,NSCLC cell line,H460,NSCLC,shGFP,0.5mM Q
+-,GSM2160111,A549 shGFP_low Q,NSCLC cell line,A549,NSCLC,shGFP,0.5mM Q
+-,GSM2160112,H460 shKRAS_low Q,NSCLC cell line,H460,NSCLC,shKRAS,0.5mM Q
+-,GSM2160113,A549 shKRAS_low Q,NSCLC cell line,A549,NSCLC,shKRAS,0.5mM Q
+-,GSM2160114,H358 shGFP_low Q,NSCLC cell line,H358,NSCLC,shGFP,0.5mM Q
+-,GSM2160115,H358 shKRAS_low Q,NSCLC cell line,H358,NSCLC,shKRAS,0.5mM Q
+-,GSM2160116,H2009 shGFP_low Q,NSCLC cell line,H2009,NSCLC,shGFP,0.5mM Q
+-,GSM2160117,H2009 shKRAS_low Q,NSCLC cell line,H2009,NSCLC,shKRAS,0.5mM Q

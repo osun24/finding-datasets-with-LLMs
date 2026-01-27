@@ -1,0 +1,2 @@
+Title: Fritz_STK11KO_MIB_2020_TripleTOF5600_complete
+Description: The files are associated with a manuscript submitted for publication by Jamie Lee Fritz et al. The main goal of this paper was to identify potential substrates for LKB1, a master kinase that is required for epithelial ovarian cancer spheroid viability and metastasis.

@@ -1,0 +1,26 @@
+# TITLE: Cross-comparison of high-throughput platforms for circulating mcroRNA in non small cell lung cancer - TaqMan OpenArray
+# SUMMARY: This study focuses on platform comparison to assess performance variability in circulating microRNA (ct-miR) detection, agreement in assignment of a miR signature classifier (MSC) and concordance for the identification of cancer-associated miRs in plasma samples from non‐small cell lung cancer (NSCLC) patients. A plasma cohort of 10 NSCLC patients and 10 healthy donors matched for clinical features and MSC risk level was profiled for miRs expression using two sequencing- and three quantitative PCR (qPCR)-based platforms. Intra- and inter-platform variations were examined by correlation and concordance analysis. MSC risk levels were compared to those estimated using a reference method. Differentially expressed ct-miRs were identified among NSCLC patients and donors and the diagnostic value of those dysregulated in patients was assessed by receiver operating characteristic curve analysis. Downregulation of miR-150-5p was verified by qPCR. The Cancer Genome Atlas (TCGA) lung carcinoma dataset was used for validation at tissue level. Intra-platform reproducibility was consistent whereas the highest values of inter-platform correlations were among qPCR-based platforms. MSC classification concordance was >80% for four platforms. Dysregulation and discriminatory power of miR-150-5p and -210-3p were documented. Both were significantly dysregulated also on TCGA tissue-originated profiles from lung cell carcinoma in comparison to normal samples. Overall, our studies provide a large performance analysis between five different platforms for miRs quantification, indicate the solidity of MSC classifier and identify two noninvasive biomarkers for NSCLC
+GPL19162_Group,GPL19162_Accession,GPL19162_Title,GPL19162_Source name,GPL19162_Gender,GPL19162_Msc status,GPL19162_Disease state
+-,GSM6175218,JL99 plasma_NSCLC Taqman OA,plasma_NSCLC,Male,MSC_low,NSCLC
+-,GSM6175219,JM00 plasma_Control Taqman OA,plasma_Control,Male,MSC_high,heathy
+-,GSM6175220,JM01 plasma_NSCLC Taqman OA,plasma_NSCLC,Male,MSC_high,NSCLC
+-,GSM6175221,JM02 plasma_Control Taqman OA,plasma_Control,Male,MSC_low,heathy
+-,GSM6175222,JM03 plasma_NSCLC Taqman OA,plasma_NSCLC,Male,MSC_low,NSCLC
+-,GSM6175223,JM04 plasma_Control rep1a Taqman OA,plasma_Control,Female,MSC_high,heathy
+-,GSM6175224,JM05 plasma_NSCLC rep1b Taqman OA,plasma_NSCLC,Female,MSC_high,NSCLC
+-,GSM6175225,JM06 plasma_Control rep1c Taqman OA,plasma_Control,Male,MSC_low,heathy
+-,GSM6175226,JM07 plasma_NSCLC Taqman OA,plasma_NSCLC,Male,MSC_low,NSCLC
+-,GSM6175227,JM08 plasma_Control rep2a Taqman OA,plasma_Control,Female,MSC_high,heathy
+-,GSM6175228,JM09 plasma_NSCLC rep2b Taqman OA,plasma_NSCLC,Female,MSC_high,NSCLC
+-,GSM6175229,JM10 plasma_Control rep2c Taqman OA,plasma_Control,Male,MSC_low,heathy
+-,GSM6175230,JM11 plasma_NSCLC Taqman OA,plasma_NSCLC,Female,MSC_low,NSCLC
+-,GSM6175231,JM12 plasma_Control Taqman OA,plasma_Control,Male,MSC_high,heathy
+-,GSM6175232,JM13 plasma_NSCLC Taqman OA,plasma_NSCLC,Male,MSC_high,NSCLC
+-,GSM6175233,JM14 plasma_Control Taqman OA,plasma_Control,Male,MSC_low,heathy
+-,GSM6175234,JM15 plasma_NSCLC Taqman OA,plasma_NSCLC,Female,MSC_low,NSCLC
+-,GSM6175235,JM16 plasma_Control Taqman OA,plasma_Control,Male,MSC_high,heathy
+-,GSM6175236,JM17 plasma_NSCLC Taqman OA,plasma_NSCLC,Male,MSC_high,NSCLC
+-,GSM6175237,JM18 plasma_Control Taqman OA,plasma_Control,Female,MSC_low,heathy
+-,GSM6175238,JM19 plasma_NSCLC Taqman OA,plasma_NSCLC,Male,MSC_high,NSCLC
+-,GSM6175239,JM20 plasma_Control Taqman OA,plasma_Control,Female,MSC_low,heathy
+-,GSM6175240,JM21 plasma_Control Taqman OA,plasma_Control,Male,MSC_high,heathy

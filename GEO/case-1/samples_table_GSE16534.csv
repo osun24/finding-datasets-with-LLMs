@@ -1,0 +1,156 @@
+# TITLE: Exon array profiling detects EML4-ALK fusion in breast, colorectal and non-small cell lung cancers.
+# SUMMARY: Exon array profiling of human primary tumor tissue samples including breast, colon and NSCLC. This dataset includes expression profiles of 153 human primary tumors that were acquired from different commerical vendors and characterized as having >60% tumor content.
+GPL5188_Group,GPL5188_Accession,GPL5188_Title,GPL5188_Source name,GPL5188_SampleID,GPL5188_SourceID,GPL5188_Tissue,GPL5188_Cancer subtype
+-,GSM415225,breast tumor 1,breast tumor,HF-18993,98377,breast tumor,HER2
+-,GSM415226,breast tumor 10,breast tumor,HF-11372,103450,breast tumor,Triple negative
+-,GSM415227,breast tumor 11,breast tumor,HF-11375,103451,breast tumor,HR
+-,GSM415228,breast tumor 12,breast tumor,HF-20198,103812,breast tumor,HR
+-,GSM415229,breast tumor 13,breast tumor,HF-20214,103844,breast tumor,Triple negative
+-,GSM415230,breast tumor 14,breast tumor,HF-20228,103872,breast tumor,HR
+-,GSM415231,breast tumor 15,breast tumor,HF-20242,103941,breast tumor,HR
+-,GSM415232,breast tumor 16,breast tumor,HF-20248,103947,breast tumor,Triple negative
+-,GSM415233,breast tumor 17,breast tumor,HF-20278,103977,breast tumor,HER2
+-,GSM415234,breast tumor 18,breast tumor,HF-20279,103978,breast tumor,HER2
+-,GSM415235,breast tumor 19,breast tumor,HF-20280,103979,breast tumor,HR
+-,GSM415236,breast tumor 2,breast tumor,HF-11313,99155,breast tumor,Triple negative
+-,GSM415237,breast tumor 20,breast tumor,HF-20616,104065,breast tumor,HR
+-,GSM415238,breast tumor 21,breast tumor,HF-20617,104066,breast tumor,Triple negative
+-,GSM415239,breast tumor 22,breast tumor,HF-20620,104069,breast tumor,Triple negative
+-,GSM415240,breast tumor 23,breast tumor,HF-21011,105283,breast tumor,HR
+-,GSM415241,breast tumor 24,breast tumor,HF-21019,105307,breast tumor,HER2
+-,GSM415242,breast tumor 25,breast tumor,HF-21040,105359,breast tumor,Triple negative
+-,GSM415243,breast tumor 26,breast tumor,HF-20713,105545,breast tumor,HER2
+-,GSM415244,breast tumor 27,breast tumor,HF-20525,107046,breast tumor,HER2
+-,GSM415245,breast tumor 28,breast tumor,HF-20528,107047,breast tumor,HER2
+-,GSM415246,breast tumor 29,breast tumor,HF-20546,107048,breast tumor,HER2
+-,GSM415247,breast tumor 3,breast tumor,HF-11326,99164,breast tumor,HER2
+-,GSM415248,breast tumor 30,breast tumor,HF-20548,107049,breast tumor,HER2
+-,GSM415249,breast tumor 31,breast tumor,HF-20581,107050,breast tumor,HER2
+-,GSM415250,breast tumor 32,breast tumor,HF-20598,107053,breast tumor,HER2
+-,GSM415251,breast tumor 33,breast tumor,HF-20603,107076,breast tumor,HER2
+-,GSM415252,breast tumor 34,breast tumor,HF-20543,107093,breast tumor,HR
+-,GSM415253,breast tumor 35,breast tumor,HF-20544,107094,breast tumor,Triple negative
+-,GSM415254,breast tumor 36,breast tumor,HF-20556,107104,breast tumor,HR
+-,GSM415255,breast tumor 37,breast tumor,HF-20557,107105,breast tumor,Triple negative
+-,GSM415256,breast tumor 38,breast tumor,HF-20579,107127,breast tumor,Triple negative
+-,GSM415257,breast tumor 39,breast tumor,HF-20582,107129,breast tumor,HR
+-,GSM415258,breast tumor 4,breast tumor,HF-11345,99176,breast tumor,HR
+-,GSM415259,breast tumor 40,breast tumor,HF-20590,107136,breast tumor,Triple negative
+-,GSM415260,breast tumor 41,breast tumor,HF-21781,107384,breast tumor,HER2
+-,GSM415261,breast tumor 42,breast tumor,HF-21811,107390,breast tumor,HER2
+-,GSM415262,breast tumor 43,breast tumor,HF-21817,107393,breast tumor,Triple negative
+-,GSM415263,breast tumor 44,breast tumor,HF-21743,107397,breast tumor,HER2
+-,GSM415264,breast tumor 45,breast tumor,HF-21744,107398,breast tumor,HER2
+-,GSM415265,breast tumor 46,breast tumor,HF-21745,107399,breast tumor,Triple negative
+-,GSM415266,breast tumor 47,breast tumor,HF-21749,107403,breast tumor,Triple negative
+-,GSM415267,breast tumor 48,breast tumor,HF-21753,107414,breast tumor,Triple negative
+-,GSM415268,breast tumor 49,breast tumor,HF-21769,107421,breast tumor,HER2
+-,GSM415269,breast tumor 5,breast tumor,HF-11349,99179,breast tumor,HR
+-,GSM415270,breast tumor 50,breast tumor,HF-21778,107423,breast tumor,HR
+-,GSM415271,breast tumor 51,breast tumor,HF-21795,107427,breast tumor,HR
+-,GSM415272,breast tumor 52,breast tumor,HF-21797,107429,breast tumor,HER2
+-,GSM415273,breast tumor 53,breast tumor,HF-21800,107430,breast tumor,HER2
+-,GSM415274,breast tumor 54,breast tumor,HF-21750,107519,breast tumor,HER2
+-,GSM415275,breast tumor 55,breast tumor,HF-21761,107521,breast tumor,HR
+-,GSM415276,breast tumor 56,breast tumor,HF-21773,107527,breast tumor,HR
+-,GSM415277,breast tumor 57,breast tumor,HF-21731,107530,breast tumor,HER2
+-,GSM415278,breast tumor 58,breast tumor,HF-21732,107531,breast tumor,Triple negative
+-,GSM415279,breast tumor 59,breast tumor,HF-21733,107532,breast tumor,Triple negative
+-,GSM415280,breast tumor 6,breast tumor,HF-18964,99459,breast tumor,Triple negative
+-,GSM415281,breast tumor 60,breast tumor,HF-21735,107534,breast tumor,HER2
+-,GSM415282,breast tumor 61,breast tumor,HF-21736,107535,breast tumor,HER2
+-,GSM415283,breast tumor 62,breast tumor,HF-21738,107537,breast tumor,HER2
+-,GSM415284,breast tumor 63,breast tumor,HF-21820,107539,breast tumor,HER2
+-,GSM415285,breast tumor 64,breast tumor,HF-21822,107541,breast tumor,Triple negative
+-,GSM415286,breast tumor 65,breast tumor,HF-21825,107544,breast tumor,Triple negative
+-,GSM415287,breast tumor 66,breast tumor,HF-21827,107546,breast tumor,HR
+-,GSM415288,breast tumor 67,breast tumor,HF-21788,107550,breast tumor,Triple negative
+-,GSM415289,breast tumor 68,breast tumor,HF-21793,107553,breast tumor,HR
+-,GSM415290,breast tumor 69,breast tumor,HF-21803,107557,breast tumor,HR
+-,GSM415291,breast tumor 7,breast tumor,HF-19152,99797,breast tumor,HER2
+-,GSM415292,breast tumor 70,breast tumor,HF-21806,107572,breast tumor,HER2
+-,GSM415293,breast tumor 71,breast tumor,HF-21812,107582,breast tumor,HER2
+-,GSM415294,breast tumor 72,breast tumor,HF-21818,107588,breast tumor,HR
+-,GSM415295,breast tumor 73,breast tumor,HF-21819,107590,breast tumor,HR
+-,GSM415296,breast tumor 74,breast tumor,HF-21771,107594,breast tumor,HR
+-,GSM415297,breast tumor 75,breast tumor,HF-21772,107595,breast tumor,HER2
+-,GSM415298,breast tumor 76,breast tumor,HF-21777,107597,breast tumor,HER2
+-,GSM415299,breast tumor 77,breast tumor,HF-21780,107599,breast tumor,Triple negative
+-,GSM415300,breast tumor 78,breast tumor,HF-22033,107706,breast tumor,HR
+-,GSM415301,breast tumor 79,breast tumor,HF-22038,107714,breast tumor,HER2
+-,GSM415302,breast tumor 8,breast tumor,HF-19168,101063,breast tumor,HR
+-,GSM415303,breast tumor 80,breast tumor,HF-22042,107722,breast tumor,HR
+-,GSM415304,breast tumor 81,breast tumor,HF-22046,107738,breast tumor,HER2
+-,GSM415305,breast tumor 82,breast tumor,HF-11364,112132,breast tumor,HER2
+-,GSM415306,breast tumor 83,breast tumor,HF-20219,112134,breast tumor,HER2
+-,GSM415307,breast tumor 84,breast tumor,HF-20593,112135,breast tumor,Triple negative
+-,GSM415308,breast tumor 9,breast tumor,HF-11366,103446,breast tumor,Triple negative
+-,GSM415309,colorectal tumor 1,colorectal tumor,HF-17903,95149,colorectal tumor,colorectal tumor
+-,GSM415310,colorectal tumor 2,colorectal tumor,HF-18263,95356,colorectal tumor,colorectal tumor
+-,GSM415311,colorectal tumor 3,colorectal tumor,HF-18277,95362,colorectal tumor,colorectal tumor
+-,GSM415312,colorectal tumor 4,colorectal tumor,HF-18339,95462,colorectal tumor,colorectal tumor
+-,GSM415313,colorectal tumor 5,colorectal tumor,HF-18428,95498,colorectal tumor,colorectal tumor
+-,GSM415314,colorectal tumor 6,colorectal tumor,HF-17998,95729,colorectal tumor,colorectal tumor
+-,GSM415315,colorectal tumor 7,colorectal tumor,HF-18040,95735,colorectal tumor,colorectal tumor
+-,GSM415316,colorectal tumor 8,colorectal tumor,HF-18092,95956,colorectal tumor,colorectal tumor
+-,GSM415317,colorectal tumor 9,colorectal tumor,HF-18118,96056,colorectal tumor,colorectal tumor
+-,GSM415318,colorectal tumor 10,colorectal tumor,HF-18138,96115,colorectal tumor,colorectal tumor
+-,GSM415319,colorectal tumor 11,colorectal tumor,HF-18148,96145,colorectal tumor,colorectal tumor
+-,GSM415320,colorectal tumor 12,colorectal tumor,HF-18152,96157,colorectal tumor,colorectal tumor
+-,GSM415321,colorectal tumor 13,colorectal tumor,HF-18438,96514,colorectal tumor,colorectal tumor
+-,GSM415322,colorectal tumor 14,colorectal tumor,HF-18470,96630,colorectal tumor,colorectal tumor
+-,GSM415323,colorectal tumor 15,colorectal tumor,HF-18478,96654,colorectal tumor,colorectal tumor
+-,GSM415324,colorectal tumor 16,colorectal tumor,HF-18484,96672,colorectal tumor,colorectal tumor
+-,GSM415325,colorectal tumor 17,colorectal tumor,HF-18528,96810,colorectal tumor,colorectal tumor
+-,GSM415326,colorectal tumor 18,colorectal tumor,HF-18534,96828,colorectal tumor,colorectal tumor
+-,GSM415327,colorectal tumor 19,colorectal tumor,HF-18550,96876,colorectal tumor,colorectal tumor
+-,GSM415328,colorectal tumor 20,colorectal tumor,HF-18564,96918,colorectal tumor,colorectal tumor
+-,GSM415329,colorectal tumor 21,colorectal tumor,HF-18570,96945,colorectal tumor,colorectal tumor
+-,GSM415330,colorectal tumor 22,colorectal tumor,HF-18572,96951,colorectal tumor,colorectal tumor
+-,GSM415331,colorectal tumor 23,colorectal tumor,HF-18578,96969,colorectal tumor,colorectal tumor
+-,GSM415332,colorectal tumor 24,colorectal tumor,HF-18582,96981,colorectal tumor,colorectal tumor
+-,GSM415333,colorectal tumor 25,colorectal tumor,HF-18602,97059,colorectal tumor,colorectal tumor
+-,GSM415334,colorectal tumor 26,colorectal tumor,HF-18604,97075,colorectal tumor,colorectal tumor
+-,GSM415335,lung adenocarcinoma 1,lung adenocarcinoma,HF-11756,86316,lung cancer,adenocarcinoma
+-,GSM415336,lung adenocarcinoma 2,lung adenocarcinoma,HF-11761,86317,lung cancer,adenocarcinoma
+-,GSM415337,lung adenocarcinoma 3,lung adenocarcinoma,HF-11765,86318,lung cancer,adenocarcinoma
+-,GSM415338,lung adenocarcinoma 4,lung adenocarcinoma,HF-11766,86319,lung cancer,adenocarcinoma
+-,GSM415339,lung adenocarcinoma 5,lung adenocarcinoma,HF-11779,86323,lung cancer,adenocarcinoma
+-,GSM415340,lung adenocarcinoma 6,lung adenocarcinoma,HF-11782,86324,lung cancer,adenocarcinoma
+-,GSM415341,lung adenocarcinoma 7,lung adenocarcinoma,HF-11731,86501,lung cancer,adenocarcinoma
+-,GSM415342,lung adenocarcinoma 8,lung adenocarcinoma,HF-11734,86503,lung cancer,adenocarcinoma
+-,GSM415343,lung adenocarcinoma 9,lung adenocarcinoma,HF-11737,86504,lung cancer,adenocarcinoma
+-,GSM415344,lung adenocarcinoma 10,lung adenocarcinoma,HF-4810,86564,lung cancer,adenocarcinoma
+-,GSM415345,lung adenocarcinoma 11,lung adenocarcinoma,HF-5158,86565,lung cancer,adenocarcinoma
+-,GSM415346,lung adenocarcinoma 12,lung adenocarcinoma,HF-2130,86575,lung cancer,adenocarcinoma
+-,GSM415347,lung adenocarcinoma 13,lung adenocarcinoma,HF-15212,86579,lung cancer,adenocarcinoma
+-,GSM415348,lung adenocarcinoma 14,lung adenocarcinoma,HF-15224,86583,lung cancer,adenocarcinoma
+-,GSM415349,lung adenocarcinoma 15,lung adenocarcinoma,HF-15358,86749,lung cancer,adenocarcinoma
+-,GSM415350,lung adenocarcinoma 16,lung adenocarcinoma,HF-11757,86751,lung cancer,adenocarcinoma
+-,GSM415351,lung adenocarcinoma 17,lung adenocarcinoma,HF-11769,86752,lung cancer,adenocarcinoma
+-,GSM415352,lung adenocarcinoma 18,lung adenocarcinoma,HF-11775,86753,lung cancer,adenocarcinoma
+-,GSM415353,lung adenocarcinoma 19,lung adenocarcinoma,HF-15541,86791,lung cancer,adenocarcinoma
+-,GSM415354,lung adenocarcinoma 20,lung adenocarcinoma,HF-15558,86799,lung cancer,adenocarcinoma
+-,GSM415355,lung adenocarcinoma 21,lung adenocarcinoma,HF-15598,86839,lung cancer,adenocarcinoma
+-,GSM415356,lung squamous 1,lung squamous,HF-15871,99501,lung cancer,carcinoma squamous cell
+-,GSM415357,lung squamous 2,lung squamous,HF-15905,99534,lung cancer,carcinoma squamous cell
+-,GSM415358,lung squamous 3,lung squamous,HF-19933,100745,lung cancer,carcinoma squamous cell
+-,GSM415359,lung squamous 4,lung squamous,HF-19941,100769,lung cancer,carcinoma squamous cell
+-,GSM415360,lung squamous 5,lung squamous,HF-19951,100825,lung cancer,carcinoma squamous cell
+-,GSM415361,lung squamous 6,lung squamous,HF-19975,100912,lung cancer,carcinoma squamous cell
+-,GSM415362,lung squamous 7,lung squamous,HF-19979,100924,lung cancer,carcinoma squamous cell
+-,GSM415363,lung squamous 8,lung squamous,HF-19985,100942,lung cancer,carcinoma squamous cell
+-,GSM415364,lung squamous 9,lung squamous,HF-20132,101195,lung cancer,carcinoma squamous cell
+-,GSM415365,lung squamous 10,lung squamous,HF-20136,101207,lung cancer,carcinoma squamous cell
+-,GSM415366,lung squamous 11,lung squamous,HF-20182,101408,lung cancer,carcinoma squamous cell
+-,GSM415367,lung squamous 12,lung squamous,HF-20313,101692,lung cancer,carcinoma squamous cell
+-,GSM415368,lung squamous 13,lung squamous,HF-16449,102010,lung cancer,carcinoma squamous cell
+-,GSM415369,lung squamous 14,lung squamous,HF-20148,102022,lung cancer,carcinoma squamous cell
+-,GSM415370,lung squamous 15,lung squamous,HF-20665,103477,lung cancer,carcinoma squamous cell
+-,GSM415371,lung squamous 16,lung squamous,HF-20683,103497,lung cancer,carcinoma squamous cell
+-,GSM415372,lung squamous 17,lung squamous,HF-20689,103515,lung cancer,carcinoma squamous cell
+-,GSM415373,lung squamous 18,lung squamous,HF-20703,103595,lung cancer,carcinoma squamous cell
+-,GSM415374,lung squamous 19,lung squamous,HF-20970,105219,lung cancer,carcinoma squamous cell
+-,GSM415375,lung squamous 20,lung squamous,HF-20972,105225,lung cancer,carcinoma squamous cell
+-,GSM415376,lung squamous 21,lung squamous,HF-20976,105237,lung cancer,carcinoma squamous cell
+-,GSM415377,lung squamous 22,lung squamous,HF-20978,105243,lung cancer,carcinoma squamous cell

@@ -1,0 +1,12 @@
+# TITLE: microarray in SCLC transformation
+# SUMMARY: The histological transformation of lung adenocarcinoma (LUAD) to an aggressive neuroendocrine (NE) derivative resembling SCLC is a signature example of lineage plasticity in cancer.But the changes of gene expression need to be studied. We used microarrays to detail the global programme of gene expression under transformation and reversed transformation cells and identified distinct classes of up-regulated genes during this process.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell type,GPL15207_Agent
+-,GSM7771928,"parental cells, biological rep1",parental cells,non small cell lung cancer cell,none
+-,GSM7771929,"parental cells, biological rep2",parental cells,non small cell lung cancer cell,none
+-,GSM7771930,"parental cells, biological rep3",parental cells,non small cell lung cancer cell,none
+-,GSM7771931,"transformed cells, biological rep1",transformed cells,non small cell lung cancer cell,Erlotinib treatment leads to phenotypic transformation
+-,GSM7771932,"transformed cells, biological rep2",transformed cells,non small cell lung cancer cell,Erlotinib treatment leads to phenotypic transformation
+-,GSM7771933,"transformed cells, biological rep3",transformed cells,non small cell lung cancer cell,Erlotinib treatment leads to phenotypic transformation
+-,GSM7771934,"reversed cells, biological rep1",EHMT2 inhibitor treat cells,non small cell lung cancer cell,UNC0638 treatment
+-,GSM7771935,"reversed cells, biological rep2",EHMT2 inhibitor treat cells,non small cell lung cancer cell,UNC0638 treatment
+-,GSM7771936,"reversed cells, biological rep3",EHMT2 inhibitor treat cells,non small cell lung cancer cell,UNC0638 treatment

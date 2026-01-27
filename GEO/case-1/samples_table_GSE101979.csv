@@ -1,0 +1,9 @@
+# TITLE: Expression data from CHRNA5 knockdown A549 lung cancer cells compared with control
+# SUMMARY: Nicotine and nicotinic acetylcholine receptors (nAChRs) are considred to be involved in the progression of lung carcinomas. α5-nAChR is believed to be associated with lung cancer risk and onset, however its function and physiologic roles is far from clear. We use microarry to detail the global programme of gene expression underlying knockdown CHRNA5, encoding α5-nAChR, in human lung cancer A549 cells compared with control.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell,GPL15207_Transfection
+-,GSM2720026,"A549 at T0, biological rep1",A549 cell treated with Si-NC,A549 cell,scrambled siRNA
+-,GSM2720027,"A549 at T0, biological rep2",A549 cell treated with Si-NC,A549 cell,scrambled siRNA
+-,GSM2720028,"A549 at T0, biological rep3",A549 cell treated with Si-NC,A549 cell,scrambled siRNA
+-,GSM2720029,"A549 at T1, biological rep1",A549 cell treated with Si-CHRNA5,A549 cell,[infinity]5-nAChR -specific siRNA
+-,GSM2720030,"A549 at T1, biological rep2",A549 cell treated with Si-CHRNA5,A549 cell,[infinity]5-nAChR -specific siRNA
+-,GSM2720031,"A549 at T1, biological rep3",A549 cell treated with Si-CHRNA5,A549 cell,[infinity]5-nAChR -specific siRNA

@@ -1,0 +1,50 @@
+# TITLE: Long non-coding RNA dysregulation is a frequent event in non-small cell lung carcinoma pathogenesis
+# SUMMARY: Our aim was to contribute to a more comprehensive landscape for lncRNA deregulation in NSCLC by identifying lncRNA profiles that could significantly discriminate NSCLCs tissue from paired normal lung tissue. Therefore, we assessed the transcriptional profile of 44 paired tumour and adjacent normal lung tissue from NSCLC patients using an Agilent Custom 8x60K expression array (AMADID: 047718) designed by the GENCODE consortium. This microarray, based on the Gencode v15 catalog of human lncRNA, interrogates 17,535 randomly selected protein coding and 22,001 lncRNA transcripts, being each transcript targeted by two probes.
+GPL19395_Group,GPL19395_Accession,GPL19395_Title,GPL19395_Source name 1,GPL19395_Source name 2,GPL19395_Tissue (Ch1),GPL19395_Gender (Ch1),GPL19395_Histology (Ch1),GPL19395_Tumour stage (Ch1),GPL19395_Node stage (Ch1),GPL19395_Differentiation (Ch1),GPL19395_Tissue (Ch2),GPL19395_Gender (Ch2),GPL19395_Histology (Ch2),GPL19395_Tumour stage (Ch2),GPL19395_Node stage (Ch2),GPL19395_Differentiation (Ch2)
+-,GSM3752713,pt129: Tumour_normal_rep1,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,1,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752714,pt146: Tumour_normal_rep2,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,0,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752715,pt157: Tumour_normal_rep3,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,1,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752716,pt158: Tumour_normal_rep4,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,adenocarcinoma,2,0,Moderate,Normal,F,NA,NA,NA,NA
+-,GSM3752717,pt159: Tumour_normal_rep5,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,0,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752718,pt167: Tumour_normal_rep6,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,0,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752719,pt171: Tumour_normal_rep7,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752720,pt173: Tumour_normal_rep8,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,squamous cell carcinoma,2,0,Moderate,Normal,F,NA,NA,NA,NA
+-,GSM3752721,pt175: Tumour_normal_rep9,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752722,pt182: Tumour_normal_rep10,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,3,0,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752723,pt185: Tumour_normal_rep11,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,1,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752724,pt187: Tumour_normal_rep12.1,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,3,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752725,pt190: Tumour_normal_rep13,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,0,Well,Normal,M,NA,NA,NA,NA
+-,GSM3752726,pt192: Tumour_normal_rep14,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,0,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752727,pt193: Tumour_normal_rep15,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,squamous cell carcinoma,2,0,Poor,Normal,F,NA,NA,NA,NA
+-,GSM3752728,pt197: Tumour_normal_rep16,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,2,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752729,pt198: Tumour_normal_rep17,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,4,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752730,pt199: Tumour_normal_rep18,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,1,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752731,pt202: Tumour_normal_rep19,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,squamous cell carcinoma,2,0,Moderate,Normal,F,NA,NA,NA,NA
+-,GSM3752732,pt204: Tumour_normal_rep20,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,1,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752733,pt206: Tumour_normal_rep21,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,1,1,Well,Normal,M,NA,NA,NA,NA
+-,GSM3752734,pt218: Tumour_normal_rep22,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,adenocarcinoma,2,0,Moderate,Normal,F,NA,NA,NA,NA
+-,GSM3752735,pt220: Tumour_normal_rep23,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,adenocarcinoma,2,0,Well,Normal,F,NA,NA,NA,NA
+-,GSM3752736,pt221: Tumour_normal_rep24,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,adenocarcinoma,2,0,Poor,Normal,F,NA,NA,NA,NA
+-,GSM3752737,pt226: Tumour_normal_rep25,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,squamous cell carcinoma,2,1,Moderate,Normal,F,NA,NA,NA,NA
+-,GSM3752738,pt234: Tumour_normal_rep26,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752739,pt235: Tumour_normal_rep27,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,3,2,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752740,pt236: Tumour_normal_rep28.1,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,3,1,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752741,pt238: Tumour_normal_rep29,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,3,2,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752742,pt239: Tumour_normal_rep30,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,1,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752743,pt240: Tumour_normal_rep31,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,squamous cell carcinoma,3,2,Poor,Normal,F,NA,NA,NA,NA
+-,GSM3752744,pt243: Tumour_normal_rep32,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,adenocarcinoma,2,2,Poor,Normal,F,NA,NA,NA,NA
+-,GSM3752745,pt245: Tumour_normal_rep33,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,3,2,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752746,pt250: Tumour_normal_rep34,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,0,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752747,pt253: Tumour_normal_rep35,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,3,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752748,pt255: Tumour_normal_rep36,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,adenocarcinoma,2,2,Poor,Normal,F,NA,NA,NA,NA
+-,GSM3752749,pt257: Tumour_normal_rep37.1,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,4,1,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752750,pt258: Tumour_normal_rep38,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,2,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752751,pt259: Tumour_normal_rep39,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,adenocarcinoma,1,2,Poor,Normal,F,NA,NA,NA,NA
+-,GSM3752752,pt265: Tumour_normal_rep40,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,2,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752753,pt283: Tumour_normal_rep41,Fresh frozen tissue,Fresh frozen tissue,Tumour,F,squamous cell carcinoma,2,1,Moderate,Normal,F,NA,NA,NA,NA
+-,GSM3752754,pt289: Tumour_normal_rep42,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,2,Well,Normal,M,NA,NA,NA,NA
+-,GSM3752755,pt291: Tumour_normal_rep43,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,2,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752756,pt308: Tumour_normal_rep44,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,2,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752757,pt236: Tumour_normal_rep28.2,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,adenocarcinoma,3,1,Moderate,Normal,M,NA,NA,NA,NA
+-,GSM3752758,pt187: Tumour_normal_rep12.2,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,3,0,Poor,Normal,M,NA,NA,NA,NA
+-,GSM3752759,pt257: Tumour_normal_rep37.2,Fresh frozen tissue,Fresh frozen tissue,Tumour,M,squamous cell carcinoma,4,1,Moderate,Normal,M,NA,NA,NA,NA

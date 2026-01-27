@@ -1,0 +1,2 @@
+Title: proteomics data of CypA IP inovarian cancer
+Description: After immunoprecipitation with the CypA antibody in the ovarian cancer cell line A2780, proteomics was used to identify the interacting proteins, and this experiment was repeated three times.

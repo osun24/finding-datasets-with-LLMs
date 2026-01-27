@@ -1,0 +1,10 @@
+# TITLE: Human lung cancer cell lines DMS-273 (SCLC) and NCI-H1437 (NSCLC): scrambled vs. shRNA clones
+# SUMMARY: Transcriptional profiling of two human lung cancer cell lines, DMS-273 (small cell lung cancer) and NCI-H1437 (non-small cell lung cancer), stably transfected either with innocuous scrambled shRNAs or SETDB1-specific.The objective was to identify global gene expression changes due to the depletion of the H3K9me3 methyltransferase SETDB1.
+GPL17077_Group,GPL17077_Accession,GPL17077_Title,GPL17077_Source name 1,GPL17077_Source name 2,GPL17077_Treatment (Ch1),GPL17077_Cell line (Ch1),GPL17077_Tissue (Ch1),GPL17077_Treatment (Ch2),GPL17077_Cell line (Ch2),GPL17077_Tissue (Ch2)
+-,GSM1098565,DMS-273 rep1,Pooled clone 21 DMS-273,DMS-273 Control,SETDB1 KD,DMS-273 SCLC,Lung,scrambled,DMS-273 SCLC,Lung
+-,GSM1098566,DMS-273 rep2,Pooled clone 30 DMS-272,DMS-273 Control,SETDB1 KD,DMS-273 SCLC,Lung,scrambled,DMS-273 SCLC,Lung
+-,GSM1098567,DMS-273 rep3,Pooled clone 31 DMS-271,DMS-273 Control,SETDB1 KD,DMS-273 SCLC,Lung,scrambled,DMS-273 SCLC,Lung
+-,GSM1098568,DMS273-DyeSwap,DMS-273 Control,Pooled clone 21-30-31 DMS-273,scrambled,DMS-273 SCLC,Lung,SETDB1 KD,DMS-273 SCLC,Lung
+-,GSM1098569,NCI-H1437 rep1,Pooled clone 56A NCI-H1437,NCI-H1437 Control,SETDB1 KD,NCI-H1437 NSCLC,Lung,scrambled,NCI-H1437 NSCLC,Lung
+-,GSM1098570,NCI-H1437 rep2,Pooled clone 56B NCI-H1437,NCI-H1437 Control,SETDB1 KD,NCI-H1437 NSCLC,Lung,scrambled,NCI-H1437 NSCLC,Lung
+-,GSM1098571,NCI-H1437-DyeSwap,NCI-H1437 Control,Pooled clone 56A-56B NCI-H1437,scrambled,NCI-H1437 NSCLC,Lung,SETDB1 KD,NCI-H1437 NSCLC,Lung

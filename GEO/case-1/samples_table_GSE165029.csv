@@ -1,0 +1,11 @@
+# TITLE: A Novel Molecular Target in Epidermal Growth Factor Receptor-Mutant Non-Small Cell Lung Cancer treated with a Combination of Osimertinib and Pemetrexed
+# SUMMARY: In this study, we evaluate the therapeutic potential of combining osimertinib with pemetrexed and clarify the underlying molecular mechanisms in order to establish novel therapeutic strategies for EGFR-mutant NSCLC. We found that the combination of osimertinib and pemetrexed could induce strong apoptotic activity and enhance anti-tumor effects compared to monotherapy in two NSCLC cell lines harboring an EGFR mutation. In addition, we have identified PLK1 as a therapeutic target for combination therapy and as a promising treatment target for overcoming resistance to osimertinib in EGFR-mutated NSCLC patients.
+GPL21185_Group,GPL21185_Accession,GPL21185_Title,GPL21185_Source name,GPL21185_Cell line,GPL21185_Treatment
+-,GSM5024870,PC-9 cells negative control,Lung adenocarcinoma cell line,PC9,negative control
+-,GSM5024871,PC-9 cells treated with pemetrexed,Lung adenocarcinoma cell line,PC9,pemetrexed
+-,GSM5024872,PC-9 cells treated with osimertinib,Lung adenocarcinoma cell line,PC9,osimertinib
+-,GSM5024873,PC-9 cells treated with osimertinib and pemetrexed,Lung adenocarcinoma cell line,PC9,osimertinib and pemetrexed
+-,GSM5024874,H1975 cells negative control,Lung adenocarcinoma cell line,H1975,negative control
+-,GSM5024875,H1975 cells treated with pemetrexed,Lung adenocarcinoma cell line,H1975,pemetrexed
+-,GSM5024876,H1975 cells treated with osimertinib,Lung adenocarcinoma cell line,H1975,osimertinib
+-,GSM5024877,H1975 cells treated with osimertinib and pemetrexed,Lung adenocarcinoma cell line,H1975,osimertinib and pemetrexed

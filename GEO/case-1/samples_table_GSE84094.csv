@@ -1,0 +1,16 @@
+# TITLE: Dynamic response of EGF stimulation in lung cancer cells [controls]
+# SUMMARY: The analysis of microarray time series promises a deeper insight into the dynamics of the cellular response following stimulation. A common observation in this type of data is that some genes respond with quick, transient dynamics, while other genes change their expression slowly over time. The existing methods for the detection of significant expression dynamics often fail when the expression dynamics show a large heterogeneity, and often cannot cope with irregular and sparse measurements.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Characteristics,GPL16686_Treatment,GPL16686_Cell line
+-,GSM2227176,H1975NSCLC_0h_control_1,H1975 NSCLC,time [h]: 0,starvation medium,H1975
+-,GSM2227177,H1975NSCLC_0h_control_2,H1975 NSCLC,time [h]: 0,starvation medium,H1975
+-,GSM2227178,H1975NSCLC_0h_control_3,H1975 NSCLC,time [h]: 0,starvation medium,H1975
+-,GSM2227179,H1975NSCLC_0.5h_control_2,H1975 NSCLC,time [h]: 0.5,starvation medium,H1975
+-,GSM2227180,H1975NSCLC_1h_control_1,H1975 NSCLC,time [h]: 1,starvation medium,H1975
+-,GSM2227181,H1975NSCLC_2h_control_1,H1975 NSCLC,time [h]: 2,starvation medium,H1975
+-,GSM2227182,H1975NSCLC_4h_control_3,H1975 NSCLC,time [h]: 4,starvation medium,H1975
+-,GSM2227183,H1975NSCLC_6h_control_2,H1975 NSCLC,time [h]: 6,starvation medium,H1975
+-,GSM2227184,H1975NSCLC_24h_control_1,H1975 NSCLC,time [h]: 24,starvation medium,H1975
+-,GSM2227185,H1975NSCLC_24h_control_3,H1975 NSCLC,time [h]: 24,starvation medium,H1975
+-,GSM2227186,H1975NSCLC_48h_control_1,H1975 NSCLC,time [h]: 48,starvation medium,H1975
+-,GSM2227187,H1975NSCLC_48h_control_2,H1975 NSCLC,time [h]: 48,starvation medium,H1975
+-,GSM2227188,H1975NSCLC_48h_control_3,H1975 NSCLC,time [h]: 48,starvation medium,H1975

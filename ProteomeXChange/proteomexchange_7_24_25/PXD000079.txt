@@ -1,0 +1,2 @@
+Title: Formalin-fixed Human Ovarian Cancer Tryptic Peptide LC-MS/MS
+Description: LC-MS/MS (LTQ-Orbitrap, CID) data sets of 31 human ovarian cancer samples (FFPE). Sample material obtained by laser microdissection of cores from tissue microarray. Preparation matching MALDI imaging protocol (as described in Gustafsson, J Proteomics 2012).

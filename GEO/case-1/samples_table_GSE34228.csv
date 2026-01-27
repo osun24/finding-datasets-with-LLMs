@@ -1,0 +1,211 @@
+# TITLE: Time-course gene expression profiles of gefitinib-sensitive or -resistant lung adenocarcinoma cells stimulated with EGF, in the presence or absence of gefitinib, EGF receptor tyrosine kinase-specific inhibitor
+# SUMMARY: Gefitinib, an epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI), induces substantial clinical responses for non-small cell lung cancer (NSCLC) cells harboring EGFR activating mutations, but most of them invariably develop resistance. By generating a gefitinib resistance (PC9GR) from a human NSCLC-derived drug sensitive cell line (PC9), we studied differences of transcription dynamics between them by the aid of a computational decoupling of hidden regulatory signals from time course gene expression profiles. Given a collection of transcription factors (TFs) and their regulatory targets, the method captured temporally-synchronized shifts in evolving expression of target genes sharing each TF regulatory unit, and drew underlying regulatory signals. The analysis identified sterol regulatory element binding protein 1 (SREBP-1) as a key regulatory agent that facilitates the maintenance of drug tolerance, involving transcription controls of a G1-specific cyclin dependent kinase inhibitor whose expression was specifically elevated in PC9, but in turn, reduced in PC9GR
+GPL4133_Group,GPL4133_Accession,GPL4133_Title,GPL4133_Source name,GPL4133_Tissue,GPL4133_Drug response,GPL4133_Cell line,GPL4133_Time,GPL4133_Treatment
+-,GSM844917,PC9_EGF_0hr,"PC9, 0hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,0hr,EGF
+-,GSM844918,PC9_EGF_0.5hr,"PC9, 0.5hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,0.5hr,EGF
+-,GSM844919,PC9_EGF_1hr,"PC9, 1hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,1hr,EGF
+-,GSM844920,PC9_EGF_2hr,"PC9, 2hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,2hr,EGF
+-,GSM844921,PC9_EGF_3hr,"PC9, 3hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,3hr,EGF
+-,GSM844922,PC9_EGF_4hr,"PC9, 4hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,4hr,EGF
+-,GSM844923,PC9_EGF_5hr,"PC9, 5hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,5hr,EGF
+-,GSM844924,PC9_EGF_6hr,"PC9, 6hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,6hr,EGF
+-,GSM844925,PC9_EGF_7hr,"PC9, 7hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,7hr,EGF
+-,GSM844926,PC9_EGF_8hr,"PC9, 8hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,8hr,EGF
+-,GSM844927,PC9_EGF_9hr,"PC9, 9hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,9hr,EGF
+-,GSM844928,PC9_EGF_10hr,"PC9, 10hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,10hr,EGF
+-,GSM844929,PC9_EGF_11hr,"PC9, 11hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,11hr,EGF
+-,GSM844930,PC9_EGF_12hr,"PC9, 12hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,12hr,EGF
+-,GSM844931,PC9_EGF_13hr,"PC9, 13hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,13hr,EGF
+-,GSM844932,PC9_EGF_14hr,"PC9, 14hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,14hr,EGF
+-,GSM844933,PC9_EGF_15hr,"PC9, 15hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,15hr,EGF
+-,GSM844934,PC9_EGF_16hr,"PC9, 16hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,16hr,EGF
+-,GSM844935,PC9_EGF_17hr,"PC9, 17hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,17hr,EGF
+-,GSM844936,PC9_EGF_18hr,"PC9, 18hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,18hr,EGF
+-,GSM844937,PC9_EGF_19hr,"PC9, 19hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,19hr,EGF
+-,GSM844938,PC9_EGF_20hr,"PC9, 20hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,20hr,EGF
+-,GSM844939,PC9_EGF_21hr,"PC9, 21hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,21hr,EGF
+-,GSM844940,PC9_EGF_22hr,"PC9, 22hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,22hr,EGF
+-,GSM844941,PC9_EGF_23hr,"PC9, 23hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,23hr,EGF
+-,GSM844942,PC9_EGF_24hr,"PC9, 24hr, EGF",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,24hr,EGF
+-,GSM844943,PC9_EGF_IRS_0hr,"PC9, 0hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,0hr,EGF and gefitinib
+-,GSM844944,PC9_EGF_IRS_0.5hr,"PC9, 0.5hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,0.5hr,EGF and gefitinib
+-,GSM844945,PC9_EGF_IRS_1hr,"PC9, 1hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,1hr,EGF and gefitinib
+-,GSM844946,PC9_EGF_IRS_2hr,"PC9, 2hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,2hr,EGF and gefitinib
+-,GSM844947,PC9_EGF_IRS_3hr,"PC9, 3hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,3hr,EGF and gefitinib
+-,GSM844948,PC9_EGF_IRS_4hr,"PC9, 4hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,4hr,EGF and gefitinib
+-,GSM844949,PC9_EGF_IRS_5hr,"PC9, 5hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,5hr,EGF and gefitinib
+-,GSM844950,PC9_EGF_IRS_6hr,"PC9, 6hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,6hr,EGF and gefitinib
+-,GSM844951,PC9_EGF_IRS_7hr,"PC9, 7hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,7hr,EGF and gefitinib
+-,GSM844952,PC9_EGF_IRS_8hr,"PC9, 8hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,8hr,EGF and gefitinib
+-,GSM844953,PC9_EGF_IRS_9hr,"PC9, 9hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,9hr,EGF and gefitinib
+-,GSM844954,PC9_EGF_IRS_10hr,"PC9, 10hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,10hr,EGF and gefitinib
+-,GSM844955,PC9_EGF_IRS_11hr,"PC9, 11hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,11hr,EGF and gefitinib
+-,GSM844956,PC9_EGF_IRS_12hr,"PC9, 12hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,12hr,EGF and gefitinib
+-,GSM844957,PC9_EGF_IRS_13hr,"PC9, 13hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,13hr,EGF and gefitinib
+-,GSM844958,PC9_EGF_IRS_14hr,"PC9, 14hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,14hr,EGF and gefitinib
+-,GSM844959,PC9_EGF_IRS_15hr,"PC9, 15hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,15hr,EGF and gefitinib
+-,GSM844960,PC9_EGF_IRS_16hr,"PC9, 16hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,16hr,EGF and gefitinib
+-,GSM844961,PC9_EGF_IRS_17hr,"PC9, 17hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,17hr,EGF and gefitinib
+-,GSM844962,PC9_EGF_IRS_18hr,"PC9, 18hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,18hr,EGF and gefitinib
+-,GSM844963,PC9_EGF_IRS_19hr,"PC9, 19hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,19hr,EGF and gefitinib
+-,GSM844964,PC9_EGF_IRS_20hr,"PC9, 20hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,20hr,EGF and gefitinib
+-,GSM844965,PC9_EGF_IRS_21hr,"PC9, 21hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,21hr,EGF and gefitinib
+-,GSM844966,PC9_EGF_IRS_22hr,"PC9, 22hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,22hr,EGF and gefitinib
+-,GSM844967,PC9_EGF_IRS_23hr,"PC9, 23hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,23hr,EGF and gefitinib
+-,GSM844968,PC9_EGF_IRS_24hr,"PC9, 24hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,24hr,EGF and gefitinib
+-,GSM844969,PC9_IRS_0hr,"PC9, 0hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,0hr,gefinitib
+-,GSM844970,PC9_IRS_0.5hr,"PC9, 0.5hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,0.5hr,gefinitib
+-,GSM844971,PC9_IRS_1hr,"PC9, 1hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,1hr,gefinitib
+-,GSM844972,PC9_IRS_2hr,"PC9, 2hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,2hr,gefinitib
+-,GSM844973,PC9_IRS_3hr,"PC9, 3hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,3hr,gefinitib
+-,GSM844974,PC9_IRS_4hr,"PC9, 4hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,4hr,gefinitib
+-,GSM844975,PC9_IRS_5hr,"PC9, 5hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,5hr,gefinitib
+-,GSM844976,PC9_IRS_6hr,"PC9, 6hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,6hr,gefinitib
+-,GSM844977,PC9_IRS_7hr,"PC9, 7hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,7hr,gefinitib
+-,GSM844978,PC9_IRS_8hr,"PC9, 8hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,8hr,gefinitib
+-,GSM844979,PC9_IRS_9hr,"PC9, 9hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,9hr,gefinitib
+-,GSM844980,PC9_IRS_10hr,"PC9, 10hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,10hr,gefinitib
+-,GSM844981,PC9_IRS_11hr,"PC9, 11hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,11hr,gefinitib
+-,GSM844982,PC9_IRS_12hr,"PC9, 12hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,12hr,gefinitib
+-,GSM844983,PC9_IRS_13hr,"PC9, 13hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,13hr,gefinitib
+-,GSM844984,PC9_IRS_14hr,"PC9, 14hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,14hr,gefinitib
+-,GSM844985,PC9_IRS_15hr,"PC9, 15hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,15hr,gefinitib
+-,GSM844986,PC9_IRS_16hr,"PC9, 16hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,16hr,gefinitib
+-,GSM844987,PC9_IRS_17hr,"PC9, 17hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,17hr,gefinitib
+-,GSM844988,PC9_IRS_18hr,"PC9, 18hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,18hr,gefinitib
+-,GSM844989,PC9_IRS_19hr,"PC9, 19hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,19hr,gefinitib
+-,GSM844990,PC9_IRS_20hr,"PC9, 20hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,20hr,gefinitib
+-,GSM844991,PC9_IRS_21hr,"PC9, 21hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,21hr,gefinitib
+-,GSM844992,PC9_IRS_22hr,"PC9, 22hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,22hr,gefinitib
+-,GSM844993,PC9_IRS_23hr,"PC9, 23hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,23hr,gefinitib
+-,GSM844994,PC9_IRS_24hr,"PC9, 24hr, gefinitib",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,24hr,gefinitib
+-,GSM844995,PC9_None_0hr,"PC9, 0hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,0hr,no treatment
+-,GSM844996,PC9_None_0.5hr,"PC9, 0.5hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,0.5hr,no treatment
+-,GSM844997,PC9_None_1hr,"PC9, 1hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,1hr,no treatment
+-,GSM844998,PC9_None_2hr,"PC9, 2hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,2hr,no treatment
+-,GSM844999,PC9_None_3hr,"PC9, 3hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,3hr,no treatment
+-,GSM845000,PC9_None_4hr,"PC9, 4hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,4hr,no treatment
+-,GSM845001,PC9_None_5hr,"PC9, 5hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,5hr,no treatment
+-,GSM845002,PC9_None_6hr,"PC9, 6hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,6hr,no treatment
+-,GSM845003,PC9_None_7hr,"PC9, 7hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,7hr,no treatment
+-,GSM845004,PC9_None_8hr,"PC9, 8hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,8hr,no treatment
+-,GSM845005,PC9_None_9hr,"PC9, 9hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,9hr,no treatment
+-,GSM845006,PC9_None_10hr,"PC9, 10hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,10hr,no treatment
+-,GSM845007,PC9_None_11hr,"PC9, 11hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,11hr,no treatment
+-,GSM845008,PC9_None_12hr,"PC9, 12hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,12hr,no treatment
+-,GSM845009,PC9_None_13hr,"PC9, 13hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,13hr,no treatment
+-,GSM845010,PC9_None_14hr,"PC9, 14hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,14hr,no treatment
+-,GSM845011,PC9_None_15hr,"PC9, 15hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,15hr,no treatment
+-,GSM845012,PC9_None_16hr,"PC9, 16hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,16hr,no treatment
+-,GSM845013,PC9_None_17hr,"PC9, 17hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,17hr,no treatment
+-,GSM845014,PC9_None_18hr,"PC9, 18hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,18hr,no treatment
+-,GSM845015,PC9_None_19hr,"PC9, 19hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,19hr,no treatment
+-,GSM845016,PC9_None_20hr,"PC9, 20hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,20hr,no treatment
+-,GSM845017,PC9_None_21hr,"PC9, 21hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,21hr,no treatment
+-,GSM845018,PC9_None_22hr,"PC9, 22hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,22hr,no treatment
+-,GSM845019,PC9_None_23hr,"PC9, 23hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,23hr,no treatment
+-,GSM845020,PC9_None_24hr,"PC9, 24hr, no treatment",non-small cell lung cancer cell line,gefitinib-sensitive cell line,PC9,24hr,no treatment
+-,GSM845021,PC9GRM2_EGF_0hr,"PC9GRM2, 0hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,0hr,EGF
+-,GSM845022,PC9GRM2_EGF_0.5hr,"PC9GRM2, 0.5hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,0.5hr,EGF
+-,GSM845023,PC9GRM2_EGF_1hr,"PC9GRM2, 1hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,1hr,EGF
+-,GSM845024,PC9GRM2_EGF_2hr,"PC9GRM2, 2hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,2hr,EGF
+-,GSM845025,PC9GRM2_EGF_3hr,"PC9GRM2, 3hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,3hr,EGF
+-,GSM845026,PC9GRM2_EGF_4hr,"PC9GRM2, 4hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,4hr,EGF
+-,GSM845027,PC9GRM2_EGF_5hr,"PC9GRM2, 5hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,5hr,EGF
+-,GSM845028,PC9GRM2_EGF_6hr,"PC9GRM2, 6hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,6hr,EGF
+-,GSM845029,PC9GRM2_EGF_7hr,"PC9GRM2, 7hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,7hr,EGF
+-,GSM845030,PC9GRM2_EGF_8hr,"PC9GRM2, 8hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,8hr,EGF
+-,GSM845031,PC9GRM2_EGF_9hr,"PC9GRM2, 9hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,9hr,EGF
+-,GSM845032,PC9GRM2_EGF_10hr,"PC9GRM2, 10hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,10hr,EGF
+-,GSM845033,PC9GRM2_EGF_11hr,"PC9GRM2, 11hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,11hr,EGF
+-,GSM845034,PC9GRM2_EGF_12hr,"PC9GRM2, 12hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,12hr,EGF
+-,GSM845035,PC9GRM2_EGF_13hr,"PC9GRM2, 13hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,13hr,EGF
+-,GSM845036,PC9GRM2_EGF_14hr,"PC9GRM2, 14hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,14hr,EGF
+-,GSM845037,PC9GRM2_EGF_15hr,"PC9GRM2, 15hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,15hr,EGF
+-,GSM845038,PC9GRM2_EGF_16hr,"PC9GRM2, 16hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,16hr,EGF
+-,GSM845039,PC9GRM2_EGF_17hr,"PC9GRM2, 17hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,17hr,EGF
+-,GSM845040,PC9GRM2_EGF_18hr,"PC9GRM2, 18hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,18hr,EGF
+-,GSM845041,PC9GRM2_EGF_19hr,"PC9GRM2, 19hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,19hr,EGF
+-,GSM845042,PC9GRM2_EGF_20hr,"PC9GRM2, 20hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,20hr,EGF
+-,GSM845043,PC9GRM2_EGF_21hr,"PC9GRM2, 21hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,21hr,EGF
+-,GSM845044,PC9GRM2_EGF_22hr,"PC9GRM2, 22hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,22hr,EGF
+-,GSM845045,PC9GRM2_EGF_23hr,"PC9GRM2, 23hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,23hr,EGF
+-,GSM845046,PC9GRM2_EGF_24hr,"PC9GRM2, 24hr, EGF",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,24hr,EGF
+-,GSM845047,PC9GRM2_EGF_IRS_0hr,"PC9GRM2, 0hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,0hr,EGF and gefitinib
+-,GSM845048,PC9GRM2_EGF_IRS_0.5hr,"PC9GRM2, 0.5hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,0.5hr,EGF and gefitinib
+-,GSM845049,PC9GRM2_EGF_IRS_1hr,"PC9GRM2, 1hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,1hr,EGF and gefitinib
+-,GSM845050,PC9GRM2_EGF_IRS_2hr,"PC9GRM2, 2hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,2hr,EGF and gefitinib
+-,GSM845051,PC9GRM2_EGF_IRS_3hr,"PC9GRM2, 3hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,3hr,EGF and gefitinib
+-,GSM845052,PC9GRM2_EGF_IRS_4hr,"PC9GRM2, 4hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,4hr,EGF and gefitinib
+-,GSM845053,PC9GRM2_EGF_IRS_5hr,"PC9GRM2, 5hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,5hr,EGF and gefitinib
+-,GSM845054,PC9GRM2_EGF_IRS_6hr,"PC9GRM2, 6hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,6hr,EGF and gefitinib
+-,GSM845055,PC9GRM2_EGF_IRS_7hr,"PC9GRM2, 7hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,7hr,EGF and gefitinib
+-,GSM845056,PC9GRM2_EGF_IRS_8hr,"PC9GRM2, 8hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,8hr,EGF and gefitinib
+-,GSM845057,PC9GRM2_EGF_IRS_9hr,"PC9GRM2, 9hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,9hr,EGF and gefitinib
+-,GSM845058,PC9GRM2_EGF_IRS_10hr,"PC9GRM2, 10hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,10hr,EGF and gefitinib
+-,GSM845059,PC9GRM2_EGF_IRS_11hr,"PC9GRM2, 11hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,11hr,EGF and gefitinib
+-,GSM845060,PC9GRM2_EGF_IRS_12hr,"PC9GRM2, 12hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,12hr,EGF and gefitinib
+-,GSM845061,PC9GRM2_EGF_IRS_13hr,"PC9GRM2, 13hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,13hr,EGF and gefitinib
+-,GSM845062,PC9GRM2_EGF_IRS_14hr,"PC9GRM2, 14hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,14hr,EGF and gefitinib
+-,GSM845063,PC9GRM2_EGF_IRS_15hr,"PC9GRM2, 15hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,15hr,EGF and gefitinib
+-,GSM845064,PC9GRM2_EGF_IRS_16hr,"PC9GRM2, 16hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,16hr,EGF and gefitinib
+-,GSM845065,PC9GRM2_EGF_IRS_17hr,"PC9GRM2, 17hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,17hr,EGF and gefitinib
+-,GSM845066,PC9GRM2_EGF_IRS_18hr,"PC9GRM2, 18hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,18hr,EGF and gefitinib
+-,GSM845067,PC9GRM2_EGF_IRS_19hr,"PC9GRM2, 19hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,19hr,EGF and gefitinib
+-,GSM845068,PC9GRM2_EGF_IRS_20hr,"PC9GRM2, 20hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,20hr,EGF and gefitinib
+-,GSM845069,PC9GRM2_EGF_IRS_21hr,"PC9GRM2, 21hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,21hr,EGF and gefitinib
+-,GSM845070,PC9GRM2_EGF_IRS_22hr,"PC9GRM2, 22hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,22hr,EGF and gefitinib
+-,GSM845071,PC9GRM2_EGF_IRS_23hr,"PC9GRM2, 23hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,23hr,EGF and gefitinib
+-,GSM845072,PC9GRM2_EGF_IRS_24hr,"PC9GRM2, 24hr, EGF and gefitinib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,24hr,EGF and gefitinib
+-,GSM845073,PC9GRM2_IRS_0hr,"PC9GRM2, 0hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,0hr,gefinitib
+-,GSM845074,PC9GRM2_IRS_0.5hr,"PC9GRM2, 0.5hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,0.5hr,gefinitib
+-,GSM845075,PC9GRM2_IRS_1hr,"PC9GRM2, 1hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,1hr,gefinitib
+-,GSM845076,PC9GRM2_IRS_2hr,"PC9GRM2, 2hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,2hr,gefinitib
+-,GSM845077,PC9GRM2_IRS_3hr,"PC9GRM2, 3hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,3hr,gefinitib
+-,GSM845078,PC9GRM2_IRS_4hr,"PC9GRM2, 4hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,4hr,gefinitib
+-,GSM845079,PC9GRM2_IRS_5hr,"PC9GRM2, 5hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,5hr,gefinitib
+-,GSM845080,PC9GRM2_IRS_6hr,"PC9GRM2, 6hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,6hr,gefinitib
+-,GSM845081,PC9GRM2_IRS_7hr,"PC9GRM2, 7hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,7hr,gefinitib
+-,GSM845082,PC9GRM2_IRS_8hr,"PC9GRM2, 8hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,8hr,gefinitib
+-,GSM845083,PC9GRM2_IRS_9hr,"PC9GRM2, 9hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,9hr,gefinitib
+-,GSM845084,PC9GRM2_IRS_10hr,"PC9GRM2, 10hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,10hr,gefinitib
+-,GSM845085,PC9GRM2_IRS_11hr,"PC9GRM2, 11hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,11hr,gefinitib
+-,GSM845086,PC9GRM2_IRS_12hr,"PC9GRM2, 12hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,12hr,gefinitib
+-,GSM845087,PC9GRM2_IRS_13hr,"PC9GRM2, 13hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,13hr,gefinitib
+-,GSM845088,PC9GRM2_IRS_14hr,"PC9GRM2, 14hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,14hr,gefinitib
+-,GSM845089,PC9GRM2_IRS_15hr,"PC9GRM2, 15hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,15hr,gefinitib
+-,GSM845090,PC9GRM2_IRS_16hr,"PC9GRM2, 16hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,16hr,gefinitib
+-,GSM845091,PC9GRM2_IRS_17hr,"PC9GRM2, 17hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,17hr,gefinitib
+-,GSM845092,PC9GRM2_IRS_18hr,"PC9GRM2, 18hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,18hr,gefinitib
+-,GSM845093,PC9GRM2_IRS_19hr,"PC9GRM2, 19hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,19hr,gefinitib
+-,GSM845094,PC9GRM2_IRS_20hr,"PC9GRM2, 20hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,20hr,gefinitib
+-,GSM845095,PC9GRM2_IRS_21hr,"PC9GRM2, 21hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,21hr,gefinitib
+-,GSM845096,PC9GRM2_IRS_22hr,"PC9GRM2, 22hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,22hr,gefinitib
+-,GSM845097,PC9GRM2_IRS_23hr,"PC9GRM2, 23hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,23hr,gefinitib
+-,GSM845098,PC9GRM2_IRS_24hr,"PC9GRM2, 24hr, gefinitib",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,24hr,gefinitib
+-,GSM845099,PC9GRM2_None_0hr,"PC9GRM2, 0hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,0hr,no treatment
+-,GSM845100,PC9GRM2_None_0.5hr,"PC9GRM2, 0.5hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,0.5hr,no treatment
+-,GSM845101,PC9GRM2_None_1hr,"PC9GRM2, 1hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,1hr,no treatment
+-,GSM845102,PC9GRM2_None_2hr,"PC9GRM2, 2hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,2hr,no treatment
+-,GSM845103,PC9GRM2_None_3hr,"PC9GRM2, 3hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,3hr,no treatment
+-,GSM845104,PC9GRM2_None_4hr,"PC9GRM2, 4hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,4hr,no treatment
+-,GSM845105,PC9GRM2_None_5hr,"PC9GRM2, 5hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,5hr,no treatment
+-,GSM845106,PC9GRM2_None_6hr,"PC9GRM2, 6hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,6hr,no treatment
+-,GSM845107,PC9GRM2_None_7hr,"PC9GRM2, 7hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,7hr,no treatment
+-,GSM845108,PC9GRM2_None_8hr,"PC9GRM2, 8hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,8hr,no treatment
+-,GSM845109,PC9GRM2_None_9hr,"PC9GRM2, 9hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,9hr,no treatment
+-,GSM845110,PC9GRM2_None_10hr,"PC9GRM2, 10hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,10hr,no treatment
+-,GSM845111,PC9GRM2_None_11hr,"PC9GRM2, 11hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,11hr,no treatment
+-,GSM845112,PC9GRM2_None_12hr,"PC9GRM2, 12hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,12hr,no treatment
+-,GSM845113,PC9GRM2_None_13hr,"PC9GRM2, 13hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,13hr,no treatment
+-,GSM845114,PC9GRM2_None_14hr,"PC9GRM2, 14hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,14hr,no treatment
+-,GSM845115,PC9GRM2_None_15hr,"PC9GRM2, 15hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,15hr,no treatment
+-,GSM845116,PC9GRM2_None_16hr,"PC9GRM2, 16hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,16hr,no treatment
+-,GSM845117,PC9GRM2_None_17hr,"PC9GRM2, 17hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,17hr,no treatment
+-,GSM845118,PC9GRM2_None_18hr,"PC9GRM2, 18hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,18hr,no treatment
+-,GSM845119,PC9GRM2_None_19hr,"PC9GRM2, 19hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,19hr,no treatment
+-,GSM845120,PC9GRM2_None_20hr,"PC9GRM2, 20hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,20hr,no treatment
+-,GSM845121,PC9GRM2_None_21hr,"PC9GRM2, 21hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,21hr,no treatment
+-,GSM845122,PC9GRM2_None_22hr,"PC9GRM2, 22hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,22hr,no treatment
+-,GSM845123,PC9GRM2_None_23hr,"PC9GRM2, 23hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,23hr,no treatment
+-,GSM845124,PC9GRM2_None_24hr,"PC9GRM2, 24hr, no treatment",non-small cell lung cancer cell line,gefitinib-resistant cell line,PC9GRM2,24hr,no treatment

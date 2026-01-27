@@ -1,0 +1,123 @@
+# TITLE: Genome-wide screening of transcriptional modulation in non-smoking female lung cancer in Taiwan
+# SUMMARY: Although smoking is the major risk factor for lung cancer, only 7% of female lung cancer patients in Taiwan have a history of cigarette smoking, extremely lower than those in Caucasian females. This report is a comprehensive analysis of the molecular signature of non-smoking female lung cancer in Taiwan.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue,GPL570_Gender,GPL570_Age,GPL570_Stage
+-,GSM494556,Lung Cancer 2T,frozen tissue of primary tumor,lung cancer,female,55,1A
+-,GSM494557,Lung Cancer 3T,frozen tissue of primary tumor,lung cancer,female,76,2A
+-,GSM494558,Lung Cancer 6T,frozen tissue of primary tumor,lung cancer,female,54,1A
+-,GSM494559,Lung Cancer 17T,frozen tissue of primary tumor,lung cancer,female,55,2B
+-,GSM494560,Lung Cancer 32T,frozen tissue of primary tumor,lung cancer,female,65,3A
+-,GSM494561,Lung Cancer 33T,frozen tissue of primary tumor,lung cancer,female,69,1A
+-,GSM494562,Lung Cancer 37T,frozen tissue of primary tumor,lung cancer,female,57,3A
+-,GSM494563,Lung Cancer 40T,frozen tissue of primary tumor,lung cancer,female,61,1B
+-,GSM494564,Lung Cancer 43T,frozen tissue of primary tumor,lung cancer,female,44,1B
+-,GSM494565,Lung Cancer 79T,frozen tissue of primary tumor,lung cancer,female,37,1B
+-,GSM494566,Lung Cancer 91T,frozen tissue of primary tumor,lung cancer,female,76,1A
+-,GSM494567,Lung Cancer 92T,frozen tissue of primary tumor,lung cancer,female,48,1B
+-,GSM494568,Lung Cancer 94T,frozen tissue of primary tumor,lung cancer,female,56,1A
+-,GSM494569,Lung Cancer 97T,frozen tissue of primary tumor,lung cancer,female,69,1A
+-,GSM494570,Lung Cancer 102T,frozen tissue of primary tumor,lung cancer,female,67,3B
+-,GSM494571,Lung Cancer 103T,frozen tissue of primary tumor,lung cancer,female,55,4
+-,GSM494572,Lung Cancer 106T,frozen tissue of primary tumor,lung cancer,female,57,2B
+-,GSM494573,Lung Cancer 109T,frozen tissue of primary tumor,lung cancer,female,74,3B
+-,GSM494574,Lung Cancer 114T,frozen tissue of primary tumor,lung cancer,female,74,1B
+-,GSM494575,Lung Cancer 115T,frozen tissue of primary tumor,lung cancer,female,80,1B
+-,GSM494576,Lung Cancer 116T,frozen tissue of primary tumor,lung cancer,female,61,3A
+-,GSM494577,Lung Cancer 117T,frozen tissue of primary tumor,lung cancer,female,70,3A
+-,GSM494578,Lung Cancer 118T,frozen tissue of primary tumor,lung cancer,female,63,1A
+-,GSM494579,Lung Cancer 119T,frozen tissue of primary tumor,lung cancer,female,76,2B
+-,GSM494580,Lung Cancer 120T,frozen tissue of primary tumor,lung cancer,female,61,1A
+-,GSM494581,Lung Cancer 121T,frozen tissue of primary tumor,lung cancer,female,60,1B
+-,GSM494582,Lung Cancer 122T,frozen tissue of primary tumor,lung cancer,female,59,1B
+-,GSM494583,Lung Cancer 123T,frozen tissue of primary tumor,lung cancer,female,53,1B
+-,GSM494584,Lung Cancer 124T,frozen tissue of primary tumor,lung cancer,female,62,1B
+-,GSM494585,Lung Cancer 125T,frozen tissue of primary tumor,lung cancer,female,64,2A
+-,GSM494586,Lung Cancer 126T,frozen tissue of primary tumor,lung cancer,female,62,2B
+-,GSM494587,Lung Cancer 127T,frozen tissue of primary tumor,lung cancer,female,59,3A
+-,GSM494588,Lung Cancer 129T,frozen tissue of primary tumor,lung cancer,female,71,1A
+-,GSM494589,Lung Cancer 130T,frozen tissue of primary tumor,lung cancer,female,51,2A
+-,GSM494590,Lung Cancer 131T,frozen tissue of primary tumor,lung cancer,female,71,1B
+-,GSM494591,Lung Cancer 132T,frozen tissue of primary tumor,lung cancer,female,47,1B
+-,GSM494592,Lung Cancer 133T,frozen tissue of primary tumor,lung cancer,female,70,1B
+-,GSM494593,Lung Cancer 134T,frozen tissue of primary tumor,lung cancer,female,52,2B
+-,GSM494594,Lung Cancer 135T,frozen tissue of primary tumor,lung cancer,female,39,1A
+-,GSM494595,Lung Cancer 136T,frozen tissue of primary tumor,lung cancer,female,65,3B
+-,GSM494596,Lung Cancer 137T,frozen tissue of primary tumor,lung cancer,female,79,1A
+-,GSM494597,Lung Cancer 139T,frozen tissue of primary tumor,lung cancer,female,68,1B
+-,GSM494598,Lung Cancer 142T,frozen tissue of primary tumor,lung cancer,female,51,3A
+-,GSM494599,Lung Cancer 143T,frozen tissue of primary tumor,lung cancer,female,59,1B
+-,GSM494600,Lung Cancer 144T,frozen tissue of primary tumor,lung cancer,female,57,3A
+-,GSM494601,Lung Cancer 145T,frozen tissue of primary tumor,lung cancer,female,76,1B
+-,GSM494602,Lung Cancer 146T,frozen tissue of primary tumor,lung cancer,female,48,3A
+-,GSM494603,Lung Cancer 148T,frozen tissue of primary tumor,lung cancer,female,56,1A
+-,GSM494604,Lung Cancer 149T,frozen tissue of primary tumor,lung cancer,female,42,2A
+-,GSM494605,Lung Cancer 152T,frozen tissue of primary tumor,lung cancer,female,62,1A
+-,GSM494606,Lung Cancer 154T,frozen tissue of primary tumor,lung cancer,female,73,1B
+-,GSM494607,Lung Cancer 156T,frozen tissue of primary tumor,lung cancer,female,68,1B
+-,GSM494608,Lung Cancer 157T,frozen tissue of primary tumor,lung cancer,female,73,1A
+-,GSM494609,Lung Cancer 158T,frozen tissue of primary tumor,lung cancer,female,72,2B
+-,GSM494610,Lung Cancer 159T,frozen tissue of primary tumor,lung cancer,female,59,1B
+-,GSM494611,Lung Cancer 165T,frozen tissue of primary tumor,lung cancer,female,64,3B
+-,GSM494612,Lung Cancer 167T,frozen tissue of primary tumor,lung cancer,female,53,2B
+-,GSM494613,Lung Cancer 177T,frozen tissue of primary tumor,lung cancer,female,50,2
+-,GSM494614,Lung Cancer 179T,frozen tissue of primary tumor,lung cancer,female,55,1
+-,GSM494615,Lung Cancer 189T,frozen tissue of primary tumor,lung cancer,female,59,1A
+-,GSM494616,Lung Normal 2N,frozen tissue of adjacent normal,paired normal adjacent,female,55,n/a
+-,GSM494617,Lung Normal 3N,frozen tissue of adjacent normal,paired normal adjacent,female,76,n/a
+-,GSM494618,Lung Normal 6N,frozen tissue of adjacent normal,paired normal adjacent,female,54,n/a
+-,GSM494619,Lung Normal 17N,frozen tissue of adjacent normal,paired normal adjacent,female,55,n/a
+-,GSM494620,Lung Normal 32N,frozen tissue of adjacent normal,paired normal adjacent,female,65,n/a
+-,GSM494621,Lung Normal 33N,frozen tissue of adjacent normal,paired normal adjacent,female,69,n/a
+-,GSM494622,Lung Normal 37N,frozen tissue of adjacent normal,paired normal adjacent,female,57,n/a
+-,GSM494623,Lung Normal 40N,frozen tissue of adjacent normal,paired normal adjacent,female,61,n/a
+-,GSM494624,Lung Normal 43N,frozen tissue of adjacent normal,paired normal adjacent,female,44,n/a
+-,GSM494625,Lung Normal 79N,frozen tissue of adjacent normal,paired normal adjacent,female,37,n/a
+-,GSM494626,Lung Normal 91N,frozen tissue of adjacent normal,paired normal adjacent,female,76,n/a
+-,GSM494627,Lung Normal 92N,frozen tissue of adjacent normal,paired normal adjacent,female,48,n/a
+-,GSM494628,Lung Normal 94N,frozen tissue of adjacent normal,paired normal adjacent,female,56,n/a
+-,GSM494629,Lung Normal 97N,frozen tissue of adjacent normal,paired normal adjacent,female,69,n/a
+-,GSM494630,Lung Normal 102N,frozen tissue of adjacent normal,paired normal adjacent,female,67,n/a
+-,GSM494631,Lung Normal 103N,frozen tissue of adjacent normal,paired normal adjacent,female,55,n/a
+-,GSM494632,Lung Normal 106N,frozen tissue of adjacent normal,paired normal adjacent,female,57,n/a
+-,GSM494633,Lung Normal 109N,frozen tissue of adjacent normal,paired normal adjacent,female,74,n/a
+-,GSM494634,Lung Normal 114N,frozen tissue of adjacent normal,paired normal adjacent,female,74,n/a
+-,GSM494635,Lung Normal 115N,frozen tissue of adjacent normal,paired normal adjacent,female,80,n/a
+-,GSM494636,Lung Normal 116N,frozen tissue of adjacent normal,paired normal adjacent,female,61,n/a
+-,GSM494637,Lung Normal 117N,frozen tissue of adjacent normal,paired normal adjacent,female,70,n/a
+-,GSM494638,Lung Normal 118N,frozen tissue of adjacent normal,paired normal adjacent,female,63,n/a
+-,GSM494639,Lung Normal 119N,frozen tissue of adjacent normal,paired normal adjacent,female,76,n/a
+-,GSM494640,Lung Normal 120N,frozen tissue of adjacent normal,paired normal adjacent,female,61,n/a
+-,GSM494641,Lung Normal 121N,frozen tissue of adjacent normal,paired normal adjacent,female,60,n/a
+-,GSM494642,Lung Normal 122N,frozen tissue of adjacent normal,paired normal adjacent,female,59,n/a
+-,GSM494643,Lung Normal 123N,frozen tissue of adjacent normal,paired normal adjacent,female,53,n/a
+-,GSM494644,Lung Normal 124N,frozen tissue of adjacent normal,paired normal adjacent,female,62,n/a
+-,GSM494645,Lung Normal 125N,frozen tissue of adjacent normal,paired normal adjacent,female,64,n/a
+-,GSM494646,Lung Normal 126N,frozen tissue of adjacent normal,paired normal adjacent,female,62,n/a
+-,GSM494647,Lung Normal 127N,frozen tissue of adjacent normal,paired normal adjacent,female,59,n/a
+-,GSM494648,Lung Normal 129N,frozen tissue of adjacent normal,paired normal adjacent,female,71,n/a
+-,GSM494649,Lung Normal 130N,frozen tissue of adjacent normal,paired normal adjacent,female,51,n/a
+-,GSM494650,Lung Normal 131N,frozen tissue of adjacent normal,paired normal adjacent,female,71,n/a
+-,GSM494651,Lung Normal 132N,frozen tissue of adjacent normal,paired normal adjacent,female,47,n/a
+-,GSM494652,Lung Normal 133N,frozen tissue of adjacent normal,paired normal adjacent,female,70,n/a
+-,GSM494653,Lung Normal 134N,frozen tissue of adjacent normal,paired normal adjacent,female,52,n/a
+-,GSM494654,Lung Normal 135N,frozen tissue of adjacent normal,paired normal adjacent,female,39,n/a
+-,GSM494655,Lung Normal 136N,frozen tissue of adjacent normal,paired normal adjacent,female,65,n/a
+-,GSM494656,Lung Normal 137N,frozen tissue of adjacent normal,paired normal adjacent,female,79,n/a
+-,GSM494657,Lung Normal 139N,frozen tissue of adjacent normal,paired normal adjacent,female,68,n/a
+-,GSM494658,Lung Normal 142N,frozen tissue of adjacent normal,paired normal adjacent,female,51,n/a
+-,GSM494659,Lung Normal 143N,frozen tissue of adjacent normal,paired normal adjacent,female,59,n/a
+-,GSM494660,Lung Normal 144N,frozen tissue of adjacent normal,paired normal adjacent,female,57,n/a
+-,GSM494661,Lung Normal 145N,frozen tissue of adjacent normal,paired normal adjacent,female,76,n/a
+-,GSM494662,Lung Normal 146N,frozen tissue of adjacent normal,paired normal adjacent,female,48,n/a
+-,GSM494663,Lung Normal 148N,frozen tissue of adjacent normal,paired normal adjacent,female,56,n/a
+-,GSM494664,Lung Normal 149N,frozen tissue of adjacent normal,paired normal adjacent,female,42,n/a
+-,GSM494665,Lung Normal 152N,frozen tissue of adjacent normal,paired normal adjacent,female,62,n/a
+-,GSM494666,Lung Normal 154N,frozen tissue of adjacent normal,paired normal adjacent,female,73,n/a
+-,GSM494667,Lung Normal 156N,frozen tissue of adjacent normal,paired normal adjacent,female,68,n/a
+-,GSM494668,Lung Normal 157N,frozen tissue of adjacent normal,paired normal adjacent,female,73,n/a
+-,GSM494669,Lung Normal 158N,frozen tissue of adjacent normal,paired normal adjacent,female,72,n/a
+-,GSM494670,Lung Normal 159N,frozen tissue of adjacent normal,paired normal adjacent,female,59,n/a
+-,GSM494671,Lung Normal 165N,frozen tissue of adjacent normal,paired normal adjacent,female,64,n/a
+-,GSM494672,Lung Normal 167N,frozen tissue of adjacent normal,paired normal adjacent,female,53,n/a
+-,GSM494673,Lung Normal 177N,frozen tissue of adjacent normal,paired normal adjacent,female,50,n/a
+-,GSM494674,Lung Normal 179N,frozen tissue of adjacent normal,paired normal adjacent,female,55,n/a
+-,GSM494675,Lung Normal 189N,frozen tissue of adjacent normal,paired normal adjacent,female,59,n/a

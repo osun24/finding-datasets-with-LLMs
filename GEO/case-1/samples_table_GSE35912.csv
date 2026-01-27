@@ -1,0 +1,27 @@
+# TITLE: Reversal of Aberrant Cancer Methylome and Transcriptome upon Direct Reprogramming of Lung Cancer Cells [Methylation]
+# SUMMARY: Non-small cell lung cancer cell (NSCLC) lines were reprogrammed with Yamanaka's cocktail and their methylome and transcriptome were studied and characterized.
+GPL8490_Group,GPL8490_Accession,GPL8490_Title,GPL8490_Source name,GPL8490_Cell type,GPL8490_Cell line,GPL8490_Gender,GPL8490_Molecule type
+-,GSM877319,H358P12,Lung Adenocarcinoma Cell Line,lung adenocarcinoma,H358 P12,male,Bisulfite converted DNA
+-,GSM877320,iPCH460Col5,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH460 Col5,male,Bisulfite converted DNA
+-,GSM877321,H460P15,Lung Large Cell Carcinoma,lung large cell carcinoma,H460 P15,male,Bisulfite converted DNA
+-,GSM877322,iPCH460Col12,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH460 Col12,male,Bisulfite converted DNA
+-,GSM877323,IMR90P5,Human Fetal Lung Fibroblast,fetal lung fibroblast,IMR90 P6,female,Bisulfite converted DNA
+-,GSM877324,iPSIMR90Col1,Induced Pluripotent Stem Cell,Induced Pluripotent stem cell,iPSIMR90Col1,female,Bisulfite converted DNA
+-,GSM877325,H1P106A,human ESC,human embyronic stem cell line,H1 p106,male,Bisulfite converted DNA
+-,GSM877326,iPSIMR90Col10,Induced Pluripotent Stem Cell,Induced Pluripotent stem cell,iPSIMR90Col10,female,Bisulfite converted DNA
+-,GSM877327,iPCH358Col1,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH358 Col1,male,Bisulfite converted DNA
+-,GSM877328,piPCH358Col11,Differentiated Induced Pluripotent Cancer Cell,post induced pluripotent cancer cell,post-iPCH358Col11,male,Bisulfite converted DNA
+-,GSM877329,iPCH358Col11,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH358 Col11,male,Bisulfite converted DNA
+-,GSM877330,piPCH460Col5,Differentiated Induced Pluripotent Cancer Cell,post induced pluripotent cancer cell,post-iPCH460Col5,male,Bisulfite converted DNA
+-,GSM877331,H358P14A,Lung Adenocarcinoma Cell Line,lung adenocarcinoma,H358 P14,male,Bisulfite converted DNA
+-,GSM877332,iPCH358Col3,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH358 Col3,male,Bisulfite converted DNA
+-,GSM877333,H358P14B,Lung Adenocarcinoma Cell Line,lung adenocarcinoma,H358 P14,male,Bisulfite converted DNA
+-,GSM877334,iPCH460Col9,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH460 Col9,male,Bisulfite converted DNA
+-,GSM877335,H460P21A,Lung Large Cell Carcinoma,lung large cell carcinoma,H460 P21,male,Bisulfite converted DNA
+-,GSM877336,iPSIMR90Col9,Induced Pluripotent Stem Cell,Induced Pluripotent stem cell,iPSIMR90Col9,female,Bisulfite converted DNA
+-,GSM877337,H460P21B,Lung Large Cell Carcinoma,lung large cell carcinoma,H460 P21,male,Bisulfite converted DNA
+-,GSM877338,piPCH358Col1,Differentiated Induced Pluripotent Cancer Cell,post induced pluripotent cancer cell,post-iPCH358Col1,male,Bisulfite converted DNA
+-,GSM877339,IMR90P6A,Human Fetal Lung Fibroblast,fetal lung fibroblast,IMR90 P6,female,Bisulfite converted DNA
+-,GSM877340,H1P106B,human ESC,human embyronic stem cell line,H1 P106,male,Bisulfite converted DNA
+-,GSM877341,IMR90P6B,Human Fetal Lung Fibroblast,fetal lung fibroblast,IMR90 P6,female,Bisulfite converted DNA
+-,GSM877342,H1P76,human ESC,human embyronic stem cell line,H1 P76,male,Bisulfite converted DNA

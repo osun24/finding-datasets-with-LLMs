@@ -1,0 +1,15 @@
+# TITLE: EGFR-mediated FASN signaling promotes TKI resistant Non-Small Cell Lung Cancer tumor cell survival
+# SUMMARY: Metabolic reprogramming is widely known as a hallmark of cancer cells to allow adaptation of cells to sustain survival signals. In the past decade, altered lipid metabolism has been recognized to be a property of malignant cells. In this report, we describe a novel oncogenic signaling pathway exclusively in tyrosine kinase inhibitor (TKI)-resistant epidermal growth factor receptor (EGFR) mutant non-small cell lung cancer (NSCLC). EGFR mediates TKI-resistance through regulation of the fatty acid synthase (FASN), and inhibition of this pathway using the FASN inhibitor Orlistat, triggers cell death and reduces tumor sizes both in culture systems and in vivo. Together, data shown here provide compelling evidence that the fatty acid metabolism pathway is a candidate target for TKI-resistant NSCLC treatment.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Cell type,GPL10558_Gefitinib resistance status,GPL10558_Cell compartment
+-,GSM2212113,"PC-9 Parental, whole cell replicate 1",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,non-resistant (parental),whole cell
+-,GSM2212114,"PC-9 Parental, whole cell replicate 2",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,non-resistant (parental),whole cell
+-,GSM2212115,"PC-9 Gefitinib  Resistant, whole cell replicate 1",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,resistant,whole cell
+-,GSM2212116,"PC-9 Gefitinib  resistant, whole cell replicate 2",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,resistant,whole cell
+-,GSM2212117,"PC-9 Parental, nuclear replicate 1",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,non-resistant (parental),nucleus
+-,GSM2212118,"PC-9 Parental, nuclear  replicate 2",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,non-resistant (parental),nucleus
+-,GSM2212119,"PC-9 Gefitinib resistant, nuclear replicate 1",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,resistant,nucleus
+-,GSM2212120,"PC-9 Gefitinib resistant, nuclear replicate 2",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,resistant,nucleus
+-,GSM2212121,"PC-9 Parental, cytosolic replicate 1",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,non-resistant (parental),cytosol
+-,GSM2212122,"PC-9 Parental, cytosolic replicate 2",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,non-resistant (parental),cytosol
+-,GSM2212123,"PC-9 Gefitinib resistant, cytosolic replicate 1",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,resistant,cytosol
+-,GSM2212124,"PC-9 Gefitinib resistant, cytosolic replicate 2",Non-small cell lung cancer,PC-9,Non-small cell lung cancer,resistant,cytosol

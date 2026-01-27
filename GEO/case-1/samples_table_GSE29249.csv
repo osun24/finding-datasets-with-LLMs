@@ -1,0 +1,15 @@
+# TITLE: Genome-wide analysis of gene expression in Non-small Cell Lung Cancer
+# SUMMARY: Analysis of NSCLC development at gene expression level. Results shows that obvious activation of cell cycle pathway, and significant repression of cell-cell communication pathways. Illumina HumanHT-12 V4.0 expression beadchip
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Gender,GPL10558_Disease state,GPL10558_Nsclc type,GPL10558_Tissue,GPL10558_Tnm
+-,GSM723159,NSCLC 1,lung,male,NSCLC,squamous,cancer,/4/1/0/
+-,GSM723160,adjacent normal tissue 1,lung,male,NSCLC,squamous,adjacent normal,/4/1/0/
+-,GSM723161,NSCLC 2,lung,male,NSCLC,squamous,cancer,/4/2/0/
+-,GSM723162,adjacent normal tissue 2,lung,male,NSCLC,squamous,adjacent normal,/4/2/0/
+-,GSM723163,NSCLC 3,lung,male,NSCLC,squamous,cancer,/4/0/0/
+-,GSM723164,adjacent normal tissue 3,lung,male,NSCLC,squamous,adjacent normal,/4/0/0/
+-,GSM723165,NSCLC 4,lung,male,NSCLC,adenocarcinoma,cancer,/2/3/0/
+-,GSM723166,adjacent normal tissue 4,lung,male,NSCLC,adenocarcinoma,adjacent normal,/2/3/0/
+-,GSM723167,NSCLC 5,lung,male,NSCLC,adenocarcinoma,cancer,/2/2/0/
+-,GSM723168,adjacent normal tissue 5,lung,male,NSCLC,adenocarcinoma,adjacent normal,/2/2/0/
+-,GSM723169,NSCLC 6,lung,male,NSCLC,adenocarcinoma,cancer,/3/2/0/
+-,GSM723170,adjacent normal tissue 6,lung,male,NSCLC,adenocarcinoma,adjacent normal,/3/2/0/

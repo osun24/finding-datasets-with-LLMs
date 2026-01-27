@@ -1,0 +1,15 @@
+# TITLE: Microarray analysis of lung cancer cells gene expression in overexpressing different semaphorin 5a domains
+# SUMMARY: Semaphorin 5A (SEMA5A) is one member of semaphorin family, which was identified as an axon guidance molecule in nervous systems. In our previous studies, SEMA5A was identified as a prognostic biomarker for lung cancer in nonsmoking women and acted as a tumor suppressor gene in inhibiting the proliferation and migration of lung cancer cells. Yet, the regulatory mechanism of SEMA5A was not clear. Therefore, the purpose of this study was to explore the roles of different domains of SEMA5A on the tumor suppressive effects in lung cancer cell lines.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Transfection
+-,GSM4751843,"A549 cells, SEMA5A_ICD, rep1",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_ICD
+-,GSM4751844,"A549 cells, SEMA5A_ICD, rep2",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_ICD
+-,GSM4751845,"A549 cells, SEMA5A_ICD, rep3",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_ICD
+-,GSM4751846,"A549 cells, SEMA5A_ECD, rep1",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_ECD
+-,GSM4751847,"A549 cells, SEMA5A_ECD, rep2",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_ECD
+-,GSM4751848,"A549 cells, SEMA5A_ECD, rep3",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_ECD
+-,GSM4751849,"A549 cells, SEMA5A_Full, rep1",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_Full
+-,GSM4751850,"A549 cells, SEMA5A_Full, rep2",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_Full
+-,GSM4751851,"A549 cells, SEMA5A_Full, rep3",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_Full
+-,GSM4751852,"A549 cells, SEMA5A_Empty, rep1",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_Empty
+-,GSM4751853,"A549 cells, SEMA5A_Empty, rep2",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_Empty
+-,GSM4751854,"A549 cells, SEMA5A_Empty, rep3",A549 cells,A549 non-small cell lung cancer cell line,SEMA5A_Empty

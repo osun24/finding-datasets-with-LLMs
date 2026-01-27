@@ -1,0 +1,39 @@
+# TITLE: A Gene Expression Signature Predicts Survival of Patients with Stage I Non-Small Cell Lung Cancer
+# SUMMARY: We applied a meta-analysis of datasets from seven different microarray studies on lung cancer for differentially expressed genes related to survival time (under 2 y and over 5 y). Systematic bias adjustment in the datasets was performed by distance-weighted discrimination (DWD). We identified a gene expression signature consisting of 64 genes that is highly predictive of which stage I lung cancer patients may benefit from more aggressive therapy. Keywords: disease state analysis
+GPL97_Group,GPL97_Accession,GPL97_Title,GPL97_Source name,GPL97_Gender,GPL96_Group,GPL96_Accession,GPL96_Title,GPL96_Source name,GPL96_Gender,GPL8300_Group,GPL8300_Accession,GPL8300_Title,GPL8300_Source name,GPL8300_Gender
+-,GSM144020,Squamous cell carcinoma 40430_B,Squamous cell carcinoma,M; age:75; stage:T2N0,-,GSM144019,Squamous cell carcinoma 40430_A,Squamous cell carcinoma,M; age:75; stage:T2N0,-,GSM143929,Adenocarcinoma 3196,Adenocarcinoma,M; Age: 71; Adenocarcinoma
+-,GSM144022,Squamous cell carcinoma 41923_B,Squamous cell carcinoma,M; age:65; stage:T1N0,-,GSM144021,Squamous cell carcinoma 41923_A,Squamous cell carcinoma,M; age:65; stage:T1N0,-,GSM143930,Adenocarcinoma 3197,Adenocarcinoma,M; age: 70; cancer type: Adenocarcinoma
+-,GSM144024,Squamous cell carcinoma 41932_B,Squamous cell carcinoma,F; age: 62; stage:T2N0,-,GSM144023,Squamous cell carcinoma 41932_A,Squamous cell carcinoma,F; age: 62; stage:T2N0,-,GSM143931,Squamous cell carcinoma 3198,Squamous cell carcinoma,M; age: 66; cancer type: Squamous cell carcinoma
+-,GSM144026,Squamous cell carcinoma 42081_B,Squamous cell carcinoma,F; age: 73; stage:T2N0,-,GSM144025,Squamous cell carcinoma 42081_A,Squamous cell carcinoma,F; age: 73; stage:T2N0,-,GSM143932,Squamous cell carcinoma 3199,Squamous cell carcinoma,F; age: 65; cancer type: Squamous cell carcinoma
+-,GSM144029,Squamous cell carcinoma 42613_B,Squamous cell carcinoma,M; age: 73; stage:T2N0,-,GSM144028,Squamous cell carcinoma 42613_A,Squamous cell carcinoma,M; age: 73; stage:T2N0,-,GSM143934,Adenocarcinoma 3200,Adenocarcinoma,M; age: 61; cancer type: Adenocarcinoma
+-,GSM144031,Squamous cell carcinoma 42616_B,Squamous cell carcinoma,M; age: 63; stage:T1N0,-,GSM144030,Squamous cell carcinoma 42616_A,Squamous cell carcinoma,M; age: 63; stage:T1N0,-,GSM143935,Squamous cell carcinoma 3201,Squamous cell carcinoma,F; age: 61; cancer type: Squamous cell carcinoma
+-,GSM144033,Squamous cell carcinoma 44656_B,Squamous cell carcinoma,F; age: 76; stage:T2N0,-,GSM144032,Squamous cell carcinoma 44656_A,Squamous cell carcinoma,F; age: 76; stage:T2N0,-,GSM143936,Adenocarcinoma 3202,Adenocarcinoma,M; age: 65; cancer type: Adenocarcinoma
+-,GSM144035,Squamous cell carcinoma 44661_B,Squamous cell carcinoma,M; age: 64; stage:T2N0,-,GSM144034,Squamous cell carcinoma 44661_A,Squamous cell carcinoma,M; age: 64; stage:T2N0,-,GSM143937,Squamous cell carcinoma 3203,Squamous cell carcinoma,M; age: 63; cancer type: Squamous cell carcinoma
+-,GSM144037,Squamous cell carcinoma 44680_B,Squamous cell carcinoma,F; age: 70; stage:T1N0,-,GSM144036,Squamous cell carcinoma 44680_A,Squamous cell carcinoma,F; age: 70; stage:T1N0,-,GSM143938,Squamous cell carcinoma 3204,Squamous cell carcinoma,M; age: 70; cancer type: Squamous cell carcinoma
+-,GSM144039,Squamous cell carcinoma 44693_B,Squamous cell carcinoma,F; age: 66; stage:T2N0,-,GSM144038,Squamous cell carcinoma 44693_A,Squamous cell carcinoma,F; age: 66; stage:T2N0,-,GSM143939,Adenocarcinoma 3205,Adenocarcinoma,M; age: 66; cancer type: Adenocarcinoma
+-,GSM144041,Squamous cell carcinoma 48521_B,Squamous cell carcinoma,M; age: 70; stage:T2N0,-,GSM144040,Squamous cell carcinoma 48521_A,Squamous cell carcinoma,M; age: 70; stage:T2N0,-,GSM143940,Squamous cell carcinoma 3206,Squamous cell carcinoma,U; age: 63; cancer type: Squamous cell carcinoma
+-,GSM144043,Squamous cell carcinoma 48536_B,Squamous cell carcinoma,M; age: 80; stage:T2N0,-,GSM144042,Squamous cell carcinoma 48536_A,Squamous cell carcinoma,M; age: 80; stage:T2N0,-,GSM143941,undifferentiated 3207,undifferentiated,M; age: 71; cancer type: undifferentiated
+-,GSM144045,Squamous cell carcinoma 48549_B,Squamous cell carcinoma,F; age: 62; stage:T1N0,-,GSM144044,Squamous cell carcinoma 48549_A,Squamous cell carcinoma,F; age: 62; stage:T1N0,-,GSM143942,Squamous cell carcinoma 3208,Squamous cell carcinoma,M; age: 77; cancer type: Squamous cell carcinoma
+-,GSM144047,Squamous cell carcinoma 48556_B,Squamous cell carcinoma,M; age: 78; stage:T2N0,-,GSM144046,Squamous cell carcinoma 48556_A,Squamous cell carcinoma,M; age: 78; stage:T2N0,-,GSM143943,Squamous cell carcinoma 3209,Squamous cell carcinoma,M; age: 81; cancer type: Squamous cell carcinoma
+-,GSM144050,Squamous cell carcinoma 57774_B,Squamous cell carcinoma,M; age: 76; stage:T1N0,-,GSM144049,Squamous cell carcinoma 57774_A,Squamous cell carcinoma,M; age: 76; stage:T1N0,-,GSM143944,Adenocarcinoma 3210,Adenocarcinoma,F; age: 67; cancer type: Adenocarcinoma
+-,GSM144052,Squamous cell carcinoma 76981_B,Squamous cell carcinoma,M; age: 76; stage:T2N0,-,GSM144051,Squamous cell carcinoma 76981_A,Squamous cell carcinoma,M; age: 76; stage:T2N0,-,GSM143945,Adenocarcinoma 3211,Adenocarcinoma,F; age: 63; cancer type: Adenocarcinoma
+-,GSM144054,Squamous cell carcinoma 86011_B,Squamous cell carcinoma,F; age: 78; stage:T1N0,-,GSM144053,Squamous cell carcinoma 86011_A,Squamous cell carcinoma,F; age: 78; stage:T1N0,-,GSM143954,large cell neuroendocrine 3212,large cell neuroendocrine,M; age: 65; cancer type: large cell neuroendocrine
+-,GSM144056,Squamous cell carcinoma 86043_B,Squamous cell carcinoma,F; age: 59; stage:T1N0,-,GSM144055,Squamous cell carcinoma 86043_A,Squamous cell carcinoma,F; age: 59; stage:T1N0,-,GSM143955,Adenocarcinoma 3213,Adenocarcinoma,F; age: 81; cancer type: Adenocarcinoma
+,,,,,,,,,,-,GSM143956,Squamous cell carcinoma 3214,Squamous cell carcinoma,F; age: 79; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM143957,Squamous cell carcinoma 3215,Squamous cell carcinoma,F; age: 64; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM143975,Squamous cell carcinoma 3216,Squamous cell carcinoma,F; age: 65; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM143978,Squamous cell carcinoma 3217,Squamous cell carcinoma,M; age: 51; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM143979,Adenocarcinoma 3218,Adenocarcinoma,F; age: 74; cancer type: Adenocarcinoma
+,,,,,,,,,,-,GSM143980,large cell undiff 3219,large cell undiff,F; age: 64; cancer type: large cell undiff
+,,,,,,,,,,-,GSM143981,Squamous cell carcinoma 3220,Squamous cell carcinoma,F; age: 72; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM143982,Squamous cell carcinoma 3221,Squamous cell carcinoma,M; age: 63; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM143983,large cell undiff 3222,large cell undiff,M; age: 66; cancer type: large cell undiff
+,,,,,,,,,,-,GSM143994,Adenocarcinoma 3223,Adenocarcinoma,F; age: 48; cancer type: Adenocarcinoma
+,,,,,,,,,,-,GSM144005,Squamous cell carcinoma 3224,Squamous cell carcinoma,M; age: 75; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM144007,Squamous cell carcinoma,Squamous cell carcinoma,F; age: 79; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM144009,Adenocarcinoma 3226,Adenocarcinoma,F; age: 55; cancer type: Adenocarcinoma
+,,,,,,,,,,-,GSM144011,Adenocarcinoma 3227,Adenocarcinoma,F; age: 55; cancer type: Adenocarcinoma
+,,,,,,,,,,-,GSM144014,Squamous cell carcinoma 3228,Squamous cell carcinoma,M; age: 52; cancer type: Squamous cell carcinoma
+,,,,,,,,,,-,GSM144015,Adenocarcinoma 3329,Adenocarcinoma,F; age: 60; cancer type: Adenocarcinoma
+,,,,,,,,,,-,GSM144016,Adenocarcinoma 3230,Adenocarcinoma,M; age: 75; cancer type: Adenocarcinoma
+,,,,,,,,,,-,GSM144017,Squamous cell carcinoma 3231,Squamous cell carcinoma,M; age: 62; cancer type: Squamous cell carcinoma

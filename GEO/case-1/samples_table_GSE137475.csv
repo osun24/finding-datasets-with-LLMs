@@ -1,0 +1,9 @@
+# TITLE: Identification of ETV4-responsive genes in NSCLC cells
+# SUMMARY: H1703, H1299, and H358T cells treated with or without si-ETV4 were used to screen the global profiling of human long-noncoding RNAs (lncRNAs) and protein-coding transcripts.
+GPL21827_Group,GPL21827_Accession,GPL21827_Title,GPL21827_Source name,GPL21827_Tissue,GPL21827_Cell type,GPL21827_Cell line
+-,GSM4080019,H358 TGF-β treated cells transfected with NC siRNA,Cultured cell,NSCLC cell line,Non-Small Cell Lung Cancer,H358T
+-,GSM4080020,H358 TGF-β treated cells transfected with ETV4 siRNA,Cultured cell,NSCLC cell line,Non-Small Cell Lung Cancer,H358T
+-,GSM4080021,H1299 cells transfected with NC siRNA,Cultured cell,NSCLC cell line,Non-Small Cell Lung Cancer,H1299
+-,GSM4080022,H1299 cells transfected with ETV4 siRNA,Cultured cell,NSCLC cell line,Non-Small Cell Lung Cancer,H1299
+-,GSM4080023,H1703 cells transfected with NC siRNA,Cultured cell,NSCLC cell line,Non-Small Cell Lung Cancer,H1703
+-,GSM4080024,H1703 cells transfected with ETV4 siRNA,Cultured cell,NSCLC cell line,Non-Small Cell Lung Cancer,H1703
