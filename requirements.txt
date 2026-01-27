@@ -1,0 +1,12 @@
+biopython
+pandas
+openpyxl
+openai
+tiktoken
+python-dotenv
+selenium
+beautifulsoup4
+requests
+matplotlib
+numpy
+seaborn

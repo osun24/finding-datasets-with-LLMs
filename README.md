@@ -3,6 +3,13 @@
 
 ## Citation
 
+
+## Requirements
+All code was written in Python 3.10.9. Required packages can be installed via:
+```
+pip install -r requirements.txt
+```
+
 ## Gene Expression Omnibus
 ### Step 1: NCBI Search (`ncbi-search-to-excel.py`)
 - Search NCBI GEO with a given search query.
