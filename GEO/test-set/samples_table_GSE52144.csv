@@ -1,0 +1,11 @@
+# TITLE: Examination of genome-wide methylation changes in lung cancer cell lines A549 (A) and HTB56 (H) [HumanMethylation27 BeadChip experiments]
+# SUMMARY: Cancer cell phenotypes are partially determined by epigenetic specifications such as DNA methylation. Metastasis development is a late event in cancerogenesis and might be associated with epigenetic alterations. Here, we analyzed genome wide DNA methylation changes that were associated with pro-metastatic phenotypes in non-small cell lung cancer using the Illumina HumanMethylation27 BeadChip platform.
+GPL8490_Group,GPL8490_Accession,GPL8490_Title,GPL8490_Source name,GPL8490_Cell line,GPL8490_Rounds of in vivo selection,GPL8490_5-azacytidine status
+-,GSM1260290,H0R_d0_rep1,HTB56 cell line,HTB56,0,untreated
+-,GSM1260291,H0R_d0_rep2,HTB56 cell line,HTB56,0,untreated
+-,GSM1260292,H3R_d0_rep1,HTB56 cell line,HTB56,3,untreated
+-,GSM1260293,H3R_d0_rep2,HTB56 cell line,HTB56,3,untreated
+-,GSM1260294,A0R_d0_rep1,A549 cell line,A549,0,untreated
+-,GSM1260295,A0R_d0_rep2,A549 cell line,A549,0,untreated
+-,GSM1260296,A3R_d0_rep1,A549 cell line,A549,3,untreated
+-,GSM1260297,A3R_d0_rep2,A549 cell line,A549,3,untreated

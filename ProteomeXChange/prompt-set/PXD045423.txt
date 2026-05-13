@@ -1,0 +1,3 @@
+Title: Dynamics of single-cell protein covariation during epithelial-mesenchymal transition
+Description: Single cell proteomic dataset (~420 cells passing filter, 1827 proteins at 1% FDR and 4096 proteins post update via DART-ID) characterizing the Epithelial to Mesenchymal transition induced by TGF-B in MCF10A cells. 
+Cells were sampled from day 0 (epithelial), day 3 (intermediate) and day 9 (sustained) treatment. The single cell samples were prepped using nPoP and prepared in the SCoPE2 format. Dataset also includes two bulk biological replicates (samples from day 0, 3 and 9 respectively) that were analyzed via label free DIA.

@@ -1,0 +1,10 @@
+# TITLE: Gene expression profile analysis of non small cell lung cancer in North East India
+# SUMMARY: The objective of this study was to identify the genes differentially expressed in non small cell lung carcinoma associated with prevalent risk factor such as smoking and betel quid chewing in high-risk north eastern Indian population. The tumor biopsies and matched normal tissue from distant site were collected in RNA later, snap-frozen in liquid nitrogen and stored at -70°C until processed. Data of clinicopathologic parameters were obtained from patients’ clinical and pathologic report. Institutional human ethics committee approved the study.
+GPL9365_Group,GPL9365_Accession,GPL9365_Title,GPL9365_Source name,GPL9365_Tissue,GPL9365_Patient id,GPL9365_Histopathology,GPL9365_Characteristics,GPL9365_Gender,GPL9365_Smoking,GPL9365_Tobacco chewing,GPL9365_Betelquid chewing,GPL9365_Alcohol
+-,GSM745653,Control pool 1 sl70,Normal human lung tissue,Normal human lung tissue,Control pool 1 sl70,Normal lung tissue,,,,,,
+-,GSM745654,Control pool 2 sl53,Normal human lung tissue,Normal human lung tissue,Control pool 2 sl53,Normal lung tissue,,,,,,
+-,GSM745655,Tumor tissue 1 sl77,primary lung cancer,primary lung cancer,LC1,Squamous cell carcinoma,age (y): 63,Male,YES,NO,NO,YES
+-,GSM745656,Tumor tissue 2 sl19,primary lung cancer,primary lung cancer,LC2,adenocarcinoma,age (y): 45,Female,NO,YES,NO,NO
+-,GSM745657,Tumor tissue 3 sl20,primary lung cancer,primary lung cancer,LC3,Squamous cell carcinoma,age (y): 70,Male,YES,YES,YES,NO
+-,GSM745658,Tumor tissue 4 sl24,primary lung cancer,primary lung cancer,LC4,adenocarcinoma,age (y): 72,Male,YES,YES,YES,NO
+-,GSM745659,Tumor tissue 5 sl43,primary lung cancer,primary lung cancer,LC5,Squamous cell carcinoma,age (y): 75,Male,YES,NO,NO,YES

@@ -1,0 +1,63 @@
+# TITLE: EYA4 is a non-small cell lung cancer tumor suppressor located in the susceptibility locus on chromosome 6q
+# SUMMARY: This study was undertaken to identify novel tumour suppressor genes in lung adenocarcinoma. EYA4, located at 6q23.2 was identified as a frequently lost and hypermethylated gene in the analyzed samples. EYA4 is underexpressed in addition to being deleted and hypermethylated. Control of EYA4 expression by DNA methylation was assessed using 5'-azacytidine. The role of EYA4 in apoptosis was assessed using a stable knock down of the gene which was assessed for apoptotis using FACS and qPCR.
+GPL8490_Group,GPL8490_Accession,GPL8490_Title,GPL8490_Source name,GPL8490_Disease state,GPL8490_Sample number,GPL2616_Group,GPL2616_Accession,GPL2616_Title,GPL2616_Source name 1,GPL2616_Source name 2,GPL2616_Disease state (Ch1),GPL2616_Sample number (Ch1),GPL2616_Reference (Ch2)
+-,GSM471087,lung_adenocarcinoma_DNA (85040001): MP,"lung, adenocarcinoma",adenocarcinoma,85040001,-,GSM473616,lung_adenocarcinoma_DNA (85040001): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85040001,diploid male gDNA
+-,GSM471088,lung_non-malignant_DNA (85040002): MP,"lung, non-malignant",control,85040002,-,GSM473617,lung_adenocarcinoma_DNA (85040031): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85040031,diploid male gDNA
+-,GSM471089,lung_adenocarcinoma_DNA (85040031): MP,"lung, adenocarcinoma",adenocarcinoma,85040031,-,GSM473618,lung_adenocarcinoma_DNA (85040040): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85040040,diploid male gDNA
+-,GSM471090,lung_non-malignant_DNA (85040032): MP,"lung, non-malignant",control,85040032,-,GSM473619,lung_adenocarcinoma_DNA (85050011): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050011,diploid male gDNA
+-,GSM471091,lung_adenocarcinoma_DNA (85040040): MP,"lung, adenocarcinoma",adenocarcinoma,85040040,-,GSM473620,lung_adenocarcinoma_DNA (85050022): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050022,diploid male gDNA
+-,GSM471092,lung_non-malignant_DNA (85040041): MP,"lung, non-malignant",control,85040041,-,GSM473621,lung_adenocarcinoma_DNA (85050031): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050031,diploid male gDNA
+-,GSM471093,lung_adenocarcinoma_DNA (85050011): MP,"lung, adenocarcinoma",adenocarcinoma,85050011,-,GSM473622,lung_adenocarcinoma_DNA (85050140): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050140,diploid male gDNA
+-,GSM471094,lung_non-malignant_DNA (85050012): MP,"lung, non-malignant",control,85050012,-,GSM473623,lung_adenocarcinoma_DNA (85050147): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050147,diploid male gDNA
+-,GSM471095,lung_adenocarcinoma_DNA (85050022): MP,"lung, adenocarcinoma",adenocarcinoma,85050022,-,GSM473624,lung_adenocarcinoma_DNA (85050167): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050167,diploid male gDNA
+-,GSM471096,lung_non-malignant_DNA (85050023): MP,"lung, non-malignant",control,85050023,-,GSM473625,lung_adenocarcinoma_DNA (85050208): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050208,diploid male gDNA
+-,GSM471097,lung_adenocarcinoma_DNA (85050031): MP,"lung, adenocarcinoma",adenocarcinoma,85050031,-,GSM473626,lung_adenocarcinoma_DNA (85050222): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050222,diploid male gDNA
+-,GSM471098,lung_non-malignant_DNA (85050032): MP,"lung, non-malignant",control,85050032,-,GSM473627,lung_adenocarcinoma_DNA (85050241): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85050241,diploid male gDNA
+-,GSM471099,lung_adenocarcinoma_DNA (85050140): MP,"lung, adenocarcinoma",adenocarcinoma,85050140,-,GSM473628,lung_adenocarcinoma_DNA (85060068): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85060068,diploid male gDNA
+-,GSM471100,lung_non-malignant_DNA (85050141): MP,"lung, non-malignant",control,85050141,-,GSM473629,lung_adenocarcinoma_DNA (85060144): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85060144,diploid male gDNA
+-,GSM471101,lung_adenocarcinoma_DNA (85050147): MP,"lung, adenocarcinoma",adenocarcinoma,85050147,-,GSM473630,lung_adenocarcinoma_DNA (85060201): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85060201,diploid male gDNA
+-,GSM471102,lung_non-malignant_DNA (85050148): MP,"lung, non-malignant",control,85050148,-,GSM473631,lung_adenocarcinoma_DNA (85060251): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85060251,diploid male gDNA
+-,GSM471103,lung_adenocarcinoma_DNA (85050167): MP,"lung, adenocarcinoma",adenocarcinoma,85050167,-,GSM473632,lung_adenocarcinoma_DNA (85060256): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85060256,diploid male gDNA
+-,GSM471104,lung_non-malignant_DNA (85050168): MP,"lung, non-malignant",control,85050168,-,GSM473633,lung_adenocarcinoma_DNA (85060311): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85060311,diploid male gDNA
+-,GSM471105,lung_adenocarcinoma_DNA (85050207): MP,"lung, adenocarcinoma",adenocarcinoma,85050207,-,GSM473634,lung_adenocarcinoma_DNA (85060354): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85060354,diploid male gDNA
+-,GSM471106,lung_non-malignant_DNA (85050208): MP,"lung, non-malignant",control,85050208,-,GSM473635,lung_adenocarcinoma_DNA (85060358): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85060358,diploid male gDNA
+-,GSM471107,lung_adenocarcinoma_DNA (85050222): MP,"lung, adenocarcinoma",adenocarcinoma,85050222,-,GSM473636,lung_adenocarcinoma_DNA (85070021): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070021,diploid male gDNA
+-,GSM471108,lung_non-malignant_DNA (85050223): MP,"lung, non-malignant",control,85050223,-,GSM473637,lung_adenocarcinoma_DNA (85070049): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070049,diploid male gDNA
+-,GSM471109,lung_adenocarcinoma_DNA (85050241): MP,"lung, adenocarcinoma",adenocarcinoma,85050241,-,GSM473638,lung_adenocarcinoma_DNA (85070053): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070053,diploid male gDNA
+-,GSM471110,lung_non-malignant_DNA (85050242): MP,"lung, non-malignant",control,85050242,-,GSM473639,lung_adenocarcinoma_DNA (85070061): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070061,diploid male gDNA
+-,GSM471111,lung_adenocarcinoma_DNA (85060068): MP,"lung, adenocarcinoma",adenocarcinoma,85060068,-,GSM473640,lung_adenocarcinoma_DNA (85070069): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070069,diploid male gDNA
+-,GSM471112,lung_non-malignant_DNA (85060069): MP,"lung, non-malignant",control,85060069,-,GSM473641,lung_adenocarcinoma_DNA (85070081): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070081,diploid male gDNA
+-,GSM471113,lung_adenocarcinoma_DNA (85060144): MP,"lung, adenocarcinoma",adenocarcinoma,85060144,-,GSM473642,lung_adenocarcinoma_DNA (85070085): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070085,diploid male gDNA
+-,GSM471114,lung_non-malignant_DNA (85060145): MP,"lung, non-malignant",control,85060145,-,GSM473643,lung_adenocarcinoma_DNA (85070093): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070093,diploid male gDNA
+-,GSM471115,lung_adenocarcinoma_DNA (85060201): MP,"lung, adenocarcinoma",adenocarcinoma,85060201,-,GSM473644,lung_adenocarcinoma_DNA (85070109): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070109,diploid male gDNA
+-,GSM471116,lung_non-malignant_DNA (85060202): MP,"lung, non-malignant",control,85060202,-,GSM473645,lung_adenocarcinoma_DNA (85070159): aCGH,"lung, adenocarcinoma",diploid male reference,adenocarcinoma,85070159,diploid male gDNA
+-,GSM471117,lung_adenocarcinoma_DNA (85060251): MP,"lung, adenocarcinoma",adenocarcinoma,85060251,,,,,,,,
+-,GSM471118,lung_non-malignant_DNA (85060252): MP,"lung, non-malignant",control,85060252,,,,,,,,
+-,GSM471119,lung_adenocarcinoma_DNA (85060256): MP,"lung, adenocarcinoma",adenocarcinoma,85060256,,,,,,,,
+-,GSM471120,lung_non-malignant_DNA (85060257): MP,"lung, non-malignant",control,85060257,,,,,,,,
+-,GSM471121,lung_adenocarcinoma_DNA (85060311): MP,"lung, adenocarcinoma",adenocarcinoma,85060311,,,,,,,,
+-,GSM471122,lung_non-malignant_DNA (85060312): MP,"lung, non-malignant",control,85060312,,,,,,,,
+-,GSM471123,lung_adenocarcinoma_DNA (85060354): MP,"lung, adenocarcinoma",adenocarcinoma,85060354,,,,,,,,
+-,GSM471124,lung_non-malignant_DNA (85060355): MP,"lung, non-malignant",control,85060355,,,,,,,,
+-,GSM471125,lung_adenocarcinoma_DNA (85060358): MP,"lung, adenocarcinoma",adenocarcinoma,85060358,,,,,,,,
+-,GSM471126,lung_non-malignant_DNA (85060359): MP,"lung, non-malignant",control,85060359,,,,,,,,
+-,GSM471127,lung_adenocarcinoma_DNA (85070021): MP,"lung, adenocarcinoma",adenocarcinoma,85070021,,,,,,,,
+-,GSM471128,lung_non-malignant_DNA (85070022): MP,"lung, non-malignant",control,85070022,,,,,,,,
+-,GSM471129,lung_adenocarcinoma_DNA (85070049): MP,"lung, adenocarcinoma",adenocarcinoma,85070049,,,,,,,,
+-,GSM471130,lung_non-malignant_DNA (85070050): MP,"lung, non-malignant",control,85070050,,,,,,,,
+-,GSM471131,lung_adenocarcinoma_DNA (85070053): MP,"lung, adenocarcinoma",adenocarcinoma,85070053,,,,,,,,
+-,GSM471132,lung_non-malignant_DNA (85070054): MP,"lung, non-malignant",control,85070054,,,,,,,,
+-,GSM471133,lung_adenocarcinoma_DNA (85070061): MP,"lung, adenocarcinoma",adenocarcinoma,85070061,,,,,,,,
+-,GSM471134,lung_non-malignant_DNA (85070062): MP,"lung, non-malignant",control,85070062,,,,,,,,
+-,GSM471135,lung_adenocarcinoma_DNA (85070069): MP,"lung, adenocarcinoma",adenocarcinoma,85070069,,,,,,,,
+-,GSM471136,lung_non-malignant_DNA (85070070): MP,"lung, non-malignant",control,85070070,,,,,,,,
+-,GSM471137,lung_adenocarcinoma_DNA (85070081): MP,"lung, adenocarcinoma",adenocarcinoma,85070081,,,,,,,,
+-,GSM471138,lung_non-malignant_DNA (85070082): MP,"lung, non-malignant",control,85070082,,,,,,,,
+-,GSM471139,lung_adenocarcinoma_DNA (85070085): MP,"lung, adenocarcinoma",adenocarcinoma,85070085,,,,,,,,
+-,GSM471140,lung_non-malignant_DNA (85070086): MP,"lung, non-malignant",control,85070086,,,,,,,,
+-,GSM471141,lung_adenocarcinoma_DNA (85070093): MP,"lung, adenocarcinoma",adenocarcinoma,85070093,,,,,,,,
+-,GSM471142,lung_non-malignant_DNA (85070094): MP,"lung, non-malignant",control,85070094,,,,,,,,
+-,GSM471143,lung_adenocarcinoma_DNA (85070109): MP,"lung, adenocarcinoma",adenocarcinoma,85070109,,,,,,,,
+-,GSM471144,lung_non-malignant_DNA (85070110): MP,"lung, non-malignant",control,85070110,,,,,,,,
+-,GSM471145,lung_adenocarcinoma_DNA (85070159): MP,"lung, adenocarcinoma",adenocarcinoma,85070159,,,,,,,,
+-,GSM471146,lung_non-malignant_DNA (85070160): MP,"lung, non-malignant",control,85070160,,,,,,,,

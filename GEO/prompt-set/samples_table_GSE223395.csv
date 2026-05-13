@@ -1,0 +1,23 @@
+# TITLE: Correlative analysis from a phase I clinical trial of intrapleural administration of oncolytic vaccinia virus (Olvi-vec) in patients with malignant pleural mesothelioma
+# SUMMARY: Regional delivery of oncolytic viruses has been shown to promote immune responses. Malignant pleural effusions comprise an immunosuppressive microenvironment, and the ability of oncolytic viruses to generate immune responses following regional delivery in patients with malignant pleural effusions is unknown. We conducted a phase I clinical trial that studied the intrapleural administration of oncolytic vaccinia virus to establish the safety and feasibility in patients with malignant pleural effusion due to malignant pleural mesothelioma or metastatic disease. In patients with malignant pleural mesothelioma, by correlative analysis of pre- and post-treatment tumor biopsies, we provide insight into tumor-specific viral uptake and associated immune responses.
+GPL25998_Group,GPL25998_Accession,GPL25998_Title,GPL25998_Source name,GPL25998_Pathology,GPL25998_Cohort,GPL25998_Dose
+-,GSM6947077,Tumor_Olvi-vec_Rep 1,tumor biopsy_Post,meso - epitheloid,1,1.00E+07
+-,GSM6947078,Tumor_Olvi-vec_Rep 2,tumor biopsy_Post,NSCLC - SCC,1,1.00E+07
+-,GSM6947079,Tumor_Olvi-vec_Rep 3,tumor biopsy_Post,meso - epitheloid,1,1.00E+07
+-,GSM6947080,Tumor_Olvi-vec_Rep 4,tumor biopsy_Post,meso - epitheloid,2,1.00E+08
+-,GSM6947081,Tumor_Olvi-vec_Rep 5,tumor biopsy_Post,meso - epitheloid,2,1.00E+08
+-,GSM6947082,Tumor_Olvi-vec_Rep 6,tumor biopsy_Post,meso - epitheloid,3,10.00E+08
+-,GSM6947083,Tumor_Olvi-vec_Rep 7,tumor biopsy_Post,meso - epitheloid,3,10.00E+08
+-,GSM6947084,Tumor_Olvi-vec_Rep 8,tumor biopsy_Post,meso - sarcomatoid,4,3.00E+09
+-,GSM6947085,Tumor_Olvi-vec_Rep 9,tumor biopsy_Post,TNBC,4,3.00E+09
+-,GSM6947086,Tumor_Olvi-vec_Rep 10,tumor biopsy_Post,meso - biphasicd,4,3.00E+09
+-,GSM6947087,Tumor_Olvi-vec_Rep 11,tumor biopsy_Post,meso - epitheloid,4,3.00E+09
+-,GSM6947088,Tumor_Olvi-vec_Rep 12,tumor biopsy_Post,meso - epitheloid,5,9.00E+09
+-,GSM6947089,Tumor_Olvi-vec_Rep 13,tumor biopsy_Post,meso - epitheloid,5,9.00E+09
+-,GSM6947090,Tumor_Olvi-vec_Rep 14,tumor biopsy_Post,meso - epitheloid,5,9.00E+09
+-,GSM6947091,Tumor_Olvi-vec_Rep 15,tumor biopsy_Post,meso - epitheloid,6,1.80E+10
+-,GSM6947092,Tumor_Pretreatment_Rep 1,tumor biopsy_Pre,NSCLC - SCC,0,0
+-,GSM6947093,Tumor_Pretreatment_Rep 2,tumor biopsy_Pre,meso - biphasicd,0,0
+-,GSM6947094,Tumor_Pretreatment_Rep 3,tumor biopsy_Pre,meso - epitheloid,0,0
+-,GSM6947095,Tumor_Pretreatment_Rep 4,tumor biopsy_Pre,meso - epitheloid,0,0
+-,GSM6947096,Tumor_Pretreatment_Rep 5,tumor biopsy_Pre,meso - epitheloid,0,0

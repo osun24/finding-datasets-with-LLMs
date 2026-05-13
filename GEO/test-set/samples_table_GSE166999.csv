@@ -1,0 +1,103 @@
+# TITLE: Integrative analysis of non-small cell lung cancer patient-derived xenografts identifies unique proteotypes associated with patient outcomes
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Tissue,GPL10558_Histology,GPL14951_Group,GPL14951_Accession,GPL14951_Title,GPL14951_Source name,GPL14951_Tissue,GPL14951_Histology
+-,GSM5090471,PHLC55,Xenograft,patient-derived xenograft (PDX),LUSC,-,GSM5090481,PHLC77,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090472,PHLC162,Xenograft,patient-derived xenograft (PDX),LUSC,-,GSM5090482,PHLC193,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090473,PHLC85,Xenograft,patient-derived xenograft (PDX),LUSC,-,GSM5090483,PHLC149,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090474,PHLC123,Xenograft,patient-derived xenograft (PDX),LUSC,-,GSM5090484,PHLC12,Xenograft,patient-derived xenograft (PDX),LUAD
+-,GSM5090475,PHLC57,Xenograft,patient-derived xenograft (PDX),LUSC,-,GSM5090485,PHLC655,Xenograft,patient-derived xenograft (PDX),LUAD
+-,GSM5090476,PHLC113,Xenograft,patient-derived xenograft (PDX),LUSC,-,GSM5090486,PHLC139,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090477,PHLC152,Xenograft,patient-derived xenograft (PDX),LUSC,-,GSM5090487,PHLC86,Xenograft,patient-derived xenograft (PDX),LUSC
+-,GSM5090478,PHLC50,Xenograft,patient-derived xenograft (PDX),LUSC,-,GSM5090488,PHLC119,Xenograft,patient-derived xenograft (PDX),LUAD
+-,GSM5090479,PHLC110,Xenograft,patient-derived xenograft (PDX),LUAD,-,GSM5090489,PHLC133,Xenograft,patient-derived xenograft (PDX),LUAD
+-,GSM5090480,PHLC207,Xenograft,patient-derived xenograft (PDX),LUAD,-,GSM5090490,PHLC134,Xenograft,patient-derived xenograft (PDX),Pleom LUAD
+,,,,,,-,GSM5090491,PHLC154,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090492,PHLC178,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090493,PHLC191,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090494,PHLC137,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090495,PHLC148,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090496,PHLC322,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090497,PHLC353,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090498,PHLC339,Xenograft,patient-derived xenograft (PDX),Pleom LUSC
+,,,,,,-,GSM5090499,PHLC356,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090500,PHLC365,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090501,PHLC188,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090502,PHLC286,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090503,PHLC321,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090504,PHLC334,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090505,PHLC344,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090506,PHLC169,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090507,PHLC282,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090508,PHLC192,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090509,PHLC309,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090510,PHLC237,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090511,PHLC315,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090512,PHLC251,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090513,PHLC277,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090514,PHLC122,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090515,PHLC156,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090516,PHLC171,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090517,PHLC198,Xenograft,patient-derived xenograft (PDX),Pleom LUSC
+,,,,,,-,GSM5090518,PHLC200,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090519,PHLC204,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090520,PHLC223,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090521,PHLC247,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090522,PHLC225,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090523,PHLC252,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090524,PHLC273,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090525,PHLC116,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090526,PHLC189,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090527,PHLC153,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090528,PHLC194,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090529,PHLC196,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090530,PHLC181,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090531,PHLC235,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090532,PHLC211,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090533,PHLC239,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090534,PHLC215,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090535,PHLC243,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090536,PHLC106,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090537,PHLC267,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090538,PHLC220,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090539,PHLC271,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090540,PHLC272,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090541,PHLC274,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090542,PHLC299,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090543,PHLC229,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090544,PHLC151,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090545,PHLC164,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090546,PHLC256,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090547,PHLC62,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090548,PHLC132,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090549,PHLC205,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090550,PHLC228,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090551,PHLC242,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090552,PHLC255,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090553,PHLC268,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090554,PHLC369,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090555,PHLC295,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090556,PHLC296,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090557,PHLC81,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090558,PHLC82,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090559,PHLC83,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090560,PHLC236,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090561,PHLC111,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090562,PHLC390,Xenograft,patient-derived xenograft (PDX),Pleom LUAD
+,,,,,,-,GSM5090563,PHLC362,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090564,PHLC328,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090565,PHLC410,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090566,PHLC377,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090567,PHLC417,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090568,PHLC428,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090569,PHLC451,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090570,PHLC412,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090571,PHLC379,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090572,PHLC426,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090573,PHLC402,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090574,PHLC422,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090575,PHLC462,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090576,PHLC325,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090577,PHLC518,Xenograft,patient-derived xenograft (PDX),LUSC
+,,,,,,-,GSM5090578,PHLC314,Xenograft,patient-derived xenograft (PDX),Pleom LUAD
+,,,,,,-,GSM5090579,PHLC524,Xenograft,patient-derived xenograft (PDX),LUAD
+,,,,,,-,GSM5090580,PHLC536,Xenograft,patient-derived xenograft (PDX),LUAD

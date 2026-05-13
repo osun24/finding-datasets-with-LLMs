@@ -1,0 +1,2 @@
+Title: Proteomics of Primary cells derived from Ovarian Cancer
+Description: We analyzed primary cells derived from patients with ovarian cancer. We compared OSE, FTE and EOC and we use quantitative propeomics followed by WB, IHC, TMA for validation of our findings. We also analyzed the phosphoproteome of OVCAR3.

@@ -1,0 +1,73 @@
+# TITLE: Gene expression alterations in the cell lines Jurkat, THP1, and KHYG-1 upon treatment with glycodelin from non-small-cell lung cancer cell line supernatant
+# SUMMARY: The function of glycodelin A in the endometrium, during the menstrual cycle, and before or during pregnancy is well characterized. Numerous studies have investigated the highly pleiotropic effects and the modulation of different leukocytes upon glycodelin interaction. In NSCLC, the function of glycodelin is not known, yet. While it was shown to be highly expressed in lung tumor tissue compared to normal lung, the functionality and possible immunomodulating characteristics remain to be described.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell type,GPL570_Tissue,GPL570_Cell line,GPL570_Agent,GPL570_Time point
+-,GSM6915207,Jurkat_Glycodelin_3h_1,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,3h
+-,GSM6915208,Jurkat_Glycodelin_3h_2,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,3h
+-,GSM6915209,Jurkat_Glycodelin_3h_3,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,3h
+-,GSM6915210,Jurkat_Glycodelin_3h_4,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,3h
+-,GSM6915211,Jurkat_noGlycodelin_3h_1,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,3h
+-,GSM6915212,Jurkat_noGlycodelin_3h_2,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,3h
+-,GSM6915213,Jurkat_noGlycodelin_3h_3,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,3h
+-,GSM6915214,Jurkat_noGlycodelin_3h_4,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,3h
+-,GSM6915215,Jurkat_Glycodelin_8h_1,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,8h
+-,GSM6915216,Jurkat_Glycodelin_8h_2,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,8h
+-,GSM6915217,Jurkat_Glycodelin_8h_3,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,8h
+-,GSM6915218,Jurkat_Glycodelin_8h_4,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,8h
+-,GSM6915219,Jurkat_noGlycodelin_8h_1,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,8h
+-,GSM6915220,Jurkat_noGlycodelin_8h_2,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,8h
+-,GSM6915221,Jurkat_noGlycodelin_8h_3,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,8h
+-,GSM6915222,Jurkat_noGlycodelin_8h_4,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,8h
+-,GSM6915223,Jurkat_Glycodelin_24h_1,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,24h
+-,GSM6915224,Jurkat_Glycodelin_24h_2,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,24h
+-,GSM6915225,Jurkat_Glycodelin_24h_3,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,24h
+-,GSM6915226,Jurkat_Glycodelin_24h_4,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,Glycodelin,24h
+-,GSM6915227,Jurkat_noGlycodelin_24h_1,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,24h
+-,GSM6915228,Jurkat_noGlycodelin_24h_2,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,24h
+-,GSM6915229,Jurkat_noGlycodelin_24h_3,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,24h
+-,GSM6915230,Jurkat_noGlycodelin_24h_4,cell line Jurkat,T cell leukemia,Peripheral blood,Jurkat,none,24h
+-,GSM6915231,THP1_Glycodelin_3h_1,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,3h
+-,GSM6915232,THP1_Glycodelin_3h_2,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,3h
+-,GSM6915233,THP1_Glycodelin_3h_3,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,3h
+-,GSM6915234,THP1_Glycodelin_3h_4,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,3h
+-,GSM6915235,THP1_noGlycodelin_3h_1,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,3h
+-,GSM6915236,THP1_noGlycodelin_3h_2,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,3h
+-,GSM6915237,THP1_noGlycodelin_3h_3,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,3h
+-,GSM6915238,THP1_noGlycodelin_3h_4,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,3h
+-,GSM6915239,THP1_Glycodelin_8h_1,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,8h
+-,GSM6915240,THP1_Glycodelin_8h_2,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,8h
+-,GSM6915241,THP1_Glycodelin_8h_3,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,8h
+-,GSM6915242,THP1_Glycodelin_8h_4,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,8h
+-,GSM6915243,THP1_noGlycodelin_8h_1,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,8h
+-,GSM6915244,THP1_noGlycodelin_8h_2,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,8h
+-,GSM6915245,THP1_noGlycodelin_8h_3,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,8h
+-,GSM6915246,THP1_noGlycodelin_8h_4,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,8h
+-,GSM6915247,THP1_Glycodelin_24h_1,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,24h
+-,GSM6915248,THP1_Glycodelin_24h_2,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,24h
+-,GSM6915249,THP1_Glycodelin_24h_3,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,24h
+-,GSM6915250,THP1_Glycodelin_24h_4,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,Glycodelin,24h
+-,GSM6915251,THP1_noGlycodelin_24h_1,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,24h
+-,GSM6915252,THP1_noGlycodelin_24h_2,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,24h
+-,GSM6915253,THP1_noGlycodelin_24h_3,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,24h
+-,GSM6915254,THP1_noGlycodelin_24h_4,cell line THP1,Acute monocytic leukemia monocyte,Peripheral blood,THP1,none,24h
+-,GSM6915255,KHYG-1_Glycodelin_3h_1,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,3h
+-,GSM6915256,KHYG-1_Glycodelin_3h_2,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,3h
+-,GSM6915257,KHYG-1_Glycodelin_3h_3,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,3h
+-,GSM6915258,KHYG-1_Glycodelin_3h_4,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,3h
+-,GSM6915259,KHYG-1_noGlycodelin_3h_1,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,3h
+-,GSM6915260,KHYG-1_noGlycodelin_3h_2,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,3h
+-,GSM6915261,KHYG-1_noGlycodelin_3h_3,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,3h
+-,GSM6915262,KHYG-1_noGlycodelin_3h_4,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,3h
+-,GSM6915263,KHYG-1_Glycodelin_8h_1,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,8h
+-,GSM6915264,KHYG-1_Glycodelin_8h_2,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,8h
+-,GSM6915265,KHYG-1_Glycodelin_8h_3,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,8h
+-,GSM6915266,KHYG-1_Glycodelin_8h_4,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,8h
+-,GSM6915267,KHYG-1_noGlycodelin_8h_1,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,8h
+-,GSM6915268,KHYG-1_noGlycodelin_8h_2,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,8h
+-,GSM6915269,KHYG-1_noGlycodelin_8h_3,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,8h
+-,GSM6915270,KHYG-1_noGlycodelin_8h_4,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,8h
+-,GSM6915271,KHYG-1_Glycodelin_24h_1,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,24h
+-,GSM6915272,KHYG-1_Glycodelin_24h_4,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,24h
+-,GSM6915273,KHYG-1_Glycodelin_24h_5,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,Glycodelin,24h
+-,GSM6915274,KHYG-1_noGlycodelin_24h_1,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,24h
+-,GSM6915275,KHYG-1_noGlycodelin_24h_4,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,24h
+-,GSM6915276,KHYG-1_noGlycodelin_24h_5,cell line KHYG-1,Natural killer cell leukemia,Peripheral blood,KHYG-1,none,24h

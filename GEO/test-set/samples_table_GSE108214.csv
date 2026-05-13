@@ -1,0 +1,25 @@
+# TITLE: Key players of cisplatin resistance: towards a systems pharmacology approach
+# SUMMARY: The cellular transcriptome of untreated and cisplatin-treated A549 non-small cell lung cancer cells and their cisplatin-resistant sub-line A549rCDDP2000 was screened with a whole genome array for gene candidates relevant for cisplatin resistance.
+GPL17077_Group,GPL17077_Accession,GPL17077_Title,GPL17077_Source name,GPL17077_Sensitivity,GPL17077_Treatment conc
+-,GSM2892607,A549sens-ctrl_1,"NSCLC, cisplatin sensitive, control",sensitive,0
+-,GSM2892608,A549sens-11µM_1,"NSCLC, cisplatin sensitive, 24h cisplatin, 11uM",sensitive,11
+-,GSM2892609,A549res-ctrl_1,"NSCLC, cisplatin resistant, control",resistant,0
+-,GSM2892610,A549res-11µM_1,"NSCLC, cisplatin resistant, 24h cisplatin, 11uM",resistant,11
+-,GSM2892611,A549res-34µM_1,"NSCLC, cisplatin resistant, 24h cisplatin, 34uM",resistant,34
+-,GSM2892612,A549sens-ctrl_2,"NSCLC, cisplatin sensitive, control",sensitive,0
+-,GSM2892613,A549sens-11µM_2,"NSCLC, cisplatin sensitive, 24h cisplatin, 11uM",sensitive,11
+-,GSM2892614,A549res-ctrl_2,"NSCLC, cisplatin resistant, control",resistant,0
+-,GSM2892615,A549sens-ctrl_3,"NSCLC, cisplatin sensitive, control",sensitive,0
+-,GSM2892616,A549sens-11µM_3,"NSCLC, cisplatin sensitive, 24h cisplatin, 11uM",sensitive,11
+-,GSM2892617,A549res-ctrl_3,"NSCLC, cisplatin resistant, control",resistant,0
+-,GSM2892618,A549res-11µM_3,"NSCLC, cisplatin resistant, 24h cisplatin, 11uM",resistant,11
+-,GSM2892619,A549res-34µM_3,"NSCLC, cisplatin resistant, 24h cisplatin, 34uM",resistant,34
+-,GSM2892620,A549res-11µM_2,"NSCLC, cisplatin resistant, 24h cisplatin, 11uM",resistant,11
+-,GSM2892621,A549res-34µM_2,"NSCLC, cisplatin resistant, 24h cisplatin, 34uM",resistant,34
+-,GSM2892622,A549sens-ctrl_4,"NSCLC, cisplatin sensitive, control",sensitive,0
+-,GSM2892623,A549res-ctrl_4,"NSCLC, cisplatin resistant, control",resistant,0
+-,GSM2892624,A549res-11µM_4,"NSCLC, cisplatin resistant, 24h cisplatin, 11uM",resistant,11
+-,GSM2892625,A549res-34µM_4,"NSCLC, cisplatin resistant, 24h cisplatin, 34uM",resistant,34
+-,GSM2892626,A549res-ctrl_5,"NSCLC, cisplatin resistant, control",resistant,0
+-,GSM2892627,A549res-11µM_5,"NSCLC, cisplatin resistant, 24h cisplatin, 11uM",resistant,11
+-,GSM2892628,A549res-34µM_5,"NSCLC, cisplatin resistant, 24h cisplatin, 34uM",resistant,34

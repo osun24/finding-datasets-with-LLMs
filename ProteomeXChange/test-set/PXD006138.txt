@@ -1,0 +1,2 @@
+Title: Ovarian high grade serous carcinoma ascites cell proteoms
+Description: Tumor cells, macrophages and T cells from high grade serous ovarian carcinoma from the ascites of patients undergoing primary surgery were analysed without culturing (ex vivo) via obitrap.

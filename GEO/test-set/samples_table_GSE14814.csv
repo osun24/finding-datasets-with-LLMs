@@ -1,0 +1,136 @@
+# TITLE: Prognostic and Predictive Gene Signature for Adjuvant Chemotherapy in Resected Non-Small-Cell Lung Cancer
+# SUMMARY: Purpose: The JBR.10 trial demonstrated benefit from adjuvant cisplatin/vinorelbine (ACT) in early-stage non-small-cell lung cancer (NSCLC). We hypothesized that expression profiling may identify stage-independent subgroups who might benefit from ACT. Patients and Methods: Gene expression profiling was conducted on mRNA from 133 frozen JBR.10 tumor samples (62 observation [OBS], 71 ACT). The minimum gene set that was selected for the greatest separation of good and poor prognosis patient subgroups in OBS patients was identified. The prognostic value of this gene signature was tested in four independent published microarray data sets and by quantitative reverse-transcriptase polymerase chain reaction (RT-qPCR). Results: A 15-gene signature separated OBS patients into high-risk and low-risk subgroups with significantly different survival (hazard ratio [HR], 15.02; 95% CI, 5.12 to 44.04; P .001; stage I HR, 13.31; P .001; stage II HR, 13.47; P .001). The prognostic effect was verified in the same 62 OBS patients where gene expression was assessed by qPCR. Furthermore, it was validated consistently in four separate microarray data sets (total 356 stage IB to II patients without adjuvant treatment) and additional JBR.10 OBS patients by qPCR (n 19). The signature was also predictive of improved survival after ACT in JBR.10 high-risk patients (HR, 0.33; 95% CI, 0.17 to 0.63; P .0005), but not in low-risk patients (HR, 3.67; 95% CI, 1.22 to 11.06; P = .0133; interaction P .001). Significant interaction between risk groups and ACT was verified by qPCR. Conclusion: This 15-gene expression signature is an independent prognostic marker in early-stage, completely resected NSCLC, and to our knowledge, is the first signature that has demonstrated the potential to select patients with stage IB to II NSCLC most likely to benefit from adjuvant chemotherapy with cisplatin/vinorelbine.
+GPL96_Group,GPL96_Accession,GPL96_Title,GPL96_Source name,GPL96_Tissue,GPL96_Post Surgical Treatment,GPL96_Stage,GPL96_Age,GPL96_Sex,GPL96_Cause of death,GPL96_Histology type,GPL96_OS time,GPL96_OS status,GPL96_DSS time,GPL96_DSS status,GPL96_Predominant subtype,GPL96_Dss survival time,GPL96_Dcc sample
+-,GSM370913,patient_sample_CL2004110925AA,primary lung cancer,primary lung cancer,OBS,II,44.9,Female,Alive,ADC,8.52,Alive,8.52,Alive,Acinar,,
+-,GSM370914,patient_sample_CL2004111006AA,primary lung cancer,primary lung cancer,OBS,I,53.4,Male,Alive,SQCC,9.03,Alive,9.03,Alive,not applicable,,
+-,GSM370915,patient_sample_CL2004111014AA,primary lung cancer,primary lung cancer,ACT,II,64.1,Male,Lung cancer,SQCC,1.32,Dead,1.32,dead,not applicable,,
+-,GSM370916,patient_sample_CL2004111015AA,primary lung cancer,primary lung cancer,ACT,II,57.1,Male,Alive,LCUC,8.66,Alive,8.66,Alive,Solid,,
+-,GSM370917,patient_sample_CL2004111016AA,primary lung cancer,primary lung cancer,ACT,I,65.7,Female,Alive,ADC,8.23,Alive,8.23,Alive,Acinar,,
+-,GSM370918,patient_sample_CL2004111031AA,primary lung cancer,primary lung cancer,OBS,II,69.2,Male,Lung cancer,SQCC,2.06,Dead,2.06,dead,not applicable,,
+-,GSM370919,patient_sample_CL2004111032AA,primary lung cancer,primary lung cancer,OBS,II,64.8,Male,Lung cancer,SQCC,0.69,Dead,0.69,dead,not applicable,,
+-,GSM370920,patient_sample_CL2004111021AA,primary lung cancer,primary lung cancer,ACT,I,67.2,Female,Other conditions,ADC,0.03,Dead,0.03,Alive,Solid,,
+-,GSM370921,patient_sample_CL2004111007AA,primary lung cancer,primary lung cancer,ACT,II,65.5,Male,Alive,ADC,8.60,Alive,8.60,Alive,Solid,,
+-,GSM370922,patient_sample_CL2004111012AA,primary lung cancer,primary lung cancer,OBS,II,70.6,Male,Other conditions,SQCC,1.66,Dead,1.66,Alive,not applicable,,
+-,GSM370923,patient_sample_CL2004111020AA,primary lung cancer,primary lung cancer,ACT,I,48.3,Male,Alive,LCUC,8.71,Alive,8.71,Alive,not applicable,,
+-,GSM370924,patient_sample_CL2004111026AA,primary lung cancer,primary lung cancer,OBS,I,60.8,Male,Alive,LCUC,8.55,Alive,8.55,Alive,not applicable,,
+-,GSM370925,patient_sample_CL2004111001AA,primary lung cancer,primary lung cancer,ACT,II,73.3,Male,Alive,SQCC,9.29,Alive,9.29,Alive,not applicable,,
+-,GSM370926,patient_sample_CL2004111004AA,primary lung cancer,primary lung cancer,OBS,I,73,Male,Other conditions,SQCC,6.17,Dead,6.17,Alive,not applicable,,
+-,GSM370927,patient_sample_CL2004111019AA,primary lung cancer,primary lung cancer,ACT,I,66.6,Male,Alive,SQCC,8.48,Alive,8.48,Alive,not applicable,,
+-,GSM370928,patient_sample_CL2004111024AA,primary lung cancer,primary lung cancer,OBS,I,63.5,Female,Lung cancer,ADC,1.59,Dead,1.59,dead,Lepidic,,
+-,GSM370929,patient_sample_CL2004111027AA,primary lung cancer,primary lung cancer,OBS,I,72.5,Male,Alive,SQCC,3.00,Alive,3.00,Alive,not applicable,,
+-,GSM370930,patient_sample_CL2004111030AA,primary lung cancer,primary lung cancer,ACT,II,48.2,Female,Alive,SQCC,7.53,Alive,7.53,Alive,not applicable,,
+-,GSM370931,patient_sample_CL2004111034AA,primary lung cancer,primary lung cancer,ACT,I,59.4,Male,Other conditions,ADC,6.09,Dead,6.09,Alive,Papillary,,
+-,GSM370932,patient_sample_CL2004111036AA,primary lung cancer,primary lung cancer,OBS,II,63.4,Female,Alive,SQCC,8.02,Alive,8.02,Alive,not applicable,,
+-,GSM370933,patient_sample_CL2004111039AA,primary lung cancer,primary lung cancer,ACT,II,63.2,Male,Other conditions,ADC,0.19,Dead,0.19,Alive,Unknown,,
+-,GSM370934,patient_sample_CL2004111047AA,primary lung cancer,primary lung cancer,OBS,I,50.2,Female,Alive,ADC,6.93,Alive,6.93,Alive,Papillary,,
+-,GSM370935,patient_sample_CL2004111029AA,primary lung cancer,primary lung cancer,ACT,II,68.8,Male,Alive,ADC,7.71,Alive,7.71,Alive,Unknown,,
+-,GSM370936,patient_sample_CL2004111035AA,primary lung cancer,primary lung cancer,ACT,I,53,Female,Alive,SQCC,7.24,Alive,7.24,Alive,not applicable,,
+-,GSM370937,patient_sample_CL2004111037AA,primary lung cancer,primary lung cancer,ACT,I,65.4,Male,Lung cancer,SQCC,1.09,Dead,1.09,dead,not applicable,,
+-,GSM370938,patient_sample_CL2004111008AA,primary lung cancer,primary lung cancer,ACT,I,81.3,Male,Lung cancer,LCUC,1.20,Dead,1.20,dead,not applicable,,
+-,GSM370939,patient_sample_CL2004111011AA,primary lung cancer,primary lung cancer,ACT,I,75.6,Female,Lung cancer,ADC,0.90,Dead,0.90,dead,Solid,,
+-,GSM370940,patient_sample_CL2004111023AA,primary lung cancer,primary lung cancer,OBS,II,62.1,Male,Alive,SQCC,7.94,Alive,7.94,Alive,not applicable,,
+-,GSM370941,patient_sample_CL2004111028AA,primary lung cancer,primary lung cancer,ACT,II,62.7,Male,Lung cancer,ADC,3.74,Dead,3.74,dead,Unknown,,
+-,GSM370942,patient_sample_CL20041116125AA,primary lung cancer,primary lung cancer,ACT,I,72.9,Male,Alive,SQCC,7.21,Alive,7.21,Alive,not applicable,,
+-,GSM370943,patient_sample_CL20041116118AA,primary lung cancer,primary lung cancer,ACT,II,61.3,Male,Alive,SQCC,7.43,Alive,7.43,Alive,not applicable,,
+-,GSM370944,patient_sample_CL20041116119AA,primary lung cancer,primary lung cancer,ACT,II,58.2,Male,Alive,ADC,7.20,Alive,7.20,Alive,Acinar,,
+-,GSM370945,patient_sample_CL20041116128AA,primary lung cancer,primary lung cancer,OBS,I,61.6,Male,Alive,SQCC,6.73,Alive,6.73,Alive,not applicable,,
+-,GSM370946,patient_sample_CL20041116129AA,primary lung cancer,primary lung cancer,OBS,I,56.4,Male,Lung cancer,SQCC,2.29,Dead,2.29,dead,Solid,,
+-,GSM370947,patient_sample_CL20041116131AA,primary lung cancer,primary lung cancer,ACT,II,48.8,Male,Alive,SQCC,6.71,Alive,6.71,Alive,not applicable,,
+-,GSM370948,patient_sample_CL20041116138AA,primary lung cancer,primary lung cancer,OBS,II,63.3,Male,Alive,SQCC,6.76,Alive,6.76,Alive,not applicable,,
+-,GSM370949,patient_sample_CL20041116142AA,primary lung cancer,primary lung cancer,ACT,II,66.2,Male,Lung cancer,SQCC,1.64,Dead,1.64,dead,not applicable,,
+-,GSM370950,patient_sample_CL20041116145AA,primary lung cancer,primary lung cancer,OBS,II,42.7,Male,Lung cancer,LCUC,0.74,Dead,0.74,dead,not applicable,,
+-,GSM370951,patient_sample_CL20041116148AA,primary lung cancer,primary lung cancer,OBS,I,38.2,Female,Alive,ADC,5.87,Alive,5.87,Alive,Solid,,
+-,GSM370952,patient_sample_CL20041116115AA,primary lung cancer,primary lung cancer,OBS,I,69.6,Male,Alive,SQCC,7.94,Alive,7.94,Alive,not applicable,,
+-,GSM370953,patient_sample_CL20041116116AA,primary lung cancer,primary lung cancer,ACT,I,75.8,Male,Alive,SQCC,7.88,Alive,7.88,Alive,not applicable,,
+-,GSM370954,patient_sample_CL20041116123AA,primary lung cancer,primary lung cancer,ACT,I,65.7,Male,Lung cancer,SQCC,1.88,Dead,1.88,dead,not applicable,,
+-,GSM370955,patient_sample_CL20041116133AA,primary lung cancer,primary lung cancer,OBS,II,66.5,Male,Lung cancer,LCUC,1.18,Dead,1.18,dead,not applicable,,
+-,GSM370956,patient_sample_CL20041116153AA,primary lung cancer,primary lung cancer,ACT,I,63.7,Male,Alive,ADC,5.42,Alive,5.42,Alive,Acinar,,
+-,GSM370957,patient_sample_CL20041116137AA,primary lung cancer,primary lung cancer,OBS,I,62.8,Male,Alive,SQCC,6.44,Alive,6.44,Alive,not applicable,,
+-,GSM370958,patient_sample_CL20041116149AA,primary lung cancer,primary lung cancer,ACT,II,56.5,Female,Alive,ADC,5.03,Alive,5.03,Alive,Unknown,,
+-,GSM370959,patient_sample_CL20041116151AA,primary lung cancer,primary lung cancer,ACT,I,73.1,Male,Alive,SQCC,5.12,Alive,5.12,Alive,not applicable,,
+-,GSM370960,patient_sample_CL20041116135AA,primary lung cancer,primary lung cancer,OBS,II,74.4,Male,Alive,SQCC,6.09,Alive,6.09,Alive,not applicable,,
+-,GSM370961,patient_sample_CL20041116141AA,primary lung cancer,primary lung cancer,ACT,II,64.1,Male,Alive,SQCC,6.24,Alive,6.24,Alive,not applicable,,
+-,GSM370962,patient_sample_CL20041116150AA,primary lung cancer,primary lung cancer,OBS,II,63.5,Male,Lung cancer,ADC,2.28,Dead,2.28,dead,Micropapillary,,
+-,GSM370963,patient_sample_CL20041116120AA,primary lung cancer,primary lung cancer,OBS,I,54.8,Male,Alive,SQCC,7.12,Alive,7.12,Alive,not applicable,,
+-,GSM370964,patient_sample_CL20041116130AA,primary lung cancer,primary lung cancer,OBS,I,69,Male,Other conditions,SQCC,3.17,Dead,3.17,Alive,not applicable,,
+-,GSM370965,patient_sample_CL20041116144AA,primary lung cancer,primary lung cancer,OBS,I,64.3,Male,Alive,SQCC,5.88,Alive,5.88,Alive,not applicable,,
+-,GSM370966,patient_sample_CL20041116152AA,primary lung cancer,primary lung cancer,ACT,I,70.3,Male,Alive,SQCC,5.31,Alive,5.31,Alive,not applicable,,
+-,GSM370967,patient_sample_CL20041116154AA,primary lung cancer,primary lung cancer,ACT,II,59.5,Female,Lung cancer,LCUC,0.43,Dead,0.43,dead,not applicable,,
+-,GSM370968,patient_sample_CL20041116121AA,primary lung cancer,primary lung cancer,ACT,II,60.5,Male,Alive,SQCC,7.04,Alive,7.04,Alive,not applicable,,
+-,GSM370969,patient_sample_CL20041116122AA,primary lung cancer,primary lung cancer,OBS,I,67.9,Male,Lung cancer,SQCC,0.78,Dead,0.78,dead,not applicable,,
+-,GSM370970,patient_sample_CL20041116124AA,primary lung cancer,primary lung cancer,OBS,II,58.1,Female,Alive,SQCC,6.86,Alive,6.86,Alive,not applicable,,
+-,GSM370971,patient_sample_CL20041116132AA,primary lung cancer,primary lung cancer,ACT,II,59.1,Male,Alive,SQCC,6.87,Alive,6.87,Alive,not applicable,,
+-,GSM370972,patient_sample_CL20041116139AA,primary lung cancer,primary lung cancer,ACT,I,50.5,Male,Lung cancer,LCUC,0.63,Dead,0.63,dead,not applicable,,
+-,GSM370973,patient_sample_CL20041116140AA,primary lung cancer,primary lung cancer,ACT,II,45.4,Male,Alive,SQCC,6.54,Alive,6.54,Alive,not applicable,,
+-,GSM370974,patient_sample_CL20041116143AA,primary lung cancer,primary lung cancer,OBS,II,58.5,Male,Other conditions,SQCC,1.96,Dead,1.96,Alive,not applicable,,
+-,GSM370975,patient_sample_CL20041116147AA,primary lung cancer,primary lung cancer,ACT,I,51.2,Male,Alive,SQCC,4.09,Alive,4.09,Alive,not applicable,,
+-,GSM370976,patient_sample_CL20041116157AA,primary lung cancer,primary lung cancer,OBS,I,45.8,Female,Lung cancer,ADC,1.86,Dead,1.86,dead,Solid,,
+-,GSM370977,patient_sample_CL20041116155AA,primary lung cancer,primary lung cancer,OBS,I,60.4,Female,Lung cancer,LCUC,2.18,Dead,2.18,dead,not applicable,,
+-,GSM370978,patient_sample_CL20041116158AA,primary lung cancer,primary lung cancer,ACT,I,69.4,Female,Alive,SQCC,4.74,Alive,4.74,Alive,not applicable,,
+-,GSM370979,patient_sample_CL20041116159AA,primary lung cancer,primary lung cancer,OBS,II,65.8,Male,Lung cancer,ADC,2.82,Dead,2.82,dead,Micropapillary,,
+-,GSM370980,patient_sample_CL20041119170AA,primary lung cancer,primary lung cancer,ACT,I,61.6,Male,Alive,LCUC,9.01,Alive,9.01,Alive,not applicable,,
+-,GSM370981,patient_sample_CL20041119173AA,primary lung cancer,primary lung cancer,OBS,II,55.6,Male,Lung cancer,SQCC,2.43,Dead,2.43,dead,not applicable,,
+-,GSM370982,patient_sample_CL20041119174AA,primary lung cancer,primary lung cancer,OBS,II,59,Male,Lung cancer,SQCC,5.00,Dead,5.00,dead,not applicable,,
+-,GSM370983,patient_sample_CL20041119169AA,primary lung cancer,primary lung cancer,ACT,II,62.1,Male,Alive,SQCC,9.22,Alive,9.22,Alive,not applicable,,
+-,GSM370984,patient_sample_CL20041119171AA,primary lung cancer,primary lung cancer,OBS,II,69.2,Male,Lung cancer,ADC,1.50,Dead,1.50,dead,Lepidic,,
+-,GSM370985,patient_sample_CL20041119161AA,primary lung cancer,primary lung cancer,OBS,I,67.4,Male,Alive,ADC,4.46,Alive,4.46,Alive,Solid,,
+-,GSM370986,patient_sample_CL20041119164AA,primary lung cancer,primary lung cancer,ACT,II,69.7,Female,Alive,ADC,3.95,Alive,3.95,Alive,Acinar,,
+-,GSM370987,patient_sample_CL20041119166AA,primary lung cancer,primary lung cancer,ACT,I,66.3,Female,Alive,ADC,3.51,Alive,3.51,Alive,Solid,,
+-,GSM370988,patient_sample_CL20041119176AA,primary lung cancer,primary lung cancer,ACT,I,72.4,Male,Other conditions,SQCC,5.67,Dead,5.67,Alive,not applicable,,
+-,GSM370989,patient_sample_CL20041119165AA,primary lung cancer,primary lung cancer,OBS,II,65.3,Male,Alive,SQCC,2.86,Alive,2.86,Alive,not applicable,,
+-,GSM370990,patient_sample_CL20041119172AA,primary lung cancer,primary lung cancer,ACT,I,70.4,Male,Alive,SQCC,7.77,Alive,7.77,Alive,not applicable,,
+-,GSM370991,patient_sample_CL20041119178AA,primary lung cancer,primary lung cancer,ACT,I,57.4,Male,Alive,SQCC,8.18,Alive,8.18,Alive,not applicable,,
+-,GSM370992,patient_sample_CL20041119168AA,primary lung cancer,primary lung cancer,ACT,II,58.4,Female,Alive,ADC,4.89,Alive,4.89,Alive,Unknown,,
+-,GSM370993,patient_sample_CL20041119160AA,primary lung cancer,primary lung cancer,OBS,II,55.8,Male,Lung cancer,SQCC,1.10,Dead,1.10,dead,not applicable,,
+-,GSM370994,patient_sample_CL20041119162AA,primary lung cancer,primary lung cancer,OBS,I,66.5,Male,Lung cancer,SQCC,1.14,Dead,1.14,dead,not applicable,,
+-,GSM370995,patient_sample_CL20041119163AA,primary lung cancer,primary lung cancer,ACT,II,75.3,Male,Lung cancer,SQCC,1.70,Dead,1.70,dead,not applicable,,
+-,GSM370996,patient_sample_CL2004113026AA,primary lung cancer,primary lung cancer,ACT,II,66.9,Male,Lung cancer,SQCC,6.66,Dead,6.66,dead,not applicable,,
+-,GSM370997,patient_sample_CL2004113024AA,primary lung cancer,primary lung cancer,ACT,II,62,Female,Lung cancer,ADC,4.76,Dead,4.76,dead,Papillary,,
+-,GSM370998,patient_sample_CL2004113025AA,primary lung cancer,primary lung cancer,OBS,II,57,Female,Alive,SQCC,5.68,Alive,5.68,Alive,not applicable,,
+-,GSM370999,patient_sample_CL2005060331AA,primary lung cancer,primary lung cancer,ACT,I,41,Female,Alive,ADC,6.74,Alive,6.74,Alive,Solid,,
+-,GSM371000,patient_sample_CL2005060335AA,primary lung cancer,primary lung cancer,OBS,I,63.2,Male,Alive,ADC,5.38,Alive,5.38,Alive,Acinar,,
+-,GSM371001,patient_sample_CL2005060325AA,primary lung cancer,primary lung cancer,OBS,II,57.4,Female,Lung cancer,ADC,2.04,Dead,2.04,dead,Acinar,,
+-,GSM371002,patient_sample_CL2005060330AA,primary lung cancer,primary lung cancer,ACT,I,56.8,Male,Other conditions,ADC,6.03,Dead,6.03,Alive,Acinar,,
+-,GSM1267450,primary_lung_cancer_B023,primary lung cancer,primary lung cancer,OBS,1B,55.4,Female,Alive,ADC,8.06,Alive,,Alive,Unknown,8.06,Yes
+-,GSM1267451,primary_lung_cancer_B008,primary lung cancer,primary lung cancer,OBS,1B,40.9,Female,Alive,ADC,8.02,Alive,,Alive,Solid,8.02,Yes
+-,GSM1267452,primary_lung_cancer_B009,primary lung cancer,primary lung cancer,ACT,1B,47.4,Male,Alive,ADC,9.09,Alive,,Alive,Solid,9.09,Yes
+-,GSM1267453,primary_lung_cancer_B024,primary lung cancer,primary lung cancer,ACT,1B,53.7,Male,Lung cancer,ADC,6.49,Dead,,Dead,Solid,6.49,Yes
+-,GSM1267454,primary_lung_cancer_B028,primary lung cancer,primary lung cancer,OBS,1B,59.4,Male,Alive,ADC,8.81,Alive,,Alive,Micropapillary,8.81,Yes
+-,GSM1267455,primary_lung_cancer_B034,primary lung cancer,primary lung cancer,ACT,1B,66.5,Female,Lung cancer,ADC,0.39,Dead,,Dead,Unknown,0.39,Yes
+-,GSM1267456,primary_lung_cancer_B035,primary lung cancer,primary lung cancer,OBS,1B,60.5,Male,Alive,ADC,8.71,Alive,,Alive,Papillary,8.71,Yes
+-,GSM1267457,primary_lung_cancer_B047,primary lung cancer,primary lung cancer,OBS,1B,74.9,Male,Lung cancer,ADC,1.93,Dead,,Dead,Papillary,1.93,Yes
+-,GSM1267458,primary_lung_cancer_B068,primary lung cancer,primary lung cancer,ACT,2A,70.4,Female,Lung cancer,ADC,7.82,Dead,,Dead,Solid,7.82,Yes
+-,GSM1267459,primary_lung_cancer_B086,primary lung cancer,primary lung cancer,ACT,2B,71,Male,Lung cancer,ADC,0.97,Dead,,Dead,Micropapillary,0.97,Yes
+-,GSM1267460,primary_lung_cancer_B088,primary lung cancer,primary lung cancer,OBS,1B,69,Male,Lung cancer,ADC,3.1,Dead,,Dead,Papillary,3.1,Yes
+-,GSM1267461,primary_lung_cancer_B090,primary lung cancer,primary lung cancer,ACT,1B,64.8,Male,Lung cancer,ADC,1.18,Dead,,Dead,Acinar,1.18,Yes
+-,GSM1267462,primary_lung_cancer_B092,primary lung cancer,primary lung cancer,OBS,1B,60.4,Female,Alive,ADC,7.43,Alive,,Alive,Unknown,7.43,Yes
+-,GSM1267463,primary_lung_cancer_B099,primary lung cancer,primary lung cancer,OBS,1B,59.2,Male,Lung cancer,ADC,3.03,Dead,,Dead,Unknown,3.03,Yes
+-,GSM1267464,primary_lung_cancer_B103,primary lung cancer,primary lung cancer,OBS,1B,60.6,Female,Alive,ADC,7.16,Alive,,Alive,Acinar,7.16,Yes
+-,GSM1267465,primary_lung_cancer_B111,primary lung cancer,primary lung cancer,ACT,2B,62,Male,Lung cancer,ADC,1,Dead,,Dead,Unknown,1,Yes
+-,GSM1267466,primary_lung_cancer_B115,primary lung cancer,primary lung cancer,ACT,1B,54.7,Male,Lung cancer,ADC,5.83,Dead,,Dead,Acinar,5.83,Yes
+-,GSM1267467,primary_lung_cancer_B126,primary lung cancer,primary lung cancer,OBS,2B,53.4,Female,Alive,ADC,6.06,Alive,,Alive,Acinar,6.06,Yes
+-,GSM1267468,primary_lung_cancer_B119,primary lung cancer,primary lung cancer,ACT,1B,65.9,Female,Alive,ADC,6.92,Alive,,Alive,Unknown,6.92,Yes
+-,GSM1267469,primary_lung_cancer_B120,primary lung cancer,primary lung cancer,OBS,1B,35.4,Male,Alive,ADC,6.12,Alive,,Alive,invasive mucinous,6.12,Yes
+-,GSM1267470,primary_lung_cancer_B114,primary lung cancer,primary lung cancer,OBS,2B,66.4,Male,Lung cancer,ADC,0.61,Dead,,Dead,Unknown,0.61,Yes
+-,GSM1267471,primary_lung_cancer_B139,primary lung cancer,primary lung cancer,ACT,2B,52.5,Female,Lung cancer,ADC,0.7,Dead,,Dead,Unknown,0.7,Yes
+-,GSM1267472,primary_lung_cancer_B257,primary lung cancer,primary lung cancer,ACT,2B,57.5,Male,Alive,ADC,4.71,Alive,,Alive,Lepidic,4.71,Yes
+-,GSM1267473,primary_lung_cancer_B384,primary lung cancer,primary lung cancer,ACT,1B,73.7,Female,Alive,ADC,4.79,Alive,,Alive,Papillary,4.79,Yes
+-,GSM1267474,primary_lung_cancer_B057,primary lung cancer,primary lung cancer,OBS,2B,63.3,Male,Lung cancer,ADC,6.1,Dead,,Dead,Solid,6.1,Yes
+-,GSM1267475,primary_lung_cancer_B134,primary lung cancer,primary lung cancer,ACT,1B,60.3,Female,Alive,ADC,6.82,Alive,,Alive,Acinar,6.82,Yes
+-,GSM1267476,primary_lung_cancer_B136,primary lung cancer,primary lung cancer,ACT,2B,54,Male,Lung cancer,ADC,0.58,Dead,,Dead,Papillary,0.58,Yes
+-,GSM1267477,primary_lung_cancer_B140,primary lung cancer,primary lung cancer,ACT,1B,50.8,Female,Alive,ADC,6.33,Alive,,Alive,Solid,6.33,Yes
+-,GSM1267478,primary_lung_cancer_B142,primary lung cancer,primary lung cancer,ACT,1B,53.3,Female,Alive,ADC,6.95,Alive,,Alive,invasive mucinous,6.95,Yes
+-,GSM1267479,primary_lung_cancer_B158,primary lung cancer,primary lung cancer,OBS,2B,66.9,Male,Lung cancer,ADC,0.27,Dead,,Dead,Unknown,0.27,Yes
+-,GSM1267480,primary_lung_cancer_B160,primary lung cancer,primary lung cancer,ACT,2B,56.3,Female,Lung cancer,ADC,5.81,Dead,,Dead,Unknown,5.81,Yes
+-,GSM1267481,primary_lung_cancer_B176,primary lung cancer,primary lung cancer,ACT,1B,62.1,Male,Lung cancer,ADC,2.87,Dead,,Dead,Unknown,2.87,Yes
+-,GSM1267482,primary_lung_cancer_B188,primary lung cancer,primary lung cancer,ACT,1B,52.3,Female,Other conditions,ADC,5.33,Dead,,Alive,Unknown,5.33,Yes
+-,GSM1267483,primary_lung_cancer_B192,primary lung cancer,primary lung cancer,ACT,2A,60.9,Male,Lung cancer,ADC,5.27,Dead,,Dead,Acinar,5.27,Yes
+-,GSM1267484,primary_lung_cancer_B094,primary lung cancer,primary lung cancer,OBS,1B,61.4,Female,Lung cancer,ADC,0.65,Dead,,Dead,Solid,0.65,Yes
+-,GSM1267485,primary_lung_cancer_B107,primary lung cancer,primary lung cancer,ACT,1B,40.1,Female,Alive,ADC,6.9,Alive,,Alive,Unknown,6.9,Yes
+-,GSM1267486,primary_lung_cancer_B250,primary lung cancer,primary lung cancer,ACT,1B,59.7,Male,Alive,ADC,5.11,Alive,,Alive,Unknown,5.11,Yes
+-,GSM1267487,primary_lung_cancer_B252,primary lung cancer,primary lung cancer,OBS,2B,76.7,Male,Lung cancer,ADC,0.77,Dead,,Dead,Unknown,0.77,Yes
+-,GSM1267488,primary_lung_cancer_B259,primary lung cancer,primary lung cancer,OBS,1B,46.2,Female,Alive,ADC,5.14,Alive,,Alive,Papillary,5.14,Yes
+-,GSM1267489,primary_lung_cancer_B298,primary lung cancer,primary lung cancer,OBS,2A,61,Male,Lung cancer,ADC,3.6,Dead,,Dead,Lepidic,3.6,Yes
+-,GSM1267490,primary_lung_cancer_B299,primary lung cancer,primary lung cancer,OBS,1B,38.6,Female,Alive,ADC,4.03,Alive,,Alive,Solid,4.03,Yes
+-,GSM1267491,primary_lung_cancer_B334,primary lung cancer,primary lung cancer,OBS,2A,43.6,Male,Alive,ADC,3.24,Alive,,Alive,Solid,3.24,Yes
+-,GSM1267492,primary_lung_cancer_B350,primary lung cancer,primary lung cancer,OBS,1B,58.3,Male,Alive,ADC,2.86,Alive,,Alive,solid,2.86,Yes

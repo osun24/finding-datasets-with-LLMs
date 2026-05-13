@@ -1,0 +1,31 @@
+# TITLE: Exon-array profiling of squamous cell carcinoma and adenocarcinoma in human cervical FFPE samples
+# SUMMARY: Degradation and chemical modification of RNA in formalin-fixed paraffin-embedded (FFPE) samples hamper their use in expression profiling studies. In this study, we investigated the feasibility of gene expression signature generation from archival FFPE materials. Nineteen cervical squamous cell carcinoma (SCC) and nine adenocarcinoma (AC) 10~16-year-old FFPE samples were profiled using Affymetrix Exon 1.0 ST arrays. A comparison of the global gene expression changes between SCC and AC revealed 1217 differentially expressed genes. Of these, 1062 showed significantly higher expression levels in SCC relative to AC, and 155 genes were found to be specifically upregulated in AC. When the 1217-gene signature was tested on a fresh-frozen human non-small cell lung cancer (NSCLC) series, it correctly separated the 58 NSCLC samples into SCC and AC. In conclusion, our results showed that clinically and biologically relevant gene expression profiles can be derived from FFPE samples with Exon array profiling.
+GPL5188_Group,GPL5188_Accession,GPL5188_Title,GPL5188_Source name,GPL5188_Disease state,GPL5188_Characteristics,GPL5188_P63 staining status
+-,GSM677289,"squamous cell carcinoma, biological replicate 1",cervix,squamous cell carcinoma,age of ffpe block (years): 13,+
+-,GSM677290,"squamous cell carcinoma, biological replicate 2",cervix,squamous cell carcinoma,age of ffpe block (years): 12,+
+-,GSM677291,"squamous cell carcinoma, biological replicate 3",cervix,squamous cell carcinoma,age of ffpe block (years): 12,+
+-,GSM677292,"squamous cell carcinoma, biological replicate 4",cervix,squamous cell carcinoma,age of ffpe block (years): 11,+
+-,GSM677293,"squamous cell carcinoma, biological replicate 5",cervix,squamous cell carcinoma,age of ffpe block (years): 11,+
+-,GSM677294,"squamous cell carcinoma, biological replicate 6",cervix,squamous cell carcinoma,age of ffpe block (years): 11,+
+-,GSM677295,"squamous cell carcinoma, biological replicate 7",cervix,squamous cell carcinoma,age of ffpe block (years): 11,+
+-,GSM677296,"squamous cell carcinoma, biological replicate 8",cervix,squamous cell carcinoma,age of ffpe block (years): 11,+
+-,GSM677297,"squamous cell carcinoma, biological replicate 9",cervix,squamous cell carcinoma,age of ffpe block (years): 11,+
+-,GSM677298,"squamous cell carcinoma, biological replicate 10",cervix,squamous cell carcinoma,age of ffpe block (years): 11,+
+-,GSM677299,"squamous cell carcinoma, biological replicate 11",cervix,squamous cell carcinoma,age of ffpe block (years): 10,+
+-,GSM677300,"squamous cell carcinoma, biological replicate 12",cervix,squamous cell carcinoma,age of ffpe block (years): 10,+
+-,GSM677301,"squamous cell carcinoma, biological replicate 13",cervix,squamous cell carcinoma,age of ffpe block (years): 10,+
+-,GSM677302,"squamous cell carcinoma, biological replicate 14",cervix,squamous cell carcinoma,age of ffpe block (years): 10,+
+-,GSM677303,"squamous cell carcinoma, biological replicate 15",cervix,squamous cell carcinoma,age of ffpe block (years): 10,+
+-,GSM677304,"squamous cell carcinoma, biological replicate 16",cervix,squamous cell carcinoma,age of ffpe block (years): 10,+
+-,GSM677305,"squamous cell carcinoma, biological replicate 17",cervix,squamous cell carcinoma,age of ffpe block (years): 10,+
+-,GSM677306,"adenocarcinoma, biological replicate 1",cervix,adenocarcinoma,age of ffpe block (years): 16,-
+-,GSM677307,"adenocarcinoma, biological replicate 2",cervix,adenocarcinoma,age of ffpe block (years): 12,-
+-,GSM677308,"adenocarcinoma, biological replicate 3",cervix,adenocarcinoma,age of ffpe block (years): 12,-
+-,GSM677309,"adenocarcinoma, biological replicate 4",cervix,adenocarcinoma,age of ffpe block (years): 12,-
+-,GSM677310,"adenocarcinoma, biological replicate 5",cervix,adenocarcinoma,age of ffpe block (years): 11,-
+-,GSM677311,"squamous cell carcinoma, biological replicate 18",cervix,squamous cell carcinoma,age of ffpe block (years): 11,+
+-,GSM677312,"adenocarcinoma, biological replicate 6",cervix,adenocarcinoma,age of ffpe block (years): 11,-
+-,GSM677313,"adenocarcinoma, biological replicate 7",cervix,adenocarcinoma,age of ffpe block (years): 10,-
+-,GSM677314,"squamous cell carcinoma, biological replicate 19",cervix,squamous cell carcinoma,age of ffpe block (years): 10,+
+-,GSM677315,"adenocarcinoma, biological replicate 8",cervix,adenocarcinoma,age of ffpe block (years): 13,-
+-,GSM677316,"adenocarcinoma, biological replicate 9",cervix,adenocarcinoma,age of ffpe block (years): 10,-

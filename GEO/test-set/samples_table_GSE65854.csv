@@ -1,0 +1,30 @@
+# TITLE: Global cellular biological processes governed by MET amplification
+# SUMMARY: We used microarrays to probe the global programme of gene expression under treatment with c-Met inhibitor and identified distinct classes of up- and down-regulated genes during this process
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell line,GPL15207_Sample type,GPL15207_Treatment
+-,GSM1607603,"EBC-1 control, biological rep1",EBC-1 treated with DMSO,EBC-1,Non-small cell lung cancer,EBC-1 treated with DMSO
+-,GSM1607604,"EBC-1 control, biological rep2",EBC-1 treated with DMSO,EBC-1,Non-small cell lung cancer,EBC-1 treated with DMSO
+-,GSM1607605,"EBC-1 control, biological rep3",EBC-1 treated with DMSO,EBC-1,Non-small cell lung cancer,EBC-1 treated with DMSO
+-,GSM1607606,"EBC-1 SGX-523 24h, biological rep1",EBC-1 treated with SGX-523 at 1uM for 24h,EBC-1,Non-small cell lung cancer,EBC-1 treated with SGX-523 at 1uM for 24h
+-,GSM1607607,"EBC-1 SGX-523 24h, biological rep2",EBC-1 treated with SGX-523 at 1uM for 24h,EBC-1,Non-small cell lung cancer,EBC-1 treated with SGX-523 at 1uM for 24h
+-,GSM1607608,"EBC-1 SGX-523 24h, biological rep3",EBC-1 treated with SGX-523 at 1uM for 24h,EBC-1,Non-small cell lung cancer,EBC-1 treated with SGX-523 at 1uM for 24h
+-,GSM1607609,"EBC-1 SGX-523 48h, biological rep1",EBC-1 treated with SGX-523 at 1uM for 48h,EBC-1,Non-small cell lung cancer,EBC-1 treated with SGX-523 at 1uM for 48h
+-,GSM1607610,"EBC-1 SGX-523 48h, biological rep2",EBC-1 treated with SGX-523 at 1uM for 48h,EBC-1,Non-small cell lung cancer,EBC-1 treated with SGX-523 at 1uM for 48h
+-,GSM1607611,"EBC-1 SGX-523 48h, biological rep3",EBC-1 treated with SGX-523 at 1uM for 48h,EBC-1,Non-small cell lung cancer,EBC-1 treated with SGX-523 at 1uM for 48h
+-,GSM1607612,"MKN-45 control, biological rep1",MKN-45 treated with DMSO,MKN-45,Gastric cancer,MKN-45 treated with DMSO
+-,GSM1607613,"MKN-45 control, biological rep2",MKN-46 treated with DMSO,MKN-45,Gastric cancer,MKN-45 treated with DMSO
+-,GSM1607614,"MKN-45 control, biological rep3",MKN-47 treated with DMSO,MKN-45,Gastric cancer,MKN-45 treated with DMSO
+-,GSM1607615,"MKN-45 SGX-523 24h, biological rep1",MKN-45 treated with SGX-523 at 1uM for 24h,MKN-45,Gastric cancer,MKN-45 treated with SGX-523 at 1uM for 24h
+-,GSM1607616,"MKN-45 SGX-523 24h, biological rep2",MKN-45 treated with SGX-523 at 1uM for 24h,MKN-45,Gastric cancer,MKN-45 treated with SGX-523 at 1uM for 24h
+-,GSM1607617,"MKN-45 SGX-523 24h, biological rep3",MKN-45 treated with SGX-523 at 1uM for 24h,MKN-45,Gastric cancer,MKN-45 treated with SGX-523 at 1uM for 24h
+-,GSM1607618,"MKN-45 SGX-523 48h, biological rep1",MKN-45 treated with SGX-523 at 1uM for 48h,MKN-45,Gastric cancer,MKN-45 treated with SGX-523 at 1uM for 48h
+-,GSM1607619,"MKN-45 SGX-523 48h, biological rep2",MKN-45 treated with SGX-523 at 1uM for 48h,MKN-45,Gastric cancer,MKN-45 treated with SGX-523 at 1uM for 48h
+-,GSM1607620,"MKN-45 SGX-523 48h, biological rep3",MKN-45 treated with SGX-523 at 1uM for 48h,MKN-45,Gastric cancer,MKN-45 treated with SGX-523 at 1uM for 48h
+-,GSM1607621,"HCC827 control, biological rep1",HCC827 treated with DMSO,HCC827,Non-small cell lung cancer,HCC827 treated with DMSO
+-,GSM1607622,"HCC827 control, biological rep2",HCC828 treated with DMSO,HCC827,Non-small cell lung cancer,HCC827 treated with DMSO
+-,GSM1607623,"HCC827 control, biological rep3",HCC829 treated with DMSO,HCC827,Non-small cell lung cancer,HCC827 treated with DMSO
+-,GSM1607624,"HCC827 SGX-523 24h, biological rep1",HCC827 treated with SGX-523 at 1uM for 24h,HCC827,Non-small cell lung cancer,HCC827 treated with SGX-523 at 1uM for 24h
+-,GSM1607625,"HCC827 SGX-523 24h, biological rep2",HCC827 treated with SGX-523 at 1uM for 24h,HCC827,Non-small cell lung cancer,HCC827 treated with SGX-523 at 1uM for 24h
+-,GSM1607626,"HCC827 SGX-523 24h, biological rep3",HCC827 treated with SGX-523 at 1uM for 24h,HCC827,Non-small cell lung cancer,HCC827 treated with SGX-523 at 1uM for 24h
+-,GSM1607627,"HCC827 SGX-523 48h, biological rep1",HCC827 treated with SGX-523 at 1uM for 48h,HCC827,Non-small cell lung cancer,HCC827 treated with SGX-523 at 1uM for 48h
+-,GSM1607628,"HCC827 SGX-523 48h, biological rep2",HCC827 treated with SGX-523 at 1uM for 48h,HCC827,Non-small cell lung cancer,HCC827 treated with SGX-523 at 1uM for 48h
+-,GSM1607629,"HCC827 SGX-523 48h, biological rep3",HCC827 treated with SGX-523 at 1uM for 48h,HCC827,Non-small cell lung cancer,HCC827 treated with SGX-523 at 1uM for 48h

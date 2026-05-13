@@ -1,0 +1,11 @@
+# TITLE: miRNA expression profiling of gamma-irradiated A549 cells at 24 h after irradiation.
+# SUMMARY: We analyzed the combination of ionizing radiation (IR, 2.0 Gy) along with microRNA-mediated targeting of genes involved in DSB repair to sensitize human non-small cell lung cancer (NSCLC) cells.
+GPL24741_Group,GPL24741_Accession,GPL24741_Title,GPL24741_Source name,GPL24741_Cell line,GPL24741_Treatment,GPL24741_Time
+-,GSM3068920,"A549, non-irradiated (0 Gy) cells, biological replicate 1 (0Gy-24h-1)","A549, non-irradiated (0 Gy) cells",A549 cell line derived from human alveolar type 2 primary lung adenocarcinoma cells,control,24 hr
+-,GSM3068921,"A549, non-irradiated (0 Gy) cells, biological replicate 2 (0Gy-24h-2)","A549, non-irradiated (0 Gy) cells",A549 cell line derived from human alveolar type 2 primary lung adenocarcinoma cells,control,24 hr
+-,GSM3068922,"A549, non-irradiated (0 Gy) cells, biological replicate 3 (0Gy-24h-3)","A549, non-irradiated (0 Gy) cells",A549 cell line derived from human alveolar type 2 primary lung adenocarcinoma cells,control,24 hr
+-,GSM3068923,"A549, non-irradiated (0 Gy) cells, biological replicate 4 (0Gy-24h-4)","A549, non-irradiated (0 Gy) cells",A549 cell line derived from human alveolar type 2 primary lung adenocarcinoma cells,control,24 hr
+-,GSM3068924,"A549, irradiated (2.0 Gy) cells, biological replicate 1 (2Gy-24h-1)","A549, irradiated (2.0 Gy) cells",A549 cell line derived from human alveolar type 2 primary lung adenocarcinoma cells,IR,24 hr
+-,GSM3068925,"A549, irradiated (2.0 Gy) cells, biological replicate 2 (2Gy-24h-2)","A549, irradiated (2.0 Gy) cells",A549 cell line derived from human alveolar type 2 primary lung adenocarcinoma cells,IR,24 hr
+-,GSM3068926,"A549, irradiated (2.0 Gy) cells, biological replicate 3 (2Gy-24h-3)","A549, irradiated (2.0 Gy) cells",A549 cell line derived from human alveolar type 2 primary lung adenocarcinoma cells,IR,24 hr
+-,GSM3068927,"A549, irradiated (2.0 Gy) cells, biological replicate 4 (2Gy-24h-4)","A549, irradiated (2.0 Gy) cells",A549 cell line derived from human alveolar type 2 primary lung adenocarcinoma cells,IR,24 hr

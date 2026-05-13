@@ -1,0 +1,15 @@
+# TITLE: dcEF-regulated gene expression of human lung cancer cells
+# SUMMARY: Highly metastatic cancer cells have been observed to move directionally in response to direct current (dc) electric fields (EFs) of physiological strength. The phenomenon, which is called electrotaxis or galvanotaxis, suggests the involvement of physiological EF in cancer metastasis. To explore this conjecture, we compared the influence of dcEF on gene expressions of a highly invasive (CL1-5) and a low invasive (CL1-0) lung cancer cell lines.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tumor type
+-,GSM837728,CL1-0_no EF stimulation_biological rep1,"lung cancer CL1-0 cell line, no EF stimulation","non-small cell lung cancer, adenocarcinoma"
+-,GSM837729,CL1-0_no EF stimulation_biological rep2,"lung cancer CL1-0 cell line, no EF stimulation","non-small cell lung cancer, adenocarcinoma"
+-,GSM837730,CL1-0_no EF stimulation_biological rep3,"lung cancer CL1-0 cell line, no EF stimulation","non-small cell lung cancer, adenocarcinoma"
+-,GSM837731,CL1-5_no EF stimulation_biological rep1,"lung cancer CL1-5 cell line, no EF stimulation","non-small cell lung cancer, adenocarcinoma"
+-,GSM837732,CL1-5_no EF stimulation_biological rep2,"lung cancer CL1-5 cell line, no EF stimulation","non-small cell lung cancer, adenocarcinoma"
+-,GSM837733,CL1-5_no EF stimulation_biological rep3,"lung cancer CL1-5 cell line, no EF stimulation","non-small cell lung cancer, adenocarcinoma"
+-,GSM837734,CL1-0_EF stimulation_biological rep1,"lung cancer CL1-0 cell line, EF stimulation, 300mV/mm, 2hr","non-small cell lung cancer, adenocarcinoma"
+-,GSM837735,CL1-0_EF stimulation_biological rep2,"lung cancer CL1-0 cell line, EF stimulation, 300mV/mm, 2hr","non-small cell lung cancer, adenocarcinoma"
+-,GSM837736,CL1-0_EF stimulation_biological rep3,"lung cancer CL1-0 cell line, EF stimulation, 300mV/mm, 2hr","non-small cell lung cancer, adenocarcinoma"
+-,GSM837737,CL1-5_EF stimulation_biological rep1,"lung cancer CL1-5 cell line, EF stimulation, 300mV/mm, 2hr","non-small cell lung cancer, adenocarcinoma"
+-,GSM837738,CL1-5_EF stimulation_biological rep2,"lung cancer CL1-5 cell line, EF stimulation, 300mV/mm, 2hr","non-small cell lung cancer, adenocarcinoma"
+-,GSM837739,CL1-5_EF stimulation_biological rep3,"lung cancer CL1-5 cell line, EF stimulation, 300mV/mm, 2hr","non-small cell lung cancer, adenocarcinoma"

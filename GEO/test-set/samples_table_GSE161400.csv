@@ -1,0 +1,6 @@
+# TITLE: miRNA expression analysis of DICER1 knock-out cell lines
+# SUMMARY: To confirm the lack of expression of most miRNAs in DICER1 knock-out cell lines, we performed miRNA microarray analysis. The purpose of this study is to classify DICER1-dependent Small RNA and independent Small RNA using DICER1 cells using deficient cell lines, and to identify novel small RNA and small RNA processing mechanisms.
+GPL25134_Group,GPL25134_Accession,GPL25134_Title,GPL25134_Source name,GPL25134_Cell line,GPL25134_Cell type
+-,GSM4906527,Normal NCI-H1299,NCI-H1299 cell line,NCI-H1299,Human non-small cell lung cancer
+-,GSM4906528,NCI-H1299 DICER1 KO #1,NCI-H1299 cell line,NCI-H1299,Human non-small cell lung cancer
+-,GSM4906529,NCI-H1299 DICER1 KO #2,NCI-H1299 cell line,NCI-H1299,Human non-small cell lung cancer

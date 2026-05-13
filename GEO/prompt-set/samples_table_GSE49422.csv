@@ -1,0 +1,9 @@
+# TITLE: Expression data from H1299 human non-small cell lung carcinoma cell lines stably expressing CHES1 compared with H1299 infected with an empty vector
+# SUMMARY: The expression of the forkhead transcription factor CHES1, also known as FOXN3, is reduced in many types of cancers. In vitro, CHES1 expression suppresses cell proliferation in tumor cell lines but not in normal cells. Conversely shRNA-mediated depletion of CHES1 increases tumor cell proliferation. We used microarrays to characterize the gene expression changes induced by CHES1 in H1299 cancer cells
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line,GPL16686_Vector
+-,GSM1199122,Vector rep1,"H1299 infected with an empty vector, 5 days post-infection",H1299,empty
+-,GSM1199123,Vector rep2,"H1299 infected with an empty vector, 5 days post-infection",H1299,empty
+-,GSM1199124,Vector rep3,"H1299 infected with an empty vector, 5 days post-infection",H1299,empty
+-,GSM1199125,CHES1 rep1,"H1299 infected with a vector expressing CHES1, 5 days post-infection",H1299,expressing CHES1
+-,GSM1199126,CHES1 rep2,"H1299 infected with a vector expressing CHES1, 5 days post-infection",H1299,expressing CHES1
+-,GSM1199127,CHES1 rep3,"H1299 infected with a vector expressing CHES1, 5 days post-infection",H1299,expressing CHES1

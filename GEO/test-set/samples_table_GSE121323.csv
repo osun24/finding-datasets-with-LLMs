@@ -1,0 +1,9 @@
+# TITLE: The signaling pathways and target genes regulated by miR-330-3p in non-small cell lung cancer (NSCLC)
+# SUMMARY: The underlying mechanisms of miR-330-3p in the progresion of NSCLC have not been well investigated. Thus we design this expirment tying to find out the pathways and target genes involved in NSCLC metastasis.
+GPL22448_Group,GPL22448_Accession,GPL22448_Title,GPL22448_Source name,GPL22448_Cell line,GPL22448_Cell type,GPL22448_Genotype/variation
+-,GSM3431465,A549_miR-330-3p_KD_H72,NSCLC cells,A549,non-small cell lung cancer (NSCLC),knockdown of miR-330-3p
+-,GSM3431466,A549_miR-330-3p_KD_H74,NSCLC cells,A549,non-small cell lung cancer (NSCLC),knockdown of miR-330-3p
+-,GSM3431467,A549_miR-330-3p_KD_H76,NSCLC cells,A549,non-small cell lung cancer (NSCLC),knockdown of miR-330-3p
+-,GSM3431468,A549_vector control_H79,NSCLC cells,A549,non-small cell lung cancer (NSCLC),vector control
+-,GSM3431469,A549_vector control_H81,NSCLC cells,A549,non-small cell lung cancer (NSCLC),vector control
+-,GSM3431470,A549_vector control_H83,NSCLC cells,A549,non-small cell lung cancer (NSCLC),vector control

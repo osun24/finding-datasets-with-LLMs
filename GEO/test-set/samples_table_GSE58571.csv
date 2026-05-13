@@ -1,0 +1,5 @@
+# TITLE: Expression data from sodium butyrate treated A549 cells
+# SUMMARY: As a histone deacetylase inhibitor, sodium butyrate involves in cellular events such as proliferation, differentiation,apoptosis and cell cycle control via reprogramming gene expression. However, the target genes associated with the cell cycle control and molecular signaling triggering cell apopotosis and death are not well elucidated.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell line,GPL15207_Treatment,GPL15207_Cell type
+-,GSM1414240,A549 cells no treatment,no treated A549 cells,A549,none,non-small cell lung cancer
+-,GSM1414241,A549 cells treated with 5 mM sodium butyrate,5mM sodium butyrate treated A549 cells,A549,5 mM sodium butyrate,non-small cell lung cancer

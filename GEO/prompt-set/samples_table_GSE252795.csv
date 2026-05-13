@@ -1,0 +1,7 @@
+# TITLE: Expression data from NCI-H1299 and NCI-H1299/CDDP cells
+# SUMMARY: Non-small cell lung cancer (NSCLC) patients are prone to drug resistance during chemotherapy. Therefore, in order to compare the changes in the gene expression profiles of NSCLC cells before and after drug resistance, we constructed cisplatin-resistant cells (NCI-H1299/CDDP), and compared the gene expression profiles with those of the parental NCI-H1299 cells. We used microarrays to study in detail the global gene expression changes before and after drug resistance in NSCLC cells and identified genes that were up- or down-regulated during this process.
+GPL23126_Group,GPL23126_Accession,GPL23126_Title,GPL23126_Source name,GPL23126_Disease
+-,GSM8007897,"NCI-H1299/CDDP, biological rep1",Cisplatin-resistant non-small cell lung cancer cells,Non-small cell lung cancer
+-,GSM8007898,"NCI-H1299/CDDP, biological rep2",Cisplatin-resistant non-small cell lung cancer cells,Non-small cell lung cancer
+-,GSM8007899,"NCI-H1299, biological rep1",Non-small cell lung cancer cells,Non-small cell lung cancer
+-,GSM8007900,"NCI-H1299, biological rep2",Non-small cell lung cancer cells,Non-small cell lung cancer

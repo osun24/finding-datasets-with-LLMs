@@ -1,0 +1,11 @@
+# TITLE: Impaired AKT signaling and lung tumorigenesis by PIERCE1 ablation in KRAS-mutant non-small cell lung cancer
+# SUMMARY: KRAS-mutant non-small cell lung cancer (NSCLC) is one of the main subtypes across lung cancers. Despite the enormous studies on KRAS-mutant NSCLC, new therapeutic targets need to be identified because current therapies are insufficient. Here we show the tumor promoting function of PIERCE1 in the KRAS-mutant NSCLC. Mechanistically, PIERCE1 depletion inhibits cell growth and AKT phosphorylation (pAKT) at S473, particularly in KRAS-mutant lung cancer. Analyses of AKT-related genes show that PIERCE1 negatively regulates gene expression of AKT suppressor TRIB3 through CHOP pathway. Correspondingly, four independent in vivo approaches in lung cancer mouse models related to KRAS mutations reveal the tumor suppressive effect of PIERCE1 depletion suggesting its therapeutic potential. Tissue microarray of human lung cancer showed that PIERCE1 is expressed in 83% of lung cancers and is linked to pAKT expression. This illustrates how PIERCE1 depletion acts as a novel therapeutics against KRAS-mutant NSCLC.
+GPL16699_Group,GPL16699_Accession,GPL16699_Title,GPL16699_Source name,GPL16699_Cell line,GPL16699_Genotype,GPL16699_Treatment
+-,GSM4041491,siControl_1,"A549 cells, wild type, transfected with siControl, replicate 1",A549,wild type,transfected with siControl
+-,GSM4041492,siControl_2,"A549 cells, wild type, transfected with siControl, replicate 2",A549,wild type,transfected with siControl
+-,GSM4041493,siP1 #1_1,"A549 cells, wild type, transfected with siPIERCE1 #1, replicate 1",A549,wild type,transfected with siPIERCE1 #1
+-,GSM4041494,siP1 #1_2,"A549 cells, wild type, transfected with siPIERCE1 #1, replicate 2",A549,wild type,transfected with siPIERCE1 #1
+-,GSM4041495,siP1 #2_1,"A549 cells, wild type, transfected with siPIERCE1 #2, replicate 1",A549,wild type,transfected with siPIERCE1 #2
+-,GSM4041496,siP1 #2_2,"A549 cells, wild type, transfected with siPIERCE1 #2, replicate 2",A549,wild type,transfected with siPIERCE1 #2
+-,GSM4041497,siP1 #3_1,"A549 cells, wild type, transfected with siPIERCE1 #3, replicate 1",A549,wild type,transfected with siPIERCE1 #3
+-,GSM4041498,siP1 #3_2,"A549 cells, wild type, transfected with siPIERCE1 #3, replicate 2",A549,wild type,transfected with siPIERCE1 #3

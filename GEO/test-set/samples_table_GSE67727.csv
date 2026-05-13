@@ -1,0 +1,7 @@
+# TITLE: Antagonizing miR-128 abrogates chemoresistance-associated metastasis and is therapeutic in non-small cell lung cancer [miRNA]
+# SUMMARY: This experiment is designed to screen miRNAs that are deregulated during chemoresistance-associated metastasis of lung cancer cells. Chemoresistant metastatic in vivo tumor model of A549-luc-Vector cells was established after four rounds of cisplatin (CDDP) treatments compared to corresponding control solvent treatments. Upon examining profiles of miRNA expression differential between tumor-derived cultured cells from the Ctrl-4th and CDDP-4th treatments, most markedly upregulated and downregulated miRNAs in chemoresistant, metastatic A549-luc-CDDP-4th cells were identified.
+GPL16770_Group,GPL16770_Accession,GPL16770_Title,GPL16770_Source name,GPL16770_Treatment,GPL16770_Cell type
+-,GSM1654876,A549-luc-Ctrl-4th_Rep 1,tumor-derived cultured cells from fourth round of control treatment,control solvent,chemosensitive non-metastatic lung cancer cell line
+-,GSM1654877,A549-luc-Ctrl-4th_Rep 2,tumor-derived cultured cells from fourth round of control treatment,control solvent,chemosensitive non-metastatic lung cancer cell line
+-,GSM1654878,A549-luc-CDDP-4th_Rep 1,tumor-derived cultured cells from fourth round of CDDP treatment,cisplatin (CDDP),chemoresistant metastatic lung cancer cell line
+-,GSM1654879,A549-luc-CDDP-4th_Rep 2,tumor-derived cultured cells from fourth round of CDDP treatment,cisplatin (CDDP),chemoresistant metastatic lung cancer cell line

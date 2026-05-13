@@ -1,0 +1,12 @@
+# TITLE: Transcriptomic analysis of TDRD9-depleted lung tumor cells
+# SUMMARY: Tudor domain containing protein 9 (TDRD9) is a RNA helicase normally expressed in the germline. We have shown that TDRD9 is highly expressed in a subset of non-small cell lung carcinomas. Here we determine the transcriptomic changes of a TDRD9-positive lung tumor cells line (NCI-H1993) depleted of TDRD9.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell line,GPL15207_Genotype/variation
+-,GSM2790842,"siControl, biological rep1","NCI-H1993, siControl",NCI-H1993,control
+-,GSM2790843,"siControl, biological rep2","NCI-H1993, siControl",NCI-H1993,control
+-,GSM2790844,"siControl, biological rep3","NCI-H1993, siControl",NCI-H1993,control
+-,GSM2790845,"siTDRD9-1, biological rep1","NCI-H1993, siTDRD9-1",NCI-H1993,TDRD9-depleted (siTDRD9-1)
+-,GSM2790846,"siTDRD9-1, biological rep2","NCI-H1993, siTDRD9-1",NCI-H1993,TDRD9-depleted (siTDRD9-1)
+-,GSM2790847,"siTDRD9-1, biological rep3","NCI-H1993, siTDRD9-1",NCI-H1993,TDRD9-depleted (siTDRD9-1)
+-,GSM2790848,"siTDRD9-2, biological rep1","NCI-H1993, siTDRD9-2",NCI-H1993,TDRD9-depleted (siTDRD9-2)
+-,GSM2790849,"siTDRD9-2, biological rep2","NCI-H1993, siTDRD9-2",NCI-H1993,TDRD9-depleted (siTDRD9-2)
+-,GSM2790850,"siTDRD9-2, biological rep3","NCI-H1993, siTDRD9-2",NCI-H1993,TDRD9-depleted (siTDRD9-2)

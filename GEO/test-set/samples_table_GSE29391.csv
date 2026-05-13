@@ -1,0 +1,22 @@
+# TITLE: Genome-wide gene expression profiling analysis of bone metastases of human non-small cell lung cancer (NSCLC) in mice
+# SUMMARY: Using a multiorgan metastasis model of human NSCLC cells (ACC-LC319/bone2) in NK cell-depleted SCID mice, we attempted to identify genes involved in the organ-selective nature of lung cancer-metastasis process, especially bone metastasis. Genome-wide gene expression profile of 15 metastatic lesions from three organs (bone, lung and liver) in this mouse model revealed lot of genes that seemed to reflect the organ specificity of metastatic cells. Among bone-specifically-expressed genes, dozen of genes involved in cell adhesion, cytoskeleton/cell motility, extracellular matrix remodeling, and cell-cell signaling. The upregulation of 11 genes, some of them were either previously reported to be involved in metastatic characteristics, were confirmed by quantitative RT-PCR.
+GPL6480_Group,GPL6480_Accession,GPL6480_Title,GPL6480_Source name,GPL6480_Tissue/cell type
+-,GSM726785,Metastasis_Bone 1,Metastatic lesion in mouse bone,Metastatic tissue
+-,GSM726786,Metastasis_Bone 2,Metastatic lesion in mouse bone,Metastatic tissue
+-,GSM726787,Metastasis_Bone 3,Metastatic lesion in mouse bone,Metastatic tissue
+-,GSM726788,Metastasis_Bone 4,Metastatic lesion in mouse bone,Metastatic tissue
+-,GSM726789,Metastasis_Bone 5,Metastatic lesion in mouse bone,Metastatic tissue
+-,GSM726790,Metastasis_Lung 1,Metastatic lesion in mouse lung,Metastatic tissue
+-,GSM726791,Metastasis_Lung 2,Metastatic lesion in mouse lung,Metastatic tissue
+-,GSM726792,Metastasis_Lung 3,Metastatic lesion in mouse lung,Metastatic tissue
+-,GSM726793,Metastasis_Lung 4,Metastatic lesion in mouse lung,Metastatic tissue
+-,GSM726794,Metastasis_Lung 5,Metastatic lesion in mouse lung,Metastatic tissue
+-,GSM726795,Metastasis_Liver 1,Metastatic lesion in mouse liver,Metastatic tissue
+-,GSM726796,Metastasis_Liver 2,Metastatic lesion in mouse liver,Metastatic tissue
+-,GSM726797,Metastasis_Liver 3,Metastatic lesion in mouse liver,Metastatic tissue
+-,GSM726798,Metastasis_Liver 4,Metastatic lesion in mouse liver,Metastatic tissue
+-,GSM726799,Metastasis_Liver 5,Metastatic lesion in mouse liver,Metastatic tissue
+-,GSM726800,Mouse normal tissue_Bone,Mouse normal tissues in bone,Mouse normal tissue
+-,GSM726801,Mouse normal tissue_Lung,Mouse normal tissues in lung,Mouse normal tissue
+-,GSM726802,Mouse normal tissue_Liver,Mouse normal tissues in liver,Mouse normal tissue
+-,GSM726803,Cell line ACC-LC319/bone2,Cell line ACC-LC319/bone2,"ACC-LC319/bone2, in vitro monolayer cell culture"

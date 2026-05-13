@@ -1,0 +1,15 @@
+# TITLE: Comparison of gene expression in control and BRG1-knockdown H358 cell lines
+# SUMMARY: Transcription was assessed in the human H358 NSCLC cell line after knockdown of BRG1, one of the mutually exclusive subunits of the SWI/SNF chromatin remodeling complex, by 2 different shRNAs.
+GPL4133_Group,GPL4133_Accession,GPL4133_Title,GPL4133_Source name 1,GPL4133_Source name 2,GPL4133_ShRNA (Ch1),GPL4133_Cell line (Ch1),GPL4133_Cell line (Ch2)
+-,GSM1413189,H358 Control technical replicate #1,H358 Control cells,H358 parental cells,Control,H358,H358
+-,GSM1413190,H358 Control technical replicate #2,H358 Control cells,H358 parental cells,Control,H358,H358
+-,GSM1413191,H358 Control technical replicate #3,H358 Control cells,H358 parental cells,Control,H358,H358
+-,GSM1413192,H358 Control technical replicate #4,H358 Control cells,H358 parental cells,Control,H358,H358
+-,GSM1413193,H358 Brg1i.1 technical replicate #1,H358 Brg1i.1 cells,H358 parental cells,Brg1i.1,H358,H358
+-,GSM1413194,H358 Brg1i.1 technical replicate #2,H358 Brg1i.1 cells,H358 parental cells,Brg1i.1,H358,H358
+-,GSM1413195,H358 Brg1i.1 technical replicate #3,H358 Brg1i.1 cells,H358 parental cells,Brg1i.1,H358,H358
+-,GSM1413196,H358 Brg1i.1 technical replicate #4,H358 Brg1i.1 cells,H358 parental cells,Brg1i.1,H358,H358
+-,GSM1413197,H358 Brg1i.2 technical replicate #1,H358 Brg1i.2 cells,H358 parental cells,Brg1i.2,H358,H358
+-,GSM1413198,H358 Brg1i.2 technical replicate #2,H358 Brg1i.2 cells,H358 parental cells,Brg1i.2,H358,H358
+-,GSM1413199,H358 Brg1i.2 technical replicate #3,H358 Brg1i.2 cells,H358 parental cells,Brg1i.2,H358,H358
+-,GSM1413200,H358 Brg1i.2 technical replicate #4,H358 Brg1i.2 cells,H358 parental cells,Brg1i.2,H358,H358

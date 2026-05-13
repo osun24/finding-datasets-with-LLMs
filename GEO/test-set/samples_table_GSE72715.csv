@@ -1,0 +1,9 @@
+# TITLE: HLJ1 is an endogenous Src inhibitor that suppresses cancer progression through dual mechanisms
+# SUMMARY: HLJ1 acts as a prognosis marker and associates with overall survival of patients with non-small-cell lung cancer. This study sought to investigate the specific contribution of HLJ1 to neoplastic diseases. We used microarrays to identify the HLJ1-affected signaling pathways.
+GPL19298_Group,GPL19298_Accession,GPL19298_Title,GPL19298_Source name,GPL19298_Cell line,GPL19298_ShRNA,GPL19298_Tumor type,GPL19298_Ethnicity,GPL19298_Age,GPL19298_Gender
+-,GSM1868878,CL1-0_normal cuture_rep1,"lung cancer cell, CL1-0",CL1-0,scramble shRNA,lung adenocacinoma,Asian,64 years,male
+-,GSM1868879,CL1-0_normal cuture_rep2,"lung cancer cell, CL1-0",CL1-0,scramble shRNA,lung adenocacinoma,Asian,64 years,male
+-,GSM1868880,CL1-0_normal cuture_rep3,"lung cancer cell, CL1-0",CL1-0,scramble shRNA,lung adenocacinoma,Asian,64 years,male
+-,GSM1868881,CL1-0_culture in conditioned media from M0 macrophage_2 weeks_rep1,"lung cancer cell, CL1-0",CL1-0,shHLJ1,lung adenocacinoma,Asian,64 years,male
+-,GSM1868882,CL1-0_culture in conditioned media from M0 macrophage_2 weeks_rep2,"lung cancer cell, CL1-0",CL1-0,shHLJ1,lung adenocacinoma,Asian,64 years,male
+-,GSM1868883,CL1-0_culture in conditioned media from M0 macrophage_2 weeks_rep3,"lung cancer cell, CL1-0",CL1-0,shHLJ1,lung adenocacinoma,Asian,64 years,male

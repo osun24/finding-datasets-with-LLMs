@@ -1,0 +1,134 @@
+# TITLE: Lung adenocarcinoma subtypes definable by lung development-related miRNA expression profiles in association with clinicopathologic features [miRNA analysis - miRNA Microarray, pre-commercial version 6.0]
+# SUMMARY: Accumulation of genetic and epigenetic changes alters regulation of a web of interconnected genes including miRNAs, which confer hallmark capabilities and characteristic cancer features. In this study, the miRNA and mRNA expression profiles of 126 non-small cell lung cancer specimens were analyzed, with special attention given to the diversity of lung adenocarcinomas. Of those, 76 adenocarcinomas were classified into two major subtypes, developing lung-like and adult lung-like, based on their distinctive miRNA expression profiles resembling those of either developing or adult lungs, respectively. A systems biology-based approach using a Bayesian network and nonparametric regression was employed to estimate the gene regulatory circuitry functioning in patient tumors in order to identify subnetworks enriched for genes with differential expression between the two major subtypes. miR-30d and miR-195, identified as hub genes in such subnetworks, had lower levels of expression in the developing lung-like subtype, while introduction of miR-30d or miR-195 into the lung cancer cell lines evoked shifts of mRNA expression profiles towards the adult lung-like subtype. Conversely, the influence of miR-30d and miR-195 was significantly different between the developing lung- and adult lung-like subtypes in our analysis of the patient dataset. In addition, RRM2, a child gene of the miR-30d-centered subnetwork, was found to be a direct target of miR-30d. Together, our findings reveal the existence of two miRNA expression profile-defined lung adenocarcinoma subtypes with distinctive clinicopathologic features and also suggest the usefulness of a systems biology-based approach to gain insight into the altered regulatory circuitry involved in cancer development.
+GPL7341_Group,GPL7341_Accession,GPL7341_Title,GPL7341_Source name,GPL7341_Tissue type,GPL7341_Histology
+-,GSM1253944,Adenocarcinoma 001,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253945,Adenocarcinoma 002,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253946,Adenocarcinoma 003,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253947,Adenocarcinoma 004,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253948,Adenocarcinoma 005,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253949,Adenocarcinoma 006,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253950,Adenocarcinoma 007,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253951,Adenocarcinoma 008,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253952,Adenocarcinoma 009,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253953,Adenocarcinoma 010,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253954,Adenocarcinoma 011,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253955,Adenocarcinoma 012,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253956,Adenocarcinoma 014,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253957,Adenocarcinoma 018,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253958,Adenocarcinoma 019,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253959,Adenocarcinoma 020,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253960,Adenocarcinoma 023,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253961,Adenocarcinoma 025,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253962,Adenocarcinoma 026,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253963,Adenocarcinoma 027,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253964,Adenocarcinoma 028,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253965,Adenocarcinoma 029,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253966,Adenocarcinoma 030,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253967,Adenocarcinoma 031,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253968,Adenocarcinoma 032,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253969,Adenocarcinoma 033,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253970,Adenocarcinoma 034,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253971,Adenocarcinoma 035,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253972,Adenocarcinoma 036,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253973,Adenocarcinoma 037,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253974,Adenocarcinoma 039,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253975,Adenocarcinoma 040,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253976,Adenocarcinoma 041,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253977,Adenocarcinoma 042,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253978,Adenocarcinoma 043,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253979,Adenocarcinoma 044,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253980,Adenocarcinoma 045,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253981,Adenocarcinoma 046,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253982,Adenocarcinoma 047,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253983,Adenocarcinoma 049,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253984,Adenocarcinoma 050,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253985,Adenocarcinoma 051,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253986,Adenocarcinoma 052,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253987,Adenocarcinoma 053,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253988,Adenocarcinoma 054,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253989,Adenocarcinoma 055,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253990,Adenocarcinoma 056,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253991,Adenocarcinoma 057,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253992,Adenocarcinoma 058,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253993,Adenocarcinoma 059,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253994,Adenocarcinoma 060,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253995,Adenocarcinoma 061,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253996,Adenocarcinoma 062,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253997,Adenocarcinoma 063,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253998,Adenocarcinoma 064,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1253999,Adenocarcinoma 065,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254000,Adenocarcinoma 066,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254001,Adenocarcinoma 067,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254002,Adenocarcinoma 069,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254003,Adenocarcinoma 071,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254004,Adenocarcinoma 072,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254005,Adenocarcinoma 073,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254006,Adenocarcinoma 074,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254007,Adenocarcinoma 075,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254008,Adenocarcinoma 076,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254009,Adenocarcinoma 077,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254010,Adenocarcinoma 078,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254011,Adenocarcinoma 079,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254012,Adenocarcinoma 080,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254013,Adenocarcinoma 081,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254014,Adenocarcinoma 082,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254015,Adenocarcinoma 083,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254016,Adenocarcinoma 084,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254017,Adenocarcinoma 086,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254018,Adenocarcinoma 087,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254019,Adenocarcinoma 088,Adenocarcinoma,Adenocarcinoma,AD
+-,GSM1254020,adenosquamous carcinoma 001,Adenosquamous carcinoma,Adenosquamous carcinoma,AS
+-,GSM1254021,adenosquamous carcinoma 002,Adenosquamous carcinoma,Adenosquamous carcinoma,AS
+-,GSM1254022,adenosquamous carcinoma 003,Adenosquamous carcinoma,Adenosquamous carcinoma,AS
+-,GSM1254023,adenosquamous carcinoma 004,Adenosquamous carcinoma,Adenosquamous carcinoma,AS
+-,GSM1254024,Large cell carcinoma 001,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254025,Large cell carcinoma 004,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254026,Large cell carcinoma 005,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254027,Large cell carcinoma 006,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254028,Large cell carcinoma 007,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254029,Large cell carcinoma 008,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254030,Large cell carcinoma 009,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254031,Large cell carcinoma 010,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254032,Large cell carcinoma 011,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254033,Large cell carcinoma 012,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254034,Large cell carcinoma 013,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254035,Large cell carcinoma 015,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254036,Large cell carcinoma 016,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254037,Large cell carcinoma 017,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254038,Large cell carcinoma 018,Large cell carcinoma,Large cell carcinoma,LA
+-,GSM1254039,Large cell neuroendocrine carcinoma 001,Large cell neuroendocrine carcinoma,Large cell neuroendocrine carcinoma,LCNEC
+-,GSM1254040,Large cell neuroendocrine carcinoma 002,Large cell neuroendocrine carcinoma,Large cell neuroendocrine carcinoma,LCNEC
+-,GSM1254041,Squamous cell carcinoma 004,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254042,Squamous cell carcinoma 006,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254043,Squamous cell carcinoma 007,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254044,Squamous cell carcinoma 008,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254045,Squamous cell carcinoma 009,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254046,Squamous cell carcinoma 010,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254047,Squamous cell carcinoma 011,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254048,Squamous cell carcinoma 012,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254049,Squamous cell carcinoma 013,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254050,Squamous cell carcinoma 014,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254051,Squamous cell carcinoma 015,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254052,Squamous cell carcinoma 016,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254053,Squamous cell carcinoma 017,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254054,Squamous cell carcinoma 018,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254055,Squamous cell carcinoma 019,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254056,Squamous cell carcinoma 020,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254057,Squamous cell carcinoma 021,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254058,Squamous cell carcinoma 022,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254059,Squamous cell carcinoma 023,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254060,Squamous cell carcinoma 024,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254061,Squamous cell carcinoma 025,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254062,Squamous cell carcinoma 026,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254063,Squamous cell carcinoma 028,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254064,Squamous cell carcinoma 029,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254065,Squamous cell carcinoma 030,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254066,Squamous cell carcinoma 031,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254067,Squamous cell carcinoma 032,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254068,Squamous cell carcinoma 033,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254069,Squamous cell carcinoma 035,Squamous cell carcinoma,Squamous cell carcinoma,SQ
+-,GSM1254070,RNA mix 1 of nomal lungs,Normal lung,Normal lung,Normal lung
+-,GSM1254071,RNA mix 2 of nomal lungs,Normal lung,Normal lung,Normal lung
+-,GSM1254072,RNA mix 3 of nomal lungs,Normal lung,Normal lung,Normal lung
+-,GSM1254073,RNA mix 4 of nomal lungs,Normal lung,Normal lung,Normal lung
+-,GSM1254074,RNA mix 5 of nomal lungs,Normal lung,Normal lung,Normal lung

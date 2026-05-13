@@ -1,0 +1,103 @@
+# TITLE: Intratumor heterogeneity of gene expression profiles in early stage non-small cell lung cancer (NSCLC)
+# SUMMARY: Gene expression profiling of NSCLC tissues let to the establishment of several prognostic, predictive gene signatures with little overlap. To study factors introducing variability into gene expression microarray studies we compared interpatient (patient-to-patient) and intrapatient (tumor sub-sample) variations in gene expression profiles in stage I and II NSCLC tissues. We identified 128 probe sets which showed variable intratumoral expression
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Gender,GPL570_Age,GPL570_Tissue,GPL570_Histology,GPL570_Tumor_stage
+-,GSM835268,"patient 02, tumor sub-sample A",human non-small cell lung cancer tissue,female,44,lung,adeno,2B
+-,GSM835269,"patient 02, tumor sub-sample B",human non-small cell lung cancer tissue,female,44,lung,adeno,2B
+-,GSM835270,"patient 02, tumor sub-sample C",human non-small cell lung cancer tissue,female,44,lung,adeno,2B
+-,GSM835271,"patient 02, tumor sub-sample D",human non-small cell lung cancer tissue,female,44,lung,adeno,2B
+-,GSM835272,"patient 02, matched normal lung","human, normal lung tissue",female,44,lung,normal lung,
+-,GSM835273,"patient 07, tumor sub-sample A",human non-small cell lung cancer tissue,male,65,lung,adeno,2B
+-,GSM835274,"patient 07, tumor sub-sample B",human non-small cell lung cancer tissue,male,65,lung,adeno,2B
+-,GSM835275,"patient 07, tumor sub-sample C",human non-small cell lung cancer tissue,male,65,lung,adeno,2B
+-,GSM835276,"patient 07, tumor sub-sample D",human non-small cell lung cancer tissue,male,65,lung,adeno,2B
+-,GSM835277,"patient 07, matched normal lung","human, normal lung tissue",male,65,lung,normal lung,
+-,GSM835278,"patient 08, tumor sub-sample A",human non-small cell lung cancer tissue,female,54,lung,mixed,1A
+-,GSM835279,"patient 08, tumor sub-sample B",human non-small cell lung cancer tissue,female,54,lung,mixed,1A
+-,GSM835280,"patient 08, tumor sub-sample C",human non-small cell lung cancer tissue,female,54,lung,mixed,1A
+-,GSM835281,"patient 08, tumor sub-sample D",human non-small cell lung cancer tissue,female,54,lung,mixed,1A
+-,GSM835282,"patient 08, matched normal lung","human, normal lung tissue",female,54,lung,normal lung,
+-,GSM835283,"patient 10, tumor sub-sample A",human non-small cell lung cancer tissue,male,67,lung,mixed,1B
+-,GSM835284,"patient 10, tumor sub-sample B",human non-small cell lung cancer tissue,male,67,lung,mixed,1B
+-,GSM835285,"patient 10, tumor sub-sample C",human non-small cell lung cancer tissue,male,67,lung,mixed,1B
+-,GSM835286,"patient 10, tumor sub-sample D",human non-small cell lung cancer tissue,male,67,lung,mixed,1B
+-,GSM835287,"patient 10, matched normal lung","human, normal lung tissue",male,67,lung,normal lung,
+-,GSM835288,"patient 11, tumor sub-sample A",human non-small cell lung cancer tissue,male,65,lung,mixed,1A
+-,GSM835289,"patient 11, tumor sub-sample B",human non-small cell lung cancer tissue,male,65,lung,mixed,1A
+-,GSM835290,"patient 11, tumor sub-sample C",human non-small cell lung cancer tissue,male,65,lung,mixed,1A
+-,GSM835291,"patient 11, tumor sub-sample D",human non-small cell lung cancer tissue,male,65,lung,mixed,1A
+-,GSM835292,"patient 11, matched normal lung","human, normal lung tissue",male,65,lung,normal lung,
+-,GSM835293,"patient 17, tumor sub-sample A",human non-small cell lung cancer tissue,male,54,lung,adeno,2B
+-,GSM835294,"patient 17, tumor sub-sample B",human non-small cell lung cancer tissue,male,54,lung,adeno,2B
+-,GSM835295,"patient 17, tumor sub-sample C",human non-small cell lung cancer tissue,male,54,lung,adeno,2B
+-,GSM835296,"patient 17, tumor sub-sample D",human non-small cell lung cancer tissue,male,54,lung,adeno,2B
+-,GSM835297,"patient 17, matched normal lung","human, normal lung tissue",male,54,lung,normal lung,
+-,GSM835298,"patient 22, tumor sub-sample A",human non-small cell lung cancer tissue,male,59,lung,adeno,2A
+-,GSM835299,"patient 22, tumor sub-sample B",human non-small cell lung cancer tissue,male,59,lung,adeno,2A
+-,GSM835300,"patient 22, tumor sub-sample C",human non-small cell lung cancer tissue,male,59,lung,adeno,2A
+-,GSM835301,"patient 22, tumor sub-sample D",human non-small cell lung cancer tissue,male,59,lung,adeno,2A
+-,GSM835302,"patient 22, matched normal lung","human, normal lung tissue",male,59,lung,normal lung,
+-,GSM835303,"patient 27, tumor sub-sample A",human non-small cell lung cancer tissue,female,65,lung,adeno,1B
+-,GSM835304,"patient 27, tumor sub-sample B",human non-small cell lung cancer tissue,female,65,lung,adeno,1B
+-,GSM835305,"patient 27, tumor sub-sample C",human non-small cell lung cancer tissue,female,65,lung,adeno,1B
+-,GSM835306,"patient 27, tumor sub-sample D",human non-small cell lung cancer tissue,female,65,lung,adeno,1B
+-,GSM835307,"patient 27, matched normal lung","human, normal lung tissue",female,65,lung,normal lung,
+-,GSM835308,"patient 28, tumor sub-sample A",human non-small cell lung cancer tissue,male,61,lung,adeno,1B
+-,GSM835309,"patient 28, tumor sub-sample B",human non-small cell lung cancer tissue,male,61,lung,adeno,1B
+-,GSM835310,"patient 28, tumor sub-sample C",human non-small cell lung cancer tissue,male,61,lung,adeno,1B
+-,GSM835311,"patient 28, tumor sub-sample D",human non-small cell lung cancer tissue,male,61,lung,adeno,1B
+-,GSM835312,"patient 28, matched normal lung","human, normal lung tissue",male,61,lung,normal lung,
+-,GSM835313,"patient 34, tumor sub-sample A",human non-small cell lung cancer tissue,male,58,lung,squamous,1B
+-,GSM835314,"patient 34, tumor sub-sample B",human non-small cell lung cancer tissue,male,58,lung,squamous,1B
+-,GSM835315,"patient 34, tumor sub-sample C",human non-small cell lung cancer tissue,male,58,lung,squamous,1B
+-,GSM835316,"patient 34, tumor sub-sample D",human non-small cell lung cancer tissue,male,58,lung,squamous,1B
+-,GSM835317,"patient 34, matched normal lung","human, normal lung tissue",male,58,lung,normal lung,
+-,GSM835318,"patient 41, tumor sub-sample A",human non-small cell lung cancer tissue,male,65,lung,adeno,1B
+-,GSM835319,"patient 41, tumor sub-sample B",human non-small cell lung cancer tissue,male,65,lung,adeno,1B
+-,GSM835320,"patient 41, tumor sub-sample C",human non-small cell lung cancer tissue,male,65,lung,adeno,1B
+-,GSM835321,"patient 41, tumor sub-sample D",human non-small cell lung cancer tissue,male,65,lung,adeno,1B
+-,GSM835322,"patient 41, matched normal lung","human, normal lung tissue",male,65,lung,normal lung,
+-,GSM835323,"patient 42, tumor sub-sample A",human non-small cell lung cancer tissue,male,62,lung,squamous,1A
+-,GSM835324,"patient 42, tumor sub-sample B",human non-small cell lung cancer tissue,male,62,lung,squamous,1A
+-,GSM835325,"patient 42, tumor sub-sample C",human non-small cell lung cancer tissue,male,62,lung,squamous,1A
+-,GSM835326,"patient 42, tumor sub-sample D",human non-small cell lung cancer tissue,male,62,lung,squamous,1A
+-,GSM835327,"patient 42, matched normal lung","human, normal lung tissue",male,62,lung,normal lung,
+-,GSM835328,"patient 43, tumor sub-sample A",human non-small cell lung cancer tissue,male,61,lung,mixed,1B
+-,GSM835329,"patient 43, tumor sub-sample B",human non-small cell lung cancer tissue,male,61,lung,mixed,1B
+-,GSM835330,"patient 43, tumor sub-sample C",human non-small cell lung cancer tissue,male,61,lung,mixed,1B
+-,GSM835331,"patient 43, tumor sub-sample D",human non-small cell lung cancer tissue,male,61,lung,mixed,1B
+-,GSM835332,"patient 43, matched normal lung","human, normal lung tissue",male,61,lung,normal lung,
+-,GSM835333,"patient 57, tumor sub-sample A",human non-small cell lung cancer tissue,male,69,lung,adeno,1B
+-,GSM835334,"patient 57, tumor sub-sample B",human non-small cell lung cancer tissue,male,69,lung,adeno,1B
+-,GSM835335,"patient 57, tumor sub-sample C",human non-small cell lung cancer tissue,male,69,lung,adeno,1B
+-,GSM835336,"patient 57, tumor sub-sample D",human non-small cell lung cancer tissue,male,69,lung,adeno,1B
+-,GSM835337,"patient 57, matched normal lung","human, normal lung tissue",male,69,lung,normal lung,
+-,GSM835338,"patient 58, tumor sub-sample A",human non-small cell lung cancer tissue,female,38,lung,adeno,1A
+-,GSM835339,"patient 58, tumor sub-sample B",human non-small cell lung cancer tissue,female,38,lung,adeno,1A
+-,GSM835340,"patient 58, tumor sub-sample C",human non-small cell lung cancer tissue,female,38,lung,adeno,1A
+-,GSM835341,"patient 58, tumor sub-sample D",human non-small cell lung cancer tissue,female,38,lung,adeno,1A
+-,GSM835342,"patient 58, matched normal lung","human, normal lung tissue",female,38,lung,normal lung,
+-,GSM835343,"patient 59, tumor sub-sample A",human non-small cell lung cancer tissue,male,65,lung,mixed,1B
+-,GSM835344,"patient 59, tumor sub-sample B",human non-small cell lung cancer tissue,male,65,lung,mixed,1B
+-,GSM835345,"patient 59, tumor sub-sample C",human non-small cell lung cancer tissue,male,65,lung,mixed,1B
+-,GSM835346,"patient 59, tumor sub-sample D",human non-small cell lung cancer tissue,male,65,lung,mixed,1B
+-,GSM835347,"patient 59, matched normal lung","human, normal lung tissue",male,65,lung,normal lung,
+-,GSM835348,"patient 62, tumor sub-sample A",human non-small cell lung cancer tissue,male,65,lung,adeno,1B
+-,GSM835349,"patient 62, tumor sub-sample B",human non-small cell lung cancer tissue,male,65,lung,adeno,1B
+-,GSM835350,"patient 62, tumor sub-sample C",human non-small cell lung cancer tissue,male,65,lung,adeno,1B
+-,GSM835351,"patient 62, tumor sub-sample D",human non-small cell lung cancer tissue,male,65,lung,adeno,1B
+-,GSM835352,"patient 62, matched normal lung","human, normal lung tissue",male,65,lung,normal lung,
+-,GSM835353,"patient 85, tumor sub-sample A",human non-small cell lung cancer tissue,male,62,lung,squamous,2B
+-,GSM835354,"patient 85, tumor sub-sample B",human non-small cell lung cancer tissue,male,62,lung,squamous,2B
+-,GSM835355,"patient 85, tumor sub-sample C",human non-small cell lung cancer tissue,male,62,lung,squamous,2B
+-,GSM835356,"patient 85, tumor sub-sample D",human non-small cell lung cancer tissue,male,62,lung,squamous,2B
+-,GSM835357,"patient 85, matched normal lung","human, normal lung tissue",male,62,lung,normal lung,
+-,GSM835358,"patient 93, tumor sub-sample A",human non-small cell lung cancer tissue,male,64,lung,squamous,2B
+-,GSM835359,"patient 93, tumor sub-sample B",human non-small cell lung cancer tissue,male,64,lung,squamous,2B
+-,GSM835360,"patient 93, tumor sub-sample C",human non-small cell lung cancer tissue,male,64,lung,squamous,2B
+-,GSM835361,"patient 93, tumor sub-sample D",human non-small cell lung cancer tissue,male,64,lung,squamous,2B
+-,GSM835362,"patient 93, matched normal lung","human, normal lung tissue",male,64,lung,normal lung,
+-,GSM835363,"patient 98, tumor sub-sample A",human non-small cell lung cancer tissue,male,69,lung,mixed,1B
+-,GSM835364,"patient 98, tumor sub-sample B",human non-small cell lung cancer tissue,male,69,lung,mixed,1B
+-,GSM835365,"patient 98, tumor sub-sample C",human non-small cell lung cancer tissue,male,69,lung,mixed,1B
+-,GSM835366,"patient 98, tumor sub-sample D",human non-small cell lung cancer tissue,male,69,lung,mixed,1B
+-,GSM835367,"patient 98, matched normal lung","human, normal lung tissue",male,69,lung,normal lung,

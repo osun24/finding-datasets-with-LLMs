@@ -1,0 +1,9 @@
+# TITLE: Reactivation of ERK signaling causes resistance to EGFR kinase inhibitors
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL571_Group,GPL571_Accession,GPL571_Title,GPL571_Source name,GPL571_Cell line,GPL571_Wz4002 resistant,GPL3720_Group,GPL3720_Accession,GPL3720_Title,GPL3720_Source name,GPL3720_Cell line,GPL3720_Wz4002 resistant
+-,GSM925743,NCI-H1975_parental_rep1,"NCI-H1975 NSCLC cells, WZ4002 sensitive",NCI-H1975,no,-,GSM925738,GR4,"PC9 NSCLC cells, WZ4002 sensitive",PC9,no
+-,GSM925744,NCI-H1975_parental_rep2,"NCI-H1975 NSCLC cells, WZ4002 sensitive",NCI-H1975,no,-,GSM925739,WZR9,"PC9 NSCLC cells, WZ4002 resistant",PC9,yes
+-,GSM925745,NCI-H1975_parental_rep3,"NCI-H1975 NSCLC cells, WZ4002 sensitive",NCI-H1975,no,-,GSM925740,WZR10,"PC9 NSCLC cells, WZ4002 resistant",PC9,yes
+-,GSM925746,NCI-H1975_WZR6_rep1,"NCI-H1975 NSCLC cells, WZ4002 resistant",NCI-H1975,yes,-,GSM925741,WZR11,"PC9 NSCLC cells, WZ4002 resistant",PC9,yes
+-,GSM925747,NCI-H1975_WZR6_rep2,"NCI-H1975 NSCLC cells, WZ4002 resistant",NCI-H1975,yes,-,GSM925742,WZR12,"PC9 NSCLC cells, WZ4002 resistant",PC9,yes
+-,GSM925748,NCI-H1975_WZR6_rep3,"NCI-H1975 NSCLC cells, WZ4002 resistant",NCI-H1975,yes,,,,,,

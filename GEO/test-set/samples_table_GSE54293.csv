@@ -1,0 +1,11 @@
+# TITLE: Akt inhibitor MK2206 prevents influenza A(H1N1)pdm09 virus infection in vitro
+# SUMMARY: The influenza A(H1N1)pdm09 virus caused a global flu pandemic in 2009 and contributes to seasonal epidemics. Different treatment and prevention options for influenza have been developed and applied with limited success. Here we report that an Akt inhibitor MK2206 possesses potent antiviral activity against influenza A(H1N1)pdm09 virus in vitro. We showed that MK2206 blocks the entry of different A(H1N1)pdm09 strains into cells. Moreover, MK2206 prevented A(H1N1)pdm09-mediated activation of cellular signaling pathways and the development of cellular immune responses. Importantly, A(H1N1)pdm09 virus was unable to develop resistance to MK2206. Thus, MK2206 is a potent anti-influenza A(H1N1)pdm09 agent.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Tissue,GPL10558_Cell line
+-,GSM1312274,NCI-H1666-rep1,Human non-small cell lung cancer line NCI-H1666,non-small cell lung cancer,NCI-H1666
+-,GSM1312275,NCI-H1666-rep2,Human non-small cell lung cancer line NCI-H1666,non-small cell lung cancer,NCI-H1666
+-,GSM1312276,NCI-H1666 MK2206 treated-rep1,Human non-small cell lung cancer line NCI-H1666,non-small cell lung cancer,NCI-H1666
+-,GSM1312277,NCI-H1666 MK2206 treated-rep2,Human non-small cell lung cancer line NCI-H1666,non-small cell lung cancer,NCI-H1666
+-,GSM1312278,NCI-H1666 infected-rep1,Human non-small cell lung cancer line NCI-H1666,non-small cell lung cancer,NCI-H1666
+-,GSM1312279,NCI-H1666 infected-rep2,Human non-small cell lung cancer line NCI-H1666,non-small cell lung cancer,NCI-H1666
+-,GSM1312280,NCI-H1666 infected and MK2206 treated-rep1,Human non-small cell lung cancer line NCI-H1666,non-small cell lung cancer,NCI-H1666
+-,GSM1312281,NCI-H1666 infected and MK2206 treated-rep2,Human non-small cell lung cancer line NCI-H1666,non-small cell lung cancer,NCI-H1666

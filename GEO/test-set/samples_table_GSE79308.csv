@@ -1,0 +1,9 @@
+# TITLE: PNAs-A15 effects on non-small cell lung cancer cell line
+# SUMMARY: Expression profile of parental wild type non-small cell lung cancer, NCI-H460, and cancer stem cell-rich (CSC-rich) populations treated with PNAs-A15 for 6 h. Results provide the information that PNAs-A15, a peptide nucleic acid of A-repeats length 15 bp, suppressed up-regulated A-repeats containing genes in both parental wild type and CSC-rich cells.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Cell type
+-,GSM2091352,WT-ctr,WT control,NCI-H460,non-small cell lung cancer cell line
+-,GSM2091353,WT-SC,Scramble-treated WT,NCI-H460,non-small cell lung cancer cell line
+-,GSM2091354,WT-PNA,PNAs-A15-treated WT,NCI-H460,non-small cell lung cancer cell line
+-,GSM2091355,CSC-ctr,CSC-rich control,NCI-H460,cancer stem cell-rich cells derived from non-small cell lung cancer cell line
+-,GSM2091356,CSC-SC,Scramble-treated CSC-rich,NCI-H460,cancer stem cell-rich cells derived from non-small cell lung cancer cell line
+-,GSM2091357,CSC-PNA,PNA-treated CSC-rich,NCI-H460,cancer stem cell-rich cells derived from non-small cell lung cancer cell line

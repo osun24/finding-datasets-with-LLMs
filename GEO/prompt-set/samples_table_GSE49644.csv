@@ -1,0 +1,21 @@
+# TITLE: Gene expression profiling of NSCLC cell lines upon TGFb-induced epithelial-mesenchymal transition (EMT)
+# SUMMARY: Epithelial-mesenchymal transition has been implicated in tumor metasisi, cancer drug resistance and cancer stem cell features. In this study, we examined gene expression profiles of three non-small cell lung cancer cell lines, before and after experimentally induced EMT.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Cell type
+-,GSM1203354,638298.A549.Parental,A549.Parental,A549,Lung cancer
+-,GSM1203355,638301.A549.Parental,A549.Parental,A549,Lung cancer
+-,GSM1203356,638302.A549.Parental,A549.Parental,A549,Lung cancer
+-,GSM1203357,638303.A549.EMT,A549.EMT,A549,Lung cancer
+-,GSM1203358,638304.A549.EMT,A549.EMT,A549,Lung cancer
+-,GSM1203359,638305.A549.EMT,A549.EMT,A549,Lung cancer
+-,GSM1203360,638297.HCC827.Parental,HCC827.Parental,HCC827,Lung cancer
+-,GSM1203361,638306.HCC827.Parental,HCC827.Parental,HCC827,Lung cancer
+-,GSM1203362,638307.HCC827.Parental,HCC827.Parental,HCC827,Lung cancer
+-,GSM1203363,638308.HCC827.EMT,HCC827.EMT,HCC827,Lung cancer
+-,GSM1203364,638309.HCC827.EMT,HCC827.EMT,HCC827,Lung cancer
+-,GSM1203365,638310.HCC827.EMT,HCC827.EMT,HCC827,Lung cancer
+-,GSM1203366,638299.NCI-H358.Parental,NCI-H358.Parental,NCI-H358,Lung cancer
+-,GSM1203367,638311.NCI-H358.Parental,NCI-H358.Parental,NCI-H358,Lung cancer
+-,GSM1203368,638312.NCI-H358.Parental,NCI-H358.Parental,NCI-H358,Lung cancer
+-,GSM1203369,638313.NCI-H358.EMT,NCI-H358.EMT,NCI-H358,Lung cancer
+-,GSM1203370,638314.NCI-H358.EMT,NCI-H358.EMT,NCI-H358,Lung cancer
+-,GSM1203371,638315.NCI-H358.EMT,NCI-H358.EMT,NCI-H358,Lung cancer

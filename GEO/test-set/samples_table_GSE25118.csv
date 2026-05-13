@@ -1,0 +1,9 @@
+# TITLE: Regulation of gene expression in ALK inhibitor CH5424802-treated NCI-H2228 xenograft tumors
+# SUMMARY: To clarify the downstream signal pathway of EML4-ALK in NSCLC, we performed Affymetrix GeneChip analysis using ALK inhibitor CH5424802-treated NCI-H2228 xenograft tumors, and comprehensively characterized the gene expression regulated by inhibition of activated ALK.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue,GPL570_Agent,GPL570_Dose
+-,GSM617134,NCI-H2228 xenograft_Vehicle_rep1,NCI-H2228 xenograft_Vehicle_rep1,NCI-H2228 xenograft tumor,Vehicle,n/a
+-,GSM617135,NCI-H2228 xenograft_Vehicle_rep2,NCI-H2228 xenograft_Vehicle_rep2,NCI-H2228 xenograft tumor,Vehicle,n/a
+-,GSM617136,NCI-H2228 xenograft_CH5424802_4mg/kg_rep1,NCI-H2228 xenograft_CH5424802_4mg/kg_rep1,NCI-H2228 xenograft tumor,CH5424802,4mg/kg
+-,GSM617137,NCI-H2228 xenograft_CH5424802_4mg/kg_rep2,NCI-H2228 xenograft_CH5424802_4mg/kg_rep2,NCI-H2228 xenograft tumor,CH5424802,4mg/kg
+-,GSM617138,NCI-H2228 xenograft_CH5424802_20mg/kg_rep1,NCI-H2228 xenograft_CH5424802_20mg/kg_rep1,NCI-H2228 xenograft tumor,CH5424802,20mg/kg
+-,GSM617139,NCI-H2228 xenograft_CH5424802_20mg/kg_rep2,NCI-H2228 xenograft_CH5424802_20mg/kg_rep2,NCI-H2228 xenograft tumor,CH5424802,20mg/kg

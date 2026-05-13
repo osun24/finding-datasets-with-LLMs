@@ -1,0 +1,21 @@
+# TITLE: GENOME-WIDE CpG ISLAND METHYLATION ANALYSIS IN NON-SMALL CELL LUNG CANCER PATIENTS [Affymetrix expression data]
+# SUMMARY: Epigenetic changes largely contribute to the regulation of gene expression in cancer cells. DNA methylation is part of the epigenetic gene regulation complex which is relevant for the pathogenesis of cancer. We performed a genome-wide search for methylated CpG islands in tumors and corresponding non-malignant lung tissue samples of 101 stage I-III non-small cell lung cancer (NSCLC) patients by combining methylated DNA immunoprecipitation and microarray analysis using NimbleGen´s 385K Human CpG Island plus Promoter arrays. By testing for differences in methylation between tumors and corresponding non-malignant lung tissues, we identified 298 tumor-specifically methylated genes. From many of these genes epigenetic regulation was unknown so far. Gene Ontology analysis revealed an over-representation of genes involved in regulation of gene expression and cell adhesion. Expression of 182 of 298 genes was found to be upregulated after 5-aza-2´-deoxycytidine (Aza-dC) and/or trichostatin A (TSA) treatment of 3 NSCLC cell lines by Affymetrix microarray analysis. In addition, methylation of selected genes in primary NSCLCs and corresponding non-malignant lung tissue samples were analyzed by methylation-sensitive high resolution melting analysis (MS-HRM). Our results obtained by MS-HRM analysis confirmed our data obtained by MeDIP-chip analysis. Moreover, by comparing methylation results from MeDIP-chip analysis with clinico-pathological parameters of the patients we observed methylation of HOXA2 as potential parameter for shorter disease-free survival of NSCLC patients. In conclusion, using a genome-wide approach we identified a large number of tumor-specifically methylated genes in NSCLC patients. Our results stress the importance of DNA methylation for the pathogenesis of NSCLCs.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Treatment
+-,GSM804399,A549 C1,NSCLC cell line A549,NSCLC cell line A549,untreated
+-,GSM804400,A549 C2,NSCLC cell line A549,NSCLC cell line A549,untreated
+-,GSM804401,A549 A1,NSCLC cell line A549,NSCLC cell line A549,Aza-dC treated
+-,GSM804402,A549 A2,NSCLC cell line A549,NSCLC cell line A549,Aza-dC treated
+-,GSM804403,A549 AT1,NSCLC cell line A549,NSCLC cell line A549,Aza-dC/TSA treated
+-,GSM804404,A549 AT2,NSCLC cell line A549,NSCLC cell line A549,Aza-dC/TSA treated
+-,GSM804405,H1993 C1,NSCLC cell line H1993,NSCLC cell line H1993,untreated
+-,GSM804406,H1993 C2,NSCLC cell line H1993,NSCLC cell line H1993,untreated
+-,GSM804407,H1993 A1,NSCLC cell line H1993,NSCLC cell line H1993,Aza-dC treated
+-,GSM804408,H1993 A2,NSCLC cell line H1993,NSCLC cell line H1993,Aza-dC treated
+-,GSM804409,H1993 AT1,NSCLC cell line H1993,NSCLC cell line H1993,Aza-dC/TSA treated
+-,GSM804410,H1993 AT2,NSCLC cell line H1993,NSCLC cell line H1993,Aza-dC/TSA treated
+-,GSM804411,H2073 C1,NSCLC cell line H2073,NSCLC cell line H2073,untreated
+-,GSM804412,H2073 C2,NSCLC cell line H2073,NSCLC cell line H2073,untreated
+-,GSM804413,H2073 A1,NSCLC cell line H2073,NSCLC cell line H2073,Aza-dC treated
+-,GSM804414,H2073 A2,NSCLC cell line H2073,NSCLC cell line H2073,Aza-dC treated
+-,GSM804415,H2073 AT1,NSCLC cell line H2073,NSCLC cell line H2073,Aza-dC/TSA treated
+-,GSM804416,H2073 AT2,NSCLC cell line H2073,NSCLC cell line H2073,Aza-dC/TSA treated

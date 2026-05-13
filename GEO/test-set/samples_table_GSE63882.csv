@@ -1,0 +1,43 @@
+# TITLE: Expression profiling of 40 NSCLC cell lines
+# SUMMARY: INTRODUCTION: CDKN2A (p16) inactivation is common in lung cancer and occurs via homozygous deletions, methylation of promoter region, or point mutations. Although p16 promoter methylation has been linked to KRAS mutation and smoking, the associations between p16 inactivation mechanisms and other common genetic mutations and smoking status are still controversial or unknown. METHODS: We determined all three p16 inactivation mechanisms with the use of multiple methodologies for genomic status, methylation, RNA, and protein expression, and correlated them with EGFR, KRAS, STK11 mutations and smoking status in 40 cell lines and 45 tumor samples of primary non-small-cell lung carcinoma. We also performed meta-analyses to investigate the impact of smoke exposure on p16 inactivation. RESULTS: p16 inactivation was the major mechanism of RB pathway perturbation in non-small-cell lung carcinoma, with homozygous deletion being the most frequent method, followed by methylation and the rarer point mutations. Inactivating mechanisms were tightly correlated with loss of mRNA and protein expression. p16 inactivation occurred at comparable frequencies regardless of mutational status of EGFR, KRAS, and STK11, however, the major inactivation mechanism of p16 varied. p16 methylation was linked to KRAS mutation but was mutually exclusive with EGFR mutation. Cell lines and tumor samples demonstrated similar results. Our meta-analyses confirmed a modest positive association between p16 promoter methylation and smoking. CONCLUSION: Our results confirm that all the inactivation mechanisms are truly associated with loss of gene product and identify specific associations between p16 inactivation mechanisms and other genetic changes and smoking status.
+GPL6884_Group,GPL6884_Accession,GPL6884_Title,GPL6884_Source name,GPL6884_Histology,GPL6884_Gender,GPL6884_Smoker,GPL6884_Egfr,GPL6884_Kras,GPL6884_Age,GPL6884_Race,GPL6884_Pack-years
+-,GSM1559241,DFCI024_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,N,WT,mutant,,,
+-,GSM1559242,DFCI032_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,N,WT,WT,,,
+-,GSM1559243,H23_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,mutant,51,Black,40
+-,GSM1559244,H522_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,WT,60,White,60
+-,GSM1559245,H647_Adenosquamous,Lung cancer cell line,Adenosquamous,M,N,WT,mutant,56,White,
+-,GSM1559246,H650_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,N,WT,mutant,,,
+-,GSM1559247,H820_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,,mutant,WT,53,White,
+-,GSM1559248,H838_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,WT,59,White,80
+-,GSM1559249,H920_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,WT,44,White,75
+-,GSM1559250,H969_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,N,WT,WT,66,White,
+-,GSM1559251,H1355_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,mutant,53,White,100
+-,GSM1559252,H1373_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,mutant,56,Black,30
+-,GSM1559253,H1385_NSCLC,Lung cancer cell line,NSCLC,F,Y,WT,mutant,49,Black,33
+-,GSM1559254,H1395_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,WT,55,White,15
+-,GSM1559255,H1437_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,WT,60,White,70
+-,GSM1559256,H1568_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,WT,48,White,60
+-,GSM1559257,H1573_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,mutant,35,White,15
+-,GSM1559258,H1650_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,mutant,WT,27,White,10
+-,GSM1559259,H1693_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,WT,55,White,80
+-,GSM1559260,H1703_Adenosquamous,Lung cancer cell line,Adenosquamous,M,Y,WT,WT,56,White,50
+-,GSM1559261,H1792_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,mutant,50,White,30
+-,GSM1559262,H1819_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,WT,55,White,80
+-,GSM1559263,H1944_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,mutant,62,White,40
+-,GSM1559264,H1975_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,N,mutant,WT,,,
+-,GSM1559265,H1993_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,WT,47,White,30
+-,GSM1559266,H2009_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,mutant,68,White,30
+-,GSM1559267,H2030_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,N,WT,mutant,,,
+-,GSM1559268,H2122_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Y,WT,mutant,46,White,30
+-,GSM1559269,H2228_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,N,WT,WT,,,
+-,GSM1559270,H2291_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,N,WT,mutant,,,
+-,GSM1559271,H2405_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,WT,47,White,75
+-,GSM1559272,H3255_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,N,mutant,WT,47,White,
+-,GSM1559273,HCC827_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,Ex-smoker,mutant,WT,38,White,4
+-,GSM1559274,HCC2279_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,F,N,mutant,WT,52,Asian,
+-,GSM1559275,HCC2935_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,N,mutant,WT,39,White,
+-,GSM1559276,HCC4006_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,N,mutant,WT,>50,White,
+-,GSM1559277,HCC4011_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Ex-smoker,mutant,WT,53,White,5
+-,GSM1559278,HCC4017_Large Cell,Lung cancer cell line,Large Cell,F,Ex-smoker,WT,mutant,62,White,76
+-,GSM1559279,HCC4019_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,Y,WT,mutant,40,White,50
+-,GSM1559280,PC-9_Adenocarcinoma,Lung cancer cell line,Adenocarcinoma,M,N,mutant,WT,45,Asian,

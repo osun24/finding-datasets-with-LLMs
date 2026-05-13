@@ -1,0 +1,63 @@
+# TITLE: Novel Lung Cancer-Related Genes Identified by a Non-Gapped Array-Comparative Genomic Hybridization Microarray in Asian and Caucasian Populations
+# SUMMARY: This study constructed a non-gapped bacterial artificial chromosomes (BAC) array containing 3604 BAC clones covering 18 lung cancer-related chromosome imbalance hotspot regions. Using this specialized array, DNA from tumor and normal tissues of 40 Asian and 20 Caucasian non-small cell lung cancer (NSLCL) patients was analyzed by array-comparative genomic hybridization (array-CGH). Block-wise normalization and a Bayes regression approach were used to refine the chromosomal imbalance regions identified by array-CGH. The array-CGH results then analyzed by MetaCore software to identify potential cancer-related genes. Finally, 273 genes showing significantly associated with molecular pathway, cancer biomarker, and gene ontology database, such as ZNF322A on 6p22.1, ARHGAP19 on 10q24.1, FRAT2 on 10q24.1, and PAFAH1B1 on 17p13.3 functioning in MAPK, Rho GTPase, and Wnt, and motility control pathways with frequent copy number gain were selected. This study mapped concisely the novel oncogenes or tumor suppressor genes in lung cancer and revealed insights of difference on chromosomal imbalance between lung cancer from Asian and Caucasian.
+GPL10303_Group,GPL10303_Accession,GPL10303_Title,GPL10303_Source name 1,GPL10303_Source name 2,GPL10303_Tissue (Ch1),GPL10303_Disease status (Ch1),GPL10303_Race (Ch1),GPL10303_Reference source (Ch2)
+-,GSM531885,Asian sample no.D,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531886,Asian sample no.E,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531887,Asian sample no.10,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531888,Asian sample no.14,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531889,Asian sample no.17,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531890,Asian sample no.19,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531891,Asian sample no.20,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531892,Asian sample no.25,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531893,Asian sample no.26,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531894,Asian sample no.32,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531895,Asian sample no.34,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531896,Asian sample no.39,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531897,Asian sample no.41,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531898,Asian sample no.42,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531899,Asian sample no.43,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531900,Asian sample no.45,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531901,Asian sample no.48,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531902,Asian sample no.49,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531903,Asian sample no.54,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531904,Asian sample no.55,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531905,Asian sample no.62,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531906,Asian sample no.63,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531907,Asian sample no.66,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531908,Asian sample no.69,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531909,Asian sample no.71,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531910,Asian sample no.72,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531911,Asian sample no.75,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531912,Asian sample no.76,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531913,Asian sample no.79,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531914,Asian sample no.80,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531915,Asian sample no.85,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531916,Asian sample no.92,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531917,Asian sample no.103,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531918,Asian sample no.104,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531919,Asian sample no.112,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531920,Asian sample no.136,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531921,Asian sample no.171,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531922,Asian sample no.172,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531923,Asian sample no.190,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531924,Asian sample no.221,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Asian,28 matched-normal genomic DNA pool from Aaian lung cancer
+-,GSM531925,Caucasian sample no.49,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531926,Caucasian sample no.50,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531927,Caucasian sample no.51,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531928,Caucasian sample no.52,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531929,Caucasian sample no.53,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531930,Caucasian sample no.55,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531931,Caucasian sample no.56,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531932,Caucasian sample no.57,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531933,Caucasian sample no.58,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531934,Caucasian sample no.59,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531935,Caucasian sample no.81,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531936,Caucasian sample no.82,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531937,Caucasian sample no.83,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531938,Caucasian sample no.84,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531939,Caucasian sample no.86,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531940,Caucasian sample no.87,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531941,Caucasian sample no.88,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531942,Caucasian sample no.89,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531943,Caucasian sample no.90,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"
+-,GSM531944,Caucasian sample no.91,Tumor sample,Reference sample,lung,non-small cell lung cancer (NSLCL),Caucasian,"commercial human genomic DNA, Invitrogen"

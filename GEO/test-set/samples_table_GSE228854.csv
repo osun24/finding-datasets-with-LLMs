@@ -1,0 +1,11 @@
+# TITLE: gene expression profiling
+# SUMMARY: A number of homeobox genes have been found to be implicated in the development of various cancers. Here, we investigated the role of engrailed 2 (EN2), a member of the homeobox gene superfamily, in non-small cell lung cancer
+GPL16043_Group,GPL16043_Accession,GPL16043_Title,GPL16043_Source name,GPL16043_Cell line
+-,GSM7140722,Homo_A549_EN2_rep1,EN2-A549,non-small cell lung cancer cell line
+-,GSM7140723,Homo_A549_EN2_rep2,EN2-A549,non-small cell lung cancer cell line
+-,GSM7140724,Homo_A549_NC_rep1,neo-A549,non-small cell lung cancer cell line
+-,GSM7140725,Homo_A549_NC_rep2,neo-A549,non-small cell lung cancer cell line
+-,GSM7140726,Homo_PC9_EN2_rep1,EN2-PC9,non-small cell lung cancer cell line
+-,GSM7140727,Homo_PC9_EN2_rep2,EN2-PC9,non-small cell lung cancer cell line
+-,GSM7140728,Homo_PC9_NC_rep1,neo-PC9,non-small cell lung cancer cell line
+-,GSM7140729,Homo_PC9_NC_rep2,neo-PC9,non-small cell lung cancer cell line

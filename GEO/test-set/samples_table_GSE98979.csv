@@ -1,0 +1,48 @@
+# TITLE: Dissecting molecular mediators of TGFb- and HGF-induced cell mechanical enhancement in NSCLC
+# SUMMARY: Importance of growth factor (GF) signaling in cancer progression is widely acknowledged. Transforming growth factor beta (TGFβ) and and hepa- tocyte growth factor (HGF) are known to play a key role in epithelial-to- mesenchymal transition (EMT) and metastatic cell transformation that are characterized by distinctive alterations in cell mechanical architecture and behavior towards a more robust and motile single cell phenotype. How- ever, molecular mechanisms mediating cancer type specific enhancement of cell mechanical properties in response to growth factors remain unlighted. Here, we combine high-throughput mechanical cell phenotyping, microarray analysis and gene-silencing to dissect molecular mediators of GF-induces cell mechanical enhancement in non-small-cell lung adenocarcinoma (NSCLC). Our experimental results show that both growth factors elevate cell rigidity, size and migratory activity, however, effects of TGFβ stimulation on cell mechanical phenotype and differential gene expression turn out to be significantly stronger. Our microarray analysis reveals that TGFβ-treated NSCLC cells exhibit upregulation of migration-, adhesion-related and down- regulation of cytokinesis-related groups of genes. In addition to vimentin, a canonical marker of EMT, a large number of cytoskeletal and motor proteins including previously reported MYL9, MYLK, TMP1 but also less-known un- conventional myosins are overexpressed in lung adenocarcenoma cells upon treatment with TGFβ. Selective probing of gene-silenced cells lead to identi- fication of unconventional myosin MYH15 as a novel mediator of elevated cell rigidity and invasiveness in TGFβ-stimulated NSCLC cells. In comparison to TGFβ, HGF-treated NSCLC cells respond with upregulation of a relatively small number of genes that are related to actin cyskeleton, microtubules and caveolae. Our results provide insights into phenotypic effects and molecular mechanisms of TGFβ- and HGF-induced mesenchymal cell transformation in NSCLC, and suggest that mediators of cell mechanical enhancement such as unconventional cytoskeletal and motor proteins represent promising phar- maceutical targets for restraining invasive spread of lung cancer.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Gender,GPL16686_Cell line,GPL16686_Time,GPL16686_Tissue,GPL16686_Stimulus
+-,GSM2629542,H1975_Control_0h_1,Lung,female,H1975,0h,Lung,Control
+-,GSM2629543,H1975_Control_0h_2,Lung,female,H1975,0h,Lung,Control
+-,GSM2629544,H1975_Control_0h_3,Lung,female,H1975,0h,Lung,Control
+-,GSM2629545,H1975_Control_0.5h_1,Lung,female,H1975,0.5h,Lung,Control
+-,GSM2629546,H1975_Control_1h_1,Lung,female,H1975,1h,Lung,Control
+-,GSM2629547,H1975_Control_2h_1,Lung,female,H1975,2h,Lung,Control
+-,GSM2629548,H1975_Control_4h_1,Lung,female,H1975,4h,Lung,Control
+-,GSM2629549,H1975_Control_6h_1,Lung,female,H1975,6h,Lung,Control
+-,GSM2629550,H1975_Control_12h_1,Lung,female,H1975,12h,Lung,Control
+-,GSM2629551,H1975_Control_24h_1,Lung,female,H1975,24h,Lung,Control
+-,GSM2629552,H1975_Control_24h_2,Lung,female,H1975,24h,Lung,Control
+-,GSM2629553,H1975_Control_24h_3,Lung,female,H1975,24h,Lung,Control
+-,GSM2629554,H1975_Control_48h_1,Lung,female,H1975,48h,Lung,Control
+-,GSM2629555,H1975_Control_48h_2,Lung,female,H1975,48h,Lung,Control
+-,GSM2629556,H1975_Control_48h_3,Lung,female,H1975,48h,Lung,Control
+-,GSM2629557,H1975_HGF_0.5h_1,Lung,female,H1975,0.5h,Lung,HGF stimulation
+-,GSM2629558,H1975_HGF_0.5h_2,Lung,female,H1975,0.5h,Lung,HGF stimulation
+-,GSM2629559,H1975_HGF_1h_1,Lung,female,H1975,1h,Lung,HGF stimulation
+-,GSM2629560,H1975_HGF_2h_1,Lung,female,H1975,2h,Lung,HGF stimulation
+-,GSM2629561,H1975_HGF_4h_1,Lung,female,H1975,4h,Lung,HGF stimulation
+-,GSM2629562,H1975_HGF_6h_1,Lung,female,H1975,6h,Lung,HGF stimulation
+-,GSM2629563,H1975_HGF_8h_1,Lung,female,H1975,8h,Lung,HGF stimulation
+-,GSM2629564,H1975_HGF_12h_1,Lung,female,H1975,12h,Lung,HGF stimulation
+-,GSM2629565,H1975_HGF_18h_1,Lung,female,H1975,18h,Lung,HGF stimulation
+-,GSM2629566,H1975_HGF_24h_1,Lung,female,H1975,24h,Lung,HGF stimulation
+-,GSM2629567,H1975_HGF_24h_2,Lung,female,H1975,24h,Lung,HGF stimulation
+-,GSM2629568,H1975_HGF_24h_3,Lung,female,H1975,24h,Lung,HGF stimulation
+-,GSM2629569,H1975_HGF_48h_1,Lung,female,H1975,48h,Lung,HGF stimulation
+-,GSM2629570,H1975_HGF_48h_2,Lung,female,H1975,48h,Lung,HGF stimulation
+-,GSM2629571,H1975_HGF_48h_3,Lung,female,H1975,48h,Lung,HGF stimulation
+-,GSM2629572,H1975_TGFb_0.5h_1,Lung,female,H1975,0.5h,Lung,TGF-beta stimulation
+-,GSM2629573,H1975_TGFb_0.5h_2,Lung,female,H1975,0.5h,Lung,TGF-beta stimulation
+-,GSM2629574,H1975_TGFb_1h_1,Lung,female,H1975,1h,Lung,TGF-beta stimulation
+-,GSM2629575,H1975_TGFb_2h_1,Lung,female,H1975,2h,Lung,TGF-beta stimulation
+-,GSM2629576,H1975_TGFb_4h_1,Lung,female,H1975,4h,Lung,TGF-beta stimulation
+-,GSM2629577,H1975_TGFb_6h_1,Lung,female,H1975,6h,Lung,TGF-beta stimulation
+-,GSM2629578,H1975_TGFb_8h_1,Lung,female,H1975,8h,Lung,TGF-beta stimulation
+-,GSM2629579,H1975_TGFb_12h_1,Lung,female,H1975,12h,Lung,TGF-beta stimulation
+-,GSM2629580,H1975_TGFb_18h_1,Lung,female,H1975,18h,Lung,TGF-beta stimulation
+-,GSM2629581,H1975_TGFb_24h_1,Lung,female,H1975,24h,Lung,TGF-beta stimulation
+-,GSM2629582,H1975_TGFb_24h_2,Lung,female,H1975,24h,Lung,TGF-beta stimulation
+-,GSM2629583,H1975_TGFb_24h_3,Lung,female,H1975,24h,Lung,TGF-beta stimulation
+-,GSM2629584,H1975_TGFb_48h_1,Lung,female,H1975,48h,Lung,TGF-beta stimulation
+-,GSM2629585,H1975_TGFb_48h_2,Lung,female,H1975,48h,Lung,TGF-beta stimulation
+-,GSM2629586,H1975_TGFb_48h_3,Lung,female,H1975,48h,Lung,TGF-beta stimulation

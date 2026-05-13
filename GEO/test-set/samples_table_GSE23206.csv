@@ -1,0 +1,5 @@
+# TITLE: NSCLC cells treated with Gefitinib
+# SUMMARY: About 10% of all NSCLC patients respond to gefitnib treatment and all of these patients will acquire resistance to the EGFR TKI. We used microarray to look at global gene expression changes in untreated cells vs gefitinib treated cells to identify key characters for the acquisition of resistance.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Treatment
+-,GSM570906,H322c DMSO,H322c after 4 days cultured with 0.1% DMSO,H322c,DMSO
+-,GSM570907,H322c 1μM Gefitinib,H322c after 4 days cultured with 1μM gefitinib,H322c,Gefitinib

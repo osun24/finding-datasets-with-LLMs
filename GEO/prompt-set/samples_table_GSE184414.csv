@@ -1,0 +1,9 @@
+# TITLE: Expression data from NSCLC cells before and after berberine treatment
+# SUMMARY: Natural products play an important role in the prevention and treatment of lung cancer. Gene chip technology to analyze the differentially expressed genes in adenocarcinoma after berberine treatment
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell type,GPL15207_Cell line
+-,GSM5588473,A549_biological rep1,Lung adenocarcinoma cells,Lung adenocarcinoma cells,A549
+-,GSM5588474,A549_biological rep2,Lung adenocarcinoma cells,Lung adenocarcinoma cells,A549
+-,GSM5588475,A549_biological rep3,Lung adenocarcinoma cells,Lung adenocarcinoma cells,A549
+-,GSM5588476,Berberine treated A549_biological rep1,Lung adenocarcinoma cells after berberine treatment,Lung adenocarcinoma cells,A549
+-,GSM5588477,Berberine treated A549_biological rep2,Lung adenocarcinoma cells after berberine treatment,Lung adenocarcinoma cells,A549
+-,GSM5588478,Berberine treated A549_biological rep3,Lung adenocarcinoma cells after berberine treatment,Lung adenocarcinoma cells,A549

@@ -1,0 +1,229 @@
+# TITLE: Gene expression profiling of the adjacent airway field cancerization in early stage NSCLC
+# SUMMARY: Previous work has shown that lung tumors and normal-appearing adjacent lung tissues share specific abnormalities that may be highly pertinent to the pathogenesis of lung cancer. However, the global and molecular adjacent airway field cancerization in non-small cell lung cancer (NSCLC) has not been characterized before. We sought to understand the transcriptomic architecture of the adjacent airway field canerization, in conjunction with tumors, to gain additional insights into the lung cancer biology and oncogenesis.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Tissue,GPL6244_Sample collection,GPL6244_Characteristics
+-,GSM1077844,NSCLC tissue from field cancerization case 1 [GFS_IW00307],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077845,Normal lung tissue from field cancerization case 1 [GFS_IW00308],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077846,NSCLC tissue from field cancerization case 1 [GFS_IW00309],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077847,Normal lung tissue from field cancerization case 1 [GFS_IW00310],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077848,NSCLC specimen from field cancerization case 1 [GFS_IW00311],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077849,Normal lung specimen from field cancerization case 1 [GFS_IW00312],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077850,Airway sample from field cancerization case 1 [GFS_IW00313],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077851,Airway sample from field cancerization case 1 [GFS_IW00314],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077852,Airway sample from field cancerization case 1 [GFS_IW00315],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077853,NSCLC tissue from field cancerization case 2 [GFS_IW00316],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077854,Normal lung tissue from field cancerization case 2 [GFS_IW00317],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077855,NSCLC tissue from field cancerization case 2 [GFS_IW00318],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077856,Normal lung tissue from field cancerization case 2 [GFS_IW00319],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077857,NSCLC specimen from field cancerization case 2 [GFS_IW00320],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077858,Normal lung specimen from field cancerization case 2 [GFS_IW00321],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077859,Airway sample from field cancerization case 2 [GFS_IW00322],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077860,Airway sample from field cancerization case 2 [GFS_IW00323],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077861,Airway sample from field cancerization case 2 [GFS_IW00324],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077862,Airway sample from field cancerization case 2 [GFS_IW00325],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077863,Airway sample from field cancerization case 2 [GFS_IW00326],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1077864,NSCLC tissue from field cancerization case 3 [GFS_IW00327],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077865,Normal lung tissue from field cancerization case 3 [GFS_IW00328],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077866,NSCLC tissue from field cancerization case 3 [GFS_IW00329],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077867,Normal lung tissue from field cancerization case 3 [GFS_IW00330],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077868,NSCLC specimen from field cancerization case 3 [GFS_IW00331],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077869,Normal lung specimen from field cancerization case 3 [GFS_IW00332],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077870,Airway sample from field cancerization case 3 [GFS_IW00333],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077871,Airway sample from field cancerization case 3 [GFS_IW00334],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077872,Airway sample from field cancerization case 3 [GFS_IW00335],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077873,NSCLC tissue from field cancerization case 4 [GFS_IW00336],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077874,Normal lung tissue from field cancerization case 4 [GFS_IW00337],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077875,NSCLC tissue from field cancerization case 4 [GFS_IW00338],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077876,Normal lung tissue from field cancerization case 4 [GFS_IW00339],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077877,NSCLC specimen from field cancerization case 4 [GFS_IW00340],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077878,Normal lung specimen from field cancerization case 4 [GFS_IW00341],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077879,Airway sample from field cancerization case 4 [GFS_IW00342],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077880,Airway sample from field cancerization case 4 [GFS_IW00343],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077881,Airway sample from field cancerization case 4 [GFS_IW00344],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077882,Lung carcinoid tissue from field cancerization case 5 [GFS_IW00345],Lung cancer patient,Lung carcinoid tumor,Frozen lung tumor tissue,
+-,GSM1077883,Normal lung tissue from field cancerization case 5 [GFS_IW00346],Lung cancer patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077884,Lung carcinoid tissue from field cancerization case 5 [GFS_IW00347],Lung cancer patient,Lung carcinoid tumor,Tumor tissue in RNAlater,
+-,GSM1077885,Normal lung tissue from field cancerization case 5 [GFS_IW00348],Lung cancer patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077886,Lung carcinoid specimen from field cancerization case 5 [GFS_IW00349],Lung cancer patient,Lung carcinoid tumor,Lung tumor brushing,
+-,GSM1077887,Airway sample from field cancerization case 5 [GFS_IW00350],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077888,Airway sample from field cancerization case 5 [GFS_IW00351],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077889,Airway sample from field cancerization case 5 [GFS_IW00352],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077890,Airway sample from field cancerization case 5 [GFS_IW00353],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077891,Airway sample from field cancerization case 5 [GFS_IW00354],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1077892,NSCLC tissue from field cancerization case 6 [GFS_IW00355],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077893,Normal lung tissue from field cancerization case 6 [GFS_IW00356],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077894,Normal lung tissue from field cancerization case 6 [GFS_IW00357],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077895,NSCLC tissue from field cancerization case 6 [GFS_IW00358],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077896,NSCLC specimen from field cancerization case 6 [GFS_IW00359],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077897,Airway sample from field cancerization case 6 [GFS_IW00360],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077898,Airway sample from field cancerization case 6 [GFS_IW00361],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077899,Airway sample from field cancerization case 6 [GFS_IW00362],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077900,Airway sample from field cancerization case 6 [GFS_IW00363],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077901,Airway sample from field cancerization case 6 [GFS_IW00364],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1077902,NSCLC tissue from field cancerization case 7 [GFS_IW00365],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077903,Normal lung tissue from field cancerization case 7 [GFS_IW00366],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077904,NSCLC tissue from field cancerization case 7 [GFS_IW00367],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077905,Normal lung tissue from field cancerization case 7 [GFS_IW00368],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077906,NSCLC specimen from field cancerization case 7 [GFS_IW00369],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077907,Normal lung specimen from field cancerization case 7 [GFS_IW00370],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077908,Airway sample from field cancerization case 7 [GFS_IW00371],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077909,Airway sample from field cancerization case 7 [GFS_IW00372],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077910,Airway sample from field cancerization case 7 [GFS_IW00373],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077911,NSCLC tissue from field cancerization case 8 [GFS_IW00374],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077912,Normal lung tissue from field cancerization case 8 [GFS_IW00375],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077913,NSCLC tissue from field cancerization case 8 [GFS_IW00376],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077914,Normal lung tissue from field cancerization case 8 [GFS_IW00377],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077915,NSCLC specimen from field cancerization case 8 [GFS_IW00378],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077916,Normal lung specimen from field cancerization case 8 [GFS_IW00379],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077917,Airway sample from field cancerization case 8 [GFS_IW00380],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077918,Airway sample from field cancerization case 8 [GFS_IW00381],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077919,Airway sample from field cancerization case 8 [GFS_IW00382],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077920,Airway sample from field cancerization case 8 [GFS_IW00383],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077921,Airway sample from field cancerization case 8 [GFS_IW00384],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1077922,NSCLC tissue from field cancerization case 9 [GFS_IW00385],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077923,Normal lung tissue from field cancerization case 9 [GFS_IW00386],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077924,NSCLC tissue from field cancerization case 9 [GFS_IW00387],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077925,Normal lung tissue from field cancerization case 9 [GFS_IW00388],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077926,NSCLC specimen from field cancerization case 9 [GFS_IW00389],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077927,Normal lung specimen from field cancerization case 9 [GFS_IW00390],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077928,Airway sample from field cancerization case 9 [GFS_IW00391],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077929,Airway sample from field cancerization case 9 [GFS_IW00392],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077930,Airway sample from field cancerization case 9 [GFS_IW00393],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077931,Airway sample from field cancerization case 9 [GFS_IW00394],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077932,Airway sample from field cancerization case 9 [GFS_IW00395],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1077933,NSCLC tissue from field cancerization case 10 [GFS_IW00396],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077934,Normal lung tissue from field cancerization case 10 [GFS_IW00397],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077935,NSCLC tissue from field cancerization case 10 [GFS_IW00398],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077936,Normal lung tissue from field cancerization case 10 [GFS_IW00399],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077937,NSCLC specimen from field cancerization case 10 [GFS_IW00400],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077938,Normal lung specimen from field cancerization case 10 [GFS_IW00401],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077939,Airway sample from field cancerization case 10 [GFS_IW00402],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077940,Airway sample from field cancerization case 10 [GFS_IW00403],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077941,Airway sample from field cancerization case 10 [GFS_IW00404],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077942,Airway sample from field cancerization case 10 [GFS_IW00405],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077943,Airway sample from field cancerization case 10 [GFS_IW00406],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1077944,NSCLC tissue from field cancerization case 11 [GFS_IW00407],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077945,Normal lung tissue from field cancerization case 11 [GFS_IW00408],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077946,NSCLC tissue from field cancerization case 11 [GFS_IW00409],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077947,Normal lung tissue from field cancerization case 11 [GFS_IW00410],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077948,NSCLC specimen from field cancerization case 11 [GFS_IW00411],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077949,Normal lung specimen from field cancerization case 11 [GFS_IW00412],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077950,Airway sample from field cancerization case 11 [GFS_IW00413],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077951,Airway sample from field cancerization case 11 [GFS_IW00414],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077952,NSCLC tissue from field cancerization case 12 [GFS_IW00415],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077953,Normal lung tissue from field cancerization case 12 [GFS_IW00416],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077954,NSCLC tissue from field cancerization case 12 [GFS_IW00417],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077955,Normal lung tissue from field cancerization case 12 [GFS_IW00418],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077956,NSCLC specimen from field cancerization case 12 [GFS_IW00419],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077957,Normal lung specimen from field cancerization case 12 [GFS_IW00420],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077958,Airway sample from field cancerization case 12 [GFS_IW00421],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077959,Airway sample from field cancerization case 12 [GFS_IW00422],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077960,Airway sample from field cancerization case 12 [GFS_IW00423],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077961,Airway sample from field cancerization case 12 [GFS_IW00424],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077962,Airway sample from field cancerization case 12 [GFS_IW00425],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1077963,NSCLC tissue from field cancerization case 13 [GFS_IW00426],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077964,Normal lung tissue from field cancerization case 13 [GFS_IW00427],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077965,NSCLC tissue from field cancerization case 13 [GFS_IW00428],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077966,Normal lung tissue from field cancerization case 13 [GFS_IW00429],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077967,NSCLC specimen from field cancerization case 13 [GFS_IW00430],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077968,Normal lung specimen from field cancerization case 13 [GFS_IW00431],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077969,Airway sample from field cancerization case 13 [GFS_IW00432],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077970,Airway sample from field cancerization case 13 [GFS_IW00433],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077971,Airway sample from field cancerization case 13 [GFS_IW00434],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077972,Airway sample from field cancerization case 13 [GFS_IW00435],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1077973,NSCLC tissue from field cancerization case 14 [GFS_IW00436],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077974,Normal lung tissue from field cancerization case 14 [GFS_IW00437],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077975,NSCLC tissue from field cancerization case 14 [GFS_IW00438],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077976,Normal lung tissue from field cancerization case 14 [GFS_IW00439],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077977,Airway sample from field cancerization case 14 [GFS_IW00440],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077978,Airway sample from field cancerization case 14 [GFS_IW00441],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077979,Airway sample from field cancerization case 14 [GFS_IW00442],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077980,Airway sample from field cancerization case 14 [GFS_IW00443],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077981,NSCLC tissue from field cancerization case 15 [GFS_IW00444],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077982,Normal lung tissue from field cancerization case 15 [GFS_IW00445],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077983,Normal lung tissue from field cancerization case 15 [GFS_IW00446],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077984,NSCLC tissue from field cancerization case 15 [GFS_IW00447],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077985,NSCLC specimen from field cancerization case 15 [GFS_IW00448],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077986,Normal lung specimen from field cancerization case 15 [GFS_IW00449],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077987,Airway sample from field cancerization case 15 [GFS_IW00450],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1077988,Airway sample from field cancerization case 15 [GFS_IW00451],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077989,Airway sample from field cancerization case 15 [GFS_IW00452],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1077990,Airway sample from field cancerization case 15 [GFS_IW00453],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077991,NSCLC tissue from field cancerization case 16 [GFS_IW00454],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1077992,Normal lung tissue from field cancerization case 16 [GFS_IW00455],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1077993,NSCLC tissue from field cancerization case 16 [GFS_IW00456],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1077994,Normal lung tissue from field cancerization case 16 [GFS_IW00457],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1077995,NSCLC specimen from field cancerization case 16 [GFS_IW00458],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1077996,Normal lung specimen from field cancerization case 16 [GFS_IW00459],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1077997,Airway sample from field cancerization case 16 [GFS_IW00460],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1077998,Airway sample from field cancerization case 16 [GFS_IW00461],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1077999,Airway sample from field cancerization case 16 [GFS_IW00462],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1078000,Airway sample from field cancerization case 16 [GFS_IW00463],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1078001,NSCLC tissue from field cancerization case 17 [GFS_IW00464],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1078002,Normal lung tissue from field cancerization case 17 [GFS_IW00465],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1078003,NSCLC tissue from field cancerization case 17 [GFS_IW00466],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1078004,Normal lung tissue from field cancerization case 17 [GFS_IW00467],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1078005,NSCLC specimen from field cancerization case 17 [GFS_IW00468],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1078006,Normal lung specimen from field cancerization case 17 [GFS_IW00469],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1078007,Airway sample from field cancerization case 17 [GFS_IW00470],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1078008,Airway sample from field cancerization case 17 [GFS_IW00471],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1078009,Airway sample from field cancerization case 17 [GFS_IW00472],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1078010,NSCLC tissue from field cancerization case 18 [GFS_IW00473],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1078011,Normal lung tissue from field cancerization case 18 [GFS_IW00474],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1078012,Normal lung specimen from field cancerization case 18 [GFS_IW00475],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1078013,Airway sample from field cancerization case 18 [GFS_IW00476],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1078014,Airway sample from field cancerization case 18 [GFS_IW00477],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1078015,Airway sample from field cancerization case 18 [GFS_IW00478],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1078016,NSCLC tissue from field cancerization case 19 [GFS_IW00479],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1078017,Normal lung tissue from field cancerization case 19 [GFS_IW00480],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1078018,NSCLC tissue from field cancerization case 19 [GFS_IW00481],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1078019,Normal lung tissue from field cancerization case 19 [GFS_IW00482],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1078020,NSCLC specimen from field cancerization case 19 [GFS_IW00483],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1078021,Normal lung specimen from field cancerization case 19 [GFS_IW00484],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1078022,Airway sample from field cancerization case 19 [GFS_IW00485],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1078023,Airway sample from field cancerization case 19 [GFS_IW00486],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1078024,Airway sample from field cancerization case 19 [GFS_IW00487],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1078025,Airway sample from field cancerization case 19 [GFS_IW00488],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1078026,Airway sample from field cancerization case 19 [GFS_IW00489],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1078027,NSCLC tissue from field cancerization case 20 [GFS_IW00490],NSCLC patient,NSCLC,Frozen lung tumor tissue,
+-,GSM1078028,Normal lung tissue from field cancerization case 20 [GFS_IW00491],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1078029,NSCLC tissue from field cancerization case 20 [GFS_IW00492],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1078030,Normal lung tissue from field cancerization case 20 [GFS_IW00493],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1078031,NSCLC specimen from field cancerization case 20 [GFS_IW00494],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1078032,Normal lung specimen from field cancerization case 20 [GFS_IW00495],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1078033,Airway sample from field cancerization case 20 [GFS_IW00496],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1078034,Airway sample from field cancerization case 20 [GFS_IW00497],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1078035,Airway sample from field cancerization case 20 [GFS_IW00498],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1078036,Airway sample from field cancerization case 20 [GFS_IW00499],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1078037,Airway sample from field cancerization case 20 [GFS_IW00500],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1078038,Lung carcinoid tissue from field cancerization case 21 [GFS_IW00501],Lung cancer patient,Lung carcinoid tumor,Frozen lung tumor tissue,
+-,GSM1078039,Normal lung tissue from field cancerization case 21 [GFS_IW00502],Lung cancer patient,Normal lung,Frozen normal lung tissue,
+-,GSM1078040,Lung carcinoid tissue from field cancerization case 21 [GFS_IW00503],Lung cancer patient,Lung carcinoid tumor,Tumor tissue in RNAlater,
+-,GSM1078041,Normal lung tissue from field cancerization case 21 [GFS_IW00504],Lung cancer patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1078042,Lung carcinoid specimen from field cancerization case 21 [GFS_IW00505],Lung cancer patient,Lung carcinoid tumor,Lung tumor brushing,
+-,GSM1078043,Normal lung specimen from field cancerization case 21 [GFS_IW00506],Lung cancer patient,Normal lung,Normal lung tissue brushing,
+-,GSM1078044,Airway sample from field cancerization case 21 [GFS_IW00507],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1078045,Airway sample from field cancerization case 21 [GFS_IW00508],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1078046,Airway sample from field cancerization case 21 [GFS_IW00509],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1078047,Airway sample from field cancerization case 21 [GFS_IW00510],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1078048,Airway sample from field cancerization case 21 [GFS_IW00511],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1078049,Lung carcinoid tissue from field cancerization case 22 [GFS_IW00512],Lung cancer patient,Lung carcinoid tumor,Frozen lung tumor tissue,
+-,GSM1078050,Normal lung tissue from field cancerization case 22 [GFS_IW00513],Lung cancer patient,Normal lung,Frozen normal lung tissue,
+-,GSM1078051,Lung carcinoid tissue from field cancerization case 22 [GFS_IW00514],Lung cancer patient,Lung carcinoid tumor,Tumor tissue in RNAlater,
+-,GSM1078052,Normal lung tissue from field cancerization case 22 [GFS_IW00515],Lung cancer patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1078053,Lung carcinoid specimen from field cancerization case 22 [GFS_IW00516],Lung cancer patient,Lung carcinoid tumor,Lung tumor brushing,
+-,GSM1078054,Normal lung specimen from field cancerization case 22 [GFS_IW00517],Lung cancer patient,Normal lung,Normal lung tissue brushing,
+-,GSM1078055,Airway sample from field cancerization case 22 [GFS_IW00518],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1078056,Airway sample from field cancerization case 22 [GFS_IW00519],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1078057,Airway sample from field cancerization case 22 [GFS_IW00520],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1078058,Airway sample from field cancerization case 22 [GFS_IW00521],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1078059,Airway sample from field cancerization case 22 [GFS_IW00522],Lung cancer patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"
+-,GSM1078060,Normal lung tissue from field cancerization case 23 [GFS_IW00523],NSCLC patient,Normal lung,Frozen normal lung tissue,
+-,GSM1078061,NSCLC tissue from field cancerization case 23 [GFS_IW00524],NSCLC patient,NSCLC,Tumor tissue in RNAlater,
+-,GSM1078062,Normal lung tissue from field cancerization case 23 [GFS_IW00525],NSCLC patient,Normal lung,Normal lung tissue in RNAlater,
+-,GSM1078063,NSCLC specimen from field cancerization case 23 [GFS_IW00526],NSCLC patient,NSCLC,Lung tumor brushing,
+-,GSM1078064,Normal lung specimen from field cancerization case 23 [GFS_IW00527],NSCLC patient,Normal lung,Normal lung tissue brushing,
+-,GSM1078065,Airway sample from field cancerization case 23 [GFS_IW00528],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 3"
+-,GSM1078066,Airway sample from field cancerization case 23 [GFS_IW00529],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 2"
+-,GSM1078067,Airway sample from field cancerization case 23 [GFS_IW00530],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 4"
+-,GSM1078068,Airway sample from field cancerization case 23 [GFS_IW00531],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 1"
+-,GSM1078069,Airway sample from field cancerization case 23 [GFS_IW00532],NSCLC patient,airway,airway brushing,"airway distance from tumor (1, closest; 5, farthest): 5"

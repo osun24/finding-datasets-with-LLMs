@@ -1,0 +1,7 @@
+# TITLE: miRNA expression of gefitinib-resistant cell lines
+# SUMMARY: To identify novel miRNAs involved in acquired EGFR TKI resistance in NSCLC, genome-wide miRNA expression analysis was performed in gefitinib-resistant sub-cell lines and gefitinib-sensitive parental cell lines.
+GPL18402_Group,GPL18402_Accession,GPL18402_Title,GPL18402_Source name,GPL18402_Tissue,GPL18402_Cell line
+-,GSM3017172,PC9,PC9 cells,non-small cell lung cancer (NSCLC),PC9 cells
+-,GSM3017173,PC9GR,gefitinib-resistant PC9 cells,non-small cell lung cancer (NSCLC),gefitinib-resistant PC9 cells
+-,GSM3017174,HCC827,HCC827 cells,non-small cell lung cancer (NSCLC),HCC827 cells
+-,GSM3017175,HCC827GR,gefitinib-resistant HCC827 cells,non-small cell lung cancer (NSCLC),gefitinib-resistant HCC827 cells

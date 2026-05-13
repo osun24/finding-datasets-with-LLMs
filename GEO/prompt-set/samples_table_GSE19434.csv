@@ -1,0 +1,220 @@
+# TITLE: DNA methylation distinguishes pathologically normal human tissues
+# SUMMARY: Epigenetic control of gene transcription is critical for normal human development and cellular differentiation. While alterations of epigenetic marks such as DNA methylation have been linked to cancers and many other human diseases, interindividual epigenetic variation in normal tissues due to aging, environmental factors, or innate susceptibility are poorly characterized. The plasticity, tissue-specific nature, and variability of gene expression are related to epigenomic states that vary across individuals. Thus, population-based investigations are needed to further our understanding of the fundamental dynamics of normal individual epigenomes. We analyzed 217 non-pathologic human tissues from 10 anatomic sites at 1413 autosomal CpG loci associated with 773 genes to investigate tissue-specific differences in DNA methylation, and to discern how aging and exposures contribute to normal variation in methylation. Methylation profile classes derived from unsupervised modeling were significantly associated with age (P < 0.0001), and were significant predictors of tissue origin (P < 0.0001). In solid tissues (n=119) we found striking, highly significant CpG island dependent correlations between age and methylation; loci in CpG islands gained methylation with age, loci not in CpG islands lost methylation with age (P < 0.001), and this pattern was consistent across tissues and in an analysis of blood-derived DNA. Our data clearly demonstrate age and exposure related differences in tissue-specific methylation, and significant age associated methylation patterns which are CpG island context dependent. This work provides novel insight into the role of aging and the environment in susceptibility to diseases such as cancer, and critically informs the field of epigenomics by providing evidence of epigenetic dysregulation by age-related methylation alterations. Collectively we reveal key issues to consider both in the construction of reference. The causes and extent of tissue-specific interindividual variation in human epigenomes are underappreciated and hence, poorly characterized. We surveyed over 200 carefully annotated human tissue samples from ten anatomic sites at 1413 CpGs for methylation alterations to appraise the nature of phenotypically, and hence potentially clinically important epigenomic alterations. Within tissue types, across individuals, we found variation in methylation that was significantly related to aging and environmental exposures such as tobacco smoking. Individual variation in age and exposure-related methylation may significantly contribute to increased susceptibility to several diseases. As the NIH-funded HapMap project is critically contributing to annotating the human reference genome defining normal genetic variability, our work raises key issues to consider in the construction of reference epigenomes. It is well recognized that understanding genetic variation is essential to understanding disease. Our work, and the known interplay of epigenetics and genetics, makes it equally clear that a more complete characterization of epigenetic variation and its sources must be accomplished to reach the goal of a complete understanding of disease. Additional research is absolutely necessary to define the mechanisms controlling epigenomic variation. We have begun to lay the foundations for essential normal tissue controls for comparison to diseased tissue, which will allow the identification of the most crucial disease-related alterations and provide more robust targets for novel treatments.
+GPL9183_Group,GPL9183_Accession,GPL9183_Title,GPL9183_Source name,GPL9183_Tissue,GPL9183_Pathogenicity,GPL9183_Gender
+-,GSM484146,cervical_8,cervix,cervix,normal,female
+-,GSM484147,cervical_13,cervix,cervix,normal,female
+-,GSM484148,lung_13,lung,lung,normal,male
+-,GSM484149,cervical_14,cervix,cervix,normal,female
+-,GSM484150,lung_15,lung,lung,normal,female
+-,GSM484151,lung_21,lung,lung,normal,female
+-,GSM484152,lung_23,lung,lung,normal,female
+-,GSM484153,lung_24,lung,lung,normal,male
+-,GSM484154,guthrie blood_31,guthrie blood,guthrie blood,normal,female
+-,GSM484155,guthrie blood_32,guthrie blood,guthrie blood,normal,female
+-,GSM484156,guthrie blood_34,guthrie blood,guthrie blood,normal,male
+-,GSM484157,guthrie blood_35,guthrie blood,guthrie blood,normal,male
+-,GSM484158,guthrie blood_36,guthrie blood,guthrie blood,normal,male
+-,GSM484159,lung_44,lung,lung,normal,male
+-,GSM484160,lung_46,lung,lung,normal,female
+-,GSM484161,lung_56,lung,lung,normal,male
+-,GSM484162,lung_68,lung,lung,normal,female
+-,GSM484163,lung_71,lung,lung,normal,male
+-,GSM484164,lung_77,lung,lung,normal,male
+-,GSM484165,lung_100,lung,lung,normal,male
+-,GSM484166,lung_113,lung,lung,normal,male
+-,GSM484167,lung_115,lung,lung,normal,female
+-,GSM484168,lung_116,lung,lung,normal,female
+-,GSM484169,lung_119,lung,lung,normal,female
+-,GSM484170,lung_127,lung,lung,normal,female
+-,GSM484171,lung_130,lung,lung,normal,male
+-,GSM484172,lung_140,lung,lung,normal,male
+-,GSM484173,lung_141,lung,lung,normal,male
+-,GSM484174,lung_145,lung,lung,normal,female
+-,GSM484175,lung_146,lung,lung,normal,female
+-,GSM484176,lung_202,lung,lung,normal,male
+-,GSM484177,lung_204,lung,lung,normal,male
+-,GSM484178,lung_205,lung,lung,normal,male
+-,GSM484179,lung_211,lung,lung,normal,male
+-,GSM484180,lung_224,lung,lung,normal,male
+-,GSM484181,lung_226,lung,lung,normal,male
+-,GSM484182,lung_233,lung,lung,normal,male
+-,GSM484183,lung_234,lung,lung,normal,male
+-,GSM484184,lung_244,lung,lung,normal,female
+-,GSM484185,lung_245,lung,lung,normal,female
+-,GSM484186,lung_268,lung,lung,normal,female
+-,GSM484187,lung_286,lung,lung,normal,male
+-,GSM484188,lung_307,lung,lung,normal,male
+-,GSM484189,lung_528,lung,lung,normal,female
+-,GSM484190,lung_554,lung,lung,normal,female
+-,GSM484191,lung_587,lung,lung,normal,male
+-,GSM484192,lung_615,lung,lung,normal,female
+-,GSM484193,lung_621,lung,lung,normal,male
+-,GSM484194,lung_622,lung,lung,normal,male
+-,GSM484195,blood_714,blood,blood,normal,male
+-,GSM484196,lung_723,lung,lung,normal,female
+-,GSM484197,lung_759,lung,lung,normal,male
+-,GSM484198,lung_778,lung,lung,normal,female
+-,GSM484199,lung_889,lung,lung,normal,male
+-,GSM484200,lung_900,lung,lung,normal,male
+-,GSM484201,lung_901,lung,lung,normal,male
+-,GSM484202,lung_924,lung,lung,normal,female
+-,GSM484203,lung_986,lung,lung,normal,female
+-,GSM484204,blood_1200,blood,blood,normal,male
+-,GSM484205,blood_1269,blood,blood,normal,male
+-,GSM484206,blood_1610,blood,blood,normal,female
+-,GSM484207,blood_2292,blood,blood,normal,female
+-,GSM484208,blood_2391,blood,blood,normal,male
+-,GSM484209,blood_2404,blood,blood,normal,male
+-,GSM484210,blood_2509,blood,blood,normal,female
+-,GSM484211,blood_2567,blood,blood,normal,female
+-,GSM484212,blood_2824,blood,blood,normal,male
+-,GSM484213,blood_2922,blood,blood,normal,male
+-,GSM484214,blood_2980,blood,blood,normal,female
+-,GSM484215,blood_2982,blood,blood,normal,male
+-,GSM484216,blood_3036,blood,blood,normal,male
+-,GSM484217,blood_3132,blood,blood,normal,male
+-,GSM484218,blood_3146,blood,blood,normal,female
+-,GSM484219,blood_3155,blood,blood,normal,male
+-,GSM484220,blood_3336,blood,blood,normal,male
+-,GSM484221,blood_3338,blood,blood,normal,male
+-,GSM484222,blood_3374,blood,blood,normal,male
+-,GSM484223,blood_3385,blood,blood,normal,male
+-,GSM484224,blood_3389,blood,blood,normal,male
+-,GSM484225,blood_3503,blood,blood,normal,male
+-,GSM484226,Brain_3518,brain,brain,normal,male
+-,GSM484227,blood_3572,blood,blood,normal,female
+-,GSM484228,blood_3612,blood,blood,normal,male
+-,GSM484229,blood_3620,blood,blood,normal,female
+-,GSM484230,blood_3676,blood,blood,normal,male
+-,GSM484231,blood_3692,blood,blood,normal,female
+-,GSM484232,blood_3757,blood,blood,normal,female
+-,GSM484233,blood_4708,blood,blood,normal,male
+-,GSM484234,pleura_6012,pleura,pleura,normal,male
+-,GSM484235,lung_10001,lung,lung,normal,male
+-,GSM484236,bladder_10002,bladder,bladder,normal,male
+-,GSM484237,small intestine_10003,small Intestine,small Intestine,normal,male
+-,GSM484238,lung_10004,lung,lung,normal,female
+-,GSM484239,small intestine_10005,small Intestine,small Intestine,normal,female
+-,GSM484240,bladder_10006,bladder,bladder,normal,male
+-,GSM484241,kidney_10007,kidney,kidney,normal,male
+-,GSM484242,lung_10008,lung,lung,normal,female
+-,GSM484243,bladder_10009,bladder,bladder,normal,male
+-,GSM484244,small intestine_10010,small Intestine,small Intestine,normal,male
+-,GSM484245,small intestine_10011,small Intestine,small Intestine,normal,female
+-,GSM484246,small intestine_10012,small Intestine,small Intestine,normal,male
+-,GSM484247,lung_10013,lung,lung,normal,female
+-,GSM484248,bladder_10014,bladder,bladder,normal,male
+-,GSM484249,kidney_10015,kidney,kidney,normal,male
+-,GSM484250,bladder_10016,bladder,bladder,normal,male
+-,GSM484251,kidney_10017,kidney,kidney,normal,male
+-,GSM484252,kidney_10018,kidney,kidney,normal,female
+-,GSM484253,kidney_10019,kidney,kidney,normal,female
+-,GSM484254,kidney_10020,kidney,kidney,normal,male
+-,GSM484255,pleura_14074,pleura,pleura,normal,female
+-,GSM484256,pleura_15221,pleura,pleura,normal,male
+-,GSM484257,pleura_20089,pleura,pleura,normal,male
+-,GSM484258,pleura_25287,pleura,pleura,normal,male
+-,GSM484259,pleura_46239,pleura,pleura,normal,male
+-,GSM484260,pleura_48620,pleura,pleura,normal,male
+-,GSM484261,pleura_51072,pleura,pleura,normal,male
+-,GSM484262,pleura_51934,pleura,pleura,normal,female
+-,GSM484263,pleura_58902,pleura,pleura,normal,male
+-,GSM484264,pleura_61460,pleura,pleura,normal,male
+-,GSM484265,pleura_64658,pleura,pleura,normal,female
+-,GSM484266,pleura_65555,pleura,pleura,normal,male
+-,GSM484267,pleura_66433,pleura,pleura,normal,male
+-,GSM484268,pleura_69442,pleura,pleura,normal,male
+-,GSM484269,pleura_72650,pleura,pleura,normal,male
+-,GSM484270,pleura_78467,pleura,pleura,normal,male
+-,GSM484271,pleura_93972,pleura,pleura,normal,female
+-,GSM484272,placenta_ AL 140,placenta,placenta,normal,female
+-,GSM484273,placenta_ AL 2,placenta,placenta,normal,female
+-,GSM484274,placenta_ AL 22,placenta,placenta,normal,female
+-,GSM484275,placenta_ AL 43,placenta,placenta,normal,female
+-,GSM484276,placenta_ AL 45,placenta,placenta,normal,female
+-,GSM484277,placenta_ AL 47,placenta,placenta,normal,female
+-,GSM484278,placenta_ AL 59,placenta,placenta,normal,female
+-,GSM484279,placenta_ AL 69,placenta,placenta,normal,female
+-,GSM484280,placenta_ AL 82,placenta,placenta,normal,female
+-,GSM484281,placenta_ AL 86,placenta,placenta,normal,female
+-,GSM484282,placenta_ AL 89,placenta,placenta,normal,female
+-,GSM484283,placenta_ AL 99,placenta,placenta,normal,female
+-,GSM484284,placenta_ JP 15,placenta,placenta,normal,female
+-,GSM484285,placenta_ JP 18,placenta,placenta,normal,female
+-,GSM484286,placenta_ JP 20,placenta,placenta,normal,female
+-,GSM484287,placenta_ JP 26,placenta,placenta,normal,female
+-,GSM484288,placenta_ JP 31,placenta,placenta,normal,female
+-,GSM484289,placenta_ JP 32,placenta,placenta,normal,female
+-,GSM484290,placenta_ JP 7,placenta,placenta,normal,female
+-,GSM484291,brain_28A24,brain,brain,normal,male
+-,GSM484292,brain_36A30,brain,brain,normal,female
+-,GSM484293,brain_45A5,brain,brain,normal,male
+-,GSM484294,head and neck_58862L,head and neck,head and neck,normal,female
+-,GSM484295,head and neck_58926L,head and neck,head and neck,normal,male
+-,GSM484296,head and neck_58926T,head and neck,head and neck,normal,male
+-,GSM484297,head and neck_58926U,head and neck,head and neck,normal,male
+-,GSM484298,head and neck_59036T,head and neck,head and neck,normal,female
+-,GSM484299,head and neck_59167L,head and neck,head and neck,normal,male
+-,GSM484300,head and neck_59167T,head and neck,head and neck,normal,male
+-,GSM484301,head and neck_59167U,head and neck,head and neck,normal,male
+-,GSM484302,head and neck_59240L,head and neck,head and neck,normal,female
+-,GSM484303,head and neck_59303U,head and neck,head and neck,normal,male
+-,GSM484304,head and neck_59375U,head and neck,head and neck,normal,male
+-,GSM484305,brain_73A30,brain,brain,normal,male
+-,GSM484306,brain_79A23,brain,brain,normal,male
+-,GSM484307,brain_84A28,brain,brain,normal,female
+-,GSM484308,brain_85A37,brain,brain,normal,female
+-,GSM484309,brain_99A30,brain,brain,normal,female
+-,GSM484310,brain_9A17,brain,brain,normal,female
+-,GSM484311,brain_autopsy1,brain,brain,normal,male
+-,GSM484312,brain_autopsy2,brain,brain,normal,male
+-,GSM484313,guthrie blood_G1,guthrie blood,guthrie blood,normal,male
+-,GSM484314,guthrie blood_G10,guthrie blood,guthrie blood,normal,male
+-,GSM484315,guthrie blood_G11,guthrie blood,guthrie blood,normal,female
+-,GSM484316,guthrie blood_G12,guthrie blood,guthrie blood,normal,female
+-,GSM484317,guthrie blood_G13,guthrie blood,guthrie blood,normal,female
+-,GSM484318,guthrie blood_G14,guthrie blood,guthrie blood,normal,male
+-,GSM484319,guthrie blood_G15,guthrie blood,guthrie blood,normal,female
+-,GSM484320,guthrie blood_G16,guthrie blood,guthrie blood,normal,male
+-,GSM484321,guthrie blood_G17,guthrie blood,guthrie blood,normal,male
+-,GSM484322,guthrie blood_G18,guthrie blood,guthrie blood,normal,male
+-,GSM484323,guthrie blood_G19,guthrie blood,guthrie blood,normal,female
+-,GSM484324,guthrie blood_G2,guthrie blood,guthrie blood,normal,male
+-,GSM484325,guthrie blood_G20,guthrie blood,guthrie blood,normal,female
+-,GSM484326,guthrie blood_G21,guthrie blood,guthrie blood,normal,male
+-,GSM484327,guthrie blood_G22,guthrie blood,guthrie blood,normal,male
+-,GSM484328,guthrie blood_G23,guthrie blood,guthrie blood,normal,female
+-,GSM484329,guthrie blood_G24,guthrie blood,guthrie blood,normal,female
+-,GSM484330,guthrie blood_G25,guthrie blood,guthrie blood,normal,female
+-,GSM484331,guthrie blood_G26,guthrie blood,guthrie blood,normal,male
+-,GSM484332,guthrie blood_G27,guthrie blood,guthrie blood,normal,male
+-,GSM484333,guthrie blood_G28,guthrie blood,guthrie blood,normal,male
+-,GSM484334,guthrie blood_G29,guthrie blood,guthrie blood,normal,male
+-,GSM484335,guthrie blood_G3,guthrie blood,guthrie blood,normal,female
+-,GSM484336,guthrie blood_G30,guthrie blood,guthrie blood,normal,male
+-,GSM484337,guthrie blood_G31,guthrie blood,guthrie blood,normal,male
+-,GSM484338,guthrie blood_G32,guthrie blood,guthrie blood,normal,female
+-,GSM484339,guthrie blood_G33,guthrie blood,guthrie blood,normal,male
+-,GSM484340,guthrie blood_G34,guthrie blood,guthrie blood,normal,male
+-,GSM484341,guthrie blood_G35,guthrie blood,guthrie blood,normal,female
+-,GSM484342,guthrie blood_G36,guthrie blood,guthrie blood,normal,male
+-,GSM484343,guthrie blood_G37,guthrie blood,guthrie blood,normal,female
+-,GSM484344,guthrie blood_G39,guthrie blood,guthrie blood,normal,male
+-,GSM484345,guthrie blood_G4,guthrie blood,guthrie blood,normal,female
+-,GSM484346,guthrie blood_G40,guthrie blood,guthrie blood,normal,female
+-,GSM484347,guthrie blood_G41,guthrie blood,guthrie blood,normal,female
+-,GSM484348,guthrie blood_G42,guthrie blood,guthrie blood,normal,female
+-,GSM484349,guthrie blood_G43,guthrie blood,guthrie blood,normal,male
+-,GSM484350,guthrie blood_G44,guthrie blood,guthrie blood,normal,male
+-,GSM484351,guthrie blood_G45,guthrie blood,guthrie blood,normal,female
+-,GSM484352,guthrie blood_G46,guthrie blood,guthrie blood,normal,male
+-,GSM484353,guthrie blood_G47,guthrie blood,guthrie blood,normal,male
+-,GSM484354,guthrie blood_G48,guthrie blood,guthrie blood,normal,male
+-,GSM484355,guthrie blood_G49,guthrie blood,guthrie blood,normal,male
+-,GSM484356,guthrie blood_G5,guthrie blood,guthrie blood,normal,male
+-,GSM484357,guthrie blood_G50,guthrie blood,guthrie blood,normal,male
+-,GSM484358,guthrie blood_G51,guthrie blood,guthrie blood,normal,male
+-,GSM484359,guthrie blood_G6,guthrie blood,guthrie blood,normal,male
+-,GSM484360,guthrie blood_G7,guthrie blood,guthrie blood,normal,female
+-,GSM484361,guthrie blood_G8,guthrie blood,guthrie blood,normal,female
+-,GSM484362,guthrie blood_G9,guthrie blood,guthrie blood,normal,male

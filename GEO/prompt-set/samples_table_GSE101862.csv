@@ -1,0 +1,12 @@
+# TITLE: Genes expression in xenografts obtained from 15 months cigarette smoke condensate (CSC)-exposed HBEC cells following expression of KRASV12
+# SUMMARY: We define how chronic cigarette smoke-induced time-dependent epigenetic alterations can sensitize human bronchial epithelial cells (HBEC) for transformation by a single oncogene. The smoke-induced, chromatin changes include initial repressive polycomb marking of genes later manifesting abnormal DNA methylation by 10 months. At this time, cells manifest epithelial to mesenchymal changes, anchorage-independent growth and upregulated RAS/MAPK signaling with silencing of hyper-methylated genes normally inhibiting these pathways and which are associated with smoking related NSCLC. These cells, in the absence of any driver gene mutations, now transform by introducing a single KRAS mutation and form adeno-squamous lung carcinomas in mice. Thus, epigenetic abnormalities may prime for changing oncogene senescence to addiction for a single key oncogene involved in lung cancer initiation.
+GPL10332_Group,GPL10332_Accession,GPL10332_Title,GPL10332_Source name,GPL10332_Tissue,GPL10332_Treatment
+-,GSM2717333,Rep1_T1,xenograft from CSC treated HBEC cells with KRASV12_rep1,xenograft,CSC
+-,GSM2717334,Rep1_T2,xenograft from CSC treated HBEC cells with KRASV12_rep1,xenograft,CSC
+-,GSM2717335,Rep1_T3,xenograft from CSC treated HBEC cells with KRASV12_rep1,xenograft,CSC
+-,GSM2717336,Rep1_C+KRAS,15month control HBEC cells with KRASV12_rep1,control epithelial cells,Control
+-,GSM2717337,Rep2_T1,xenograft from CSC treated HBEC cells with KRASV12_rep2,xenograft,CSC
+-,GSM2717338,Rep2_T2,xenograft from CSC treated HBEC cells with KRASV12_rep2,xenograft,CSC
+-,GSM2717339,Rep2_T3,xenograft from CSC treated HBEC cells with KRASV12_rep2,xenograft,CSC
+-,GSM2717340,Rep2_T4,xenograft from CSC treated HBEC cells with KRASV12_rep2,xenograft,CSC
+-,GSM2717341,Rep2_C+KRAS,15month control HBEC cells with KRASV12_rep2,control epithelial cells,Control

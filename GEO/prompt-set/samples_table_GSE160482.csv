@@ -1,0 +1,57 @@
+# TITLE: Response of SCLC to mutant KRAS or EGFR induction
+# SUMMARY: Lineage transformation between lung cancer subtypes is a poorly understood phenomenon associated with resistance to treatment and poor patient outcomes. Here, we aimed to model this transition in order to define underlying biological mechanisms and identify potential avenues for therapeutic intervention. Small cell lung cancer (SCLC) is neuroendocrine in origin and, in contrast to non-SCLC (NSCLC), rarely contains mutations that drive the MAPK pathway. Likewise, NSCLCs that transform to SCLC concomitantly with development of therapy resistance downregulate MAPK signaling, suggesting an inverse relationship between pathway activation and lineage state. To test this, we activated MAPK in SCLC through conditional expression of mutant KRAS or EGFR, which revealed suppression of the neuroendocrine differentiation program via ERK. We found that ERK induces the expression of ETS factors, phenocopying ERK-mediated effects on transformation into the NSCLC-like phenotype. ATAC-seq demonstrated ERK-driven changes in chromatin accessibility at putative regulatory regions and global chromatin rewiring at neuroendocrine and ETS transcriptional targets. Further, induction of ETS factors as well as suppression of neuroendocrine differentiation were dependent on histone acetyltransferase activities of CBP/p300. Overall, we describe how the ERK-CBP/p300-ETS axis promotes a lineage shift between neuroendocrine and non-neuroendocrine lung cancer phenotypes and provide rationale for the disruption of this program during transformation-driven resistance to targeted therapy.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line,GPL16686_Construct,GPL16686_Treatment,GPL16686_Time
+-,GSM4873862,H82_GFP_NoDox_rep1,"H82, GFP, No Dox",H82,TetO-GFP,No Dox,day 0
+-,GSM4873863,H82_GFP_NoDox_rep2,"H82, GFP, No Dox",H82,TetO-GFP,No Dox,day 0
+-,GSM4873864,H82_GFP_NoDox_rep3,"H82, GFP, No Dox",H82,TetO-GFP,No Dox,day 0
+-,GSM4873865,H82_GFP_Dox_Day1_rep1,"H82, GFP, Dox, Day1",H82,TetO-GFP,Dox,day1
+-,GSM4873866,H82_GFP_Dox_Day1_rep2,"H82, GFP, Dox, Day1",H82,TetO-GFP,Dox,day1
+-,GSM4873867,H82_GFP_Dox_Day1_rep3,"H82, GFP, Dox, Day1",H82,TetO-GFP,Dox,day1
+-,GSM4873868,H82_GFP_Dox_Day7_rep1,"H82, GFP, Dox, Day7",H82,TetO-GFP,Dox,day7
+-,GSM4873869,H82_GFP_Dox_Day7_rep2,"H82, GFP, Dox, Day7",H82,TetO-GFP,Dox,day7
+-,GSM4873870,H82_GFP_Dox_Day7_rep3,"H82, GFP, Dox, Day7",H82,TetO-GFP,Dox,day7
+-,GSM4873871,H82_EGFR_NoDox_rep1,"H82, EGFR, No Dox",H82,TetO-EGFR-L858R,No Dox,day 0
+-,GSM4873872,H82_EGFR_NoDox_rep2,"H82, EGFR, No Dox",H82,TetO-EGFR-L858R,No Dox,day 0
+-,GSM4873873,H82_EGFR_NoDox_rep3,"H82, EGFR, No Dox",H82,TetO-EGFR-L858R,No Dox,day 0
+-,GSM4873874,H82_EGFR_Dox_Day1_rep1,"H82, EGFR, Dox, Day1",H82,TetO-EGFR-L858R,Dox,day1
+-,GSM4873875,H82_EGFR_Dox_Day1_rep2,"H82, EGFR, Dox, Day1",H82,TetO-EGFR-L858R,Dox,day1
+-,GSM4873876,H82_EGFR_Dox_Day1_rep3,"H82, EGFR, Dox, Day1",H82,TetO-EGFR-L858R,Dox,day1
+-,GSM4873877,H82_EGFR_Dox_Day7_rep1,"H82, EGFR, Dox, Day7",H82,TetO-EGFR-L858R,Dox,day7
+-,GSM4873878,H82_EGFR_Dox_Day7_rep2,"H82, EGFR, Dox, Day7",H82,TetO-EGFR-L858R,Dox,day7
+-,GSM4873879,H82_EGFR_Dox_Day7_rep3,"H82, EGFR, Dox, Day7",H82,TetO-EGFR-L858R,Dox,day7
+-,GSM4873880,H82_KRAS_NoDox_rep1,"H82, KRAS, No Dox",H82,TetO-KRAS-G12V,No Dox,day 0
+-,GSM4873881,H82_KRAS_NoDox_rep2,"H82, KRAS, No Dox",H82,TetO-KRAS-G12V,No Dox,day 0
+-,GSM4873882,H82_KRAS_NoDox_rep3,"H82, KRAS, No Dox",H82,TetO-KRAS-G12V,No Dox,day 0
+-,GSM4873883,H82_KRAS_Dox_Day1_rep1,"H82, KRAS, Dox, Day1",H82,TetO-KRAS-G12V,Dox,day1
+-,GSM4873884,H82_KRAS_Dox_Day1_rep2,"H82, KRAS, Dox, Day1",H82,TetO-KRAS-G12V,Dox,day1
+-,GSM4873885,H82_KRAS_Dox_Day1_rep3,"H82, KRAS, Dox, Day1",H82,TetO-KRAS-G12V,Dox,day1
+-,GSM4873886,H82_KRAS_Dox_Day7_rep1,"H82, KRAS, Dox, Day7",H82,TetO-KRAS-G12V,Dox,day7
+-,GSM4873887,H82_KRAS_Dox_Day7_rep2,"H82, KRAS, Dox, Day7",H82,TetO-KRAS-G12V,Dox,day7
+-,GSM4873888,H82_KRAS_Dox_Day7_rep3,"H82, KRAS, Dox, Day7",H82,TetO-KRAS-G12V,Dox,day7
+-,GSM4873889,H2107_GFP_NoDox_rep1,"H2107, GFP, No Dox",H2107,TetO-GFP,No Dox,day 0
+-,GSM4873890,H2107_GFP_NoDox_rep2,"H2107, GFP, No Dox",H2107,TetO-GFP,No Dox,day 0
+-,GSM4873891,H2107_GFP_NoDox_rep3,"H2107, GFP, No Dox",H2107,TetO-GFP,No Dox,day 0
+-,GSM4873892,H2107_GFP_Dox_Day1_rep1,"H2107, GFP, Dox, Day1",H2107,TetO-GFP,Dox,day1
+-,GSM4873893,H2107_GFP_Dox_Day1_rep2,"H2107, GFP, Dox, Day1",H2107,TetO-GFP,Dox,day1
+-,GSM4873894,H2107_GFP_Dox_Day1_rep3,"H2107, GFP, Dox, Day1",H2107,TetO-GFP,Dox,day1
+-,GSM4873895,H2107_GFP_Dox_Day7_rep1,"H2107, GFP, Dox, Day7",H2107,TetO-GFP,Dox,day7
+-,GSM4873896,H2107_GFP_Dox_Day7_rep2,"H2107, GFP, Dox, Day7",H2107,TetO-GFP,Dox,day7
+-,GSM4873897,H2107_GFP_Dox_Day7_rep3,"H2107, GFP, Dox, Day7",H2107,TetO-GFP,Dox,day7
+-,GSM4873898,H2107_EGFR_NoDox_rep1,"H2107, EGFR, No Dox",H2107,TetO-EGFR-L858R,No Dox,day 0
+-,GSM4873899,H2107_EGFR_NoDox_rep2,"H2107, EGFR, No Dox",H2107,TetO-EGFR-L858R,No Dox,day 0
+-,GSM4873900,H2107_EGFR_NoDox_rep3,"H2107, EGFR, No Dox",H2107,TetO-EGFR-L858R,No Dox,day 0
+-,GSM4873901,H2107_EGFR_Dox_Day1_rep1,"H2107, EGFR, Dox, Day1",H2107,TetO-EGFR-L858R,Dox,day1
+-,GSM4873902,H2107_EGFR_Dox_Day1_rep2,"H2107, EGFR, Dox, Day1",H2107,TetO-EGFR-L858R,Dox,day1
+-,GSM4873903,H2107_EGFR_Dox_Day1_rep3,"H2107, EGFR, Dox, Day1",H2107,TetO-EGFR-L858R,Dox,day1
+-,GSM4873904,H2107_EGFR_Dox_Day7_rep1,"H2107, EGFR, Dox, Day7",H2107,TetO-EGFR-L858R,Dox,day7
+-,GSM4873905,H2107_EGFR_Dox_Day7_rep2,"H2107, EGFR, Dox, Day7",H2107,TetO-EGFR-L858R,Dox,day7
+-,GSM4873906,H2107_EGFR_Dox_Day7_rep3,"H2107, EGFR, Dox, Day7",H2107,TetO-EGFR-L858R,Dox,day7
+-,GSM4873907,H2107_KRAS_NoDox_rep1,"H2107, KRAS, No Dox",H2107,TetO-KRAS-G12V,No Dox,day 0
+-,GSM4873908,H2107_KRAS_NoDox_rep2,"H2107, KRAS, No Dox",H2107,TetO-KRAS-G12V,No Dox,day 0
+-,GSM4873909,H2107_KRAS_NoDox_rep3,"H2107, KRAS, No Dox",H2107,TetO-KRAS-G12V,No Dox,day 0
+-,GSM4873910,H2107_KRAS_Dox_Day1_rep1,"H2107, KRAS, Dox, Day1",H2107,TetO-KRAS-G12V,Dox,day1
+-,GSM4873911,H2107_KRAS_Dox_Day1_rep2,"H2107, KRAS, Dox, Day1",H2107,TetO-KRAS-G12V,Dox,day1
+-,GSM4873912,H2107_KRAS_Dox_Day1_rep3,"H2107, KRAS, Dox, Day1",H2107,TetO-KRAS-G12V,Dox,day1
+-,GSM4873913,H2107_KRAS_Dox_Day7_rep1,"H2107, KRAS, Dox, Day7",H2107,TetO-KRAS-G12V,Dox,day7
+-,GSM4873914,H2107_KRAS_Dox_Day7_rep2,"H2107, KRAS, Dox, Day7",H2107,TetO-KRAS-G12V,Dox,day7
+-,GSM4873915,H2107_KRAS_Dox_Day7_rep3,"H2107, KRAS, Dox, Day7",H2107,TetO-KRAS-G12V,Dox,day7

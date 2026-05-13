@@ -1,0 +1,31 @@
+# TITLE: Expression data from non-small cell lung cancer cell line DV90 after Bromodomain and extra terminal domain (BET) inhibitor JQ1 treatment
+# SUMMARY: Bromodomain and extra terminal domain (BET) inhibition reduces occupancy of BET-family proteins at promoter and enhancer sites resulting in changes in the transcription of specific genes. We used microarray profiling to investigate the transcriptional changes induced by BET inhibitor JQ1 treatment in DV90 cells to identify the underlying changes of gene regulation that lead to JQ1 sensitivity.
+GPL17692_Group,GPL17692_Accession,GPL17692_Title,GPL17692_Source name,GPL17692_Tissue,GPL17692_Cell line,GPL17692_Histologic subtype
+-,GSM1970980,DV90_JQ1_135nM_4h_rep1,"DV90 cells treated, 135nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970981,DV90_JQ1_785nM_4h_rep1,"DV90 cells treated, 785nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970982,DV90_JQ1_135nM_24h_rep1,"DV90 cells treated, 135nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970983,DV90_JQ1_785nM_24h_rep1,"DV90 cells treated, 785nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970984,DV90_Vehicle_DMSO_4h_rep1,"DV90 cells vehicle, DMSO, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970985,DV90_JQ1_135nM_4h_rep2,"DV90 cells treated, 135nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970986,DV90_JQ1_785nM_4h_rep2,"DV90 cells treated, 785nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970987,DV90_Vehicle_DMSO_24h_rep1,"DV90 cells vehicle, DMSO, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970988,DV90_JQ1_135nM_24h_rep2,"DV90 cells treated, 135nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970989,DV90_JQ1_785nM_24h_rep2,"DV90 cells treated, 785nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970990,DV90_Vehicle_DMSO_4h_rep2,"DV90 cells vehicle, DMSO, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970991,DV90_JQ1_135nM_4h_rep3,"DV90 cells treated, 135nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970992,DV90_JQ1_785nM_4h_rep3,"DV90 cells treated, 785nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970993,DV90_Vehicle_DMSO_24h_rep2,"DV90 cells vehicle, DMSO, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970994,DV90_JQ1_135nM_24h_rep3,"DV90 cells treated, 135nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970995,DV90_JQ1_785nM_24h_rep3,"DV90 cells treated, 785nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970996,DV90_Vehicle_DMSO_4h_rep3,"DV90 cells vehicle, DMSO, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970997,DV90_JQ1_135nM_4h_rep4,"DV90 cells treated, 135nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970998,DV90_JQ1_785nM_4h_rep4,"DV90 cells treated, 785nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1970999,DV90_Vehicle_DMSO_24h_rep3,"DV90 cells vehicle, DMSO, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1971000,DV90_JQ1_135nM_24h_rep4,"DV90 cells treated, 135nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1971001,DV90_JQ1_785nM_24h_rep4,"DV90 cells treated, 785nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1971002,DV90_Vehicle_DMSO_4h_rep4,"DV90 cells vehicle, DMSO, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1971003,DV90_JQ1_135nM_4h_rep5,"DV90 cells treated, 135nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1971004,DV90_JQ1_785nM_4h_rep5,"DV90 cells treated, 785nM JQ1, 4h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1971005,DV90_Vehicle_DMSO_24h_rep4,"DV90 cells vehicle, DMSO, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1971006,DV90_JQ1_135nM_24h_rep5,"DV90 cells treated, 135nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma
+-,GSM1971007,DV90_JQ1_785nM_24h_rep5,"DV90 cells treated, 785nM JQ1, 24h",lung,DV90,NSCLC adenocarcinoma

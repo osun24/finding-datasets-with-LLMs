@@ -1,0 +1,18 @@
+# TITLE: 3D cultivation of NSCLC cell lines alters gene expression of key cancer-associated signalling pathways
+# SUMMARY: Background: The main focus of the work was the evaluation of gene expression differences between our established NSCLC 3D cell culture model and the 2D cell culture in regard to the use of our model for drug screening applications. Methods: The non-small cell lung cancer (NSCLC) cell lines Colo699 and A549 were cultivated as monolayer (2D) on cell culture plates for five days or as microtissues (3D) in a hanging-drop system for five and ten days, respectively. Cells and microtissues were harvested and Affymetrix chip analyses were performed with the prior isolated RNA. This was repeated in three independent experiments. Subsequent biostatistical data analyses tested for reproducibility, comparability and significant differences in gene expression profiles between cell lines, experiments and culture methods. Results: The analyses revealed a high interassay correlation within the distinct culture systems, thus proving a high validity of our data. The comparison of 3D versus 2D cell cultures revealed significant differences in RNA expression (979 genes for A549; 1106 genes for Colo699), but the overlap of changes in RNA profiles between the cell lines at the individual gene level was small (149 genes), potentially reflecting overall heterogeneity and their origin, i.e. primary vs pleural effusion. Nevertheless, these RNA expression changes affected most relevant cancer-associated pathways as DNA methylation, cell cycle, rRNA expression and meiosis pathways. Furthermore, the expression differences between 2D and 3D were more evident after longer cultivation time, which supports the hypothesis of cultivation related mechanisms and the usage of long-time cultivation systems. Conclusion: In summary, our data support the need of innovative 3D drug testing systems to close the gap between in-vitro drug screening and in-vivo data. Thus, our 3D NSCLC model might provide a model to address the challenge of microenviroment associated resistance mechanisms, as well as cell-cell interaction related effects.
+GPL21503_Group,GPL21503_Accession,GPL21503_Title,GPL21503_Source name,GPL21503_Cell line,GPL21503_Culture,GPL21503_Culture duration,GPL21503_Passage
+-,GSM2069630,A549-2D-1,A549-2D,A549,2D,5,3
+-,GSM2069631,Colo699-2D-1,Colo699-2D,Colo699,2D,5,3
+-,GSM2069632,A549-2D-2,A549-2D,A549,2D,5,4
+-,GSM2069633,Colo699-2D-2,Colo699-2D,Colo699,2D,5,4
+-,GSM2069634,A549-2D-3,A549-2D,A549,2D,5,5
+-,GSM2069635,Colo699-2D-3,Colo699-2D,Colo699,2D,5,5
+-,GSM2069636,A549-3D-1,A549-3D,A549,3D,10,12
+-,GSM2069637,Colo699-3D-1,Colo699-3D,Colo699,3D,10,12
+-,GSM2069638,A549-3D-2,A549-3D,A549,3D,10,15
+-,GSM2069639,Colo699-3D-2,Colo699-3D,Colo699,3D,10,14
+-,GSM2069640,A549-3D-3,A549-3D,A549,3D,10,17
+-,GSM2069641,Colo699-3D-3,Colo699-3D,Colo699,3D,10,18
+-,GSM2069642,A549-3D-5-1,A549-3D,A549,3D,5,12
+-,GSM2069643,A549-3D-5-2,A549-3D,A549,3D,5,15
+-,GSM2069644,A549-3D-5-3,A549-3D,A549,3D,5,15

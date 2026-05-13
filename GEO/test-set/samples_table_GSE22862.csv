@@ -1,0 +1,33 @@
+# TITLE: Prognostic Gene Expression Signature of Carcinoma Associated Fibroblasts in Non-Small Cell Lung Cancer [expression profiling_CAFs]
+# SUMMARY: The tumor microenvironment strongly influences cancer development, progression and metastasis. The role of carcinoma-associated fibroblasts (CAFs) in these processes and their clinical impact has not been studied systematically in non-small cell lung carcinoma (NSCLC). We established primary cultures of CAFs and matched normal fibroblasts (NFs) from 15 resected NSCLC. We demonstrate that CAFs have greater ability than NFs to enhance the tumorigenicity of lung cancer cell lines. Microarray gene expression analysis of the 15 matched CAF and NF cell lines identified 46 differentially expressed genes, encoding for proteins that are significantly enriched for extracellular proteins regulated by the TGF-beta signaling pathway. We have identified a subset of 11 genes that formed a prognostic gene expression signature, which was validated in multiple independent NSCLC microarray datasets. Functional annotation using protein-protein interaction analyses of these and published cancer stroma-associated gene expression changes revealed prominent involvement of the focal adhesion and MAPK signalling pathways. Fourteen (30%) of the 46 genes also were differentially expressed in laser-capture micro-dissected corresponding primary tumor stroma compared to the matched normal lung. Six of these 14 genes could be induced by TGF-beta1 in NF. The results establish the prognostic impact of CAF-associated gene expression changes in NSCLC patients.
+GPL5175_Group,GPL5175_Accession,GPL5175_Title,GPL5175_Source name,GPL5175_Age,GPL5175_Sex,GPL5175_Disease state,GPL5175_Histology,GPL5175_Stage
+-,GSM564890,primary_NSCLC_fibroblast_cell_line520,primary lung cancer,60,M,primary lung cancer,Adenocarcinoma,I
+-,GSM564891,primary_NSCLC_fibroblast_cell_line746,primary lung cancer,66,M,primary lung cancer,Adenocarcinoma,II
+-,GSM564892,primary_NSCLC_fibroblast_cell_line971,primary lung cancer,77,M,primary lung cancer,Adenocarcinoma,II
+-,GSM564893,primary_NSCLC_fibroblast_cell_line006,primary lung cancer,72,M,primary lung cancer,Squamous cell carcinoma,III
+-,GSM564894,primary_NSCLC_fibroblast_cell_line935,primary lung cancer,73,M,primary lung cancer,Combined small and large cell carcinoma and adenocarcinoma,I
+-,GSM564895,primary_NSCLC_fibroblast_cell_line471,primary lung cancer,79,M,primary lung cancer,Adenocarcinoma,I
+-,GSM564896,primary_NSCLC_fibroblast_cell_line690,primary lung cancer,79,F,primary lung cancer,Adenocarcinoma,III
+-,GSM564897,primary_NSCLC_fibroblast_cell_line089,primary lung cancer,69,M,primary lung cancer,Squamous cell carcinoma,II
+-,GSM564898,primary_NSCLC_fibroblast_cell_line727,primary lung cancer,73,M,primary lung cancer,Squamous cell carcinoma,I
+-,GSM564899,primary_NSCLC_fibroblast_cell_line192,primary lung cancer,58,M,primary lung cancer,Mixed large neuro- endocrine carcinoma and adenocarcinoma,I
+-,GSM564900,primary_NSCLC_fibroblast_cell_line094,primary lung cancer,47,F,primary lung cancer,Adenocarcinoma,III
+-,GSM564901,primary_NSCLC_fibroblast_cell_line549,primary lung cancer,74,F,primary lung cancer,Adenocarcinoma,III
+-,GSM564902,primary_NSCLC_fibroblast_cell_line927,primary lung cancer,58,F,primary lung cancer,Adenocarcinoma,I
+-,GSM564903,primary_NSCLC_fibroblast_cell_line954,primary lung cancer,77,M,primary lung cancer,Squamous cell carcinoma,I
+-,GSM564904,primary_NSCLC_fibroblast_cell_line491,primary lung cancer,66,M,primary lung cancer,Adenocarcinoma,II
+-,GSM564905,normal_lung_fibroblast_cell_line520,Normal lung,60,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564906,normal_lung_fibroblast_cell_line746,Normal lung,66,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564907,normal_lung_fibroblast_cell_line971,Normal lung,77,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564908,normal_lung_fibroblast_cell_line006,Normal lung,72,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564909,normal_lung_fibroblast_cell_line935,Normal lung,73,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564910,normal_lung_fibroblast_cell_line471,Normal lung,79,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564911,normal_lung_fibroblast_cell_line690,Normal lung,79,F,Normal lung,Normal lung parenchyma,NA
+-,GSM564912,normal_lung_fibroblast_cell_line089,Normal lung,69,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564913,normal_lung_fibroblast_cell_line727,Normal lung,73,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564914,normal_lung_fibroblast_cell_line192,Normal lung,58,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564915,normal_lung_fibroblast_cell_line094,Normal lung,47,F,Normal lung,Normal lung parenchyma,NA
+-,GSM564916,normal_lung_fibroblast_cell_line549,Normal lung,74,F,Normal lung,Normal lung parenchyma,NA
+-,GSM564917,normal_lung_fibroblast_cell_line927,Normal lung,58,F,Normal lung,Normal lung parenchyma,NA
+-,GSM564918,normal_lung_fibroblast_cell_line954,Normal lung,77,M,Normal lung,Normal lung parenchyma,NA
+-,GSM564919,normal_lung_fibroblast_cell_line491,Normal lung,66,M,Normal lung,Normal lung parenchyma,NA

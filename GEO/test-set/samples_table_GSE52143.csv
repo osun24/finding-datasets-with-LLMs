@@ -1,0 +1,15 @@
+# TITLE: Changes in global gene expression in lung cancer cell lines A549 (A) and HTB56 (H) [Affymetrix microarrays]
+# SUMMARY: Here, we analyzed global gene expression changes that were associated with pro-metastatic phenotypes in non-small cell lung cancer using the Affymetrix microarray platform.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Cell line,GPL6244_Rounds of in vivo selection,GPL6244_5-azacytidine status
+-,GSM1260278,A0R_d0_rep1,A549 cell line,A549,0,untreated
+-,GSM1260279,A0R_d0_rep2,A549 cell line,A549,0,untreated
+-,GSM1260280,A0R_d0_rep3,A549 cell line,A549,0,untreated
+-,GSM1260281,A3R_d0_rep1,A549 cell line,A549,3,untreated
+-,GSM1260282,A3R_d0_rep2,A549 cell line,A549,3,untreated
+-,GSM1260283,A3R_d0_rep3,A549 cell line,A549,3,untreated
+-,GSM1260284,H0R_d0_rep1,HTB56 cell line,HTB56,0,untreated
+-,GSM1260285,H0R_d0_rep2,HTB56 cell line,HTB56,0,untreated
+-,GSM1260286,H0R_d0_rep3,HTB56 cell line,HTB56,0,untreated
+-,GSM1260287,H3R_d0_rep1,HTB56 cell line,HTB56,3,untreated
+-,GSM1260288,H3R_d0_rep2,HTB56 cell line,HTB56,3,untreated
+-,GSM1260289,H3R_d0_rep3,HTB56 cell line,HTB56,3,untreated

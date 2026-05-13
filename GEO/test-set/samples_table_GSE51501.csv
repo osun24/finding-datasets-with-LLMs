@@ -1,0 +1,13 @@
+# TITLE: Comparison of microRNA Profiling Platforms (BeadChip)
+# SUMMARY: Global miRNA expression profiling of human malignancies is gaining popularity in both basic and clinically driven research. But to date, the majority of such analyses have used microarrays and quantitative real-time PCR. With the introduction of digital count technologies, such as next-generation sequencing (NGS) and the NanoString nCounter System, we have at our disposal, many more options. To make effective use of these different platforms, the strengths and pitfalls of several miRNA profiling technologies were assessed, including a microarray platform, NGS technologies and the NanoString nCounter System. These results were compared to gold-standard quantitative real-time PCR.
+GPL8179_Group,GPL8179_Accession,GPL8179_Title,GPL8179_Source name,GPL8179_Cell line
+-,GSM1246612,Lung Cancer Cell Line A549,Total RNA from A549 cells,A549
+-,GSM1246613,Lung Xenograft A549,Total RNA from A549 xenograft,A549
+-,GSM1246614,Lung Cancer Cell Line H460,Total RNA from H460 cells,H460
+-,GSM1246615,Lung Xenograft H460,Total RNA from H460 xenograft,H460
+-,GSM1246616,Lung Cancer Cell Line H520,Total RNA from H520 cells,H520
+-,GSM1246617,Lung Xenograft H520,Total RNA from H520 xenograft,H520
+-,GSM1246618,Lung Cancer Cell Line H1264,Total RNA from H1264 cells,H1264
+-,GSM1246619,Lung Xenograft H1264,Total RNA from H1264 xenograft,H1264
+-,GSM1246620,Lung Cancer Cell Line RVH6849,Total RNA from RVH6849 cells,RVH6849
+-,GSM1246621,Lung Xenograft RVH6849,Total RNA from RVH6849 xenograft,RVH6849

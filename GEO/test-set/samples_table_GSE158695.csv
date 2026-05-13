@@ -1,0 +1,9 @@
+# TITLE: circRNA expression data from human non-small cell lung cancer tissues and the correponding non-cancerous tissues
+# SUMMARY: Circular RNAs (circRNAs) are a class of covalently closed single-stranded RNAs that have been demonstrated to involve in cancer progression. Here, we identify circNDUFB2 is downregulated in non-small cell lung cancer (NSCLC) tissues, and it negatively correlates with the malignant features. Elevated circNDUFB2 inhibits growth and metastasis of NSCLC cells. circNDUFB2 functions as a scaffold to enhance interaction of TRIM25 with IGF2BPs by forming a TRIM25/circNDUFB2/IGF2BPs ternary complex. The resultant ternary complex facilitates ubiquitination degradation of IGF2BPs, and N6-methyladenosine (m6A) modification of circNDUFB2 increases ubiquitination efficiency of TRIM25 for IGF2BPs. Moreover, circNDUFB2 can be recognized by RIG-I, then activates RIG-I-MAVS signaling cascades and recruits immune cells into tumor microenvironment (TME). Our data provide evidences that circNDUFB2 participates in degradation of IGF2BPs and activation of anti-tumor immunity in NSCLC progression. These findings reveal a dual-role pattern of circNDUFB2 action involved in protein ubiquitination degradation and cellular immune response.
+GPL19978_Group,GPL19978_Accession,GPL19978_Title,GPL19978_Source name,GPL19978_Gender,GPL19978_Age,GPL19978_Tissue
+-,GSM4805584,0143_cancer tissue,"0143,cancer tissue",male,64,lung
+-,GSM4805585,255_cancer tissue,"255,cancer tissue",female,53,lung
+-,GSM4805586,01780012_cancer tissue,"01780012,cancer tissue",female,56,lung
+-,GSM4805587,0143_non-cancerous tissue,"0143,non-cancerous tissue",male,64,lung
+-,GSM4805588,255_non-cancerous tissue,"255,non-cancerous tissue",female,53,lung
+-,GSM4805589,01780012_non-cancerous tissue,"01780012,non-cancerous tissue",female,56,lung

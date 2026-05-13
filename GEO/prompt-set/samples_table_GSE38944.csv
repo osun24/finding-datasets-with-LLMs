@@ -1,0 +1,13 @@
+# TITLE: Downstream targets of ID1 transcription factor in Non-Small Cell Lung Carcinoma (NSCLC)
+# SUMMARY: ID-1, known as inhibitor of differentiation or a helix loop helix transcription factor which lack the basic DNA binding domain. It is known to bind to bHLH transcription factor and inhibit those bHLH to bind to the promoter thus inhibiting further transcription. Overexpression of ID-1 has been correlated with a variety of human cancers including breast, prostate, pancreatic, ovarian, endometrial, bladder cancer and melanomas. Recently known that if ID-1 is depleted, it abrogates cell proliferation, invasion and migration of cells in NSCLC. Further ID-1 expression is induced by Nicotine and EGF through the activation of nAChRs and EGFR. Here microarray analysis was done to compare differential gene expression patterns upon nicotine and EGF stimulation of A549 and H1650 cells and how ID1 depletion changes these patterns. We find that multiple genes are affected and the role of these genes in lung cancer will be elucidated. In this study we show that ID-1 regulates the expression of three genes STMN3, TPD52 and GSPT1 in NSCLC by activating the promoter of these genes either directly or indirectly. We also show that depletion of STMN3, TPD52 and GSPT1 prevented Nicotine and EGF induced cell proliferation, invasion and migration of cells in NSCLC.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Treatment,GPL570_Cell line,GPL570_Knockdown
+-,GSM952565,A549 Control Si,A549 Control Si,none,A549,control
+-,GSM952566,A549 ID-1 Si Nicotine,A549 ID-1 Si Nicotine,nicotine,A549,ID-1
+-,GSM952567,A549 Control Si Nicotine,A549 Control Si Nicotine,nicotine,A549,control
+-,GSM952568,A549 ID-1 Si EGF,A549 ID-1 Si EGF,EGF,A549,ID-1
+-,GSM952569,A549 Control Si EGF,A549 Control Si EGF,EGF,A549,control
+-,GSM952570,H1650 Control Si,H1650 Control Si,none,H1650,control
+-,GSM952571,H1650  ID-1 Si Nicotine,H1650  ID-1 Si Nicotine,nicotine,H1650,ID-1
+-,GSM952572,H1650 Control Si Nicotine,H1650 Control Si Nicotine,nicotine,H1650,control
+-,GSM952573,H1650  ID-1 Si EGF,H1650  ID-1 Si EGF,EGF,H1650,ID-1
+-,GSM952574,H1650 Control Si EGF,H1650 Control Si EGF,EGF,H1650,control

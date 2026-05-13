@@ -1,0 +1,29 @@
+# TITLE: Rapid identification of prognostic imaging biomarkers for non-small cell lung cancer by leveraging public gene expression microarray data
+# SUMMARY: To rapidly identify new prognostic imaging biomarkers, we propose a bioinformatics approach that integrates gene expression and image data and leverages public gene expression data. We demonstrate our approach in non-small cell lung carcinoma patients for whom CT, PET/CT and gene expression data are available but without clinical follow-up. We extracted 180 image features and 56 high quality gene expression clusters, represented by metagenes. 115 image features were expressed in terms of metagenes, using sparse linear regression and cross-validation, with an accuracy of 65-86%. After mapping the signatures to a public gene expression dataset, 26 image features were significantly associated with recurrence-free survival and 22 with overall survival. A multivariate analysis identified multiple image features that were prognostic, independent of clinical covariates. Identifying prognostic imaging biomarkers by linking images and gene expression with outcomes in public gene expression datasets promises to accelerate the role of imaging in personalized medicine.
+GPL6947_Group,GPL6947_Accession,GPL6947_Title,GPL6947_Source name,GPL6947_Cell type,GPL6947_Histology
+-,GSM714044,Patient 1 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714045,Patient 2 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714046,Patient 3 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714047,Patient 4 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714048,Patient 5 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714049,Patient 6 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714050,Patient 7 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,squamous
+-,GSM714051,Patient 8 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714052,Patient 9 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,squamous
+-,GSM714053,Patient 10 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714054,Patient 11 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,squamous
+-,GSM714055,Patient 12 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,squamous
+-,GSM714056,Patient 13 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714057,Patient 14 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714058,Patient 15 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714059,Patient 16 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714060,Patient 17 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714061,Patient 18 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,squamous
+-,GSM714062,Patient 19 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714063,Patient 20 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714064,Patient 21 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714065,Patient 22 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714066,Patient 23 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714067,Patient 24 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,squamous
+-,GSM714068,Patient 25 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno
+-,GSM714069,Patient 26 (non small cell lung carcinoma),tumor,non small cell lung carcinoma,adeno

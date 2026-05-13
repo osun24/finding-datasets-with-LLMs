@@ -1,0 +1,24 @@
+# TITLE: Patterns of changes in DNA global methylation following the treatment with GC/RA and with GC/RA plus AZA/SAHA in MYC amplified and BRG1 mutant lung cancer cell lines
+# SUMMARY: Comprehensive characterization of the DNA methylome regulated by the treatment with glucocorticoids (GC) and retinoic acid (RA) alone and combined with AZA/SAHA and the relationship of these features with the status of BRG1 and MYC in lung cancer cell lines.
+GPL13534_Group,GPL13534_Accession,GPL13534_Title,GPL13534_Source name,GPL13534_Individual,GPL13534_Cell line,GPL13534_Cell line type,GPL13534_Treatment
+-,GSM1614085,H82_FBS,Lung,Diseased donor,SCLC cell line H82,MYC amplified,FBS
+-,GSM1614086,H82_GCRA,Lung,Diseased donor,SCLC cell line H82,MYC amplified,GCRA
+-,GSM1614087,H82_COMB,Lung,Diseased donor,SCLC cell line H82,MYC amplified,COMB
+-,GSM1614088,H82_shBRG1_FBS,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_FBS
+-,GSM1614089,H82_shBRG1_GCRA,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_GCRA
+-,GSM1614090,H82_shBRG1_COMB,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_COMB
+-,GSM1614091,H460_FBS,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,FBS
+-,GSM1614092,H460_GCRA,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,GCRA
+-,GSM1614093,H460_COMB,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,COMB
+-,GSM1614094,H460_shBRG1_FBS,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_FBS
+-,GSM1614095,H460_shBRG1_GCRA,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_GCRA
+-,GSM1614096,H460_shBRG1_COMB,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_COMB
+-,GSM1614097,A549_FBS,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,FBS
+-,GSM1614098,A549_GCRA,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,GCRA
+-,GSM1614099,A549_COMB,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,COMB
+-,GSM1614100,DMS114_FBS,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,FBS
+-,GSM1614101,DMS114_GCRA,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,GCRA
+-,GSM1614102,DMS114_COMB,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,COMB
+-,GSM1714414,H1299_FBS,Lung,Diseased donor,H1299,BRG1 mutant,FBS
+-,GSM1714415,H1299_GCRA,Lung,Diseased donor,H1299,BRG1 mutant,GCRA
+-,GSM1714416,H1299_COMB,Lung,Diseased donor,H1299,BRG1 mutant,COMB

@@ -1,0 +1,7 @@
+# TITLE: Alectinib-resistant NSCLC harboring EML4-ALK cells: Parental vs. Alectinib-resistant
+# SUMMARY: Transcriptional profiling of NSCLC harboring EML4-ALK comparing parental H2228 cells with alectinib resistant H2228 cells.
+GPL13497_Group,GPL13497_Accession,GPL13497_Title,GPL13497_Source name,GPL13497_Gender,GPL13497_Tissue,GPL13497_Cell line
+-,GSM1888075,Parental cells,NCI-H2228,female,lung,H2228
+-,GSM1888076,Arectinib-resistant clone1 cells,NCI-H2228,female,lung,H2228
+-,GSM1888077,Arectinib-resistant clone2 cells,NCI-H2228,female,lung,H2228
+-,GSM1888078,Arectinib-resistant clone3 cells,NCI-H2228,female,lung,H2228

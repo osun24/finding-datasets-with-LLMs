@@ -1,0 +1,2 @@
+Title: Ovarian high grade serous carcinoma ascites cell secretome
+Description: The secretomes of tumor cells, and macrophages from high grade serous ovarian carcinoma from the ascites of patients undergoing primary surgery were analysed after 24h culture (ex vivo) via obitrap.

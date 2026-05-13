@@ -1,0 +1,9 @@
+# TITLE: Establishment and Comparative Characterization of Novel Non-Small Cell Lung Cancer Cell Lines and Their Corresponding Tumor Tissue
+# SUMMARY: Cell lines play an important role for studying tumor biology and novel therapeutic agents. We demonstrated that cell lines represent a useful and reliable in vitro system for studying basic mechanisms in lung cancer. Moreover, we presented 3 novel, comprehensively characterized SCC cell lines.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Sample type,GPL570_Tissue,GPL570_Cell line
+-,GSM621274,2106 tumor tissue,human lung squamous cell carcinoma,primary lung cancer,2106  lung squamous cell carcinoma  tumor tissue,
+-,GSM621275,2106 tumor cell line,human lung squamous cell carcinoma,primary cell line,,2106 tumor cell line
+-,GSM621276,2106 lymph node tissue,human lung squamous cell carcinoma,pulmonary lymph node,2106 lymph node tissue,
+-,GSM621277,2106 lymph node tissue cell line,human lung squamous cell carcinoma,primary cell line,,2106 lymph node tissue cell line
+-,GSM621278,2427 tumor tissue,human lung squamous cell carcinoma,primary lung cancer,2427 lung squamous cell carcinoma tumor tissue,
+-,GSM621279,2427 tumor cell line,human lung squamous cell carcinoma,primary cell line,,2427 tumor cell line

@@ -1,0 +1,37 @@
+# TITLE: Glycine decarboxylase is a metabolic oncogene critical for tumor initiating cells and tumorigenesis in lung cancer
+# SUMMARY: New approaches to cancer therapies could benefit from a better understanding of the molecular determinants critical to tumor initiating cells (TICs). Here we show that the metabolic enzyme glycine decarboxylase (GLDC) is critical for TICs in non-small cell lung cancer (NSCLC). From a broad range of primary NSCLC tumors, we isolated CD166+ lung TICs that consistently initiated tumorigenesis in NOD/SCID Il2rγ-/- mice. Lung TICs express high levels of the oncogenic stem cell factor LIN28B and the metabolic enzyme GLDC. Over-expression of GLDC and other glycine/serine metabolism enzymes, but not catalytically inactive GLDC, promotes cellular transformation and tumorigenesis. Metabolomic analysis found that GLDC induces dramatic changes in glycolysis and glycine/serine metabolism, leading to changes in pyrimidine metabolism to regulate cancer cell proliferation. Clinically, GLDC over-expression, observed in multiple cancer types, predicts poorer survival in lung cancer patients. Our findings establish a novel link between glycine metabolism and tumorigenesis, and provide novel targets for advancing anti-cancer therapy.
+GPL6883_Group,GPL6883_Accession,GPL6883_Title,GPL6883_Source name,GPL6883_Cell type
+-,GSM821872,S 1 rep1,tumor sphere,lung tumor sphere
+-,GSM821873,S 1 rep2,tumor sphere,lung tumor sphere
+-,GSM821874,S 1 rep3,tumor sphere,lung tumor sphere
+-,GSM821875,S 2 rep1,tumor sphere,lung tumor sphere
+-,GSM821876,S 2 rep2,tumor sphere,lung tumor sphere
+-,GSM821877,S 2 rep3,tumor sphere,lung tumor sphere
+-,GSM821878,S 3 rep1,tumor sphere,lung tumor sphere
+-,GSM821879,S 3 rep2,tumor sphere,lung tumor sphere
+-,GSM821880,S 4 rep1,tumor sphere,lung tumor sphere
+-,GSM821881,S 4 rep2,tumor sphere,lung tumor sphere
+-,GSM821882,X 1 rep1 +,tumor xenograft,lung tumor xenograft CD166+
+-,GSM821883,X 1 rep2 +,tumor xenograft,lung tumor xenograft CD166+
+-,GSM821884,X 2 rep1 +,tumor xenograft,lung tumor xenograft CD166+
+-,GSM821885,X 2 rep2 +,tumor xenograft,lung tumor xenograft CD166+
+-,GSM821886,X 3 rep1 +,tumor xenograft,lung tumor xenograft CD166+
+-,GSM821887,X 3 rep2 +,tumor xenograft,lung tumor xenograft CD166+
+-,GSM821888,X 1 rep1 -,tumor xenograft,lung tumor xenograft CD166-
+-,GSM821889,X 1 rep2 -,tumor xenograft,lung tumor xenograft CD166-
+-,GSM821890,X 2 rep1 -,tumor xenograft,lung tumor xenograft CD166-
+-,GSM821891,X 2 rep2 -,tumor xenograft,lung tumor xenograft CD166-
+-,GSM821892,X 3 rep1 -,tumor xenograft,lung tumor xenograft CD166-
+-,GSM821893,X 3 rep2 -,tumor xenograft,lung tumor xenograft CD166-
+-,GSM821894,P 1-3 rep1 +,primary tumor,lung primary tumor CD166+
+-,GSM821895,P 1-3 rep2 +,primary tumor,lung primary tumor CD166+
+-,GSM821896,P 1-3 rep1 -,primary tumor,lung primary tumor CD166-
+-,GSM821897,P 1-3 rep2 -,primary tumor,lung primary tumor CD166-
+-,GSM821898,N 5 rep1 +,normal donor,lung normal donor CD166+
+-,GSM821899,N 5 rep2 +,normal donor,lung normal donor CD166+
+-,GSM821900,N 6 rep1 +,normal donor,lung normal donor CD166+
+-,GSM821901,N 7 rep1 +,normal donor,lung normal donor CD166+
+-,GSM821902,N 5 rep1 -,normal donor,lung normal donor CD166-
+-,GSM821903,N 5 rep2 -,normal donor,lung normal donor CD166-
+-,GSM821904,N 6 rep1 -,normal donor,lung normal donor CD166-
+-,GSM821905,N 7 rep1 -,normal donor,lung normal donor CD166-

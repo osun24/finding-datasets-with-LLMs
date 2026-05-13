@@ -1,0 +1,15 @@
+# TITLE: Tumor-initiating cell-specific miR-1246 and miR-1290 converge to promote non-small cell lung cancer progression [Illumina]
+# SUMMARY: The tumor-initiating cell (TIC) model accounts for the phenotypic and functional heterogeneity among cancer cells found within human cancers. MicroRNAs (miRNAs) are key regulatory molecules frequently aberrantly expressed in tumors, and may play important roles in contributing towards tumor heterogeneity and TIC behavior. More recent efforts have focused on miRNAs for diagnosis and as targets for novel therapies. In this study, we identified the miRNAs, miR-1246 and miR-1290, which are crucial for the function of TICs, thereby driving cancer progression in human non-small cell lung cancer (NSCLC). These miRNAs are restricted to patient-derived tumorspheres and CD166+ primary tumor cells, both enriched for TICs. Loss of either miRNA impacted the tumorigenic potential of TICs and their ability to metastasize. Interestingly, longitudinal analyses of serum miR-1246 and miR-1290 levels correlated circulating levels of either miRNA to the clinical response seen in lung cancer patients to epidermal growth factor receptor (EGFR) tyrosine kinase inhibition, chemotherapy and radiotherapy. Functionally, direct inhibition of miR-1246 or miR-1290 with locked nucleic acid (LNA) administered systemically, could arrest the growth of established patient-derived tumors xenografted in immunocompromised mice, thus indicating these miRNAs are clinically useful as biomarkers for tracking disease progression and as therapeutic targets.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Genotype/variation
+-,GSM1704961,"control lung cancer cell (A549), replicate 1",A549,A549,control
+-,GSM1704962,"control lung cancer cell (A549), replicate 2",A549,A549,control
+-,GSM1704963,"knockdown mir-1246 on lung cancer cell (A549), replicate 1",A549 with mir-1246 knockdown,A549,knockdown mir-1246
+-,GSM1704964,"knockdown mir-1246 on lung cancer cell (A549), replicate 2",A549 with mir-1246 knockdown,A549,knockdown mir-1246
+-,GSM1704965,"knockdown mir-1290 on lung cancer cell (A549), replicate 1",A549 with mir-1290 knockdown,A549,knockdown mir-1290
+-,GSM1704966,"knockdown mir-1290 on lung cancer cell (A549), replicate 2",A549 with mir-1290 knockdown,A549,knockdown mir-1290
+-,GSM1704967,"control normal lung epithelial cell (Nuli-1), replicate 1",Nuli-1,Nuli-1,control
+-,GSM1704968,"control normal lung epithelial cell (Nuli-1), replicate 2",Nuli-1,Nuli-1,control
+-,GSM1704969,"overexpress mir-1246 on normal lung epithelial cell  (Nuli-1), replicate 1",Nuli-1 with mir-1246 overexpression,Nuli-1,overexpress mir-1246
+-,GSM1704970,"overexpress mir-1246 on normal lung epithelial cell  (Nuli-1), replicate 2",Nuli-1 with mir-1246 overexpression,Nuli-1,overexpress mir-1246
+-,GSM1704971,"overexpress mir-1290 on normal lung epithelial cell (Nuli-1), replicate 1",Nuli-1 with mir-1290 overexpression,Nuli-1,overexpress mir-1290
+-,GSM1704972,"overexpress mir-1290 on normal lung epithelial cell (Nuli-1), replicate 2",Nuli-1 with mir-1290 overexpression,Nuli-1,overexpress mir-1290

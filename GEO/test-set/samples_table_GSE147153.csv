@@ -1,0 +1,12 @@
+# TITLE: DNA methylome analysis of leader cells and follower cells derived from the H1299 NSCLC cell line
+# SUMMARY: Tumor heterogeneity drives disease progression, treatment resistance, and patient relapse, yet remains largely under-explored in invasion and metastasis. Here, we investigated heterogeneity within collective cancer invasion by integrating DNA methylation and gene expression analysis in rare purified lung cancer leader and follower cells. Our results showed global DNA methylation rewiring in leader cells and revealed the filopodial motor MYO10 as a critical gene at the intersection of epigenetic heterogeneity and 3D collective invasion. We further identified JAG1 signaling as a novel upstream activator of MYO10 expression in leader cells. Using live cell imaging, we discovered that MYO10 drives filopodial persistence necessary for micropatterning extracellular fibronectin into linear tracks at the edge of 3D collective invasion exclusively in leaders. Our data fit a model where epigenetic heterogeneity and JAG1/Notch signaling jointly drive collective cancer invasion through MYO10 upregulation in epigenetically permissive leader cells, which induces filopodia dynamics necessary for linearized fibronectin micropatterning.
+GPL23976_Group,GPL23976_Accession,GPL23976_Title,GPL23976_Source name,GPL23976_Cell line,GPL23976_Phenotype
+-,GSM4419333,H1299_Parental_1,Parental cells from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Parental
+-,GSM4419334,H1299_Parental_2,Parental cells from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Parental
+-,GSM4419335,H1299_Parental_3,Parental cells from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Parental
+-,GSM4419336,H1299_Leaders_1,Leader cells isolated from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Leaders
+-,GSM4419337,H1299_Leaders_2,Leader cells isolated from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Leaders
+-,GSM4419338,H1299_Leaders_3,Leader cells isolated from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Leaders
+-,GSM4419339,H1299_Followers_1,Follower cells isolated from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Followers
+-,GSM4419340,H1299_Followers_2,Follower cells isolated from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Followers
+-,GSM4419341,H1299_Followers_3,Follower cells isolated from invading spheroids of H1299 cell line,H1299 NSCLC cell line,Followers

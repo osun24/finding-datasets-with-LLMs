@@ -1,0 +1,9 @@
+# TITLE: YWHAZ is an Invasion and Metastasis promoting genes of Lung cancer
+# SUMMARY: Metastasis is a major cause leading to mortality for lung cancer patients. We identified YWHAZ as a potential metastasis-promoting candidate and found that overexpression of YWHAZ promotes lung cancer cell proliferation, anchorage-independent growth, migration, and invasion in vitro, as well as tumorigenesis and metastasis in vivo. It not only increases cell protrusions and branchings but also induces epithelial-mesenchymal transition. Most importantly, YWHAZ protein could prevent £]-catenin from ubiquitination via its association with £]-catenin and enhance slug transcriptional activity which is regulated by £]-catenin/TCF signaling pathway. Moreover, YWHAZ expression was higher in tumors than in adjacent normal tissues in 63 Non-small-cell lung cancer (NSCLC) patients. NSCLC patients with high YWHAZ expressing tumors had shorter overall survival than those with low-expressing tumors. We conclude that YWHAZ play a critical role in promoting NSCLC metastasis.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Transfection
+-,GSM509165,"CL1-0 mock control, biological rep1",Human lung adenocarcinoma cell line,CL-0,vector control
+-,GSM509166,"CL1-0 mock control, biological rep2",Human lung adenocarcinoma cell line,CL-0,vector control
+-,GSM509167,"CL1-0 mock control, biological rep3",Human lung adenocarcinoma cell line,CL-0,vector control
+-,GSM509168,"YWHAZ overexpressed CL1-0, biological rep1",Human lung adenocarcinoma cell line,CL-0,YWHAZ vector
+-,GSM509169,"YWHAZ overexpressed CL1-0, biological rep2",Human lung adenocarcinoma cell line,CL-0,YWHAZ vector
+-,GSM509170,"YWHAZ overexpressed CL1-0, biological rep3",Human lung adenocarcinoma cell line,CL-0,YWHAZ vector

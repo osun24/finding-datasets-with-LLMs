@@ -1,0 +1,199 @@
+# TITLE: Biomarker discovery in non-small cell lung cancer: integrating gene expression profiling, meta-analysis and tissue microarray validation
+# SUMMARY: Background: Global gene expression profiling has been widely used in lung cancer research to identify clinically relevant molecular subtypes as well as to predict prognosis and therapy response. So far, the value of these multi-gene signatures in clinical practice is unclear and the biological importance of individual genes is difficult to assess as the published signatures virtually do not overlap. Methods: Here we describe a novel single institute cohort, including 196 non-small lung cancer (NSCLC) cases with clinical information and long-term follow-up, which was used as a training set to screen for single genes with prognostic impact. The top 450 gene probe sets identified using a univariate Cox regression model (significance level p<0.01) were tested in a meta-analysis including five publicly available independent lung cancer cohorts (n=860). Results: The meta-analysis revealed that 17 probe sets were significantly associated with survival (p<0.0005) with a false discovery rate of 1%. The prognostic impact of one of these genes, the cell adhesion molecule 1 (CADM1), was confirmed by use of immunohistochemistry on a tissue microarray including 355 NSCLC samples. Low CADM1 protein expression was associated with shorter survival (p=0.028), with particular influence in the adenocarcinoma patient subgroup (p=0.002). Conclusions: We were able to validate single genes with independent prognostic impact using a novel NSCLC cohort together with a meta-analysis approach. CADM1 was identified as an immunohistochemical marker with a potential application in clinical diagnostics.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Dead,GPL570_Days to determined death status,GPL570_Histology,GPL570_Tumor stage,GPL570_Performance status corresponding to who criteria,GPL570_Age,GPL570_Gender,GPL570_Adjuvant treatment,GPL570_Recurrence,GPL570_Days to recurrence / to last visit
+-,GSM1019138,"Patient 6, male, squamous",cancer cells from patient 6,no,3418,squamous,2b,0,66,male,no,no,2637
+-,GSM1019139,"Patient 11, female, adeno",cancer cells from patient 11,no,3186,adeno,1a,1,66,female,no,yes,3223
+-,GSM1019140,"Patient 12, male, adeno",cancer cells from patient 12,yes,162,adeno,1a,1,77,male,no,yes,154
+-,GSM1019141,"Patient 13, male, squamous",cancer cells from patient 13,yes,6,squamous,2b,1,72,male,not known,not known,not known
+-,GSM1019142,"Patient 14, male, squamous",cancer cells from patient 14,no,3158,squamous,1b,0,63,male,not known,not known,not known
+-,GSM1019143,"Patient 19, female, adeno",cancer cells from patient 19,yes,556,adeno,1b,1,40,female,yes,yes,470
+-,GSM1019144,"Patient 22, male, adeno",cancer cells from patient 22,yes,304,adeno,3a,0,68,male,no,yes,91
+-,GSM1019145,"Patient 23, female, adeno",cancer cells from patient 23,yes,590,adeno,1b,1,65,female,no,no,222
+-,GSM1019146,"Patient 27, female, squamous",cancer cells from patient 27,yes,499,squamous,2b,3,76,female,no,yes,279
+-,GSM1019147,"Patient 32, male, adeno",cancer cells from patient 32,yes,61,adeno,1b,1,78,male,no,not known,not known
+-,GSM1019148,"Patient 33, male, large",cancer cells from patient 33,yes,253,large,1b,1,65,male,no,yes,245
+-,GSM1019149,"Patient 35, female, adeno",cancer cells from patient 35,yes,595,adeno,1b,1,74,female,no,not known,not known
+-,GSM1019150,"Patient 37, female, adeno",cancer cells from patient 37,yes,1839,adeno,1a,0,71,female,not known,not known,not known
+-,GSM1019151,"Patient 39, female, squamous",cancer cells from patient 39,no,2923,squamous,2b,1,62,female,not known,not known,not known
+-,GSM1019152,"Patient 48, female, adeno",cancer cells from patient 48,yes,523,adeno,1b,0,54,female,not known,not known,not known
+-,GSM1019153,"Patient 61, male, adeno",cancer cells from patient 61,yes,393,adeno,3b,0,73,male,not known,not known,not known
+-,GSM1019154,"Patient 81, male, adeno",cancer cells from patient 81,yes,250,adeno,4,0,56,male,not known,not known,not known
+-,GSM1019155,"Patient 87, female, large",cancer cells from patient 87,yes,155,large,1b,1,64,female,yes,yes,95
+-,GSM1019156,"Patient 88, male, squamous",cancer cells from patient 88,yes,158,squamous,1b,1,80,male,not known,not known,not known
+-,GSM1019157,"Patient 98, male, squamous",cancer cells from patient 98,yes,594,squamous,1b,2,70,male,no,no,495
+-,GSM1019158,"Patient 112, male, adeno",cancer cells from patient 112,yes,490,adeno,1b,0,70,male,yes,yes,437
+-,GSM1019159,"Patient 131, female, squamous",cancer cells from patient 131,yes,109,squamous,1b,1,55,female,no,yes,84
+-,GSM1019160,"Patient 133, female, adeno",cancer cells from patient 133,yes,84,adeno,1b,0,72,female,no,no,83
+-,GSM1019161,"Patient 158, male, large",cancer cells from patient 158,yes,300,large,1b,0,64,male,yes,yes,266
+-,GSM1019162,"Patient 162, male, adeno",cancer cells from patient 162,yes,355,adeno,1b,0,70,male,yes,no,359
+-,GSM1019163,"Patient 165, male, adeno",cancer cells from patient 165,yes,88,adeno,2b,0,74,male,not known,not known,not known
+-,GSM1019164,"Patient 169, female, adeno",cancer cells from patient 169,yes,286,adeno,3a,2,54,female,no,yes,239
+-,GSM1019165,"Patient 171, male, adeno",cancer cells from patient 171,yes,151,adeno,2a,1,71,male,no,no,54
+-,GSM1019166,"Patient 172, female, adeno",cancer cells from patient 172,yes,2108,adeno,1b,1,70,female,no,yes,1119
+-,GSM1019167,"Patient 174, male, large",cancer cells from patient 174,yes,281,large,1b,1,61,male,no,yes,245
+-,GSM1019168,"Patient 175, male, squamous",cancer cells from patient 175,no,5339,squamous,3b,1,59,male,not known,not known,not known
+-,GSM1019169,"Patient 189, female, adeno",cancer cells from patient 189,yes,3470,adeno,3a,0,75,female,no,no,3383
+-,GSM1019170,"Patient 192, male, adeno",cancer cells from patient 192,yes,4030,adeno,1b,0,69,male,no,no,4041
+-,GSM1019171,"Patient 193, female, adeno",cancer cells from patient 193,yes,3260,adeno,1a,0,62,female,no,no,2531
+-,GSM1019172,"Patient 195, male, squamous",cancer cells from patient 195,yes,462,squamous,2b,0,60,male,yes,yes,401
+-,GSM1019173,"Patient 196, male, large",cancer cells from patient 196,no,4439,large,3a,0,44,male,yes,no,1942
+-,GSM1019174,"Patient 197, male, adeno",cancer cells from patient 197,yes,514,adeno,2b,1,66,male,yes,yes,503
+-,GSM1019175,"Patient 200, male, adeno",cancer cells from patient 200,no,5712,adeno,1a,0,56,male,no,no,2954
+-,GSM1019176,"Patient 201, female, adeno",cancer cells from patient 201,yes,281,adeno,1b,1,76,female,no,yes,247
+-,GSM1019177,"Patient 202, male, squamous",cancer cells from patient 202,yes,1938,squamous,2b,0,70,male,no,not known,not known
+-,GSM1019178,"Patient 203, male, large",cancer cells from patient 203,no,4280,large,1b,0,56,male,no,no,4423
+-,GSM1019179,"Patient 207, male, large",cancer cells from patient 207,yes,278,large,1b,0,66,male,yes,yes,139
+-,GSM1019180,"Patient 212, male, adeno",cancer cells from patient 212,yes,343,adeno,1b,0,66,male,no,yes,116
+-,GSM1019181,"Patient 213, female, adeno",cancer cells from patient 213,yes,3221,adeno,1a,0,52,female,no,yes,2579
+-,GSM1019182,"Patient 214, male, large",cancer cells from patient 214,no,3973,large,1b,0,61,male,no,no,4207
+-,GSM1019183,"Patient 215, female, adeno",cancer cells from patient 215,yes,591,adeno,1b,0,51,female,no,yes,190
+-,GSM1019184,"Patient 217, female, squamous",cancer cells from patient 217,yes,429,squamous,1b,0,71,female,no,yes,242
+-,GSM1019185,"Patient 223, male, adeno",cancer cells from patient 223,yes,3719,adeno,2b,0,62,male,yes,yes,2905
+-,GSM1019186,"Patient 224, female, adeno",cancer cells from patient 224,no,3844,adeno,2b,1,64,female,yes,no,2086
+-,GSM1019187,"Patient 228, female, adeno",cancer cells from patient 228,yes,3331,adeno,1b,0,82,female,no,yes,1707
+-,GSM1019188,"Patient 229, female, adeno",cancer cells from patient 229,no,3723,adeno,1b,0,55,female,yes,no,966
+-,GSM1019189,"Patient 234, male, large",cancer cells from patient 234,yes,3000,large,1b,0,68,male,no,no,3044
+-,GSM1019190,"Patient 235, female, adeno",cancer cells from patient 235,no,3621,adeno,1b,0,71,female,no,no,1728
+-,GSM1019191,"Patient 243, male, squamous",cancer cells from patient 243,yes,98,squamous,1b,2,80,male,no,no,37
+-,GSM1019192,"Patient 247, female, adeno",cancer cells from patient 247,no,3369,adeno,1a,1,75,female,no,no,1726
+-,GSM1019193,"Patient 249, male, squamous",cancer cells from patient 249,yes,2300,squamous,1b,0,69,male,no,yes,1305
+-,GSM1019194,"Patient 255, female, adeno",cancer cells from patient 255,yes,2844,adeno,3a,0,74,female,no,no,2883
+-,GSM1019195,"Patient 256, female, squamous",cancer cells from patient 256,yes,444,squamous,3a,1,58,female,no,yes,336
+-,GSM1019196,"Patient 258, male, adeno",cancer cells from patient 258,yes,6,adeno,3a,1,59,male,no,no,6
+-,GSM1019197,"Patient 260, male, adeno",cancer cells from patient 260,yes,196,adeno,1b,2,59,male,no,yes,133
+-,GSM1019198,"Patient 265, male, squamous",cancer cells from patient 265,yes,123,squamous,2b,1,75,male,no,no,103
+-,GSM1019199,"Patient 271, female, squamous",cancer cells from patient 271,yes,2739,squamous,1b,1,75,female,no,no,2736
+-,GSM1019200,"Patient 272, female, adeno",cancer cells from patient 272,yes,351,adeno,2b,0,51,female,not known,not known,not known
+-,GSM1019201,"Patient 274, male, squamous",cancer cells from patient 274,no,4945,squamous,1b,0,62,male,no,yes,4256
+-,GSM1019202,"Patient 278, male, squamous",cancer cells from patient 278,yes,334,squamous,3a,0,60,male,yes,yes,325
+-,GSM1019203,"Patient 282, female, adeno",cancer cells from patient 282,yes,79,adeno,2b,1,70,female,not known,not known,not known
+-,GSM1019204,"Patient 284, male, adeno",cancer cells from patient 284,yes,3949,adeno,2b,0,70,male,yes,yes,2380
+-,GSM1019205,"Patient 288, male, adeno",cancer cells from patient 288,no,4703,adeno,1a,0,59,male,yes,no,4978
+-,GSM1019206,"Patient 291, female, squamous",cancer cells from patient 291,yes,281,squamous,3a,3,41,female,no,yes,71
+-,GSM1019207,"Patient 292, female, adeno",cancer cells from patient 292,yes,247,adeno,1b,0,57,female,not known,not known,not known
+-,GSM1019208,"Patient 295, female, large",cancer cells from patient 295,no,4622,large,2b,0,69,female,no,no,4914
+-,GSM1019209,"Patient 296, female, squamous",cancer cells from patient 296,yes,1761,squamous,1b,1,62,female,yes,no,1690
+-,GSM1019210,"Patient 297, male, adeno",cancer cells from patient 297,yes,2748,adeno,1a,0,66,male,no,no,2750
+-,GSM1019211,"Patient 299, female, adeno",cancer cells from patient 299,yes,323,adeno,3a,0,60,female,yes,yes,306
+-,GSM1019212,"Patient 300, female, squamous",cancer cells from patient 300,no,4510,squamous,1b,0,61,female,no,no,4314
+-,GSM1019213,"Patient 301, male, adeno",cancer cells from patient 301,no,4489,adeno,1b,0,61,male,no,yes,3760
+-,GSM1019214,"Patient 302, female, adeno",cancer cells from patient 302,no,4486,adeno,1a,0,55,female,no,no,2084
+-,GSM1019215,"Patient 305, male, squamous",cancer cells from patient 305,yes,3202,squamous,1b,0,65,male,yes,yes,3130
+-,GSM1019216,"Patient 309, female, adeno",cancer cells from patient 309,yes,396,adeno,3b,0,59,female,yes,yes,185
+-,GSM1019217,"Patient 310, female, adeno",cancer cells from patient 310,yes,370,adeno,4,0,70,female,yes,yes,212
+-,GSM1019218,"Patient 311, male, adeno",cancer cells from patient 311,yes,262,adeno,1b,0,67,male,no,yes,179
+-,GSM1019219,"Patient 314, male, large",cancer cells from patient 314,yes,76,large,1b,1,69,male,no,yes,54
+-,GSM1019220,"Patient 317, female, adeno",cancer cells from patient 317,yes,533,adeno,2a,1,64,female,no,yes,138
+-,GSM1019221,"Patient 319, male, squamous",cancer cells from patient 319,yes,89,squamous,3a,1,65,male,no,yes,64
+-,GSM1019222,"Patient 331, male, large",cancer cells from patient 331,yes,2940,large,1a,0,73,male,yes,yes,2851
+-,GSM1019223,"Patient 332, male, large",cancer cells from patient 332,yes,387,large,1b,1,61,male,not known,not known,not known
+-,GSM1019224,"Patient 338, female, adeno",cancer cells from patient 338,yes,1874,adeno,2b,0,49,female,yes,yes,255
+-,GSM1019225,"Patient 341, female, adeno",cancer cells from patient 341,yes,177,adeno,2b,1,51,female,no,no,7
+-,GSM1019226,"Patient 342, male, squamous",cancer cells from patient 342,yes,556,squamous,2b,0,74,male,yes,no,564
+-,GSM1019227,"Patient 344, female, squamous",cancer cells from patient 344,yes,467,squamous,1b,1,61,female,no,no,392
+-,GSM1019228,"Patient 347, male, adeno",cancer cells from patient 347,no,5082,adeno,1b,1,54,male,not known,not known,not known
+-,GSM1019229,"Patient 357, male, squamous",cancer cells from patient 357,yes,3302,squamous,1b,0,58,male,yes,no,3348
+-,GSM1019230,"Patient 359, female, adeno",cancer cells from patient 359,yes,2397,adeno,3a,0,68,female,yes,no,2267
+-,GSM1019231,"Patient 361, male, large",cancer cells from patient 361,yes,2012,large,1a,1,57,male,not known,not known,not known
+-,GSM1019232,"Patient 365, male, squamous",cancer cells from patient 365,yes,5311,squamous,1b,0,70,male,no,no,5385
+-,GSM1019233,"Patient 367, male, squamous",cancer cells from patient 367,yes,2255,squamous,3b,2,66,male,no,no,2275
+-,GSM1019234,"Patient 369, female, adeno",cancer cells from patient 369,yes,2068,adeno,1b,0,51,female,no,yes,622
+-,GSM1019235,"Patient 370, male, squamous",cancer cells from patient 370,yes,97,squamous,1b,1,66,male,not known,not known,not known
+-,GSM1019236,"Patient 373, female, adeno",cancer cells from patient 373,yes,3545,adeno,2b,3,47,female,yes,yes,3169
+-,GSM1019237,"Patient 375, female, large",cancer cells from patient 375,no,5098,large,1a,0,48,female,yes,no,2208
+-,GSM1019238,"Patient 5, male, squamous",cancer cells from patient 5,yes,1264,squamous,1b,1,78,male,not known,not known,not known
+-,GSM1019239,"Patient 7, male, adeno",cancer cells from patient 7,yes,1222,adeno,1b,1,55,male,not known,not known,not known
+-,GSM1019240,"Patient 8, male, squamous",cancer cells from patient 8,yes,1073,squamous,2b,0,75,male,not known,not known,not known
+-,GSM1019241,"Patient 10, male, squamous",cancer cells from patient 10,yes,1138,squamous,1b,1,80,male,not known,not known,not known
+-,GSM1019242,"Patient 16, female, adeno",cancer cells from patient 16,no,3227,adeno,1b,0,66,female,no,no,2086
+-,GSM1019243,"Patient 20, male, adeno",cancer cells from patient 20,yes,1031,adeno,1b,0,60,male,not known,not known,not known
+-,GSM1019244,"Patient 28, female, adeno",cancer cells from patient 28,yes,1243,adeno,1a,0,57,female,not known,not known,not known
+-,GSM1019245,"Patient 29, male, squamous",cancer cells from patient 29,yes,143,squamous,3a,0,56,male,no,not known,not known
+-,GSM1019246,"Patient 30, female, squamous",cancer cells from patient 30,yes,1343,squamous,1a,1,67,female,not known,not known,not known
+-,GSM1019247,"Patient 36, male, adeno",cancer cells from patient 36,yes,1123,adeno,3a,1,60,male,not known,not known,not known
+-,GSM1019248,"Patient 38, male, large",cancer cells from patient 38,no,2888,large,1b,0,64,male,not known,not known,not known
+-,GSM1019249,"Patient 41, female, adeno",cancer cells from patient 41,no,2866,adeno,1a,0,73,female,not known,not known,not known
+-,GSM1019250,"Patient 43, male, squamous",cancer cells from patient 43,no,3126,squamous,1b,0,67,male,no,no,2404
+-,GSM1019251,"Patient 52, female, squamous",cancer cells from patient 52,yes,1061,squamous,1b,0,62,female,not known,not known,not known
+-,GSM1019252,"Patient 55, male, squamous",cancer cells from patient 55,yes,625,squamous,1a,1,76,male,no,yes,407
+-,GSM1019253,"Patient 56, male, adeno",cancer cells from patient 56,yes,857,adeno,1b,0,64,male,not known,not known,not known
+-,GSM1019254,"Patient 58, female, adeno",cancer cells from patient 58,no,2761,adeno,1a,1,56,female,not known,not known,not known
+-,GSM1019255,"Patient 59, male, squamous",cancer cells from patient 59,no,2767,squamous,1b,0,73,male,not known,not known,not known
+-,GSM1019256,"Patient 62, female, adeno",cancer cells from patient 62,yes,836,adeno,1b,0,74,female,not known,not known,not known
+-,GSM1019257,"Patient 64, male, adeno",cancer cells from patient 64,yes,1190,adeno,1a,1,78,male,not known,not known,not known
+-,GSM1019258,"Patient 66, male, adeno",cancer cells from patient 66,yes,2170,adeno,1a,0,58,male,not known,not known,not known
+-,GSM1019259,"Patient 68, female, adeno",cancer cells from patient 68,no,2589,adeno,3a,0,54,female,not known,not known,not known
+-,GSM1019260,"Patient 74, male, adeno",cancer cells from patient 74,no,2350,adeno,1b,0,49,male,not known,not known,not known
+-,GSM1019261,"Patient 75, male, adeno",cancer cells from patient 75,no,2308,adeno,1a,0,53,male,not known,not known,not known
+-,GSM1019262,"Patient 76, male, large",cancer cells from patient 76,no,2385,large,1b,1,56,male,not known,not known,not known
+-,GSM1019263,"Patient 78, male, squamous",cancer cells from patient 78,yes,758,squamous,1b,1,62,male,not known,not known,not known
+-,GSM1019264,"Patient 79, female, adeno",cancer cells from patient 79,yes,1205,adeno,3a,0,67,female,not known,not known,not known
+-,GSM1019265,"Patient 80, female, adeno",cancer cells from patient 80,no,2316,adeno,1a,0,51,female,not known,not known,not known
+-,GSM1019266,"Patient 84, male, squamous",cancer cells from patient 84,no,2514,squamous,2b,2,67,male,not known,not known,not known
+-,GSM1019267,"Patient 92, female, squamous",cancer cells from patient 92,yes,912,squamous,2b,0,57,female,not known,not known,not known
+-,GSM1019268,"Patient 93, male, adeno",cancer cells from patient 93,no,2448,adeno,1a,0,53,male,not known,not known,not known
+-,GSM1019269,"Patient 96, male, squamous",cancer cells from patient 96,yes,1565,squamous,1b,0,69,male,not known,not known,not known
+-,GSM1019270,"Patient 101, male, adeno",cancer cells from patient 101,yes,1000,adeno,3a,1,66,male,not known,not known,not known
+-,GSM1019271,"Patient 105, male, squamous",cancer cells from patient 105,no,2177,squamous,1b,0,65,male,not known,not known,not known
+-,GSM1019272,"Patient 107, female, adeno",cancer cells from patient 107,yes,1224,adeno,1a,0,65,female,not known,not known,not known
+-,GSM1019273,"Patient 110, female, adeno",cancer cells from patient 110,yes,1463,adeno,1a,0,55,female,not known,not known,not known
+-,GSM1019274,"Patient 111, female, adeno",cancer cells from patient 111,yes,50,adeno,1a,2,57,female,not known,not known,not known
+-,GSM1019275,"Patient 114, female, adeno",cancer cells from patient 114,yes,319,adeno,1b,1,75,female,no,yes,162
+-,GSM1019276,"Patient 116, female, squamous",cancer cells from patient 116,yes,1087,squamous,1a,0,68,female,not known,not known,not known
+-,GSM1019277,"Patient 123, male, squamous",cancer cells from patient 123,no,2066,squamous,1b,1,78,male,not known,not known,not known
+-,GSM1019278,"Patient 128, female, squamous",cancer cells from patient 128,no,2091,squamous,1b,1,67,female,not known,not known,not known
+-,GSM1019279,"Patient 130, male, squamous",cancer cells from patient 130,yes,1478,squamous,3a,0,56,male,not known,not known,not known
+-,GSM1019280,"Patient 135, male, squamous",cancer cells from patient 135,yes,1612,squamous,1b,1,84,male,not known,not known,not known
+-,GSM1019281,"Patient 138, male, squamous",cancer cells from patient 138,yes,2138,squamous,1a,1,58,male,not known,not known,not known
+-,GSM1019282,"Patient 139, male, squamous",cancer cells from patient 139,yes,1523,squamous,1b,1,77,male,not known,not known,not known
+-,GSM1019283,"Patient 147, female, adeno",cancer cells from patient 147,no,1928,adeno,1b,0,68,female,not known,not known,not known
+-,GSM1019284,"Patient 149, male, squamous",cancer cells from patient 149,yes,906,squamous,1b,0,51,male,not known,not known,not known
+-,GSM1019285,"Patient 150, female, adeno",cancer cells from patient 150,no,1826,adeno,2b,0,47,female,not known,not known,not known
+-,GSM1019286,"Patient 154, male, adeno",cancer cells from patient 154,yes,756,adeno,1b,0,67,male,not known,not known,not known
+-,GSM1019287,"Patient 156, male, large",cancer cells from patient 156,no,1806,large,1b,1,59,male,not known,not known,not known
+-,GSM1019288,"Patient 160, female, adeno",cancer cells from patient 160,no,1859,adeno,1b,0,60,female,not known,not known,not known
+-,GSM1019289,"Patient 163, male, adeno",cancer cells from patient 163,yes,1011,adeno,1b,1,78,male,not known,not known,not known
+-,GSM1019290,"Patient 164, female, adeno",cancer cells from patient 164,yes,1500,adeno,1b,2,79,female,not known,not known,not known
+-,GSM1019291,"Patient 168, female, squamous",cancer cells from patient 168,yes,726,squamous,1b,1,62,female,not known,not known,not known
+-,GSM1019292,"Patient 173, male, adeno",cancer cells from patient 173,yes,1181,adeno,1a,1,67,male,not known,not known,not known
+-,GSM1019293,"Patient 178, female, squamous",cancer cells from patient 178,yes,661,squamous,2b,1,70,female,yes,yes,374
+-,GSM1019294,"Patient 179, male, squamous",cancer cells from patient 179,yes,1293,squamous,1b,0,68,male,not known,not known,not known
+-,GSM1019295,"Patient 180, female, adeno",cancer cells from patient 180,no,4760,adeno,1b,2,67,female,no,no,5052
+-,GSM1019296,"Patient 182, male, squamous",cancer cells from patient 182,yes,792,squamous,2b,1,66,male,not known,not known,not known
+-,GSM1019297,"Patient 184, female, squamous",cancer cells from patient 184,yes,118,squamous,3b,2,61,female,not known,not known,not known
+-,GSM1019298,"Patient 186, female, adeno",cancer cells from patient 186,yes,1007,adeno,2b,0,57,female,not known,not known,not known
+-,GSM1019299,"Patient 187, male, adeno",cancer cells from patient 187,yes,1610,adeno,2b,2,51,male,not known,not known,not known
+-,GSM1019300,"Patient 190, male, adeno",cancer cells from patient 190,yes,1367,adeno,1b,1,73,male,not known,not known,not known
+-,GSM1019301,"Patient 204, female, large",cancer cells from patient 204,yes,178,large,3a,1,52,female,not known,not known,not known
+-,GSM1019302,"Patient 209, female, adeno",cancer cells from patient 209,no,4068,adeno,1a,0,62,female,no,no,2369
+-,GSM1019303,"Patient 218, male, adeno",cancer cells from patient 218,yes,766,adeno,1b,1,52,male,not known,not known,not known
+-,GSM1019304,"Patient 220, female, large",cancer cells from patient 220,yes,1312,large,1b,1,75,female,not known,not known,not known
+-,GSM1019305,"Patient 226, female, adeno",cancer cells from patient 226,no,3846,adeno,1a,1,67,female,no,no,4072
+-,GSM1019306,"Patient 236, female, squamous",cancer cells from patient 236,yes,1250,squamous,2b,2,65,female,not known,not known,not known
+-,GSM1019307,"Patient 239, male, squamous",cancer cells from patient 239,yes,1125,squamous,1a,0,50,male,not known,not known,not known
+-,GSM1019308,"Patient 241, male, adeno",cancer cells from patient 241,yes,1221,adeno,2a,0,71,male,not known,not known,not known
+-,GSM1019309,"Patient 244, female, adeno",cancer cells from patient 244,yes,979,adeno,1b,1,83,female,not known,not known,not known
+-,GSM1019310,"Patient 254, female, adeno",cancer cells from patient 254,no,3217,adeno,4,0,63,female,not known,not known,not known
+-,GSM1019311,"Patient 257, female, adeno",cancer cells from patient 257,yes,1687,adeno,1a,0,65,female,not known,not known,not known
+-,GSM1019312,"Patient 263, male, adeno",cancer cells from patient 263,yes,2167,adeno,4,0,72,male,not known,not known,not known
+-,GSM1019313,"Patient 275, female, adeno",cancer cells from patient 275,no,5063,adeno,1a,3,49,female,no,no,5045
+-,GSM1019314,"Patient 276, male, adeno",cancer cells from patient 276,no,4897,adeno,2a,0,66,male,no,no,869
+-,GSM1019315,"Patient 277, female, large",cancer cells from patient 277,yes,3857,large,1a,1,68,female,not known,not known,not known
+-,GSM1019316,"Patient 285, female, adeno",cancer cells from patient 285,yes,1445,adeno,1b,0,70,female,not known,not known,not known
+-,GSM1019317,"Patient 287, female, large",cancer cells from patient 287,yes,1229,large,3a,0,52,female,not known,not known,not known
+-,GSM1019318,"Patient 290, female, adeno",cancer cells from patient 290,yes,2060,adeno,2b,1,54,female,not known,not known,not known
+-,GSM1019319,"Patient 294, male, squamous",cancer cells from patient 294,yes,181,squamous,1a,1,70,male,no,yes,118
+-,GSM1019320,"Patient 312, male, adeno",cancer cells from patient 312,yes,1488,adeno,1b,0,52,male,not known,not known,not known
+-,GSM1019321,"Patient 318, male, adeno",cancer cells from patient 318,no,5207,adeno,1b,0,54,male,no,no,5423
+-,GSM1019322,"Patient 320, male, squamous",cancer cells from patient 320,yes,229,squamous,3a,1,58,male,not known,not known,not known
+-,GSM1019323,"Patient 321, male, squamous",cancer cells from patient 321,yes,342,squamous,3b,1,72,male,not known,not known,not known
+-,GSM1019324,"Patient 327, male, adeno",cancer cells from patient 327,yes,2810,adeno,1b,1,67,male,no,no,531
+-,GSM1019325,"Patient 329, male, squamous",cancer cells from patient 329,yes,718,squamous,1a,1,77,male,no,yes,602
+-,GSM1019326,"Patient 334, male, squamous",cancer cells from patient 334,no,5469,squamous,2a,1,70,male,yes,no,4547
+-,GSM1019327,"Patient 336, female, large",cancer cells from patient 336,yes,912,large,1b,1,39,female,not known,not known,not known
+-,GSM1019328,"Patient 348, male, adeno",cancer cells from patient 348,yes,1113,adeno,1a,1,59,male,not known,not known,not known
+-,GSM1019329,"Patient 350, female, squamous",cancer cells from patient 350,no,2666,squamous,1a,0,40,female,not known,not known,not known
+-,GSM1019330,"Patient 353, male, adeno",cancer cells from patient 353,no,2515,adeno,1a,0,53,male,not known,not known,not known
+-,GSM1019331,"Patient 354, male, squamous",cancer cells from patient 354,yes,640,squamous,1b,0,71,male,no,yes,239
+-,GSM1019332,"Patient 360, female, adeno",cancer cells from patient 360,yes,1015,adeno,2a,1,47,female,not known,not known,not known
+-,GSM1019333,"Patient 363, female, large",cancer cells from patient 363,yes,985,large,1b,0,70,female,not known,not known,not known

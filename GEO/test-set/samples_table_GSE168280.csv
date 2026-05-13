@@ -1,0 +1,19 @@
+# TITLE: MUSASHI-2 RNA binding protein confers resistance to an epidermal growth factor receptor-tyrosine kinase inhibitor Osimertinib in lung adenocarcinoma
+# SUMMARY: Epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs) are effective in non-small cell lung cancer (NSCLC) patients harboring EGFR mutations. However, due to the acquired resistance to EGFR-TKIs, even third generation Osimertinib, the patients suffer poor prognosis. The resistance mechanisms are still not fully understood. Here, we demonstrate that increased expression of MUSASHI-2 (MSI2), an RNA binding protein, is novel mechanisms for resistance to EGFR-TKIs. We found that after long-exposure of gefitinib, the first generation EGFR-TKI, lung cancer cells harboring the EGFR-TKI-sensitive mutations became resistant to not only gefitinib but also Osimertinib. Although other mutations in EGFR were not found, expression levels of Nanog, a stemness core protein, and activities of aldehyde dehydrogenase (ALDH) were increased, suggesting that cancer stem-like properties were increased. Transcriptome analysis revealed that MSI2 was among the top list of the stemness-related genes upregulated in the EGFR-TKI-resistant cells. Knockdown of MSI2 reduced cancer stem-like properties, including expression levels of Nanog a core stemness factor. We demonstrate that knockdown of MSI2 restored sensitivity to Osimertinib or gefitinib in the EGFR-TKI-resistant cells to the similar levels of the parental cells in vitro. RNA immunoprecipitation (RIP) assay revealed that antibodies against MSI2 bound to Nanog mRNA, suggesting that MSI2 increases Nanog expression by binding to Nanog mRNA. Moreover, overexpression of MSI2 or Nanog conferred resistance to Osimertinib or gefitinib in parental cells. Finally, knockdown of MSI2 greatly increased sensitivity to Osimertinib in vivo. Collectively, our findings provide proof-of-principle that targeting MSI2-Nanog axis in combination with EGFR-TKIs would effectively prevent emergence of acquired resistance.
+GPL21185_Group,GPL21185_Accession,GPL21185_Title,GPL21185_Source name,GPL21185_Cell line,GPL21185_Cell type,GPL21185_Aldh status
+-,GSM5135496,PC9M2_high_rep1,"PC9M2, ALDH-high cell population, replicate 1",PC9M2,Cancer cell line,high
+-,GSM5135497,PC9M2_high_rep2,"PC9M2, ALDH-high cell population, replicate 2",PC9M2,Cancer cell line,high
+-,GSM5135498,PC9M2_high_rep3,"PC9M2, ALDH-high cell population, replicate 3",PC9M2,Cancer cell line,high
+-,GSM5135499,PC9M2_high_rep4,"PC9M2, ALDH-high cell population, replicate 4",PC9M2,Cancer cell line,high
+-,GSM5135500,PC9M2_low_rep1,"PC9M2, ALDH-low cell population, replicate 1",PC9M2,Cancer cell line,low
+-,GSM5135501,PC9M2_low_rep2,"PC9M2, ALDH-low cell population, replicate 2",PC9M2,Cancer cell line,low
+-,GSM5135502,PC9M2_low_rep3,"PC9M2, ALDH-low cell population, replicate 3",PC9M2,Cancer cell line,low
+-,GSM5135503,PC9M2_low_rep4,"PC9M2, ALDH-low cell population, replicate 4",PC9M2,Cancer cell line,low
+-,GSM5135504,PC9_high_rep1,"PC9, ALDH-high cell population, replicate 1",PC9,Cancer cell line,high
+-,GSM5135505,PC9_high_rep2,"PC9, ALDH-high cell population, replicate 2",PC9,Cancer cell line,high
+-,GSM5135506,PC9_high_rep3,"PC9, ALDH-high cell population, replicate 3",PC9,Cancer cell line,high
+-,GSM5135507,PC9_high_rep4,"PC9, ALDH-high cell population, replicate 4",PC9,Cancer cell line,high
+-,GSM5135508,PC9_low_rep1,"PC9, ALDH-low cell population, replicate 1",PC9,Cancer cell line,low
+-,GSM5135509,PC9_low_rep2,"PC9, ALDH-low cell population, replicate 2",PC9,Cancer cell line,low
+-,GSM5135510,PC9_low_rep3,"PC9, ALDH-low cell population, replicate 3",PC9,Cancer cell line,low
+-,GSM5135511,PC9_low_rep4,"PC9, ALDH-low cell population, replicate 4",PC9,Cancer cell line,low

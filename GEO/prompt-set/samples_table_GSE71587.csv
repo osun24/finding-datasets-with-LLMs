@@ -1,0 +1,5 @@
+# TITLE: Gene expression data from HCC4006 and HCC4006ER cells
+# SUMMARY: We generated erlotinib-resistant HCC4006 cells (HCC4006ER) by chronic exposure of EGFR-mutant HCC4006 cells to increasing concentrations of erlotinib. HCC4006ER cells acquired an EMT phenotype and activation of the TGF-β/SMAD pathway, while lacking both T790M secondary EGFR mutation and MET gene amplification. We employed gene expression microarrays in HCC4006 and HCC4006ER cells to better understand the mechanism of acquired EGFR-TKI resistance with EMT. At the mRNA level, ZEB1 (TCF8), a known regulator of EMT, was >20-fold higher in HCC4006ER cells than in HCC4006 cells. Furthermore, numerous ZEB1 responsive genes, such as CDH1 (E-cadherin), ST14, and vimentin, were coordinately regulated along with increased ZEB1 in HCC4006ER cells.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Cell type,GPL570_Mutation,GPL570_Resistance,GPL570_Phenotype
+-,GSM1841013,HCC4006,HCC4006 cells,HCC4006,NSCLC,EGFR Ex19 del,erlotinib sensitive,wildtype
+-,GSM1841014,HCC4006ER,HCC4006ER cells,HCC4006ER,NSCLC,EGFR Ex19 del,erlotinib resistant,EMT

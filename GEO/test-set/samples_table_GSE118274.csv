@@ -1,0 +1,5 @@
+# TITLE: Argonaute2 (Ago2) immunoprecipitation (IP) assay using miR-130b overexpressing A549 cells.
+# SUMMARY: To identify target genes of miR-130b in NSCLC cells.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Cell line,GPL6244_Transfection
+-,GSM3324033,empty vector-transfected A549 cells,empty vector-transfected A549 cells,A549,empty vector
+-,GSM3324034,miR-130b overexpressed A549 cells,miR-130b overexpressed A549 cells,A549,miR-130b

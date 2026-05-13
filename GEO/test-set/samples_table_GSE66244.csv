@@ -1,0 +1,67 @@
+# TITLE: Identification of expresion patterns after treatment with GC/RA and combination with AZA/SAHA in MYC amplified and BRG1 mutant lung cancer cell lines
+# SUMMARY: To development our gene expression approach , we have employed whole genome microarray expression profiling as a discovery platform to identify genes potentialy regulated by the treatment with glucocorticoids (GC) and retinoic acid (RA) alone and combined with AZA/SAHA and the relationship of these features with the status of BRG1 and MYC in lung cancer cell lines.
+GPL17077_Group,GPL17077_Accession,GPL17077_Title,GPL17077_Source name,GPL17077_Individual,GPL17077_Cell line,GPL17077_Cell line type,GPL17077_Treatment,GPL21185_Group,GPL21185_Accession,GPL21185_Title,GPL21185_Source name,GPL21185_Individual,GPL21185_Cell line,GPL21185_Cell line type,GPL21185_Treatment
+-,GSM1617886,H82_FBS_1,Lung,Diseased donor,SCLC cell line H82,MYC amplified,FBS,-,GSM2196109,H82_shBRG1_2_FBS_1,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_FBS
+-,GSM1617887,H82_FBS_2,Lung,Diseased donor,SCLC cell line H82,MYC amplified,FBS,-,GSM2196110,H82_shBRG1_2_FBS_2,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_FBS
+-,GSM1617888,H82_FBS_3,Lung,Diseased donor,SCLC cell line H82,MYC amplified,FBS,-,GSM2196111,H82_shBRG1_2_FBS_3,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_FBS
+-,GSM1617889,H82_GCRA_1,Lung,Diseased donor,SCLC cell line H82,MYC amplified,GCRA,-,GSM2196112,H82_shBRG1_2_GCRA_1,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_GCRA
+-,GSM1617890,H82_GCRA_2,Lung,Diseased donor,SCLC cell line H82,MYC amplified,GCRA,-,GSM2196113,H82_shBRG1_2_GCRA_2,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_GCRA
+-,GSM1617891,H82_GCRA_3,Lung,Diseased donor,SCLC cell line H82,MYC amplified,GCRA,-,GSM2196114,H82_shBRG1_2_GCRA_3,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_GCRA
+-,GSM1617892,H82_COMB_1,Lung,Diseased donor,SCLC cell line H82,MYC amplified,COMB,-,GSM2196115,H82_shBRG1_2_COMB_1,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_COMB
+-,GSM1617893,H82_COMB_2,Lung,Diseased donor,SCLC cell line H82,MYC amplified,COMB,-,GSM2196116,H82_shBRG1_2_COMB_2,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_COMB
+-,GSM1617894,H82_COMB_3,Lung,Diseased donor,SCLC cell line H82,MYC amplified,COMB,-,GSM2196117,H82_shBRG1_2_COMB_3,Small Cell Lung Cancer (SCLC),Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_COMB
+-,GSM1617895,H82_shBRG1_FBS_1,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_FBS,-,GSM2196118,H460_shBRG1_2_FBS_1,Non Small Cell Lung Cancer (NSCLC),Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_FBS
+-,GSM1617896,H82_shBRG1_FBS_2,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_FBS,-,GSM2196119,H460_shBRG1_2_FBS_2,Non Small Cell Lung Cancer (NSCLC),Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_FBS
+-,GSM1617897,H82_shBRG1_FBS_3,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_FBS,-,GSM2196120,H460_shBRG1_2_FBS_3,Non Small Cell Lung Cancer (NSCLC),Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_FBS
+-,GSM1617898,H82_shBRG1_GCRA_1,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_GCRA,-,GSM2196121,H460_shBRG1_2_GCRA_1,Non Small Cell Lung Cancer (NSCLC),Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_GCRA
+-,GSM1617899,H82_shBRG1_GCRA_2,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_GCRA,-,GSM2196122,H460_shBRG1_2_GCRA_2,Non Small Cell Lung Cancer (NSCLC),Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_GCRA
+-,GSM1617900,H82_shBRG1_GCRA_3,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_GCRA,-,GSM2196123,H460_shBRG1_2_GCRA_3,Non Small Cell Lung Cancer (NSCLC),Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_GCRA
+-,GSM1617901,H82_shBRG1_COMB_1,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_COMB,-,GSM2196124,H460_shBRG1_2_COMB_1,Non Small Cell Lung Cancer (NSCLC),Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_COMB
+-,GSM1617902,H82_shBRG1_COMB_2,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_COMB,-,GSM2196125,H460_shBRG1_2_COMB_2,Non Small Cell Lung Cancer (NSCLC),Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_COMB
+-,GSM1617903,H82_shBRG1_COMB_3,Lung,Diseased donor,SCLC cell line H82,MYC amplified,shBRG1_COMB,,,,,,,,
+-,GSM1617904,H460_FBS_1,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,FBS,,,,,,,,
+-,GSM1617905,H460_FBS_2,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,FBS,,,,,,,,
+-,GSM1617906,H460_FBS_3,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,FBS,,,,,,,,
+-,GSM1617907,H460_GCRA_1,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,GCRA,,,,,,,,
+-,GSM1617908,H460_GCRA_2,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,GCRA,,,,,,,,
+-,GSM1617909,H460_GCRA_2.2,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,GCRA,,,,,,,,
+-,GSM1617910,H460_COMB_1,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,COMB,,,,,,,,
+-,GSM1617911,H460_COMB_2,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,COMB,,,,,,,,
+-,GSM1617912,H460_COMB_3,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,COMB,,,,,,,,
+-,GSM1617913,H460_shBRG1_FBS_1,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_FBS,,,,,,,,
+-,GSM1617914,H460_shBRG1_FBS_2,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_FBS,,,,,,,,
+-,GSM1617915,H460_shBRG1_FBS_3,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_FBS,,,,,,,,
+-,GSM1617916,H460_shBRG1_GCRA_1,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_GCRA,,,,,,,,
+-,GSM1617917,H460_shBRG1_GCRA_2,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_GCRA,,,,,,,,
+-,GSM1617918,H460_shBRG1_GCRA_3,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_GCRA,,,,,,,,
+-,GSM1617919,H460_shBRG1_COMB_1,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_COMB,,,,,,,,
+-,GSM1617920,H460_shBRG1_COMB_2,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_COMB,,,,,,,,
+-,GSM1617921,H460_shBRG1_COMB_3,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,shBRG1_COMB,,,,,,,,
+-,GSM1617922,A549_FBS_1,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,FBS,,,,,,,,
+-,GSM1617923,A549_FBS_2,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,FBS,,,,,,,,
+-,GSM1617924,A549_FBS_3,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,FBS,,,,,,,,
+-,GSM1617925,A549_GCRA_1,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1617926,A549_GCRA_2,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1617927,A549_GCRA_3,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1617928,A549_COMB_1,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,COMB,,,,,,,,
+-,GSM1617929,A549_COMB_2,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,COMB,,,,,,,,
+-,GSM1617930,A549_COMB_3,Lung,Diseased donor,NSCLC cell line A549,BRG1 mutant,COMB,,,,,,,,
+-,GSM1617931,DMS114_FBS_1,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,FBS,,,,,,,,
+-,GSM1617932,DMS114_FBS_2,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,FBS,,,,,,,,
+-,GSM1617933,DMS114_FBS_3,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,FBS,,,,,,,,
+-,GSM1617934,DMS114_GCRA_1,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1617935,DMS114_GCRA_2,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1617936,DMS114_GCRA_3,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1617937,DMS114_COMB_1,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,COMB,,,,,,,,
+-,GSM1617938,DMS114_COMB_2,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,COMB,,,,,,,,
+-,GSM1617939,DMS114_COMB_3,Lung,Diseased donor,SCLC cell line DMS114,BRG1 mutant,COMB,,,,,,,,
+-,GSM1617940,H460_GCRA_3,Lung,Diseased donor,NSCLC cell line H460,MYC amplified,GCRA,,,,,,,,
+-,GSM1715598,H1299_FBS_1,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,FBS,,,,,,,,
+-,GSM1715599,H1299_FBS_2,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,FBS,,,,,,,,
+-,GSM1715600,H1299_FBS_3,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,FBS,,,,,,,,
+-,GSM1715601,H1299_GCRA_1,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1715602,H1299_GCRA_2,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1715603,H1299_GCRA_3,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,GCRA,,,,,,,,
+-,GSM1715604,H1299_COMB_1,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,COMB,,,,,,,,
+-,GSM1715605,H1299_COMB_2,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,COMB,,,,,,,,
+-,GSM1715606,H1299_COMB_3,Non Small Cell Lung Cancer (NSCLC),Diseased donor,H1299,BRG1 mutant,COMB,,,,,,,,

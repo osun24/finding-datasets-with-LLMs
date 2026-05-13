@@ -1,0 +1,2 @@
+Title: CD83, a Novel MAPK Signaling Pathway Interactor, Determines Ovarian Cancer Cell Fate
+Description: We performed a proteomic study, using CD83 overexpression, CD83 knockdown, and control SKOV3 cells by IBT Quantification Proteomics.

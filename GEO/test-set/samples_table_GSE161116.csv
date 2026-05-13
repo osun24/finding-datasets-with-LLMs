@@ -1,0 +1,31 @@
+# TITLE: Comparative Analysis of the Tumor Immune-Microenvironment of Primary and Brain Metastases of Non-Small-Cell Lung Cancer
+# SUMMARY: To evaluate the characteristics of the tumor immune-microenvironment in brain metastases of non-small-cell lung cancer (NSCLC), we investigated the immunophenotype of primary NSCLC and its brain metastasis.
+GPL19965_Group,GPL19965_Accession,GPL19965_Title,GPL19965_Source name,GPL19965_Organ,GPL19965_Age at surgery,GPL19965_Histology,GPL19965_Egfr,GPL19965_Egfr type,GPL19965_Sex
+-,GSM4889789,Patient 1 lung,primary lung cancer,lung,60,Adenocarcinoma,Wild-type,N/A,Male
+-,GSM4889790,Patient 1 brain,brain metastasis,brain,63,Adenocarcinoma,Wild-type,N/A,Male
+-,GSM4889791,Patient 2 lung,primary lung cancer,lung,51,Adenocarcinoma,Mutant,"S768I, V769L",Female
+-,GSM4889792,Patient 2 brain,brain metastasis,brain,53,Adenocarcinoma,Mutant,"S768I, V769L",Female
+-,GSM4889793,Patient 3 lung,primary lung cancer,lung,66,Adenocarcinoma,Mutant,L858R,Female
+-,GSM4889794,Patient 3 brain,brain metastasis,brain,69,Adenocarcinoma,Mutant,L858R,Female
+-,GSM4889795,Patient 4 lung,primary lung cancer,lung,50,Adenocarcinoma,Wild-type,N/A,Male
+-,GSM4889796,Patient 4 brain,brain metastasis,brain,54,Adenocarcinoma,Wild-type,N/A,Male
+-,GSM4889797,Patient 5 lung,primary lung cancer,lung,66,Squamous cell carcinoma,Wild-type,N/A,Male
+-,GSM4889798,Patient 5 brain,brain metastasis,brain,67,Squamous cell carcinoma,Wild-type,N/A,Male
+-,GSM4889799,Patient 6 lung,primary lung cancer,lung,63,Squamous cell carcinoma,Wild-type,N/A,Male
+-,GSM4889800,Patient 6 brain,brain metastasis,brain,63,Squamous cell carcinoma,Wild-type,N/A,Male
+-,GSM4889801,Patient 7 lung,primary lung cancer,lung,77,Adenocarcinoma,Mutant,E19del,Female
+-,GSM4889802,Patient 7 brain,brain metastasis,brain,78,Adenocarcinoma,Mutant,E19del,Female
+-,GSM4889803,Patient 8 lung,primary lung cancer,lung,62,Adenocarcinoma,Mutant,E19del,Female
+-,GSM4889804,Patient 8 brain,brain metastasis,brain,64,Adenocarcinoma,Mutant,E19del,Female
+-,GSM4889805,Patient 9 lung,primary lung cancer,lung,60,Adenocarcinoma,Wild-type,N/A,Male
+-,GSM4889806,Patient 9 brain,brain metastasis,brain,62,Adenocarcinoma,Wild-type,N/A,Male
+-,GSM4889807,Patient 10 lung,primary lung cancer,lung,60,Other NSCLC,Wild-type,N/A,Male
+-,GSM4889808,Patient 10 brain,brain metastasis,brain,62,Other NSCLC,Wild-type,N/A,Male
+-,GSM4889809,Patient 11 lung,primary lung cancer,lung,31,Other NSCLC,Mutant,L858R,Male
+-,GSM4889810,Patient 11 brain,brain metastasis,brain,32,Other NSCLC,Mutant,L858R,Male
+-,GSM4889811,Patient 12 brain,brain metastasis,brain,59,Adenocarcinoma,Wild-type,N/A,Female
+-,GSM4889812,Patient 13 lung,primary lung cancer,lung,66,Adenocarcinoma,Wild-type,N/A,Male
+-,GSM4889813,Patient 14 lung,primary lung cancer,lung,53,Adenocarcinoma,Mutant,L858R,Female
+-,GSM4889814,Patient 15 brain,brain metastasis,brain,52,Adenocarcinoma,Mutant,E19del,Female
+-,GSM4889815,Patient 16 brain,brain metastasis,brain,50,Other NSCLC,Wild-type,N/A,Male
+-,GSM4889816,Patient 17 brain,brain metastasis,brain,70,Other NSCLC,Mutant,E19del,Female

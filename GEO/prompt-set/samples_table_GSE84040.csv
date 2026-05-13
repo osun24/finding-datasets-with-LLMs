@@ -1,0 +1,5 @@
+# TITLE: Slug-induced miR-137 expression contributes to non-small cell lung cancer progression
+# SUMMARY: The epithelial-mesenchymal transition (EMT) regulator Slug has multifaceted roles in controlling lung cancer progression, but the downstream targets and underlying mechanisms of Slug remain undetermined. The miRNAs downstream of Slug in lung cancer cells were examined using Illumina bead arrays and TaqMan low-density arrays.
+GPL8179_Group,GPL8179_Accession,GPL8179_Title,GPL8179_Source name,GPL8179_Disease state,GPL8179_Phenotype
+-,GSM2226181,CL1-0_ mock-overexpressing cells,lung cancer cell line,lung adenocacinoma,mock-overexpressing cells
+-,GSM2226182,CL1-0_ Slug-overexpressing cells,lung cancer cell line,lung adenocacinoma,Slug-overexpressing cells

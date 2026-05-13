@@ -1,0 +1,2 @@
+Title: Characterisation of HMGB1 interactome in PNT2 prostate cells
+Description: HMGB1 and HMGB2 are members of the High Mobility Group (HMG) protein superfamily that contain a DNA binding domain (HMG-Box), and their overexpression has been related to main cancer hallmarks, tumor progression, metastasis formation and bad prognosis. We have used yeast two hybrid and affinity purification-mass spectrometry to explore HMGB1 and HMGB2 protein interactions in prostate and ovarian epithelial cells.

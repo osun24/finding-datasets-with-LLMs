@@ -1,0 +1,2 @@
+Title: Discovery proteomics in OVCAR-8 versus NCI/ADR-Res
+Description: Label free quantitative proteomics on OVCAR-8 and NCI/ADR-Res cells.

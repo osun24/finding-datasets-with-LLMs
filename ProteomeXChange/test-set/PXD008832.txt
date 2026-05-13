@@ -1,0 +1,2 @@
+Title: Evaluation of preservation quality and viability of FFPE ovarian cancer tissue samples
+Description: Analysis of 60 FFPE (formalin-fixed, paraffin-embedded) ovarian cancer tissue samples to evaluate preservation quality and viability of global and phosphoproteomic analysis

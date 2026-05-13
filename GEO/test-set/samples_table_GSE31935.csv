@@ -1,0 +1,33 @@
+# TITLE: To detect the heparan sulfate proteoglycans (HSGP) core proteins that are expressed in these cell lines, so that candidates for the Sulf-2 substrate can be identified
+# SUMMARY: We are requesting a gene microarray analysis for 10 cell lines that are pertinent to human non-small lung cancer. A main focus of ours has been the role that Sulf-2 plays in non-small cell lung cancer (NSCLC). Sulf-2 is an extracellular sulfatase that acts on internal glucosamine-6-sulfates within heparan sulfate chains. Sulf-2 can activate Wnt signaling, as well as modulate other signaling pathways. Our recent work (Oncogene 29:635, 2010) has shown that Sulf-2 is required for the malignant phenotype of five human NSCLC cell lines (increased migration, increased growth, growth in soft agar, and tumorigenecity in nude mice).
+GPL11097_Group,GPL11097_Accession,GPL11097_Title,GPL11097_Source name,GPL11097_Cell line,GPL11097_Sulf-2 expressing,GPL11097_Disease state
+-,GSM791350,"A549-3: Sulf-2 expressing non-small cell lung cancer (NSCLC) line A549, replicate #1.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line A549,A549,Yes,Non-small lung cancer
+-,GSM791351,"A549-4: Sulf-2 expressing non-small cell lung cancer (NSCLC) line A549, replicate #2.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line A549,A549,Yes,Non-small lung cancer
+-,GSM791352,"A549-5: Sulf-2 expressing non-small cell lung cancer (NSCLC) line A549, replicate #3.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line A549,A549,Yes,Non-small lung cancer
+-,GSM791353,"BEAS2B-1: Normal bronchial epithelial cell population BEAS2B, replicate #1.",Normal bronchial epithelial cell population BEAS-2B,BEAS-2B,N/A,None
+-,GSM791354,"BEAS2B-2: Normal bronchial epithelial cell population BEAS2B, replicate #2.",Normal bronchial epithelial cell population BEAS-2B,BEAS-2B,N/A,None
+-,GSM791355,"BEAS2B-3: Normal bronchial epithelial cell population BEAS2B, replicate #3.",Normal bronchial epithelial cell population BEAS-2B,BEAS-2B,N/A,None
+-,GSM791356,"BST-1: Sulf-2 expressing non-small cell lung cancer (NSCLC) line B-ST, replicate #1.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line B-ST,B-ST,Yes,Non-small lung cancer
+-,GSM791357,"BST-2: Sulf-2 expressing non-small cell lung cancer (NSCLC) line B-ST, replicate #2.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line B-ST,B-ST,Yes,Non-small lung cancer
+-,GSM791358,"BST-3: Sulf-2 expressing non-small cell lung cancer (NSCLC) line B-ST, replicate #3.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line B-ST,B-ST,Yes,Non-small lung cancer
+-,GSM791359,"CALU6-1: Sulf-2 expressing non-small cell lung cancer (NSCLC) line Calu-6, replicate #1.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line Calu-6,Calu-6,Yes,Non-small lung cancer
+-,GSM791360,"CALU6-2: Sulf-2 expressing non-small cell lung cancer (NSCLC) line Calu-6, replicate #2.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line Calu-6,Calu-6,Yes,Non-small lung cancer
+-,GSM791361,"CALU6-3: Sulf-2 expressing non-small cell lung cancer (NSCLC) line Calu-6, replicate #3.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line Calu-6,Calu-6,Yes,Non-small lung cancer
+-,GSM791362,"H1703-1: Sulf-2 negative non-small cell lung cancer (NSCLC) line H1703, replicate #1.",Sulf-2 negative non-small cell lung cancer (NSCLC) line H1703,H1703,No,Non-small lung cancer
+-,GSM791363,"H1703-2: Sulf-2 negative non-small cell lung cancer (NSCLC) line H1703, replicate #2.",Sulf-2 negative non-small cell lung cancer (NSCLC) line H1703,H1703,No,Non-small lung cancer
+-,GSM791364,"H1703-3: Sulf-2 negative non-small cell lung cancer (NSCLC) line H1703, replicate #3.",Sulf-2 negative non-small cell lung cancer (NSCLC) line H1703,H1703,No,Non-small lung cancer
+-,GSM791365,"H1975-1: Sulf-2 negative non-small cell lung cancer (NSCLC) line H1975, replicate #1.",Sulf-2 negative non-small cell lung cancer (NSCLC) line H1975,H1975,No,Non-small lung cancer
+-,GSM791366,"H1975-2: Sulf-2 negative non-small cell lung cancer (NSCLC) line H1975, replicate #2.",Sulf-2 negative non-small cell lung cancer (NSCLC) line H1975,H1975,No,Non-small lung cancer
+-,GSM791367,"H1975-3: Sulf-2 negative non-small cell lung cancer (NSCLC) line H1975, replicate #3.",Sulf-2 negative non-small cell lung cancer (NSCLC) line H1975,H1975,No,Non-small lung cancer
+-,GSM791368,"H292-1: Sulf-2 expressing non-small cell lung cancer (NSCLC) line H292, replicate #1.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line H292,H292,Yes,Non-small lung cancer
+-,GSM791369,"H292-2: Sulf-2 expressing non-small cell lung cancer (NSCLC) line H292, replicate #2.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line H292,H292,Yes,Non-small lung cancer
+-,GSM791370,"H292-3: Sulf-2 expressing non-small cell lung cancer (NSCLC) line H292, replicate #3.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line H292,H292,Yes,Non-small lung cancer
+-,GSM791371,"H460-1: Sulf-2 expressing non-small cell lung cancer (NSCLC) line H460, replicate #1.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line H460,H460,Yes,Non-small lung cancer
+-,GSM791372,"H460-2: Sulf-2 expressing non-small cell lung cancer (NSCLC) line H460, replicate #2.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line H460,H460,Yes,Non-small lung cancer
+-,GSM791373,"H460-3: Sulf-2 expressing non-small cell lung cancer (NSCLC) line H460, replicate #3.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line H460,H460,Yes,Non-small lung cancer
+-,GSM791374,"Pc-1: Normal bronchial epithelial cell population P-C, replicate #1.",Normal bronchial epithelial cell population P-C,P-C,N/A,None
+-,GSM791375,"Pc-2: Normal bronchial epithelial cell population P-C, replicate #2.",Normal bronchial epithelial cell population P-C,P-C,N/A,None
+-,GSM791376,"Pc-3: Normal bronchial epithelial cell population P-C, replicate #3.",Normal bronchial epithelial cell population P-C,P-C,N/A,None
+-,GSM791377,"PST-1: Sulf-2 expressing non-small cell lung cancer (NSCLC) line P-ST, replicate #1.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line P-ST,P-ST,Yes,Non-small lung cancer
+-,GSM791378,"PST-2: Sulf-2 expressing non-small cell lung cancer (NSCLC) line P-ST, replicate #2.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line P-ST,P-ST,Yes,Non-small lung cancer
+-,GSM791379,"PST-3: Sulf-2 expressing non-small cell lung cancer (NSCLC) line P-ST, replicate #3.",Sulf-2 expressing non-small cell lung cancer (NSCLC) line P-ST,P-ST,Yes,Non-small lung cancer

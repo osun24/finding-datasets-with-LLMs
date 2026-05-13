@@ -1,0 +1,7 @@
+# TITLE: KRAS inhibitor-resistance in MET-amplified KRASG12C 1 non-small cell lung cancer induced by RAS- and non-RAS-mediated cell signaling mechanism
+# SUMMARY: Treatment with KRASG12C inhibitors such as sotorasib can produce substantial regression of tumors in some patients with non-small cell lung cancer (NSCLC). These patients require alternative treatment after acquiring resistance to the inhibitor. The mechanisms underlying this acquired resistance are unclear. The purpose of this study was to identify the mechanisms underlying acquired sotorasib resistance, and to explore potential treatments for rescuing patients with sotorasib-resistant KRASG12C NSCLC cells.
+GPL23159_Group,GPL23159_Accession,GPL23159_Title,GPL23159_Source name,GPL23159_Tissue,GPL23159_Disease
+-,GSM5411543,H23_rep1,KRAS G12C NCI-H23 cell line,Lung,Adenocarcinoma; Non-small cell lung cancer
+-,GSM5411544,H23_rep2,KRAS G12C NCI-H23 cell line,Lung,Adenocarcinoma; Non-small cell lung cancer
+-,GSM5411545,H23ARC11_rep1,resistance clone of sotorasib-sensitive KRAS G12C NCI-H23 cells,Lung,Adenocarcinoma; Non-small cell lung cancer
+-,GSM5411546,H23ARC11_rep2,resistance clone of sotorasib-sensitive KRAS G12C NCI-H23 cells,Lung,Adenocarcinoma; Non-small cell lung cancer

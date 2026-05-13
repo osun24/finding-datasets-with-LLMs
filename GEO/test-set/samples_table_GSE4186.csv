@@ -1,0 +1,33 @@
+# TITLE: Hypoxic changes in gene expression: effect of vhl and p53 genotype
+# SUMMARY: Microarrray experiments were performed in order to identify genes whose expression is altered under hypoxic conditions and to determine whether these changes are dependant on the p53 and HIF tanscription factors. In order to determine HIF dependance, isogenic RCC4 cell lines were used that were either wildtype of null for vhl, the gene responsible for degrading HIF under normoxic conditions. In order to determine p53 dependance, isogenic HCT116 and H1299 cell lines that were wildtype or null for p53 were used. Gene expression was measured after exposure of cells in monolayer culture to hypoxia (<0.01% O2) for various times. Keywords: hypoxia, time course, genetic modification, cell line comparison
+GPL3423_Group,GPL3423_Accession,GPL3423_Title,GPL3423_Source name,GPL3423_Cell line,GPL3423_Cell type,GPL3423_Tissue type,GPL3423_Cell Line,GPL3423_Cell Type
+-,GSM95386,RCC4vhl- hypoxia 0hrs rep1,RCC4 vhl null cells exposed to hypoxia 0hrs,RCC4 (vhl null),renal carcinoma,,,
+-,GSM95396,RCC4vhl- hypoxia 18hrs rep1,RCC4 vhl null cells exposed to hypoxia 18hrs,RCC4 (vhl null),renal carcinoma,,,
+-,GSM95397,RCC4vhl+ hypoxia 0hrs rep1,RCC4 vhl wildtype cells exposed to hypoxia 0hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95398,RCC4vhl+ hypoxia 18hrs rep1,RCC4 vhl wildtype cells exposed to hypoxia 18 hrs,,,,"RCC4, wildtype vhl reintroduced",renal carcinoma
+-,GSM95549,RCC4vhl- hypoxia 0hrs rep2,RCC4 vhl null cells exposed to hypoxia 0hrs,,,,RCC4 (vhl null),renal carcinoma
+-,GSM95550,RCC4vhl- hypoxia 18hrs rep2,RCC4 vhl null cells exposed to hypoxia 18hrs,RCC4 (vhl null),renal carcinoma,,,
+-,GSM95551,RCC4vhl+ hypoxia 0hrs rep2,RCC4 vhl wildtype cells exposed to hypoxia 0hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95552,RCC4vhl+ hypoxia 18hrs rep2,RCC4 vhl wildtype cells exposed to hypoxia 18hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95554,RCC4vhl- hypoxia 1hrs rep1,RCC4 vhl null cells exposed to hypoxia 1hrs,RCC4 (vhl null),,renal carcinoma,,
+-,GSM95555,RCC4vhl- hypoxia 2hrs rep1,RCC4 vhl null cell exposed to hypoxia 2hrs,RCC4 (vhl null),,renal carcinoma,,
+-,GSM95556,RCC4vhl- hypoxia 4hrs rep1,RCC4 vhl null cells exposed to hypoxia 4hrs,RCC4 (vhl null),,renal carcinoma,,
+-,GSM95557,RCC4vhl- hypoxia 6hrs rep1,RCC4 vhl null cells exposed to hypoxia 6hrs,RCC4  (vhl null),,renal carcinoma,,
+-,GSM95558,RCC4vhl+ hypoxia 1hrs rep1,RCC4 vhl wildtype cells exposed to hypoxia 1hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95559,RCC4vhl+ hypoxia 2hrs rep1,RCC4 vhl wildtype cells exposed to hypoxia 2hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95560,RCC4vhl+ hypoxia 4hrs rep1,RCC4 vhl wildtype cells exposed to hypoxia 4hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95561,RCC4vhl+ hypoxia 6hrs rep1,RCC4 vhl wildtype cells exposed to hypoxia 6hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95572,RCC4vhl- hypoxia 18hrs reoxygenation 1hrs rep1,RCC4 vhl null cells exposed to hypoxia 18hrs and reoxygenation 1 hrs,RCC4 (vhl null),,renal carcinoma,,
+-,GSM95573,RCC4vhl- hypoxia 18hrs reoxygenation 4hrs rep1,RCC4 vhl null cells exposed to hypoxia 18hrs and reoxygenation 4hrs,RCC4 (vhl null),,renal carcinoma,,
+-,GSM95574,RCC4vhl+ hypoxia 18hrs reoxygenation 1hrs rep1,RCC4 vhl wildtype cells exposed to hypoxia 18hrs and reoxygenation 1hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95575,RCC4vhl+ hypoxia 18hrs reoxygenation 4hrs rep1,RCC4 vhl wildtype cells exposed to hypoxia 18hrs and reoxygenation 4hrs,"RCC4, wildtype vhl reintroduced",,renal carcinoma,,
+-,GSM95577,H1299p53- hypoxia 0hrs rep1,H1299 p53 null cells exposed to hypoxia 0hrs,,,,H1299 (p53 null),non-small cell lung cancer
+-,GSM95578,H1299p53- hypoxia 24hrs rep1,H1299 p53 null cells exposed to hypoxia 24hrs,,non-small cell lung cancer,,H1299,
+-,GSM95579,H1299p53+ hypoxia 0hrs rep1,H1299 p53 wildtype cells exposed to hypoxia 0hrs,,non-small cell lung cancer,,"H1299, p53 reintroduced",
+-,GSM95580,H1299p53+ hypoxia 24hrs rep1,H1299 p53 wildtype cells exposed to hypoxia 24 hrs,,non-small cell lung cancer,,"H1299, p53 reintroduced",
+-,GSM95581,HCT116p53- hypoxia 0hrs rep1,HCT116 p53 null cells exposed to hypoxia 0hrs,,colon carcinoma,,HCT116 (p53 null),
+-,GSM95582,HCT116p53- hypoxia 12hrs rep1,HCT116 p53 null cells exposed to hypoxia 12hrs,,,,HCT116 (p53 null),colon carcinoma
+-,GSM95583,HCT116p53- hypoxia 24hrs rep1,HCT116 p53 null cells exposed to hypoxia 24hrs,,,,HCT116 (p53 null),colon carcinoma
+-,GSM95584,HCT116p53+ hypoxia 0hrs rep1,HCT116 p53 wildtype cells exposed to hypoxia 0hrs,,,,HCT116 (p53 wildtype),colon carcinoma
+-,GSM95585,HCT116p53+ hypoxia 12hrs rep1,HCT116 p53 wildtype cells exposed to hypoxia 12hrs,,,,HCT116 (p53 wildtype),colon carcinoma
+-,GSM95586,HCT116p53+ hypoxia 24hrs rep1,HCT116 p53 wildtype cells exposed to hypoxia 24hrs,,,,HCT116 (p53 wildtype),colon carcinoma

@@ -1,0 +1,9 @@
+# TITLE: Expression data from NRF3 knockdown or overexpression cells
+# SUMMARY: The genetic association of a transcription factor NRF3 with obesity has been reported, although the molecular mechanisms remain unknown We used microarrays to identify NRF3-regulated gene expression network related to lipid metabolism.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Cell type,GPL6244_Genotype,GPL6244_Cell line
+-,GSM5365677,Control-HCT116,HCT116 cells transfected with control siRNA,Human cell line derived from colon cancer,Control siRNA,HCT116
+-,GSM5365678,NRF3KD-HCT116,HCT116 cells transfected with NRF3 siRNA,Human cell line derived from colon cancer,NRF3 siRNA,HCT116
+-,GSM5365679,Control-HCT116-p53KO,HCT116-p53KO cells transfected with control siRNA,Human cell line derived from colon cancer,Control siRNA,HCT116
+-,GSM5365680,NRF3KD-HCT116-p53KO,HCT116-p53KO cells cells transfected with NRF3 siRNA,Human cell line derived from colon cancer,NRF3 siRNA,HCT116
+-,GSM5365681,GFP-H1299,H1299 cells transfected with GFP expression plasmid,Human cell line derived from non-small cell lung carcinoma,GFP expression,H1299
+-,GSM5365682,NRF3-H1299,H1299 cells transfected with NRF3 expression plasmid,Human cell line derived from non-small cell lung carcinoma,NRF3 expression,H1299

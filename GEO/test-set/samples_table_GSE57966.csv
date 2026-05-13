@@ -1,0 +1,15 @@
+# TITLE: Microtubule Affinity-Regulating Kinase 2 is associated with DNA damage response and cisplatin resistance in non-small cell lung cancer.
+# SUMMARY: MARK2 expression is associated with the malignant phenotype, expression of DNA repair components, NF-κB inhibition and cell cycle transcription factors in lung cancer cells We used microarrays to determine the global gene expression pattern associated with knockdown of MARK2
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell line,GPL15207_Cell type,GPL15207_Genotype/variation
+-,GSM1398785,H1650 KD replicate 1,NCI-H1650 Mark2 Knockdown,H1650,Lung cancer cell line,MARK2 Knockdown
+-,GSM1398786,H1993 PLKO CONTROL replicate 1,NCI-H1993 pLKO control,H1993,Lung cancer cell line,empty vector pLKO control
+-,GSM1398787,H1993 KD replicate 1,NCI-H1993 Mark2 Knockdown,H1993,Lung cancer cell line,MARK2 Knockdown
+-,GSM1398788,H1693 PLKO CONTROL replicate 1,NCI-H1693 pLKO control,H1693,Lung cancer cell line,empty vector pLKO control
+-,GSM1398789,H1693 KD replicate 1,NCI-H1693 Mark2 Knockdown,H1693,Lung cancer cell line,MARK2 Knockdown
+-,GSM1398790,H1650 PLKO CONTROL replicate 1,NCI-H1650 pLKO control,H1650,Lung cancer cell line,empty vector pLKO control
+-,GSM1398791,H1650 KD replicate 2,NCI-H1650 Mark2 Knockdown,H1650,Lung cancer cell line,MARK2 Knockdown
+-,GSM1398792,H1993 PLKO CONTROL replicate 2,NCI-H1993 pLKO control,H1993,Lung cancer cell line,empty vector pLKO control
+-,GSM1398793,H1993 KD replicate 2,NCI-H1993 Mark2 Knockdown,H1993,Lung cancer cell line,MARK2 Knockdown
+-,GSM1398794,H1693 PLKO CONTROL replicate 2,NCI-H1693 pLKO control,H1693,Lung cancer cell line,empty vector pLKO control
+-,GSM1398795,H1693 KD replicate 2,NCI-H1693 Mark2 Knockdown,H1693,Lung cancer cell line,MARK2 Knockdown
+-,GSM1398796,H1650 PLKO CONTROL replicate 2,NCI-H1650 pLKO control,H1650,Lung cancer cell line,empty vector pLKO control

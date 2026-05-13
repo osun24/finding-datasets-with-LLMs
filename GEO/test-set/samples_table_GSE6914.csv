@@ -1,0 +1,23 @@
+# TITLE: Gene expression associated with gemcitabine resistance and its reversal by bexarotene
+# SUMMARY: Resistance of Calu3 NSCLC cells to the cytotoxic nucleoside analog gemcitabine (2',2'-difluorodeoxycytidine) can be prevented as well as reversed by the rexinoid X receptor selective agonist bexarotene. This study was designed to investigate the changes in gene expression associated with gemcitabine resistance and its reversal by bexarotene. In addition to the parental Calu3 cells and the 10 cycles of treatment of the gemcitabine resistant Calu3 cells with vehicle or bexarotene, analogous treatment paradigms with gemcitabine alone as well as the combination of both compounds have been included as controls. (However, it has to be noted that in the combination treatment, cells that were re-sensitized by bexarotene have largely been removed from the culture before harvest due to the cytotoxic activity of gemcitabine.) Keywords: cell type comparison, compound effects
+GPL96_Group,GPL96_Accession,GPL96_Title,GPL96_Source name,GPL96_Morphology,GPL96_Gemcitabine resistant Calu3 derivative generated from the parental Calu3 line by consecutive treatments with 50 nM gemcitabine over a period of 3 months
+-,GSM159355,Calu3-Parental_1,"Calu3 human non-small lung cancer cells, parental (ATCC)","epithelial, Organ: lung, Disease: adenocarcinoma (pleural effusion), Gender: male, Ethnicity: caucasian",
+-,GSM159356,Calu3-Parental_2,"Calu3 human non-small lung cancer cells, parental (ATCC)","epithelial, Organ: lung, Disease: adenocarcinoma (pleural effusion), Gender: male, Ethnicity: caucasian",
+-,GSM159357,Calu3-Parental_3,"Calu3 human non-small lung cancer cells, parental (ATCC)","epithelial, Organ: lung, Disease: adenocarcinoma (pleural effusion), Gender: male, Ethnicity: caucasian",
+-,GSM159358,Calu3-Parental_4,"Calu3 human non-small lung cancer cells, parental (ATCC)","epithelial, Organ: lung, Disease: adenocarcinoma (pleural effusion), Gender: male, Ethnicity: caucasian",
+-,GSM159359,Calu3-GemR_Veh_1,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159360,Calu3-GemR_Veh_2,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159361,Calu3-GemR_Veh_3,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159362,Calu3-GemR_Veh_4,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159363,Calu3-GemR_B_1,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159364,Calu3-GemR_B_2,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159365,Calu3-GemR_B_3,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159366,Calu3-GemR_B_4,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159367,Calu3-GemR_G_1,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159368,Calu3-GemR_G_2,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159369,Calu3-GemR_G_3,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159370,Calu3-GemR_G_4,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159371,Calu3-GemR_G+B_1,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159372,Calu3-GemR_G+B_2,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159373,Calu3-GemR_G+B_3,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,
+-,GSM159374,Calu3-GemR_G+B_4,"Calu3 human non-small lung cancer cells, gemcitabine resistant (Ligand)",,

@@ -1,0 +1,15 @@
+# TITLE: Genome-wide analysis of gefitinib short-term resistance gene expression in the NSCLC cell line HCC827 in co-culture
+# SUMMARY: Analysis of gefitinib short-term resistance at gene expression level. The hyposthesis tested in the present study was that short-term resistance towards gefitinib in NSCLC cells influences pathways that associates with resistance towards EGFR-TKI treatment. Results provide important information of the response of EGFR mutant NSCLC cells to gefitinib and also to resistance towards gefitinib resistance, up-or down-regulated specific resistance pathways and cellular functions.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Cell type,GPL10558_Treated with,GPL10558_Co-cultured with
+-,GSM1949163,HCC827 ctrl_nGef_1,HCC827_DMSO,HCC827,NSCLC cell line,DMSO,
+-,GSM1949164,HCC827 ctrl_nGef_2,HCC827_DMSO,HCC827,NSCLC cell line,DMSO,
+-,GSM1949165,HCC827 ctrl_nGef_3,HCC827_DMSO,HCC827,NSCLC cell line,DMSO,
+-,GSM1949166,HCC827 ctrl_yGef_1,HCC827_Gefitinib,HCC827,NSCLC cell line,0.5µM Gefitinib,
+-,GSM1949167,HCC827 ctrl_yGef_2,HCC827_Gefitinib,HCC827,NSCLC cell line,0.5µM Gefitinib,
+-,GSM1949168,HCC827 ctrl_yGef_3,HCC827_Gefitinib,HCC827,NSCLC cell line,0.5µM Gefitinib,
+-,GSM1949169,HCC827 cocu_nGef_1_WH,HCC827_MRC-5 co-culture,HCC827,NSCLC cell line,,MRC-5 cells
+-,GSM1949170,HCC827 cocu_nGef_2_WH,HCC827_MRC-5 co-culture,HCC827,NSCLC cell line,,MRC-5 cells
+-,GSM1949171,HCC827 cocu_nGef_3_WH,HCC827_MRC-5 co-culture,HCC827,NSCLC cell line,,MRC-5 cells
+-,GSM1949172,HCC827 cocu_yGef_1_WH,HCC827_MRC-5 co-culture_Gefitinib,HCC827,NSCLC cell line,0.5µM Gefitinib,MRC-5 cells
+-,GSM1949173,HCC827 cocu_yGef_2_WH,HCC827_MRC-5 co-culture_Gefitinib,HCC827,NSCLC cell line,0.5µM Gefitinib,MRC-5 cells
+-,GSM1949174,HCC827 cocu_yGef_3_WH,HCC827_MRC-5 co-culture_Gefitinib,HCC827,NSCLC cell line,0.5µM Gefitinib,MRC-5 cells

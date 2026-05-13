@@ -1,0 +1,9 @@
+# TITLE: Expression data from Snail over-expressing non-small cell lung cancer cell lines
+# SUMMARY: Snail is a zinc-finger transcription factor best known for its ability to down-regulate E-cadherin. Its established significance in embryology and organogenesis has been expanded to include a role in the tumor progression of a number of human cancers. In addition to E-cadherin, it has more recently been associated with the down-regulation and up-regulation of a number of other genes that affect important malignant phenotypes. After establishing the presence of up-regulated Snail in human non-small cell lung cancer specimens, we used microarrays to detail the global programme of gene expression in non-small cell lung cancer cell lines stably transduced to over-express Snail as compared to vector control cell lines.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Histology,GPL570_Cell line
+-,GSM406502,H441 vector control,Parental cell lines were purchased from the American Type Culture Collection.,adenocarcinoma,H441
+-,GSM406503,H441 Snail over-expressing,Parental cell lines were purchased from the American Type Culture Collection.,adenocarcinoma,H441
+-,GSM406504,H292 vector control,Parental cell lines were purchased from the American Type Culture Collection.,mucoepidermoid,H292
+-,GSM406505,H292 Snail over-expressing,Parental cell lines were purchased from the American Type Culture Collection.,mucoepidermoid,H292
+-,GSM406506,H1437 vector control,Parental cell lines were purchased from the American Type Culture Collection.,adenocarcinoma,H1437
+-,GSM406507,H1437 Snail over-expressing,Parental cell lines were purchased from the American Type Culture Collection.,adenocarcinoma,H1437

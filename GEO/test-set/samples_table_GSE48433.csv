@@ -1,0 +1,826 @@
+# TITLE: Microarray analysis of xenograft models in use at the Developmental Therapeutics Program of the National Cancer Institute (DTP-NCI)
+# SUMMARY: Xenograft models remain a cornerstone technology in the development of anti-cancer agents. The ability of immunocompromised rodents to support the growth of human tumors provides an invaluable transition between in vitro testing and clinical trials. Therefore, approaches to improve model selection are required. In this study, cDNA microarray data was generated for a collection of xenograft models at in vivo passages 1, 4 and 10 (P1, P4 and P10) along with originating cell lines (P0). These data can be mined to determine transcript expression 1) relative to other models 2) with successive in vivo passage and 3) during the in vitro (P0) to in vivo (P1) transition.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Originating cell line,GPL570_Tumor type,GPL570_In vivo passage
+-,GSM1177874,786-0_originating cell line_R1,"786-0, originating cell line",786-0,adenocarcinoma renal,P0
+-,GSM1177875,786-0_originating cell line_R2,"786-0, originating cell line",786-0,adenocarcinoma renal,P0
+-,GSM1177876,786-0_originating cell line_R3,"786-0, originating cell line",786-0,adenocarcinoma renal,P0
+-,GSM1177877,786-0_Passage 1 xenograft_R1,"786-0, passage 1 xenograft",786-0,adenocarcinoma renal,P01
+-,GSM1177878,786-0_Passage 1 xenograft_R2,"786-0, passage 1 xenograft",786-0,adenocarcinoma renal,P01
+-,GSM1177879,786-0_Passage 1 xenograft_R3,"786-0, passage 1 xenograft",786-0,adenocarcinoma renal,P01
+-,GSM1177880,786-0_Passage 1 xenograft_R4,"786-0, passage 1 xenograft",786-0,adenocarcinoma renal,P01
+-,GSM1177881,786-0_Passage 1 xenograft_R5,"786-0, passage 1 xenograft",786-0,adenocarcinoma renal,P01
+-,GSM1177882,786-0_Passage 4 xenograft_R1,"786-0, passage 4 xenograft",786-0,adenocarcinoma renal,P04
+-,GSM1177883,786-0_Passage 4 xenograft_R2,"786-0, passage 4 xenograft",786-0,adenocarcinoma renal,P04
+-,GSM1177884,786-0_Passage 4 xenograft_R3,"786-0, passage 4 xenograft",786-0,adenocarcinoma renal,P04
+-,GSM1177885,786-0_Passage 4 xenograft_R4,"786-0, passage 4 xenograft",786-0,adenocarcinoma renal,P04
+-,GSM1177886,786-0_Passage 4 xenograft_R5,"786-0, passage 4 xenograft",786-0,adenocarcinoma renal,P04
+-,GSM1177887,786-0_Passage 10 xenograft_R1,"786-0, passage 10 xenograft",786-0,adenocarcinoma renal,P10
+-,GSM1177888,786-0_Passage 10 xenograft_R2,"786-0, passage 10 xenograft",786-0,adenocarcinoma renal,P10
+-,GSM1177889,786-0_Passage 10 xenograft_R3,"786-0, passage 10 xenograft",786-0,adenocarcinoma renal,P10
+-,GSM1177890,786-0_Passage 10 xenograft_R4,"786-0, passage 10 xenograft",786-0,adenocarcinoma renal,P10
+-,GSM1177891,786-0_Passage 10 xenograft_R5,"786-0, passage 10 xenograft",786-0,adenocarcinoma renal,P10
+-,GSM1177892,A375_originating cell line_R1,"A375, originating cell line",A375,metastatic malignant melanoma,P0
+-,GSM1177893,A375_originating cell line_R2,"A375, originating cell line",A375,metastatic malignant melanoma,P0
+-,GSM1177894,A375_Passage 1 xenograft_R1,"A375, passage 1 xenograft",A375,metastatic malignant melanoma,P01
+-,GSM1177895,A375_Passage 1 xenograft_R2,"A375, passage 1 xenograft",A375,metastatic malignant melanoma,P01
+-,GSM1177896,A375_Passage 1 xenograft_R3,"A375, passage 1 xenograft",A375,metastatic malignant melanoma,P01
+-,GSM1177897,A375_Passage 1 xenograft_R4,"A375, passage 1 xenograft",A375,metastatic malignant melanoma,P01
+-,GSM1177898,A375_Passage 1 xenograft_R5,"A375, passage 1 xenograft",A375,metastatic malignant melanoma,P01
+-,GSM1177899,A375_Passage 4 xenograft_R1,"A375, passage 4 xenograft",A375,metastatic malignant melanoma,P04
+-,GSM1177900,A375_Passage 4 xenograft_R2,"A375, passage 4 xenograft",A375,metastatic malignant melanoma,P04
+-,GSM1177901,A375_Passage 4 xenograft_R3,"A375, passage 4 xenograft",A375,metastatic malignant melanoma,P04
+-,GSM1177902,A375_Passage 4 xenograft_R4,"A375, passage 4 xenograft",A375,metastatic malignant melanoma,P04
+-,GSM1177903,A375_Passage 4 xenograft_R5,"A375, passage 4 xenograft",A375,metastatic malignant melanoma,P04
+-,GSM1177904,A375_Passage 10 xenograft_R1,"A375, passage 10 xenograft",A375,metastatic malignant melanoma,P10
+-,GSM1177905,A375_Passage 10 xenograft_R2,"A375, passage 10 xenograft",A375,metastatic malignant melanoma,P10
+-,GSM1177906,A375_Passage 10 xenograft_R3,"A375, passage 10 xenograft",A375,metastatic malignant melanoma,P10
+-,GSM1177907,A375_Passage 10 xenograft_R4,"A375, passage 10 xenograft",A375,metastatic malignant melanoma,P10
+-,GSM1177908,A375_Passage 10 xenograft_R5,"A375, passage 10 xenograft",A375,metastatic malignant melanoma,P10
+-,GSM1177909,A549_originating cell line_R1,"A549, originating cell line",A549,adenocarcinoma lung,P0
+-,GSM1177910,A549_originating cell line_R2,"A549, originating cell line",A549,adenocarcinoma lung,P0
+-,GSM1177911,A549_originating cell line_R3,"A549, originating cell line",A549,adenocarcinoma lung,P0
+-,GSM1177912,A549_Passage 1 xenograft_R1,"A549, passage 1 xenograft",A549,adenocarcinoma lung,P01
+-,GSM1177913,A549_Passage 1 xenograft_R2,"A549, passage 1 xenograft",A549,adenocarcinoma lung,P01
+-,GSM1177914,A549_Passage 1 xenograft_R3,"A549, passage 1 xenograft",A549,adenocarcinoma lung,P01
+-,GSM1177915,A549_Passage 1 xenograft_R4,"A549, passage 1 xenograft",A549,adenocarcinoma lung,P01
+-,GSM1177916,A549_Passage 1 xenograft_R5,"A549, passage 1 xenograft",A549,adenocarcinoma lung,P01
+-,GSM1177917,A549_Passage 4 xenograft_R1,"A549, passage 4 xenograft",A549,adenocarcinoma lung,P04
+-,GSM1177918,A549_Passage 4 xenograft_R2,"A549, passage 4 xenograft",A549,adenocarcinoma lung,P04
+-,GSM1177919,A549_Passage 4 xenograft_R3,"A549, passage 4 xenograft",A549,adenocarcinoma lung,P04
+-,GSM1177920,A549_Passage 4 xenograft_R4,"A549, passage 4 xenograft",A549,adenocarcinoma lung,P04
+-,GSM1177921,A549_Passage 4 xenograft_R5,"A549, passage 4 xenograft",A549,adenocarcinoma lung,P04
+-,GSM1177922,A549_Passage 10 xenograft_R1,"A549, passage 10 xenograft",A549,adenocarcinoma lung,P10
+-,GSM1177923,A549_Passage 10 xenograft_R2,"A549, passage 10 xenograft",A549,adenocarcinoma lung,P10
+-,GSM1177924,A549_Passage 10 xenograft_R3,"A549, passage 10 xenograft",A549,adenocarcinoma lung,P10
+-,GSM1177925,A549_Passage 10 xenograft_R4,"A549, passage 10 xenograft",A549,adenocarcinoma lung,P10
+-,GSM1177926,A549_Passage 10 xenograft_R5,"A549, passage 10 xenograft",A549,adenocarcinoma lung,P10
+-,GSM1177927,A549/Asc-1_originating cell line_R1,"A549/Asc-1, originating cell line",A549/Asc-1,adenocarcinoma lung,P0
+-,GSM1177928,A549/Asc-1_originating cell line_R2,"A549/Asc-1, originating cell line",A549/Asc-1,adenocarcinoma lung,P0
+-,GSM1177929,A549/Asc-1_Passage 1 xenograft_R1,"A549/Asc-1, passage 1 xenograft",A549/Asc-1,adenocarcinoma lung,P01
+-,GSM1177930,A549/Asc-1_Passage 1 xenograft_R2,"A549/Asc-1, passage 1 xenograft",A549/Asc-1,adenocarcinoma lung,P01
+-,GSM1177931,A549/Asc-1_Passage 1 xenograft_R3,"A549/Asc-1, passage 1 xenograft",A549/Asc-1,adenocarcinoma lung,P01
+-,GSM1177932,A549/Asc-1_Passage 1 xenograft_R4,"A549/Asc-1, passage 1 xenograft",A549/Asc-1,adenocarcinoma lung,P01
+-,GSM1177933,A549/Asc-1_Passage 1 xenograft_R5,"A549/Asc-1, passage 1 xenograft",A549/Asc-1,adenocarcinoma lung,P01
+-,GSM1177934,A549/Asc-1_Passage 4 xenograft_R1,"A549/Asc-1, passage 4 xenograft",A549/Asc-1,adenocarcinoma lung,P04
+-,GSM1177935,A549/Asc-1_Passage 4 xenograft_R2,"A549/Asc-1, passage 4 xenograft",A549/Asc-1,adenocarcinoma lung,P04
+-,GSM1177936,A549/Asc-1_Passage 4 xenograft_R3,"A549/Asc-1, passage 4 xenograft",A549/Asc-1,adenocarcinoma lung,P04
+-,GSM1177937,A549/Asc-1_Passage 10 xenograft_R1,"A549/Asc-1, passage 10 xenograft",A549/Asc-1,adenocarcinoma lung,P10
+-,GSM1177938,A549/Asc-1_Passage 10 xenograft_R2,"A549/Asc-1, passage 10 xenograft",A549/Asc-1,adenocarcinoma lung,P10
+-,GSM1177939,A549/Asc-1_Passage 10 xenograft_R3,"A549/Asc-1, passage 10 xenograft",A549/Asc-1,adenocarcinoma lung,P10
+-,GSM1177940,A549/Asc-1_Passage 10 xenograft_R4,"A549/Asc-1, passage 10 xenograft",A549/Asc-1,adenocarcinoma lung,P10
+-,GSM1177941,A549/Asc-1_Passage 10 xenograft_R5,"A549/Asc-1, passage 10 xenograft",A549/Asc-1,adenocarcinoma lung,P10
+-,GSM1177942,AS283_originating cell line_R1,"AS283, originating cell line",AS283,AIDs related Burkitts lymphoma,P0
+-,GSM1177943,AS283_originating cell line_R2,"AS283, originating cell line",AS283,AIDs related Burkitts lymphoma,P0
+-,GSM1177944,AS283_Passage 1 xenograft_R1,"AS283, passage 1 xenograft",AS283,AIDs related Burkitts lymphoma,P01
+-,GSM1177945,AS283_Passage 1 xenograft_R2,"AS283, passage 1 xenograft",AS283,AIDs related Burkitts lymphoma,P01
+-,GSM1177946,AS283_Passage 1 xenograft_R3,"AS283, passage 1 xenograft",AS283,AIDs related Burkitts lymphoma,P01
+-,GSM1177947,AS283_Passage 1 xenograft_R4,"AS283, passage 1 xenograft",AS283,AIDs related Burkitts lymphoma,P01
+-,GSM1177948,AS283_Passage 1 xenograft_R5,"AS283, passage 1 xenograft",AS283,AIDs related Burkitts lymphoma,P01
+-,GSM1177949,AS283_Passage 4 xenograft_R1,"AS283, passage 4 xenograft",AS283,AIDs related Burkitts lymphoma,P04
+-,GSM1177950,AS283_Passage 4 xenograft_R2,"AS283, passage 4 xenograft",AS283,AIDs related Burkitts lymphoma,P04
+-,GSM1177951,AS283_Passage 4 xenograft_R3,"AS283, passage 4 xenograft",AS283,AIDs related Burkitts lymphoma,P04
+-,GSM1177952,AS283_Passage 4 xenograft_R4,"AS283, passage 4 xenograft",AS283,AIDs related Burkitts lymphoma,P04
+-,GSM1177953,AS283_Passage 4 xenograft_R5,"AS283, passage 4 xenograft",AS283,AIDs related Burkitts lymphoma,P04
+-,GSM1177954,AS283_Passage 10 xenograft_R1,"AS283, passage 10 xenograft",AS283,AIDs related Burkitts lymphoma,P10
+-,GSM1177955,AS283_Passage 10 xenograft_R2,"AS283, passage 10 xenograft",AS283,AIDs related Burkitts lymphoma,P10
+-,GSM1177956,AS283_Passage 10 xenograft_R3,"AS283, passage 10 xenograft",AS283,AIDs related Burkitts lymphoma,P10
+-,GSM1177957,AS283_Passage 10 xenograft_R4,"AS283, passage 10 xenograft",AS283,AIDs related Burkitts lymphoma,P10
+-,GSM1177958,AS283_Passage 10 xenograft_R5,"AS283, passage 10 xenograft",AS283,AIDs related Burkitts lymphoma,P10
+-,GSM1177959,AsPC-1_originating cell line_R1,"AsPC-1, originating cell line",AsPC-1,adenocarcinoma pancreatic,P0
+-,GSM1177960,AsPC-1_originating cell line_R2,"AsPC-1, originating cell line",AsPC-1,adenocarcinoma pancreatic,P0
+-,GSM1177961,AsPC-1_originating cell line_R3,"AsPC-1, originating cell line",AsPC-1,adenocarcinoma pancreatic,P0
+-,GSM1177962,AsPC-1_Passage 1 xenograft_R1,"AsPC-1, passage 1 xenograft",AsPC-1,adenocarcinoma pancreatic,P01
+-,GSM1177963,AsPC-1_Passage 1 xenograft_R2,"AsPC-1, passage 1 xenograft",AsPC-1,adenocarcinoma pancreatic,P01
+-,GSM1177964,AsPC-1_Passage 1 xenograft_R3,"AsPC-1, passage 1 xenograft",AsPC-1,adenocarcinoma pancreatic,P01
+-,GSM1177965,AsPC-1_Passage 1 xenograft_R4,"AsPC-1, passage 1 xenograft",AsPC-1,adenocarcinoma pancreatic,P01
+-,GSM1177966,AsPC-1_Passage 1 xenograft_R5,"AsPC-1, passage 1 xenograft",AsPC-1,adenocarcinoma pancreatic,P01
+-,GSM1177967,AsPC-1_Passage 4 xenograft_R1,"AsPC-1, passage 4 xenograft",AsPC-1,adenocarcinoma pancreatic,P04
+-,GSM1177968,AsPC-1_Passage 4 xenograft_R2,"AsPC-1, passage 4 xenograft",AsPC-1,adenocarcinoma pancreatic,P04
+-,GSM1177969,AsPC-1_Passage 4 xenograft_R3,"AsPC-1, passage 4 xenograft",AsPC-1,adenocarcinoma pancreatic,P04
+-,GSM1177970,AsPC-1_Passage 4 xenograft_R4,"AsPC-1, passage 4 xenograft",AsPC-1,adenocarcinoma pancreatic,P04
+-,GSM1177971,AsPC-1_Passage 4 xenograft_R5,"AsPC-1, passage 4 xenograft",AsPC-1,adenocarcinoma pancreatic,P04
+-,GSM1177972,AsPC-1_Passage 10 xenograft_R1,"AsPC-1, passage 10 xenograft",AsPC-1,adenocarcinoma pancreatic,P10
+-,GSM1177973,AsPC-1_Passage 10 xenograft_R2,"AsPC-1, passage 10 xenograft",AsPC-1,adenocarcinoma pancreatic,P10
+-,GSM1177974,AsPC-1_Passage 10 xenograft_R3,"AsPC-1, passage 10 xenograft",AsPC-1,adenocarcinoma pancreatic,P10
+-,GSM1177975,AsPC-1_Passage 10 xenograft_R4,"AsPC-1, passage 10 xenograft",AsPC-1,adenocarcinoma pancreatic,P10
+-,GSM1177976,AsPC-1_Passage 10 xenograft_R5,"AsPC-1, passage 10 xenograft",AsPC-1,adenocarcinoma pancreatic,P10
+-,GSM1177977,CA46_originating cell line_R1,"CA46, originating cell line",CA46,lymphoblastic Burkitt's lymphoma,P0
+-,GSM1177978,CA46_originating cell line_R2,"CA46, originating cell line",CA46,lymphoblastic Burkitt's lymphoma,P0
+-,GSM1177979,CA46_Passage 1 xenograft_R1,"CA46, passage 1 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P01
+-,GSM1177980,CA46_Passage 1 xenograft_R2,"CA46, passage 1 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P01
+-,GSM1177981,CA46_Passage 1 xenograft_R3,"CA46, passage 1 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P01
+-,GSM1177982,CA46_Passage 1 xenograft_R4,"CA46, passage 1 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P01
+-,GSM1177983,CA46_Passage 1 xenograft_R5,"CA46, passage 1 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P01
+-,GSM1177984,CA46_Passage 4 xenograft_R1,"CA46, passage 4 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P04
+-,GSM1177985,CA46_Passage 4 xenograft_R2,"CA46, passage 4 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P04
+-,GSM1177986,CA46_Passage 4 xenograft_R3,"CA46, passage 4 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P04
+-,GSM1177987,CA46_Passage 4 xenograft_R4,"CA46, passage 4 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P04
+-,GSM1177988,CA46_Passage 4 xenograft_R5,"CA46, passage 4 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P04
+-,GSM1177989,CA46_Passage 10 xenograft_R1,"CA46, passage 10 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P10
+-,GSM1177990,CA46_Passage 10 xenograft_R2,"CA46, passage 10 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P10
+-,GSM1177991,CA46_Passage 10 xenograft_R3,"CA46, passage 10 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P10
+-,GSM1177992,CA46_Passage 10 xenograft_R4,"CA46, passage 10 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P10
+-,GSM1177993,CA46_Passage 10 xenograft_R5,"CA46, passage 10 xenograft",CA46,lymphoblastic Burkitt's lymphoma,P10
+-,GSM1177994,CAKI-1_originating cell line_R1,"CAKI-1, originating cell line",CAKI-1,carcinoma renal cell,P0
+-,GSM1177995,CAKI-1_originating cell line_R2,"CAKI-1, originating cell line",CAKI-1,carcinoma renal cell,P0
+-,GSM1177996,CAKI-1_Passage 1 xenograft_R1,"CAKI-1, passage 1 xenograft",CAKI-1,carcinoma renal cell,P01
+-,GSM1177997,CAKI-1_Passage 1 xenograft_R2,"CAKI-1, passage 1 xenograft",CAKI-1,carcinoma renal cell,P01
+-,GSM1177998,CAKI-1_Passage 1 xenograft_R3,"CAKI-1, passage 1 xenograft",CAKI-1,carcinoma renal cell,P01
+-,GSM1177999,CAKI-1_Passage 1 xenograft_R4,"CAKI-1, passage 1 xenograft",CAKI-1,carcinoma renal cell,P01
+-,GSM1178000,CAKI-1_Passage 1 xenograft_R5,"CAKI-1, passage 1 xenograft",CAKI-1,carcinoma renal cell,P01
+-,GSM1178001,CAKI-1_Passage 4 xenograft_R1,"CAKI-1, passage 4 xenograft",CAKI-1,carcinoma renal cell,P04
+-,GSM1178002,CAKI-1_Passage 4 xenograft_R2,"CAKI-1, passage 4 xenograft",CAKI-1,carcinoma renal cell,P04
+-,GSM1178003,CAKI-1_Passage 4 xenograft_R3,"CAKI-1, passage 4 xenograft",CAKI-1,carcinoma renal cell,P04
+-,GSM1178004,CAKI-1_Passage 4 xenograft_R4,"CAKI-1, passage 4 xenograft",CAKI-1,carcinoma renal cell,P04
+-,GSM1178005,CAKI-1_Passage 4 xenograft_R5,"CAKI-1, passage 4 xenograft",CAKI-1,carcinoma renal cell,P04
+-,GSM1178006,CAKI-1_Passage 10 xenograft_R1,"CAKI-1, passage 10 xenograft",CAKI-1,carcinoma renal cell,P10
+-,GSM1178007,CAKI-1_Passage 10 xenograft_R2,"CAKI-1, passage 10 xenograft",CAKI-1,carcinoma renal cell,P10
+-,GSM1178008,CAKI-1_Passage 10 xenograft_R3,"CAKI-1, passage 10 xenograft",CAKI-1,carcinoma renal cell,P10
+-,GSM1178009,CAKI-1_Passage 10 xenograft_R4,"CAKI-1, passage 10 xenograft",CAKI-1,carcinoma renal cell,P10
+-,GSM1178010,CAKI-1_Passage 10 xenograft_R5,"CAKI-1, passage 10 xenograft",CAKI-1,carcinoma renal cell,P10
+-,GSM1178011,CCRF-CEM_originating cell line_R1,"CCRF-CEM, originating cell line",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P0
+-,GSM1178012,CCRF-CEM_originating cell line_R2,"CCRF-CEM, originating cell line",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P0
+-,GSM1178013,CCRF-CEM_originating cell line_R3,"CCRF-CEM, originating cell line",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P0
+-,GSM1178014,CCRF-CEM_Passage 1 xenograft_R1,"CCRF-CEM, passage 1 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P01
+-,GSM1178015,CCRF-CEM_Passage 1 xenograft_R2,"CCRF-CEM, passage 1 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P01
+-,GSM1178016,CCRF-CEM_Passage 1 xenograft_R3,"CCRF-CEM, passage 1 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P01
+-,GSM1178017,CCRF-CEM_Passage 1 xenograft_R4,"CCRF-CEM, passage 1 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P01
+-,GSM1178018,CCRF-CEM_Passage 1 xenograft_R5,"CCRF-CEM, passage 1 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P01
+-,GSM1178019,CCRF-CEM_Passage 4 xenograft_R1,"CCRF-CEM, passage 4 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P04
+-,GSM1178020,CCRF-CEM_Passage 4 xenograft_R2,"CCRF-CEM, passage 4 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P04
+-,GSM1178021,CCRF-CEM_Passage 4 xenograft_R3,"CCRF-CEM, passage 4 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P04
+-,GSM1178022,CCRF-CEM_Passage 4 xenograft_R4,"CCRF-CEM, passage 4 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P04
+-,GSM1178023,CCRF-CEM_Passage 4 xenograft_R5,"CCRF-CEM, passage 4 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P04
+-,GSM1178024,CCRF-CEM_Passage 10 xenograft_R1,"CCRF-CEM, passage 10 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P10
+-,GSM1178025,CCRF-CEM_Passage 10 xenograft_R2,"CCRF-CEM, passage 10 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P10
+-,GSM1178026,CCRF-CEM_Passage 10 xenograft_R3,"CCRF-CEM, passage 10 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P10
+-,GSM1178027,CCRF-CEM_Passage 10 xenograft_R4,"CCRF-CEM, passage 10 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P10
+-,GSM1178028,CCRF-CEM_Passage 10 xenograft_R5,"CCRF-CEM, passage 10 xenograft",CCRF-CEM,acute lymphoblastic (T-ALL) leukemia,P10
+-,GSM1178029,COLO 205_originating cell line_R1,"COLO 205, originating cell line",COLO 205,adenocarcinoma colon,P0
+-,GSM1178030,COLO 205_originating cell line_R2,"COLO 205, originating cell line",COLO 205,adenocarcinoma colon,P0
+-,GSM1178031,COLO 205_originating cell line_R3,"COLO 205, originating cell line",COLO 205,adenocarcinoma colon,P0
+-,GSM1178032,COLO 205_Passage 1 xenograft_R1,"COLO 205, passage 1 xenograft",COLO 205,adenocarcinoma colon,P01
+-,GSM1178033,COLO 205_Passage 1 xenograft_R2,"COLO 205, passage 1 xenograft",COLO 205,adenocarcinoma colon,P01
+-,GSM1178034,COLO 205_Passage 1 xenograft_R3,"COLO 205, passage 1 xenograft",COLO 205,adenocarcinoma colon,P01
+-,GSM1178035,COLO 205_Passage 1 xenograft_R4,"COLO 205, passage 1 xenograft",COLO 205,adenocarcinoma colon,P01
+-,GSM1178036,COLO 205_Passage 1 xenograft_R5,"COLO 205, passage 1 xenograft",COLO 205,adenocarcinoma colon,P01
+-,GSM1178037,COLO 205_Passage 4 xenograft_R1,"COLO 205, passage 4 xenograft",COLO 205,adenocarcinoma colon,P04
+-,GSM1178038,COLO 205_Passage 4 xenograft_R2,"COLO 205, passage 4 xenograft",COLO 205,adenocarcinoma colon,P04
+-,GSM1178039,COLO 205_Passage 4 xenograft_R3,"COLO 205, passage 4 xenograft",COLO 205,adenocarcinoma colon,P04
+-,GSM1178040,COLO 205_Passage 4 xenograft_R4,"COLO 205, passage 4 xenograft",COLO 205,adenocarcinoma colon,P04
+-,GSM1178041,COLO 205_Passage 4 xenograft_R5,"COLO 205, passage 4 xenograft",COLO 205,adenocarcinoma colon,P04
+-,GSM1178042,COLO 205_Passage 10 xenograft_R1,"COLO 205, passage 10 xenograft",COLO 205,adenocarcinoma colon,P10
+-,GSM1178043,COLO 205_Passage 10 xenograft_R2,"COLO 205, passage 10 xenograft",COLO 205,adenocarcinoma colon,P10
+-,GSM1178044,COLO 205_Passage 10 xenograft_R3,"COLO 205, passage 10 xenograft",COLO 205,adenocarcinoma colon,P10
+-,GSM1178045,COLO 205_Passage 10 xenograft_R4,"COLO 205, passage 10 xenograft",COLO 205,adenocarcinoma colon,P10
+-,GSM1178046,COLO 205_Passage 10 xenograft_R5,"COLO 205, passage 10 xenograft",COLO 205,adenocarcinoma colon,P10
+-,GSM1178047,COLO 829_originating cell line_R1,"COLO 829, originating cell line",COLO 829,malignant melanoma,P0
+-,GSM1178048,COLO 829_originating cell line_R2,"COLO 829, originating cell line",COLO 829,malignant melanoma,P0
+-,GSM1178049,COLO 829_Passage 1 xenograft_R1,"COLO 829, passage 1 xenograft",COLO 829,malignant melanoma,P01
+-,GSM1178050,COLO 829_Passage 1 xenograft_R2,"COLO 829, passage 1 xenograft",COLO 829,malignant melanoma,P01
+-,GSM1178051,COLO 829_Passage 1 xenograft_R3,"COLO 829, passage 1 xenograft",COLO 829,malignant melanoma,P01
+-,GSM1178052,COLO 829_Passage 1 xenograft_R4,"COLO 829, passage 1 xenograft",COLO 829,malignant melanoma,P01
+-,GSM1178053,COLO 829_Passage 1 xenograft_R5,"COLO 829, passage 1 xenograft",COLO 829,malignant melanoma,P01
+-,GSM1178054,COLO 829_Passage 4 xenograft_R1,"COLO 829, passage 4 xenograft",COLO 829,malignant melanoma,P04
+-,GSM1178055,COLO 829_Passage 4 xenograft_R2,"COLO 829, passage 4 xenograft",COLO 829,malignant melanoma,P04
+-,GSM1178056,COLO 829_Passage 4 xenograft_R3,"COLO 829, passage 4 xenograft",COLO 829,malignant melanoma,P04
+-,GSM1178057,COLO 829_Passage 4 xenograft_R4,"COLO 829, passage 4 xenograft",COLO 829,malignant melanoma,P04
+-,GSM1178058,COLO 829_Passage 4 xenograft_R5,"COLO 829, passage 4 xenograft",COLO 829,malignant melanoma,P04
+-,GSM1178059,COLO 829_Passage 10 xenograft_R1,"COLO 829, passage 10 xenograft",COLO 829,malignant melanoma,P10
+-,GSM1178060,COLO 829_Passage 10 xenograft_R2,"COLO 829, passage 10 xenograft",COLO 829,malignant melanoma,P10
+-,GSM1178061,COLO 829_Passage 10 xenograft_R3,"COLO 829, passage 10 xenograft",COLO 829,malignant melanoma,P10
+-,GSM1178062,COLO 829_Passage 10 xenograft_R4,"COLO 829, passage 10 xenograft",COLO 829,malignant melanoma,P10
+-,GSM1178063,COLO 829_Passage 10 xenograft_R5,"COLO 829, passage 10 xenograft",COLO 829,malignant melanoma,P10
+-,GSM1178064,CP70_originating cell line_R1,"CP70, originating cell line",CP70,carcinoma ovarian,P0
+-,GSM1178065,CP70_originating cell line_R2,"CP70, originating cell line",CP70,carcinoma ovarian,P0
+-,GSM1178066,CP70_Passage 1 xenograft_R1,"CP70, passage 1 xenograft",CP70,carcinoma ovarian,P01
+-,GSM1178067,CP70_Passage 1 xenograft_R2,"CP70, passage 1 xenograft",CP70,carcinoma ovarian,P01
+-,GSM1178068,CP70_Passage 1 xenograft_R3,"CP70, passage 1 xenograft",CP70,carcinoma ovarian,P01
+-,GSM1178069,CP70_Passage 1 xenograft_R4,"CP70, passage 1 xenograft",CP70,carcinoma ovarian,P01
+-,GSM1178070,CP70_Passage 1 xenograft_R5,"CP70, passage 1 xenograft",CP70,carcinoma ovarian,P01
+-,GSM1178071,CP70_Passage 4 xenograft_R1,"CP70, passage 4 xenograft",CP70,carcinoma ovarian,P04
+-,GSM1178072,CP70_Passage 4 xenograft_R2,"CP70, passage 4 xenograft",CP70,carcinoma ovarian,P04
+-,GSM1178073,CP70_Passage 4 xenograft_R3,"CP70, passage 4 xenograft",CP70,carcinoma ovarian,P04
+-,GSM1178074,CP70_Passage 4 xenograft_R4,"CP70, passage 4 xenograft",CP70,carcinoma ovarian,P04
+-,GSM1178075,CP70_Passage 4 xenograft_R5,"CP70, passage 4 xenograft",CP70,carcinoma ovarian,P04
+-,GSM1178076,CP70_Passage 10 xenograft_R1,"CP70, passage 10 xenograft",CP70,carcinoma ovarian,P10
+-,GSM1178077,CP70_Passage 10 xenograft_R2,"CP70, passage 10 xenograft",CP70,carcinoma ovarian,P10
+-,GSM1178078,CP70_Passage 10 xenograft_R3,"CP70, passage 10 xenograft",CP70,carcinoma ovarian,P10
+-,GSM1178079,CP70_Passage 10 xenograft_R4,"CP70, passage 10 xenograft",CP70,carcinoma ovarian,P10
+-,GSM1178080,CP70_Passage 10 xenograft_R5,"CP70, passage 10 xenograft",CP70,carcinoma ovarian,P10
+-,GSM1178081,EKVX_originating cell line_R1,"EKVX, originating cell line",EKVX,adenocarcinoma lung,P0
+-,GSM1178082,EKVX_originating cell line_R2,"EKVX, originating cell line",EKVX,adenocarcinoma lung,P0
+-,GSM1178083,EKVX_Passage 1 xenograft_R1,"EKVX, passage 1 xenograft",EKVX,adenocarcinoma lung,P01
+-,GSM1178084,EKVX_Passage 1 xenograft_R2,"EKVX, passage 1 xenograft",EKVX,adenocarcinoma lung,P01
+-,GSM1178085,EKVX_Passage 1 xenograft_R3,"EKVX, passage 1 xenograft",EKVX,adenocarcinoma lung,P01
+-,GSM1178086,EKVX_Passage 1 xenograft_R4,"EKVX, passage 1 xenograft",EKVX,adenocarcinoma lung,P01
+-,GSM1178087,EKVX_Passage 1 xenograft_R5,"EKVX, passage 1 xenograft",EKVX,adenocarcinoma lung,P01
+-,GSM1178088,EKVX_Passage 4 xenograft_R1,"EKVX, passage 4 xenograft",EKVX,adenocarcinoma lung,P04
+-,GSM1178089,EKVX_Passage 4 xenograft_R2,"EKVX, passage 4 xenograft",EKVX,adenocarcinoma lung,P04
+-,GSM1178090,EKVX_Passage 4 xenograft_R3,"EKVX, passage 4 xenograft",EKVX,adenocarcinoma lung,P04
+-,GSM1178091,EKVX_Passage 4 xenograft_R4,"EKVX, passage 4 xenograft",EKVX,adenocarcinoma lung,P04
+-,GSM1178092,EKVX_Passage 4 xenograft_R5,"EKVX, passage 4 xenograft",EKVX,adenocarcinoma lung,P04
+-,GSM1178093,EKVX_Passage 10 xenograft_R1,"EKVX, passage 10 xenograft",EKVX,adenocarcinoma lung,P10
+-,GSM1178094,EKVX_Passage 10 xenograft_R2,"EKVX, passage 10 xenograft",EKVX,adenocarcinoma lung,P10
+-,GSM1178095,EKVX_Passage 10 xenograft_R3,"EKVX, passage 10 xenograft",EKVX,adenocarcinoma lung,P10
+-,GSM1178096,EKVX_Passage 10 xenograft_R4,"EKVX, passage 10 xenograft",EKVX,adenocarcinoma lung,P10
+-,GSM1178097,EKVX_Passage 10 xenograft_R5,"EKVX, passage 10 xenograft",EKVX,adenocarcinoma lung,P10
+-,GSM1178098,GTL-16_originating cell line_R1,"GTL-16, originating cell line",GTL-16,adenocarcinoma gastric,P0
+-,GSM1178099,GTL-16_originating cell line_R2,"GTL-16, originating cell line",GTL-16,adenocarcinoma gastric,P0
+-,GSM1178100,GTL-16_Passage 1 xenograft_R1,"GTL-16, passage 1 xenograft",GTL-16,adenocarcinoma gastric,P01
+-,GSM1178101,GTL-16_Passage 1 xenograft_R2,"GTL-16, passage 1 xenograft",GTL-16,adenocarcinoma gastric,P01
+-,GSM1178102,GTL-16_Passage 1 xenograft_R3,"GTL-16, passage 1 xenograft",GTL-16,adenocarcinoma gastric,P01
+-,GSM1178103,GTL-16_Passage 1 xenograft_R4,"GTL-16, passage 1 xenograft",GTL-16,adenocarcinoma gastric,P01
+-,GSM1178104,GTL-16_Passage 1 xenograft_R5,"GTL-16, passage 1 xenograft",GTL-16,adenocarcinoma gastric,P01
+-,GSM1178105,GTL-16_Passage 4 xenograft_R1,"GTL-16, passage 4 xenograft",GTL-16,adenocarcinoma gastric,P04
+-,GSM1178106,GTL-16_Passage 4 xenograft_R2,"GTL-16, passage 4 xenograft",GTL-16,adenocarcinoma gastric,P04
+-,GSM1178107,GTL-16_Passage 4 xenograft_R3,"GTL-16, passage 4 xenograft",GTL-16,adenocarcinoma gastric,P04
+-,GSM1178108,GTL-16_Passage 4 xenograft_R4,"GTL-16, passage 4 xenograft",GTL-16,adenocarcinoma gastric,P04
+-,GSM1178109,GTL-16_Passage 4 xenograft_R5,"GTL-16, passage 4 xenograft",GTL-16,adenocarcinoma gastric,P04
+-,GSM1178110,GTL-16_Passage 10 xenograft_R1,"GTL-16, passage 10 xenograft",GTL-16,adenocarcinoma gastric,P10
+-,GSM1178111,GTL-16_Passage 10 xenograft_R2,"GTL-16, passage 10 xenograft",GTL-16,adenocarcinoma gastric,P10
+-,GSM1178112,GTL-16_Passage 10 xenograft_R3,"GTL-16, passage 10 xenograft",GTL-16,adenocarcinoma gastric,P10
+-,GSM1178113,GTL-16_Passage 10 xenograft_R4,"GTL-16, passage 10 xenograft",GTL-16,adenocarcinoma gastric,P10
+-,GSM1178114,GTL-16_Passage 10 xenograft_R5,"GTL-16, passage 10 xenograft",GTL-16,adenocarcinoma gastric,P10
+-,GSM1178115,HCC-2998_originating cell line_R1,"HCC-2998, originating cell line",HCC-2998,carcinoma colon,P0
+-,GSM1178116,HCC-2998_originating cell line_R2,"HCC-2998, originating cell line",HCC-2998,carcinoma colon,P0
+-,GSM1178117,HCC-2998_originating cell line_R3,"HCC-2998, originating cell line",HCC-2998,carcinoma colon,P0
+-,GSM1178118,HCC-2998_Passage 1 xenograft_R1,"HCC-2998, passage 1 xenograft",HCC-2998,carcinoma colon,P01
+-,GSM1178119,HCC-2998_Passage 1 xenograft_R2,"HCC-2998, passage 1 xenograft",HCC-2998,carcinoma colon,P01
+-,GSM1178120,HCC-2998_Passage 1 xenograft_R3,"HCC-2998, passage 1 xenograft",HCC-2998,carcinoma colon,P01
+-,GSM1178121,HCC-2998_Passage 1 xenograft_R4,"HCC-2998, passage 1 xenograft",HCC-2998,carcinoma colon,P01
+-,GSM1178122,HCC-2998_Passage 1 xenograft_R5,"HCC-2998, passage 1 xenograft",HCC-2998,carcinoma colon,P01
+-,GSM1178123,HCC-2998_Passage 4 xenograft_R1,"HCC-2998, passage 4 xenograft",HCC-2998,carcinoma colon,P04
+-,GSM1178124,HCC-2998_Passage 4 xenograft_R2,"HCC-2998, passage 4 xenograft",HCC-2998,carcinoma colon,P04
+-,GSM1178125,HCC-2998_Passage 4 xenograft_R3,"HCC-2998, passage 4 xenograft",HCC-2998,carcinoma colon,P04
+-,GSM1178126,HCC-2998_Passage 4 xenograft_R4,"HCC-2998, passage 4 xenograft",HCC-2998,carcinoma colon,P04
+-,GSM1178127,HCC-2998_Passage 4 xenograft_R5,"HCC-2998, passage 4 xenograft",HCC-2998,carcinoma colon,P04
+-,GSM1178128,HCC-2998_Passage 10 xenograft_R1,"HCC-2998, passage 10 xenograft",HCC-2998,carcinoma colon,P10
+-,GSM1178129,HCC-2998_Passage 10 xenograft_R2,"HCC-2998, passage 10 xenograft",HCC-2998,carcinoma colon,P10
+-,GSM1178130,HCC-2998_Passage 10 xenograft_R3,"HCC-2998, passage 10 xenograft",HCC-2998,carcinoma colon,P10
+-,GSM1178131,HCC-2998_Passage 10 xenograft_R4,"HCC-2998, passage 10 xenograft",HCC-2998,carcinoma colon,P10
+-,GSM1178132,HCC-2998_Passage 10 xenograft_R5,"HCC-2998, passage 10 xenograft",HCC-2998,carcinoma colon,P10
+-,GSM1178133,HCT-116_originating cell line_R1,"HCT-116, originating cell line",HCT-116,carcinoma colon,P0
+-,GSM1178134,HCT-116_originating cell line_R2,"HCT-116, originating cell line",HCT-116,carcinoma colon,P0
+-,GSM1178135,HCT-116_originating cell line_R3,"HCT-116, originating cell line",HCT-116,carcinoma colon,P0
+-,GSM1178136,HCT-116_Passage 1 xenograft_R1,"HCT-116, passage 1 xenograft",HCT-116,carcinoma colon,P01
+-,GSM1178137,HCT-116_Passage 1 xenograft_R2,"HCT-116, passage 1 xenograft",HCT-116,carcinoma colon,P01
+-,GSM1178138,HCT-116_Passage 1 xenograft_R3,"HCT-116, passage 1 xenograft",HCT-116,carcinoma colon,P01
+-,GSM1178139,HCT-116_Passage 1 xenograft_R4,"HCT-116, passage 1 xenograft",HCT-116,carcinoma colon,P01
+-,GSM1178140,HCT-116_Passage 1 xenograft_R5,"HCT-116, passage 1 xenograft",HCT-116,carcinoma colon,P01
+-,GSM1178141,HCT-116_Passage 4 xenograft_R1,"HCT-116, passage 4 xenograft",HCT-116,carcinoma colon,P04
+-,GSM1178142,HCT-116_Passage 4 xenograft_R2,"HCT-116, passage 4 xenograft",HCT-116,carcinoma colon,P04
+-,GSM1178143,HCT-116_Passage 4 xenograft_R3,"HCT-116, passage 4 xenograft",HCT-116,carcinoma colon,P04
+-,GSM1178144,HCT-116_Passage 4 xenograft_R4,"HCT-116, passage 4 xenograft",HCT-116,carcinoma colon,P04
+-,GSM1178145,HCT-116_Passage 4 xenograft_R5,"HCT-116, passage 4 xenograft",HCT-116,carcinoma colon,P04
+-,GSM1178146,HCT-116_Passage 10 xenograft_R1,"HCT-116, passage 10 xenograft",HCT-116,carcinoma colon,P10
+-,GSM1178147,HCT-116_Passage 10 xenograft_R2,"HCT-116, passage 10 xenograft",HCT-116,carcinoma colon,P10
+-,GSM1178148,HCT-116_Passage 10 xenograft_R3,"HCT-116, passage 10 xenograft",HCT-116,carcinoma colon,P10
+-,GSM1178149,HCT-116_Passage 10 xenograft_R4,"HCT-116, passage 10 xenograft",HCT-116,carcinoma colon,P10
+-,GSM1178150,HCT-116_Passage 10 xenograft_R5,"HCT-116, passage 10 xenograft",HCT-116,carcinoma colon,P10
+-,GSM1178151,HCT-15_originating cell line_R1,"HCT-15, originating cell line",HCT-15,adenocarcinoma colon,P0
+-,GSM1178152,HCT-15_originating cell line_R2,"HCT-15, originating cell line",HCT-15,adenocarcinoma colon,P0
+-,GSM1178153,HCT-15_originating cell line_R3,"HCT-15, originating cell line",HCT-15,adenocarcinoma colon,P0
+-,GSM1178154,HCT-15_Passage 1 xenograft_R1,"HCT-15, passage 1 xenograft",HCT-15,adenocarcinoma colon,P01
+-,GSM1178155,HCT-15_Passage 1 xenograft_R2,"HCT-15, passage 1 xenograft",HCT-15,adenocarcinoma colon,P01
+-,GSM1178156,HCT-15_Passage 1 xenograft_R3,"HCT-15, passage 1 xenograft",HCT-15,adenocarcinoma colon,P01
+-,GSM1178157,HCT-15_Passage 1 xenograft_R4,"HCT-15, passage 1 xenograft",HCT-15,adenocarcinoma colon,P01
+-,GSM1178158,HCT-15_Passage 1 xenograft_R5,"HCT-15, passage 1 xenograft",HCT-15,adenocarcinoma colon,P01
+-,GSM1178159,HCT-15_Passage 4 xenograft_R1,"HCT-15, passage 4 xenograft",HCT-15,adenocarcinoma colon,P04
+-,GSM1178160,HCT-15_Passage 4 xenograft_R2,"HCT-15, passage 4 xenograft",HCT-15,adenocarcinoma colon,P04
+-,GSM1178161,HCT-15_Passage 4 xenograft_R3,"HCT-15, passage 4 xenograft",HCT-15,adenocarcinoma colon,P04
+-,GSM1178162,HCT-15_Passage 4 xenograft_R4,"HCT-15, passage 4 xenograft",HCT-15,adenocarcinoma colon,P04
+-,GSM1178163,HCT-15_Passage 4 xenograft_R5,"HCT-15, passage 4 xenograft",HCT-15,adenocarcinoma colon,P04
+-,GSM1178164,HCT-15_Passage 10 xenograft_R1,"HCT-15, passage 10 xenograft",HCT-15,adenocarcinoma colon,P10
+-,GSM1178165,HCT-15_Passage 10 xenograft_R2,"HCT-15, passage 10 xenograft",HCT-15,adenocarcinoma colon,P10
+-,GSM1178166,HCT-15_Passage 10 xenograft_R3,"HCT-15, passage 10 xenograft",HCT-15,adenocarcinoma colon,P10
+-,GSM1178167,HCT-15_Passage 10 xenograft_R4,"HCT-15, passage 10 xenograft",HCT-15,adenocarcinoma colon,P10
+-,GSM1178168,HCT-15_Passage 10 xenograft_R5,"HCT-15, passage 10 xenograft",HCT-15,adenocarcinoma colon,P10
+-,GSM1178169,HeLa-Luc_originating cell line_R1,"HeLa-Luc, originating cell line",HeLa-Luc,adenocarcinoma cervical,P0
+-,GSM1178170,HeLa-Luc_originating cell line_R2,"HeLa-Luc, originating cell line",HeLa-Luc,adenocarcinoma cervical,P0
+-,GSM1178171,HeLa-Luc_Passage 1 xenograft_R1,"HeLa-Luc, passage 1 xenograft",HeLa-Luc,adenocarcinoma cervical,P01
+-,GSM1178172,HeLa-Luc_Passage 1 xenograft_R2,"HeLa-Luc, passage 1 xenograft",HeLa-Luc,adenocarcinoma cervical,P01
+-,GSM1178173,HeLa-Luc_Passage 1 xenograft_R3,"HeLa-Luc, passage 1 xenograft",HeLa-Luc,adenocarcinoma cervical,P01
+-,GSM1178174,HeLa-Luc_Passage 1 xenograft_R4,"HeLa-Luc, passage 1 xenograft",HeLa-Luc,adenocarcinoma cervical,P01
+-,GSM1178175,HeLa-Luc_Passage 1 xenograft_R5,"HeLa-Luc, passage 1 xenograft",HeLa-Luc,adenocarcinoma cervical,P01
+-,GSM1178176,HeLa-Luc_Passage 4 xenograft_R1,"HeLa-Luc, passage 4 xenograft",HeLa-Luc,adenocarcinoma cervical,P04
+-,GSM1178177,HeLa-Luc_Passage 4 xenograft_R2,"HeLa-Luc, passage 4 xenograft",HeLa-Luc,adenocarcinoma cervical,P04
+-,GSM1178178,HeLa-Luc_Passage 4 xenograft_R3,"HeLa-Luc, passage 4 xenograft",HeLa-Luc,adenocarcinoma cervical,P04
+-,GSM1178179,HeLa-Luc_Passage 4 xenograft_R4,"HeLa-Luc, passage 4 xenograft",HeLa-Luc,adenocarcinoma cervical,P04
+-,GSM1178180,HeLa-Luc_Passage 4 xenograft_R5,"HeLa-Luc, passage 4 xenograft",HeLa-Luc,adenocarcinoma cervical,P04
+-,GSM1178181,HeLa-Luc_Passage 10 xenograft_R1,"HeLa-Luc, passage 10 xenograft",HeLa-Luc,adenocarcinoma cervical,P10
+-,GSM1178182,HeLa-Luc_Passage 10 xenograft_R2,"HeLa-Luc, passage 10 xenograft",HeLa-Luc,adenocarcinoma cervical,P10
+-,GSM1178183,HeLa-Luc_Passage 10 xenograft_R3,"HeLa-Luc, passage 10 xenograft",HeLa-Luc,adenocarcinoma cervical,P10
+-,GSM1178184,HeLa-Luc_Passage 10 xenograft_R4,"HeLa-Luc, passage 10 xenograft",HeLa-Luc,adenocarcinoma cervical,P10
+-,GSM1178185,HeLa-Luc_Passage 10 xenograft_R5,"HeLa-Luc, passage 10 xenograft",HeLa-Luc,adenocarcinoma cervical,P10
+-,GSM1178186,HL-60(TB)_originating cell line_R1,"HL-60(TB), originating cell line",HL-60(TB),promyelocytic leukemia,P0
+-,GSM1178187,HL-60(TB)_originating cell line_R2,"HL-60(TB), originating cell line",HL-60(TB),promyelocytic leukemia,P0
+-,GSM1178188,HL-60(TB)_originating cell line_R3,"HL-60(TB), originating cell line",HL-60(TB),promyelocytic leukemia,P0
+-,GSM1178189,HL-60(TB)_originating cell line_R4,"HL-60(TB), originating cell line",HL-60(TB),promyelocytic leukemia,P0
+-,GSM1178190,HL-60(TB)_originating cell line_R5,"HL-60(TB), originating cell line",HL-60(TB),promyelocytic leukemia,P0
+-,GSM1178191,HL-60(TB)_Passage 1 xenograft_R1,"HL-60(TB), passage 1 xenograft",HL-60(TB),promyelocytic leukemia,P01
+-,GSM1178192,HL-60(TB)_Passage 1 xenograft_R2,"HL-60(TB), passage 1 xenograft",HL-60(TB),promyelocytic leukemia,P01
+-,GSM1178193,HL-60(TB)_Passage 1 xenograft_R3,"HL-60(TB), passage 1 xenograft",HL-60(TB),promyelocytic leukemia,P01
+-,GSM1178194,HL-60(TB)_Passage 1 xenograft_R4,"HL-60(TB), passage 1 xenograft",HL-60(TB),promyelocytic leukemia,P01
+-,GSM1178195,HL-60(TB)_Passage 1 xenograft_R5,"HL-60(TB), passage 1 xenograft",HL-60(TB),promyelocytic leukemia,P01
+-,GSM1178196,HL-60(TB)_Passage 4 xenograft_R1,"HL-60(TB), passage 4 xenograft",HL-60(TB),promyelocytic leukemia,P04
+-,GSM1178197,HL-60(TB)_Passage 4 xenograft_R2,"HL-60(TB), passage 4 xenograft",HL-60(TB),promyelocytic leukemia,P04
+-,GSM1178198,HL-60(TB)_Passage 4 xenograft_R3,"HL-60(TB), passage 4 xenograft",HL-60(TB),promyelocytic leukemia,P04
+-,GSM1178199,HL-60(TB)_Passage 10 xenograft_R1,"HL-60(TB), passage 10 xenograft",HL-60(TB),promyelocytic leukemia,P10
+-,GSM1178200,HL-60(TB)_Passage 10 xenograft_R2,"HL-60(TB), passage 10 xenograft",HL-60(TB),promyelocytic leukemia,P10
+-,GSM1178201,HL-60(TB)_Passage 10 xenograft_R3,"HL-60(TB), passage 10 xenograft",HL-60(TB),promyelocytic leukemia,P10
+-,GSM1178202,HL-60(TB)_Passage 10 xenograft_R4,"HL-60(TB), passage 10 xenograft",HL-60(TB),promyelocytic leukemia,P10
+-,GSM1178203,HL-60(TB)_Passage 10 xenograft_R5,"HL-60(TB), passage 10 xenograft",HL-60(TB),promyelocytic leukemia,P10
+-,GSM1178204,HOP-62_originating cell line_R1,"HOP-62, originating cell line",HOP-62,adenocarcinoma lung,P0
+-,GSM1178205,HOP-62_originating cell line_R2,"HOP-62, originating cell line",HOP-62,adenocarcinoma lung,P0
+-,GSM1178206,HOP-62_originating cell line_R3,"HOP-62, originating cell line",HOP-62,adenocarcinoma lung,P0
+-,GSM1178207,HOP-62_Passage 1 xenograft_R1,"HOP-62, passage 1 xenograft",HOP-62,adenocarcinoma lung,P01
+-,GSM1178208,HOP-62_Passage 1 xenograft_R3,"HOP-62, passage 1 xenograft",HOP-62,adenocarcinoma lung,P01
+-,GSM1178209,HOP-62_Passage 1 xenograft_R4,"HOP-62, passage 1 xenograft",HOP-62,adenocarcinoma lung,P01
+-,GSM1178210,HOP-62_Passage 1 xenograft_R5,"HOP-62, passage 1 xenograft",HOP-62,adenocarcinoma lung,P01
+-,GSM1178211,HOP-62_Passage 4 xenograft_R1,"HOP-62, passage 4 xenograft",HOP-62,adenocarcinoma lung,P04
+-,GSM1178212,HOP-62_Passage 4 xenograft_R2,"HOP-62, passage 4 xenograft",HOP-62,adenocarcinoma lung,P04
+-,GSM1178213,HOP-62_Passage 4 xenograft_R3,"HOP-62, passage 4 xenograft",HOP-62,adenocarcinoma lung,P04
+-,GSM1178214,HOP-62_Passage 4 xenograft_R4,"HOP-62, passage 4 xenograft",HOP-62,adenocarcinoma lung,P04
+-,GSM1178215,HOP-62_Passage 4 xenograft_R5,"HOP-62, passage 4 xenograft",HOP-62,adenocarcinoma lung,P04
+-,GSM1178216,HOP-62_Passage 10 xenograft_R1,"HOP-62, passage 10 xenograft",HOP-62,adenocarcinoma lung,P10
+-,GSM1178217,HOP-62_Passage 10 xenograft_R2,"HOP-62, passage 10 xenograft",HOP-62,adenocarcinoma lung,P10
+-,GSM1178218,HOP-62_Passage 10 xenograft_R3,"HOP-62, passage 10 xenograft",HOP-62,adenocarcinoma lung,P10
+-,GSM1178219,HOP-62_Passage 10 xenograft_R4,"HOP-62, passage 10 xenograft",HOP-62,adenocarcinoma lung,P10
+-,GSM1178220,HOP-62_Passage 10 xenograft_R5,"HOP-62, passage 10 xenograft",HOP-62,adenocarcinoma lung,P10
+-,GSM1178221,HOP-92_originating cell line_R1,"HOP-92, originating cell line",HOP-92,large cell undifferentiated lung,P0
+-,GSM1178222,HOP-92_originating cell line_R2,"HOP-92, originating cell line",HOP-92,large cell undifferentiated lung,P0
+-,GSM1178223,HOP-92_originating cell line_R3,"HOP-92, originating cell line",HOP-92,large cell undifferentiated lung,P0
+-,GSM1178224,HOP-92_Passage 1 xenograft_R1,"HOP-92, passage 1 xenograft",HOP-92,large cell undifferentiated lung,P01
+-,GSM1178225,HOP-92_Passage 1 xenograft_R2,"HOP-92, passage 1 xenograft",HOP-92,large cell undifferentiated lung,P01
+-,GSM1178226,HOP-92_Passage 1 xenograft_R3,"HOP-92, passage 1 xenograft",HOP-92,large cell undifferentiated lung,P01
+-,GSM1178227,HOP-92_Passage 1 xenograft_R4,"HOP-92, passage 1 xenograft",HOP-92,large cell undifferentiated lung,P01
+-,GSM1178228,HOP-92_Passage 1 xenograft_R5,"HOP-92, passage 1 xenograft",HOP-92,large cell undifferentiated lung,P01
+-,GSM1178229,HOP-92_Passage 4 xenograft_R1,"HOP-92, passage 4 xenograft",HOP-92,large cell undifferentiated lung,P04
+-,GSM1178230,HOP-92_Passage 4 xenograft_R2,"HOP-92, passage 4 xenograft",HOP-92,large cell undifferentiated lung,P04
+-,GSM1178231,HOP-92_Passage 4 xenograft_R3,"HOP-92, passage 4 xenograft",HOP-92,large cell undifferentiated lung,P04
+-,GSM1178232,HOP-92_Passage 4 xenograft_R4,"HOP-92, passage 4 xenograft",HOP-92,large cell undifferentiated lung,P04
+-,GSM1178233,HOP-92_Passage 4 xenograft_R5,"HOP-92, passage 4 xenograft",HOP-92,large cell undifferentiated lung,P04
+-,GSM1178234,HOP-92_Passage 10 xenograft_R1,"HOP-92, passage 10 xenograft",HOP-92,large cell undifferentiated lung,P10
+-,GSM1178235,HOP-92_Passage 10 xenograft_R2,"HOP-92, passage 10 xenograft",HOP-92,large cell undifferentiated lung,P10
+-,GSM1178236,HOP-92_Passage 10 xenograft_R3,"HOP-92, passage 10 xenograft",HOP-92,large cell undifferentiated lung,P10
+-,GSM1178237,HOP-92_Passage 10 xenograft_R4,"HOP-92, passage 10 xenograft",HOP-92,large cell undifferentiated lung,P10
+-,GSM1178238,HOP-92_Passage 10 xenograft_R5,"HOP-92, passage 10 xenograft",HOP-92,large cell undifferentiated lung,P10
+-,GSM1178239,HT-29_originating cell line_R1,"HT-29, originating cell line",HT-29,adenocarcinoma GR III colon,P0
+-,GSM1178240,HT-29_originating cell line_R2,"HT-29, originating cell line",HT-29,adenocarcinoma GR III colon,P0
+-,GSM1178241,HT-29_originating cell line_R3,"HT-29, originating cell line",HT-29,adenocarcinoma GR III colon,P0
+-,GSM1178242,HT-29_Passage 1 xenograft_R1,"HT-29, passage 1 xenograft",HT-29,adenocarcinoma GR III colon,P01
+-,GSM1178243,HT-29_Passage 1 xenograft_R2,"HT-29, passage 1 xenograft",HT-29,adenocarcinoma GR III colon,P01
+-,GSM1178244,HT-29_Passage 1 xenograft_R3,"HT-29, passage 1 xenograft",HT-29,adenocarcinoma GR III colon,P01
+-,GSM1178245,HT-29_Passage 1 xenograft_R4,"HT-29, passage 1 xenograft",HT-29,adenocarcinoma GR III colon,P01
+-,GSM1178246,HT-29_Passage 1 xenograft_R5,"HT-29, passage 1 xenograft",HT-29,adenocarcinoma GR III colon,P01
+-,GSM1178247,HT-29_Passage 4 xenograft_R1,"HT-29, passage 4 xenograft",HT-29,adenocarcinoma GR III colon,P04
+-,GSM1178248,HT-29_Passage 4 xenograft_R2,"HT-29, passage 4 xenograft",HT-29,adenocarcinoma GR III colon,P04
+-,GSM1178249,HT-29_Passage 4 xenograft_R3,"HT-29, passage 4 xenograft",HT-29,adenocarcinoma GR III colon,P04
+-,GSM1178250,HT-29_Passage 4 xenograft_R4,"HT-29, passage 4 xenograft",HT-29,adenocarcinoma GR III colon,P04
+-,GSM1178251,HT-29_Passage 4 xenograft_R5,"HT-29, passage 4 xenograft",HT-29,adenocarcinoma GR III colon,P04
+-,GSM1178252,HT-29_Passage 10 xenograft_R1,"HT-29, passage 10 xenograft",HT-29,adenocarcinoma GR III colon,P10
+-,GSM1178253,HT-29_Passage 10 xenograft_R2,"HT-29, passage 10 xenograft",HT-29,adenocarcinoma GR III colon,P10
+-,GSM1178254,HT-29_Passage 10 xenograft_R3,"HT-29, passage 10 xenograft",HT-29,adenocarcinoma GR III colon,P10
+-,GSM1178255,HT-29_Passage 10 xenograft_R4,"HT-29, passage 10 xenograft",HT-29,adenocarcinoma GR III colon,P10
+-,GSM1178256,HT-29_Passage 10 xenograft_R5,"HT-29, passage 10 xenograft",HT-29,adenocarcinoma GR III colon,P10
+-,GSM1178257,HuH-7_originating cell line_R1,"HuH-7, originating cell line",HuH-7,carcinoma differentiated Hepatocellular,P0
+-,GSM1178258,HuH-7_originating cell line_R2,"HuH-7, originating cell line",HuH-7,carcinoma differentiated Hepatocellular,P0
+-,GSM1178259,HuH-7_Passage 1 xenograft_R1,"HuH-7, passage 1 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P01
+-,GSM1178260,HuH-7_Passage 1 xenograft_R2,"HuH-7, passage 1 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P01
+-,GSM1178261,HuH-7_Passage 1 xenograft_R3,"HuH-7, passage 1 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P01
+-,GSM1178262,HuH-7_Passage 1 xenograft_R4,"HuH-7, passage 1 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P01
+-,GSM1178263,HuH-7_Passage 1 xenograft_R5,"HuH-7, passage 1 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P01
+-,GSM1178264,HuH-7_Passage 4 xenograft_R1,"HuH-7, passage 4 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P04
+-,GSM1178265,HuH-7_Passage 4 xenograft_R2,"HuH-7, passage 4 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P04
+-,GSM1178266,HuH-7_Passage 4 xenograft_R3,"HuH-7, passage 4 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P04
+-,GSM1178267,HuH-7_Passage 4 xenograft_R4,"HuH-7, passage 4 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P04
+-,GSM1178268,HuH-7_Passage 4 xenograft_R5,"HuH-7, passage 4 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P04
+-,GSM1178269,HuH-7_Passage 10 xenograft_R1,"HuH-7, passage 10 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P10
+-,GSM1178270,HuH-7_Passage 10 xenograft_R2,"HuH-7, passage 10 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P10
+-,GSM1178271,HuH-7_Passage 10 xenograft_R3,"HuH-7, passage 10 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P10
+-,GSM1178272,HuH-7_Passage 10 xenograft_R4,"HuH-7, passage 10 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P10
+-,GSM1178273,HuH-7_Passage 10 xenograft_R5,"HuH-7, passage 10 xenograft",HuH-7,carcinoma differentiated Hepatocellular,P10
+-,GSM1178274,K-562_originating cell line_R1,"K-562, originating cell line",K-562,chronic myelogenous (blast crisis) leukemia,P0
+-,GSM1178275,K-562_originating cell line_R2,"K-562, originating cell line",K-562,chronic myelogenous (blast crisis) leukemia,P0
+-,GSM1178276,K-562_originating cell line_R3,"K-562, originating cell line",K-562,chronic myelogenous (blast crisis) leukemia,P0
+-,GSM1178277,K-562_Passage 1 xenograft_R1,"K-562, passage 1 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P01
+-,GSM1178278,K-562_Passage 1 xenograft_R2,"K-562, passage 1 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P01
+-,GSM1178279,K-562_Passage 1 xenograft_R3,"K-562, passage 1 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P01
+-,GSM1178280,K-562_Passage 1 xenograft_R4,"K-562, passage 1 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P01
+-,GSM1178281,K-562_Passage 1 xenograft_R5,"K-562, passage 1 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P01
+-,GSM1178282,K-562_Passage 4 xenograft_R1,"K-562, passage 4 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P04
+-,GSM1178283,K-562_Passage 4 xenograft_R2,"K-562, passage 4 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P04
+-,GSM1178284,K-562_Passage 4 xenograft_R3,"K-562, passage 4 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P04
+-,GSM1178285,K-562_Passage 4 xenograft_R4,"K-562, passage 4 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P04
+-,GSM1178286,K-562_Passage 4 xenograft_R5,"K-562, passage 4 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P04
+-,GSM1178287,K-562_Passage 10 xenograft_R1,"K-562, passage 10 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P10
+-,GSM1178288,K-562_Passage 10 xenograft_R2,"K-562, passage 10 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P10
+-,GSM1178289,K-562_Passage 10 xenograft_R3,"K-562, passage 10 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P10
+-,GSM1178290,K-562_Passage 10 xenograft_R4,"K-562, passage 10 xenograft",K-562,chronic myelogenous (blast crisis) leukemia,P10
+-,GSM1178291,KM12_originating cell line_R1,"KM12, originating cell line",KM12,adenocarcinoma colon,P0
+-,GSM1178292,KM12_originating cell line_R2,"KM12, originating cell line",KM12,adenocarcinoma colon,P0
+-,GSM1178293,KM12_originating cell line_R3,"KM12, originating cell line",KM12,adenocarcinoma colon,P0
+-,GSM1178294,KM12_Passage 1 xenograft_R1,"KM12, passage 1 xenograft",KM12,adenocarcinoma colon,P01
+-,GSM1178295,KM12_Passage 1 xenograft_R2,"KM12, passage 1 xenograft",KM12,adenocarcinoma colon,P01
+-,GSM1178296,KM12_Passage 1 xenograft_R3,"KM12, passage 1 xenograft",KM12,adenocarcinoma colon,P01
+-,GSM1178297,KM12_Passage 1 xenograft_R4,"KM12, passage 1 xenograft",KM12,adenocarcinoma colon,P01
+-,GSM1178298,KM12_Passage 1 xenograft_R5,"KM12, passage 1 xenograft",KM12,adenocarcinoma colon,P01
+-,GSM1178299,KM12_Passage 4 xenograft_R1,"KM12, passage 4 xenograft",KM12,adenocarcinoma colon,P04
+-,GSM1178300,KM12_Passage 4 xenograft_R2,"KM12, passage 4 xenograft",KM12,adenocarcinoma colon,P04
+-,GSM1178301,KM12_Passage 4 xenograft_R3,"KM12, passage 4 xenograft",KM12,adenocarcinoma colon,P04
+-,GSM1178302,KM12_Passage 4 xenograft_R4,"KM12, passage 4 xenograft",KM12,adenocarcinoma colon,P04
+-,GSM1178303,KM12_Passage 4 xenograft_R5,"KM12, passage 4 xenograft",KM12,adenocarcinoma colon,P04
+-,GSM1178304,KM12_Passage 10 xenograft_R1,"KM12, passage 10 xenograft",KM12,adenocarcinoma colon,P10
+-,GSM1178305,KM12_Passage 10 xenograft_R2,"KM12, passage 10 xenograft",KM12,adenocarcinoma colon,P10
+-,GSM1178306,KM12_Passage 10 xenograft_R3,"KM12, passage 10 xenograft",KM12,adenocarcinoma colon,P10
+-,GSM1178307,KM12_Passage 10 xenograft_R4,"KM12, passage 10 xenograft",KM12,adenocarcinoma colon,P10
+-,GSM1178308,KM12_Passage 10 xenograft_R5,"KM12, passage 10 xenograft",KM12,adenocarcinoma colon,P10
+-,GSM1178309,LOX IMVI_originating cell line_R1,"LOX IMVI, originating cell line",LOX IMVI,malignant amelanocytic melanoma,P0
+-,GSM1178310,LOX IMVI_originating cell line_R2,"LOX IMVI, originating cell line",LOX IMVI,malignant amelanocytic melanoma,P0
+-,GSM1178311,LOX IMVI_Passage 1 xenograft_R1,"LOX IMVI, passage 1 xenograft",LOX IMVI,malignant amelanocytic melanoma,P01
+-,GSM1178312,LOX IMVI_Passage 1 xenograft_R2,"LOX IMVI, passage 1 xenograft",LOX IMVI,malignant amelanocytic melanoma,P01
+-,GSM1178313,LOX IMVI_Passage 1 xenograft_R3,"LOX IMVI, passage 1 xenograft",LOX IMVI,malignant amelanocytic melanoma,P01
+-,GSM1178314,LOX IMVI_Passage 1 xenograft_R4,"LOX IMVI, passage 1 xenograft",LOX IMVI,malignant amelanocytic melanoma,P01
+-,GSM1178315,LOX IMVI_Passage 1 xenograft_R5,"LOX IMVI, passage 1 xenograft",LOX IMVI,malignant amelanocytic melanoma,P01
+-,GSM1178316,LOX IMVI_Passage 4 xenograft_R1,"LOX IMVI, passage 4 xenograft",LOX IMVI,malignant amelanocytic melanoma,P04
+-,GSM1178317,LOX IMVI_Passage 4 xenograft_R2,"LOX IMVI, passage 4 xenograft",LOX IMVI,malignant amelanocytic melanoma,P04
+-,GSM1178318,LOX IMVI_Passage 4 xenograft_R3,"LOX IMVI, passage 4 xenograft",LOX IMVI,malignant amelanocytic melanoma,P04
+-,GSM1178319,LOX IMVI_Passage 4 xenograft_R4,"LOX IMVI, passage 4 xenograft",LOX IMVI,malignant amelanocytic melanoma,P04
+-,GSM1178320,LOX IMVI_Passage 4 xenograft_R5,"LOX IMVI, passage 4 xenograft",LOX IMVI,malignant amelanocytic melanoma,P04
+-,GSM1178321,LOX IMVI_Passage 10 xenograft_R1,"LOX IMVI, passage 10 xenograft",LOX IMVI,malignant amelanocytic melanoma,P10
+-,GSM1178322,LOX IMVI_Passage 10 xenograft_R2,"LOX IMVI, passage 10 xenograft",LOX IMVI,malignant amelanocytic melanoma,P10
+-,GSM1178323,LOX IMVI_Passage 10 xenograft_R3,"LOX IMVI, passage 10 xenograft",LOX IMVI,malignant amelanocytic melanoma,P10
+-,GSM1178324,LOX IMVI_Passage 10 xenograft_R4,"LOX IMVI, passage 10 xenograft",LOX IMVI,malignant amelanocytic melanoma,P10
+-,GSM1178325,LOX IMVI_Passage 10 xenograft_R5,"LOX IMVI, passage 10 xenograft",LOX IMVI,malignant amelanocytic melanoma,P10
+-,GSM1178326,M14_originating cell line_R1,"M14, originating cell line",M14,adenocarcinoma melanoma,P0
+-,GSM1178327,M14_originating cell line_R2,"M14, originating cell line",M14,adenocarcinoma melanoma,P0
+-,GSM1178328,M14_Passage 1 xenograft_R1,"M14, passage 1 xenograft",M14,adenocarcinoma melanoma,P01
+-,GSM1178329,M14_Passage 1 xenograft_R2,"M14, passage 1 xenograft",M14,adenocarcinoma melanoma,P01
+-,GSM1178330,M14_Passage 1 xenograft_R3,"M14, passage 1 xenograft",M14,adenocarcinoma melanoma,P01
+-,GSM1178331,M14_Passage 1 xenograft_R4,"M14, passage 1 xenograft",M14,adenocarcinoma melanoma,P01
+-,GSM1178332,M14_Passage 1 xenograft_R5,"M14, passage 1 xenograft",M14,adenocarcinoma melanoma,P01
+-,GSM1178333,M14_Passage 4 xenograft_R1,"M14, passage 4 xenograft",M14,adenocarcinoma melanoma,P04
+-,GSM1178334,M14_Passage 4 xenograft_R2,"M14, passage 4 xenograft",M14,adenocarcinoma melanoma,P04
+-,GSM1178335,M14_Passage 4 xenograft_R3,"M14, passage 4 xenograft",M14,adenocarcinoma melanoma,P04
+-,GSM1178336,M14_Passage 4 xenograft_R4,"M14, passage 4 xenograft",M14,adenocarcinoma melanoma,P04
+-,GSM1178337,M14_Passage 4 xenograft_R5,"M14, passage 4 xenograft",M14,adenocarcinoma melanoma,P04
+-,GSM1178338,M14_Passage 10 xenograft_R1,"M14, passage 10 xenograft",M14,adenocarcinoma melanoma,P10
+-,GSM1178339,M14_Passage 10 xenograft_R2,"M14, passage 10 xenograft",M14,adenocarcinoma melanoma,P10
+-,GSM1178340,M14_Passage 10 xenograft_R3,"M14, passage 10 xenograft",M14,adenocarcinoma melanoma,P10
+-,GSM1178341,M14_Passage 10 xenograft_R4,"M14, passage 10 xenograft",M14,adenocarcinoma melanoma,P10
+-,GSM1178342,M14_Passage 10 xenograft_R5,"M14, passage 10 xenograft",M14,adenocarcinoma melanoma,P10
+-,GSM1178343,MALME-3M_originating cell line_R1,"MALME-3M, originating cell line",MALME-3M,malignant melanoma,P0
+-,GSM1178344,MALME-3M_originating cell line_R2,"MALME-3M, originating cell line",MALME-3M,malignant melanoma,P0
+-,GSM1178345,MALME-3M_Passage 1 xenograft_R1,"MALME-3M, passage 1 xenograft",MALME-3M,malignant melanoma,P01
+-,GSM1178346,MALME-3M_Passage 1 xenograft_R2,"MALME-3M, passage 1 xenograft",MALME-3M,malignant melanoma,P01
+-,GSM1178347,MALME-3M_Passage 1 xenograft_R3,"MALME-3M, passage 1 xenograft",MALME-3M,malignant melanoma,P01
+-,GSM1178348,MALME-3M_Passage 1 xenograft_R4,"MALME-3M, passage 1 xenograft",MALME-3M,malignant melanoma,P01
+-,GSM1178349,MALME-3M_Passage 1 xenograft_R5,"MALME-3M, passage 1 xenograft",MALME-3M,malignant melanoma,P01
+-,GSM1178350,MALME-3M_Passage 4 xenograft_R1,"MALME-3M, passage 4 xenograft",MALME-3M,malignant melanoma,P04
+-,GSM1178351,MALME-3M_Passage 4 xenograft_R2,"MALME-3M, passage 4 xenograft",MALME-3M,malignant melanoma,P04
+-,GSM1178352,MALME-3M_Passage 4 xenograft_R3,"MALME-3M, passage 4 xenograft",MALME-3M,malignant melanoma,P04
+-,GSM1178353,MALME-3M_Passage 4 xenograft_R4,"MALME-3M, passage 4 xenograft",MALME-3M,malignant melanoma,P04
+-,GSM1178354,MALME-3M_Passage 10 xenograft_R1,"MALME-3M, passage 10 xenograft",MALME-3M,malignant melanoma,P10
+-,GSM1178355,MALME-3M_Passage 10 xenograft_R2,"MALME-3M, passage 10 xenograft",MALME-3M,malignant melanoma,P10
+-,GSM1178356,MALME-3M_Passage 10 xenograft_R3,"MALME-3M, passage 10 xenograft",MALME-3M,malignant melanoma,P10
+-,GSM1178357,MALME-3M_Passage 10 xenograft_R4,"MALME-3M, passage 10 xenograft",MALME-3M,malignant melanoma,P10
+-,GSM1178358,MALME-3M_Passage 10 xenograft_R5,"MALME-3M, passage 10 xenograft",MALME-3M,malignant melanoma,P10
+-,GSM1178359,MCF7_originating cell line_R1,"MCF7, originating cell line",MCF7,adenocarcinoma breast,P0
+-,GSM1178360,MCF7_originating cell line_R2,"MCF7, originating cell line",MCF7,adenocarcinoma breast,P0
+-,GSM1178361,MCF7_Passage 1 xenograft_R1,"MCF7, passage 1 xenograft",MCF7,adenocarcinoma breast,P01
+-,GSM1178362,MCF7_Passage 1 xenograft_R2,"MCF7, passage 1 xenograft",MCF7,adenocarcinoma breast,P01
+-,GSM1178363,MCF7_Passage 1 xenograft_R3,"MCF7, passage 1 xenograft",MCF7,adenocarcinoma breast,P01
+-,GSM1178364,MCF7_Passage 1 xenograft_R4,"MCF7, passage 1 xenograft",MCF7,adenocarcinoma breast,P01
+-,GSM1178365,MCF7_Passage 4 xenograft_R1,"MCF7, passage 4 xenograft",MCF7,adenocarcinoma breast,P04
+-,GSM1178366,MCF7_Passage 4 xenograft_R2,"MCF7, passage 4 xenograft",MCF7,adenocarcinoma breast,P04
+-,GSM1178367,MCF7_Passage 4 xenograft_R3,"MCF7, passage 4 xenograft",MCF7,adenocarcinoma breast,P04
+-,GSM1178368,MCF7_Passage 4 xenograft_R4,"MCF7, passage 4 xenograft",MCF7,adenocarcinoma breast,P04
+-,GSM1178369,MCF7_Passage 4 xenograft_R5,"MCF7, passage 4 xenograft",MCF7,adenocarcinoma breast,P04
+-,GSM1178370,MCF7_Passage 10 xenograft_R1,"MCF7, passage 10 xenograft",MCF7,adenocarcinoma breast,P10
+-,GSM1178371,MCF7_Passage 10 xenograft_R2,"MCF7, passage 10 xenograft",MCF7,adenocarcinoma breast,P10
+-,GSM1178372,MCF7_Passage 10 xenograft_R3,"MCF7, passage 10 xenograft",MCF7,adenocarcinoma breast,P10
+-,GSM1178373,MCF7_Passage 10 xenograft_R4,"MCF7, passage 10 xenograft",MCF7,adenocarcinoma breast,P10
+-,GSM1178374,MCF7_Passage 10 xenograft_R5,"MCF7, passage 10 xenograft",MCF7,adenocarcinoma breast,P10
+-,GSM1178375,MDA-MB-231T_originating cell line_R1,"MDA-MB-231T, originating cell line",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P0
+-,GSM1178376,MDA-MB-231T_originating cell line_R2,"MDA-MB-231T, originating cell line",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P0
+-,GSM1178377,MDA-MB-231T_Passage 1 xenograft_R1,"MDA-MB-231T, passage 1 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P01
+-,GSM1178378,MDA-MB-231T_Passage 1 xenograft_R2,"MDA-MB-231T, passage 1 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P01
+-,GSM1178379,MDA-MB-231T_Passage 1 xenograft_R3,"MDA-MB-231T, passage 1 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P01
+-,GSM1178380,MDA-MB-231T_Passage 1 xenograft_R4,"MDA-MB-231T, passage 1 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P01
+-,GSM1178381,MDA-MB-231T_Passage 1 xenograft_R5,"MDA-MB-231T, passage 1 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P01
+-,GSM1178382,MDA-MB-231T_Passage 4 xenograft_R1,"MDA-MB-231T, passage 4 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P04
+-,GSM1178383,MDA-MB-231T_Passage 4 xenograft_R2,"MDA-MB-231T, passage 4 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P04
+-,GSM1178384,MDA-MB-231T_Passage 4 xenograft_R3,"MDA-MB-231T, passage 4 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P04
+-,GSM1178385,MDA-MB-231T_Passage 4 xenograft_R4,"MDA-MB-231T, passage 4 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P04
+-,GSM1178386,MDA-MB-231T_Passage 10 xenograft_R1,"MDA-MB-231T, passage 10 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P10
+-,GSM1178387,MDA-MB-231T_Passage 10 xenograft_R2,"MDA-MB-231T, passage 10 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P10
+-,GSM1178388,MDA-MB-231T_Passage 10 xenograft_R3,"MDA-MB-231T, passage 10 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P10
+-,GSM1178389,MDA-MB-231T_Passage 10 xenograft_R4,"MDA-MB-231T, passage 10 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P10
+-,GSM1178390,MDA-MB-231T_Passage 10 xenograft_R5,"MDA-MB-231T, passage 10 xenograft",MDA-MB-231T,"adenocarcinoma, breast grown from mouse mammary fat pad",P10
+-,GSM1178391,MDA-MB-435_originating cell line_R1,"MDA-MB-435, originating cell line",MDA-MB-435,melanoma,P0
+-,GSM1178392,MDA-MB-435_originating cell line_R2,"MDA-MB-435, originating cell line",MDA-MB-435,melanoma,P0
+-,GSM1178393,MDA-MB-435_Passage 1 xenograft_R1,"MDA-MB-435, passage 1 xenograft",MDA-MB-435,melanoma,P01
+-,GSM1178394,MDA-MB-435_Passage 1 xenograft_R2,"MDA-MB-435, passage 1 xenograft",MDA-MB-435,melanoma,P01
+-,GSM1178395,MDA-MB-435_Passage 1 xenograft_R3,"MDA-MB-435, passage 1 xenograft",MDA-MB-435,melanoma,P01
+-,GSM1178396,MDA-MB-435_Passage 1 xenograft_R4,"MDA-MB-435, passage 1 xenograft",MDA-MB-435,melanoma,P01
+-,GSM1178397,MDA-MB-435_Passage 1 xenograft_R5,"MDA-MB-435, passage 1 xenograft",MDA-MB-435,melanoma,P01
+-,GSM1178398,MDA-MB-435_Passage 4 xenograft_R1,"MDA-MB-435, passage 4 xenograft",MDA-MB-435,melanoma,P04
+-,GSM1178399,MDA-MB-435_Passage 4 xenograft_R2,"MDA-MB-435, passage 4 xenograft",MDA-MB-435,melanoma,P04
+-,GSM1178400,MDA-MB-435_Passage 4 xenograft_R3,"MDA-MB-435, passage 4 xenograft",MDA-MB-435,melanoma,P04
+-,GSM1178401,MDA-MB-435_Passage 4 xenograft_R4,"MDA-MB-435, passage 4 xenograft",MDA-MB-435,melanoma,P04
+-,GSM1178402,MDA-MB-435_Passage 4 xenograft_R5,"MDA-MB-435, passage 4 xenograft",MDA-MB-435,melanoma,P04
+-,GSM1178403,MDA-MB-435_Passage 10 xenograft_R1,"MDA-MB-435, passage 10 xenograft",MDA-MB-435,melanoma,P10
+-,GSM1178404,MDA-MB-435_Passage 10 xenograft_R2,"MDA-MB-435, passage 10 xenograft",MDA-MB-435,melanoma,P10
+-,GSM1178405,MDA-MB-435_Passage 10 xenograft_R3,"MDA-MB-435, passage 10 xenograft",MDA-MB-435,melanoma,P10
+-,GSM1178406,MDA-N_originating cell line_R1,"MDA-N, originating cell line",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P0
+-,GSM1178407,MDA-N_originating cell line_R2,"MDA-N, originating cell line",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P0
+-,GSM1178408,MDA-N_Passage 1 xenograft_R1,"MDA-N, passage 1 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P01
+-,GSM1178409,MDA-N_Passage 1 xenograft_R2,"MDA-N, passage 1 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P01
+-,GSM1178410,MDA-N_Passage 1 xenograft_R3,"MDA-N, passage 1 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P01
+-,GSM1178411,MDA-N_Passage 1 xenograft_R4,"MDA-N, passage 1 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P01
+-,GSM1178412,MDA-N_Passage 1 xenograft_R5,"MDA-N, passage 1 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P01
+-,GSM1178413,MDA-N_Passage 4 xenograft_R1,"MDA-N, passage 4 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P04
+-,GSM1178414,MDA-N_Passage 4 xenograft_R2,"MDA-N, passage 4 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P04
+-,GSM1178415,MDA-N_Passage 4 xenograft_R3,"MDA-N, passage 4 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P04
+-,GSM1178416,MDA-N_Passage 4 xenograft_R4,"MDA-N, passage 4 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P04
+-,GSM1178417,MDA-N_Passage 4 xenograft_R5,"MDA-N, passage 4 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P04
+-,GSM1178418,MDA-N_Passage 10 xenograft_R1,"MDA-N, passage 10 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P10
+-,GSM1178419,MDA-N_Passage 10 xenograft_R2,"MDA-N, passage 10 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P10
+-,GSM1178420,MDA-N_Passage 10 xenograft_R3,"MDA-N, passage 10 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P10
+-,GSM1178421,MDA-N_Passage 10 xenograft_R4,"MDA-N, passage 10 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P10
+-,GSM1178422,MDA-N_Passage 10 xenograft_R5,"MDA-N, passage 10 xenograft",MDA-N,adenocarcinoma HER2/ERBB2 transfectant of MDA-MB-435 melanoma,P10
+-,GSM1178423,MOLT-4_originating cell line_R1,"MOLT-4, originating cell line",MOLT-4,acute lymphoblastic leukemia,P0
+-,GSM1178424,MOLT-4_originating cell line_R2,"MOLT-4, originating cell line",MOLT-4,acute lymphoblastic leukemia,P0
+-,GSM1178425,MOLT-4_originating cell line_R3,"MOLT-4, originating cell line",MOLT-4,acute lymphoblastic leukemia,P0
+-,GSM1178426,MOLT-4_Passage 1 xenograft_R1,"MOLT-4, passage 1 xenograft",MOLT-4,acute lymphoblastic leukemia,P01
+-,GSM1178427,MOLT-4_Passage 1 xenograft_R2,"MOLT-4, passage 1 xenograft",MOLT-4,acute lymphoblastic leukemia,P01
+-,GSM1178428,MOLT-4_Passage 1 xenograft_R3,"MOLT-4, passage 1 xenograft",MOLT-4,acute lymphoblastic leukemia,P01
+-,GSM1178429,MOLT-4_Passage 1 xenograft_R4,"MOLT-4, passage 1 xenograft",MOLT-4,acute lymphoblastic leukemia,P01
+-,GSM1178430,MOLT-4_Passage 1 xenograft_R5,"MOLT-4, passage 1 xenograft",MOLT-4,acute lymphoblastic leukemia,P01
+-,GSM1178431,MOLT-4_Passage 4 xenograft_R1,"MOLT-4, passage 4 xenograft",MOLT-4,acute lymphoblastic leukemia,P04
+-,GSM1178432,MOLT-4_Passage 4 xenograft_R2,"MOLT-4, passage 4 xenograft",MOLT-4,acute lymphoblastic leukemia,P04
+-,GSM1178433,MOLT-4_Passage 4 xenograft_R3,"MOLT-4, passage 4 xenograft",MOLT-4,acute lymphoblastic leukemia,P04
+-,GSM1178434,MOLT-4_Passage 4 xenograft_R4,"MOLT-4, passage 4 xenograft",MOLT-4,acute lymphoblastic leukemia,P04
+-,GSM1178435,MOLT-4_Passage 4 xenograft_R5,"MOLT-4, passage 4 xenograft",MOLT-4,acute lymphoblastic leukemia,P04
+-,GSM1178436,MOLT-4_Passage 10 xenograft_R1,"MOLT-4, passage 10 xenograft",MOLT-4,acute lymphoblastic leukemia,P10
+-,GSM1178437,MOLT-4_Passage 10 xenograft_R2,"MOLT-4, passage 10 xenograft",MOLT-4,acute lymphoblastic leukemia,P10
+-,GSM1178438,MOLT-4_Passage 10 xenograft_R3,"MOLT-4, passage 10 xenograft",MOLT-4,acute lymphoblastic leukemia,P10
+-,GSM1178439,MOLT-4_Passage 10 xenograft_R4,"MOLT-4, passage 10 xenograft",MOLT-4,acute lymphoblastic leukemia,P10
+-,GSM1178440,MOLT-4_Passage 10 xenograft_R5,"MOLT-4, passage 10 xenograft",MOLT-4,acute lymphoblastic leukemia,P10
+-,GSM1178441,NCI-H226_originating cell line_R1,"NCI-H226, originating cell line",NCI-H226,squamous carcinoma lung,P0
+-,GSM1178442,NCI-H226_originating cell line_R2,"NCI-H226, originating cell line",NCI-H226,squamous carcinoma lung,P0
+-,GSM1178443,NCI-H226_originating cell line_R3,"NCI-H226, originating cell line",NCI-H226,squamous carcinoma lung,P0
+-,GSM1178444,NCI-H226_Passage 1 xenograft_R1,"NCI-H226, passage 1 xenograft",NCI-H226,squamous carcinoma lung,P01
+-,GSM1178445,NCI-H226_Passage 1 xenograft_R2,"NCI-H226, passage 1 xenograft",NCI-H226,squamous carcinoma lung,P01
+-,GSM1178446,NCI-H226_Passage 4 xenograft_R1,"NCI-H226, passage 4 xenograft",NCI-H226,squamous carcinoma lung,P04
+-,GSM1178447,NCI-H226_Passage 4 xenograft_R2,"NCI-H226, passage 4 xenograft",NCI-H226,squamous carcinoma lung,P04
+-,GSM1178448,NCI-H226_Passage 4 xenograft_R3,"NCI-H226, passage 4 xenograft",NCI-H226,squamous carcinoma lung,P04
+-,GSM1178449,NCI-H226_Passage 4 xenograft_R4,"NCI-H226, passage 4 xenograft",NCI-H226,squamous carcinoma lung,P04
+-,GSM1178450,NCI-H226_Passage 4 xenograft_R5,"NCI-H226, passage 4 xenograft",NCI-H226,squamous carcinoma lung,P04
+-,GSM1178451,NCI-H226_Passage 10 xenograft_R1,"NCI-H226, passage 10 xenograft",NCI-H226,squamous carcinoma lung,P10
+-,GSM1178452,NCI-H226_Passage 10 xenograft_R2,"NCI-H226, passage 10 xenograft",NCI-H226,squamous carcinoma lung,P10
+-,GSM1178453,NCI-H226_Passage 10 xenograft_R3,"NCI-H226, passage 10 xenograft",NCI-H226,squamous carcinoma lung,P10
+-,GSM1178454,NCI-H226_Passage 10 xenograft_R4,"NCI-H226, passage 10 xenograft",NCI-H226,squamous carcinoma lung,P10
+-,GSM1178455,NCI-H226_Passage 10 xenograft_R5,"NCI-H226, passage 10 xenograft",NCI-H226,squamous carcinoma lung,P10
+-,GSM1178456,NCI-H23_originating cell line_R1,"NCI-H23, originating cell line",NCI-H23,adenocarcinoma NSCLC lung,P0
+-,GSM1178457,NCI-H23_originating cell line_R2,"NCI-H23, originating cell line",NCI-H23,adenocarcinoma NSCLC lung,P0
+-,GSM1178458,NCI-H23_Passage 1 xenograft_R1,"NCI-H23, passage 1 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P01
+-,GSM1178459,NCI-H23_Passage 1 xenograft_R2,"NCI-H23, passage 1 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P01
+-,GSM1178460,NCI-H23_Passage 1 xenograft_R3,"NCI-H23, passage 1 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P01
+-,GSM1178461,NCI-H23_Passage 1 xenograft_R4,"NCI-H23, passage 1 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P01
+-,GSM1178462,NCI-H23_Passage 1 xenograft_R5,"NCI-H23, passage 1 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P01
+-,GSM1178463,NCI-H23_Passage 4 xenograft_R1,"NCI-H23, passage 4 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P04
+-,GSM1178464,NCI-H23_Passage 4 xenograft_R2,"NCI-H23, passage 4 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P04
+-,GSM1178465,NCI-H23_Passage 4 xenograft_R3,"NCI-H23, passage 4 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P04
+-,GSM1178466,NCI-H23_Passage 4 xenograft_R4,"NCI-H23, passage 4 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P04
+-,GSM1178467,NCI-H23_Passage 4 xenograft_R5,"NCI-H23, passage 4 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P04
+-,GSM1178468,NCI-H23_Passage 10 xenograft_R1,"NCI-H23, passage 10 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P10
+-,GSM1178469,NCI-H23_Passage 10 xenograft_R2,"NCI-H23, passage 10 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P10
+-,GSM1178470,NCI-H23_Passage 10 xenograft_R3,"NCI-H23, passage 10 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P10
+-,GSM1178471,NCI-H23_Passage 10 xenograft_R4,"NCI-H23, passage 10 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P10
+-,GSM1178472,NCI-H23_Passage 10 xenograft_R5,"NCI-H23, passage 10 xenograft",NCI-H23,adenocarcinoma NSCLC lung,P10
+-,GSM1178473,NCI-H460_originating cell line_R1,"NCI-H460, originating cell line",NCI-H460,large cell carcinoma lung,P0
+-,GSM1178474,NCI-H460_originating cell line_R2,"NCI-H460, originating cell line",NCI-H460,large cell carcinoma lung,P0
+-,GSM1178475,NCI-H460_originating cell line_R3,"NCI-H460, originating cell line",NCI-H460,large cell carcinoma lung,P0
+-,GSM1178476,NCI-H460_Passage 1 xenograft_R1,"NCI-H460, passage 1 xenograft",NCI-H460,large cell carcinoma lung,P01
+-,GSM1178477,NCI-H460_Passage 1 xenograft_R2,"NCI-H460, passage 1 xenograft",NCI-H460,large cell carcinoma lung,P01
+-,GSM1178478,NCI-H460_Passage 1 xenograft_R3,"NCI-H460, passage 1 xenograft",NCI-H460,large cell carcinoma lung,P01
+-,GSM1178479,NCI-H460_Passage 1 xenograft_R4,"NCI-H460, passage 1 xenograft",NCI-H460,large cell carcinoma lung,P01
+-,GSM1178480,NCI-H460_Passage 1 xenograft_R5,"NCI-H460, passage 1 xenograft",NCI-H460,large cell carcinoma lung,P01
+-,GSM1178481,NCI-H460_Passage 4 xenograft_R1,"NCI-H460, passage 4 xenograft",NCI-H460,large cell carcinoma lung,P04
+-,GSM1178482,NCI-H460_Passage 4 xenograft_R2,"NCI-H460, passage 4 xenograft",NCI-H460,large cell carcinoma lung,P04
+-,GSM1178483,NCI-H460_Passage 4 xenograft_R3,"NCI-H460, passage 4 xenograft",NCI-H460,large cell carcinoma lung,P04
+-,GSM1178484,NCI-H460_Passage 4 xenograft_R4,"NCI-H460, passage 4 xenograft",NCI-H460,large cell carcinoma lung,P04
+-,GSM1178485,NCI-H460_Passage 4 xenograft_R5,"NCI-H460, passage 4 xenograft",NCI-H460,large cell carcinoma lung,P04
+-,GSM1178486,NCI-H460_Passage 10 xenograft_R1,"NCI-H460, passage 10 xenograft",NCI-H460,large cell carcinoma lung,P10
+-,GSM1178487,NCI-H460_Passage 10 xenograft_R2,"NCI-H460, passage 10 xenograft",NCI-H460,large cell carcinoma lung,P10
+-,GSM1178488,NCI-H460_Passage 10 xenograft_R3,"NCI-H460, passage 10 xenograft",NCI-H460,large cell carcinoma lung,P10
+-,GSM1178489,NCI-H460_Passage 10 xenograft_R4,"NCI-H460, passage 10 xenograft",NCI-H460,large cell carcinoma lung,P10
+-,GSM1178490,NCI-H460_Passage 10 xenograft_R5,"NCI-H460, passage 10 xenograft",NCI-H460,large cell carcinoma lung,P10
+-,GSM1178491,NCI-H522_originating cell line_R1,"NCI-H522, originating cell line",NCI-H522,adenocarcinoma lung,P0
+-,GSM1178492,NCI-H522_originating cell line_R2,"NCI-H522, originating cell line",NCI-H522,adenocarcinoma lung,P0
+-,GSM1178493,NCI-H522_Passage 1 xenograft_R1,"NCI-H522, passage 1 xenograft",NCI-H522,adenocarcinoma lung,P01
+-,GSM1178494,NCI-H522_Passage 1 xenograft_R2,"NCI-H522, passage 1 xenograft",NCI-H522,adenocarcinoma lung,P01
+-,GSM1178495,NCI-H522_Passage 1 xenograft_R3,"NCI-H522, passage 1 xenograft",NCI-H522,adenocarcinoma lung,P01
+-,GSM1178496,NCI-H522_Passage 1 xenograft_R4,"NCI-H522, passage 1 xenograft",NCI-H522,adenocarcinoma lung,P01
+-,GSM1178497,NCI-H522_Passage 1 xenograft_R5,"NCI-H522, passage 1 xenograft",NCI-H522,adenocarcinoma lung,P01
+-,GSM1178498,NCI-H522_Passage 4 xenograft_R1,"NCI-H522, passage 4 xenograft",NCI-H522,adenocarcinoma lung,P04
+-,GSM1178499,NCI-H522_Passage 4 xenograft_R2,"NCI-H522, passage 4 xenograft",NCI-H522,adenocarcinoma lung,P04
+-,GSM1178500,NCI-H522_Passage 4 xenograft_R3,"NCI-H522, passage 4 xenograft",NCI-H522,adenocarcinoma lung,P04
+-,GSM1178501,NCI-H522_Passage 4 xenograft_R4,"NCI-H522, passage 4 xenograft",NCI-H522,adenocarcinoma lung,P04
+-,GSM1178502,NCI-H522_Passage 4 xenograft_R5,"NCI-H522, passage 4 xenograft",NCI-H522,adenocarcinoma lung,P04
+-,GSM1178503,NCI-H522_Passage 10 xenograft_R1,"NCI-H522, passage 10 xenograft",NCI-H522,adenocarcinoma lung,P10
+-,GSM1178504,NCI-H522_Passage 10 xenograft_R2,"NCI-H522, passage 10 xenograft",NCI-H522,adenocarcinoma lung,P10
+-,GSM1178505,NCI-H522_Passage 10 xenograft_R3,"NCI-H522, passage 10 xenograft",NCI-H522,adenocarcinoma lung,P10
+-,GSM1178506,NCI-H522_Passage 10 xenograft_R4,"NCI-H522, passage 10 xenograft",NCI-H522,adenocarcinoma lung,P10
+-,GSM1178507,NCI-H522_Passage 10 xenograft_R5,"NCI-H522, passage 10 xenograft",NCI-H522,adenocarcinoma lung,P10
+-,GSM1178508,OVCAR-3_originating cell line_R1,"OVCAR-3, originating cell line",OVCAR-3,adenocarcinoma ovarian,P0
+-,GSM1178509,OVCAR-3_originating cell line_R2,"OVCAR-3, originating cell line",OVCAR-3,adenocarcinoma ovarian,P0
+-,GSM1178510,OVCAR-3_Passage 1 xenograft_R1,"OVCAR-3, passage 1 xenograft",OVCAR-3,adenocarcinoma ovarian,P01
+-,GSM1178511,OVCAR-3_Passage 1 xenograft_R2,"OVCAR-3, passage 1 xenograft",OVCAR-3,adenocarcinoma ovarian,P01
+-,GSM1178512,OVCAR-3_Passage 1 xenograft_R3,"OVCAR-3, passage 1 xenograft",OVCAR-3,adenocarcinoma ovarian,P01
+-,GSM1178513,OVCAR-3_Passage 1 xenograft_R4,"OVCAR-3, passage 1 xenograft",OVCAR-3,adenocarcinoma ovarian,P01
+-,GSM1178514,OVCAR-3_Passage 1 xenograft_R5,"OVCAR-3, passage 1 xenograft",OVCAR-3,adenocarcinoma ovarian,P01
+-,GSM1178515,OVCAR-3_Passage 4 xenograft_R1,"OVCAR-3, passage 4 xenograft",OVCAR-3,adenocarcinoma ovarian,P04
+-,GSM1178516,OVCAR-3_Passage 4 xenograft_R2,"OVCAR-3, passage 4 xenograft",OVCAR-3,adenocarcinoma ovarian,P04
+-,GSM1178517,OVCAR-3_Passage 4 xenograft_R3,"OVCAR-3, passage 4 xenograft",OVCAR-3,adenocarcinoma ovarian,P04
+-,GSM1178518,OVCAR-3_Passage 4 xenograft_R4,"OVCAR-3, passage 4 xenograft",OVCAR-3,adenocarcinoma ovarian,P04
+-,GSM1178519,OVCAR-3_Passage 4 xenograft_R5,"OVCAR-3, passage 4 xenograft",OVCAR-3,adenocarcinoma ovarian,P04
+-,GSM1178520,OVCAR-3_Passage 10 xenograft_R1,"OVCAR-3, passage 10 xenograft",OVCAR-3,adenocarcinoma ovarian,P10
+-,GSM1178521,OVCAR-3_Passage 10 xenograft_R2,"OVCAR-3, passage 10 xenograft",OVCAR-3,adenocarcinoma ovarian,P10
+-,GSM1178522,OVCAR-3_Passage 10 xenograft_R3,"OVCAR-3, passage 10 xenograft",OVCAR-3,adenocarcinoma ovarian,P10
+-,GSM1178523,OVCAR-3_Passage 10 xenograft_R4,"OVCAR-3, passage 10 xenograft",OVCAR-3,adenocarcinoma ovarian,P10
+-,GSM1178524,OVCAR-3_Passage 10 xenograft_R5,"OVCAR-3, passage 10 xenograft",OVCAR-3,adenocarcinoma ovarian,P10
+-,GSM1178525,OVCAR-5_originating cell line_R1,"OVCAR-5, originating cell line",OVCAR-5,adenocarcinoma ovarian,P0
+-,GSM1178526,OVCAR-5_originating cell line_R2,"OVCAR-5, originating cell line",OVCAR-5,adenocarcinoma ovarian,P0
+-,GSM1178527,OVCAR-5_Passage 1 xenograft_R1,"OVCAR-5, passage 1 xenograft",OVCAR-5,adenocarcinoma ovarian,P01
+-,GSM1178528,OVCAR-5_Passage 1 xenograft_R2,"OVCAR-5, passage 1 xenograft",OVCAR-5,adenocarcinoma ovarian,P01
+-,GSM1178529,OVCAR-5_Passage 1 xenograft_R3,"OVCAR-5, passage 1 xenograft",OVCAR-5,adenocarcinoma ovarian,P01
+-,GSM1178530,OVCAR-5_Passage 1 xenograft_R4,"OVCAR-5, passage 1 xenograft",OVCAR-5,adenocarcinoma ovarian,P01
+-,GSM1178531,OVCAR-5_Passage 1 xenograft_R5,"OVCAR-5, passage 1 xenograft",OVCAR-5,adenocarcinoma ovarian,P01
+-,GSM1178532,OVCAR-5_Passage 4 xenograft_R1,"OVCAR-5, passage 4 xenograft",OVCAR-5,adenocarcinoma ovarian,P04
+-,GSM1178533,OVCAR-5_Passage 4 xenograft_R2,"OVCAR-5, passage 4 xenograft",OVCAR-5,adenocarcinoma ovarian,P04
+-,GSM1178534,OVCAR-5_Passage 4 xenograft_R3,"OVCAR-5, passage 4 xenograft",OVCAR-5,adenocarcinoma ovarian,P04
+-,GSM1178535,OVCAR-5_Passage 4 xenograft_R4,"OVCAR-5, passage 4 xenograft",OVCAR-5,adenocarcinoma ovarian,P04
+-,GSM1178536,OVCAR-5_Passage 4 xenograft_R5,"OVCAR-5, passage 4 xenograft",OVCAR-5,adenocarcinoma ovarian,P04
+-,GSM1178537,OVCAR-5_Passage 10 xenograft_R1,"OVCAR-5, passage 10 xenograft",OVCAR-5,adenocarcinoma ovarian,P10
+-,GSM1178538,OVCAR-5_Passage 10 xenograft_R2,"OVCAR-5, passage 10 xenograft",OVCAR-5,adenocarcinoma ovarian,P10
+-,GSM1178539,OVCAR-5_Passage 10 xenograft_R3,"OVCAR-5, passage 10 xenograft",OVCAR-5,adenocarcinoma ovarian,P10
+-,GSM1178540,OVCAR-5_Passage 10 xenograft_R4,"OVCAR-5, passage 10 xenograft",OVCAR-5,adenocarcinoma ovarian,P10
+-,GSM1178541,OVCAR-5_Passage 10 xenograft_R5,"OVCAR-5, passage 10 xenograft",OVCAR-5,adenocarcinoma ovarian,P10
+-,GSM1178542,PC-3_originating cell line_R1,"PC-3, originating cell line",PC-3,adenocarcinoma prostate,P0
+-,GSM1178543,PC-3_originating cell line_R2,"PC-3, originating cell line",PC-3,adenocarcinoma prostate,P0
+-,GSM1178544,PC-3_Passage 1 xenograft_R1,"PC-3, passage 1 xenograft",PC-3,adenocarcinoma prostate,P01
+-,GSM1178545,PC-3_Passage 1 xenograft_R2,"PC-3, passage 1 xenograft",PC-3,adenocarcinoma prostate,P01
+-,GSM1178546,PC-3_Passage 1 xenograft_R3,"PC-3, passage 1 xenograft",PC-3,adenocarcinoma prostate,P01
+-,GSM1178547,PC-3_Passage 1 xenograft_R4,"PC-3, passage 1 xenograft",PC-3,adenocarcinoma prostate,P01
+-,GSM1178548,PC-3_Passage 1 xenograft_R5,"PC-3, passage 1 xenograft",PC-3,adenocarcinoma prostate,P01
+-,GSM1178549,PC-3_Passage 4 xenograft_R1,"PC-3, passage 4 xenograft",PC-3,adenocarcinoma prostate,P04
+-,GSM1178550,PC-3_Passage 4 xenograft_R2,"PC-3, passage 4 xenograft",PC-3,adenocarcinoma prostate,P04
+-,GSM1178551,PC-3_Passage 4 xenograft_R3,"PC-3, passage 4 xenograft",PC-3,adenocarcinoma prostate,P04
+-,GSM1178552,PC-3_Passage 4 xenograft_R4,"PC-3, passage 4 xenograft",PC-3,adenocarcinoma prostate,P04
+-,GSM1178553,PC-3_Passage 4 xenograft_R5,"PC-3, passage 4 xenograft",PC-3,adenocarcinoma prostate,P04
+-,GSM1178554,PC-3_Passage 10 xenograft_R1,"PC-3, passage 10 xenograft",PC-3,adenocarcinoma prostate,P10
+-,GSM1178555,PC-3_Passage 10 xenograft_R2,"PC-3, passage 10 xenograft",PC-3,adenocarcinoma prostate,P10
+-,GSM1178556,PC-3_Passage 10 xenograft_R3,"PC-3, passage 10 xenograft",PC-3,adenocarcinoma prostate,P10
+-,GSM1178557,PC-3_Passage 10 xenograft_R4,"PC-3, passage 10 xenograft",PC-3,adenocarcinoma prostate,P10
+-,GSM1178558,PC-3_Passage 10 xenograft_R5,"PC-3, passage 10 xenograft",PC-3,adenocarcinoma prostate,P10
+-,GSM1178559,PC-3/M_originating cell line_R1,"PC-3/M, originating cell line",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P0
+-,GSM1178560,PC-3/M_originating cell line_R2,"PC-3/M, originating cell line",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P0
+-,GSM1178561,PC-3/M_originating cell line_R3,"PC-3/M, originating cell line",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P0
+-,GSM1178562,PC-3/M_Passage 1 xenograft_R1,"PC-3/M, passage 1 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P01
+-,GSM1178563,PC-3/M_Passage 1 xenograft_R2,"PC-3/M, passage 1 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P01
+-,GSM1178564,PC-3/M_Passage 1 xenograft_R3,"PC-3/M, passage 1 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P01
+-,GSM1178565,PC-3/M_Passage 1 xenograft_R4,"PC-3/M, passage 1 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P01
+-,GSM1178566,PC-3/M_Passage 1 xenograft_R5,"PC-3/M, passage 1 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P01
+-,GSM1178567,PC-3/M_Passage 4 xenograft_R1,"PC-3/M, passage 4 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P04
+-,GSM1178568,PC-3/M_Passage 4 xenograft_R2,"PC-3/M, passage 4 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P04
+-,GSM1178569,PC-3/M_Passage 4 xenograft_R3,"PC-3/M, passage 4 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P04
+-,GSM1178570,PC-3/M_Passage 4 xenograft_R4,"PC-3/M, passage 4 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P04
+-,GSM1178571,PC-3/M_Passage 4 xenograft_R5,"PC-3/M, passage 4 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P04
+-,GSM1178572,PC-3/M_Passage 10 xenograft_R1,"PC-3/M, passage 10 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P10
+-,GSM1178573,PC-3/M_Passage 10 xenograft_R2,"PC-3/M, passage 10 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P10
+-,GSM1178574,PC-3/M_Passage 10 xenograft_R3,"PC-3/M, passage 10 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P10
+-,GSM1178575,PC-3/M_Passage 10 xenograft_R4,"PC-3/M, passage 10 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P10
+-,GSM1178576,PC-3/M_Passage 10 xenograft_R5,"PC-3/M, passage 10 xenograft",PC-3/M,adenocarcinoma prostate PC-3 subline isolated from liver metastasis in mice,P10
+-,GSM1178577,RXF 393_originating cell line_R1,"RXF 393, originating cell line",RXF 393,poorly differentiated hypernephroma,P0
+-,GSM1178578,RXF 393_originating cell line_R2,"RXF 393, originating cell line",RXF 393,poorly differentiated hypernephroma,P0
+-,GSM1178579,RXF 393_originating cell line_R3,"RXF 393, originating cell line",RXF 393,poorly differentiated hypernephroma,P0
+-,GSM1178580,RXF 393_Passage 1 xenograft_R1,"RXF 393, passage 1 xenograft",RXF 393,poorly differentiated hypernephroma,P01
+-,GSM1178581,RXF 393_Passage 1 xenograft_R2,"RXF 393, passage 1 xenograft",RXF 393,poorly differentiated hypernephroma,P01
+-,GSM1178582,RXF 393_Passage 1 xenograft_R3,"RXF 393, passage 1 xenograft",RXF 393,poorly differentiated hypernephroma,P01
+-,GSM1178583,RXF 393_Passage 1 xenograft_R4,"RXF 393, passage 1 xenograft",RXF 393,poorly differentiated hypernephroma,P01
+-,GSM1178584,RXF 393_Passage 1 xenograft_R5,"RXF 393, passage 1 xenograft",RXF 393,poorly differentiated hypernephroma,P01
+-,GSM1178585,RXF 393_Passage 4 xenograft_R1,"RXF 393, passage 4 xenograft",RXF 393,poorly differentiated hypernephroma,P04
+-,GSM1178586,RXF 393_Passage 4 xenograft_R2,"RXF 393, passage 4 xenograft",RXF 393,poorly differentiated hypernephroma,P04
+-,GSM1178587,RXF 393_Passage 4 xenograft_R3,"RXF 393, passage 4 xenograft",RXF 393,poorly differentiated hypernephroma,P04
+-,GSM1178588,RXF 393_Passage 4 xenograft_R4,"RXF 393, passage 4 xenograft",RXF 393,poorly differentiated hypernephroma,P04
+-,GSM1178589,RXF 393_Passage 4 xenograft_R5,"RXF 393, passage 4 xenograft",RXF 393,poorly differentiated hypernephroma,P04
+-,GSM1178590,RXF 393_Passage 10 xenograft_R1,"RXF 393, passage 10 xenograft",RXF 393,poorly differentiated hypernephroma,P10
+-,GSM1178591,RXF 393_Passage 10 xenograft_R2,"RXF 393, passage 10 xenograft",RXF 393,poorly differentiated hypernephroma,P10
+-,GSM1178592,RXF 393_Passage 10 xenograft_R3,"RXF 393, passage 10 xenograft",RXF 393,poorly differentiated hypernephroma,P10
+-,GSM1178593,RXF 393_Passage 10 xenograft_R4,"RXF 393, passage 10 xenograft",RXF 393,poorly differentiated hypernephroma,P10
+-,GSM1178594,RXF 393_Passage 10 xenograft_R5,"RXF 393, passage 10 xenograft",RXF 393,poorly differentiated hypernephroma,P10
+-,GSM1178595,SF-268_originating cell line_R1,"SF-268, originating cell line",SF-268,anaplastic astrocytoma,P0
+-,GSM1178596,SF-268_originating cell line_R2,"SF-268, originating cell line",SF-268,anaplastic astrocytoma,P0
+-,GSM1178597,SF-268_Passage 1 xenograft_R1,"SF-268, passage 1 xenograft",SF-268,anaplastic astrocytoma,P01
+-,GSM1178598,SF-268_Passage 1 xenograft_R2,"SF-268, passage 1 xenograft",SF-268,anaplastic astrocytoma,P01
+-,GSM1178599,SF-268_Passage 1 xenograft_R3,"SF-268, passage 1 xenograft",SF-268,anaplastic astrocytoma,P01
+-,GSM1178600,SF-268_Passage 1 xenograft_R4,"SF-268, passage 1 xenograft",SF-268,anaplastic astrocytoma,P01
+-,GSM1178601,SF-268_Passage 1 xenograft_R5,"SF-268, passage 1 xenograft",SF-268,anaplastic astrocytoma,P01
+-,GSM1178602,SF-539_originating cell line_R1,"SF-539, originating cell line",SF-539,glioblastoma,P0
+-,GSM1178603,SF-539_originating cell line_R2,"SF-539, originating cell line",SF-539,glioblastoma,P0
+-,GSM1178604,SF-539_Passage 1 xenograft_R1,"SF-539, passage 1 xenograft",SF-539,glioblastoma,P01
+-,GSM1178605,SF-539_Passage 1 xenograft_R2,"SF-539, passage 1 xenograft",SF-539,glioblastoma,P01
+-,GSM1178606,SF-539_Passage 1 xenograft_R3,"SF-539, passage 1 xenograft",SF-539,glioblastoma,P01
+-,GSM1178607,SF-539_Passage 1 xenograft_R4,"SF-539, passage 1 xenograft",SF-539,glioblastoma,P01
+-,GSM1178608,SF-539_Passage 1 xenograft_R5,"SF-539, passage 1 xenograft",SF-539,glioblastoma,P01
+-,GSM1178609,SN12C_originating cell line_R1,"SN12C, originating cell line",SN12C,carcinoma renal,P0
+-,GSM1178610,SN12C_originating cell line_R2,"SN12C, originating cell line",SN12C,carcinoma renal,P0
+-,GSM1178611,SN12C_Passage 1 xenograft_R1,"SN12C, passage 1 xenograft",SN12C,carcinoma renal,P01
+-,GSM1178612,SN12C_Passage 1 xenograft_R2,"SN12C, passage 1 xenograft",SN12C,carcinoma renal,P01
+-,GSM1178613,SN12C_Passage 1 xenograft_R3,"SN12C, passage 1 xenograft",SN12C,carcinoma renal,P01
+-,GSM1178614,SN12C_Passage 1 xenograft_R4,"SN12C, passage 1 xenograft",SN12C,carcinoma renal,P01
+-,GSM1178615,SN12C_Passage 1 xenograft_R5,"SN12C, passage 1 xenograft",SN12C,carcinoma renal,P01
+-,GSM1178616,SN12C_Passage 4 xenograft_R1,"SN12C, passage 4 xenograft",SN12C,carcinoma renal,P04
+-,GSM1178617,SN12C_Passage 4 xenograft_R2,"SN12C, passage 4 xenograft",SN12C,carcinoma renal,P04
+-,GSM1178618,SN12C_Passage 4 xenograft_R3,"SN12C, passage 4 xenograft",SN12C,carcinoma renal,P04
+-,GSM1178619,SN12C_Passage 4 xenograft_R4,"SN12C, passage 4 xenograft",SN12C,carcinoma renal,P04
+-,GSM1178620,SN12C_Passage 4 xenograft_R5,"SN12C, passage 4 xenograft",SN12C,carcinoma renal,P04
+-,GSM1178621,SN12C_Passage 10 xenograft_R1,"SN12C, passage 10 xenograft",SN12C,carcinoma renal,P10
+-,GSM1178622,SN12C_Passage 10 xenograft_R2,"SN12C, passage 10 xenograft",SN12C,carcinoma renal,P10
+-,GSM1178623,SN12C_Passage 10 xenograft_R3,"SN12C, passage 10 xenograft",SN12C,carcinoma renal,P10
+-,GSM1178624,SN12C_Passage 10 xenograft_R4,"SN12C, passage 10 xenograft",SN12C,carcinoma renal,P10
+-,GSM1178625,SN12C_Passage 10 xenograft_R5,"SN12C, passage 10 xenograft",SN12C,carcinoma renal,P10
+-,GSM1178626,SR_originating cell line_R1,"SR, originating cell line",SR,poorly differentiated B cell origin leukemia,P0
+-,GSM1178627,SR_originating cell line_R2,"SR, originating cell line",SR,poorly differentiated B cell origin leukemia,P0
+-,GSM1178628,SR_originating cell line_R3,"SR, originating cell line",SR,poorly differentiated B cell origin leukemia,P0
+-,GSM1178629,SR_Passage 1 xenograft_R1,"SR, passage 1 xenograft",SR,poorly differentiated B cell origin leukemia,P01
+-,GSM1178630,SR_Passage 1 xenograft_R2,"SR, passage 1 xenograft",SR,poorly differentiated B cell origin leukemia,P01
+-,GSM1178631,SR_Passage 1 xenograft_R3,"SR, passage 1 xenograft",SR,poorly differentiated B cell origin leukemia,P01
+-,GSM1178632,SR_Passage 1 xenograft_R4,"SR, passage 1 xenograft",SR,poorly differentiated B cell origin leukemia,P01
+-,GSM1178633,SR_Passage 1 xenograft_R5,"SR, passage 1 xenograft",SR,poorly differentiated B cell origin leukemia,P01
+-,GSM1178634,SR_Passage 4 xenograft_R1,"SR, passage 4 xenograft",SR,poorly differentiated B cell origin leukemia,P04
+-,GSM1178635,SR_Passage 4 xenograft_R2,"SR, passage 4 xenograft",SR,poorly differentiated B cell origin leukemia,P04
+-,GSM1178636,SR_Passage 4 xenograft_R3,"SR, passage 4 xenograft",SR,poorly differentiated B cell origin leukemia,P04
+-,GSM1178637,SR_Passage 4 xenograft_R4,"SR, passage 4 xenograft",SR,poorly differentiated B cell origin leukemia,P04
+-,GSM1178638,SR_Passage 4 xenograft_R5,"SR, passage 4 xenograft",SR,poorly differentiated B cell origin leukemia,P04
+-,GSM1178639,SR_Passage 10 xenograft_R1,"SR, passage 10 xenograft",SR,poorly differentiated B cell origin leukemia,P10
+-,GSM1178640,SR_Passage 10 xenograft_R2,"SR, passage 10 xenograft",SR,poorly differentiated B cell origin leukemia,P10
+-,GSM1178641,SR_Passage 10 xenograft_R3,"SR, passage 10 xenograft",SR,poorly differentiated B cell origin leukemia,P10
+-,GSM1178642,SR_Passage 10 xenograft_R4,"SR, passage 10 xenograft",SR,poorly differentiated B cell origin leukemia,P10
+-,GSM1178643,SR_Passage 10 xenograft_R5,"SR, passage 10 xenograft",SR,poorly differentiated B cell origin leukemia,P10
+-,GSM1178644,SW-620_originating cell line_R1,"SW-620, originating cell line",SW-620,adenocarcinoma colon,P0
+-,GSM1178645,SW-620_originating cell line_R2,"SW-620, originating cell line",SW-620,adenocarcinoma colon,P0
+-,GSM1178646,SW-620_originating cell line_R3,"SW-620, originating cell line",SW-620,adenocarcinoma colon,P0
+-,GSM1178647,SW-620_Passage 1 xenograft_R1,"SW-620, passage 1 xenograft",SW-620,adenocarcinoma colon,P01
+-,GSM1178648,SW-620_Passage 1 xenograft_R2,"SW-620, passage 1 xenograft",SW-620,adenocarcinoma colon,P01
+-,GSM1178649,SW-620_Passage 1 xenograft_R3,"SW-620, passage 1 xenograft",SW-620,adenocarcinoma colon,P01
+-,GSM1178650,SW-620_Passage 1 xenograft_R4,"SW-620, passage 1 xenograft",SW-620,adenocarcinoma colon,P01
+-,GSM1178651,SW-620_Passage 1 xenograft_R5,"SW-620, passage 1 xenograft",SW-620,adenocarcinoma colon,P01
+-,GSM1178652,SW-620_Passage 4 xenograft_R1,"SW-620, passage 4 xenograft",SW-620,adenocarcinoma colon,P04
+-,GSM1178653,SW-620_Passage 4 xenograft_R2,"SW-620, passage 4 xenograft",SW-620,adenocarcinoma colon,P04
+-,GSM1178654,SW-620_Passage 4 xenograft_R3,"SW-620, passage 4 xenograft",SW-620,adenocarcinoma colon,P04
+-,GSM1178655,SW-620_Passage 4 xenograft_R4,"SW-620, passage 4 xenograft",SW-620,adenocarcinoma colon,P04
+-,GSM1178656,SW-620_Passage 4 xenograft_R5,"SW-620, passage 4 xenograft",SW-620,adenocarcinoma colon,P04
+-,GSM1178657,SW-620_Passage 10 xenograft_R1,"SW-620, passage 10 xenograft",SW-620,adenocarcinoma colon,P10
+-,GSM1178658,SW-620_Passage 10 xenograft_R2,"SW-620, passage 10 xenograft",SW-620,adenocarcinoma colon,P10
+-,GSM1178659,SW-620_Passage 10 xenograft_R3,"SW-620, passage 10 xenograft",SW-620,adenocarcinoma colon,P10
+-,GSM1178660,SW-620_Passage 10 xenograft_R4,"SW-620, passage 10 xenograft",SW-620,adenocarcinoma colon,P10
+-,GSM1178661,SW-620_Passage 10 xenograft_R5,"SW-620, passage 10 xenograft",SW-620,adenocarcinoma colon,P10
+-,GSM1178662,U251_originating cell line_R1,"U251, originating cell line",U251,glioblastoma,P0
+-,GSM1178663,U251_originating cell line_R2,"U251, originating cell line",U251,glioblastoma,P0
+-,GSM1178664,U251_Passage 1 xenograft_R1,"U251, passage 1 xenograft",U251,glioblastoma,P01
+-,GSM1178665,U251_Passage 1 xenograft_R2,"U251, passage 1 xenograft",U251,glioblastoma,P01
+-,GSM1178666,U251_Passage 1 xenograft_R3,"U251, passage 1 xenograft",U251,glioblastoma,P01
+-,GSM1178667,U251_Passage 1 xenograft_R4,"U251, passage 1 xenograft",U251,glioblastoma,P01
+-,GSM1178668,U251_Passage 1 xenograft_R5,"U251, passage 1 xenograft",U251,glioblastoma,P01
+-,GSM1178669,U251_Passage 4 xenograft_R1,"U251, passage 4 xenograft",U251,glioblastoma,P04
+-,GSM1178670,U251_Passage 4 xenograft_R2,"U251, passage 4 xenograft",U251,glioblastoma,P04
+-,GSM1178671,U251_Passage 4 xenograft_R3,"U251, passage 4 xenograft",U251,glioblastoma,P04
+-,GSM1178672,U251_Passage 4 xenograft_R4,"U251, passage 4 xenograft",U251,glioblastoma,P04
+-,GSM1178673,U251_Passage 4 xenograft_R5,"U251, passage 4 xenograft",U251,glioblastoma,P04
+-,GSM1178674,U251_Passage 10 xenograft_R1,"U251, passage 10 xenograft",U251,glioblastoma,P10
+-,GSM1178675,U251_Passage 10 xenograft_R2,"U251, passage 10 xenograft",U251,glioblastoma,P10
+-,GSM1178676,U251_Passage 10 xenograft_R3,"U251, passage 10 xenograft",U251,glioblastoma,P10
+-,GSM1178677,U251_Passage 10 xenograft_R4,"U251, passage 10 xenograft",U251,glioblastoma,P10
+-,GSM1178678,U251_Passage 10 xenograft_R5,"U251, passage 10 xenograft",U251,glioblastoma,P10
+-,GSM1178679,UACC-62_originating cell line_R1,"UACC-62, originating cell line",UACC-62,malignant melanoma,P0
+-,GSM1178680,UACC-62_originating cell line_R2,"UACC-62, originating cell line",UACC-62,malignant melanoma,P0
+-,GSM1178681,UACC-62_originating cell line_R3,"UACC-62, originating cell line",UACC-62,malignant melanoma,P0
+-,GSM1178682,UACC-62_Passage 1 xenograft_R1,"UACC-62, passage 1 xenograft",UACC-62,malignant melanoma,P01
+-,GSM1178683,UACC-62_Passage 1 xenograft_R2,"UACC-62, passage 1 xenograft",UACC-62,malignant melanoma,P01
+-,GSM1178684,UACC-62_Passage 1 xenograft_R3,"UACC-62, passage 1 xenograft",UACC-62,malignant melanoma,P01
+-,GSM1178685,UACC-62_Passage 1 xenograft_R4,"UACC-62, passage 1 xenograft",UACC-62,malignant melanoma,P01
+-,GSM1178686,UACC-62_Passage 1 xenograft_R5,"UACC-62, passage 1 xenograft",UACC-62,malignant melanoma,P01
+-,GSM1178687,UACC-62_Passage 4 xenograft_R1,"UACC-62, passage 4 xenograft",UACC-62,malignant melanoma,P04
+-,GSM1178688,UACC-62_Passage 4 xenograft_R2,"UACC-62, passage 4 xenograft",UACC-62,malignant melanoma,P04
+-,GSM1178689,UACC-62_Passage 4 xenograft_R3,"UACC-62, passage 4 xenograft",UACC-62,malignant melanoma,P04
+-,GSM1178690,UACC-62_Passage 4 xenograft_R4,"UACC-62, passage 4 xenograft",UACC-62,malignant melanoma,P04
+-,GSM1178691,UACC-62_Passage 4 xenograft_R5,"UACC-62, passage 4 xenograft",UACC-62,malignant melanoma,P04
+-,GSM1178692,UACC-62_Passage 10 xenograft_R1,"UACC-62, passage 10 xenograft",UACC-62,malignant melanoma,P10
+-,GSM1178693,UACC-62_Passage 10 xenograft_R2,"UACC-62, passage 10 xenograft",UACC-62,malignant melanoma,P10
+-,GSM1178694,UACC-62_Passage 10 xenograft_R3,"UACC-62, passage 10 xenograft",UACC-62,malignant melanoma,P10
+-,GSM1178695,UACC-62_Passage 10 xenograft_R4,"UACC-62, passage 10 xenograft",UACC-62,malignant melanoma,P10
+-,GSM1178696,UACC-62_Passage 10 xenograft_R5,"UACC-62, passage 10 xenograft",UACC-62,malignant melanoma,P10

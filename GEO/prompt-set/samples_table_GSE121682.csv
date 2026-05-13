@@ -1,0 +1,15 @@
+# TITLE: Immunotherapy Utilizing NK cells and ADCC Mediating Agents with Poly (ADP-ribose) polymerase (PARP) Inhibition
+# SUMMARY: Background: Poly (ADP-ribose) polymerase inhibitors (PARPi) prevent single-stranded DNA repair. Olaparib is a PARPi approved for the treatment of BRCA mutant ovarian and breast carcinoma. Emerging clinical data suggest a benefit of combining olaparib with immunotherapy in prostate cancer patients both with and without somatic BRCA mutations. Methods: We examined if olaparib, when combined with IgG1 antibody-dependent cellular cytotoxicity (ADCC)-mediating monoclonal antibodies (mAbs) cetuximab (anti-EGFR), or avelumab (anti-PD-L1), would increase tumor cell sensitivity to killing by natural killer (NK) cells independently of BRCA status or mAb target upregulation. BRCA mutant and BRCA wildtype (WT) prostate carcinoma cell lines were pretreated with olaparib and then exposed to NK cells in the presence or absence of cetuximab or avelumab. Results: NK-mediated killing was significantly increased in both cell lines and was further increased using the ADCC-mediating mAbs. Pre-exposure of NK cells to recombinant IL-15/IL-15RA further increased the lysis of olaparib treated tumor cells. In addition, olaparib treated tumor cells were killed to a significantly greater degree by engineered high-affinity NK cells (haNK). We show here for the first time that (a) olaparib significantly increased tumor cell sensitivity to NK killing and ADCC in both BRCA WT and BRCA mutant prostate carcinoma cells, independent of PD-L1 or EGFR modulation; (b) mechanistically, treatment with olaparib upregulated death receptor TRAIL-R2, and (c) olaparib significantly enhanced NK killing of additional tumor types, including breast, non-small cell lung carcinoma, and chordoma. Conclusions: These studies support the combined use of NK- and ADCC-mediating agents with correctly timed PARP inhibition.
+GPL25714_Group,GPL25714_Accession,GPL25714_Title,GPL25714_Source name,GPL25714_Agent,GPL25714_Time point,GPL25714_Cell line
+-,GSM3443299,"22rv1, no treatment, 6h",prostate carcinoma cell line,none,6h,22rv1
+-,GSM3443300,"22rv1, no treatment, 12h",prostate carcinoma cell line,none,12h,22rv1
+-,GSM3443301,"22rv1, no treatment, 18h",prostate carcinoma cell line,none,18h,22rv1
+-,GSM3443302,"22rv1, olaparib treatment, 6h",prostate carcinoma cell line,olaparib,6h,22rv1
+-,GSM3443303,"22rv1, olaparib treatment, 12h",prostate carcinoma cell line,olaparib,12h,22rv1
+-,GSM3443304,"22rv1, olaparib treatment, 18h",prostate carcinoma cell line,olaparib,18h,22rv1
+-,GSM3443305,"DU145, no treatment, 6h",prostate carcinoma cell line,none,6h,DU145
+-,GSM3443306,"DU145, no treatment, 12h",prostate carcinoma cell line,none,12h,DU145
+-,GSM3443307,"DU145, no treatment, 18h",prostate carcinoma cell line,none,18h,DU145
+-,GSM3443308,"DU145, olaparib treatment, 6h",prostate carcinoma cell line,olaparib,6h,DU145
+-,GSM3443309,"DU145, olaparib treatment, 12h",prostate carcinoma cell line,olaparib,12h,DU145
+-,GSM3443310,"DU145, olaparib treatment, 18h",prostate carcinoma cell line,olaparib,18h,DU145

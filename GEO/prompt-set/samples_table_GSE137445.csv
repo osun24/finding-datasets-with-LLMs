@@ -1,0 +1,19 @@
+# TITLE: Development of gene expression signatures for NSCLC
+# SUMMARY: Eight frozen tissues of NSCLCs (4 SCCs and 4 ACs) and paired normal lung tissues were used to screen the global profiling of human long-noncoding RNAs (lncRNAs) and protein-coding transcripts.
+GPL21827_Group,GPL21827_Accession,GPL21827_Title,GPL21827_Source name,GPL21827_Tissue
+-,GSM4079440,24N Normal  lung tissues,Fresh frozen tissue,normal
+-,GSM4079441,24T Squamous cell carcinoma (SCC),Fresh frozen tissue,tumor
+-,GSM4079442,29N Normal  lung tissues,Fresh frozen tissue,normal
+-,GSM4079443,29T Adenocarcinoma (AC),Fresh frozen tissue,tumor
+-,GSM4079444,30N Normal  lung tissues,Fresh frozen tissue,normal
+-,GSM4079445,30T Adenocarcinoma (AC),Fresh frozen tissue,tumor
+-,GSM4079446,32N Normal  lung tissues,Fresh frozen tissue,normal
+-,GSM4079447,32T Squamous cell carcinoma (SCC),Fresh frozen tissue,tumor
+-,GSM4079448,35N Normal  lung tissues,Fresh frozen tissue,normal
+-,GSM4079449,35T Adenocarcinoma (AC),Fresh frozen tissue,tumor
+-,GSM4079450,37N Normal  lung tissues,Fresh frozen tissue,normal
+-,GSM4079451,37T Squamous cell carcinoma (SCC),Fresh frozen tissue,tumor
+-,GSM4079452,42N Normal  lung tissues,Fresh frozen tissue,normal
+-,GSM4079453,42T Squamous cell carcinoma (SCC),Fresh frozen tissue,tumor
+-,GSM4079454,45N Normal  lung tissues,Fresh frozen tissue,normal
+-,GSM4079455,45T Adenocarcinoma (AC),Fresh frozen tissue,tumor

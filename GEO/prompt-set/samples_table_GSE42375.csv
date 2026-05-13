@@ -1,0 +1,39 @@
+# TITLE: chromatin reprogramming and differential gene expression in a model of EMT (spheroid A549 treated with TGF/TNF)
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Culture,GPL570_Treated twice with,GPL10999_Group,GPL10999_Accession,GPL10999_Title,GPL10999_Source name,GPL10999_Cell line,GPL10999_Chip antibody,GPL10999_Chip antibody vendor,GPL10999_Characteristics,GPL10999_Treated twice with
+-,GSM1038431,a549-2d-control-1,a549-2d-control,A549,2D,,-,GSM1038439,H2AZ-a549-3d-control,a549 3D culture,A549,H2AZ,abcam,chip antibody cat. #: ab4174,
+-,GSM1038432,a549-2d-control-2,a549-2d-control,A549,2D,,-,GSM1038440,H2AZ-a549-3d-treated,a549 3D culture,A549,H2AZ,abcam,chip antibody cat. #: ab4174,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+-,GSM1038433,a549-2d-treated-1,a549-2d-treated,A549,2D,10 ng/mL TNF and 2 ng/mL TGF for 48hr each,-,GSM1038441,H3K14ac-a549-3d-control,a549 3D culture,A549,H3K14ac,Active Motif,chip antibody cat. #: 39599,
+-,GSM1038434,a549-2d-treated-2,a549-2d-treated,A549,2D,10 ng/mL TNF and 2 ng/mL TGF for 48hr each,-,GSM1038442,H3K14ac-a549-3d-treated,a549 3D culture,A549,H3K14ac,Active Motif,chip antibody cat. #: 39599,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+-,GSM1038435,a549-3d-control-1,a549-3d-control,A549,3D,,-,GSM1038443,H3K27ac-a549-3d-control,a549 3D culture,A549,H3K27ac,Abcam,chip antibody cat. #: 4729,
+-,GSM1038436,a549-3d-control-2,a549-3d-control,A549,3D,,-,GSM1038444,H3K27ac-a549-3d-treated,a549 3D culture,A549,H3K27ac,Abcam,chip antibody cat. #: 4729,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+-,GSM1038437,a549-3d-treated-1,a549-3d-treated,A549,3D,10 ng/mL TNF and 2 ng/mL TGF for 48hr each,-,GSM1038445,H3K27me2-a549-3d-control,a549 3D culture,A549,H3K27me2,Active Motif,chip antibody cat. #: 39245,
+-,GSM1038438,a549-3d-treated-2,a549-3d-treated,A549,3D,10 ng/mL TNF and 2 ng/mL TGF for 48hr each,-,GSM1038446,H3K27me2-a549-3d-treated,a549 3D culture,A549,H3K27me2,Active Motif,chip antibody cat. #: 39245,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038447,H3K27me3-a549-3d-control,a549 3D culture,A549,H3K27me3,Active Motif,chip antibody cat. #: 39155,
+,,,,,,,-,GSM1038448,H3K27me3-a549-3d-treated,a549 3D culture,A549,H3K27me3,Active Motif,chip antibody cat. #: 39155,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038449,H3K36me3-a549-3d-control,a549 3D culture,A549,H3K36me3,Abcam,chip antibody cat. #: ab9050,
+,,,,,,,-,GSM1038450,H3K36me3-a549-3d-treated,a549 3D culture,A549,H3K36me3,Abcam,chip antibody cat. #: ab9050,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038451,H3K4me1-a549-3d-control,a549 3D culture,A549,H3K4me1,Active Motif,chip antibody cat. #: 39635,
+,,,,,,,-,GSM1038452,H3K4me1-a549-3d-treated,a549 3D culture,A549,H3K4me1,Active Motif,chip antibody cat. #: 39635,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038453,H3K4me2-a549-3d-control,a549 3D culture,A549,H3K4me2,Active Motif,chip antibody cat. #: 39141,
+,,,,,,,-,GSM1038454,H3K4me2-a549-3d-treated,a549 3D culture,A549,H3K4me2,Active Motif,chip antibody cat. #: 39141,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038455,H3K4me3-a549-3d-control,a549 3D culture,A549,H3K4me3,Active Motif,chip antibody cat. #: 39159,
+,,,,,,,-,GSM1038456,H3K4me3-a549-3d-treated,a549 3D culture,A549,H3K4me3,Active Motif,chip antibody cat. #: 39159,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038457,H3K79me3-a549-3d-control,a549 3D culture,A549,H3K79me3,Abcam,chip antibody cat. #: ab2621,
+,,,,,,,-,GSM1038458,H3K79me3-a549-3d-treated,a549 3D culture,A549,H3K79me3,Abcam,chip antibody cat. #: ab2621,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038459,H3K9ac-a549-3d-control,a549 3D culture,A549,H3K9ac,Active Motif,chip antibody cat. #: 39137,
+,,,,,,,-,GSM1038460,H3K9ac-a549-3d-treated,a549 3D culture,A549,H3K9ac,Active Motif,chip antibody cat. #: 39137,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038461,H3K9me1-a549-3d-control,a549 3D culture,A549,H3K9me1,Active Motif,chip antibody cat. #: 39249,
+,,,,,,,-,GSM1038462,H3K9me1-a549-3d-treated,a549 3D culture,A549,H3K9me1,Active Motif,chip antibody cat. #: 39249,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038463,H3K9me3-a549-3d-control,a549 3D culture,A549,H3K9me3,Abcam,chip antibody cat. #: ab8898,
+,,,,,,,-,GSM1038464,H3K9me3-a549-3d-treated,a549 3D culture,A549,H3K9me3,Abcam,chip antibody cat. #: ab8898,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038465,H3R17me2asym-a549-3d-control,a549 3D culture,A549,H3R17me2asym,Abcam,chip antibody cat. #: ab8284,
+,,,,,,,-,GSM1038466,H3R17me2asym-a549-3d-treated,a549 3D culture,A549,H3R17me2asym,Abcam,chip antibody cat. #: ab8284,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038467,H4K20me1-a549-3d-control,a549 3D culture,A549,H4K20me1,Active Motif,chip antibody cat. #: 39175,
+,,,,,,,-,GSM1038468,H4K20me1-a549-3d-treated,a549 3D culture,A549,H4K20me1,Active Motif,chip antibody cat. #: 39175,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038469,H4K8ac-a549-3d-control,a549 3D culture,A549,H4K8ac,Millipore,chip antibody cat. #: 17-10099,
+,,,,,,,-,GSM1038470,H4K8ac-a549-3d-treated,a549 3D culture,A549,H4K8ac,Millipore,chip antibody cat. #: 17-10099,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038471,H4R3me2sym-a549-3d-control,a549 3D culture,A549,H4R3me2sym,Abcam,chip antibody cat. #: ab5823,
+,,,,,,,-,GSM1038472,H4R3me2sym-a549-3d-treated,a549 3D culture,A549,H4R3me2sym,Abcam,chip antibody cat. #: ab5823,10 ng/mL TNF and 2 ng/mL TGF for 48hr each
+,,,,,,,-,GSM1038473,panH3-a549-3d-control,a549 3D culture,A549,panH3,Active Motif,chip antibody cat. #: 39163,
+,,,,,,,-,GSM1038474,panH3-a549-3d-treated,a549 3D culture,A549,panH3,Active Motif,chip antibody cat. #: 39163,10 ng/mL TNF and 2 ng/mL TGF for 48hr each

@@ -1,0 +1,5 @@
+# TITLE: Gene expression (GeneChip) data from parental (wild-type) and CRMP2A KO (CRISPR) A549 cells.
+# SUMMARY: We sought to assess how permanent loss of the microtubule-associated protein CRMP2A could affect global gene expression in the A549 lung cancer cells. We used microarrays to identify differentially regulated genes when CRMP2A is permanently removed from A549 cells using CRISPR/Cas9.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cells,GPL15207_Genotype/variation
+-,GSM5885493,CRMP2A KO A549 cells,CRMP2A KO A549 cells,NSCLC cells,CRMP2A KO
+-,GSM5885494,Wild-Type A549 cells,Wild-type A549 cells,NSCLC cells,wild type

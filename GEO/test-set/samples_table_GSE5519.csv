@@ -1,0 +1,8 @@
+# TITLE: Expression data from H157 non-small cell lung carcinoma cells with and without DJ-1 expression knocked-down
+# SUMMARY: DJ-1 expression protects H157 cells from cell death, using siRNA oligomers we knocked down DJ-1 and evaulated gene expression using Affymetrix U133A GeneChip arrays. Keywords: siRNA comparison
+GPL96_Group,GPL96_Accession,GPL96_Title,GPL96_Source name,GPL96_Characteristics
+-,GSM128643,H157 siMOCK,H157 siMOCK,NSCLC cell line H157. Transfected with Oligofectamine (Invitrogen) without RNA
+-,GSM128644,H157 siCTL1,H157 siCTL1,NSCLC cell line H157. Transfected with scrambeled control non-targetting oligomer siRNA - #1
+-,GSM128645,H157 siCTL2,H157 siCTL2,NSCLC cell line H157. Transfected with scrambeled control non-targetting oligomer siRNA - #2
+-,GSM128646,H157 siDJ-1 #1,H157 siDJ-1 #1,NSCLC cell line H157. Transfected with siRNA oligomers targeting DJ-1 - #1
+-,GSM128647,H157 siDJ-1 #2,H157 siDJ-1 #2,NSCLC cell line H157. Transfected with siRNA oligomers targeting DJ-1 - #2

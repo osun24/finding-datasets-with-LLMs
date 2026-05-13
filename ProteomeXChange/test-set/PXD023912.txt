@@ -1,0 +1,2 @@
+Title: ECM-enriched proteomics of human fallopian tube, fimbria and ovarian tissue
+Description: We analysed the extracellular matrix (ECM) landscape of fresh, healthy tissues from human fallopian tube (FT), fimbria (FB, the tissue of origin of serous tubal intraepithelial lesions) and ovarian tissue (OV). The aim was to identify differentially expressed matrix proteins between FB and FT or OV which may promote the neoplastic transformation of serous tubal intraepithelial lesions (STICs) into high-grade serous ovarian cancer, HGSOC, and metastasis from the FB to the OV.

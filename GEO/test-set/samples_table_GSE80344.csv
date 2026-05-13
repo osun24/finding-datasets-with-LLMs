@@ -1,0 +1,19 @@
+# TITLE: Gene expression profiling of Erlotinib sensitive and resistant human non small cell lung cancer (NSCLC) cell lines
+# SUMMARY: We characterized the gene expression profile of Epithelial Growth Factor Receptor (EGFR) inhibitor (Erlotinib)-sensitive and resistant human NSCLC cell lines. Total RNA was extracted from the cell lines and expression profiles were studied by Agilent microarray analysis. Wide changes in gene expression profiles occur in the Erlotinib-resistant cell lines when compared with their parental cell lines (HCC827 and HCC4006).
+GPL16699_Group,GPL16699_Accession,GPL16699_Title,GPL16699_Source name,GPL16699_Cell type,GPL16699_Erlotinib response,GPL16699_Tissue
+-,GSM2124846,HCC827-RB1.1-rep1,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124847,HCC827-RA1-rep1,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124848,HCC4006-rep1,HCC4006 cell line,NSCLC,Sensitive,NSCLC
+-,GSM2124849,HCC827-RB1-rep1,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124850,HCC827-rep1,HCC827 cell line,NSCLC,Sensitive,NSCLC
+-,GSM2124851,HCC4006-RC2.2-rep1,HCC4006 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124852,HCC827-RA2-rep1,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124853,HCC827-RB2-rep1,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124854,HCC827-RB1.1-rep2,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124855,HCC827-RA1-rep2,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124856,HCC4006-rep2,HCC4006 cell line,NSCLC,Sensitive,NSCLC
+-,GSM2124857,HCC827-RB1-rep2,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124858,HCC827-rep2,HCC827 cell line,NSCLC,Sensitive,NSCLC
+-,GSM2124859,HCC4006-RC2.2-rep2,HCC4006 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124860,HCC827-RA2-rep2,HCC827 derived cell line,NSCLC,Resistant,NSCLC
+-,GSM2124861,HCC827-RB2-rep2,HCC827 derived cell line,NSCLC,Resistant,NSCLC

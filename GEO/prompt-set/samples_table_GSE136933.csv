@@ -1,0 +1,9 @@
+# TITLE: Effect of Pirfenidone on NSCLC [A549 1.5 mg/ml Pirf 6hrs]
+# SUMMARY: Investigating the effect of Pirfenidone on NSCLC cells Although immune checkpoint and targeted therapies offer remarkable benefits for lung cancer treatment, some patients do not qualify for these regimens or do not exhibit consistent benefit. Provided that lung cancer appears to be driven by transforming growth factor beta signaling, we investigated the single drug potency of Pirfenidone, an approved drug for the treatment of lung fibrosis which is known to inhibit TGFB1 mRNA. Human A549 and H1975 lung adenocarcinoma cell lines were stimulated for 6h and 25h with 0.75 mg/ml or 1.5 mg/ml Pirfenidone or the respective volume of PBS as vehicle control. Total RNA was extracted and subjected to transcriptome analysis by microarrays.
+GPL13497_Group,GPL13497_Accession,GPL13497_Title,GPL13497_Source name,GPL13497_Cell line,GPL13497_Treatmnet,GPL13497_Treatment  time
+-,GSM4061984,A549_6h_PBS_Rep1,A549_6h_PBS,A549,PBS,6h
+-,GSM4061985,A549_6h_Pirf_Rep1,A549_6h_Pirf,A549,Pirfenidone,6h
+-,GSM4061986,A549_6h_PBS_Rep2,A549_6h_PBS,A549,PBS,6h
+-,GSM4061987,A549_6h_Pirf_Rep2,A549_6h_Pirf,A549,Pirfenidone,6h
+-,GSM4061988,A549_6h_PBS_Rep3,A549_6h_PBS,A549,PBS,6h
+-,GSM4061989,A549_6h_Pirf_Rep3,A549_6h_Pirf,A549,Pirfenidone,6h

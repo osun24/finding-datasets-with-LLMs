@@ -1,0 +1,184 @@
+# TITLE: Validation of a histology-independent prognostic gene signature for early stage, non-small cell lung cancer including stage IA patients
+# SUMMARY: Background: Patients with early stage non-small cell lung carcinoma (NSCLC) may benefit from treatments based on more accurate prognosis. A 15-gene prognostic classifier for NSCLC was identified from mRNA expression profiling of tumor samples from the NCIC CTG JBR.10 trial. Here, we assessed its value in an independent set of cases. Methods: Expression profiling was performed on RNA from frozen, resected tumor tissues corresponding to 181 Stage I and II NSCLC cases collected at University Health Network (UHN181). Kaplan-Meier methodology was used to estimate three year overall survival probabilities and the prognostic effect of the classifier was assessed using log-rank testing. Cox proportional hazards model evaluated the signature's effect adjusting for clinical prognostic factors. Results: Expression data of the 15-gene classifier stratified UHN181 cases into high and low-risk subgroups with significantly different overall survival (HR=1.92, 95% CI: 1.15-3.23, p=0.012). Its strength as a prognostic classifier was superior to stage alone (HR=1.52, 95% CI: 0.90-2.55, p-value=0.11). In subgroup analysis, this classifier predicted survival in 127 Stage I patients (HR=2.17, 95% CI: 1.12-4.20, p=0.018) and the smaller subgroup of 48 Stage IA patients (HR=5.61, 95% CI: 1.19-26.45, p=0.014. The signature was prognostic for both adenocarcinoma and squamous cell carcinoma cases (HR= 1.76, p-value=0.058; HR= 4.19, p-value=0.045, respectively). Conclusions: The prognostic accuracy of a 15-gene classifier was validated in an independent cohort of 181 early stage NSCLC samples including Stage IA cases and in different NSCLC histologic subtypes.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Sex,GPL570_Histology,GPL570_T-stage,GPL570_N-stage,GPL570_M-stage,GPL570_Stage,GPL570_Age,GPL570_Smoking,GPL570_Survival time,GPL570_Status,GPL570_Disease-free survival time,GPL570_Recurrence
+-,GSM1213669,MB001,Primary NSCLC,M,adenosquamous carcinoma,1,0,0,1A,63.57,Current,4.11,dead,4.115,N
+-,GSM1213670,MB002,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,68.15,Current,7.52,alive,7.521,N
+-,GSM1213671,MB003,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,69.15,Current,7.32,alive,7.324,N
+-,GSM1213672,MB004,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,82.36,Ex-smoker,6.84,alive,6.842,N
+-,GSM1213673,MB005,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,68,Current,1.91,dead,1.613,Y
+-,GSM1213674,MB006,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,57.31,Current,7.03,alive,7.034,N
+-,GSM1213675,MB007,Primary NSCLC,F,squamous cell carcinoma,2,1,0,2B,63.63,Ex-smoker,6.85,alive,6.85,N
+-,GSM1213676,MB008,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,71.43,Ex-smoker,4.33,dead,4.156,Y
+-,GSM1213677,MB009,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,44.21,Never,6.22,alive,6.218,N
+-,GSM1213678,MB011,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,74.16,Never,4.08,dead,3.743,Y
+-,GSM1213679,MB012,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,66.46,Ex-smoker,6.31,alive,6.311,N
+-,GSM1213680,MB013,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,59.01,Ex-smoker,5.99,alive,5.988,N
+-,GSM1213681,MB014,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,70.56,Ex-smoker,5.32,alive,5.317,N
+-,GSM1213682,MB016,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,72.96,Ex-smoker,5.56,alive,5.561,N
+-,GSM1213683,MB017,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,79.28,Ex-smoker,5.02,alive,5.018,N
+-,GSM1213684,MB018,Primary NSCLC,F,squamous cell carcinoma,2,1,0,2B,73.26,Ex-smoker,3.47,alive,3.466,N
+-,GSM1213685,MB019,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,52.14,Current,6.76,alive,6.757,N
+-,GSM1213686,MB020,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,85.78,Ex-smoker,2.84,dead,2.836,N
+-,GSM1213687,MB021,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,76.93,Current,6.46,alive,6.456,N
+-,GSM1213688,MB022,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,73.23,Ex-smoker,5.76,alive,5.758,N
+-,GSM1213689,MB023,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,77.18,Never,4.95,alive,4.95,N
+-,GSM1213690,MB024,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,78.96,Ex-smoker,5.12,alive,4.882,Y
+-,GSM1213691,MB025,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,78.99,Current,6.39,alive,6.393,N
+-,GSM1213692,MB026,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,55.39,Never,5.74,dead,5.744,N
+-,GSM1213693,MB027,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,61.53,Current,1.1,dead,0.709,Y
+-,GSM1213694,MB029,Primary NSCLC,F,adenocarcinoma,1,1,0,2A,68.66,Never,6.69,alive,3.102,Y
+-,GSM1213695,MB030,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,62.9,Current,5.84,alive,5.843,N
+-,GSM1213696,MB031,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,67.04,Ex-smoker,5.18,alive,5.18,N
+-,GSM1213697,MB032,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,79.71,Current,6.37,alive,6.368,N
+-,GSM1213698,MB033,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,69.59,Current,5.63,dead,5.634,N
+-,GSM1213699,MB034,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,61.13,Never,1.88,dead,1.325,Y
+-,GSM1213700,MB035,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,73.93,Never,4.03,dead,1.87,Y
+-,GSM1213701,MB036,Primary NSCLC,M,squamous cell carcinoma,1,0,0,1A,73.66,Current,5.22,dead,5.194,Y
+-,GSM1213702,MB037,Primary NSCLC,M,adenocarcinoma,3,0,0,2B,55.75,Current,2.93,dead,2.927,N
+-,GSM1213703,MB038,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,75.68,Never,5.96,dead,5.752,Y
+-,GSM1213704,MB039,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,61.59,Never,5.54,alive,4.964,Y
+-,GSM1213705,MB040,Primary NSCLC,M,squamous cell carcinoma,2,1,0,2B,59.11,Ex-smoker,0.48,dead,0.287,Y
+-,GSM1213706,MB041,Primary NSCLC,M,squamous cell carcinoma,2,1,0,2B,49.53,Ex-smoker,7.5,alive,7.499,N
+-,GSM1213707,MB042,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,41.95,Never,5.41,alive,1.725,Y
+-,GSM1213708,MB045,Primary NSCLC,M,squamous cell carcinoma,1,1,0,2A,63.1,Ex-smoker,6.11,alive,5.227,Y
+-,GSM1213709,MB046,Primary NSCLC,F,squamous cell carcinoma,2,0,0,1B,77.27,Current,5.2,alive,4.679,Y
+-,GSM1213710,MB047,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,67.56,Current,0.33,alive,0.214,Y
+-,GSM1213711,MB048,Primary NSCLC,F,squamous cell carcinoma,2,1,0,2B,70.85,Current,4.62,alive,4.624,N
+-,GSM1213712,MB050,Primary NSCLC,F,squamous cell carcinoma,2,0,0,1B,69.07,Ex-smoker,6.58,alive,6.582,N
+-,GSM1213713,MB051,Primary NSCLC,M,large cell carcinoma,2,0,0,1B,70.52,Current,4.94,alive,4.945,N
+-,GSM1213714,MB052,Primary NSCLC,F,squamous cell carcinoma,2,1,0,2B,62.91,Ex-smoker,6.15,alive,6.149,N
+-,GSM1213715,MB053,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,72.97,Ex-smoker,7.36,alive,4.022,Y
+-,GSM1213716,MB054,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,73.57,Ex-smoker,4.37,dead,4.367,Y
+-,GSM1213717,MB055,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,63.41,Ex-smoker,4.91,dead,3.608,Y
+-,GSM1213718,MB059,Primary NSCLC,F,squamous cell carcinoma,2,0,0,1B,81.17,Ex-smoker,4.95,alive,4.947,N
+-,GSM1213719,MB061,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,72.55,Ex-smoker,0.93,dead,0.808,Y
+-,GSM1213720,MB062,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,67.6,Ex-smoker,6.37,alive,6.371,N
+-,GSM1213721,MB063,Primary NSCLC,M,NSClarge cell carcinoma-mixed,2,0,0,1B,57.41,Current,6.11,alive,6.111,N
+-,GSM1213722,MB064,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,68.87,Current,1.25,dead,0.583,Y
+-,GSM1213723,MB065,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,79.65,Ex-smoker,2.61,dead,2.229,Y
+-,GSM1213724,MB066,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,76.91,Ex-smoker,6.28,alive,6.283,N
+-,GSM1213725,MB068,Primary NSCLC,F,large cell carcinoma,2,0,0,1B,71.92,Current,6.43,alive,6.434,N
+-,GSM1213726,MB070,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,83.65,Ex-smoker,6.56,alive,6.563,N
+-,GSM1213727,MB071,Primary NSCLC,M,adenocarcinoma,1,1,0,2A,49.24,Current,5.79,dead,1.791,Y
+-,GSM1213728,MB072,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,75.89,Ex-smoker,5.39,alive,5.388,N
+-,GSM1213729,MB073,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,69.7,Ex-smoker,2.42,dead,1.933,Y
+-,GSM1213730,MB074,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,65.26,Ex-smoker,3.21,dead,0.799,Y
+-,GSM1213731,MB076,Primary NSCLC,M,squamous cell carcinoma,2,1,0,2B,69.17,Ex-smoker,5.81,alive,5.81,N
+-,GSM1213732,MB077,Primary NSCLC,M,squamous cell carcinoma,1,0,0,1A,74.13,Current,7.56,alive,7.556,N
+-,GSM1213733,MB078,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,78.13,Current,3.48,dead,2.708,Y
+-,GSM1213734,MB079,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,71.23,Ex-smoker,5.16,alive,5.161,N
+-,GSM1213735,MB081,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,68.14,Ex-smoker,6.06,alive,1.232,Y
+-,GSM1213736,MB082,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,54.09,Ex-smoker,0.91,dead,0.887,Y
+-,GSM1213737,MB083,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,64.19,Never,2.95,alive,2.946,N
+-,GSM1213738,MB084,Primary NSCLC,M,adenocarcinoma,1,1,0,2A,63.5,Current,3.85,dead,3.852,N
+-,GSM1213739,MB085,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,74.91,Ex-smoker,0.12,alive,0.12,N
+-,GSM1213740,MB086,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,85.91,Never,5.84,alive,5.843,N
+-,GSM1213741,MB087,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,80.61,Never,6.35,dead,6.352,N
+-,GSM1213742,MB088,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,80.76,Ex-smoker,5.26,dead,5.259,N
+-,GSM1213743,MB089,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,40.16,Never,5.03,alive,5.032,N
+-,GSM1213744,MB090,Primary NSCLC,M,squamous cell carcinoma,1,0,0,1A,71.47,Ex-smoker,5.04,alive,5.043,N
+-,GSM1213745,MB091,Primary NSCLC,M,adenosquamous carcinoma,2,1,0,2B,63.21,Current,4.76,dead,4.758,Y
+-,GSM1213746,MB092,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,60.79,Current,5.17,alive,5.175,N
+-,GSM1213747,MB093,Primary NSCLC,F,adenocarcinoma,1,1,0,2A,57.09,Ex-smoker,4.13,alive,4.129,N
+-,GSM1213748,MB094,Primary NSCLC,F,squamous cell carcinoma,1,0,0,1A,60.7,Current,5.08,alive,5.079,N
+-,GSM1213749,MB095,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,78.26,Never,3.2,dead,1.216,Y
+-,GSM1213750,MB096,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,50.12,Current,1.03,dead,0.923,Y
+-,GSM1213751,MB097,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,49.86,Ex-smoker,4.91,alive,4.912,N
+-,GSM1213752,MB098,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,64.73,Ex-smoker,0.97,dead,0.821,Y
+-,GSM1213753,MB099,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,80.78,Current,3.09,dead,2.732,Y
+-,GSM1213754,MB100,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,72.96,Current,2.02,dead,0.701,Y
+-,GSM1213755,MB101,Primary NSCLC,M,large cell carcinoma,1,0,0,1A,71.5,Ex-smoker,5.32,alive,5.322,N
+-,GSM1213756,MB102,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,60.85,Ex-smoker,5.27,alive,5.273,N
+-,GSM1213757,MB104,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,69.77,Ex-smoker,5.75,alive,0.274,Y
+-,GSM1213758,MB105,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,61.98,Ex-smoker,5.51,alive,2.119,Y
+-,GSM1213759,MB106,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,49.41,Current,5.49,alive,5.495,N
+-,GSM1213760,MB107,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,78.11,Ex-smoker,4.57,alive,4.575,N
+-,GSM1213761,MB108,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,63.1,Current,4.93,alive,4.928,N
+-,GSM1213762,MB109,Primary NSCLC,F,adenocarcinoma,3,0,0,2B,57.68,Current,0.86,dead,0.112,Y
+-,GSM1213763,MB110,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,62.23,Current,1.95,dead,1.955,N
+-,GSM1213764,MB111,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,63.54,Never,7.75,alive,7.745,N
+-,GSM1213765,MB112,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,73.23,Unable to determine,2.7,dead,2.7,N
+-,GSM1213766,MB113,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,87.11,Current,3.48,dead,3.48,N
+-,GSM1213767,MB114,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,73.25,Unable to determine,3.64,dead,3.641,N
+-,GSM1213768,MB115,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,60.6,Current,4.34,alive,4.345,N
+-,GSM1213769,MB116,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,57.75,Ex-smoker,5.29,alive,3.721,Y
+-,GSM1213770,MB117,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,68.59,Ex-smoker,2.11,dead,2.108,N
+-,GSM1213771,MB118,Primary NSCLC,F,squamous cell carcinoma,2,1,0,2B,83.87,Ex-smoker,7.38,alive,7.384,N
+-,GSM1213772,MB119,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,87.93,Ex-smoker,7.44,alive,7.436,N
+-,GSM1213773,MB120,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,69.43,Ex-smoker,4.79,dead,4.794,N
+-,GSM1213774,MB122,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,68.25,Current,3.01,dead,2.888,Y
+-,GSM1213775,MB123,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,70.52,Current,3.14,dead,3.143,N
+-,GSM1213776,MB124,Primary NSCLC,F,NSCLC-favor adenocarcinoma,2,1,0,2B,70.73,Unable to determine,1.21,dead,1.213,N
+-,GSM1213777,MB125,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,66.69,Ex-smoker,5.45,alive,5.446,N
+-,GSM1213778,MB126,Primary NSCLC,F,squamous cell carcinoma,1,0,0,1A,67.64,Current,5.67,alive,5.667,N
+-,GSM1213779,MB127,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,73.02,Current,3.11,alive,3.107,N
+-,GSM1213780,MB128,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,84.19,Unable to determine,0.65,dead,0.654,N
+-,GSM1213781,MB129,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,70.96,Ex-smoker,1.8,dead,1.796,N
+-,GSM1213782,MB130,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,74.74,Ex-smoker,3.21,alive,3.214,N
+-,GSM1213783,MB131,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,83.58,Ex-smoker,0.6,dead,0.6,N
+-,GSM1213784,MB132,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,66.38,Ex-smoker,5.2,alive,5.205,N
+-,GSM1213785,MB133,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,73.63,Unable to determine,3.89,dead,2.94,Y
+-,GSM1213786,MB134,Primary NSCLC,F,squamous cell carcinoma,2,0,0,1B,73.79,Ex-smoker,5.96,alive,5.958,N
+-,GSM1213787,MB135,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,71.22,Never,3.43,alive,2.913,Y
+-,GSM1213788,MB136,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,80.54,Ex-smoker,1.49,dead,1.191,Y
+-,GSM1213789,MB137,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,80.34,Ex-smoker,1.83,dead,0.709,Y
+-,GSM1213790,MB138,Primary NSCLC,F,squamous cell carcinoma,2,0,0,1B,67.29,Current,5.18,alive,5.183,N
+-,GSM1213791,MB139,Primary NSCLC,F,squamous cell carcinoma,1,0,0,1A,69.07,Current,5.18,dead,0.077,U
+-,GSM1213792,MB140,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,79.62,Ex-smoker,2.92,dead,2.916,N
+-,GSM1213793,MB141,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,72.67,Never,2.69,alive,2.686,N
+-,GSM1213794,MB145,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,56.71,Never,4.99,alive,4.988,N
+-,GSM1213795,MB146,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,60.29,Unable to determine,6.67,alive,6.675,N
+-,GSM1213796,MB147,Primary NSCLC,M,squamous cell carcinoma,2,1,0,2B,61.86,Ex-smoker,5.6,dead,5.604,N
+-,GSM1213797,MB148,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,70.91,Current,5.84,alive,5.837,N
+-,GSM1213798,MB149,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,75.03,Ex-smoker,10.88,alive,0.019,U
+-,GSM1213799,MB150,Primary NSCLC,F,large cell carcinoma,1,0,0,1A,54.73,Current,0.19,dead,0.194,N
+-,GSM1213800,MB151,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,84.48,Never,0.51,alive,0.515,N
+-,GSM1213801,MB152,Primary NSCLC,M,adenocarcinoma,1,1,0,2A,76.94,Ex-smoker,4.04,dead,0.027,U
+-,GSM1213802,MB153,Primary NSCLC,F,squamous cell carcinoma,2,1,0,2B,63.8,Current,4.73,alive,4.726,N
+-,GSM1213803,MB154,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,73.69,Current,1.54,alive,1.536,N
+-,GSM1213804,MB155,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,80.83,Unable to determine,7.83,alive,7.833,N
+-,GSM1213805,MB156,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,47.09,Ex-smoker,6.02,alive,6.021,N
+-,GSM1213806,MB157,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,69.03,Current,1.71,alive,1.714,N
+-,GSM1213807,MB158,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,69.92,Current,0.71,alive,0.706,N
+-,GSM1213808,MB159,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,48.8,Never,5,alive,5.005,N
+-,GSM1213809,MB161,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,78.58,Ex-smoker,1.27,alive,1.273,N
+-,GSM1213810,MB162,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,70.38,Never,0.15,alive,0.153,N
+-,GSM1213811,MB163,Primary NSCLC,M,adenocarcinoma,1,1,0,2A,62.68,Ex-smoker,1.37,alive,1.372,N
+-,GSM1213812,MB164,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,62.17,Ex-smoker,0.8,dead,0.802,N
+-,GSM1213813,MB165,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,71.35,Unable to determine,0.95,dead,0.947,N
+-,GSM1213814,MB167,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,70.82,Ex-smoker,5.1,alive,5.103,N
+-,GSM1213815,MB168,Primary NSCLC,F,squamous cell carcinoma,2,1,0,2B,73.4,Unable to determine,4.76,alive,4.761,N
+-,GSM1213816,MB169,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,70.56,Unable to determine,0.09,alive,0.093,N
+-,GSM1213817,MB170,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,69.62,Ex-smoker,3.46,dead,3.461,N
+-,GSM1213818,MB171,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,84.95,Ex-smoker,3.38,alive,3.379,N
+-,GSM1213819,MB172,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,75.7,Unable to determine,1.52,dead,1.522,N
+-,GSM1213820,MB173,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,67.62,Unable to determine,1.91,dead,1.906,N
+-,GSM1213821,MB174,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,64.6,Ex-smoker,11.39,alive,11.392,N
+-,GSM1213822,MB175,Primary NSCLC,F,squamous cell carcinoma,2,0,0,1B,55.68,Unable to determine,12.04,alive,12.036,N
+-,GSM1213823,MB176,Primary NSCLC,M,large cell carcinoma,1,0,0,1A,73.55,Ex-smoker,4.04,dead,3.647,Y
+-,GSM1213824,MB177,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,70.73,Ex-smoker,1.59,dead,1.591,N
+-,GSM1213825,MB178,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,64.13,Ex-smoker,7.38,alive,7.381,N
+-,GSM1213826,MB179,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,71.7,Ex-smoker,0.57,dead,0.569,N
+-,GSM1213827,MB181,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,61.13,Current,4.17,alive,4.17,N
+-,GSM1213828,MB183,Primary NSCLC,M,squamous cell carcinoma,1,0,0,1A,72.76,Unable to determine,2.49,dead,1.128,Y
+-,GSM1213829,MB184,Primary NSCLC,F,squamous cell carcinoma,1,1,0,2A,63,Unable to determine,1.37,alive,1.369,N
+-,GSM1213830,MB186,Primary NSCLC,F,squamous cell carcinoma,1,0,0,1A,54.83,Unable to determine,8.34,alive,8.339,N
+-,GSM1213831,MB187,Primary NSCLC,M,adenocarcinoma,2,1,0,2B,76.71,Unable to determine,5.13,alive,5.125,N
+-,GSM1213832,MB189,Primary NSCLC,M,large cell carcinoma,2,1,0,2B,68.7,Ex-smoker,1.67,dead,1.667,N
+-,GSM1213833,MB191,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,68.95,Ex-smoker,0.56,dead,0.126,Y
+-,GSM1213834,MB192,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,68.32,Unable to determine,2.71,alive,2.708,N
+-,GSM1213835,MB193,Primary NSCLC,M,squamous cell carcinoma X2,2,0,0,1B,85.48,Current,1.97,dead,1.881,Y
+-,GSM1213836,MB194,Primary NSCLC,F,adenocarcinoma,1,1,0,2A,55.53,Unable to determine,1.26,alive,1.262,N
+-,GSM1213837,MB195,Primary NSCLC,F,adenocarcinoma,2,0,0,1B,74.09,Current,7.61,dead,7.608,N
+-,GSM1213838,MB197,Primary NSCLC,M,squamous cell carcinoma,2,1,0,2B,82.71,Current,3.85,alive,3.855,N
+-,GSM1213839,MB198,Primary NSCLC,M,squamous cell carcinoma,2,1,0,2B,52.4,Never,1.35,dead,0.093,Y
+-,GSM1213840,MB199,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,65.69,Unable to determine,1.23,dead,0.016,U
+-,GSM1213841,MB200,Primary NSCLC,M,squamous cell carcinoma,2,1,0,2B,73.45,Current,6.47,dead,2.927,Y
+-,GSM1213842,MB201,Primary NSCLC,M,large cell carcinoma,2,0,0,1B,67,Ex-smoker,1.05,dead,0.745,Y
+-,GSM1213843,MB202,Primary NSCLC,M,squamous cell carcinoma,2,0,0,1B,61.07,Current,7.74,dead,7.737,N
+-,GSM1213844,MB203,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,70.62,Unable to determine,4.54,alive,4.539,N
+-,GSM1213845,MB204,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,71.84,Ex-smoker,1.2,dead,1.035,Y
+-,GSM1213846,MB205,Primary NSCLC,M,adenocarcinoma,2,0,0,1B,75.58,Current,0.31,dead,0.315,N
+-,GSM1213847,MB206,Primary NSCLC,M,adenocarcinoma,1,0,0,1A,76.07,Never,8.26,alive,8.263,N
+-,GSM1213848,MB207,Primary NSCLC,F,adenocarcinoma,2,1,0,2B,76.25,Ex-smoker,0.1,dead,0.099,N
+-,GSM1213849,MB208,Primary NSCLC,F,adenocarcinoma,1,0,0,1A,60.08,Current,4.16,alive,4.162,N

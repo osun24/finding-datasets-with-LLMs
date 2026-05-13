@@ -1,0 +1,7 @@
+# TITLE: H1299 cells: p53 transcriptional response in hypoxia
+# SUMMARY: Transcriptional profiling of H1299 non-small cell lung carcinoma cells transfected with either wt p53 or mut(175) p53 driven by the 5xHRE promoter (5 repeats of hypoxia-inducible factor response elements) and treated for 16 h with normoxia (21% O2) or hypoxia(<0.1% O2). 5xHRE promoter ensures that p53 expression is induced in hypoxic conditions only. Goal was to determine the transcriptional response of p53 in hypoxia and the 175 p53 mutant was used as a control as it is DNA-binding defective and transcription-incompetent mutant.
+GPL6480_Group,GPL6480_Accession,GPL6480_Title,GPL6480_Source name 1,GPL6480_Source name 2,GPL6480_Cell line (Ch1),GPL6480_Transfected with (Ch1),GPL6480_Stress (Ch1),GPL6480_Cell line (Ch2),GPL6480_Transfected with (Ch2),GPL6480_Stress (Ch2)
+-,GSM1303209,Hypoxic H1299 Replicate 1,Hypoxic WT1,Hypoxic Mut1,H1299,p53 WT,Hypoxia,H1299,p53 Mut 175,Hypoxia
+-,GSM1303210,Hypoxic H1299 Replicate 2,Hypoxic WT2,Hypoxic Mut2,H1299,p53 WT,Hypoxia,H1299,p53 Mut 175,Hypoxia
+-,GSM1303211,Hypoxic H1299 Replicate 3,Hypoxic WT3,Hypoxic Mut3,H1299,p53 WT,Hypoxia,H1299,p53 Mut 175,Hypoxia
+-,GSM1303212,Normoxic H1299 Replicate 1,Normoxic WT,Normoxic Mut,H1299,p53 WT,Normoxia,H1299,p53 Mut 175,Normoxia

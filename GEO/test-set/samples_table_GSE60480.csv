@@ -1,0 +1,5 @@
+# TITLE: Gene expression in human lung cancer cell lines regulated by Bmi-1 gene
+# SUMMARY: This study aimed to understand the role that B lymphoma Mo-MLV insertion region 1 homolog (Bmi-1) plays in non-small cell lung cancer (NSCLC) progression. According to fold-change screening between Bmi-1-silencing A549 and the control cells A549, both up-regulated and down-regulated genes were shown.
+GPL6480_Group,GPL6480_Accession,GPL6480_Title,GPL6480_Source name,GPL6480_Cell line,GPL6480_Cell type,GPL6480_ShRNA
+-,GSM1480800,A549-shRNA-control-sample,"A549, shRNA-control",A549,non-small cell lung cancer cell (NSCLC) line,control
+-,GSM1480801,A549-shRNA-Bmi-1-sample,"A549, shRNA-Bmi-1",A549,non-small cell lung cancer cell (NSCLC) line,Bmi-1

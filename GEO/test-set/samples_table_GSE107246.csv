@@ -1,0 +1,7 @@
+# TITLE: Identification of INSL4-regulated gene program in non-small cell lung cancer cells
+# SUMMARY: Gene expression profiling was performed to identify INSL4-regulated gene program in non-small cell lung cancer A549 cells. We compared gene expression profiles of A549 cells transduced with lentiviruses expressing scrambled shRNA control or INSL4 shRNA. Our analysis revealed INSL4-regulated gene program that are involved in the regulation of cell cycle, growth and survival.
+GPL17586_Group,GPL17586_Accession,GPL17586_Title,GPL17586_Source name,GPL17586_Cell line,GPL17586_Genotype/variation
+-,GSM2863206,"A549 shCtl, biological rep1 (WA1)","human lung carcinoma epithelial cells, vector control",A549 cells,vector knock-down control
+-,GSM2863207,"A549 shINSL4 A, biological rep1 (WA2)","human lung carcinoma epithelial cells, INSL4 knock-down",A549 cells,INSL4 knock-down
+-,GSM2863208,"A549 shCtl, biological rep2 (WB1)","human lung carcinoma epithelial cells, vector control",A549 cells,vector knock-down control
+-,GSM2863209,"A549 shINSL4 A, biological rep2 (WB2)","human lung carcinoma epithelial cells, INSL4 knock-down",A549 cells,INSL4 knock-down

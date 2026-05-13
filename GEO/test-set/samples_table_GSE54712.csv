@@ -1,0 +1,11 @@
+# TITLE: Transcriptional changes taking place during differentiation of H460-derived CSCs
+# SUMMARY: Cancer Stem Cells derived from human non-small cells lung cancer (NSCLC) H460 cells were differentiated by culturing them in the presence of Foetal Bovine Serum under adherent conditions. Changes in gene expression profiles were determined at 3, 9 and 24 hours of differentiation
+GPL4133_Group,GPL4133_Accession,GPL4133_Title,GPL4133_Source name,GPL4133_Cell line,GPL4133_Characteristics
+-,GSM1322678,H460_cells-undifferentiated-REP1,H460_cells-undifferentiated,Lung cancer (NSCL) H460 cells,time culture (hours): 0h
+-,GSM1322679,H460_cells-undifferentiated-REP2,H460_cells-undifferentiated,Lung cancer (NSCL) H460 cells,time culture (hours): 0h
+-,GSM1322680,H460_cells-3h-differentiation-REP1,H460_cells-3h-differentiation,Lung cancer (NSCL) H460 cells,time culture (hours): 3h
+-,GSM1322681,H460_cells-3h-differentiation-REP2,H460_cells-3h-differentiation,Lung cancer (NSCL) H460 cells,time culture (hours): 3h
+-,GSM1322682,H460_cells-9h-differentiation-REP1,H460_cells-9h-differentiation,Lung cancer (NSCL) H460 cells,time culture (hours): 9h
+-,GSM1322683,H460_cells-9h-differentiation-REP2,H460_cells-9h-differentiation,Lung cancer (NSCL) H460 cells,time culture (hours): 9h
+-,GSM1322684,H460_cells-24h-differentiation-REP1,H460_cells-24h-differentiation,Lung cancer (NSCL) H460 cells,time culture (hours): 24h
+-,GSM1322685,H460_cells-24h-differentiation-REP2,H460_cells-24h-differentiation,Lung cancer (NSCL) H460 cells,time culture (hours): 24h

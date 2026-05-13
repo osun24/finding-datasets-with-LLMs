@@ -1,0 +1,2 @@
+Title: La protein plays its RNA chaperone function by binding with the mRNAs of target genes and participates the pathological process of ovarian cancer
+Description: The expression of La protein in A2780 ovarian cells was interfered by Lentivirus. In order to research the effect of La RNA interference on the expression of proteins in ovarian cancer A2780 cells, proteomic analysis conducted by TMT labeling and MS analysis was done in interference group (KD1) group and control group (NC) with 5 biological replicates in each group.

@@ -1,0 +1,2 @@
+Title: Proteomic analysis reveals low dose PARP inhibitor-induced differential protein expression in BRCA1-mutated high-grade serous ovarian cancer cells
+Description: To detect the off-target effects of PARP inhibition, a quantitative mass spectrometry-based proteomic analysis was conducted of a BRCA1-mutated HGSOC cell line treated with low doses of two PARPi, Niraparib and Rucaparib.

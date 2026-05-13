@@ -1,0 +1,2 @@
+Title: Proteomic analysis of blood biomarkers predicting prognosis of high-grade serous ovarian carcinoma
+Description: Ovarian cancer is one of the most lethal female cancer and tends to be diagnosed at an advanced stage, resulting high recurrence and mortality rates despite the treatment. Accurate prediction of prognosis is necessary to facilitate molecular profiling-based treatment. We investigated novel, blood-based prognostic biomarkers for high-grade serous ovarian carcinoma (HGSOC) using mass spectrometry-based proteomics methods.

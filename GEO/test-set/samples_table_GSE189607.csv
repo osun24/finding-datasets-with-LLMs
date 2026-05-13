@@ -1,0 +1,11 @@
+# TITLE: USF1 transcriptionally regulated UGT1A3 and promoted lung adenocarcinoma progression by regulating neurotrophin signaling pathway
+# SUMMARY: Lung cancer remains the leading cause of oncological death. There is an urgent need to discover new molecular targets and to develop new treatments. Our previous study showed that one of the UDP-glucuronosyltransferases (UGTs) family, UGT1A3, is an important prognostic factor for lung adenocarcinoma (LUAD), inhibiting UGT1A3 could significantly improve the efficacy of anti-tumor drugs. In this study, we aimed to explore the upstream transcriptional factor (USF1) of UGT1A3 and its way of playing a role in LUAD.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Tissue,GPL15207_Cell line,GPL15207_Cell type,GPL15207_Genotype
+-,GSM5704350,NC-UGT1A3,NCI-H1299,lung,H1299,non-small cell lung carcinoma cells,control for UGT1A3 knockdown
+-,GSM5704351,KD-UGT1A3,NCI-H1299,lung,H1299,non-small cell lung carcinoma cells,UGT1A3 knockdown
+-,GSM5704352,"NC-USF1, rep1",NCI-H1299,lung,H1299,non-small cell lung carcinoma cells,control for USF1 knockdown
+-,GSM5704353,"NC-USF1, rep2",NCI-H1299,lung,H1299,non-small cell lung carcinoma cells,control for USF1 knockdown
+-,GSM5704354,"NC-USF1, rep3",NCI-H1299,lung,H1299,non-small cell lung carcinoma cells,control for USF1 knockdown
+-,GSM5704355,"KD-USF1, rep1",NCI-H1299,lung,H1299,non-small cell lung carcinoma cells,USF1 knockdown
+-,GSM5704356,"KD-USF1, rep2",NCI-H1299,lung,H1299,non-small cell lung carcinoma cells,USF1 knockdown
+-,GSM5704357,"KD-USF1, rep3",NCI-H1299,lung,H1299,non-small cell lung carcinoma cells,USF1 knockdown

@@ -1,0 +1,9 @@
+# TITLE: Analysis of gene expression in shMETTL7B-A549 lung cancer cells
+# SUMMARY: Deletion of shMETTL7B significantly decreased number of colony in colony forming assay and cell number in proliferation assay for NSCLC cells in in vitro and inhibited the tumorigenesis in vivo. In order to explore the mechanism, gene expression profiles of NSCLC cells were investigated.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Cell type
+-,GSM4224317,"A549-shMETTL7B, biological rep1",A549 cell infected with shMETTL7B lentivirus,NSCLC A549 cell
+-,GSM4224318,"A549-shMETTL7B, biological rep2",A549 cell infected with shMETTL7B lentivirus,NSCLC A549 cell
+-,GSM4224319,"A549-shMETTL7B, biological rep3",A549 cell infected with shMETTL7B lentivirus,NSCLC A549 cell
+-,GSM4224320,"A549-shCTRL, biological rep1",A549 cell infected with shcontrol lentivirus,NSCLC A549 cell
+-,GSM4224321,"A549-shCTRL, biological rep2",A549 cell infected with shcontrol lentivirus,NSCLC A549 cell
+-,GSM4224322,"A549-shCTRL, biological rep3",A549 cell infected with shcontrol lentivirus,NSCLC A549 cell

@@ -1,0 +1,33 @@
+# TITLE: Field of Cancerization in Peripheral Airway Epithelium: Gene Expresssion
+# SUMMARY: Field of cancerization in the airway epithelium has been increasing examined to understand early pathogenesis of non-small cell lung cancer. This study uses microarray high-throughput technologies to characterize the molecular aberrations in the terminal airway and bronchoalveolar cells in the context of field cancerization in high-risk smokers and lung cancer patients.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Subject id,GPL570_Age,GPL570_Gender,GPL570_Case,GPL570_Cell type
+-,GSM1316828,"peripheral airway epithelial cells, smoker 1, rep1",peripheral airway epithelial cells_smoker,smoker 1,53,male,smoker,peripheral airway epithelial cells
+-,GSM1316829,"peripheral airway epithelial cells, cancer 11, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 11,68,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316830,"peripheral airway epithelial cells, cancer 12, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 12,58,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316831,"peripheral airway epithelial cells, cancer 13, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 13,50,female,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316832,"peripheral airway epithelial cells, cancer 14, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 14,63,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316833,"peripheral airway epithelial cells, cancer 15, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 15,69,female,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316834,"peripheral airway epithelial cells, cancer 17, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 17,67,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316835,"peripheral airway epithelial cells, cancer 18, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 18,66,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316836,"peripheral airway epithelial cells, cancer 19, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 19,62,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316837,"peripheral airway epithelial cells, smoker 2, rep1",peripheral airway epithelial cells_smoker,smoker 2,62,male,smoker,peripheral airway epithelial cells
+-,GSM1316838,"peripheral airway epithelial cells, cancer 21, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 21,74,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316839,"peripheral airway epithelial cells, cancer 22, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 22,70,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316840,"peripheral airway epithelial cells, cancer 23, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 23,76,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316841,"peripheral airway epithelial cells, cancer 24, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 24,50,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316842,"peripheral airway epithelial cells, cancer 25, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 25,63,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316843,"peripheral airway epithelial cells, smoker 27, rep1",peripheral airway epithelial cells_smoker,smoker 27,68,male,smoker,peripheral airway epithelial cells
+-,GSM1316844,"peripheral airway epithelial cells, smoker 28, rep1",peripheral airway epithelial cells_smoker,smoker 28,66,male,smoker,peripheral airway epithelial cells
+-,GSM1316845,"peripheral airway epithelial cells, smoker 29, rep1",peripheral airway epithelial cells_smoker,smoker 29,51,male,smoker,peripheral airway epithelial cells
+-,GSM1316846,"peripheral airway epithelial cells, smoker 3, rep1",peripheral airway epithelial cells_smoker,smoker 3,62,male,smoker,peripheral airway epithelial cells
+-,GSM1316847,"peripheral airway epithelial cells, smoker 30, rep1",peripheral airway epithelial cells_smoker,smoker 30,68,male,smoker,peripheral airway epithelial cells
+-,GSM1316848,"peripheral airway epithelial cells, cancer 31, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 31,66,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316849,"peripheral airway epithelial cells, cancer 32, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 32,67,male,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316850,"peripheral airway epithelial cells, cancer 33, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 33,58,female,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316851,"peripheral airway epithelial cells, cancer 34, rep1",contral-lateral peripheral airway epithelial cells_cancer,cancer 34,57,female,adenocarcinoma,contral-lateral peripheral airway epithelial cells
+-,GSM1316852,"peripheral airway epithelial cells, smoker 35, rep1",peripheral airway epithelial cells_smoker,smoker 35,52,female,smoker,peripheral airway epithelial cells
+-,GSM1316853,"peripheral airway epithelial cells, smoker 36, rep1",peripheral airway epithelial cells_smoker,smoker 36,52,female,smoker,peripheral airway epithelial cells
+-,GSM1316854,"peripheral airway epithelial cells, smoker 5, rep1",peripheral airway epithelial cells_smoker,smoker 5,66,female,smoker,peripheral airway epithelial cells
+-,GSM1316855,"peripheral airway epithelial cells, smoker 6, rep1",peripheral airway epithelial cells_smoker,smoker 6,64,male,smoker,peripheral airway epithelial cells
+-,GSM1316856,"peripheral airway epithelial cells, smoker 7, rep1",peripheral airway epithelial cells_smoker,smoker 7,67,male,smoker,peripheral airway epithelial cells
+-,GSM1316857,"peripheral airway epithelial cells, smoker 8, rep1",peripheral airway epithelial cells_smoker,smoker 8,69,female,smoker,peripheral airway epithelial cells

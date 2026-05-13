@@ -1,0 +1,45 @@
+# TITLE: Gene expression profiles of tumor and paired normal lung tissues from primary non-small cell lung cancer (NSCLC) patients in Taiwan.
+# SUMMARY: Genome-wide expression profiling of NSCLC patients were done using Phalanx Human OneArray chip. The surgically resected tumor tissue and corresponding normal tissue were collected from 21 patients diagnosed with primary NSCLC admitted to Taipei Veterans General Hospital, Taiwan.
+GPL6254_Group,GPL6254_Accession,GPL6254_Title,GPL6254_Source name,GPL6254_Tissue,GPL6254_Histology,GPL6254_Stage,GPL6254_Sex,GPL6254_Age
+-,GSM545615,Patient 25T,primary lung tumor,primary lung tumor,SQ,IIB,Male,73 years
+-,GSM545616,Patient 26T,primary lung tumor,primary lung tumor,AD,IB,Male,74 years
+-,GSM545617,Patient 34T,primary lung tumor,primary lung tumor,SQ,IIIA,Male,65 years
+-,GSM545618,Patient 41T,primary lung tumor,primary lung tumor,SQ,IIIA,Male,74 years
+-,GSM545619,Patient 42T,primary lung tumor,primary lung tumor,AD,IIIA,Male,73 years
+-,GSM545620,Patient 44T,primary lung tumor,primary lung tumor,AD,IV,Male,60 years
+-,GSM545621,Patient 48T,primary lung tumor,primary lung tumor,AD,IIIA,Male,78 years
+-,GSM545622,Patient 75T,primary lung tumor,primary lung tumor,AD,IB,Male,74 years
+-,GSM545623,Patient 85T,primary lung tumor,primary lung tumor,AD,IB,Male,66 years
+-,GSM545624,Patient 94T,primary lung tumor,primary lung tumor,AD,IV,Male,58 years
+-,GSM545625,Patient 100T,primary lung tumor,primary lung tumor,SQ,IB,Male,71 years
+-,GSM545626,Patient 103T,primary lung tumor,primary lung tumor,SQ,IIIA,Male,62 years
+-,GSM545627,Patient 104T,primary lung tumor,primary lung tumor,AD,IIB,Male,69 years
+-,GSM545628,Patient 114T,primary lung tumor,primary lung tumor,SQ,IB,Male,67 years
+-,GSM545629,Patient 124T,primary lung tumor,primary lung tumor,SQ,IIB,Male,75 years
+-,GSM545630,Patient 129T,primary lung tumor,primary lung tumor,SQ,IV,Male,77 years
+-,GSM545631,Patient 139T,primary lung tumor,primary lung tumor,SQ,IIIB,Male,67 years
+-,GSM545632,Patient 143T,primary lung tumor,primary lung tumor,SQ,IB,Male,81 years
+-,GSM545633,Patient 148T,primary lung tumor,primary lung tumor,AD,IV,Male,78 years
+-,GSM545634,Patient 152T,primary lung tumor,primary lung tumor,AD,IA,Male,79 years
+-,GSM545635,Patient 176T,primary lung tumor,primary lung tumor,AD,IV,Male,50 years
+-,GSM545636,Patient 25N,primary normal lung tissue,primary normal lung tissue,,,Male,73 years
+-,GSM545637,Patient 26N,primary normal lung tissue,primary normal lung tissue,,,Male,74 years
+-,GSM545638,Patient 34N,primary normal lung tissue,primary normal lung tissue,,,Male,65 years
+-,GSM545639,Patient 41N,primary normal lung tissue,primary normal lung tissue,,,Male,74 years
+-,GSM545640,Patient 42N,primary normal lung tissue,primary normal lung tissue,,,Male,73 years
+-,GSM545641,Patient 44N,primary normal lung tissue,primary normal lung tissue,,,Male,60 years
+-,GSM545642,Patient 48N,primary normal lung tissue,primary normal lung tissue,,,Male,78 years
+-,GSM545643,Patient 75N,primary normal lung tissue,primary normal lung tissue,,,Male,74 years
+-,GSM545644,Patient 85N,primary normal lung tissue,primary normal lung tissue,,,Male,66 years
+-,GSM545645,Patient 94N,primary normal lung tissue,primary normal lung tissue,,,Male,58 years
+-,GSM545646,Patient 100N,primary normal lung tissue,primary normal lung tissue,,,Male,71 years
+-,GSM545647,Patient 103N,primary normal lung tissue,primary normal lung tissue,,,Male,62 years
+-,GSM545648,Patient 104N,primary normal lung tissue,primary normal lung tissue,,,Male,69 years
+-,GSM545649,Patient 114N,primary normal lung tissue,primary normal lung tissue,,,Male,67 years
+-,GSM545650,Patient 124N,primary normal lung tissue,primary normal lung tissue,,,Male,75 years
+-,GSM545651,Patient 129N,primary normal lung tissue,primary normal lung tissue,,,Male,77 years
+-,GSM545652,Patient 139N,primary normal lung tissue,primary normal lung tissue,,,Male,67 years
+-,GSM545653,Patient 143N,primary normal lung tissue,primary normal lung tissue,,,Male,81 years
+-,GSM545654,Patient 148N,primary normal lung tissue,primary normal lung tissue,,,Male,78 years
+-,GSM545655,Patient 152N,primary normal lung tissue,primary normal lung tissue,,,Male,79 years
+-,GSM545656,Patient 176N,primary normal lung tissue,primary normal lung tissue,,,Male,50 years

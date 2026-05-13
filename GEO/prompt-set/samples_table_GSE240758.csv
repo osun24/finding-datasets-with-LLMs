@@ -1,0 +1,27 @@
+# TITLE: A plasma miRNA-based classifier for small cell lung cancer diagnosis [NanoString]
+# SUMMARY: Objectives: Small cell lung cancer (SCLC) is characterized by poor prognosis and challenging diagnosis. Screening in high-risk smokers results in a reduction in lung cancer mortality, however, screening efforts are primarily focused on non-small cell lung cancer (NSCLC). SCLC diagnosis and surveillance remain significant challenges. The aberrant expression of circulating microRNAs (miRNAs/miRs) is reported in many tumors and can provide insights into the pathogenesis of tumor development and progression. Here, we conducted a comprehensive assessment of circulating miRNAs in SCLC with a goal of developing a miRNA-based biomarker classifier to assist in SCLC diagnoses. Materials and Methods: We profiled deregulated circulating cell-free miRNA in the plasma of SCLC patients. We tested selected miRs on a training cohort and created a classifier by integrating miRNA expression and patient clinical data. Finally, we applied the classifier on a validation dataset. Results: We determined that miR-375-3p can discriminate between SCLC and NSCLC patients, and between SCLC and Squamous Cell Carcinoma patients. Moreover, we found that a model comprising miR-375-3p, miR-320b, and miR-144-3p can be integrated with race and age to distinguish metastatic SCLC from a control group. Conclusion: This study proposes a miRNA-based biomarker classifier for SCLC that considers clinical demographics with specific cut offs to inform SCLC diagnosis.
+GPL33669_Group,GPL33669_Accession,GPL33669_Title,GPL33669_Source name,GPL33669_Disease,GPL33669_Age,GPL33669_Race,GPL33669_Sex,GPL33669_Stage
+-,GSM7708770,Healty Donor 1,Plasma Extracellular Vesicles,Healty Donor,69,White,Male,
+-,GSM7708771,Healty Donor 2,Plasma Extracellular Vesicles,Healty Donor,71,White,Female,
+-,GSM7708772,Healty Donor 3,Plasma Extracellular Vesicles,Healty Donor,58,White,Male,
+-,GSM7708773,Healty Donor 4,Plasma Extracellular Vesicles,Healty Donor,67,White,Male,
+-,GSM7708774,Healty Donor 5,Plasma Extracellular Vesicles,Healty Donor,55,White,Male,
+-,GSM7708775,Healty Donor 6,Plasma Extracellular Vesicles,Healty Donor,58,Black,Female,
+-,GSM7708776,Healty Donor 7,Plasma Extracellular Vesicles,Healty Donor,61,White,Female,
+-,GSM7708777,Healty Donor 8,Plasma Extracellular Vesicles,Healty Donor,68,Black,Female,
+-,GSM7708778,Adenocarcinoma Sample 1,Plasma Extracellular Vesicles,Lung Cancer patient with Adenocarcinoma,52,Black,Male,IV
+-,GSM7708779,Adenocarcinoma Sample 2,Plasma Extracellular Vesicles,Lung Cancer patient with Adenocarcinoma,65,White,Female,III
+-,GSM7708780,Adenocarcinoma Sample 3,Plasma Extracellular Vesicles,Lung Cancer patient with Adenocarcinoma,69,White,Male,I
+-,GSM7708781,Adenocarcinoma Sample 4,Plasma Extracellular Vesicles,Lung Cancer patient with Adenocarcinoma,65,Black,Female,II
+-,GSM7708782,Squamous Cell Carcinoma Sample 1,Plasma Extracellular Vesicles,Lung Cancer patient with Squamous Cell Carcinoma,64,Black,Male,IIA
+-,GSM7708783,Squamous Cell Carcinoma Sample 2,Plasma Extracellular Vesicles,Lung Cancer patient with Squamous Cell Carcinoma,58,White,Female,IB
+-,GSM7708784,Squamous Cell Carcinoma Sample 3,Plasma Extracellular Vesicles,Lung Cancer patient with Squamous Cell Carcinoma,54,Black,Male,IV
+-,GSM7708785,Squamous Cell Carcinoma Sample 4,Plasma Extracellular Vesicles,Lung Cancer patient with Squamous Cell Carcinoma,68,Black,Female,IIIA
+-,GSM7708786,Small Cell Lung Cancer Sample 1,Plasma Extracellular Vesicles,Lung Cancer patient with SCLC,57,Black,Male,IIIA
+-,GSM7708787,Small Cell Lung Cancer Sample 2,Plasma Extracellular Vesicles,Lung Cancer patient with SCLC,54,Black,Male,IVA
+-,GSM7708788,Small Cell Lung Cancer Sample 3,Plasma Extracellular Vesicles,Lung Cancer patient with SCLC,67,White,Male,IV
+-,GSM7708789,Small Cell Lung Cancer Sample 4,Plasma Extracellular Vesicles,Lung Cancer patient with SCLC,60,Black,Female,I
+-,GSM7708790,Small Cell Lung Cancer Sample 5,Plasma Extracellular Vesicles,Lung Cancer patient with SCLC,69,White,Male,IIB
+-,GSM7708791,Small Cell Lung Cancer Sample 6,Plasma Extracellular Vesicles,Lung Cancer patient with SCLC,71,Black,Female,IIIA
+-,GSM7708792,Small Cell Lung Cancer Sample 7,Plasma Extracellular Vesicles,Lung Cancer patient with SCLC,70,White,Female,IVA
+-,GSM7708793,Small Cell Lung Cancer Sample 8,Plasma Extracellular Vesicles,Lung Cancer patient with SCLC,62,White,Female,IVB
