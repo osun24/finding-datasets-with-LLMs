@@ -2,15 +2,17 @@
 Utility script to fetch replication batch results for specific OpenAI runs.
 
 The script scans all batches created on October 22, 2025 and downloads the
-outputs for the replicates generated via `csv-to-openai.py` using the batch
-request files named `batch_requests_{model}-chemo-v3-{seed}.jsonl` for:
+outputs for the replicates generated via `json-to-openai-proteom.py` using the
+batch request files named
+`batch_requests_{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl` for:
 
 - Models: `o4-mini`, `gpt-5-mini`
 - Seeds: 43, 44, 45, 46
 
 Output files are saved alongside existing batch outputs using the
-`batch-output-{model}-chemo-v3-{seed}.jsonl` naming convention. Any batch-level
-error files are stored as `batch-errors-{model}-chemo-v3-{seed}.jsonl`.
+`batch-output-{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl` naming
+convention. Any batch-level error files are stored as
+`batch-errors-{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl`.
 """
 
 from __future__ import annotations
@@ -26,9 +28,11 @@ from dotenv import load_dotenv
 TARGET_DATE = datetime(2025, 10, 26).date()
 TARGET_MODELS = ["o4-mini", "gpt-5-mini"]
 TARGET_SEEDS = [47, 48, 49, 50, 51]
-REQUEST_NAME_TEMPLATE = "batch_requests_{model}-edoc-proteom-v3-{seed}.jsonl"
-OUTPUT_NAME_TEMPLATE = "out-{model}-edoc-proteom-v3-{seed}.jsonl"
-ERROR_NAME_TEMPLATE = "batch-errors-{model}-edoc-proteom-v3-{seed}.jsonl"
+USE_PROMPT_SET = True
+SPLIT_NAME = "prompt-set" if USE_PROMPT_SET else "test-set"
+REQUEST_NAME_TEMPLATE = "batch_requests_{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl"
+OUTPUT_NAME_TEMPLATE = "batch-output-{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl"
+ERROR_NAME_TEMPLATE = "batch-errors-{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl"
 
 
 def get_openai_client():
@@ -116,7 +120,10 @@ def match_target_batches(client, batches: Iterable) -> Dict[str, Dict]:
     dictionary keyed by the request filename with metadata for downloading.
     """
     targets = {
-        REQUEST_NAME_TEMPLATE.format(model=model, seed=seed): {"model": model, "seed": seed}
+        REQUEST_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed): {
+            "model": model,
+            "seed": seed,
+        }
         for model in TARGET_MODELS
         for seed in TARGET_SEEDS
     }
@@ -180,7 +187,9 @@ def main():
 
         output_file_id = info["output_file_id"]
         if output_file_id:
-            destination = Path(OUTPUT_NAME_TEMPLATE.format(model=model, seed=seed))
+            destination = Path(
+                OUTPUT_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed)
+            )
             print(f"    ⬇️  Downloading output to {destination}...")
             download_file(client, output_file_id, destination)
         else:
@@ -188,15 +197,20 @@ def main():
 
         error_file_id = info["error_file_id"]
         if error_file_id:
-            destination = Path(ERROR_NAME_TEMPLATE.format(model=model, seed=seed))
+            destination = Path(
+                ERROR_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed)
+            )
             print(f"    ⚠️  Downloading error log to {destination}...")
             download_file(client, error_file_id, destination)
 
     missing = [
-        REQUEST_NAME_TEMPLATE.format(model=model, seed=seed)
+        REQUEST_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed)
         for model in TARGET_MODELS
         for seed in TARGET_SEEDS
-        if REQUEST_NAME_TEMPLATE.format(model=model, seed=seed) not in matches
+        if (
+            REQUEST_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed)
+            not in matches
+        )
     ]
 
     if missing:

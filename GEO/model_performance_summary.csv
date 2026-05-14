@@ -1,0 +1,5 @@
+Model,Version,Trial,Split,File,true_positive,false_positive,false_negative,true_negative,total_files_evaluated,sensitivity,specificity,precision,accuracy,f1_score
+GPT-4.1-mini,v1,,prompt-set,out-gpt-4.1-mini-chemo-may13-v1-prompt-set.jsonl,4,5,0,170,179,1.0,0.971,0.444,0.972,0.615
+GPT-4o-mini,v1,,prompt-set,out-gpt-4o-mini-chemo-may13-v1-prompt-set.jsonl,4,6,0,169,179,1.0,0.966,0.4,0.966,0.571
+GPT-5-mini,v1,,prompt-set,out-gpt-5-mini-chemo-may13-v1-prompt-set.jsonl,4,2,0,173,179,1.0,0.989,0.667,0.989,0.8
+o4-mini,v1,,prompt-set,out-o4-mini-chemo-may13-v1-prompt-set.jsonl,3,2,1,173,179,0.75,0.989,0.6,0.983,0.667
