@@ -93,10 +93,10 @@ GEO_RESPONSE_FORMAT = {
     },
 }
 
-PROMPT_VERSION = "v1"
+PROMPT_VERSION = "v2"
 def build_prompt(csv_text):
     # v1 - new, following JSON schema and template from Figure 1
-    system_message = (
+    """system_message = (
         "You are an oncology expert evaluating clinical datasets based on inclusion/exclusion criteria. Respond concisely and clearly, returning answers in the given structure."
     )
     user_message = (
@@ -109,6 +109,25 @@ def build_prompt(csv_text):
         "Let's think step by step and answer the following questions, matching the JSON schema keys:\n"
         "\t1.\tq1_survival_data: Does the dataset include survival status and time data (e.g., OS, RFS, PFS)? If so, specify.\n"
         "\t2.\tq2_stage_i_or_act: Does it include a majority of patients (>50%) with Stage I NSCLC or explicit adjuvant chemotherapy (ACT) annotation? If so, specify.\n"
+        "\t3.\tq3_inclusion_justification: Based on the criteria, justify whether the dataset should be considered for inclusion.\n"
+        "\t4.\tq4_include_in_meta_analysis: Should this dataset be considered for inclusion in the meta-analysis? Answer \"Yes\" or \"No\".\n\n"
+        f"{csv_text}"
+    )"""
+    
+    #v2 — see prompt-versions.md for details on changes
+    system_message = (
+        "You are an oncology expert evaluating clinical datasets based on inclusion/exclusion criteria. Respond concisely and clearly, returning answers in the given structure."
+    )
+    user_message = (
+        "A clinical non-small cell lung cancer (NSCLC) dataset, its title, and description are included below.\n\n"
+        
+        "Inclusion Criteria:\n"
+        "1. Presence of patient-specific variables for survival time and status (e.g., overall survival status and overall survival survival time; or progression-free survival status and progression-free survival time).\n"
+        "2. At least one of the following: total-study sample composition of at least 50% stage I patients; or explicit adjuvant chemotherapy annotation.\n\n"
+        
+        "Let's think step by step and answer the following questions, matching the JSON schema keys:\n"
+        "\t1.\tq1_survival_data: Does the dataset include patient-specific **variables** for survival status and survival time (e.g., OS, RFS, PFS)? If so, specify the variables.\n"
+        "\t2.\tq2_stage_i_or_act: Does the dataset, as a whole, include a majority of patients (>50%) with Stage I NSCLC or explicit adjuvant chemotherapy (ACT) annotation? If so, specify.\n"
         "\t3.\tq3_inclusion_justification: Based on the criteria, justify whether the dataset should be considered for inclusion.\n"
         "\t4.\tq4_include_in_meta_analysis: Should this dataset be considered for inclusion in the meta-analysis? Answer \"Yes\" or \"No\".\n\n"
         f"{csv_text}"
@@ -268,7 +287,7 @@ def main():
     input_directory = split_name
 
     # gpt-5-mini; o4-mini; gpt-4.1-mini; gpt-4o-mini
-    model = "gpt-4o-mini"  # Specify the model to use
+    model = "gpt-5-mini"  # Specify the model to use
     name = f"chemo-may13-{PROMPT_VERSION}-{split_name}"  # Specify the name for the batch job
     batch_file_path = f"batch_requests_{model}-{name}.jsonl"
 

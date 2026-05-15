@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "timestamp": "2026-05-13T11:34:21.854645",
+    "timestamp": "2026-05-14T19:21:16.485883",
     "description": "AI model performance evaluation for clinical dataset screening",
     "total_actual_studies": 4,
     "evaluation_criteria": "NSCLC clinical dataset inclusion/exclusion",
-    "last_updated": "2026-05-14T10:39:34.197657",
+    "last_updated": "2026-05-14T19:21:16.632204",
     "prompt_set_actual_studies": 4,
     "test_set_actual_studies": 8,
     "combined_actual_studies": 12,
@@ -12,12 +12,112 @@
   },
   "results": [
     {
+      "model": "GPT-4.1-mini",
+      "version": "v1",
+      "trial": null,
+      "split": "prompt-set",
+      "file_path": "out-gpt-4.1-mini-chemo-may13-v1-prompt-set.jsonl",
+      "timestamp": "2026-05-14T19:21:16.511281",
+      "metrics": {
+        "true_positive": 4,
+        "false_positive": 5,
+        "false_negative": 0,
+        "true_negative": 170,
+        "total_files_evaluated": 179,
+        "sensitivity": 1.0,
+        "specificity": 0.971,
+        "precision": 0.444,
+        "accuracy": 0.972,
+        "f1_score": 0.615
+      },
+      "details": {
+        "identified_studies": [
+          "samples_table_GSE37745.csv",
+          "samples_table_GSE29135.csv",
+          "samples_table_GSE198958.csv",
+          "samples_table_GSE102286.csv",
+          "samples_table_GSE7878.csv",
+          "samples_table_GSE16025.csv",
+          "samples_table_GSE39279.csv",
+          "samples_table_GSE101929.csv",
+          "samples_table_GSE12472.csv"
+        ],
+        "matched_studies": [
+          "samples_table_GSE37745.csv",
+          "samples_table_GSE16025.csv",
+          "samples_table_GSE39279.csv",
+          "samples_table_GSE101929.csv"
+        ],
+        "false_positives": [
+          "samples_table_GSE29135.csv",
+          "samples_table_GSE198958.csv",
+          "samples_table_GSE102286.csv",
+          "samples_table_GSE7878.csv",
+          "samples_table_GSE12472.csv"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 4,
+        "trial": null,
+        "split": "prompt-set"
+      }
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "version": "v2",
+      "trial": null,
+      "split": "prompt-set",
+      "file_path": "out-gpt-4.1-mini-chemo-may13-v2-prompt-set.jsonl",
+      "timestamp": "2026-05-14T19:21:16.532106",
+      "metrics": {
+        "true_positive": 4,
+        "false_positive": 5,
+        "false_negative": 0,
+        "true_negative": 170,
+        "total_files_evaluated": 179,
+        "sensitivity": 1.0,
+        "specificity": 0.971,
+        "precision": 0.444,
+        "accuracy": 0.972,
+        "f1_score": 0.615
+      },
+      "details": {
+        "identified_studies": [
+          "samples_table_GSE37745.csv",
+          "samples_table_GSE29135.csv",
+          "samples_table_GSE198958.csv",
+          "samples_table_GSE102286.csv",
+          "samples_table_GSE7878.csv",
+          "samples_table_GSE16025.csv",
+          "samples_table_GSE39279.csv",
+          "samples_table_GSE101929.csv",
+          "samples_table_GSE12472.csv"
+        ],
+        "matched_studies": [
+          "samples_table_GSE37745.csv",
+          "samples_table_GSE16025.csv",
+          "samples_table_GSE39279.csv",
+          "samples_table_GSE101929.csv"
+        ],
+        "false_positives": [
+          "samples_table_GSE29135.csv",
+          "samples_table_GSE198958.csv",
+          "samples_table_GSE102286.csv",
+          "samples_table_GSE7878.csv",
+          "samples_table_GSE12472.csv"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 4,
+        "trial": null,
+        "split": "prompt-set"
+      }
+    },
+    {
       "model": "GPT-4o-mini",
       "version": "v1",
       "trial": null,
       "split": "prompt-set",
       "file_path": "out-gpt-4o-mini-chemo-may13-v1-prompt-set.jsonl",
-      "timestamp": "2026-05-14T10:39:34.083636",
+      "timestamp": "2026-05-14T19:21:16.554479",
       "metrics": {
         "true_positive": 4,
         "false_positive": 6,
@@ -64,12 +164,62 @@
       }
     },
     {
+      "model": "GPT-4o-mini",
+      "version": "v2",
+      "trial": null,
+      "split": "prompt-set",
+      "file_path": "out-gpt-4o-mini-chemo-may13-v2-prompt-set.jsonl",
+      "timestamp": "2026-05-14T19:21:16.569955",
+      "metrics": {
+        "true_positive": 4,
+        "false_positive": 5,
+        "false_negative": 0,
+        "true_negative": 170,
+        "total_files_evaluated": 179,
+        "sensitivity": 1.0,
+        "specificity": 0.971,
+        "precision": 0.444,
+        "accuracy": 0.972,
+        "f1_score": 0.615
+      },
+      "details": {
+        "identified_studies": [
+          "samples_table_GSE101929.csv",
+          "samples_table_GSE37745.csv",
+          "samples_table_GSE29135.csv",
+          "samples_table_GSE198958.csv",
+          "samples_table_GSE7878.csv",
+          "samples_table_GSE16025.csv",
+          "samples_table_GSE102286.csv",
+          "samples_table_GSE53882.csv",
+          "samples_table_GSE39279.csv"
+        ],
+        "matched_studies": [
+          "samples_table_GSE101929.csv",
+          "samples_table_GSE37745.csv",
+          "samples_table_GSE16025.csv",
+          "samples_table_GSE39279.csv"
+        ],
+        "false_positives": [
+          "samples_table_GSE29135.csv",
+          "samples_table_GSE198958.csv",
+          "samples_table_GSE7878.csv",
+          "samples_table_GSE102286.csv",
+          "samples_table_GSE53882.csv"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 4,
+        "trial": null,
+        "split": "prompt-set"
+      }
+    },
+    {
       "model": "GPT-5-mini",
       "version": "v1",
       "trial": null,
       "split": "prompt-set",
       "file_path": "out-gpt-5-mini-chemo-may13-v1-prompt-set.jsonl",
-      "timestamp": "2026-05-14T10:39:34.129770",
+      "timestamp": "2026-05-14T19:21:16.587452",
       "metrics": {
         "true_positive": 4,
         "false_positive": 2,
@@ -108,12 +258,54 @@
       }
     },
     {
+      "model": "GPT-5-mini",
+      "version": "v2",
+      "trial": null,
+      "split": "prompt-set",
+      "file_path": "out-gpt-5-mini-chemo-may13-v2-prompt-set.jsonl",
+      "timestamp": "2026-05-14T19:21:16.604128",
+      "metrics": {
+        "true_positive": 4,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 174,
+        "total_files_evaluated": 179,
+        "sensitivity": 1.0,
+        "specificity": 0.994,
+        "precision": 0.8,
+        "accuracy": 0.994,
+        "f1_score": 0.889
+      },
+      "details": {
+        "identified_studies": [
+          "samples_table_GSE37745.csv",
+          "samples_table_GSE101929.csv",
+          "samples_table_GSE16025.csv",
+          "samples_table_GSE39279.csv",
+          "samples_table_GSE12472.csv"
+        ],
+        "matched_studies": [
+          "samples_table_GSE37745.csv",
+          "samples_table_GSE101929.csv",
+          "samples_table_GSE16025.csv",
+          "samples_table_GSE39279.csv"
+        ],
+        "false_positives": [
+          "samples_table_GSE12472.csv"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 4,
+        "trial": null,
+        "split": "prompt-set"
+      }
+    },
+    {
       "model": "o4-mini",
       "version": "v1",
       "trial": null,
       "split": "prompt-set",
       "file_path": "out-o4-mini-chemo-may13-v1-prompt-set.jsonl",
-      "timestamp": "2026-05-14T10:39:34.193439",
+      "timestamp": "2026-05-14T19:21:16.617418",
       "metrics": {
         "true_positive": 3,
         "false_positive": 2,
@@ -152,47 +344,39 @@
       }
     },
     {
-      "model": "GPT-4.1-mini",
-      "version": "v1",
+      "model": "o4-mini",
+      "version": "v2",
       "trial": null,
       "split": "prompt-set",
-      "file_path": "out-gpt-4.1-mini-chemo-may13-v1-prompt-set.jsonl",
-      "timestamp": "2026-05-14T10:39:34.054327",
+      "file_path": "out-o4-mini-chemo-may13-v2-prompt-set.jsonl",
+      "timestamp": "2026-05-14T19:21:16.631640",
       "metrics": {
         "true_positive": 4,
-        "false_positive": 5,
+        "false_positive": 1,
         "false_negative": 0,
-        "true_negative": 170,
+        "true_negative": 174,
         "total_files_evaluated": 179,
         "sensitivity": 1.0,
-        "specificity": 0.971,
-        "precision": 0.444,
-        "accuracy": 0.972,
-        "f1_score": 0.615
+        "specificity": 0.994,
+        "precision": 0.8,
+        "accuracy": 0.994,
+        "f1_score": 0.889
       },
       "details": {
         "identified_studies": [
           "samples_table_GSE37745.csv",
-          "samples_table_GSE29135.csv",
-          "samples_table_GSE198958.csv",
-          "samples_table_GSE102286.csv",
-          "samples_table_GSE7878.csv",
+          "samples_table_GSE101929.csv",
           "samples_table_GSE16025.csv",
           "samples_table_GSE39279.csv",
-          "samples_table_GSE101929.csv",
           "samples_table_GSE12472.csv"
         ],
         "matched_studies": [
           "samples_table_GSE37745.csv",
+          "samples_table_GSE101929.csv",
           "samples_table_GSE16025.csv",
-          "samples_table_GSE39279.csv",
-          "samples_table_GSE101929.csv"
+          "samples_table_GSE39279.csv"
         ],
         "false_positives": [
-          "samples_table_GSE29135.csv",
-          "samples_table_GSE198958.csv",
-          "samples_table_GSE102286.csv",
-          "samples_table_GSE7878.csv",
           "samples_table_GSE12472.csv"
         ],
         "false_negatives": [],

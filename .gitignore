@@ -1,5 +1,6 @@
 .DS_Store
 *.env
 GEO/.env
-GEO/.env
 ProteomeXChange/.env
+__pycache__
+.vscode

@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import List
 
 from openpyxl.formatting.rule import FormulaRule
-from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 
 """"4.1-mini/4.1mini-chemo-output.jsonl","4.1-mini/4.1mini-chemo-output-v2.jsonl", "4.1-mini/4.1mini-chemo-output-v3.jsonl", 
@@ -43,6 +43,10 @@ BASE_FILE_PATHS = [
     f"out-gpt-4o-mini-chemo-may13-v1-{SPLIT_NAME}.jsonl",
     f"out-gpt-4.1-mini-chemo-may13-v1-{SPLIT_NAME}.jsonl",
     f"out-o4-mini-chemo-may13-v1-{SPLIT_NAME}.jsonl",
+    f"out-gpt-5-mini-chemo-may13-v2-{SPLIT_NAME}.jsonl",
+    f"out-gpt-4o-mini-chemo-may13-v2-{SPLIT_NAME}.jsonl",
+    f"out-gpt-4.1-mini-chemo-may13-v2-{SPLIT_NAME}.jsonl",
+    f"out-o4-mini-chemo-may13-v2-{SPLIT_NAME}.jsonl",
 ]
 
 REPLICATION_PATTERNS = [
@@ -145,6 +149,10 @@ def parse_structured_answers(content):
     return answers
 
 
+def empty_structured_answers():
+    return {target_key: "" for target_key in STRUCTURED_FIELD_MAP.values()}
+
+
 def question_sort_key(col):
     match = re.match(r'^Q(\d+)([a-z]?)$', col, re.IGNORECASE)
     if not match:
@@ -164,6 +172,24 @@ def get_final_answer_column(df):
 def sheet_name_for(model, version):
     sheet_name = re.sub(r"[\[\]\:\*\?\/\\]", "_", f"{model}_{version}")
     return sheet_name[:31]
+
+
+def prompt_version_number(version):
+    match = re.fullmatch(r"v(\d+)", str(version))
+    return int(match.group(1)) if match else None
+
+
+def latest_reviewed_prompt_version(output_path):
+    output_path = Path(output_path)
+    review_dir = output_path.parent if output_path.parent != Path("") else Path(".")
+    latest_version = 0
+
+    for path in review_dir.glob("false_classification*_review_v*.xlsx"):
+        match = re.fullmatch(r"false_classifications?_review_v(\d+)\.xlsx", path.name)
+        if match:
+            latest_version = max(latest_version, int(match.group(1)))
+
+    return latest_version
 
 
 # Initialize results storage
@@ -201,12 +227,23 @@ def parse_batch_output(file_path, csv_output=None, actual_files=None):
         message = choices[0].get('message', {}) if choices else {}
         content = message.get('content') or ''
         model = body.get('model', '')
-        answers = parse_structured_answers(content)
+        parse_error = ""
+        try:
+            answers = parse_structured_answers(content)
+        except ValueError as exc:
+            answers = empty_structured_answers()
+            finish_reason = choices[0].get("finish_reason", "") if choices else ""
+            parse_error = f"parse_error: {exc}"
+            if finish_reason:
+                parse_error = f"{parse_error} (finish_reason={finish_reason})"
         
         cid = data.get('custom_id', '')
+        error = data.get('error', '') or message.get('refusal', '')
+        if parse_error:
+            error = f"{error}; {parse_error}" if error else parse_error
         row = {
             "custom_id": cid,
-            "error": data.get('error', '') or message.get('refusal', ''),
+            "error": error,
             "model": model,
         }
         row.update(answers)
@@ -426,20 +463,28 @@ def format_review_sheet(worksheet, root_cause_formula, row_count, col_count):
 
     header_fill = PatternFill("solid", fgColor="D9EAF7")
     fp_fill = PatternFill("solid", fgColor="FCE4D6")
-    fn_fill = PatternFill("solid", fgColor="DDEBF7")
+    fn_fill = PatternFill("solid", fgColor="FFF2CC")
     header_font = Font(bold=True)
     wrap_alignment = Alignment(wrap_text=True, vertical="top")
+    cell_border = Border(
+        left=Side(style="thin", color="D9D9D9"),
+        right=Side(style="thin", color="D9D9D9"),
+        top=Side(style="thin", color="D9D9D9"),
+        bottom=Side(style="thin", color="D9D9D9"),
+    )
 
     for cell in worksheet[1]:
         cell.fill = header_fill
         cell.font = header_font
         cell.alignment = wrap_alignment
+        cell.border = cell_border
 
     for row in worksheet.iter_rows(min_row=2, max_row=row_count, max_col=col_count):
         for cell in row:
             cell.alignment = wrap_alignment
+            cell.border = cell_border
 
-    worksheet.freeze_panes = "A2"
+    worksheet.freeze_panes = "B2"
     worksheet.auto_filter.ref = worksheet.dimensions
     autosize_review_columns(worksheet)
 
@@ -470,10 +515,26 @@ def format_review_sheet(worksheet, root_cause_formula, row_count, col_count):
         validation.add(f"{root_cause_letter}2:{root_cause_letter}{row_count}")
 
 
-def save_error_review_workbook(review_frames, output_path="false_classification_review.xlsx"):
+def save_error_review_workbook(review_frames, output_path="false_classifications_review.xlsx"):
     populated_frames = [frame for frame in review_frames if not frame.empty]
     if not populated_frames:
         print("No false classifications found; review workbook was not created.")
+        return None
+
+    latest_reviewed_version = latest_reviewed_prompt_version(output_path)
+    if latest_reviewed_version:
+        populated_frames = [
+            frame
+            for frame in populated_frames
+            if prompt_version_number(frame["version"].iloc[0]) is None
+            or prompt_version_number(frame["version"].iloc[0]) > latest_reviewed_version
+        ]
+
+    if not populated_frames:
+        print(
+            "No false classifications found for prompt versions after "
+            f"v{latest_reviewed_version}; review workbook was not created."
+        )
         return None
 
     grouped_frames = {}
@@ -500,6 +561,13 @@ def save_error_review_workbook(review_frames, output_path="false_classification_
                 row_count=len(sheet_df) + 1,
                 col_count=len(sheet_df.columns),
             )
+
+        first_visible_sheet = next(
+            index
+            for index, worksheet in enumerate(writer.book.worksheets)
+            if worksheet.sheet_state == "visible"
+        )
+        writer.book.active = first_visible_sheet
 
     print(f"False-classification review workbook saved to {output_path}")
     return output_path
