@@ -21,11 +21,12 @@ PROTEOMEXCHANGE_OUTPUT_SCHEMA = {
     "additionalProperties": False,
     "required": [
         "q1_ovarian_cancer",
-        "q2_healthy_controls",
+        "q2_healthy_controls_or_biomarker_discovery",
         "q2a_healthy_control_composition",
         "q3_proteomics",
-        "q4_inclusion_justification",
-        "q5_include_dataset",
+        "q4_non_clinical",
+        "q5_inclusion_justification",
+        "q6_include_dataset",
     ],
     "properties": {
         "q1_ovarian_cancer": {
@@ -37,7 +38,7 @@ PROTEOMEXCHANGE_OUTPUT_SCHEMA = {
                 "justification": {"type": "string"},
             },
         },
-        "q2_healthy_controls": {
+        "q2_healthy_controls_or_biomarker_discovery": {
             "type": "object",
             "additionalProperties": False,
             "required": ["answer", "evidence", "justification"],
@@ -69,7 +70,17 @@ PROTEOMEXCHANGE_OUTPUT_SCHEMA = {
                 "justification": {"type": "string"},
             },
         },
-        "q4_inclusion_justification": {
+        "q4_non_clinical": {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["answer", "evidence", "justification"],
+            "properties": {
+                "answer": {"type": "string", "enum": ["Yes", "No", "Unclear"]},
+                "evidence": {"type": "string"},
+                "justification": {"type": "string"},
+            },
+        },
+        "q5_inclusion_justification": {
             "type": "object",
             "additionalProperties": False,
             "required": ["meets_ovarian_cancer_criterion", "meets_healthy_controls_criterion", "meets_proteomics_criterion", "justification"],
@@ -80,7 +91,7 @@ PROTEOMEXCHANGE_OUTPUT_SCHEMA = {
                 "justification": {"type": "string"},
             },
         },
-        "q5_include_dataset": {
+        "q6_include_dataset": {
             "type": "object",
             "additionalProperties": False,
             "required": ["answer"],
@@ -102,9 +113,9 @@ PROTEOMEXCHANGE_RESPONSE_FORMAT = {
     },
 }
 
-PROMPT_VERSION = "v1"
+PROMPT_VERSION = "v2"
 def build_prompt(study_data):
-    system_message = (
+    """system_message = (
         "You are an oncology expert evaluating clinical datasets based on inclusion/exclusion criteria. Respond concisely and clearly, returning answers in the given structure."
     )
     
@@ -121,6 +132,29 @@ def build_prompt(study_data):
         "\t3.\tq3_proteomics: Does it include proteomics? If so, please explain.\n"
         "\t4.\tq4_inclusion_justification: Based on the inclusion/exclusion criteria, justify whether the dataset should be considered for inclusion.\n"
         "\t5.\tq5_include_dataset: Should the dataset be considered for inclusion? (Answer \"Yes\" or \"No\")\n\n"
+        f"{study_data}"
+    )"""
+    
+    system_message = (
+        "You are an oncology expert evaluating clinical datasets based on inclusion/exclusion criteria. Respond concisely and clearly, returning answers in the given structure."
+    )
+    
+    user_message = (
+        "A dataset's title and description are included below.\n\nInclusion Criteria: \n"
+        "1. The dataset must be about ovarian cancer.\n"
+        "2. The dataset must contain healthy patients as controls OR involve diagnostic biomarker discovery for ovarian cancer.\n"
+        "\t2a. If explicit sample compositions are provided, the dataset must contain at least 20% healthy patients as controls. If explicit sample compositions are not provided but healthy patient controls are present, include the dataset for additional human review.\n"
+        "3. The dataset must be on proteomics.\n\n"
+        "Exclusion Criteria:\n"
+        "4. Non-clinical datasets (e.g., xenografts, cell lines, animal models, and ex vivo studies) are excluded.\n\n"
+        "Let's think step by step and answer the following questions, matching the JSON schema keys:\n"
+        "\t1.\tq1_ovarian_cancer: Is the dataset about ovarian cancer? If so, justify.\n"
+        "\t2.\tq2_healthy_controls_or_biomarker_discovery: Does the dataset contain healthy patients as controls or involve diagnostic biomarker discovery for ovarian cancer? If so, please explain.\n"
+        "\t2a.\tq2a_healthy_control_composition: If the explicit sample compositions are provided, does the dataset contain at least 20% healthy patients as controls?\n If so, please explain.\n"
+        "\t3.\tq3_proteomics: Does it include proteomics? If so, please explain.\n"
+        "\t4.\tq4_non_clinical: Does the dataset include non-clinical samples (e.g., xenografts, cell lines, animal models, ex vivo studies, and in vitro studies)? If so, please explain.\n"
+        "\t5.\tq5_inclusion_justification: Based on the inclusion/exclusion criteria, justify whether the dataset should be considered for inclusion.\n"
+        "\t6.\tq6_include_dataset: Should the dataset be considered for inclusion? (Answer \"Yes\" or \"No\")\n\n"
         f"{study_data}"
     )
 
@@ -279,25 +313,25 @@ def download_file(file_id, save_path):
         f.write(file.bytes)
 
 def main():
-    use_prompt_set = True
+    use_prompt_set = False
     split_name = "prompt-set" if use_prompt_set else "test-set"
     input_directory = SCRIPT_DIR / split_name  # Directory containing .txt files
 
     # gpt-5-mini; o4-mini; gpt-4.1-mini; gpt-4o-mini
-    model = "gpt-4o-mini"  # Specify the model to use
+    model = "o4-mini"  # Specify the model to use
     name = f"proteom-may13-{PROMPT_VERSION}-{split_name}"  # Specify the name for the batch job
     batch_file_path = SCRIPT_DIR / f"batch_requests_{model}-{name}.jsonl"
 
     # Count tokens and create batch file
     reasoning = True
-    if model == "gpt-5-mini":
+    if model == "o4-mini":
         reasoning = True
 
     verify_schema_matches_prompt()
     
-    replication = False
+    replication = True
     if replication:
-        for seed in [47, 48, 49, 50, 51]: #47, 48, 49, 50, 51 43, 44, 45, 46
+        for seed in [43, 44, 45, 46, 47, 48, 49, 50, 51]: #47, 48, 49, 50, 51 43, 44, 45, 46
             name = f"proteom-may13-{PROMPT_VERSION}-{split_name}-{seed}"  # Specify the name for the batch job
             batch_file_path = SCRIPT_DIR / f"batch_requests_{model}-{name}.jsonl"
             

@@ -13,8 +13,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
-use_prompt_set = True
-SPLIT_NAME = "prompt-set" if use_prompt_set else "test-set"
+DISCOVER_SPLITS = ["prompt-set", "test-set"]
 
 PROMPT_POSITIVE_FILES = [
     "PXD009655",
@@ -45,25 +44,50 @@ TEST_POSITIVE_FILES = [
 ]
 
 COMBINED_POSITIVE_FILES = PROMPT_POSITIVE_FILES + TEST_POSITIVE_FILES
-ACTIVE_POSITIVE_FILES = PROMPT_POSITIVE_FILES if use_prompt_set else TEST_POSITIVE_FILES
 
 BASE_FILE_PATHS = [
-    f"out-gpt-5-mini-proteom-may13-v1-{SPLIT_NAME}.jsonl",
-    f"out-gpt-4o-mini-proteom-may13-v1-{SPLIT_NAME}.jsonl",
-    f"out-gpt-4.1-mini-proteom-may13-v1-{SPLIT_NAME}.jsonl",
-    f"out-o4-mini-proteom-may13-v1-{SPLIT_NAME}.jsonl",
+    f"out-gpt-5-mini-proteom-may13-v1-{split_name}.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"out-gpt-4o-mini-proteom-may13-v1-{split_name}.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"out-gpt-4.1-mini-proteom-may13-v1-{split_name}.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"out-o4-mini-proteom-may13-v1-{split_name}.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"out-gpt-5-mini-proteom-may13-v2-{split_name}.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"out-gpt-4o-mini-proteom-may13-v2-{split_name}.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"out-gpt-4.1-mini-proteom-may13-v2-{split_name}.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"out-o4-mini-proteom-may13-v2-{split_name}.jsonl"
+    for split_name in DISCOVER_SPLITS
 ]
 
 REPLICATION_PATTERNS = [
-    f"out-gpt-5-mini-proteom-may13-v*-{SPLIT_NAME}-*.jsonl",
-    f"out-o4-mini-proteom-may13-v*-{SPLIT_NAME}-*.jsonl",
-    f"batch-output-gpt-5-mini-proteom-may13-v*-{SPLIT_NAME}-*.jsonl",
-    f"batch-output-o4-mini-proteom-may13-v*-{SPLIT_NAME}-*.jsonl",
+    f"out-gpt-5-mini-proteom-may13-v*-{split_name}-*.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"out-o4-mini-proteom-may13-v*-{split_name}-*.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"batch-output-gpt-5-mini-proteom-may13-v*-{split_name}-*.jsonl"
+    for split_name in DISCOVER_SPLITS
+] + [
+    f"batch-output-o4-mini-proteom-may13-v*-{split_name}-*.jsonl"
+    for split_name in DISCOVER_SPLITS
 ]
 
 
 def discover_file_paths() -> List[str]:
-    """Gather all batch output files, including replication seeds."""
+    """Gather batch output files, including replication seeds."""
     discovered = set()
     for path in BASE_FILE_PATHS:
         full_path = SCRIPT_DIR / path
@@ -98,9 +122,10 @@ if not file_paths:
 
 ROOT_CAUSE_OPTIONS = [
     "disease_scope_misread",
-    "healthy_controls_misread",
+    "healthy_controls_or_biomarker_misread",
     "control_percentage_misread",
     "proteomics_evidence_misread",
+    "non_clinical_exclusion_misread",
     "cell_line_vs_patient_confusion",
     "ovarian_vs_ovary_confusion",
     "mechanistic_study_overincluded",
@@ -110,7 +135,19 @@ ROOT_CAUSE_OPTIONS = [
     "other",
 ]
 
+# Current schema from json-to-openai-proteom.py / PROTEOMEXCHANGE_OUTPUT_SCHEMA.
 STRUCTURED_FIELD_MAP = {
+    "q1_ovarian_cancer": "Q1",
+    "q2_healthy_controls_or_biomarker_discovery": "Q2",
+    "q2a_healthy_control_composition": "Q2a",
+    "q3_proteomics": "Q3",
+    "q4_non_clinical": "Q4",
+    "q5_inclusion_justification": "Q5",
+    "q6_include_dataset": "Q6",
+}
+
+# Older v1 output files used these keys. Keep this so historical files still parse.
+LEGACY_STRUCTURED_FIELD_MAP = {
     "q1_ovarian_cancer": "Q1",
     "q2_healthy_controls": "Q2",
     "q2a_healthy_control_composition": "Q2a",
@@ -145,16 +182,24 @@ def parse_structured_answers(content):
     if not isinstance(parsed, dict):
         raise ValueError("Expected structured JSON object from model response.")
 
+    field_map = STRUCTURED_FIELD_MAP
+    if "q2_healthy_controls_or_biomarker_discovery" not in parsed and "q2_healthy_controls" in parsed:
+        field_map = LEGACY_STRUCTURED_FIELD_MAP
+
     answers = {}
-    for source_key, target_key in STRUCTURED_FIELD_MAP.items():
+    for source_key, target_key in field_map.items():
         if source_key in parsed:
             answers[target_key] = format_structured_answer(parsed[source_key])
 
-    missing_keys = sorted(set(STRUCTURED_FIELD_MAP) - set(parsed))
+    missing_keys = sorted(set(field_map) - set(parsed))
     if missing_keys:
         raise ValueError(f"Structured JSON response missing keys: {missing_keys}")
 
     return answers
+
+
+def empty_structured_answers():
+    return {target_key: "" for target_key in STRUCTURED_FIELD_MAP.values()}
 
 
 def question_sort_key(col):
@@ -169,6 +214,10 @@ def get_question_columns(df):
 
 
 def get_final_answer_column(df):
+    if "Q6" in df.columns:
+        return "Q6"
+    if "Q5" in df.columns:
+        return "Q5"
     q_cols = get_question_columns(df)
     return q_cols[-1] if q_cols else df.columns[-1]
 
@@ -176,6 +225,15 @@ def get_final_answer_column(df):
 def sheet_name_for(model, version):
     sheet_name = re.sub(r"[\[\]\:\*\?\/\\]", "_", f"{model}_{version}")
     return sheet_name[:31]
+
+
+def split_for_file(file_path):
+    filename = Path(file_path).name
+    if "-prompt-set" in filename:
+        return "prompt-set", PROMPT_POSITIVE_FILES
+    if "-test-set" in filename:
+        return "test-set", TEST_POSITIVE_FILES
+    raise ValueError(f"Cannot infer split from filename: {filename}")
 
 
 def load_or_create_results():
@@ -215,12 +273,25 @@ def parse_batch_output(file_path, csv_output=None, actual_files=None):
             message = choices[0].get("message", {}) if choices else {}
             content = message.get("content") or ""
             model = body.get("model", "")
-            answers = parse_structured_answers(content)
+            parse_error = ""
+
+            try:
+                answers = parse_structured_answers(content)
+            except ValueError as exc:
+                answers = empty_structured_answers()
+                finish_reason = choices[0].get("finish_reason", "") if choices else ""
+                parse_error = f"parse_error: {exc}"
+                if finish_reason:
+                    parse_error = f"{parse_error} (finish_reason={finish_reason})"
 
             cid = data.get("custom_id", "")
+            error = data.get("error", "") or message.get("refusal", "")
+            if parse_error:
+                error = f"{error}; {parse_error}" if error else parse_error
+
             row = {
                 "custom_id": cid,
-                "error": data.get("error", "") or message.get("refusal", ""),
+                "error": error,
                 "model": model,
             }
             row.update(answers)
@@ -339,11 +410,9 @@ def show_detailed_responses(df, false_positives, false_negatives, first_col):
             if not fp_row.empty:
                 print(f"\n{fp_file}")
                 print("-" * 50)
-                for col in df.columns:
-                    if col.startswith("Q") and not fp_row[col].isna().iloc[0]:
-                        q_num = col[1:]
-                        response = fp_row[col].iloc[0]
-                        print(f"Q{q_num}: {response}")
+                for col in get_question_columns(df):
+                    if not fp_row[col].isna().iloc[0]:
+                        print(f"{col}: {fp_row[col].iloc[0]}")
                 print()
 
     if false_negatives:
@@ -355,11 +424,9 @@ def show_detailed_responses(df, false_positives, false_negatives, first_col):
             if not fn_row.empty:
                 print(f"\n{fn_file}")
                 print("-" * 50)
-                for col in df.columns:
-                    if col.startswith("Q") and not fn_row[col].isna().iloc[0]:
-                        q_num = col[1:]
-                        response = fn_row[col].iloc[0]
-                        print(f"Q{q_num}: {response}")
+                for col in get_question_columns(df):
+                    if not fn_row[col].isna().iloc[0]:
+                        print(f"{col}: {fn_row[col].iloc[0]}")
                 print()
             else:
                 print(f"\n{fn_file} - NO AI RESPONSE FOUND (not in evaluated dataset)")
@@ -412,7 +479,7 @@ def autosize_review_columns(worksheet):
         "human_include": 14,
         "model_include": 14,
         "error_type": 12,
-        "root_cause": 32,
+        "root_cause": 36,
         "notes": 42,
     }
     for cell in worksheet[1]:
@@ -547,7 +614,7 @@ def evaluate_dataframe(df, model, version, trial, file_path, actual_files, split
         "version": version,
         "trial": trial,
         "split": split_label,
-        "file_path": file_path,
+        "file_path": str(file_path),
         "timestamp": datetime.now().isoformat(),
         "metrics": metrics,
         "details": {
@@ -599,11 +666,21 @@ def prompt_pair_for_test_file(file_path):
     return str(prompt_path) if prompt_path.is_file() else None
 
 
-all_results["metadata"]["total_actual_studies"] = len(ACTIVE_POSITIVE_FILES)
+discovered_splits = sorted({split_for_file(file_path)[0] for file_path in file_paths})
+if discovered_splits == ["prompt-set"]:
+    total_actual_studies = len(PROMPT_POSITIVE_FILES)
+elif discovered_splits == ["test-set"]:
+    total_actual_studies = len(TEST_POSITIVE_FILES)
+else:
+    total_actual_studies = len(COMBINED_POSITIVE_FILES)
+
+all_results["metadata"]["total_actual_studies"] = total_actual_studies
 all_results["metadata"]["prompt_set_actual_studies"] = len(PROMPT_POSITIVE_FILES)
 all_results["metadata"]["test_set_actual_studies"] = len(TEST_POSITIVE_FILES)
 all_results["metadata"]["combined_actual_studies"] = len(COMBINED_POSITIVE_FILES)
-all_results["metadata"]["split"] = SPLIT_NAME
+all_results["metadata"]["split"] = (
+    ",".join(discovered_splits) if discovered_splits else ",".join(DISCOVER_SPLITS)
+)
 all_results["metadata"]["description"] = (
     "AI model performance evaluation for ProteomeXChange dataset screening"
 )
@@ -618,21 +695,22 @@ for file_path in file_paths:
     model = metadata["model"]
     version = metadata["version"]
     trial = metadata["trial"]
+    split_label, actual_files = split_for_file(file_path)
 
     label = f"{model} {version}".strip()
     if trial:
         label = f"{label} [{trial}]"
 
-    print(f"Processing {file_path} -> {label}...")
-    df = parse_batch_output(file_path, csv_output, actual_files=ACTIVE_POSITIVE_FILES)
+    print(f"Processing {file_path} -> {label} [{split_label}]...")
+    df = parse_batch_output(file_path, csv_output, actual_files=actual_files)
     result_entry = evaluate_dataframe(
         df=df,
         model=model,
         version=version,
         trial=trial,
         file_path=file_path,
-        actual_files=ACTIVE_POSITIVE_FILES,
-        split_label=SPLIT_NAME,
+        actual_files=actual_files,
+        split_label=split_label,
     )
     upsert_result(result_entry)
     error_review_frames.append(
@@ -641,11 +719,11 @@ for file_path in file_paths:
             model=model,
             version=version,
             file_path=file_path,
-            split_label=SPLIT_NAME,
+            split_label=split_label,
         )
     )
 
-    if not use_prompt_set:
+    if split_label == "test-set":
         prompt_file_path = prompt_pair_for_test_file(file_path)
         if prompt_file_path:
             print(f"\nProcessing combined prompt+test set for {label}...")

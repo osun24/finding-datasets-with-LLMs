@@ -1,38 +1,34 @@
 """
-Utility script to fetch replication batch results for specific OpenAI runs.
+Utility script to fetch ProteomeXChange replication batch results.
 
-The script scans all batches created on October 22, 2025 and downloads the
-outputs for the replicates generated via `json-to-openai-proteom.py` using the
-batch request files named
-`batch_requests_{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl` for:
+The script scans batches created after May 14, 2026 at 9:35 PM PDT and
+downloads outputs for input files whose filenames contain `proteom`.
 
-- Models: `o4-mini`, `gpt-5-mini`
-- Seeds: 43, 44, 45, 46
-
-Output files are saved alongside existing batch outputs using the
-`batch-output-{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl` naming
-convention. Any batch-level error files are stored as
-`batch-errors-{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl`.
+Output filenames are derived from the input request filename by replacing
+`batch_requests_` with `out-`. Error filenames use `batch-errors-`.
 """
 
 from __future__ import annotations
 
 import os
-from collections import defaultdict
+import re
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Iterable, List, Optional
+from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
 
-TARGET_DATE = datetime(2025, 10, 26).date()
-TARGET_MODELS = ["o4-mini", "gpt-5-mini"]
-TARGET_SEEDS = [47, 48, 49, 50, 51]
-USE_PROMPT_SET = True
-SPLIT_NAME = "prompt-set" if USE_PROMPT_SET else "test-set"
-REQUEST_NAME_TEMPLATE = "batch_requests_{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl"
-OUTPUT_NAME_TEMPLATE = "batch-output-{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl"
-ERROR_NAME_TEMPLATE = "batch-errors-{model}-edoc-proteom-v3-{split_name}-{seed}.jsonl"
+TARGET_CREATED_AFTER = datetime(
+    2026,
+    5,
+    15,
+    12,
+    36,
+    tzinfo=ZoneInfo("America/Los_Angeles"),
+)
+INPUT_FILENAME_KEYWORD = "proteom"
+SEED_SUFFIX_PATTERN = re.compile(r"-\d+\.jsonl$")
 
 
 def get_openai_client():
@@ -98,9 +94,8 @@ def fetch_all_batches(client) -> List:
     pagination automatically when supported.
     """
     batches = []
-    params: Dict[str, str] = {}
 
-    response = client.batches.list(limit=100, **params)
+    response = client.batches.list(limit=100)
     batches.extend(getattr(response, "data", []))
 
     while getattr(response, "has_more", False):
@@ -114,25 +109,26 @@ def fetch_all_batches(client) -> List:
     return batches
 
 
-def match_target_batches(client, batches: Iterable) -> Dict[str, Dict]:
-    """
-    Identify batches that match the target date and request filenames. Returns a
-    dictionary keyed by the request filename with metadata for downloading.
-    """
-    targets = {
-        REQUEST_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed): {
-            "model": model,
-            "seed": seed,
-        }
-        for model in TARGET_MODELS
-        for seed in TARGET_SEEDS
-    }
+def output_path_for_request(filename: str, prefix: str) -> Path:
+    if filename.startswith("batch_requests_"):
+        return Path(filename.replace("batch_requests_", prefix, 1))
+    return Path(f"{prefix}{filename}")
 
-    matches: Dict[str, Dict] = {}
+
+def has_seed_suffix(filename: str) -> bool:
+    return bool(SEED_SUFFIX_PATTERN.search(filename))
+
+
+def match_target_batches(client, batches: Iterable) -> List[dict]:
+    """
+    Identify batches that were created after the cutoff and whose input file
+    names contain the ProteomeXChange keyword.
+    """
+    matches = []
 
     for batch in batches:
         created_dt = resolve_timestamp(batch)
-        if not created_dt or created_dt.date() != TARGET_DATE:
+        if not created_dt or created_dt <= TARGET_CREATED_AFTER:
             continue
 
         input_file_id = getattr(batch, "input_file_id", None)
@@ -141,28 +137,35 @@ def match_target_batches(client, batches: Iterable) -> Dict[str, Dict]:
 
         file_meta = client.files.retrieve(input_file_id)
         filename = getattr(file_meta, "filename", None)
-        if not filename or filename not in targets:
+        if (
+            not filename
+            or INPUT_FILENAME_KEYWORD not in filename
+            or not has_seed_suffix(filename)
+        ):
             continue
 
-        matches[filename] = {
+        matches.append({
             "batch": batch,
-            "model": targets[filename]["model"],
-            "seed": targets[filename]["seed"],
+            "request_name": filename,
             "input_file_id": input_file_id,
             "output_file_id": getattr(batch, "output_file_id", None),
             "error_file_id": getattr(batch, "error_file_id", None),
             "status": getattr(batch, "status", "unknown"),
             "created_at": created_dt,
-        }
+        })
 
-    return matches
+    return sorted(matches, key=lambda item: (item["created_at"], item["request_name"]))
 
 
 def main():
     load_dotenv()
     client = get_openai_client()
 
-    print(f"🔍 Searching for replication batches from {TARGET_DATE.isoformat()}...")
+    print(
+        "🔍 Searching for replication batches created after "
+        f"{TARGET_CREATED_AFTER.isoformat()} with "
+        f"'{INPUT_FILENAME_KEYWORD}' in the input filename..."
+    )
 
     batches = fetch_all_batches(client)
     print(f"🧾 Retrieved {len(batches)} total batches.")
@@ -172,14 +175,13 @@ def main():
         print("⚠️ No matching replication batches found.")
         return
 
-    for request_name, info in matches.items():
-        model = info["model"]
-        seed = info["seed"]
+    for info in matches:
+        request_name = info["request_name"]
         status = info["status"]
         created_at = info["created_at"].isoformat()
 
         print(
-            f"\n➡️  Batch for {model} seed {seed} (request: {request_name})"
+            f"\n➡️  Batch request: {request_name}"
             f"\n    Status: {status}"
             f"\n    Created: {created_at}"
             f"\n    Batch ID: {getattr(info['batch'], 'id', 'unknown')}"
@@ -187,9 +189,7 @@ def main():
 
         output_file_id = info["output_file_id"]
         if output_file_id:
-            destination = Path(
-                OUTPUT_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed)
-            )
+            destination = output_path_for_request(request_name, "out-")
             print(f"    ⬇️  Downloading output to {destination}...")
             download_file(client, output_file_id, destination)
         else:
@@ -197,26 +197,9 @@ def main():
 
         error_file_id = info["error_file_id"]
         if error_file_id:
-            destination = Path(
-                ERROR_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed)
-            )
+            destination = output_path_for_request(request_name, "batch-errors-")
             print(f"    ⚠️  Downloading error log to {destination}...")
             download_file(client, error_file_id, destination)
-
-    missing = [
-        REQUEST_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed)
-        for model in TARGET_MODELS
-        for seed in TARGET_SEEDS
-        if (
-            REQUEST_NAME_TEMPLATE.format(model=model, split_name=SPLIT_NAME, seed=seed)
-            not in matches
-        )
-    ]
-
-    if missing:
-        print("\n❗ The following replication batches were not found on the target date:")
-        for name in missing:
-            print(f"   - {name}")
 
 
 if __name__ == "__main__":

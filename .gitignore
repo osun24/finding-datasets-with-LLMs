@@ -2,5 +2,7 @@
 *.env
 GEO/.env
 ProteomeXChange/.env
-__pycache__
+__pycache__/*
 .vscode
+ProteomeXChange/__pycache__/*
+GEO/__pycache__/*

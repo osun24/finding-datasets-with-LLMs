@@ -1,11 +1,19 @@
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import json
 from matplotlib.lines import Line2D
+from matplotlib.patches import Patch
 from datetime import datetime
 import sys
+
+
+def lighten_color(color, amount=0.5):
+    """Mix `color` with white. amount=0 returns the original; amount=1 returns white."""
+    rgb = mcolors.to_rgb(color)
+    return tuple(c + (1 - c) * amount for c in rgb)
 
 plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("husl")
@@ -33,9 +41,9 @@ XAXIS_ORDER = [
     ("v2", "test-set"),     # position 2
 ]
 XAXIS_LABELS = [
-    "v1\n(n = 179)",
-    "v2\n(n = 179)",
-    "v2\n(Test, n = 357)",
+    "Train\n(v1, n = 179)",
+    "Train\n(v2, n = 179)",
+    "Test\n(v2, n = 357)",
 ]
 
 
@@ -181,12 +189,19 @@ def create_publication_plot(data, metadata):
         y=0.98,
     )
 
+    # User-specified palette (used at full saturation for the v2 test bars).
     model_colors = {
-        'GPT-4o-mini': '#1f77b4',
-        'o4-mini': '#ff7f0e',
-        'GPT-4.1-mini': '#2ca02c',
-        'GPT-4.1-nano': '#d62728',
-        'GPT-5-mini': '#9467bd'
+        'GPT-4o-mini':   "#387CC0",  # 52, 115, 176 — blue
+        'o4-mini':       "#F78146",  
+        'GPT-4.1-mini':  "#51C492",  # 76, 157, 122 — green
+        'GPT-4.1-nano':  '#888888',  # neutral fallback (not present in current data)
+        'GPT-5-mini':    "#ECB04F",  # 220, 162, 67 — amber
+    }
+    # Dev bars use a lightened shade; v2 test bars use the full color.
+    DEV_LIGHTEN = 0.55
+    model_color_pairs = {
+        m: {'light': lighten_color(c, DEV_LIGHTEN), 'dark': c}
+        for m, c in model_colors.items()
     }
 
     # Max trial count per model (used for legend R= label)
@@ -198,80 +213,68 @@ def create_publication_plot(data, metadata):
                 counts.append(split_data.get("trial_count", 0))
         replication_counts[model] = max(counts) if counts else 0
 
+    models = list(data.keys())
+    n_models = len(models)
+    # Bars within a position group: total width ~0.8, split evenly across models.
+    group_width = 0.8
+    bar_width = group_width / max(n_models, 1)
+
     def plot_metric(ax, metric, title, ylabel, ylim=(0, 1.04)):
-        for model, model_data in data.items():
-            color = model_colors.get(model, 'gray')
+        x_positions = np.arange(len(XAXIS_ORDER))
 
-            dev_x, dev_y, dev_lower, dev_upper = [], [], [], []
-            test_x, test_y, test_lower, test_upper = None, None, None, None
-
-            for pos_idx, (version, split) in enumerate(XAXIS_ORDER):
-                if version not in model_data:
-                    continue
-                if split not in model_data[version]:
+        for pos_idx, (version, split) in enumerate(XAXIS_ORDER):
+            shade_key = 'dark' if pos_idx == 2 else 'light'
+            for i, model in enumerate(models):
+                model_data = data[model]
+                if version not in model_data or split not in model_data[version]:
                     continue
                 split_data = model_data[version][split]
                 median, (lower, upper) = get_metric_summary(split_data, metric)
                 if median is None:
                     continue
 
-                if pos_idx <= 1:
-                    dev_x.append(pos_idx)
-                    dev_y.append(median)
-                    dev_lower.append(lower)
-                    dev_upper.append(upper)
-                else:
-                    test_x, test_y = pos_idx, median
-                    test_lower, test_upper = lower, upper
+                pair = model_color_pairs.get(model)
+                color = pair[shade_key] if pair else 'gray'
+                # Center the cluster of model bars around the position tick.
+                offset = (i - (n_models - 1) / 2) * bar_width
+                bar_x = pos_idx + offset
 
-            if not dev_x and test_x is None:
-                continue
-            
-            # (Replicates = {replication_counts.get(model, 0)})
-            legend_label = f"{model}"
+                ax.bar(bar_x, median, width=bar_width, color=color,
+                       edgecolor='black', linewidth=0.6, zorder=2)
 
-            # Solid line for dev segment (v1→v2 on prompt-set)
-            if dev_x:
-                ax.plot(dev_x, dev_y, '-', marker='.', linewidth=2.5, markersize=8,
-                        label=legend_label, color=color)
+                # Error bars for multi-trial test-set
+                if pos_idx == 2 and should_include_range(model, split_data, "test-set"):
+                    if lower is not None and upper is not None and lower != upper:
+                        ax.errorbar(bar_x, median,
+                                    yerr=[[median - lower], [upper - median]],
+                                    fmt='none', color='black',
+                                    capsize=3, linewidth=1.2, zorder=3)
 
-            # Dashed connector from last dev point to test point
-            if dev_x and test_x is not None:
-                ax.plot([dev_x[-1], test_x], [dev_y[-1], test_y],
-                        '--', alpha=0.6, color=color, linewidth=2.0)
-
-            # Open square marker at test position (held-out)
-            if test_x is not None:
-                ax.scatter([test_x], [test_y], s=80, marker='s',
-                           facecolors='none', edgecolors=color, linewidths=2.0, zorder=5)
-
-                # Error band for multi-trial test-set
-                test_split_data = model_data.get("v2", {}).get("test-set", {})
-                if should_include_range(model, test_split_data, "test-set"):
-                    if test_lower is not None and test_upper is not None and test_lower != test_upper:
-                        ax.vlines(test_x, test_lower, test_upper,
-                                  color=color, alpha=0.35, linewidth=6)
-                        ax.scatter([test_x, test_x], [test_lower, test_upper],
-                                   color=color, alpha=1, s=50, marker='_')
-
-        # Vertical divider between dev region and test region
-        ax.axvline(x=1.5, color='gray', linestyle=':', alpha=0.4, linewidth=1)
-
-        ax.set_title(title, fontsize=20, fontweight='bold')
+        # Extra title pad reserves space for the horizontal legend below the title.
+        ax.set_title(title, fontsize=20, fontweight='bold', pad=32)
         ax.set_xlabel('Prompt Version and Evaluation Set', fontsize=16)
         ax.set_ylabel(ylabel, fontsize=16)
-        ax.set_xticks([0, 1, 2])
+        ax.set_xticks(x_positions)
         ax.set_xticklabels(XAXIS_LABELS, fontsize=13)
         if ylim:
             ax.set_ylim(*ylim)
         ax.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
-        handles, labels = ax.get_legend_handles_labels()
-        if handles:
-            ax.legend(loc='best', fontsize=13)
-        ax.grid(True, alpha=0.3)
-        ax.tick_params(axis='both', which='major', labelsize=13)
+        ax.grid(True, alpha=0.3, axis='y')
+        ax.set_axisbelow(True)
+        ax.tick_params(axis='both', which='major', labelsize=12)
 
-    plot_metric(axes[0, 0], 'sensitivity', 'A. Sensitivity (Recall)', 'Sensitivity')
+        # Legend: one entry per model (its darker/test shade), placed just below the title.
+        legend_handles = [
+            Patch(facecolor=model_colors.get(model, 'gray'),
+                  edgecolor='black', linewidth=0.6, label=model)
+            for model in models
+        ]
+        ax.legend(handles=legend_handles, loc='lower center',
+                  bbox_to_anchor=(0.5, 1.0), ncol=len(legend_handles),
+                  frameon=False, fontsize=11, handlelength=1.4,
+                  columnspacing=1.2, borderaxespad=0.2)
+
+    plot_metric(axes[0, 0], 'sensitivity', 'A. Sensitivity', 'Sensitivity')
     plot_metric(axes[0, 1], 'specificity', 'B. Specificity', 'Specificity')
     plot_metric(axes[1, 0], 'precision', 'C. Precision', 'Precision')
     plot_metric(axes[1, 1], 'accuracy', 'D. Accuracy', 'Accuracy')
@@ -281,7 +284,7 @@ def create_publication_plot(data, metadata):
     ax6 = axes[2, 1]
     for model, model_data in data.items():
         color = model_colors.get(model, 'gray')
-        legend_label = f"{model} (replicates = {replication_counts.get(model, 0)})"
+        legend_label = f"{model}"
 
         roc_points = []
         for pos_idx, (version, split) in enumerate(XAXIS_ORDER):
@@ -328,19 +331,15 @@ def create_publication_plot(data, metadata):
         added_legend = False
         for p in roc_points:
             if p['split'] == 'prompt-set':
-                if p['version'] == 'v1':
-                    ax6.scatter([p['fpr']], [p['sens']], s=100, marker='o',
-                                facecolors='none', edgecolors=color, linewidths=2.0,
-                                label=legend_label if not added_legend else None)
-                else:
-                    ax6.scatter([p['fpr']], [p['sens']], s=100, marker='o',
-                                facecolors=color, edgecolors=color,
-                                label=legend_label if not added_legend else None)
+                # Both v1 and v2 development points: hollow circles
+                ax6.scatter([p['fpr']], [p['sens']], s=100, marker='o',
+                            facecolors='none', edgecolors=color, linewidths=2.0,
+                            label=legend_label if not added_legend else None)
                 added_legend = True
             else:
-                # v2-test: open square, with error cross for multi-trial models
+                # v2 test: solid square, with error cross for multi-trial models
                 ax6.scatter([p['fpr']], [p['sens']], s=120, marker='s',
-                            facecolors='none', edgecolors=color, linewidths=2.0)
+                            facecolors=color, edgecolors=color, linewidths=2.0)
                 if should_include_range(model, p['split_data'], 'test-set'):
                     if p['fpr_low'] is not None and p['fpr_high'] is not None and p['fpr_low'] != p['fpr_high']:
                         ax6.hlines(p['sens'], p['fpr_low'], p['fpr_high'],
@@ -348,14 +347,6 @@ def create_publication_plot(data, metadata):
                     if p['sens_low'] is not None and p['sens_high'] is not None and p['sens_low'] != p['sens_high']:
                         ax6.vlines(p['fpr'], p['sens_low'], p['sens_high'],
                                    colors=color, alpha=0.35, linewidth=4)
-
-    # Marker-type legend proxies
-    proxy_v1 = Line2D([0], [0], marker='o', color='gray', markerfacecolor='none',
-                       markersize=8, linestyle='-', label='Version 1 (development)')
-    proxy_v2dev = Line2D([0], [0], marker='o', color='gray', markerfacecolor='gray',
-                          markersize=8, linestyle='-', label='Version 2 (development)')
-    proxy_test = Line2D([0], [0], marker='s', color='gray', markerfacecolor='none',
-                         markersize=9, linestyle='--', label='Version 2 (test, held-out)')
 
     ax6.set_title('F. ROC Space',
                   fontsize=20, fontweight='bold')
@@ -367,8 +358,7 @@ def create_publication_plot(data, metadata):
     ax6.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     handles, labels = ax6.get_legend_handles_labels()
     if handles:
-        ax6.legend(handles=handles + [proxy_v1, proxy_v2dev, proxy_test],
-                   loc='lower right', fontsize=12)
+        ax6.legend(handles=handles, loc='lower right', fontsize=12)
     ax6.grid(True, alpha=0.3)
     ax6.tick_params(axis='both', which='major', labelsize=14)
     ax6.plot([0, 1], [0, 1], 'k--', alpha=0.3, linewidth=1)
@@ -663,7 +653,7 @@ def main():
         fig.savefig(f'GEO_LLM_performance_heatmap_part{i}_{timestamp}.png', dpi=300, bbox_inches='tight',
                     facecolor='white', edgecolor='none')
 
-    plt.show(block = False)
+    plt.show()
 
     print(f"\n📈 Plots saved with timestamp {timestamp}:")
     print(f"1. GEO_LLM_model_performance_{timestamp}.png/pdf")
