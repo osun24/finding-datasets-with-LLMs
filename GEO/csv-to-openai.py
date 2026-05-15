@@ -282,20 +282,20 @@ def download_file(file_id, save_path):
         f.write(file.bytes)
 
 def main():
-    use_prompt_set = True
+    use_prompt_set = False
     split_name = "prompt-set" if use_prompt_set else "test-set"
     input_directory = split_name
 
     # gpt-5-mini; o4-mini; gpt-4.1-mini; gpt-4o-mini
-    model = "gpt-5-mini"  # Specify the model to use
+    model = "o4-mini"  # Specify the model to use
     name = f"chemo-may13-{PROMPT_VERSION}-{split_name}"  # Specify the name for the batch job
     batch_file_path = f"batch_requests_{model}-{name}.jsonl"
 
     verify_schema_matches_prompt()
 
-    replication = False
+    replication = True
     if replication:
-        for seed in [47, 48, 49, 50, 51]: #47, 48, 49, 50, 51 #43, 44, 45, 46
+        for seed in [43, 44, 45, 46, 47, 48, 49, 50, 51]: #47, 48, 49, 50, 51 #43, 44, 45, 46
             name = f"chemo-may13-{PROMPT_VERSION}-{split_name}-{seed}"  # Specify the name for the batch job
             batch_file_path = f"batch_requests_{model}-{name}.jsonl"
             

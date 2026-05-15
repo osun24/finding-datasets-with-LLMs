@@ -15,6 +15,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 use_prompt_set = True
 SPLIT_NAME = "prompt-set" if use_prompt_set else "test-set"
+DISCOVER_SPLITS = ["prompt-set", "test-set"]
 
 PROMPT_POSITIVE_FILES = [
     "samples_table_GSE101929.csv",
@@ -39,21 +40,25 @@ ACTIVE_POSITIVE_FILES = PROMPT_POSITIVE_FILES if use_prompt_set else TEST_POSITI
 
 # Seed of 42 by default for gpt-5-mini and o4-mini models
 BASE_FILE_PATHS = [
-    f"out-gpt-5-mini-chemo-may13-v1-{SPLIT_NAME}.jsonl",
-    f"out-gpt-4o-mini-chemo-may13-v1-{SPLIT_NAME}.jsonl",
-    f"out-gpt-4.1-mini-chemo-may13-v1-{SPLIT_NAME}.jsonl",
-    f"out-o4-mini-chemo-may13-v1-{SPLIT_NAME}.jsonl",
-    f"out-gpt-5-mini-chemo-may13-v2-{SPLIT_NAME}.jsonl",
-    f"out-gpt-4o-mini-chemo-may13-v2-{SPLIT_NAME}.jsonl",
-    f"out-gpt-4.1-mini-chemo-may13-v2-{SPLIT_NAME}.jsonl",
-    f"out-o4-mini-chemo-may13-v2-{SPLIT_NAME}.jsonl",
+    f"out-gpt-5-mini-chemo-may13-v1-prompt-set.jsonl",
+    f"out-gpt-4o-mini-chemo-may13-v1-prompt-set.jsonl",
+    f"out-gpt-4.1-mini-chemo-may13-v1-prompt-set.jsonl",
+    f"out-o4-mini-chemo-may13-v1-prompt-set.jsonl",
+    
+    f"out-gpt-5-mini-chemo-may13-v2-prompt-set.jsonl",
+    f"out-gpt-4o-mini-chemo-may13-v2-prompt-set.jsonl",
+    f"out-gpt-4.1-mini-chemo-may13-v2-prompt-set.jsonl",
+    f"out-o4-mini-chemo-may13-v2-prompt-set.jsonl",
+    
+    f"out-gpt-5-mini-chemo-may13-v2-test-set.jsonl",
+    f"out-gpt-4o-mini-chemo-may13-v2-test-set.jsonl",
+    f"out-gpt-4.1-mini-chemo-may13-v2-test-set.jsonl",
+    f"out-o4-mini-chemo-may13-v2-test-set.jsonl",
 ]
 
 REPLICATION_PATTERNS = [
-    f"out-gpt-5-mini-chemo-may13-v*-{SPLIT_NAME}-*.jsonl",
-    f"out-o4-mini-chemo-may13-v*-{SPLIT_NAME}-*.jsonl",
-    f"batch-output-gpt-5-mini-chemo-may13-v*-{SPLIT_NAME}-*.jsonl",
-    f"batch-output-o4-mini-chemo-may13-v*-{SPLIT_NAME}-*.jsonl",
+    f"out-gpt-5-mini-chemo-may13-v*-test-set-*.jsonl",
+    f"out-o4-mini-chemo-may13-v*-test-set-*.jsonl",
 ]
 
 
@@ -172,6 +177,15 @@ def get_final_answer_column(df):
 def sheet_name_for(model, version):
     sheet_name = re.sub(r"[\[\]\:\*\?\/\\]", "_", f"{model}_{version}")
     return sheet_name[:31]
+
+
+def split_for_file(file_path):
+    filename = Path(file_path).name
+    if "-prompt-set" in filename:
+        return "prompt-set", PROMPT_POSITIVE_FILES
+    if "-test-set" in filename:
+        return "test-set", TEST_POSITIVE_FILES
+    raise ValueError(f"Cannot infer split from filename: {filename}")
 
 
 def prompt_version_number(version):
@@ -673,11 +687,19 @@ def prompt_pair_for_test_file(file_path):
     return str(prompt_path) if prompt_path.is_file() else None
     
 # Set the total actual studies count
-all_results["metadata"]["total_actual_studies"] = len(actual)
+discovered_splits = sorted({split_for_file(file_path)[0] for file_path in file_paths})
+if discovered_splits == ["prompt-set"]:
+    total_actual_studies = len(PROMPT_POSITIVE_FILES)
+elif discovered_splits == ["test-set"]:
+    total_actual_studies = len(TEST_POSITIVE_FILES)
+else:
+    total_actual_studies = len(COMBINED_POSITIVE_FILES)
+
+all_results["metadata"]["total_actual_studies"] = total_actual_studies
 all_results["metadata"]["prompt_set_actual_studies"] = len(PROMPT_POSITIVE_FILES)
 all_results["metadata"]["test_set_actual_studies"] = len(TEST_POSITIVE_FILES)
 all_results["metadata"]["combined_actual_studies"] = len(COMBINED_POSITIVE_FILES)
-all_results["metadata"]["split"] = SPLIT_NAME
+all_results["metadata"]["split"] = ",".join(discovered_splits) if discovered_splits else SPLIT_NAME
 error_review_frames = []
 
 for file_path in file_paths:
@@ -686,34 +708,36 @@ for file_path in file_paths:
     model = metadata["model"]
     version = metadata["version"]
     trial = metadata["trial"]
+    split_label, actual_files = split_for_file(file_path)
 
     label = f"{model} {version}".strip()
     if trial:
         label = f"{label} [{trial}]"
 
-    print(f"Processing {file_path} → {label}...")
-    df = parse_batch_output(file_path, csv_output, actual_files=actual)
+    print(f"Processing {file_path} → {label} [{split_label}]...")
+    df = parse_batch_output(file_path, csv_output, actual_files=actual_files)
     result_entry = evaluate_dataframe(
         df=df,
         model=model,
         version=version,
         trial=trial,
         file_path=file_path,
-        actual_files=actual,
-        split_label=SPLIT_NAME,
+        actual_files=actual_files,
+        split_label=split_label,
     )
     upsert_result(result_entry)
-    error_review_frames.append(
-        build_error_review_dataframe(
-            df=df,
-            model=model,
-            version=version,
-            file_path=file_path,
-            split_label=SPLIT_NAME,
+    if split_label == "prompt-set":
+        error_review_frames.append(
+            build_error_review_dataframe(
+                df=df,
+                model=model,
+                version=version,
+                file_path=file_path,
+                split_label=split_label,
+            )
         )
-    )
 
-    if not use_prompt_set:
+    if split_label == "test-set":
         prompt_file_path = prompt_pair_for_test_file(file_path)
         if prompt_file_path:
             print(f"\nProcessing combined prompt+test set for {label}...")
