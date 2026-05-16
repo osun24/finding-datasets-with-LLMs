@@ -17,6 +17,7 @@ def lighten_color(color, amount=0.5):
 
 plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("husl")
+plt.rcParams['axes.facecolor'] = 'white'
 
 TARGET_MULTI_TRIAL_MODELS = {"GPT-5-mini", "o4-mini"}
 RATE_METRICS = ['sensitivity', 'specificity', 'precision', 'accuracy', 'f1_score']
@@ -189,13 +190,12 @@ def create_publication_plot(data, metadata):
         y=0.98,
     )
 
-    # User-specified palette (used at full saturation for the v2 test bars).
+    # Use Okabe–Ito colorblind-safe palette
     model_colors = {
-        'GPT-4o-mini':   "#387CC0",  # 52, 115, 176 — blue
-        'o4-mini':       "#F78146",
-        'GPT-4.1-mini':  "#51C492",  # 76, 157, 122 — green
-        'GPT-4.1-nano':  '#888888',  # neutral fallback (not present in current data)
-        'GPT-5-mini':    "#ECB04F",  # 220, 162, 67 — amber
+        'GPT-4o-mini':   "#CC79A7", 
+        'o4-mini':       "#E69F00",  
+        'GPT-4.1-mini':  "#009E73",  
+        'GPT-5-mini':    "#0072B2",  
     }
     # Dev bars use a lightened shade; v2 test bars use the full color.
     DEV_LIGHTEN = 0.55
