@@ -1,0 +1,983 @@
+{
+  "accno": "E-GEOD-27564",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Gene expression profiles of subepithelial myofibroblasts from mouse ileum or colon, implanted together with human cancer cells in mouse xenografts"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2012-02-24"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-27564"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-27564",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Gene expression profiles of subepithelial myofibroblasts from mouse ileum or colon, implanted together with human cancer cells in mouse xenografts"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Organism",
+        "value": "Mus musculus"
+      },
+      {
+        "name": "Description",
+        "value": "We isolated myofibroblasts from C57BL6/J mouse ileum or colon and analyzed gene expression profiles from the cultured cells. We also isolated human colon cancer cells from xenografts interacting with mouse intestinal subepithelial myofibroblasts (ISEMFs) and analyzed gene expression in sorted human cancer cells. We used Affymetrix microarrays to detail the global gene expression prolfiles in mouse fibroblasts and human colon cancer cells  and identified distinct biological processes of differentially expressed genes in mouse fibroblasts and interacting human colon cancer cells For mouse SEMFs, we isolated fresh fibroblasts from mouse ileum and colon, confirmed their predicted immunophenotype (alpha SMA positive, vimentin positive, desmin negative), and expanded cells in culture before expression array analysis. We examined gene expression in human cancer cells following their interaction with murine ileal or colonic SEMFs, using flow cytometry to isolate DsRed-expressing Caco2 or T84 cells after 5 weeks of growth in NOD/SCID mice in the presence of GFP-expressing ileal or colonic SEMFs."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE27564"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE27564-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE27564-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = log2RMA signals"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE27564-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE27564-6"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "GeneChips were scanned using the AFFYMETRIX GENE CHIP SCANNER 3000."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE27564-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE27564-5"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Following fragmentation, 15 ug of cRNA were hybridized for 16 hr at 45C on GeneChip MOUSE Genome 430 2.0 Arrays or HUMAN Genome U133 plus2 Arrays. GeneChips were washed and stained in the Affymetrix Fluidics Station 450."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE27564-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE27564-3"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Trizol extraction of total RNA was performed according to the manufacturer's instructions."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE27564-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE27564-2"
+            },
+            {
+              "name": "Type",
+              "value": "grow"
+            },
+            {
+              "name": "Description",
+              "value": "Intestinal SEMFs were cultured under published conditions. Human cancer cells were grafted subcutaneousely in combination with murine ISEMFs and grown in immunodeficient NOD/SCID mice."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE27564-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE27564-4"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Biotinylated cRNA were prepared according to the standard 3' IVT EXPRESS Affymetrix protocol from 0.1 ug total RNA (GENE CHIP 3' IVT EXPRESS User Manual, P/N702646 REV8, Affymetrix)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE27564-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE27564-7"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Microarray expression: RMA (bioconductor) with custom CDFs for background elimination and normalization in adddition to array normalization using Cluster"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Janghee Woo"
+          },
+          {
+            "name": "Email",
+            "value": "janghee_woo@hms.harvard.edu"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "D Gilliland"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Ramesh Shivdasani"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Dana-Farber Cancer Institute"
+          },
+          {
+            "name": "Address",
+            "value": "Dana-Farber Cancer Institute, 44 Binney st., Boston, USA"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-27564",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "12"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell line"
+              }
+            ],
+            "value": "CELL LINE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "Organism"
+              }
+            ],
+            "value": "ORGANISM"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell type"
+              }
+            ],
+            "value": "CELL TYPE"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-27564",
+            "attributes": [
+              {
+                "name": "Cell line",
+                "value": "not specified"
+              },
+              {
+                "name": "Cell line",
+                "value": "T84"
+              },
+              {
+                "name": "Cell line",
+                "value": "Caco2"
+              },
+              {
+                "name": "Cell type",
+                "value": "subepithelial myofibroblasts"
+              },
+              {
+                "name": "Cell type",
+                "value": "cancer cells"
+              },
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism",
+                "value": "Mus musculus"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "CELL LINE",
+                      "value": "T84"
+                    },
+                    {
+                      "name": "CELL TYPE",
+                      "value": "cancer cells"
+                    },
+                    {
+                      "name": "ORGANISM",
+                      "value": "Homo sapiens"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM682252.CEL\" OR \"GSM682250.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "CELL LINE",
+                      "value": "Caco2"
+                    },
+                    {
+                      "name": "CELL TYPE",
+                      "value": "cancer cells"
+                    },
+                    {
+                      "name": "ORGANISM",
+                      "value": "Homo sapiens"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM682251.CEL\" OR \"GSM682249.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "CELL LINE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "CELL TYPE",
+                      "value": "subepithelial myofibroblasts"
+                    },
+                    {
+                      "name": "ORGANISM",
+                      "value": "Mus musculus"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM682247.CEL\" OR \"GSM682246.CEL\" OR \"GSM682245.CEL\" OR \"GSM682244.CEL\" OR \"GSM682243.CEL\" OR \"GSM682242.CEL\" OR \"GSM682241.CEL\" OR \"GSM682240.CEL\""
+                        }
+                      ],
+                      "value": "8"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-27564",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism",
+                "value": "Mus musculus"
+              },
+              {
+                "name": "Cell line",
+                "value": "T84"
+              },
+              {
+                "name": "Cell line",
+                "value": "Caco2"
+              },
+              {
+                "name": "Cell type",
+                "value": "subepithelial myofibroblasts"
+              },
+              {
+                "name": "Cell type",
+                "value": "cancer cells"
+              },
+              {
+                "name": "Strain",
+                "value": "C57BL6/J"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "Organism",
+                      "value": "Homo sapiens"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "T84"
+                    },
+                    {
+                      "name": "cell type",
+                      "value": "cancer cells"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM682252.CEL\" OR \"GSM682250.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "Organism",
+                      "value": "Homo sapiens"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "Caco2"
+                    },
+                    {
+                      "name": "cell type",
+                      "value": "cancer cells"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM682251.CEL\" OR \"GSM682249.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "Organism",
+                      "value": "Mus musculus"
+                    },
+                    {
+                      "name": "cell type",
+                      "value": "subepithelial myofibroblasts"
+                    },
+                    {
+                      "name": "strain",
+                      "value": "C57BL6/J"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM682247.CEL\" OR \"GSM682246.CEL\" OR \"GSM682245.CEL\" OR \"GSM682244.CEL\" OR \"GSM682243.CEL\" OR \"GSM682242.CEL\" OR \"GSM682241.CEL\" OR \"GSM682240.CEL\""
+                        }
+                      ],
+                      "value": "8"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-27564",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682252 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682252.CEL",
+                  "size": 13553409,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682251 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682251.CEL",
+                  "size": 13550817,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682250 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682250.CEL",
+                  "size": 13550481,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682249 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682249.CEL",
+                  "size": 13552273,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682247 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682247.CEL",
+                  "size": 10042861,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682246 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682246.CEL",
+                  "size": 10042213,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682245 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682245.CEL",
+                  "size": 10045717,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682244 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682244.CEL",
+                  "size": 10041654,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682243 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682243.CEL",
+                  "size": 10042021,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682242 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682242.CEL",
+                  "size": 10042121,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682241 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682241.CEL",
+                  "size": 10046353,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM682240 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM682240.CEL",
+                  "size": 10042169,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682244_sample_table.txt",
+                  "size": 1050977,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682247_sample_table.txt",
+                  "size": 1050747,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682252_sample_table.txt",
+                  "size": 797077,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682246_sample_table.txt",
+                  "size": 1050874,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682251_sample_table.txt",
+                  "size": 797303,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682250_sample_table.txt",
+                  "size": 797190,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682242_sample_table.txt",
+                  "size": 1050878,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682245_sample_table.txt",
+                  "size": 1051154,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682241_sample_table.txt",
+                  "size": 1050824,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682243_sample_table.txt",
+                  "size": 1050761,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682240_sample_table.txt",
+                  "size": 1050847,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM682249_sample_table.txt",
+                  "size": 797052,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-27564",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-27564.idf.txt",
+                  "size": 4586,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-27564.sdrf.txt",
+                  "size": 9700,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-27564",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-13232"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-45"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-27564",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

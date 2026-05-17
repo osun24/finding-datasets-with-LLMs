@@ -1,0 +1,2944 @@
+{
+  "accno": "E-GEOD-32390",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "In vitro responses of PBMC and fibroblasts from patients with TRIF deficiency after TRIF dependent and independent stimuli"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2011-10-19"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-32390"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-32390",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "In vitro responses of PBMC and fibroblasts from patients with TRIF deficiency after TRIF dependent and independent stimuli"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "We report here unrelated HSE patients with autosomal recessive (AR) or autosomal dominant (AD) TRIF deficiency. The AR form of the disease is due to a homozygous nonsense mutation, resulting in a complete absence of the TRIF protein. Both the TLR3 and the TRIF-dependent TLR4 signaling pathways are abolished. The AD form of TRIF deficiency is due to a heterozygous missense mutation resulting in a dysfunctional protein. The TLR3 signaling pathway is impaired, whereas the TRIF-dependent TLR4 pathway is unaffected. Both patients however showed reduced capacity to respond to cytosolic double stranded RNA, consistent with recent reports of TRIF’s involvement in the DExD/H-box helicases pathway. Skin fibroblast cell lines were derived from healthy controls (n=3), patient with deficiencies for TRIF (n=1),  MYD88 (n=1), and TLR3 (n=1) and cultured for 4 hours in the presence of IL1B (20ng/ml) or poly I:C (25ng/ml) or left unstimulated for the same length of time. PBMCs (previously frozen) collected from a healthy control (n=1) and patients with deficiencies for TRIF (n=1), and MYD88 (n=1) were cultured together with LPS (10ng/ml) or R848 (3ug/ml) for 2hrs or left unstimulated for the same length of time."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE32390"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE32390-23",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-23"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835153_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-19",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-19"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835153_A.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-12",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-12"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315011_E.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-9",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-9"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315009_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-17",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-17"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315012_I.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-10",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-10"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315009_K.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-27",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-27"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835191_D.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-14",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-14"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315011_H.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-7"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315009_C.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-25",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-25"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835191_A.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-8",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-8"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315009_E.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-11",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-11"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315011_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-3"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315006_G.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-21",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-21"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835153_D.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315006_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-6"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315008_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-2"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315006_D.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-26",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-26"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835191_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-4"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315006_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-5"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315008_C.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-13",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-13"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315011_G.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-16",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-16"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315012_H.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-22",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-22"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835153_I.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-20",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-20"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835153_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-24",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-24"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5617835153_L.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-15",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-15"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315012_E.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-18",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-18"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X5935315012_K.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-31",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-31"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "Standard Illumina scanning protocol"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-30",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-30"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Standard Illumina hybridization protocol"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-28",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-28"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Cells were lysed in RLT + 1% β-Mercaptoethanol, RNA were isolated using Qiagen Rneasy mini kit"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-29",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-29"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Biotinylated cRNA were prepared with the Ambion MessageAmp kit for Illumina arrays"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE32390-32",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE32390-32"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "The data were normalised using quantile normalisation with in R. PALO (p<0.05 present in at least one) were used to filter the data."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Elisabeth Israelsson"
+          },
+          {
+            "name": "Email",
+            "value": "lisraelsson@benaroyaresearch.org"
+          },
+          {
+            "name": "Phone",
+            "value": "206-287-1058"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Vanessa Sancho-Shimizu"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Rebeca Pérez de Diego"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Lazaro Lorenzo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Rabih Halwani"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Abdullah Alangari"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Sylvie Fabrega"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Annabelle Cardon"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Jerome Maluenda"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Megumi Tatematsu"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Farhad Mahvelati"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Melina Herman"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Michael Ciancanelli"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Yiqi Guo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Zobaida AlSum"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Nouf Alkhamis"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Abdulkarim Al-Makadma"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Ata Ghadiri"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Soraya Boucherit"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Sabine Plancoulaine"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Capucine Picard"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Flore Rosenberg"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Marc Tardieu"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Pierre Lebon"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Emmanuelle Jouanguy"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Nima Rezaei"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Tsukasa Seya"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Misako Matsumoto"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Damien Chaussabel"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Anne Puel"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Shen-Ying Zhang"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Laurent Abel"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Saleh Al-Muhsen"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Jean-Laurent Casanova"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Benaroya Research Institute at Virginia Mason"
+          },
+          {
+            "name": "Address",
+            "value": "Systems Immunology, Benaroya Research Institute at Virginia Mason, 1201 9th Ave, Seattle, WA, USA"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-32390",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "27"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "concentration"
+              }
+            ],
+            "value": "CONCENTRATION"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "treatment"
+              }
+            ],
+            "value": "TREATMENT"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease state"
+              }
+            ],
+            "value": "DISEASE STATE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "time point"
+              }
+            ],
+            "value": "TIME POINT"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell type"
+              }
+            ],
+            "value": "CELL TYPE"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-32390",
+            "attributes": [
+              {
+                "name": "Cell type",
+                "value": "PBMC"
+              },
+              {
+                "name": "Cell type",
+                "value": "Fibroblasts"
+              },
+              {
+                "name": "Concentration",
+                "value": "25ng/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "20ng/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "10ng/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "3ug/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "not specified"
+              },
+              {
+                "name": "Disease state",
+                "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "healthy control"
+              },
+              {
+                "name": "Time point",
+                "value": "2hrs"
+              },
+              {
+                "name": "Time point",
+                "value": "4hrs"
+              },
+              {
+                "name": "Treatment",
+                "value": "NS"
+              },
+              {
+                "name": "Treatment",
+                "value": "R848"
+              },
+              {
+                "name": "Treatment",
+                "value": "not specified"
+              },
+              {
+                "name": "Treatment",
+                "value": "LPS"
+              },
+              {
+                "name": "Treatment",
+                "value": "Non stimulated"
+              },
+              {
+                "name": "Treatment",
+                "value": "IL1B"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "3ug/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "R848"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "3ug/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "R848"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "3ug/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "R848"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "10ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "LPS"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "10ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "LPS"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "10ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "LPS"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "25ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "25ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "25ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "25ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_14",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1B"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_15",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1B"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_16",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_17",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "NS"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_18",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1B"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_19",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_20",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "TIME POINT",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1B"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-32390",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell type",
+                "value": "PBMC"
+              },
+              {
+                "name": "Cell type",
+                "value": "Fibroblasts"
+              },
+              {
+                "name": "Concentration",
+                "value": "20ng/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "10ng/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "3ug/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "25ng/ml"
+              },
+              {
+                "name": "Disease state",
+                "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "healthy control"
+              },
+              {
+                "name": "Time point",
+                "value": "2hrs"
+              },
+              {
+                "name": "Time point",
+                "value": "4hrs"
+              },
+              {
+                "name": "Treatment",
+                "value": "NS"
+              },
+              {
+                "name": "Treatment",
+                "value": "R848"
+              },
+              {
+                "name": "Treatment",
+                "value": "LPS"
+              },
+              {
+                "name": "Treatment",
+                "value": "Non stimulated"
+              },
+              {
+                "name": "Treatment",
+                "value": "IL1B"
+              },
+              {
+                "name": "Treatment: poly i",
+                "value": "C"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "3ug/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "R848"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "3ug/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "R848"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "3ug/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "R848"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "10ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "LPS"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "10ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "LPS"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "10ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "2hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "LPS"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "25ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment"
+                    },
+                    {
+                      "name": "treatment: Poly I",
+                      "value": "C"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "25ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment"
+                    },
+                    {
+                      "name": "treatment: Poly I",
+                      "value": "C"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "25ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment"
+                    },
+                    {
+                      "name": "treatment: Poly I",
+                      "value": "C"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "25ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment"
+                    },
+                    {
+                      "name": "treatment: Poly I",
+                      "value": "C"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1B"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1B"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "NS"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1B"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Non stimulated"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts"
+                    },
+                    {
+                      "name": "concentration",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient"
+                    },
+                    {
+                      "name": "time point",
+                      "value": "4hrs"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1B"
+                    },
+                    {
+                      "name": "treatment: Poly I"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-32390",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801674_sample_table.txt",
+                  "size": 831086,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801688_sample_table.txt",
+                  "size": 782631,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801683_sample_table.txt",
+                  "size": 848484,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801673_sample_table.txt",
+                  "size": 823507,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801675_sample_table.txt",
+                  "size": 828444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801668_sample_table.txt",
+                  "size": 814826,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801679_sample_table.txt",
+                  "size": 825236,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801685_sample_table.txt",
+                  "size": 786778,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801677_sample_table.txt",
+                  "size": 823015,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801670_sample_table.txt",
+                  "size": 825647,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801687_sample_table.txt",
+                  "size": 765925,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801682_sample_table.txt",
+                  "size": 825918,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801676_sample_table.txt",
+                  "size": 830705,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801671_sample_table.txt",
+                  "size": 823564,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801667_sample_table.txt",
+                  "size": 826271,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801693_sample_table.txt",
+                  "size": 791140,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801678_sample_table.txt",
+                  "size": 821708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801684_sample_table.txt",
+                  "size": 833094,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801686_sample_table.txt",
+                  "size": 769945,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801692_sample_table.txt",
+                  "size": 795178,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801680_sample_table.txt",
+                  "size": 820525,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801690_sample_table.txt",
+                  "size": 769538,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801681_sample_table.txt",
+                  "size": 832534,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801691_sample_table.txt",
+                  "size": 795004,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801672_sample_table.txt",
+                  "size": 821735,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801669_sample_table.txt",
+                  "size": 817839,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM801689_sample_table.txt",
+                  "size": 796616,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-32390",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-32390.idf.txt",
+                  "size": 12269,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-32390.sdrf.txt",
+                  "size": 33253,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-32390",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-10558"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-32390",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

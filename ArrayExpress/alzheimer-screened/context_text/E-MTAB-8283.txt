@@ -1,0 +1,35 @@
+Accession: E-MTAB-8283
+Source list: alzheimer-screened
+Title: miRNA PCR Array of cortex tissue from Alzheimer disease (AD), high pathological control (HPC) and normal (CTL)subjects
+Study type: Human - One-color microarray
+Description: These data assess the levels of microRNAs via miRNA array in brain tissue from control, high pathological controls, and Alzheimer disease subjects curated from the Rush cohort
+Sample count: 15
+Assay count: 15
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: disease state design
+  Experimental Factors:
+    Experimental Factors: disease staging
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: adult
+    Organism part: brain
+    Disease: high-pathological control, Alzheimer's disease, normal
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Disease staging: high-pathological control, Alzheimer's disease, normal
+      disease staging: Alzheimer's disease, normal, high-pathological control
+    Cell type/line:
+      Not found
+    Clinical/familial:
+      Clinical information: low neurofibrillary tangles and no neuritic plaques, intermediate neurofibrillary tangles and low neuritic plaques, low neurofibrillary tangles and low neuritic plaques
+      clinical information: low neurofibrillary tangles and low neuritic plaques, low neurofibrillary tangles and no neuritic plaques, intermediate neurofibrillary tangles and low neuritic plaques
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

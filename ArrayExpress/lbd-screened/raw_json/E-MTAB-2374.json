@@ -1,0 +1,3390 @@
+{
+  "accno": "E-MTAB-2374",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcriptional profiling of cerebrospinal fluid cells of multiple sclerosis patients"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2014-06-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-2374"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-2374",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcriptional profiling of cerebrospinal fluid cells of multiple sclerosis patients"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "RNA was isolated from fresh cerebrospinal fluid samples of multiple sclerosis and control patients and analyzed by hybridization of HG U133 plus 2.0 arrays in order to investigate disease mechanisms of multiple sclerosis and to identify transcriptional biomarker"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-37802",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-37802"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "growth protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Cerebrospinal fluid (CSF) was collected with informed consent and approval (protocol number 05-178) from the St. LukeM-^Rs-Roosevelt Hospital Center Institute for Health Sciences Institutional Review Board (New York, NY) either via standard lumbar puncture or by access port aspiration of an implanted baclofen pump for the treatment of spasticity. CSF samples were centrifuged and RNA was isolated from pelleted CSF cells using the RNeasy Micro Kit (Qiagen, Hilden, Germany) within 10 minutes after lumbar puncture."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-37803",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-37803"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "treatment protocol"
+            },
+            {
+              "name": "Description",
+              "value": "All patients in the study had a complete neurological evaluation. In addition, routine brain MRI scans (1.5T) were performed. By definition, untreated MS patients were not treated with any MS medication for at least one year before CSF was drawn."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-37804",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-37804"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "RNA processing and microarray hybridization were performed by the Centre of Excellence for Fluorescent Bioanalytics (KFB, Regensburg, Germany) as described before (Muller et al., 2012). The RNA quality was analyzed using a RNA 6000 Pico Assay (Agilent Technologies, BM-vblingen, Germany). Our study population had RNA quantities of 1M-^V5ng. The labeled targets were hybridized to Human Genome 133 plus 2.0 arrays (Affymetrix, Santa Clara, CA)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-37805",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-37805"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The OvationM-^Y RNA Amplification System V2 was used for the generation of single-stranded cDNA and the FL-OvationM-^Y cDNA Biotin Module V2 for the labeling and fragmentation of the single-stranded cDNA (NuGEN Technologies, San Carlos, CA)."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Andre Mueller"
+          },
+          {
+            "name": "Email",
+            "value": "post@andre-mueller.com"
+          },
+          {
+            "name": "Phone",
+            "value": "646-557-3871"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Tisch MS Research Center of New York"
+          },
+          {
+            "name": "Address",
+            "value": "521 W 57th Street, 4th floor"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "22771249",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Cerebrospinal hepatocyte growth factor levels correlate negatively with disease activity in multiple sclerosis"
+          },
+          {
+            "name": "Authors",
+            "value": "Muller AM, Jun E, Conlon H, Sadiq SA"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1016/j.jneuroim.2012.06.008"
+          },
+          {
+            "name": "Status",
+            "value": "under review"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1016/j.jneuroim.2012.06.008"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-2374",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "48"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "disease state design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "ex_vivo_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-2374",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "primary-progressive multiple sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "unknown - not multiple sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "HTLV1-associated myelopathy"
+              },
+              {
+                "name": "Disease",
+                "value": "stroke"
+              },
+              {
+                "name": "Disease",
+                "value": "relapsing-remitting multiple sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "Parkinson's disease"
+              },
+              {
+                "name": "Disease",
+                "value": "secondary progressive multiple sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "spinal stenosis"
+              },
+              {
+                "name": "Disease",
+                "value": "neurosarcoidosis"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "stroke"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_E2152.CEL\" OR \"A544_01_B2244.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "unknown - not multiple sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A511_04_C2180.CEL\" OR \"A523_A2213.CEL\" OR \"A523_E2222.CEL\" OR \"A544_04_E2267.CEL\" OR \"A568_C2425.CEL\" OR \"A568b_02_E2502.CEL\" OR \"A568b_04_A2568.CEL\""
+                        }
+                      ],
+                      "value": "7"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_C2195.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "spinal stenosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A544_02_E2247.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "HTLV1-associated myelopathy"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_01_D2481.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "neurosarcoidosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_05_D2581.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "relapsing-remitting multiple sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_03_A2528.CEL\" OR \"A493_D2136.CEL\" OR \"A523_B2194.CEL\" OR \"A523_C2200.CEL\" OR \"A568_A2413.CEL\" OR \"A568_A2428.CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_E2137.CEL\" OR \"A511_03_D2176.CEL\" OR \"A511_06_A2188.CEL\" OR \"A523_C2205.CEL\" OR \"A523_D2206.CEL\" OR \"A544_08_D2316.CEL\" OR \"A568b_08_E2292.CEL\" OR \"A523_B2204.CEL\" OR \"A544_03_B2259.CEL\" OR \"A544_07_D2261.CEL\""
+                        }
+                      ],
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A447b_C2087.CEL\" OR \"A493_A2133.CEL\" OR \"A493_B2134.CEL\" OR \"A493_B2144.CEL\" OR \"A511_01_C2165.CEL\" OR \"A511_02_D2166.CEL\" OR \"A511_05_D2181.CEL\" OR \"A568b_06_B2396.CEL\" OR \"A568b_07_B2284.CEL\" OR \"A447b_A2082.CEL\" OR \"A447b_B2078.CEL\" OR \"A447b_C2084.CEL\" OR \"A447b_D2038.CEL\" OR \"A493_D2151.CEL\" OR \"A493_D2161.CEL\" OR \"A523_B2199.CEL\" OR \"A523_E2187.CEL\" OR \"A523_E2192.CEL\" OR \"A544_06_C2260.CEL\""
+                        }
+                      ],
+                      "value": "19"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-2374",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "cerebrospinal fluid"
+              },
+              {
+                "name": "Specimen with known storage state",
+                "value": "fresh spezimen"
+              },
+              {
+                "name": "Specimen with known storage state",
+                "value": "fresh specimen"
+              },
+              {
+                "name": "Disease",
+                "value": "primary-progressive multiple sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "unknown - not multiple sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "HTLV1-associated myelopathy"
+              },
+              {
+                "name": "Disease",
+                "value": "stroke"
+              },
+              {
+                "name": "Disease",
+                "value": "relapsing-remitting multiple sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "Parkinson's disease"
+              },
+              {
+                "name": "Disease",
+                "value": "secondary progressive multiple sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "spinal stenosis"
+              },
+              {
+                "name": "Disease",
+                "value": "neurosarcoidosis"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Age",
+                "value": "47 year"
+              },
+              {
+                "name": "Age",
+                "value": "53 year"
+              },
+              {
+                "name": "Age",
+                "value": "62 year"
+              },
+              {
+                "name": "Age",
+                "value": "49 year"
+              },
+              {
+                "name": "Age",
+                "value": "50 year"
+              },
+              {
+                "name": "Age",
+                "value": "55 year"
+              },
+              {
+                "name": "Age",
+                "value": "68 year"
+              },
+              {
+                "name": "Age",
+                "value": "45 year"
+              },
+              {
+                "name": "Age",
+                "value": "44 year"
+              },
+              {
+                "name": "Age",
+                "value": "26 year"
+              },
+              {
+                "name": "Age",
+                "value": "32 year"
+              },
+              {
+                "name": "Age",
+                "value": "71 year"
+              },
+              {
+                "name": "Age",
+                "value": "64 year"
+              },
+              {
+                "name": "Age",
+                "value": "60 year"
+              },
+              {
+                "name": "Age",
+                "value": "34 year"
+              },
+              {
+                "name": "Age",
+                "value": "... 15 other values"
+              },
+              {
+                "name": "Treatment",
+                "value": "none"
+              },
+              {
+                "name": "Treatment",
+                "value": "Tysabri"
+              },
+              {
+                "name": "Treatment",
+                "value": "Avonex"
+              },
+              {
+                "name": "Treatment",
+                "value": "itMTX"
+              },
+              {
+                "name": "Treatment",
+                "value": "oral MTX"
+              },
+              {
+                "name": "Treatment",
+                "value": "intrathecal methotrexate"
+              },
+              {
+                "name": "Treatment",
+                "value": "Avonex, intrathecal methotrexate"
+              },
+              {
+                "name": "Individual",
+                "value": "40"
+              },
+              {
+                "name": "Individual",
+                "value": "34"
+              },
+              {
+                "name": "Individual",
+                "value": "24"
+              },
+              {
+                "name": "Individual",
+                "value": "36"
+              },
+              {
+                "name": "Individual",
+                "value": "11"
+              },
+              {
+                "name": "Individual",
+                "value": "41"
+              },
+              {
+                "name": "Individual",
+                "value": "29"
+              },
+              {
+                "name": "Individual",
+                "value": "38"
+              },
+              {
+                "name": "Individual",
+                "value": "2"
+              },
+              {
+                "name": "Individual",
+                "value": "3"
+              },
+              {
+                "name": "Individual",
+                "value": "39"
+              },
+              {
+                "name": "Individual",
+                "value": "8"
+              },
+              {
+                "name": "Individual",
+                "value": "30"
+              },
+              {
+                "name": "Individual",
+                "value": "19"
+              },
+              {
+                "name": "Individual",
+                "value": "28"
+              },
+              {
+                "name": "Individual",
+                "value": "... 25 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh spezimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "stroke"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_E2152.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "unknown - not multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "32 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "3"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A511_04_C2180.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "unknown - not multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "56 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "32"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_A2213.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "53 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "27"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_C2195.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "unknown - not multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "23"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_E2222.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "stroke"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A544_01_B2244.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "spinal stenosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "42 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "41"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A544_02_E2247.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "unknown - not multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "39 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "9"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A544_04_E2267.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "unknown - not multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "19"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568_C2425.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "HTLV1-associated myelopathy"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "47 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "11"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_01_D2481.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "unknown - not multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "58 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "13"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_02_E2502.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "unknown - not multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "19"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_04_A2568.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "neurosarcoidosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "43 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "40"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_05_D2581.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "relapsing-remitting multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "26 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "31"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_03_A2528.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "15"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_E2137.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "24"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A511_03_D2176.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "30 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A511_06_A2188.CEL\" OR \"A523_C2205.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "58 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "5"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_D2206.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "30"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A544_08_D2316.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "42 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "14"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_08_E2292.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "relapsing-remitting multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "17 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "37"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_D2136.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "relapsing-remitting multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "17"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_B2194.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "relapsing-remitting multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "34 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_C2200.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "relapsing-remitting multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "31 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "26"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568_A2413.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "34"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A447b_C2087.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "74 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_A2133.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "39 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "20"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_B2134.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "59 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "36"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_B2144.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "62 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A511_01_C2165.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "71 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "39"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A511_02_D2166.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "16"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A511_05_D2181.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_31",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "66 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "29"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_06_B2396.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_32",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "none"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "12"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568b_07_B2284.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_33",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "4"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A447b_A2082.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_34",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "28"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A447b_B2078.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_35",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "itMTX"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "35"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A447b_C2084.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_36",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "52 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Tysabri"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "33"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A447b_D2038.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_37",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Avonex"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "18"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_D2151.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_38",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "oral MTX"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "21"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A493_D2161.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_39",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "71 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "39"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_B2199.CEL\" OR \"A544_06_C2260.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_40",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "24"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_B2204.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_41",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Avonex, intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "18"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_E2187.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_42",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "secondary progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "59 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "36"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A523_E2192.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_43",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "30 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "22"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A544_03_B2259.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_44",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "primary-progressive multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "intrathecal methotrexate"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "25"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A544_07_D2261.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_45",
+                  "attributes": [
+                    {
+                      "name": "specimen with known storage state",
+                      "value": "fresh specimen"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "relapsing-remitting multiple sclerosis"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "40 year"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Avonex"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "38"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A568_A2428.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-2374",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "48"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A493_E2152"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A493_E2152.CEL",
+                  "size": 13572526,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A511_04_C2180"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A511_04_C2180.CEL",
+                  "size": 13575018,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_A2213"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_A2213.CEL",
+                  "size": 13587786,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_C2195"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_C2195.CEL",
+                  "size": 13594994,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_E2222"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_E2222.CEL",
+                  "size": 13585618,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A544_01_B2244"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A544_01_B2244.CEL",
+                  "size": 13578518,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A544_02_E2247"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A544_02_E2247.CEL",
+                  "size": 13573274,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A544_04_E2267"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A544_04_E2267.CEL",
+                  "size": 13573178,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568_C2425"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568_C2425.CEL",
+                  "size": 13582126,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568b_01_D2481"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568b_01_D2481.CEL",
+                  "size": 13569504,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568b_02_E2502"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568b_02_E2502.CEL",
+                  "size": 13568460,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568b_04_A2568"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568b_04_A2568.CEL",
+                  "size": 13569708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568b_05_D2581"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568b_05_D2581.CEL",
+                  "size": 13569620,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568b_03_A2528"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568b_03_A2528.CEL",
+                  "size": 13571496,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A493_E2137"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A493_E2137.CEL",
+                  "size": 13572522,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A511_03_D2176"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A511_03_D2176.CEL",
+                  "size": 13571878,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A511_06_A2188"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A511_06_A2188.CEL",
+                  "size": 13571706,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_C2205"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_C2205.CEL",
+                  "size": 13573746,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_D2206"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_D2206.CEL",
+                  "size": 13582290,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A544_08_D2316"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A544_08_D2316.CEL",
+                  "size": 13571982,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568b_08_E2292"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568b_08_E2292.CEL",
+                  "size": 13570428,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A493_D2136"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A493_D2136.CEL",
+                  "size": 13573802,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_B2194"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_B2194.CEL",
+                  "size": 13583802,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_C2200"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_C2200.CEL",
+                  "size": 13577458,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568_A2413"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568_A2413.CEL",
+                  "size": 13571606,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A447b_C2087"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A447b_C2087.CEL",
+                  "size": 13559121,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A493_A2133"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A493_A2133.CEL",
+                  "size": 13573110,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A493_B2134"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A493_B2134.CEL",
+                  "size": 13573458,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A493_B2144"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A493_B2144.CEL",
+                  "size": 13573342,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A511_01_C2165"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A511_01_C2165.CEL",
+                  "size": 13573934,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A511_02_D2166"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A511_02_D2166.CEL",
+                  "size": 13575826,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A511_05_D2181"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A511_05_D2181.CEL",
+                  "size": 13569994,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568b_06_B2396"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568b_06_B2396.CEL",
+                  "size": 13568556,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568b_07_B2284"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568b_07_B2284.CEL",
+                  "size": 13568712,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A447b_A2082"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A447b_A2082.CEL",
+                  "size": 13558997,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A447b_B2078"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A447b_B2078.CEL",
+                  "size": 13559245,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A447b_C2084"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A447b_C2084.CEL",
+                  "size": 13558825,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A447b_D2038"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A447b_D2038.CEL",
+                  "size": 13559517,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A493_D2151"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A493_D2151.CEL",
+                  "size": 13573118,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A493_D2161"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A493_D2161.CEL",
+                  "size": 13573562,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_B2199"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_B2199.CEL",
+                  "size": 13576370,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_B2204"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_B2204.CEL",
+                  "size": 13576406,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_E2187"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_E2187.CEL",
+                  "size": 13576518,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A523_E2192"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A523_E2192.CEL",
+                  "size": 13586086,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A544_03_B2259"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A544_03_B2259.CEL",
+                  "size": 13570094,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A544_06_C2260"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A544_06_C2260.CEL",
+                  "size": 13576790,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A544_07_D2261"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A544_07_D2261.CEL",
+                  "size": 13575702,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A568_A2428"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A568_A2428.CEL",
+                  "size": 13570794,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-2374",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-2374.idf.txt",
+                  "size": 3175,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-2374.sdrf.txt",
+                  "size": 22916,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-2374",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-44"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-2374",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

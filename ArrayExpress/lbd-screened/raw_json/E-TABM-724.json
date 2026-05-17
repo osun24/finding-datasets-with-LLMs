@@ -1,0 +1,3150 @@
+{
+  "accno": "E-TABM-724",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of neurosphere-derived cell lines from patients with brain disorders"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2010-06-04"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-TABM-724"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-TABM-724",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of neurosphere-derived cell lines from patients with brain disorders"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Understanding the molecular bases of neurological and psychiatric conditions is hampered by a lack of suitable patient-derived cellular models. The olfactory mucosa is a continually regenerating neural tissue that contains multipotent neural stem cells which are accessible and expandable in vitro as neurospheres. Here we demonstrate disease-specific differences in neurosphere-derived cell lines from patients with two unrelated neurological conditions. Lines derived from donors with schizophrenia exhibited significant dysregulation of neurodevelopmental pathways whereas those obtained from donors with Parkinson's disease demonstrated significant dysgregulation in mitochondrial function, oxidative stress and xenobiotic metabolism. Our model supports the hypothesis that diseases with multiple genetic and environmental risk factors are revealed in convergent cellular and molecular pathways in olfactory neurosphere-derived cells taken from patient cohorts. These patient-derived cells provide informative models that provide insights into neurobiological correlates of neurological and psychiatric disorders that may be useful for many neuropsychiatric/neurodegenerative conditions and for drug discovery"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-TABM-3841",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-3841"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "TermId",
+                  "value": "ProtocolType\\tNULL\\tE-TABM-724\\tNULL\\tlabeling"
+                }
+              ],
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Biotynilated cRNA was prepared using the Ambion Illumina RNA amplification kit (Ambion, Inc) with a 4h IVT reaction"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-3844",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-3844"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "TermId",
+                  "value": "ProtocolType\\tNULL\\tE-TABM-724\\tNULL\\timage_acquisition"
+                }
+              ],
+              "value": "image_acquisition"
+            },
+            {
+              "name": "Description",
+              "value": "These slides were scanned on an Illumina Beadstation"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-3845",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-3845"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "TermId",
+                  "value": "ProtocolType\\tNULL\\tE-TABM-724\\tNULL\\tfeature_extraction"
+                }
+              ],
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "bead summarization was performed using BeadStudio Version 3.1.7"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-3842",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-3842"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "TermId",
+                  "value": "ProtocolType\\tNULL\\tE-TABM-724\\tNULL\\tnucleic_acid_extraction"
+                }
+              ],
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was extracted from cells using an Rneasy kit from Qiagen Inc. (Valencia, CA)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-3843",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-3843"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "TermId",
+                  "value": "ProtocolType\\tNULL\\tE-TABM-724\\tNULL\\thybridization"
+                }
+              ],
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "A total of 750ng of cRNA was hybridized to human whole-genome Illumina Human-Refseq8 v2 BeadChips (Illumina, Inc.)."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Nicholas Matigian"
+          },
+          {
+            "name": "Email",
+            "value": "n.matigian@uq.edu.au"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "23264559",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "A patient-derived stem cell model of hereditary spastic paraplegia with SPAST mutations"
+          },
+          {
+            "name": "Authors",
+            "value": "Greger Abrahamsen; Yongjun Fan; Nicholas Matigian; Gautam Wali; Bernadette Bellette; Ratneswary Sutharsan; Jyothy Raju; Stephen A. Wood; David Veivers; Carolyn M. Sue; Alan Mackay-Sim"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1242/dmm.010884"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1242/dmm.010884"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "21852951",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Variance of gene expression identifies altered network constraints in neurological disease."
+          },
+          {
+            "name": "Authors",
+            "value": "Mar JC, Matigian NA, Mackay-Sim A, Mellick GD, Sue CM, Silburn PA, McGrath JJ, Quackenbush J, Wells CA."
+          },
+          {
+            "name": "DOI",
+            "value": "10.1371/journal.pgen.1002207"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1371/journal.pgen.1002207"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-TABM-724",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "42"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "transcription profiling by array"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell_type"
+              }
+            ],
+            "value": "CELLTYPE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease_state"
+              }
+            ],
+            "value": "DISEASESTATE"
+          },
+          {
+            "name": "Quality Controls",
+            "value": "biological_replicate"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-TABM-724",
+            "attributes": [
+              {
+                "name": "Celltype",
+                "value": "fibroblast"
+              },
+              {
+                "name": "Celltype",
+                "value": "neurosphere"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "Parkinson's disease"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "normal"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "schizophrenia"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "CELLTYPE",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "28"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "CELLTYPE",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "37"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "CELLTYPE",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "18"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "CELLTYPE",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "18"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "CELLTYPE",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "18"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-TABM-724",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "TimeUnit",
+                "value": "years"
+              },
+              {
+                "name": "Age",
+                "value": "17"
+              },
+              {
+                "name": "Age",
+                "value": "24"
+              },
+              {
+                "name": "Age",
+                "value": "21"
+              },
+              {
+                "name": "Age",
+                "value": "43"
+              },
+              {
+                "name": "Age",
+                "value": "28"
+              },
+              {
+                "name": "Age",
+                "value": "59"
+              },
+              {
+                "name": "Age",
+                "value": "41"
+              },
+              {
+                "name": "Age",
+                "value": "64"
+              },
+              {
+                "name": "Age",
+                "value": "60"
+              },
+              {
+                "name": "Age",
+                "value": "31"
+              },
+              {
+                "name": "Age",
+                "value": "50"
+              },
+              {
+                "name": "Age",
+                "value": "49"
+              },
+              {
+                "name": "Age",
+                "value": "47"
+              },
+              {
+                "name": "Age",
+                "value": "32"
+              },
+              {
+                "name": "Age",
+                "value": "46"
+              },
+              {
+                "name": "Age",
+                "value": "... 16 other values"
+              },
+              {
+                "name": "Celltype",
+                "value": "fibroblast"
+              },
+              {
+                "name": "Celltype",
+                "value": "neurosphere"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "Parkinson's disease"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "normal"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "schizophrenia"
+              },
+              {
+                "name": "Individual",
+                "value": "200050005"
+              },
+              {
+                "name": "Individual",
+                "value": "100020001"
+              },
+              {
+                "name": "Individual",
+                "value": "100020003"
+              },
+              {
+                "name": "Individual",
+                "value": "300020003"
+              },
+              {
+                "name": "Individual",
+                "value": "200550005"
+              },
+              {
+                "name": "Individual",
+                "value": "100070001"
+              },
+              {
+                "name": "Individual",
+                "value": "200030001"
+              },
+              {
+                "name": "Individual",
+                "value": "300020009"
+              },
+              {
+                "name": "Individual",
+                "value": "300020007"
+              },
+              {
+                "name": "Individual",
+                "value": "300020008"
+              },
+              {
+                "name": "Individual",
+                "value": "300020006"
+              },
+              {
+                "name": "Individual",
+                "value": "100550001"
+              },
+              {
+                "name": "Individual",
+                "value": "200050001"
+              },
+              {
+                "name": "Individual",
+                "value": "100030008"
+              },
+              {
+                "name": "Individual",
+                "value": "100030002"
+              },
+              {
+                "name": "Individual",
+                "value": "... 27 other values"
+              },
+              {
+                "name": "Organismpart",
+                "value": "olfactory mucosa"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "45"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030006"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "51"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030007"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "55"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030009"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "57"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100550001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "64"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030008"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "49"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200550002"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "63"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200550004"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "43"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200550005"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "21"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020003"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "33"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020004"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "49"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020005"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "27"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020006"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "44"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020007"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "28"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020008"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "38"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020009"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "31"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100020001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "55"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200550006"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "60"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200030001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "51"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200030002"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "54"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200050001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "38"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200050002"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "71"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200050003"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "64"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200050004"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "50"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200050005"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "47"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100020002"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "28"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100020003"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "17"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "24"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030002"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "32"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030003"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "46"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030004"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "56"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030005"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_31",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "64"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200050006"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_32",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "77"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200060001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_33",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "59"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200060003"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_34",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "67"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200060005"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_35",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "38"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200060006"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_36",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "41"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200060007"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_37",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "46"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_38",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "58"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020002"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_39",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "45"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100070001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_40",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "47"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200070001"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\" OR \"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_41",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "80"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "neurosphere"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "200070002"
+                    },
+                    {
+                      "name": "OrganismPart",
+                      "value": "olfactory mucosa"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_42",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "46"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020001"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_43",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "58"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020002"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_44",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "21"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020003"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_45",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "33"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020004"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_46",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "49"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020005"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_47",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "27"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020006"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_48",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "44"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020007"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_49",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "28"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020008"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_50",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "38"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "schizophrenia"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "300020009"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_51",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "31"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100020001"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_52",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "47"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100020002"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_53",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "28"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100020003"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_54",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "32"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030003"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_55",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "46"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030004"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_56",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "56"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030005"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_57",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "17"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030001"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_58",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "45"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030006"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_59",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "51"
+                    },
+                    {
+                      "name": "CellType",
+                      "value": "fibroblast"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "Individual",
+                      "value": "100030007"
+                    },
+                    {
+                      "name": "OrganismPart"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\" OR \"Fibro Sz Vs Controls_Sample_Probe_Profile.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-TABM-724",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "100020001, 100020002, 100020003, 100030001, 100030002, 100030003, 100030004, 100030005, 100030006, 100030007, 100030008, 100030009, 100070001, 100550001, 200030001, 200030002, 200050001, 200050002, 200050003, 200050004, 200050005, 200050006, 200060001, 200060003, 200060005, 200060006, 200060007, 200070001, 200070002, 200550002, 200550004, 200550005, 200550006, 300020001, 300020002, 300020003, 300020004, 300020005, 300020006, 300020007, 300020008, 300020009"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "All XS 1st&2nd round Sz_PD_Controls n=98_Sample_Probe_Profile.txt",
+                  "size": 75998729,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "100020001, 100020002, 100020003, 100030001, 100030003, 100030004, 100030005, 100030006, 100030007, 300020001, 300020002, 300020003, 300020004, 300020005, 300020006, 300020007, 300020008, 300020009"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Fibro Sz Vs Controls_Sample_Probe_Profile.txt",
+                  "size": 33470148,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-TABM-724",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-TABM-724.idf.txt",
+                  "size": 4608,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-TABM-724.sdrf.txt",
+                  "size": 108109,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-TABM-724",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-931"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-TABM-724",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

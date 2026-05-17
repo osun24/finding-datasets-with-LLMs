@@ -1,0 +1,34 @@
+Accession: E-TABM-167
+Source list: lbd-screened
+Title: Transcription profiling of high and low grade gliomas from human patients to identify new diagnostic and prognostic markers
+Study type: transcription profiling by array
+Description: Comparison of high grade to low grade gliomas.
+Sample count: 39
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: co-expression_design, reference_design, disease_state_design, transcription profiling by array
+  Experimental Factors:
+    Experimental Factors: DiseaseState, TumorGrading
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: brain
+    Disease: normal;glioma, glioma, normal
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      DiseaseState: normal;glioma, normal, glioma
+      Diseasestate: glioma, normal
+    Cell type/line:
+      Not found
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Quality Controls: biological_replicate
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

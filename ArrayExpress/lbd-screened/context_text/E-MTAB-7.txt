@@ -1,0 +1,33 @@
+Accession: E-MTAB-7
+Source list: lbd-screened
+Title: Transcription profiling of 51 human breast cancer cell lines
+Study type: transcription profiling by array
+Description: A cell line comparison experiment for breat cancer 51 cancer cell lines
+Sample count: 51
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: in_vitro_design, cell_type_comparison_design, co-expression_design, transcription profiling by array
+  Experimental Factors:
+    Experimental Factors: CELLLINE
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: Not found
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Cellline: HS578T, SUM52PE, HCC3153, ... 48 other values
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

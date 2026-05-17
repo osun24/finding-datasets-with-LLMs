@@ -1,0 +1,1702 @@
+{
+  "accno": "E-MEXP-3260",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Muscle Gene Expression Is a Marker of Amyotrophic Lateral Sclerosis Severity"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2012-01-17"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MEXP-3260"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MEXP-3260",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Muscle Gene Expression Is a Marker of Amyotrophic Lateral Sclerosis Severity"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "This study was designed to identify gene expression changes in skeletal muscle that could define reliably the degree of the severity of Amyotrophic lateral sclerosis (ALS). All samples were from human biopsies, either from healthy muscles or from muscle whose patients were clearly diagnosed as having Amyotrophic Lateral Sclerosis (ALS)"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-21502",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-21502"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "MGED Ontology"
+                }
+              ],
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was isolated with Trizol and cleaned up on RNeasy Mini Columns. Target synthesis were done with SuperScript double-standard cDNA synthesis Kit (Invitrogen) followed by IVT using RNA Transcript labeling Kit T7 (Enzo). (Parameters: Extracted product = total_RNA, Amplification = RNA polymerases)"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "philippe demougin"
+          },
+          {
+            "name": "Email",
+            "value": "philippe.demougin@unibas.ch"
+          },
+          {
+            "name": "Phone",
+            "value": "+41 61 267 2178"
+          },
+          {
+            "name": "Role",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "MGED Ontology"
+              }
+            ],
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Biozentrum - University of basel"
+          },
+          {
+            "name": "Address",
+            "value": "LSTF, Klingelbergstrasse 50-70, Basel, Basel city, 4056, Switzerland"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Muscle Gene Expression Is a Marker of Amyotrophic Lateral Sclerosis Severity"
+          },
+          {
+            "name": "Status",
+            "value": "in press"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MEXP-3260",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "38"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "replicate_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "clinical_history_design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease_state"
+              }
+            ],
+            "value": "DISEASE_STATE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical_information"
+              }
+            ],
+            "value": "CLINICAL_INFORMATION"
+          },
+          {
+            "name": "Quality Controls",
+            "value": "biological_replicate"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MEXP-3260",
+            "attributes": [
+              {
+                "name": "Disease_state",
+                "value": "normal"
+              },
+              {
+                "name": "Disease_state",
+                "value": "amyotrophic lateral sclerosis"
+              },
+              {
+                "name": "Clinical_information",
+                "value": "Right arm abduction score 2"
+              },
+              {
+                "name": "Clinical_information",
+                "value": "Right arm abduction score 5"
+              },
+              {
+                "name": "Clinical_information",
+                "value": "Right arm abduction score 4"
+              },
+              {
+                "name": "Clinical_information",
+                "value": "Right arm abduction score 1"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "DISEASE_STATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "CLINICAL_INFORMATION",
+                      "value": "Right arm abduction score 5"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"01a.CEL\" OR \"01b.CEL\" OR \"02a.CEL\" OR \"02b.CEL\" OR \"03a.CEL\" OR \"03b.CEL\" OR \"04a.CEL\" OR \"04b.CEL\" OR \"05a.CEL\" OR \"05b.CEL\" OR \"06a.CEL\" OR \"06b.CEL\" OR \"07a.CEL\" OR \"07b.CEL\" OR \"08a.CEL\" OR \"08b.CEL\" OR \"09a.CEL\" OR \"09b.CEL\" OR \"10a.CEL\" OR \"10b.CEL\""
+                        }
+                      ],
+                      "value": "20"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "DISEASE_STATE",
+                      "value": "amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "CLINICAL_INFORMATION",
+                      "value": "Right arm abduction score 5"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"11a.CEL\" OR \"11b.CEL\" OR \"12a.CEL\" OR \"12b.CEL\" OR \"13a.CEL\" OR \"13b.CEL\" OR \"14a.CEL\" OR \"14b.CEL\""
+                        }
+                      ],
+                      "value": "8"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "DISEASE_STATE",
+                      "value": "amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "CLINICAL_INFORMATION",
+                      "value": "Right arm abduction score 4"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"15a.CEL\" OR \"15b.CEL\" OR \"16a.CEL\" OR \"16b.CEL\" OR \"17a.CEL\" OR \"17b.CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "DISEASE_STATE",
+                      "value": "amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "CLINICAL_INFORMATION",
+                      "value": "Right arm abduction score 2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"18a.CEL\" OR \"18b.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "DISEASE_STATE",
+                      "value": "amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "CLINICAL_INFORMATION",
+                      "value": "Right arm abduction score 1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"19a.CEL\" OR \"19b.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MEXP-3260",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "OrganismPart",
+                "value": "muscle"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "normal"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "amyotrophic lateral sclerosis"
+              },
+              {
+                "name": "Clinicalinformation",
+                "value": "Right arm abduction score 2"
+              },
+              {
+                "name": "Clinicalinformation",
+                "value": "Right arm abduction score 5"
+              },
+              {
+                "name": "Clinicalinformation",
+                "value": "Right arm abduction score 4"
+              },
+              {
+                "name": "Clinicalinformation",
+                "value": "Right arm abduction score 1"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalInformation",
+                      "value": "Right arm abduction score 5"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"01a.CEL\" OR \"01b.CEL\" OR \"02a.CEL\" OR \"02b.CEL\" OR \"03a.CEL\" OR \"03b.CEL\" OR \"04a.CEL\" OR \"04b.CEL\" OR \"05a.CEL\" OR \"05b.CEL\""
+                        }
+                      ],
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalInformation",
+                      "value": "Right arm abduction score 5"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"06a.CEL\" OR \"06b.CEL\" OR \"07a.CEL\" OR \"07b.CEL\" OR \"08a.CEL\" OR \"08b.CEL\" OR \"09a.CEL\" OR \"09b.CEL\" OR \"10a.CEL\" OR \"10b.CEL\""
+                        }
+                      ],
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "ClinicalInformation",
+                      "value": "Right arm abduction score 5"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"11a.CEL\" OR \"11b.CEL\" OR \"12a.CEL\" OR \"12b.CEL\" OR \"13a.CEL\" OR \"13b.CEL\" OR \"14a.CEL\" OR \"14b.CEL\""
+                        }
+                      ],
+                      "value": "8"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "ClinicalInformation",
+                      "value": "Right arm abduction score 4"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"15a.CEL\" OR \"15b.CEL\" OR \"16a.CEL\" OR \"16b.CEL\" OR \"17a.CEL\" OR \"17b.CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "ClinicalInformation",
+                      "value": "Right arm abduction score 2"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"18a.CEL\" OR \"18b.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "ClinicalInformation",
+                      "value": "Right arm abduction score 1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"19a.CEL\" OR \"19b.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MEXP-3260",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "01a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "01a.CEL",
+                  "size": 12054969,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "01b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "01b.CEL",
+                  "size": 12046579,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "02a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "02a.CEL",
+                  "size": 12003122,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "02b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "02b.CEL",
+                  "size": 11836614,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "03a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "03a.CEL",
+                  "size": 12095635,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "03b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "03b.CEL",
+                  "size": 11952046,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "04a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "04a.CEL",
+                  "size": 12029822,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "04b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "04b.CEL",
+                  "size": 11880338,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "05a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "05a.CEL",
+                  "size": 12066608,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "05b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "05b.CEL",
+                  "size": 11980431,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "06a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "06a.CEL",
+                  "size": 12111388,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "06b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "06b.CEL",
+                  "size": 12036709,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "07a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "07a.CEL",
+                  "size": 12101542,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "07b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "07b.CEL",
+                  "size": 11972400,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "08a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "08a.CEL",
+                  "size": 12055077,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "08b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "08b.CEL",
+                  "size": 11953077,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "09a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "09a.CEL",
+                  "size": 12105056,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "09b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "09b.CEL",
+                  "size": 11995466,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "10a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "10a.CEL",
+                  "size": 12045812,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "10b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "10b.CEL",
+                  "size": 11992541,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "11a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "11a.CEL",
+                  "size": 12055651,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "11b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "11b.CEL",
+                  "size": 11972986,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "12a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "12a.CEL",
+                  "size": 12072867,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "12b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "12b.CEL",
+                  "size": 11941727,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "13a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "13a.CEL",
+                  "size": 12084933,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "13b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "13b.CEL",
+                  "size": 11942829,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "14a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "14a.CEL",
+                  "size": 12038670,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "14b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "14b.CEL",
+                  "size": 11866801,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "15a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "15a.CEL",
+                  "size": 12068481,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "15b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "15b.CEL",
+                  "size": 11952548,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "16a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "16a.CEL",
+                  "size": 12202256,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "16b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "16b.CEL",
+                  "size": 12028883,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "17a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "17a.CEL",
+                  "size": 12043210,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "17b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "17b.CEL",
+                  "size": 11948507,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "18a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "18a.CEL",
+                  "size": 12062119,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "18b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "18b.CEL",
+                  "size": 11919931,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "19a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "19a.CEL",
+                  "size": 12103647,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "19b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "19b.CEL",
+                  "size": 12014748,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "09b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "02a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "11a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "15a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "16a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "19a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "10a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "18b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "08a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "03b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "18a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "06b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "12b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "13b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "17a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "19b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "07a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "06a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "12a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "01b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "14a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "03a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "15b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "05b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "01a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "17b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "13a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "14b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "11b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "10b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "07b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "04b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "04a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "02b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "08b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "05a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "09a.CHP",
+                  "size": 14419792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "16b.CHP",
+                  "size": 14521708,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "additional-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "R object"
+                    }
+                  ],
+                  "path": "E-MEXP-3260.eSet.r",
+                  "size": 44796361,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Additional Files"
+          },
+          {
+            "accno": "mt-E-MEXP-3260",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MEXP-3260.idf.txt",
+                  "size": 2870,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MEXP-3260.sdrf.txt",
+                  "size": 22121,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MEXP-3260",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-34"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-33"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MEXP-3260",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

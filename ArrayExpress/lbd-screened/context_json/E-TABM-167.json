@@ -1,0 +1,73 @@
+{
+  "Accession": "E-TABM-167",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "39"
+    ]
+  },
+  "Description": "Comparison of high grade to low grade gliomas.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {
+        "DiseaseState": [
+          "normal;glioma",
+          "normal",
+          "glioma"
+        ],
+        "Diseasestate": [
+          "glioma",
+          "normal"
+        ]
+      },
+      "Quality controls": {
+        "Quality Controls": [
+          "biological_replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "co-expression_design",
+        "reference_design",
+        "disease_state_design",
+        "transcription profiling by array"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "DiseaseState",
+        "TumorGrading"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "normal;glioma",
+        "glioma",
+        "normal"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "brain"
+      ]
+    }
+  },
+  "Source list": "lbd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcription profiling of high and low grade gliomas from human patients to identify new diagnostic and prognostic markers"
+}

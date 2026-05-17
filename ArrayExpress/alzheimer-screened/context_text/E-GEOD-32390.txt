@@ -1,0 +1,39 @@
+Accession: E-GEOD-32390
+Source list: alzheimer-screened
+Title: In vitro responses of PBMC and fibroblasts from patients with TRIF deficiency after TRIF dependent and independent stimuli
+Study type: transcription profiling by array
+Description: We report here unrelated HSE patients with autosomal recessive (AR) or autosomal dominant (AD) TRIF deficiency. The AR form of the disease is due to a homozygous nonsense mutation, resulting in a complete absence of the TRIF protein. Both the TLR3 and the TRIF-dependent TLR4 signaling pathways are abolished. The AD form of TRIF deficiency is due to a heterozygous missense mutation resulting in a dysfunctional protein. The TLR3 signaling pathway is impaired, whereas the TRIF-dependent TLR4 pathway is unaffected. Both patients however showed reduced capacity to respond to cytosolic double stranded RNA, consistent with recent reports of TRIF’s involvement in the DExD/H-box helicases pathway. Skin fibroblast cell lines were derived from healthy controls (n=3), patient with deficiencies for TRIF (n=1), MYD88 (n=1), and TLR3 (n=1) and cultured for 4 hours in the presence of IL1B (20ng/ml) or poly I:C (25ng/ml) or left unstimulated for the same length of time. PBMCs (previously frozen) collected from a healthy control (n=1) and patients with deficiencies for TRIF (n=1), and MYD88 (n=1) were cultured together with LPS (10ng/ml) or R848 (3ug/ml) for 2hrs or left unstimulated for the same length of time.
+Sample count: 27
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Not found
+  Experimental Factors:
+    Experimental Factors: CONCENTRATION, TREATMENT, DISEASE STATE, TIME POINT, CELL TYPE
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient, herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient, herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient, healthy control
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Disease state: herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient, herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient, herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient, healthy control
+      DISEASE STATE: herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient, herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient, healthy control, herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient
+      disease state: herpes simplex virus type 1 (HSV1) encephalitis (HSE) MYD88 deficient patient, herpes simplex virus type 1 (HSV1) encephalitis (HSE) TRIF deficient patient, healthy control, herpes simplex virus type 1 (HSV1) encephalitis (HSE) TLR3 deficient patient
+    Cell type/line:
+      Cell type: PBMC, Fibroblasts
+      CELL TYPE: PBMC, Fibroblasts
+      cell type: PBMC, Fibroblasts
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Treatment: NS, R848, not specified, LPS, Non stimulated, IL1B
+      TREATMENT: R848, Non stimulated, LPS, not specified, IL1B, NS
+      treatment: R848, Non stimulated, LPS, IL1B, NS
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

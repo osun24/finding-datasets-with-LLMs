@@ -1,0 +1,2515 @@
+{
+  "accno": "E-MTAB-8635",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Gene expression profiles in spinal cord of control and sporadic Amyotrophic Lateral Sclerosis patients"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2020-01-10"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-8635"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-8635",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Gene expression profiles in spinal cord of control and sporadic Amyotrophic Lateral Sclerosis patients"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "We performed gene expression profiles of spinal cord samples of ALS patients (30) and controls (10) in order to obtain transcriptomics information belonging to different brain regions of ALS patients. Motor cortex gene expression profiles of the same patients were previously submitted (E-MTAB-2325) and published."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "Biostudies"
+            }
+          ],
+          "url": "E-MTAB-2325"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-92376",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-92376"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Fresh-frozen samples were obtained post-mortem and selected for post-mortem intervals prior to freezing not exceeding 24 hours."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-92377",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-92377"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "RNA was extracted with Trizol (Invitrogen) following the manufacturer's standard protocol, followed by confirmation of RNA integrity by agarose gel electrophoresis."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-92378",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-92378"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003813"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Complementary RNAs (cRNAs) labeled with Cy3-CTP (Perkin-Elmer) were synthesized from 1 ug of total RNA of each sample using the Low RNA Input Fluorescent Linear Amplification Kit (Agilent Technologies) following the manufacturer's protocol. Aliquots (750 ng) of Cy3 labeled cRNA targets were hybridized on Whole Human Genome Oligo Microarrays (Agilent Technologies)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-92379",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-92379"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003815"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Microarray hybridization and washing were performed using reagents and instruments (hybridization chambers and rotating oven) as indicated by the manufacturer (Agilent Technologies)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-92380",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-92380"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003814"
+                }
+              ],
+              "value": "array scanning and feature extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Microarrays were scanned at 10-μm resolution using a GenePix Personal 4100A microarray scanner and the GenePix Pro 6.0 acquisition and data-extraction software (Molecular Devices, Corp.)."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Sebastiano Cavallaro"
+          },
+          {
+            "name": "Email",
+            "value": "sebastiano.cavallaro@cnr.it"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institute for Biomedical Research and Innovation - National Research Council"
+          },
+          {
+            "name": "Address",
+            "value": "Via Paolo Gaifami n.18, Catania - Italy"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-8635",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "40"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "EFO"
+              },
+              {
+                "name": "TermId",
+                "value": "EFO:0001427"
+              }
+            ],
+            "value": "case control design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-8635",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "sporadic amyotrophic lateral sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"24_09_13_07.gpr\" OR \"26_09_13_07.gpr\" OR \"28_09_13_07.gpr\" OR \"32_09_13_07.gpr\" OR \"34_09_13_07.gpr\" OR \"36_09_13_07.gpr\" OR \"38_09_13_07.gpr\" OR \"40_09_13_07.gpr\" OR \"42_09_13_07.gpr\" OR \"44_09_13_07.gpr\" OR \"46_09_13_07.gpr\" OR \"50_09_13_07.gpr\" OR \"52_09_13_07.gpr\" OR \"54_09_13_07.gpr\" OR \"56_09_13_07.gpr\" OR \"58_09_13_07.gpr\" OR \"60bis_09_13_07.gpr\" OR \"62_09_13_07.gpr\" OR \"64_09_13_07.gpr\" OR \"66_09_13_07.gpr\" OR \"68_09_13_07.gpr\" OR \"7_09_13_07.gpr\" OR \"70_09_13_07.gpr\" OR \"72_09_13_07.gpr\" OR \"74bis_09_13_07.gpr\" OR \"76_09_13_07.gpr\" OR \"80_09_13_07.gpr\" OR \"82_09_13_07.gpr\" OR \"84_09_13_07.gpr\" OR \"22_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "30"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"4_09_13_07.gpr\" OR \"11_09_13_07.gpr\" OR \"13_09_13_07.gpr\" OR \"78_09_13_07.gpr\" OR \"16_09_13_07.gpr\" OR \"18_09_13_07.gpr\" OR \"19_09_13_07.gpr\" OR \"2_09_13_07.gpr\" OR \"20_09_13_07.gpr\" OR \"10_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-8635",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Developmental stage",
+                "value": "adult"
+              },
+              {
+                "name": "Organism part",
+                "value": "first lumbar spinal cord segment"
+              },
+              {
+                "name": "Age",
+                "value": "65 year"
+              },
+              {
+                "name": "Age",
+                "value": "54 year"
+              },
+              {
+                "name": "Age",
+                "value": "45 year"
+              },
+              {
+                "name": "Age",
+                "value": "62 year"
+              },
+              {
+                "name": "Age",
+                "value": "57 year"
+              },
+              {
+                "name": "Age",
+                "value": "79 year"
+              },
+              {
+                "name": "Age",
+                "value": "68 year"
+              },
+              {
+                "name": "Age",
+                "value": "41 year"
+              },
+              {
+                "name": "Age",
+                "value": "70 year"
+              },
+              {
+                "name": "Age",
+                "value": "31 year"
+              },
+              {
+                "name": "Age",
+                "value": "67 year"
+              },
+              {
+                "name": "Age",
+                "value": "63 year"
+              },
+              {
+                "name": "Age",
+                "value": "40 year"
+              },
+              {
+                "name": "Age",
+                "value": "59 year"
+              },
+              {
+                "name": "Age",
+                "value": "43 year"
+              },
+              {
+                "name": "Age",
+                "value": "... 11 other values"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Disease",
+                "value": "sporadic amyotrophic lateral sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "31"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "33"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "24"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "13"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "17"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "11"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "34"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "35"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "29"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "1"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "28"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "22"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "12"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "5"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "9"
+              },
+              {
+                "name": "Patient code e-mtab-2325",
+                "value": "... 20 other values"
+              },
+              {
+                "name": "Individual",
+                "value": "#24 09-13-07"
+              },
+              {
+                "name": "Individual",
+                "value": "#26 09-13-07"
+              },
+              {
+                "name": "Individual",
+                "value": "#28 09-13-07"
+              },
+              {
+                "name": "Individual",
+                "value": "... 37 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "30"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"24_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "12"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"26_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "38"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"28_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "54 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "22"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"32_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "37"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"34_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "21"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"36_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "67 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "11"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"38_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "69 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "36"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"40_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "28"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"42_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "35"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"44_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "59 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "41"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"46_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "27"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"50_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "39"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"52_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "40"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"54_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "20"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"56_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "63 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "34"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"58_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "33"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"60bis_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "19"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"62_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "38 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "18"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"64_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "54 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "17"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"66_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "43 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "16"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"68_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "32"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"7_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "31"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"70_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "67 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "15"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"72_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "26"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"74bis_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "14"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"76_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "25"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"80_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "69 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "24"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"82_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "13"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"84_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "40 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "29"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"22_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "48 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "5"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"4_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_31",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"11_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_32",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "62 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"13_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_33",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"78_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_34",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "71 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "4"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"16_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_35",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "9"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"18_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_36",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"19_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_37",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "31 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"2_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_38",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "79 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_39",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "patient code e-mtab-2325",
+                      "value": "7"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"10_09_13_07.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-8635",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "40"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 10"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "24_09_13_07.gpr",
+                  "size": 14645070,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 11"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "26_09_13_07.gpr",
+                  "size": 14429144,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 12"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "28_09_13_07.gpr",
+                  "size": 14400696,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 13"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "32_09_13_07.gpr",
+                  "size": 14477058,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 14"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "34_09_13_07.gpr",
+                  "size": 14463552,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 15"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "36_09_13_07.gpr",
+                  "size": 13058919,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 16"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "38_09_13_07.gpr",
+                  "size": 14782532,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 18"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "40_09_13_07.gpr",
+                  "size": 14493901,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 19"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "42_09_13_07.gpr",
+                  "size": 14555973,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 20"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "44_09_13_07.gpr",
+                  "size": 14567345,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 21"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "46_09_13_07.gpr",
+                  "size": 14516566,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 22"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "50_09_13_07.gpr",
+                  "size": 14612455,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 23"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "52_09_13_07.gpr",
+                  "size": 14504155,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 24"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "54_09_13_07.gpr",
+                  "size": 14458635,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 25"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "56_09_13_07.gpr",
+                  "size": 14628668,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 26"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "58_09_13_07.gpr",
+                  "size": 14699962,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 27"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "60bis_09_13_07.gpr",
+                  "size": 14553469,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 28"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "62_09_13_07.gpr",
+                  "size": 14513019,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 29"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "64_09_13_07.gpr",
+                  "size": 15512459,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 30"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "66_09_13_07.gpr",
+                  "size": 15648891,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 31"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "68_09_13_07.gpr",
+                  "size": 14634385,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 32"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "7_09_13_07.gpr",
+                  "size": 14620570,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 33"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "70_09_13_07.gpr",
+                  "size": 15247415,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 34"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "72_09_13_07.gpr",
+                  "size": 14881229,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 35"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "74bis_09_13_07.gpr",
+                  "size": 14476205,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 36"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "76_09_13_07.gpr",
+                  "size": 14550003,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 38"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "80_09_13_07.gpr",
+                  "size": 14532590,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 39"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "82_09_13_07.gpr",
+                  "size": 14571464,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 40"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "84_09_13_07.gpr",
+                  "size": 14532806,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 9"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "22_09_13_07.gpr",
+                  "size": 14473669,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 17"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "4_09_13_07.gpr",
+                  "size": 14560403,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "11_09_13_07.gpr",
+                  "size": 14643455,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "13_09_13_07.gpr",
+                  "size": 14572171,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 37"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "78_09_13_07.gpr",
+                  "size": 14592465,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 4"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "16_09_13_07.gpr",
+                  "size": 14677303,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 5"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "18_09_13_07.gpr",
+                  "size": 14665994,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 6"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "19_09_13_07.gpr",
+                  "size": 14492890,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 7"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2_09_13_07.gpr",
+                  "size": 14625905,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 8"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "20_09_13_07.gpr",
+                  "size": 14660805,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "10_09_13_07.gpr",
+                  "size": 14858424,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-8635",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-8635.idf.txt",
+                  "size": 3302,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-8635.sdrf.txt",
+                  "size": 14156,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-8635",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-1125"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-8635",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

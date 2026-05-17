@@ -1,0 +1,795 @@
+{
+  "accno": "E-GEOD-5287",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of human advanced bladder cancer to predict response and survival following chemotherapy in patients"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2008-06-13"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-5287"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-5287",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of human advanced bladder cancer to predict response and survival following chemotherapy in patients"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "BACKGROUND; Cisplatin-containing chemotherapy is the standard of care for patients with locally advanced and metastatic transitional cell carcinoma of the urothelium.  The response rate is around 50% and tumor derived molecular prognostic markers are needed for estimation of response and survival.  METHODS; Affymetrix GeneChip expression profiling was carried out using tumor material from 30 patients. A set of genes having an expression with high correlation to survival time after chemotherapy was identified.  Two of these genes were selected for validation by immunohistochemistry (IHC) in tumor tissue from 149 cisplatin treated patients having complete follow-up data. RESULTS; Fifty-five differentially expressed genes correlated significantly to survival time. Two of these (Emmprin and Survivin) were validated using IHC, and multivariate analysis (n=145) identified Emmprin expression (hazard ratio 2.38; p<0.0001) and Survivin expression (hazard ratio 2.34; p<0.0001) as independent prognostic markers for poor outcome, together with the presence of visceral metastases (hazard ratio 2.72; p<0.0001). In the good prognosis group of patients without visceral metastases, both markers showed significant discriminating power as supplemental risk factors (p<0.0001). Within this group of patients, the subgroups of patients with no positive, one positive or two positive IHC stainings (Emmprin and Survivin) had estimated 5-year survival rates (+- SE) of 35.6+-?%, 6.3+-?%, and 0+?%, respectively. Response to chemotherapy could also be predicted with an OddsRatio of 4.60 (2.13-9.93) and 2.59 (1.25-5.38) for Emmprin and Survivin respectively. CONCLUSION; Emmprin and Survivin proteins were identified as strong independent prognostic predictors for response and survival after cisplatin-containing chemotherapy in patients with bladder cancer. Experiment Overall Design: Tumors from 30 patients with advanced bladder cancer used in the study. A SAM analysis was used for identifying genes co-varying with treatment response."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE5287"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "Affymetrix:Protocol:Hybridization-Unknown",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Affymetrix:Protocol:Hybridization-Unknown"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "mo"
+                }
+              ],
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Title: Affymetrix Generic Hybridization. Description:"
+            },
+            {
+              "name": "Software",
+              "value": "MicroArraySuite 5.0"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-AFFY-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-AFFY-6"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Title: Affymetrix CEL analysis. Description:"
+            },
+            {
+              "name": "Software",
+              "value": "MicroArraySuite 5.0"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Lars DyrskjÃ¸t Andersen"
+          },
+          {
+            "name": "Email",
+            "value": "lars@ki.au.dk"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Aarhus University Hospital, Skejby"
+          },
+          {
+            "name": "Address",
+            "value": "Molecular Diagnostic Laboratory, Department of Clinical Biochemistry, Aarhus University Hospital, Skejby, Brendstrupgaardsvej, Aarhus N, 8200, Denmark"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "17671123",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Emmprin and survivin predict response and survival following cisplatin-containing chemotherapy in patients with advanced bladder cancer."
+          },
+          {
+            "name": "Authors",
+            "value": "Anne B Als, Lars Dyrskjøt, Hans von der Maase, Karen Koed, Francisco Mansilla, Helle E Toldbod, Jens L Jensen, Benedicte P Ulhøi, Lisa Sengeløv, Klaus M E Jensen, Torben F Orntoft"
+          },
+          {
+            "name": "DOI",
+            "value": "17671123"
+          },
+          {
+            "name": "Status",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "journal_article"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "17671123"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-5287",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "30"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "unknown_experiment_design_type"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "transcription profiling by array"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "source_chars-E-GEOD-5287",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              }
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-5287",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119491"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119491.CEL",
+                  "size": 12097046,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119724"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119724.CEL",
+                  "size": 11894545,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119498"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119498.CEL",
+                  "size": 11891169,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119732"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119732.CEL",
+                  "size": 12171706,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119501"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119501.CEL",
+                  "size": 11877041,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119731"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119731.CEL",
+                  "size": 12112029,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119500"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119500.CEL",
+                  "size": 12026104,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119493"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119493.CEL",
+                  "size": 11967776,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119499"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119499.CEL",
+                  "size": 12063886,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119712"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119712.CEL",
+                  "size": 11757377,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119727"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119727.CEL",
+                  "size": 11813936,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119720"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119720.CEL",
+                  "size": 12068665,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119721"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119721.CEL",
+                  "size": 12059329,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119729"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119729.CEL",
+                  "size": 11888075,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119502"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119502.CEL",
+                  "size": 12204078,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119722"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119722.CEL",
+                  "size": 12028261,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119726"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119726.CEL",
+                  "size": 12213091,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119711"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119711.CEL",
+                  "size": 11975229,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119725"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119725.CEL",
+                  "size": 12002155,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119494"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119494.CEL",
+                  "size": 11784620,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119723"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119723.CEL",
+                  "size": 11898021,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119492"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119492.CEL",
+                  "size": 11868643,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119728"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119728.CEL",
+                  "size": 11989871,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119714"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119714.CEL",
+                  "size": 12071892,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119497"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119497.CEL",
+                  "size": 11802308,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119713"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119713.CEL",
+                  "size": 11750384,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119730"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119730.CEL",
+                  "size": 12180069,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119733"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119733.CEL",
+                  "size": 12054878,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119716"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119716.CEL",
+                  "size": 11984460,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSE5287GSM119495"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM119495.CEL",
+                  "size": 11933998,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-GEOD-5287",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-5287.idf.txt",
+                  "size": 4717,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-5287.sdrf.txt",
+                  "size": 19140,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-5287",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-33"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-5287",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

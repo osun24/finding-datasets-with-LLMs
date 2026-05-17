@@ -1,0 +1,5044 @@
+{
+  "accno": "E-GEOD-52917",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Early pre-symptomatic and progressive signatures of non-coding RNAs in ALS patients and mutation carriers"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2014-10-15"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-52917"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-52917",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Early pre-symptomatic and progressive signatures of non-coding RNAs in ALS patients and mutation carriers"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Knowledge about the nature and timepoint of pathomolecular alterations preceding onset of symptoms in amyotrophic lateral sclerosis (ALS) is largely lacking. It could not only pave the way for valuable therapeutic targets but might also govern future concepts of pre-manifest disease modifying treatments. MicroRNAs (miRNAs) are central regulators of transcriptome plasticity and participate in pathogenic cascades and/or mirror cellular adaptation to insults. We obtained expression profiles of miRNAs as well as other non-coding RNAs (ncRNAs) in the serum of sporadic ALS patients (sALS), familial ALS cases (fALS), asymptomatic mutation carriers and healthy controls. We observed a strikingly homogenous ncRNA profile in fALS patients that, to a large extend, was independent to the underlying disease gene and different to heterogeneous ncRNA signatures in sALS patients. Moreover, we identified 68 significantly dysregulated ncRNAs in pre-manifest ALS mutation carriers, more than 20 years before the estimated time window of disease onset. 91% of ncRNA alterations in mutation carriers overlapped with the fALS patients revealing progressive changes towards and during the disease. Our data thus demonstrate a high epigenetic heterogeneity amongst sALS patients and suggest common denominators regarding molecular pathogenesis of different ALS genes. We describe the earliest pathomolecular alterations in ALS known to date, which provide a basis for the development of predictors of disease onset as well as the discovery of novel therapeutic targets and strongly argue for studies evaluating pre-symptomatic disease-modifying treatment in ALS. Serum ncRNA pofiles of sporadic and familiar ALS patients as well as asymptomatic ALS mutation carriers were compared to age and gender matched healthy controls using a total of 53 Affymetrix miRNA 3.0 arrays. In detail, a total of 9 fALS patients (analyzed in 6 arrays) were compared to 10 controls, a total of 18 ALS mutation carriers (analyzed in 12 arrays) were compared to 8 controls and 18 sALS patients were compared to 16 controls."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE52917"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE52917-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE52917-1"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Affymetrix Expression Console 1.3.1. for normalization (RMA+DBAG; human only); BRB Array tools for statistical analysis ID_REF =  VALUE = RMA normalized, log2"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE52917-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE52917-4"
+            },
+            {
+              "name": "Type",
+              "value": "labelling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "FlashTagTM Biotin HSR RNA Labeling Kit (Genisphere, LLC, Hatfield, PA, USA) according to the instructions of the manufacturer"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE52917-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE52917-5"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization protocol"
+            },
+            {
+              "name": "Description",
+              "value": "according to the instructions in the FlashTagTM Biotin HSR RNA Labeling Kit"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE52917-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE52917-2"
+            },
+            {
+              "name": "Type",
+              "value": "sample treatment protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Serum samples were processed within 1 h after blood drawing and stored at -80° C until further usage."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE52917-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE52917-3"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA from 8-10 ml of serum were extracted using the QIAzol lysis reagent (Qiagen) according to the manufacturer's instructions. The aqueous phase was collected and total RNA precipitated by addition of 1.4 volumes of isopropanol and overnight incubation at -20°C. Precipitated RNA was redissolved in water and purified a second time using the miRNeasy Mini Kit (Qiagen) according to the manufacturer's instructions."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE52917-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE52917-6"
+            },
+            {
+              "name": "Type",
+              "value": "array scanning protocol"
+            },
+            {
+              "name": "Description",
+              "value": "according to Affymetrix protocols using a GeneChip 3000 Scanner"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Karlheinz Holzmann"
+          },
+          {
+            "name": "Email",
+            "value": "karlheinz.holzmann@uni-ulm.de"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Axel Freischmidt"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Kathrin MÃ¼ller"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Lisa Zondler"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Patrick Weydt"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Alexander Volk"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Michael Walther"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Michael Bonin"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Benjamin Mayer"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Markus Otto"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Christine von Arnim"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Peter Andersen"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Albert Ludolph"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Karin Danzer"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Jochen Weishaupt"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Ulm University"
+          },
+          {
+            "name": "Address",
+            "value": "Medical Faculty, Ulm University, Helmholtzstreet 8/1, Ulm, Germany"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "25193138",
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-52917",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "53"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "als mutation"
+              }
+            ],
+            "value": "ALS MUTATION"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "samples of different individuals pooled?"
+              }
+            ],
+            "value": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sex"
+              }
+            ],
+            "value": "SEX"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "age"
+              }
+            ],
+            "value": "AGE"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-52917",
+            "attributes": [
+              {
+                "name": "Age",
+                "value": "83"
+              },
+              {
+                "name": "Age",
+                "value": "22"
+              },
+              {
+                "name": "Age",
+                "value": "59"
+              },
+              {
+                "name": "Age",
+                "value": "50"
+              },
+              {
+                "name": "Age",
+                "value": "70"
+              },
+              {
+                "name": "Age",
+                "value": "40"
+              },
+              {
+                "name": "Age",
+                "value": "74"
+              },
+              {
+                "name": "Age",
+                "value": "41"
+              },
+              {
+                "name": "Age",
+                "value": "25"
+              },
+              {
+                "name": "Age",
+                "value": "63"
+              },
+              {
+                "name": "Age",
+                "value": "68"
+              },
+              {
+                "name": "Age",
+                "value": "66"
+              },
+              {
+                "name": "Age",
+                "value": "53, 38"
+              },
+              {
+                "name": "Age",
+                "value": "73"
+              },
+              {
+                "name": "Age",
+                "value": "58"
+              },
+              {
+                "name": "Age",
+                "value": "... 23 other values"
+              },
+              {
+                "name": "Als mutation",
+                "value": "/"
+              },
+              {
+                "name": "Als mutation",
+                "value": "PFN T109M"
+              },
+              {
+                "name": "Als mutation",
+                "value": "SOD1 R115G and SOD1 E100K"
+              },
+              {
+                "name": "Als mutation",
+                "value": "C9ORF72 hexanucleotide expansion"
+              },
+              {
+                "name": "Als mutation",
+                "value": "SOD1 R115G and SOD1 E133K"
+              },
+              {
+                "name": "Als mutation",
+                "value": "SOD1 D90A"
+              },
+              {
+                "name": "Als mutation",
+                "value": "all PFN T109M"
+              },
+              {
+                "name": "Als mutation",
+                "value": "both SOD1 I104F"
+              },
+              {
+                "name": "Als mutation",
+                "value": "all C9ORF72 hexanucleotide expansion"
+              },
+              {
+                "name": "Als mutation",
+                "value": "FUS R521H"
+              },
+              {
+                "name": "Als mutation",
+                "value": "unknown"
+              },
+              {
+                "name": "Als mutation",
+                "value": "both C9ORF72 hexanucleotide expansion"
+              },
+              {
+                "name": "Als mutation",
+                "value": "SOD1 R115G"
+              },
+              {
+                "name": "Samples of different individuals pooled?",
+                "value": "no"
+              },
+              {
+                "name": "Samples of different individuals pooled?",
+                "value": "yes"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "male, female"
+              },
+              {
+                "name": "Sex",
+                "value": "female, male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "both male"
+              },
+              {
+                "name": "Sex",
+                "value": "two male, one female"
+              },
+              {
+                "name": "Sex",
+                "value": "all female"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "74"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278162_sALS18.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "75"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278161_sALS17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "68"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278160_sALS16.CEL\" OR \"GSM1278157_sALS13.CEL\" OR \"GSM1278110_Co1.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "76"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278159_sALS15.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "63"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278158_sALS14.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "61"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278156_sALS12.CEL\" OR \"GSM1278146_sALS2.CEL\" OR \"GSM1278124_Co15.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "53"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278155_sALS11.CEL\" OR \"GSM1278112_Co3.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "58"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278154_sALS10.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "73"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278153_sALS9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "66"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278152_sALS8.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "39"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278151_sALS7.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "69"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278150_sALS6.CEL\" OR \"GSM1278123_Co14.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "64"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278149_sALS5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "62"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278148_sALS4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_14",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "59"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278147_sALS3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_15",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "68"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278145_sALS1.CEL\" OR \"GSM1278119_Co10.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_16",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "61"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "unknown"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278144_Ca12.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_17",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "83"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "PFN T109M"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278143_Ca11.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_18",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "47"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "PFN T109M"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278142_Ca10.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_19",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "44, 46, 47"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "all PFN T109M"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "two male, one female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278141_Ca9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_20",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "51"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278140_Ca8.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_21",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "54, 47"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "both C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "both male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278139_Ca7.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_22",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "65, 55, 66"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "all C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "all female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278138_Ca6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_23",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "40"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278137_Ca5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_24",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "41"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278136_Ca4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_25",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "25"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "SOD1 R115G"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278135_Ca3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_26",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "22"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "SOD1 R115G"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278134_Ca2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_27",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "50, 39"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "SOD1 R115G and SOD1 E100K"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female, male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278133_Ca1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_28",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "48"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "FUS R521H"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278132_fALS6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_29",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "59, 50"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "both C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "both male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278131_fALS5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_30",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "78"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "SOD1 D90A"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278130_fALS4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_31",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "76"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "SOD1 D90A"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278129_fALS3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_32",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "53, 38"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "SOD1 R115G and SOD1 E133K"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "both male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278128_fALS2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_33",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "44, 77"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "both SOD1 I104F"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male, female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278127_fALS1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_34",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "31"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278126_Co17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_35",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "71"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278125_Co16.CEL\" OR \"GSM1278116_Co7.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_36",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "79"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278122_Co13.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_37",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "56"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278121_Co12.CEL\" OR \"GSM1278111_Co2.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_38",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "58"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278120_Co11.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_39",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "50"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278118_Co9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_40",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "80"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278117_Co8.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_41",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "78"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278115_Co6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_42",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "70"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278114_Co5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_43",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "50"
+                    },
+                    {
+                      "name": "ALS MUTATION",
+                      "value": "/"
+                    },
+                    {
+                      "name": "SAMPLES OF DIFFERENT INDIVIDUALS POOLED?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278113_Co4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-52917",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Age",
+                "value": "83"
+              },
+              {
+                "name": "Age",
+                "value": "22"
+              },
+              {
+                "name": "Age",
+                "value": "59"
+              },
+              {
+                "name": "Age",
+                "value": "50"
+              },
+              {
+                "name": "Age",
+                "value": "70"
+              },
+              {
+                "name": "Age",
+                "value": "40"
+              },
+              {
+                "name": "Age",
+                "value": "74"
+              },
+              {
+                "name": "Age",
+                "value": "41"
+              },
+              {
+                "name": "Age",
+                "value": "25"
+              },
+              {
+                "name": "Age",
+                "value": "63"
+              },
+              {
+                "name": "Age",
+                "value": "68"
+              },
+              {
+                "name": "Age",
+                "value": "66"
+              },
+              {
+                "name": "Age",
+                "value": "53, 38"
+              },
+              {
+                "name": "Age",
+                "value": "73"
+              },
+              {
+                "name": "Age",
+                "value": "58"
+              },
+              {
+                "name": "Age",
+                "value": "... 23 other values"
+              },
+              {
+                "name": "Als mutation",
+                "value": "/"
+              },
+              {
+                "name": "Als mutation",
+                "value": "PFN T109M"
+              },
+              {
+                "name": "Als mutation",
+                "value": "SOD1 R115G and SOD1 E100K"
+              },
+              {
+                "name": "Als mutation",
+                "value": "C9ORF72 hexanucleotide expansion"
+              },
+              {
+                "name": "Als mutation",
+                "value": "SOD1 R115G and SOD1 E133K"
+              },
+              {
+                "name": "Als mutation",
+                "value": "SOD1 D90A"
+              },
+              {
+                "name": "Als mutation",
+                "value": "all PFN T109M"
+              },
+              {
+                "name": "Als mutation",
+                "value": "both SOD1 I104F"
+              },
+              {
+                "name": "Als mutation",
+                "value": "all C9ORF72 hexanucleotide expansion"
+              },
+              {
+                "name": "Als mutation",
+                "value": "FUS R521H"
+              },
+              {
+                "name": "Als mutation",
+                "value": "unknown"
+              },
+              {
+                "name": "Als mutation",
+                "value": "both C9ORF72 hexanucleotide expansion"
+              },
+              {
+                "name": "Als mutation",
+                "value": "SOD1 R115G"
+              },
+              {
+                "name": "Samples of different individuals pooled?",
+                "value": "no"
+              },
+              {
+                "name": "Samples of different individuals pooled?",
+                "value": "yes"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "male, female"
+              },
+              {
+                "name": "Sex",
+                "value": "female, male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "both male"
+              },
+              {
+                "name": "Sex",
+                "value": "two male, one female"
+              },
+              {
+                "name": "Sex",
+                "value": "all female"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "74"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278162_sALS18.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "75"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278161_sALS17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278160_sALS16.CEL\" OR \"GSM1278157_sALS13.CEL\" OR \"GSM1278110_Co1.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "76"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278159_sALS15.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "63"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278158_sALS14.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278156_sALS12.CEL\" OR \"GSM1278146_sALS2.CEL\" OR \"GSM1278124_Co15.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "53"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278155_sALS11.CEL\" OR \"GSM1278112_Co3.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "58"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278154_sALS10.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278153_sALS9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "66"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278152_sALS8.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "39"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278151_sALS7.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "69"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278150_sALS6.CEL\" OR \"GSM1278123_Co14.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "64"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278149_sALS5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "62"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278148_sALS4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "59"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278147_sALS3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278145_sALS1.CEL\" OR \"GSM1278119_Co10.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "unknown"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278144_Ca12.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "83"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "PFN T109M"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278143_Ca11.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "47"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "PFN T109M"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278142_Ca10.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "44, 46, 47"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "all PFN T109M"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "two male, one female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278141_Ca9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "51"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278140_Ca8.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "54, 47"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "both C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "both male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278139_Ca7.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "65, 55, 66"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "all C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "all female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278138_Ca6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "40"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278137_Ca5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "41"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278136_Ca4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "25"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "SOD1 R115G"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278135_Ca3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "22"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "SOD1 R115G"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278134_Ca2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "50, 39"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "SOD1 R115G and SOD1 E100K"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female, male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278133_Ca1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "48"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "FUS R521H"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278132_fALS6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "59, 50"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "both C9ORF72 hexanucleotide expansion"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "both male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278131_fALS5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "78"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "SOD1 D90A"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278130_fALS4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_31",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "76"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "SOD1 D90A"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278129_fALS3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_32",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "53, 38"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "SOD1 R115G and SOD1 E133K"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "both male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278128_fALS2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_33",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "44, 77"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "both SOD1 I104F"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male, female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278127_fALS1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_34",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "31"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278126_Co17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_35",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "71"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278125_Co16.CEL\" OR \"GSM1278116_Co7.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_36",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "79"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278122_Co13.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_37",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "56"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278121_Co12.CEL\" OR \"GSM1278111_Co2.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_38",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "58"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278120_Co11.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_39",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "50"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278118_Co9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_40",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "80"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278117_Co8.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_41",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "78"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278115_Co6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_42",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278114_Co5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_43",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "50"
+                    },
+                    {
+                      "name": "als mutation",
+                      "value": "/"
+                    },
+                    {
+                      "name": "samples of different individuals pooled?",
+                      "value": "no"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1278113_Co4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-52917",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "53"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278162 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278162_sALS18.CEL",
+                  "size": 2952051,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278161 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278161_sALS17.CEL",
+                  "size": 2952027,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278160 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278160_sALS16.CEL",
+                  "size": 2952407,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278159 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278159_sALS15.CEL",
+                  "size": 2953731,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278158 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278158_sALS14.CEL",
+                  "size": 2951971,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278157 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278157_sALS13.CEL",
+                  "size": 2952367,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278156 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278156_sALS12.CEL",
+                  "size": 2953387,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278155 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278155_sALS11.CEL",
+                  "size": 2952035,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278154 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278154_sALS10.CEL",
+                  "size": 2951699,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278153 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278153_sALS9.CEL",
+                  "size": 2953787,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278152 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278152_sALS8.CEL",
+                  "size": 2952655,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278151 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278151_sALS7.CEL",
+                  "size": 2952779,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278150 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278150_sALS6.CEL",
+                  "size": 2952227,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278149 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278149_sALS5.CEL",
+                  "size": 2952707,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278148 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278148_sALS4.CEL",
+                  "size": 2956151,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278147 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278147_sALS3.CEL",
+                  "size": 2952271,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278146 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278146_sALS2.CEL",
+                  "size": 2952039,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278145 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278145_sALS1.CEL",
+                  "size": 2951921,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278144 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278144_Ca12.CEL",
+                  "size": 2951165,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278143 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278143_Ca11.CEL",
+                  "size": 2947621,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278142 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278142_Ca10.CEL",
+                  "size": 2948785,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278141 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278141_Ca9.CEL",
+                  "size": 2951203,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278140 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278140_Ca8.CEL",
+                  "size": 2952023,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278139 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278139_Ca7.CEL",
+                  "size": 2948705,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278138 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278138_Ca6.CEL",
+                  "size": 2948449,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278137 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278137_Ca5.CEL",
+                  "size": 2948741,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278136 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278136_Ca4.CEL",
+                  "size": 2951291,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278135 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278135_Ca3.CEL",
+                  "size": 2947629,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278134 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278134_Ca2.CEL",
+                  "size": 2947357,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278133 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278133_Ca1.CEL",
+                  "size": 2953003,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278132 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278132_fALS6.CEL",
+                  "size": 2951623,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278131 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278131_fALS5.CEL",
+                  "size": 2954851,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278130 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278130_fALS4.CEL",
+                  "size": 2952239,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278129 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278129_fALS3.CEL",
+                  "size": 2952659,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278128 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278128_fALS2.CEL",
+                  "size": 2951703,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278127 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278127_fALS1.CEL",
+                  "size": 2951661,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278126 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278126_Co17.CEL",
+                  "size": 2948501,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278125 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278125_Co16.CEL",
+                  "size": 2951911,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278124 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278124_Co15.CEL",
+                  "size": 2953787,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278123 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278123_Co14.CEL",
+                  "size": 2952259,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278122 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278122_Co13.CEL",
+                  "size": 2951547,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278121 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278121_Co12.CEL",
+                  "size": 2950945,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278120 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278120_Co11.CEL",
+                  "size": 2950839,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278119 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278119_Co10.CEL",
+                  "size": 2952879,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278118 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278118_Co9.CEL",
+                  "size": 2951485,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278117 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278117_Co8.CEL",
+                  "size": 2950929,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278116 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278116_Co7.CEL",
+                  "size": 2950345,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278115 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278115_Co6.CEL",
+                  "size": 2950365,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278114 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278114_Co5.CEL",
+                  "size": 2952283,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278113 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278113_Co4.CEL",
+                  "size": 2953119,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278112 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278112_Co3.CEL",
+                  "size": 2950947,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278111 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278111_Co2.CEL",
+                  "size": 2952563,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1278110 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1278110_Co1.CEL",
+                  "size": 2949857,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278153_sample_table.txt",
+                  "size": 157665,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278122_sample_table.txt",
+                  "size": 157233,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278132_sample_table.txt",
+                  "size": 157572,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278114_sample_table.txt",
+                  "size": 157382,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278155_sample_table.txt",
+                  "size": 157278,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278142_sample_table.txt",
+                  "size": 157443,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278152_sample_table.txt",
+                  "size": 157593,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278162_sample_table.txt",
+                  "size": 157272,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278126_sample_table.txt",
+                  "size": 157486,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278118_sample_table.txt",
+                  "size": 157336,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278146_sample_table.txt",
+                  "size": 157578,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278141_sample_table.txt",
+                  "size": 157664,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278151_sample_table.txt",
+                  "size": 157506,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278124_sample_table.txt",
+                  "size": 157286,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278150_sample_table.txt",
+                  "size": 157433,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278147_sample_table.txt",
+                  "size": 157439,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278117_sample_table.txt",
+                  "size": 157204,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278148_sample_table.txt",
+                  "size": 157426,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278158_sample_table.txt",
+                  "size": 157583,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278145_sample_table.txt",
+                  "size": 157445,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278112_sample_table.txt",
+                  "size": 157295,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278129_sample_table.txt",
+                  "size": 157517,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278130_sample_table.txt",
+                  "size": 157599,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278154_sample_table.txt",
+                  "size": 157240,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278138_sample_table.txt",
+                  "size": 157550,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278121_sample_table.txt",
+                  "size": 157281,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278131_sample_table.txt",
+                  "size": 157262,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278110_sample_table.txt",
+                  "size": 157532,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278136_sample_table.txt",
+                  "size": 157259,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278119_sample_table.txt",
+                  "size": 157406,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278134_sample_table.txt",
+                  "size": 157537,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278137_sample_table.txt",
+                  "size": 157421,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278133_sample_table.txt",
+                  "size": 157543,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278127_sample_table.txt",
+                  "size": 157497,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278125_sample_table.txt",
+                  "size": 157087,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278111_sample_table.txt",
+                  "size": 157560,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278135_sample_table.txt",
+                  "size": 157389,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278116_sample_table.txt",
+                  "size": 157113,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278115_sample_table.txt",
+                  "size": 157375,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278139_sample_table.txt",
+                  "size": 157479,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278159_sample_table.txt",
+                  "size": 157346,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278140_sample_table.txt",
+                  "size": 156977,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278157_sample_table.txt",
+                  "size": 157299,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278128_sample_table.txt",
+                  "size": 157608,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278120_sample_table.txt",
+                  "size": 157499,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278156_sample_table.txt",
+                  "size": 157208,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278143_sample_table.txt",
+                  "size": 157438,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278123_sample_table.txt",
+                  "size": 157509,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278113_sample_table.txt",
+                  "size": 157545,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278144_sample_table.txt",
+                  "size": 157200,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278160_sample_table.txt",
+                  "size": 157678,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278149_sample_table.txt",
+                  "size": 157762,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1278161_sample_table.txt",
+                  "size": 156795,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-52917",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-52917.idf.txt",
+                  "size": 5045,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-52917.sdrf.txt",
+                  "size": 40501,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-52917",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-16384"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-52917",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

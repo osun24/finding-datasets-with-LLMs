@@ -1,0 +1,37 @@
+Accession: E-MEXP-2280
+Source list: alzheimer-screened
+Title: Transcription profiling of patients with four neurodegenerative disorders distinguishes tauopathies and identifies shared molecular pathways
+Study type: transcription profiling by array
+Description: We have constructed genome wide expression profiles from snap frozen post-mortem tissue from the medial temporal lobe of patients with four neurodegenerative disorders (5 AD, 5 PSP, 5 PiD and 5 FTD patients) and 5 control subjects. All patients were matched for age, gender, ApoE-epsilon and MAPT (tau) haplotype. From all groups a total of 790 probes were shown to be differently expressed when compared to control individuals. The results from these experiments were then used to investigate the correlations between clinical, pathological and molecular findings. From the 790 identified probes we extracted a gene set of 166 probes whose expression could discriminate between these disorders and normal ageing. This gene set can be further developed into an accurate microarray-based classification test. Furthermore, from this dataset we extracted a disease specific set of genes and identified two aging related transcription factors (FOXO1A and FOXO3A) as possible drug targets related to neurodegenerative disease.
+Sample count: 31
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: disease_state_design, co-expression_design, replicate_design, transcription profiling by array
+  Experimental Factors:
+    Experimental Factors: disease
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: adult
+    Organism part: medial temporal lobe
+    Disease: progressive supranuclear palsy, Pick disease, Alzheimer's disease, normal, braak stage 2, braak stage 0, constantinides type A, braak stage 1, braak stage 6, constantinides type C1
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Disease staging: braak stage 2, braak stage 0, constantinides type A, braak stage 1, braak stage 6, constantinides type C1
+      disease staging: braak stage 6, braak stage 1, braak stage 0, constantinides type C1, constantinides type A, braak stage 2
+    Cell type/line:
+      Not found
+    Clinical/familial:
+      Clinical information: post mortem delay 5:30, post mortem delay 5:15, post mortem delay 3:25, post mortem delay 3:45, post mortem delay 3:35, post mortem delay 5:48, post mortem delay 7:55, post mortem delay 4:40, post mortem delay 4:20, post mortem delay 4:15, post mortem delay 5:00, post mortem delay 5:10, post mortem delay 7:40, post mortem delay 8:10, post mortem delay 6:45, ... 6 other values
+      Clinical history: Disease duration: 15 years; Cause of death: dehydration, Disease duration: 2 years; Cause of death: euthanasia, Disease duration: 7 years; Cause of death: pulmonary arrest, Disease duration: 3 years; Cause of death: pneumonia / cachexia, Cause of death: heart failure, Disease duration: 4 years; Cause of death: complications secondary to a cerebro vasculair accident, Disease duration: 7 years; Cause of death: unknown, Disease duration: 7 years; Cause of death: dehydration and vascular insufficiency, Disease duration: 11 years; Cause of death: pneumonia in a dehydrated and cachexic patient, Disease duration: 10 years; Cause of death: cachexia following swallowing disturbances, Disease duration: 15 years; Cause of death: aspiration pneumonia, Disease duration: 3 years; Cause of death: cachexia and dehydration, Disease duration: 13 years; Cause of death: cachexia and dehydration, Disease duration: 4 years; Cause of death: septic with a urinary infection, Cause of death: myocardial infarction, ... 15 other values
+      clinical information: post mortem delay 5:20, post mortem delay 5:00, post mortem delay 3:35, post mortem delay 3:45, post mortem delay 4:20, post mortem delay 3:25, post mortem delay 4:15, post mortem delay 5:30, post mortem delay 6:45, post mortem delay 4:50, post mortem delay 7:40, post mortem delay 5:10, post mortem delay 3:55, post mortem delay 4:40, post mortem delay 5:15, post mortem delay 7:55, post mortem delay 6:15, post mortem delay 8:55, post mortem delay 5:43, post mortem delay 5:48, post mortem delay 8:10
+      clinical history: Disease duration: more than 7 years; Cause of death: general deterioration, Disease duration: 10 years; Cause of death: cachexia following swallowing disturbances, Disease duration: 7 years; Cause of death: unknown, Disease duration: 15 years; Cause of death: dehydration, Disease duration: 7 years; Cause of death: dehydration and vascular insufficiency, Disease duration: 13 years; Cause of death: cachexia and dehydration, Disease duration: 8 years; Cause of death: aspiration pneumonia, Cause of death: myocardial infarction, Cause of death: heart failure, Cause of death: pancreatic cancer, Cause of death: heart attack, Disease duration: 12 years; Cause of death: sepsis, due to an urinary tract infection, and cachexia, Disease duration: 3 years; Cause of death: respiratory insufficience, Disease duration: 8 years; Cause of death: cachexia and dehydration, Disease duration: 14 years; Cause of death: infection of lungs, Disease duration: 11 years; Cause of death: pneumonia in a dehydrated and cachexic patient, Disease duration: 4 years; Cause of death: complications secondary to a cerebro vasculair accident, Disease duration: 16 years; Cause of death: acute cardiac arrest, Disease duration: 6 years; Cause of death: myocardial infarction, Disease duration: 15 years; Cause of death: aspiration pneumonia, Disease duration: 6 years; Cause of death: bleeding of the stomach, Disease duration: 8 years; Cause of death: lungdisorder with fever for 4 weeks, Disease duration: 12 years; Cause of death: bronchopneumonia, Disease duration: 2 years; Cause of death: euthanasia, Disease duration: 6 years; Cause of death: pneumonia and cachexia by PSP, Disease duration: 9 years; Cause of death: dehydration and respiratory insufficiency, Disease duration: 3 years; Cause of death: cachexia and dehydration, Disease duration: 7 years; Cause of death: pulmonary arrest, Disease duration: 4 years; Cause of death: septic with a urinary infection, Disease duration: 3 years; Cause of death: pneumonia / cachexia
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

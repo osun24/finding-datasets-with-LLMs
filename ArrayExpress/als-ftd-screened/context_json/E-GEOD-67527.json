@@ -1,0 +1,58 @@
+{
+  "Accession": "E-GEOD-67527",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "8"
+    ],
+    "Sample count": [
+      "8"
+    ]
+  },
+  "Description": "Objective: Analyze expression patterns of genes located at linkage region of SPOAN syndrome (11q12-13), in order to identify genes differentially expressed in samples of SPOAN individuals compared to healthy controls. Fibroblast samples of 8 samples where analyzed: 4 SPOAN affected patients and 4 healthy controls. There are no replicates and there are not affected and control from the same patient.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "Cell type": [
+          "Healthy",
+          "SPOAN (spastic paraplegia, optic atrophy, and neuropathy) syndrome"
+        ],
+        "cell type": [
+          "Healthy",
+          "SPOAN (spastic paraplegia, optic atrophy, and neuropathy) syndrome"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {},
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "cell type"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "Skin fibroblast"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Gene expression comparison between fibroblasts samples of control and SPOAN affected patients"
+}

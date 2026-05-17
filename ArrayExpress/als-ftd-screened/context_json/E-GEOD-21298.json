@@ -1,0 +1,45 @@
+{
+  "Accession": "E-GEOD-21298",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "10"
+    ]
+  },
+  "Description": "Whole-genome profiling of SH-SY5Y cells was done on neuroblastoma SH-SY5Y stably transfected with cDNAs coding for SOD1WT or the mutant SOD1(G93A) protein. Five wt SOD versus five mutant SOD",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "Cell line": [
+          "neuroblastoma SH-SY5Y"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {},
+    "Experimental Factors": {},
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Profiling wt SOD versus ALS SOD1(G93A) mutant"
+}

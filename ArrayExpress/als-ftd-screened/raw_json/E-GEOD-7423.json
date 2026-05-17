@@ -1,0 +1,457 @@
+{
+  "accno": "E-GEOD-7423",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of human  Schwann cells FROM HMSN1A, HMSN-LOM AND congenital cateracts facial  dysmophism neuropathy (CCFDN) syndrome TO identify down-stream effects  IN demyelinating neuropathies"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2008-04-05"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-7423"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-7423",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of human  Schwann cells FROM HMSN1A, HMSN-LOM AND congenital cateracts facial  dysmophism neuropathy (CCFDN) syndrome TO identify down-stream effects  IN demyelinating neuropathies"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Hereditary Motor and Sensory Neuropathies (HMSN) are the most common inherited peripheral neuropathies and comprise a group of genetically heterogeneous diseases. We study the genetic defects causing three demyelinating disorders: HMSN1A, HMSN-LOM and congenital cateracts facial dysmophism neuropathy (CCFDN) syndrome, which are caused by mutations in PMP22, NDRG1 and CTDP1, respectively. The function and patho-mechanisms of these genes is still unknown. To identify effects downstream of the mutations, thereby possibly involved in the disease process, we used Serial expression of gene expression (SAGE) and microarray analysis. We analyzed human Schwann cell lines from three normal subjects, one HMSN-LOM patient, two HMSN-1A patients and two CCFDN patients and compared our data to a recent dataset of human Schwann cells (4 normal subjects passage 1 vs. 3, GDS1869/GSE4030 M.B. Bunge, 2006). We excluded genes that were not consistently regulated between biological and technical replicates and genes that were found to be influenced by passage number (p<0.05). Comparing expression profiles of demyelinating neuropathies with different mutations we identified: 1. expression signatures specific for each genotype. 2. Genes commonly (dys)regulated in all screened neuropathies. Interestingly, these include genes that play a role in reorganization of sodium channels in central and peripheral nerves (S100A10, CD90), or extracellular matrix remodeling (e.g. TGFBI, SERPINE1, THBS1). We also found high up-regulation of genes involved in Schwann cell lineage and in particular, genes that are associated with an immature or pre-myelinating Schwann cell phenotype (i.e. Sox2, Sox10, COL18A1, TFAP2A, Pax3, CDH19). Our study shows that many genes, possibly contributing to nerve pathology can be identified by this approach. Experiment Overall Design: Experimental design: in total 12 (two-color) arrays were run. All neuropathy samples were in duplicate (technical replicates). Two CCFDN and two HMSN1A patients were also analyzed as biological replicates. Three healthy subjects were included from which one was in duplicate. All samples (Cy3) were compared to a common reference pool (Cy5) which consisted of a mix of all samples."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE7423"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-7423-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-7"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "grow"
+            },
+            {
+              "name": "Description",
+              "value": "We established primary human Schwann cell lines from sural nerve biopsies (normal, NDRG1, CTDP1 and PMP22 mutations) or medial plantar nerves (PMP22 duplication) dissected out of amputation material as described (Hanemann et al., 1998; Rutkowski et al., 1995) with a few modifications (see below). Normal biopsies were taken from subjects with suspected vasculitic neuropathies or morbus Hansen, but without known mutations in myelin genes. All normal subjectsâ biopsies proved to be normal after pathological examination and were therefore designated normal. No obvious differences in Schwann cell morphology or immunoreactivity between the different cell lines were observed. One cell line was established from an HSMN-Lom patient with a mutation (Arg148Stop) in NDRG1 (Kalaydjieva et al., 2000). Two cell lines were generated from patients with HMSN1A. One had a PMP22 duplication and the other a PMP22 Leu16Pro mutation. The Schwann cell line harboring the PMP22 duplication was generated from the median plantar nerve. We generated two different primary lines from two CCFDN patients carrying the same mutation. All mutations were verified by sequence analysis. Schwann cells were maintained in Iscoveâs Modified Dulbeccoâs Medium (IMDM, Gibco) supplemented with: 10% FCS, 10 nM recombinant human beta1-heregulin177-244 (a gift from Genentech, Inc., South San Fransisco, USA), 2.5 Î¼g/ml insulin, 0.5 mM IBMX (3-isobutyl-1-methylxanthine, ICN, Costa Mesa, USA), 0.5 Î¼M forskolin (ICN), 100 Units/ml penicillin and 100 Î¼g/ml streptomycin. All plasticware was coated with 5 Â&#956;g/ml Laminin (Roche). Until the first passage 0.25 Î¼g/ml phytohaemoagglutinin (PHA-M, Sigma) was included. Schwann cultures were further purified by Thy-1.1/complement mediated lysis (Brockes et al., 1979, Kwa et al. 2003). Alternatively, anti-Fibroblast Microbeads were used for fibroblast depletion by magnetic cell sorting (MACS) according to the instructions of the manufacturer (Miltenyi Biotech, Auburn, USA). Cultures were expanded up to 106 cells and aliquots of early passage numbers were stored frozen in culture medium supplemented with 10% DMSO. Routinely, cells could be cultured up to 15 passages, with a doubling time of 2-3 weeks, but in this study we did not use cells with passage numbers higher than 10. Every 3-4 days half of the total volume culture medium was displaced. Schwann cell purity (95-99%) and fibroblast contamination were routinely monitored by immune fluorescence using Schwann cell markers S100beta, glial fibrillary acidic protein (GFAP), p75 low-affinity neurotrophin receptor (NGFR). Antibodies to fibroblast marker SMA (smooth muscle actin) only stained a low percentage (<5%) of the cells."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-7423-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-1"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "grow"
+            },
+            {
+              "name": "Description",
+              "value": "We established primary human Schwann cell lines from sural nerve biopsies (normal, NDRG1, CTDP1 and PMP22 mutations) or medial plantar nerves (PMP22 duplication, Table 1)) dissected out of amputation material as described (Hanemann et al., 1998; Rutkowski et al., 1995) with a few modifications (see below). Normal biopsies were taken from subjects with suspected vasculitic neuropathies or morbus Hansen, but without known mutations in myelin genes. All normal subjectsâ biopsies proved to be normal after pathological examination and were therefore designated normal. No obvious differences in Schwann cell morphology or immunoreactivity between the different cell lines were observed. One cell line was established from an HSMN-Lom patient with a mutation (Arg148Stop) in NDRG1 (Kalaydjieva et al., 2000). Two cell lines were generated from patients with HMSN1A. One had a PMP22 duplication and the other a PMP22 Leu16Pro mutation. The Schwann cell line harboring the PMP22 duplication was generated from the median plantar nerve. We generated two different primary lines from two CCFDN patients carrying the same mutation. All mutations were verified by sequence analysis. Schwann cells were maintained in Iscoveâs Modified Dulbeccoâs Medium (IMDM, Gibco) supplemented with: 10% FCS, 10 nM recombinant human beta1-heregulin177-244 (a gift from Genentech, Inc., South San Fransisco, USA), 2.5 Î¼g/ml insulin, 0.5 mM IBMX (3-isobutyl-1-methylxanthine, ICN, Costa Mesa, USA), 0.5 Î¼M forskolin (ICN), 100 Units/ml penicillin and 100 Î¼g/ml streptomycin. All plasticware was coated with 5 Â&#956;g/ml Laminin (Roche). Until the first passage 0.25 Î¼g/ml phytohaemoagglutinin (PHA-M, Sigma) was included. Schwann cultures were further purified by Thy-1.1/complement mediated lysis (Brockes et al., 1979, Kwa et al. 2003). Alternatively, anti-Fibroblast Microbeads were used for fibroblast depletion by magnetic cell sorting (MACS) according to the instructions of the manufacturer (Miltenyi Biotech, Auburn, USA). Cultures were expanded up to 106 cells and aliquots of early passage numbers were stored frozen in culture medium supplemented with 10% DMSO. Routinely, cells could be cultured up to 15 passages, with a doubling time of 2-3 weeks, but in this study we did not use cells with passage numbers higher than 10. Every 3-4 days half of the total volume culture medium was displaced. Schwann cell purity (95-99%) and fibroblast contamination were routinely monitored by immune fluorescence using Schwann cell markers S100beta, glial fibrillary acidic protein (GFAP), p75 low-affinity neurotrophin receptor (NGFR). Antibodies to fibroblast marker SMA (smooth muscle actin) only stained a low percentage (<5%) of the cells."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-7423-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-2"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Schwann cells were grown to 50-70% confluency in duplicate 225cm2 flasks, harvested and RNA was extracted twice with TrizolTM (Invitrogen) in two independent separate batches. For microarray analysis, total Schwann cell RNA Trizol extraction was followed by an extra DNA removal by NucleospinR RNA-L columns according to the instructions of the manufacturer (Machery-Nagel, DÃ¼ren, Germany). Total RNA purity and integrity was assayed on a 2100 Bioanalyzer Nano (Agilent, Santa Clara , CA, USA)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-7423-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-3"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "500 ng of total RNA was used to generate labeled cRNA using the Low RNA input Fluorescent Linear Amplification Kit (Agilent, Santa Clara , CA, USA). After labeling cRNA yield was determined by Nanodrop and ranged between 43-160 ng/Â&#956;l. Cyanine-3/Cyanine-5 incorporation was determined by wavescan analysis. Labeling and Hybridization were according to the protocol of Agilent."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-7423-9",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-9"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Hybridization was according to the protocol of Agilent ServiceXS B.V. Wassenaarseweg 72 2333 AL Leiden the Netherlands reference AXS0512293"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-7423-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-4"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Hybridization was according to the protocol of Agilent ServiceXS B.V. Wassenaarseweg 72 2333 AL Leiden reference AXS0512293"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-7423-8",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-8"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "The MGED Ontology"
+                }
+              ],
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Protocol_Name 44k (Read Only) Scan_ScannerName Agilent Technologies Scanner G2505B US23502317"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-7423-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-5"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "The MGED Ontology"
+                }
+              ],
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Protocol_Name 44k (Read Only) Scan_ScannerName Agilent Technologies Scanner G2505B US23502317"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-7423-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-7423-6"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "Data heading descriptions from GEO:<br>#ID_REF = <br>#VALUE = Log10 ratio of normalized test (Cy3) / reference (Cy5)<br>#PValueLogRatio = p value of the Log Ratio as determined by Agilent FeatureExtraction v7.5<br>#gProcessedSignal = normalized and background subtracted Cy3 (green) signal<br>#rProcessedSignal = normalized and background subtracted Cy5 (red) signal<br>#gMeanSignal = raw Cy3 (green) signal<br>#rMeanSignal = raw Cy5 (red) signal<br>#INV_VALUE = Log10 ratio of normalized Cy5 (red) signal to normalized Cy3 (green) signal"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Marcel Kwa"
+          },
+          {
+            "name": "Email",
+            "value": "m.s.kwa@amc.uva.nl, m.s.kwa@wxs.nl"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Academic Medical Center, Univ. Amsterdam"
+          },
+          {
+            "name": "Address",
+            "value": "Neurogenetics, K2-250, Neurology, Academic Medical Center, Univ. Amsterdam, Meibergdreef 9, Amsterdam, 1100 DD, Netherlands"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-7423",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "24"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "unknown_experiment_design_type"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "transcription profiling by array"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "source_chars-E-GEOD-7423",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              }
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-7423",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "mt-E-GEOD-7423",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-7423.idf.txt",
+                  "size": 11955,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-7423.sdrf.txt",
+                  "size": 11992,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-7423",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AGIL-11"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-7423",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

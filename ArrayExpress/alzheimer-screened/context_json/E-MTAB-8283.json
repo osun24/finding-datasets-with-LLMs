@@ -1,0 +1,81 @@
+{
+  "Accession": "E-MTAB-8283",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "15"
+    ],
+    "Sample count": [
+      "15"
+    ]
+  },
+  "Description": "These data assess the levels of microRNAs via miRNA array in brain tissue from control, high pathological controls, and Alzheimer disease subjects curated from the Rush cohort",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {
+        "Clinical information": [
+          "low neurofibrillary tangles and no neuritic plaques",
+          "intermediate neurofibrillary tangles and low neuritic plaques",
+          "low neurofibrillary tangles and low neuritic plaques"
+        ],
+        "clinical information": [
+          "low neurofibrillary tangles and low neuritic plaques",
+          "low neurofibrillary tangles and no neuritic plaques",
+          "intermediate neurofibrillary tangles and low neuritic plaques"
+        ]
+      },
+      "Disease state/staging": {
+        "Disease staging": [
+          "high-pathological control",
+          "Alzheimer's disease",
+          "normal"
+        ],
+        "disease staging": [
+          "Alzheimer's disease",
+          "normal",
+          "high-pathological control"
+        ]
+      },
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease state design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "disease staging"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [
+        "adult"
+      ],
+      "Disease": [
+        "high-pathological control",
+        "Alzheimer's disease",
+        "normal"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "brain"
+      ]
+    }
+  },
+  "Source list": "alzheimer-screened",
+  "Study type": "Human - One-color microarray",
+  "Title": "miRNA PCR Array of cortex tissue from Alzheimer disease (AD), high pathological control (HPC) and normal (CTL)subjects"
+}

@@ -1,0 +1,2515 @@
+{
+  "accno": "E-GEOD-30951",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Complete TLR3 deficiency"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2011-11-02"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-30951"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-30951",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Complete TLR3 deficiency"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "The objective of this study is to study the Toll-like receptor 3 (TLR3)-dependent gene expression in human fibroblast cells and peripheral blood mononuclear cells (PBMCs) Fibroblast cells and PBMCs from donors with autosomal recessive (AR) complete TLR3 deficiency and autosomal dominant (AD) partial TLR3 deficiency were collected for microarray analysis to measure the transcriptional responsiveness of TLR3 in fibroblast and PBMCs.  A total of 3 healthy controls, 1 AD TLR3-deficient patient, 1 AR TLR3-deficient patient, 1 AR UNC-93B-deficient patient, 1 MyD88 deficient patien were used in this study.  The fibroblast cells were cultured in DMEM medium supplemented with 10% fetal calf serum (FCS).  The PBMCs were cultured in RPMI medium complemented with 10% FCS. Different kinetics (2 hours and 8 hours) of poly(I:C) (25ug/ml, purchased from Amersham) stimulations were performed, aiming to define TLR3-inducible genes in these human cells. A stimulation of IL-1β (20ng/ml, purchased from R&D system Inc.) was used as a positive activation control with same kinetics of stimulations.  A total of one million cells per stimulation were used for fibroblasts, and around 1.5 million cells per stimulation for PBMCs."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE30951"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE30951-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = average normalized signal<br>Detection Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE30951-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-6"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Labeled cRNA (750ng) were hyb O/N on Illumina HT12v4 bead arrays, washed and stained following manufacturer's protocol."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE30951-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-3"
+            },
+            {
+              "name": "Type",
+              "value": "grow"
+            },
+            {
+              "name": "Description",
+              "value": "The fibroblast cells were cultured in DMEM medium supplemented with 10% fetal calf serum (FCS).  The PBMCs were cultured in RPMI medium complemented with 10% FCS."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE30951-8",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-8"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "The data were generated using Illumina iScan and the GenomeScan 2.3.0.13 specifications.  Data were background subtracted and normalized using Illumina GenomeStudio version 1.5.1.3 using the average chip normalization method."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE30951-9",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-9"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Illumina GenomeStudio V1.5.1.3 computed scaled and background subtracted signal intensity values."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE30951-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-7"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "Arrays were scanned on Illumina iScan following manufacturer's specifications.  GenomeScan 2.3.0.13"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE30951-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-2"
+            },
+            {
+              "name": "Type",
+              "value": "specified_biomaterial_action"
+            },
+            {
+              "name": "Description",
+              "value": "Cell lysis and RNA stabilization was carried out using RLT buffer (Qiagen, Valencia, CA, USA) supplemented with 1% Betamercapto ethanol"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE30951-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-4"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "RNEasyMini Kit (Qiagen,Valencia, CA, USA) was used for RNA purification following manufacturer's instructions."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE30951-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE30951-5"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Illumina TotalPrep96 was used following manufacturer's instructions."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Damien Chaussabel"
+          },
+          {
+            "name": "Email",
+            "value": "damienc@baylorhealth.edu"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Yigi Guo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Magali Audry"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Michael Ciancanelli"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Laia de Lara"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Joana Azevedo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Melina Herman"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Esperanza Anguiano"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Vanessa-Sancho Shimizu"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Lazaro Lorenzo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Elodie Pauwels"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Paul Philippe"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Rebeca de Diego"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Annabelle Cardon"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Guillaume Vogt"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Capucine Picard"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Zafitsara Andrianirina"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Flore Rozenberg"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Pierre Lebon"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Sabine Plancoulaine"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Marc Tardieu"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Valerie Doireau"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Emmanuelle Jouanguy"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Frederic Geissman"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Laurent Abel"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Jean-Laurent Cassanova"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Shen-Ying Zhang"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Baylor Institute for Immunology Research"
+          },
+          {
+            "name": "Address",
+            "value": "Baylor Institute for Immunology Research, 3434 Live Oak, Dallas, TX, USA"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "21911422",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Herpes simplex virus encephalitis in a patient with complete TLR3 deficiency: TLR3 is otherwise redundant in protective immunity."
+          },
+          {
+            "name": "Authors",
+            "value": "Guo Y, Audry M, Ciancanelli M, Alsina L, Azevedo J, Herman M, Anguiano E, Sancho-Shimizu V, Lorenzo L, Pauwels E, Philippe PB, Pérez de Diego R, Cardon A, Vogt G, Picard C, Andrianirina ZZ, Rozenberg F, Lebon P, Plancoulaine S, Tardieu M, Valérie Doireau, Jouanguy E, Chaussabel D, Geissmann F, Abel L, Casanova JL, Zhang SY"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1084/jem.20101568"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1084/jem.20101568"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-30951",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "44"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "treatment"
+              }
+            ],
+            "value": "TREATMENT"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease state"
+              }
+            ],
+            "value": "DISEASE STATE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell type"
+              }
+            ],
+            "value": "CELL TYPE"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-30951",
+            "attributes": [
+              {
+                "name": "Cell type",
+                "value": "skin fibroblast"
+              },
+              {
+                "name": "Cell type",
+                "value": "PBMC"
+              },
+              {
+                "name": "Disease state",
+                "value": "TLR3-/- Patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "MyD88-/- Patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "UNC93B-/- Patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "Healthy"
+              },
+              {
+                "name": "Disease state",
+                "value": "TLR3+/- Patient"
+              },
+              {
+                "name": "Treatment",
+                "value": "IL1b 2h"
+              },
+              {
+                "name": "Treatment",
+                "value": "Poly(I:C) 2h"
+              },
+              {
+                "name": "Treatment",
+                "value": "IL1b 8h"
+              },
+              {
+                "name": "Treatment",
+                "value": "Poly(I:C) 8h"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "MyD88-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "MyD88-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "MyD88-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "MyD88-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "UNC93B-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "UNC93B-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_14",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "UNC93B-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_15",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "UNC93B-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_16",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_17",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_18",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_19",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_20",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3+/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_21",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3+/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_22",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3+/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_23",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "TLR3+/- Patient"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_24",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_25",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_26",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_27",
+                  "attributes": [
+                    {
+                      "name": "CELL TYPE",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "TREATMENT",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-30951",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell type",
+                "value": "skin fibroblast"
+              },
+              {
+                "name": "Cell type",
+                "value": "PBMC"
+              },
+              {
+                "name": "Disease state",
+                "value": "TLR3-/- Patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "MyD88-/- Patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "UNC93B-/- Patient"
+              },
+              {
+                "name": "Disease state",
+                "value": "Healthy"
+              },
+              {
+                "name": "Disease state",
+                "value": "TLR3+/- Patient"
+              },
+              {
+                "name": "Treatment",
+                "value": "IL1b 2h"
+              },
+              {
+                "name": "Treatment",
+                "value": "Poly(I:C) 2h"
+              },
+              {
+                "name": "Treatment",
+                "value": "IL1b 8h"
+              },
+              {
+                "name": "Treatment",
+                "value": "Poly(I:C) 8h"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "PBMC"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "MyD88-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "MyD88-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "MyD88-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "MyD88-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "UNC93B-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "UNC93B-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "UNC93B-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "UNC93B-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3-/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3+/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3+/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3+/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "TLR3+/- Patient"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "IL1b 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "skin fibroblast"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "treatment",
+                      "value": "Poly(I:C) 2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-30951",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767390_sample_table.txt",
+                  "size": 1436728,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767382_sample_table.txt",
+                  "size": 1429453,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767380_sample_table.txt",
+                  "size": 1426985,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767376_sample_table.txt",
+                  "size": 1434348,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767400_sample_table.txt",
+                  "size": 1445952,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767375_sample_table.txt",
+                  "size": 1423302,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767415_sample_table.txt",
+                  "size": 1441946,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767414_sample_table.txt",
+                  "size": 1434947,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767408_sample_table.txt",
+                  "size": 1446544,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767383_sample_table.txt",
+                  "size": 1442987,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767403_sample_table.txt",
+                  "size": 1438738,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767387_sample_table.txt",
+                  "size": 1437766,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767377_sample_table.txt",
+                  "size": 1449402,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767392_sample_table.txt",
+                  "size": 1445785,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767395_sample_table.txt",
+                  "size": 1431098,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767393_sample_table.txt",
+                  "size": 1429444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767411_sample_table.txt",
+                  "size": 1452456,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767386_sample_table.txt",
+                  "size": 1447212,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767381_sample_table.txt",
+                  "size": 1444437,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767391_sample_table.txt",
+                  "size": 1438604,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767418_sample_table.txt",
+                  "size": 1448818,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767389_sample_table.txt",
+                  "size": 1443512,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767379_sample_table.txt",
+                  "size": 1440895,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767409_sample_table.txt",
+                  "size": 1455576,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767394_sample_table.txt",
+                  "size": 1439011,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767407_sample_table.txt",
+                  "size": 1440945,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767401_sample_table.txt",
+                  "size": 1433292,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767410_sample_table.txt",
+                  "size": 1443348,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767413_sample_table.txt",
+                  "size": 1467187,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767398_sample_table.txt",
+                  "size": 1433070,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767412_sample_table.txt",
+                  "size": 1452371,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767388_sample_table.txt",
+                  "size": 1428772,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767378_sample_table.txt",
+                  "size": 1442577,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767405_sample_table.txt",
+                  "size": 1455930,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767399_sample_table.txt",
+                  "size": 1427599,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767384_sample_table.txt",
+                  "size": 1434261,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767397_sample_table.txt",
+                  "size": 1433886,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767404_sample_table.txt",
+                  "size": 1455369,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767417_sample_table.txt",
+                  "size": 1457252,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767406_sample_table.txt",
+                  "size": 1444770,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767385_sample_table.txt",
+                  "size": 1436251,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767416_sample_table.txt",
+                  "size": 1444076,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767396_sample_table.txt",
+                  "size": 1427985,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM767402_sample_table.txt",
+                  "size": 1432217,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-30951",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-30951.idf.txt",
+                  "size": 6867,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-30951.sdrf.txt",
+                  "size": 25191,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-30951",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-10558"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-30951",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

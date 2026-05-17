@@ -1,0 +1,39 @@
+Accession: E-GEOD-30951
+Source list: alzheimer-screened
+Title: Complete TLR3 deficiency
+Study type: transcription profiling by array
+Description: The objective of this study is to study the Toll-like receptor 3 (TLR3)-dependent gene expression in human fibroblast cells and peripheral blood mononuclear cells (PBMCs) Fibroblast cells and PBMCs from donors with autosomal recessive (AR) complete TLR3 deficiency and autosomal dominant (AD) partial TLR3 deficiency were collected for microarray analysis to measure the transcriptional responsiveness of TLR3 in fibroblast and PBMCs. A total of 3 healthy controls, 1 AD TLR3-deficient patient, 1 AR TLR3-deficient patient, 1 AR UNC-93B-deficient patient, 1 MyD88 deficient patien were used in this study. The fibroblast cells were cultured in DMEM medium supplemented with 10% fetal calf serum (FCS). The PBMCs were cultured in RPMI medium complemented with 10% FCS. Different kinetics (2 hours and 8 hours) of poly(I:C) (25ug/ml, purchased from Amersham) stimulations were performed, aiming to define TLR3-inducible genes in these human cells. A stimulation of IL-1β (20ng/ml, purchased from R&D system Inc.) was used as a positive activation control with same kinetics of stimulations. A total of one million cells per stimulation were used for fibroblasts, and around 1.5 million cells per stimulation for PBMCs.
+Sample count: 44
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Not found
+  Experimental Factors:
+    Experimental Factors: TREATMENT, DISEASE STATE, CELL TYPE
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: TLR3-/- Patient, MyD88-/- Patient, UNC93B-/- Patient, Healthy, TLR3+/- Patient
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Disease state: TLR3-/- Patient, MyD88-/- Patient, UNC93B-/- Patient, Healthy, TLR3+/- Patient
+      DISEASE STATE: TLR3-/- Patient, Healthy, MyD88-/- Patient, UNC93B-/- Patient, TLR3+/- Patient
+      disease state: TLR3-/- Patient, Healthy, MyD88-/- Patient, UNC93B-/- Patient, TLR3+/- Patient
+    Cell type/line:
+      Cell type: skin fibroblast, PBMC
+      CELL TYPE: PBMC, skin fibroblast
+      cell type: PBMC, skin fibroblast
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Treatment: IL1b 2h, Poly(I:C) 2h, IL1b 8h, Poly(I:C) 8h
+      TREATMENT: IL1b 8h, IL1b 2h, Poly(I:C) 8h, Poly(I:C) 2h
+      treatment: IL1b 8h, IL1b 2h, Poly(I:C) 8h, Poly(I:C) 2h
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

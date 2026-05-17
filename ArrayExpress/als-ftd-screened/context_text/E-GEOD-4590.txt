@@ -1,0 +1,33 @@
+Accession: E-GEOD-4590
+Source list: als-ftd-screened
+Title: Transcription profiling of human B cells at four cconsecutive stages of B cell development
+Study type: transcription profiling by array
+Description: Cells from four develppmental stages were purified by FACS from human bone marrow samples Experiment Overall Design: Cells were sorted as follows: PB1: CD34+VpreB+ PB2: VpreB-CD34+ LAR: kappa/lambda-VpreB-large SMA: kappa/lambda-VpreB-small. All cells were CD19+
+Sample count: 20
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: unknown_experiment_design_type, transcription profiling by array
+  Experimental Factors:
+    Not found
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: Not found
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Not found
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

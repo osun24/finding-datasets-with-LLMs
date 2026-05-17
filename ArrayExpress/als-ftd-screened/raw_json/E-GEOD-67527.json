@@ -1,0 +1,721 @@
+{
+  "accno": "E-GEOD-67527",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Gene expression comparison between fibroblasts samples of control and SPOAN affected patients"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2015-04-03"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-67527"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-67527",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Gene expression comparison between fibroblasts samples of control and SPOAN affected patients"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Objective: Analyze expression patterns of genes located at linkage region of SPOAN syndrome (11q12-13), in order to identify genes differentially expressed in samples of SPOAN individuals compared to healthy controls. Fibroblast samples of 8 samples where analyzed: 4 SPOAN affected patients and 4 healthy controls. There are no replicates and there are not affected and control from the same patient."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE67527"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE67527-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE67527-1"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The data were analyzed with Affymetrix Expression Console using Sketch-Quantile as normalization method. Analysis was performed using rma-gene-default as parameter for affymetrix-algorithm-param-apt-opt-analysis-name. #%affymetrix-algorithm-param-apt-opt-analysis-spec was specified as rma-bg,quant-norm.sketch=-1.bioc=true.lowprecision=false.usepm=true.subsetmd5=5d3721419adb28afd03b764858482c6b,pm-only,med-polish.expon=false.attenuate=true.l=0.005.h=-1,expr.genotype=false.strand=false. ID_REF =  VALUE = Affymetrix signal intensity after median polishment (log2 scaled)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE67527-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE67527-3"
+            },
+            {
+              "name": "Type",
+              "value": "labelling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Not provided."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE67527-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE67527-4"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization protocol"
+            },
+            {
+              "name": "Description",
+              "value": "10ug de cRNA were hybridized for 17h at 45˚C. GeneChips were washed and stained in Affymetrix Fluidics Station 450."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE67527-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE67527-2"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "TRIZOL® reagent (Invitrogen) extraction of total RNA was performed according to the manufacturer's instructions."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE67527-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE67527-5"
+            },
+            {
+              "name": "Type",
+              "value": "array scanning protocol"
+            },
+            {
+              "name": "Description",
+              "value": "GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "JOAO PAULO KITAJIMA"
+          },
+          {
+            "name": "Email",
+            "value": "joao.kitajima@gmail.com"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Uira Souto Melo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Fernando Kok"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Joao Kitajima"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Thalita Figueiredo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Lucia Macedo-Souza"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "MENDELICS"
+          },
+          {
+            "name": "Address",
+            "value": "MENDELICS, RUA CUBATAO 86 CJ 1602, SAO PAULO, SP, Brazil"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-67527",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "8"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell type"
+              }
+            ],
+            "value": "cell type"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-67527",
+            "attributes": [
+              {
+                "name": "Cell type",
+                "value": "Healthy"
+              },
+              {
+                "name": "Cell type",
+                "value": "SPOAN (spastic paraplegia, optic atrophy, and neuropathy) syndrome"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1648802_Thalita_2_ATCC_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648801_Thalita_6_K271_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648800_Thalita_5_K272_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648799_Thalita_4_WT126_HuGene-1_0-st-v1_.CEL\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "SPOAN (spastic paraplegia, optic atrophy, and neuropathy) syndrome"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1648798_Thalita_3_K160_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648797_Thalita_2_C19964_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648796_Thalita_1_ARI_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648795_Thalita_4_K162_HuGene-1_0-st-v1_.CEL\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-67527",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "Skin fibroblast"
+              },
+              {
+                "name": "Cell type",
+                "value": "Healthy"
+              },
+              {
+                "name": "Cell type",
+                "value": "SPOAN (spastic paraplegia, optic atrophy, and neuropathy) syndrome"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "Healthy"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1648802_Thalita_2_ATCC_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648801_Thalita_6_K271_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648800_Thalita_5_K272_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648799_Thalita_4_WT126_HuGene-1_0-st-v1_.CEL\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "SPOAN (spastic paraplegia, optic atrophy, and neuropathy) syndrome"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1648798_Thalita_3_K160_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648797_Thalita_2_C19964_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648796_Thalita_1_ARI_HuGene-1_0-st-v1_.CEL\" OR \"GSM1648795_Thalita_4_K162_HuGene-1_0-st-v1_.CEL\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-67527",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "8"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1648802 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1648802_Thalita_2_ATCC_HuGene-1_0-st-v1_.CEL",
+                  "size": 11080473,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1648801 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1648801_Thalita_6_K271_HuGene-1_0-st-v1_.CEL",
+                  "size": 11080453,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1648800 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1648800_Thalita_5_K272_HuGene-1_0-st-v1_.CEL",
+                  "size": 11080695,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1648799 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1648799_Thalita_4_WT126_HuGene-1_0-st-v1_.CEL",
+                  "size": 11078415,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1648798 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1648798_Thalita_3_K160_HuGene-1_0-st-v1_.CEL",
+                  "size": 11080129,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1648797 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1648797_Thalita_2_C19964_HuGene-1_0-st-v1_.CEL",
+                  "size": 11106475,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1648796 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1648796_Thalita_1_ARI_HuGene-1_0-st-v1_.CEL",
+                  "size": 11099969,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1648795 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1648795_Thalita_4_K162_HuGene-1_0-st-v1_.CEL",
+                  "size": 11097235,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1648801_sample_table.txt",
+                  "size": 433414,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1648798_sample_table.txt",
+                  "size": 433450,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1648795_sample_table.txt",
+                  "size": 433344,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1648796_sample_table.txt",
+                  "size": 433381,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1648799_sample_table.txt",
+                  "size": 433313,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1648800_sample_table.txt",
+                  "size": 433304,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1648802_sample_table.txt",
+                  "size": 433325,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1648797_sample_table.txt",
+                  "size": 433285,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-67527",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-67527.idf.txt",
+                  "size": 2744,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-67527.sdrf.txt",
+                  "size": 6717,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-67527",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-141"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-67527",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

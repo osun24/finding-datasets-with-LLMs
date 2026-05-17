@@ -1,0 +1,65 @@
+{
+  "Accession": "E-MTAB-1927",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "13"
+    ],
+    "Sample count": [
+      "13"
+    ]
+  },
+  "Description": "The purpose of this experiment was to compare differences in the transcript levels between RNA samples from induced pluripotent stem cells differentiated into neurons carrying a mutation in the SOD1 gene, an expanded GGGGCC repeat mutation in the chromosome 9 open reading frame 72 gene and those without any (control).",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "Cell type": [
+          "neuron differentiated from induced pluripotent stem cell"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {
+        "Quality Controls": [
+          "biological replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease_state_design",
+        "in_vitro_design",
+        "co-expression_design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "disease"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "C9ORF72 amyotrophic lateral sclerosis",
+        "SOD1 D90A amyotrophic lateral sclerosis",
+        "normal"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Differences between C9ORF72 iPS neuronal and Control and SOD1D90A iPS neuronal transcriptomes"
+}

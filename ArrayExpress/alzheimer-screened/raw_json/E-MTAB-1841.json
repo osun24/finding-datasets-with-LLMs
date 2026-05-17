@@ -1,0 +1,936 @@
+{
+  "accno": "E-MTAB-1841",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of SH-SY5Y cells after treatment with soluble Abeta42_wt, Abeta42_G33A and Abeta40 for different timepoints"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2014-12-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-1841"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-1841",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of SH-SY5Y cells after treatment with soluble Abeta42_wt, Abeta42_G33A and Abeta40 for different timepoints"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Although amyloid-beta42 (Abeta42) has long been implicated in the pathogenesis of Alzheimer disease (AD), the biological basis of its effects remains uncertain. Intraneuronal Abeta accumulation in brains of patients with AD or Down syndrome, in animal models, and in cultured cells has suggested an early pathophysiological role specific for intracellular Abeta40 and Abeta42. As a consequence of intraneuronal oligomerization, cell death can result from ER stress, endosomal/lysosomal leakage, and mitochondrial dysfunction. A possible nuclear role of intraneuronal Abeta has remained unexplored so far. We here study the role of intranuclear Abeta40 versus Abeta42 and Abeta42_G33A, and an untreated vehicle control in synchronized SH-SY5Y cells. RNA samples for microarray gene expression profiling were collected at t=0, 2, 6, 8 and 12 hours after incubation with  Abeta40, Abeta42 and Abeta42_G33A peptides, respectively.'"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-34529",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-34529"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "growth protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Synchronized cell SH-SY5Y: Cells were routinely cultured (as described in Harmeier A. et al. J Neurosci. 29, 7852-7590, 2009): DMEM/ Ham's F12, 10%FCS, 2mM Glutamin, 1mM Na-Pyruvate, 1x non-essential amino acids. Cells were synchronized in G1 phase of the cell cycle by double-thymidine block (2 mM for 15 hrs; Sigma-Aldrich). After blocks, cells were released by growth in fresh medium without thymidine for 2 hrs (medium containing 20% (v/v) fetal calf serum) to progress through the cell cycle."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-34530",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-34530"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "treatment protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Abeta peptide treatment protocol: Synchronized cells, released for 2 hrs were treated with synthetic Abeta peptides (Abeta42_wt, Abeta42_G33A, or Abeta40, obtained from Peptide Specialty Laboratories, Germany) at a concentration of 1 uM or vehicle (deionized water (Milli Q, Millipore) supplemented with ammonia solution to a final concentration of 0.13% (measured pH 9.8))  for 2, 6, 8, and 12 hours."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-34531",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-34531"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was isolated using the NucleoSpin RNA kit (Macherey-Nagel, Dueren, Germany) according to  the manufacturerM-^Rs instructions."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-34532",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-34532"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "RNA labeling was performed on a Hamilton Star Roboter (Hamilton, Bonaduz, Switzerland) using the Illumina Total Prep-96 RNA Amplification kit from Ambion (Applied Biosystems, #4393543). Briefly, from 500 ng total RNA first and second strand cDNA was synthesized, and cDNA was cleaned-up using Agencourt magnetic beads CleanKit (#000494, Beckman Coulter). After in vitro transcription, biotin-labeled cRNA was purified using Agencourt magnetic beads CleanKit. cRNA concentration was determined with Quant-iT RiboGreen (R-11490, Invitrogen)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-34533",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-34533"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Little dipper: 1,5 ug cRNA was mixed with the hybridization reagents and hybridized to Illumina Human HT-12 v3 BeadChips. All washing and staining steps were performed with a Little Dipper Processor for Illumina BeadChips from Scigene (Sunnyvale, USA). Biotin was labeled with streptavidin-Cy3 (#PA43001, Amersham Biosciences)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-34534",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-34534"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "array scanning protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The BeadChips were scanned on an Illumina BeadArray Reader."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Georg Beckmann"
+          },
+          {
+            "name": "Email",
+            "value": "georg.beckmann@bayer.com"
+          },
+          {
+            "name": "Phone",
+            "value": "+49-30-468-18206"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Bayer Pharma AG"
+          },
+          {
+            "name": "Address",
+            "value": "Bayer Pharma AG, Muellerstr. 178, S109/07/724A, 13353 Berlin, Germany"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Alzheimer Amyloid Peptide Abeta42 regulates gene expression of transcription and growth factors."
+          },
+          {
+            "name": "Authors",
+            "value": "Christian Barucker, Anja Harmeier, JM-vrg Weiske, Beatrix Fauler, Kai Frederik Albring, Anette Sommer, Georg Beckmann, Damian Brockschnieder, Thomas Dyrks, Stefan Prokop, Murat Eravci, Carola G. Schipke, Veit Althoff, Paul E. Fraser, Lili-Naz Hazrati, Peter St George-Hyslop, Peter Hildebrand, Rudi Lurz, Frank L. Heppner, Oliver Peters, John C.S. Breitner, Otmar Huber, Gerd Multhaup"
+          },
+          {
+            "name": "DOI",
+            "value": "UNKNOWN_DOI_for_publication_1_in_E-MTAB-1841"
+          },
+          {
+            "name": "Status",
+            "value": "Manuscript in preparation"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "UNKNOWN_DOI_for_publication_1_in_E-MTAB-1841"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-1841",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "80"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "compound_treatment_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "time_series_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "in_vitro_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "compound"
+              }
+            ],
+            "value": "compound"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "time"
+              }
+            ],
+            "value": "time"
+          },
+          {
+            "name": "Quality Controls",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "technical replicate"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-1841",
+            "attributes": [
+              {
+                "name": "Compound",
+                "value": "Abeta peptide 40"
+              },
+              {
+                "name": "Compound",
+                "value": "vehicle control"
+              },
+              {
+                "name": "Compound",
+                "value": "Abeta peptide 42"
+              },
+              {
+                "name": "Compound",
+                "value": "Abeta peptide 42_G33A"
+              },
+              {
+                "name": "Time",
+                "value": "6 hour"
+              },
+              {
+                "name": "Time",
+                "value": "2 hour"
+              },
+              {
+                "name": "Time",
+                "value": "8 hour"
+              },
+              {
+                "name": "Time",
+                "value": "12 hour"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 42"
+                    },
+                    {
+                      "name": "time",
+                      "value": "2 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 42_G33A"
+                    },
+                    {
+                      "name": "time",
+                      "value": "2 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 40"
+                    },
+                    {
+                      "name": "time",
+                      "value": "2 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "vehicle control"
+                    },
+                    {
+                      "name": "time",
+                      "value": "2 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 42"
+                    },
+                    {
+                      "name": "time",
+                      "value": "6 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 42_G33A"
+                    },
+                    {
+                      "name": "time",
+                      "value": "6 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 40"
+                    },
+                    {
+                      "name": "time",
+                      "value": "6 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "vehicle control"
+                    },
+                    {
+                      "name": "time",
+                      "value": "6 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 42"
+                    },
+                    {
+                      "name": "time",
+                      "value": "8 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 42_G33A"
+                    },
+                    {
+                      "name": "time",
+                      "value": "8 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 40"
+                    },
+                    {
+                      "name": "time",
+                      "value": "8 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "vehicle control"
+                    },
+                    {
+                      "name": "time",
+                      "value": "8 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 42"
+                    },
+                    {
+                      "name": "time",
+                      "value": "12 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 42_G33A"
+                    },
+                    {
+                      "name": "time",
+                      "value": "12 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_14",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "Abeta peptide 40"
+                    },
+                    {
+                      "name": "time",
+                      "value": "12 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_15",
+                  "attributes": [
+                    {
+                      "name": "compound",
+                      "value": "vehicle control"
+                    },
+                    {
+                      "name": "time",
+                      "value": "12 hour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\" OR \"20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-1841",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell line",
+                "value": "SH-SY5Y"
+              },
+              {
+                "name": "Specimen with known storage state",
+                "value": "fresh specimen"
+              },
+              {
+                "name": "Phenotype",
+                "value": "adherent"
+              },
+              {
+                "name": "Cell type",
+                "value": "neuroblastoma"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Individual",
+                "value": "01_"
+              },
+              {
+                "name": "Individual",
+                "value": "02_"
+              },
+              {
+                "name": "Individual",
+                "value": "03_"
+              },
+              {
+                "name": "Individual",
+                "value": "... 77 other values"
+              }
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-1841",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "80"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "01_Ab42_wt_2h, 02_Ab42_wt_2h, 03_Ab42_wt_2h, 04_Ab42_wt_2h, 05_Ab42_wt_2h, 06_Ab42_G33A_2h, 07_Ab42_G33A_2h, 08_Ab42_G33A_2h, 09_Ab42_G33A_2h, 10_Ab42_G33A_2h, 11_Ab40_2h, 12_Ab40_2h, 13_Ab40_2h, 14_Ab40_2h, 15_Ab40_2h, 16_vehicle_control_2h, 17_vehicle_control_2h, 18_vehicle_control_2h, 19_vehicle_control_2h, 20_vehicle_control_2h, 21_Ab42_wt_6h, 22_Ab42_wt_6h, 23_Ab42_wt_6h, 24_Ab42_wt_6h, 25_Ab42_wt_6h, 26_Ab42_G33A_6h, 27_Ab42_G33A_6h, 28_Ab42_G33A_6h, 29_Ab42_G33A_6h, 30_Ab42_G33A_6h, 31_Ab40_6h, 32_Ab40_6h, 33_Ab40_6h, 34_Ab40_6h, 35_Ab40_6h, 36_vehicle_control_6h, 37_vehicle_control_6h, 38_vehicle_control_6h, 39_vehicle_control_6h, 40_vehicle_control_6h, 41_Ab42_wt_8h, 42_Ab42_wt_8h, 43_Ab42_wt_8h, 44_Ab42_wt_8h, 45_Ab42_wt_8h, 46_Ab42_G33A_8h, 47_Ab42_G33A_8h, 48_Ab42_G33A_8h, 49_Ab42_G33A_8h, 50_Ab42_G33A_8h, 51_Ab40_8h, 52_Ab40_8h, 53_Ab40_8h, 54_Ab40_8h, 55_Ab40_8h, 56_vehicle_control_8h, 57_vehicle_control_8h, 58_vehicle_control_8h, 59_vehicle_control_8h, 60_vehicle_control_8h, 61_Ab42_wt_12h, 62_Ab42_wt_12h, 63_Ab42_wt_12h, 64_Ab42_wt_12h, 65_Ab42_wt_12h, 66_Ab42_G33A_12h, 67_Ab42_G33A_12h, 68_Ab42_G33A_12h, 69_Ab42_G33A_12h, 70_Ab42_G33A_12h, 71_Ab40_12h, 72_Ab40_12h, 73_Ab40_12h, 74_Ab40_12h, 75_Ab40_12h, 76_control_12h, 77_control_12h, 78_control_12h, 79_control_12h, 80_control_12h"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "20140120_ArrayExpress_Submission_AbetaPeptidesBarucker_data_file.txt",
+                  "size": 114362068,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-1841",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-1841.idf.txt",
+                  "size": 5227,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-1841.sdrf.txt",
+                  "size": 38118,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-1841",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-1171"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-1841",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

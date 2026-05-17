@@ -1,0 +1,52 @@
+{
+  "Accession": "E-GEOD-41414",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "14"
+    ],
+    "Sample count": [
+      "14"
+    ]
+  },
+  "Description": "Objective: to focus on the molecular mechanisms involved in the ALS related atrophy process that leads to selective wasting muscles . Design: gene expression profiling and real time PCR were performed on muscle biopsies",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {},
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "SEX",
+        "DISEASE STATUS",
+        "ORGANISM PART"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "deltoid",
+        "quadriceps"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Gene expression analysis of ALS skeletal muscle"
+}

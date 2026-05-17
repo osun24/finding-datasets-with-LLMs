@@ -1,0 +1,1921 @@
+{
+  "accno": "E-MTAB-6189",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Differential gene expression study in brain samples from patients suffering distinct frontotemporal lobar degeneration (FTLD) conditions."
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2018-09-19"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-6189"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-6189",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Differential gene expression study in brain samples from patients suffering distinct frontotemporal lobar degeneration (FTLD) conditions."
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "RNA extracted from human frontal cortex area 8, the main area afected in FTLD, of controls (n=10), sporadic FTLD-TDP (sFTLD) (n=10) and C9ORF72-familial FTLD (fFTLD) (n=10) samples were analyzed using the Affymetrix Clariom™ D Assay, human (Affymetrix ref.902923). The present study identifies the main gene deregulation between sporadic forms of FTLD-TDP (sFTLD) and the major and most common genetic cause of FTLD, the C9ORF72 repeat expansion (fFTLD), when compare with control samples."
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-68763",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68763"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003814"
+                }
+              ],
+              "value": "array scanning and feature extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "We used Affymetrix GeneTitan system according to the manufacturer’s instructions."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68762",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68762"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003815"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Sense single-stranded cDNA was fragmented, labeled and hybridized to the arrays with the GeneChip WT Terminal Labeling and Hybridization Kit from the same manufacturer (Affymetrix, Wooburn Green, UK)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68761",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68761"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003813"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The target-labeled antisense DNA (ssDNA) was generated from total RNA with the GeneChip WT Plus Reagent Kit from Affymetrix (Affymetrix, Wooburn Green, UK) according to the manufacturer’s instructions."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68760",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68760"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "RNA from frozen frontal cortex area 8 was extracted following the instructions of the supplier (RNeasy Mini Kit, Qiagen® GmbH, Hilden, Germany). RNA integrity and 28S/18S ratios were determined with the Agilent Bioanalyzer (Agilent Technologies Inc, Santa Clara, CA, USA) to assess RNA quality, and the RNA concentration was evaluated using a NanoDrop™ Spectrophotometer (Thermo Fisher Scientific)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68759",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68759"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Post-mortem fresh-frozen frontal cortex (FC) (Brodmann area 8) tissue samples were from the Institute of Neuropathology HUB-ICO-IDIBELL Biobank following the guidelines of Spanish legislation on this matter and the approval of the local ethics committee. The post-mortem interval between death and tissue processing was between 2 and 17 hours."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Pol Andrés Benito"
+          },
+          {
+            "name": "Email",
+            "value": "pol.andres.benito@gmail.com"
+          },
+          {
+            "name": "Phone",
+            "value": "+34 93 4035808"
+          },
+          {
+            "name": "Fax",
+            "value": "+34 93 4035810"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institut de Neuropatologia (INP) Hospital Universitari de Bellvitge (HUB) Institut d'Investigació Biomèdica de Bellvitge (IDIBELL) Universitat de Barcelona (UB)"
+          },
+          {
+            "name": "Address",
+            "value": "C/ Feixa Llarga s/n  08907 Hospitalet de Llobregat (Spain)"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-6189",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "30"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO_0001756"
+              }
+            ],
+            "value": "disease state design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-6189",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Disease",
+                "value": "sporadic frontotemporal lobar degeneration"
+              },
+              {
+                "name": "Disease",
+                "value": "familial frontotemporal lobar degeneration"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A02_148.CEL\" OR \"A05_129.CEL\" OR \"A06_115.CEL\" OR \"A06_169.CEL\" OR \"A07_081.CEL\" OR \"A08_010.CEL\" OR \"A08_015.CEL\" OR \"A08_041.CEL\" OR \"A08_058.CEL\" OR \"A11_025.CEL\""
+                        }
+                      ],
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_0377.CEL\" OR \"CS_0679.CEL\" OR \"CS_0864.CEL\" OR \"CS_0897.CEL\" OR \"CS_0968.CEL\" OR \"CS_1309.CEL\" OR \"CS_1370.CEL\" OR \"CS_1515.CEL\" OR \"CS_1688.CEL\" OR \"CS_1767.CEL\""
+                        }
+                      ],
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1041.CEL\" OR \"CS_1123.CEL\" OR \"CS_1240.CEL\" OR \"CS_1463.CEL\" OR \"CS_1482.CEL\" OR \"CS_1521.CEL\" OR \"CS_1529.CEL\" OR \"CS_1741.CEL\" OR \"CS_1745.CEL\" OR \"CS_1866.CEL\""
+                        }
+                      ],
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-6189",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "Brodman (1909) area 8"
+              },
+              {
+                "name": "Age",
+                "value": "73 year"
+              },
+              {
+                "name": "Age",
+                "value": "61 year"
+              },
+              {
+                "name": "Age",
+                "value": "80 year"
+              },
+              {
+                "name": "Age",
+                "value": "70 year"
+              },
+              {
+                "name": "Age",
+                "value": "67 year"
+              },
+              {
+                "name": "Age",
+                "value": "78 year"
+              },
+              {
+                "name": "Age",
+                "value": "58 year"
+              },
+              {
+                "name": "Age",
+                "value": "65 year"
+              },
+              {
+                "name": "Age",
+                "value": "92 year"
+              },
+              {
+                "name": "Age",
+                "value": "88 year"
+              },
+              {
+                "name": "Age",
+                "value": "66 year"
+              },
+              {
+                "name": "Age",
+                "value": "69 year"
+              },
+              {
+                "name": "Age",
+                "value": "74 year"
+              },
+              {
+                "name": "Age",
+                "value": "75 year"
+              },
+              {
+                "name": "Age",
+                "value": "63 year"
+              },
+              {
+                "name": "Age",
+                "value": "... 7 other values"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Disease",
+                "value": "sporadic frontotemporal lobar degeneration"
+              },
+              {
+                "name": "Disease",
+                "value": "familial frontotemporal lobar degeneration"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 05 h 00 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 12 h 00 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 16 h 00 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 07 h 15 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 05 h 20 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 18 h 00 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 06 h 40 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 03 h 45 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 11 h 00 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 04 h 40 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 08 h 05 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 03 h 15 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 11 h 30 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 17 h 30 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "postmortem delay 03 h 40 min"
+              },
+              {
+                "name": "Clinical information",
+                "value": "... 11 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "66 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 18 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A02_148.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "74 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 02 h 45 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A05_129.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 03 h 40 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A06_115.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "74 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 06 h 40 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A06_169.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 05 h 15 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A07_081.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "63 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 08 h 05 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A08_010.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "79 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 03 h 35 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A08_015.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "67 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 05 h 20 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A08_041.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 03 h 45 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A08_058.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "52 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 04 h 40 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A11_025.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 05 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_0377.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "77 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 07 h 39 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_0679.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 13 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_0864.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "59 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 08 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_0897.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "58 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 04 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_0968.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "66 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 15 h 15 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1041.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 03 h 15 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1123.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "88 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 05 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1240.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "78 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 07 h 15 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1309.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "66 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 05 h 15 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1370.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "75 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 17 h 30 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1463.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "58 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 11 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1482.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "82 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 03 h 40 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1515.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "92 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 09 h 15 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1521.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "66 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 11 h 30 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1529.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "77 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 16 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1688.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 03 h 40 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1741.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "80 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 12 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1745.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "74 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "sporadic frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 15 h 00 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1767.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "69 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "familial frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "postmortem delay 05 h 45 min"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CS_1866.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-6189",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "30"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A02/148"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A02_148.CEL",
+                  "size": 69195231,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A05/129"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A05_129.CEL",
+                  "size": 69213371,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A06/115"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A06_115.CEL",
+                  "size": 69196199,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A06/169"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A06_169.CEL",
+                  "size": 69237275,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A07/081"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A07_081.CEL",
+                  "size": 69205503,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A08/010"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A08_010.CEL",
+                  "size": 69203015,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A08/015"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A08_015.CEL",
+                  "size": 69228367,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A08/041"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A08_041.CEL",
+                  "size": 69256251,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A08/058"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A08_058.CEL",
+                  "size": 69194687,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A11/025"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A11_025.CEL",
+                  "size": 69199851,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-0377"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_0377.CEL",
+                  "size": 69198543,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-0679"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_0679.CEL",
+                  "size": 69190319,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-0864"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_0864.CEL",
+                  "size": 69173491,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-0897"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_0897.CEL",
+                  "size": 69178327,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-0968"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_0968.CEL",
+                  "size": 69178791,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1041"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1041.CEL",
+                  "size": 69185211,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1123"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1123.CEL",
+                  "size": 69187135,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1240"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1240.CEL",
+                  "size": 69238119,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1309"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1309.CEL",
+                  "size": 69186331,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1370"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1370.CEL",
+                  "size": 69176271,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1463"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1463.CEL",
+                  "size": 69170535,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1482"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1482.CEL",
+                  "size": 69231975,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1515"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1515.CEL",
+                  "size": 69213039,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1521"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1521.CEL",
+                  "size": 69160691,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1529"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1529.CEL",
+                  "size": 69202699,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1688"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1688.CEL",
+                  "size": 69212127,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1741"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1741.CEL",
+                  "size": 69179867,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1745"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1745.CEL",
+                  "size": 69181727,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1767"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1767.CEL",
+                  "size": 69208151,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CS-1866"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CS_1866.CEL",
+                  "size": 69243167,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-6189",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-6189.idf.txt",
+                  "size": 4208,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-6189.sdrf.txt",
+                  "size": 13326,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-6189",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-22844"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-6189",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

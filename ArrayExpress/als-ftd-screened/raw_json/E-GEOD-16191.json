@@ -1,0 +1,958 @@
+{
+  "accno": "E-GEOD-16191",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "EGR4 is a master gene responsible for fertility in cryptorchidism"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2009-09-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-16191"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-16191",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "EGR4 is a master gene responsible for fertility in cryptorchidism"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "RNA was isolated from testicular biopsies of cryptorchid boys. Gene expression profiles for these samples were investigated using Affymetrix arrays Whole testicular tissue was gained from cryptorchid boys aged 10 Months to 4.5 years as well as from controls of identical age. Each biopsy sample was collected for RNA isolation and GeneChip hybridization and was stored in cold 1x phosphate buffered saline (PBS). The tissue was then filtered through 100-nm nylon gauze. Fractions were collected, washed three times in 1x PBS, and snap-frozen in liquid nitrogen prior to storage at -80Â°C. An aliquot of each fraction was fixed in 1x PBS containing 1% formaldehyde (Polio, France) and 1% fetal calf serum (Eurabbie, France) and analyzed by DNA flow cytometry to determine its relative DNA content. Cell pellets and tissues were sheared in RLT buffer (Qiagen) supplemented with 1% Î²-Mercaptoethanol and further processed using a Qiashredder (Qiagen). The suspension was centrifuged for 2 min at maximum speed and the clarified lysate was stored at -80Â°C. Total RNA isolation was performed using RNeasy Mini-Spin columns (Qiagen) according to standard protocols. RNA quality was monitored using RNA Nano 6000 Chips and the 2100 BioAnalyzer (Agilent). cRNA synthesis, human U133 plus 2.0 GeneChip hybridization."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE16191"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE16191-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16191-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF =  VALUE = RMA normalized"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16191-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16191-6"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "standard Affymetrix protocol"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16191-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16191-5"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Affymetrix recommended"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16191-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16191-2"
+            },
+            {
+              "name": "Type",
+              "value": "specified_biomaterial_action"
+            },
+            {
+              "name": "Description",
+              "value": "RNA was taken from total testicular tissue"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16191-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16191-3"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Cell pellets and tissues were sheared in RLT buffer (Qiagen) supplemented with 1% Î²-Mercaptoethanol and further processed using a Qiashredder (Qiagen). The suspension was centrifuged for 2 min at maximum speed and the clarified lysate was stored at -80°C. Total RNA isolation was performed using RNeasy Mini-Spin columns (Qiagen) according to standard protocols. RNA quality was monitored using RNA Nano 6000 Chips and the 2100 BioAnalyzer (Agilent)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16191-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16191-4"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Affymetrix recommended"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16191-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16191-7"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "RMA using the justRMA() function in the Affy package of Bioconductor"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Edward Oakeley"
+          },
+          {
+            "name": "Email",
+            "value": "edward.oakeley@fmi.ch"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Faruk Hadziselimovic"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Nils Hadziselimovic"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Michael Primig"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Gunthild Krey"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Philippe Demougin"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Burkhard Hoecht"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Friedrich Miescher Institute for Biomedical Research"
+          },
+          {
+            "name": "Address",
+            "value": "Friedrich Miescher Institute for Biomedical Research, Maulbeerstrasse 66, Basel, Switzerland"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-16191",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "20"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "source_chars-E-GEOD-16191",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "total testicular"
+              }
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-16191",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "20"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406435 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406435.CEL",
+                  "size": 13568268,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406434 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406434.CEL",
+                  "size": 13568208,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406433 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406433.CEL",
+                  "size": 13569716,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406432 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406432.CEL",
+                  "size": 13567640,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406431 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406431.CEL",
+                  "size": 13573296,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406430 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406430.CEL",
+                  "size": 13568574,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406429 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406429.CEL",
+                  "size": 13551549,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406428 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406428.CEL",
+                  "size": 13551373,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406427 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406427.CEL",
+                  "size": 13551338,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406426 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406426.CEL",
+                  "size": 13550942,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406425 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406425.CEL",
+                  "size": 13550906,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406424 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406424.CEL",
+                  "size": 13551909,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406423 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406423.CEL",
+                  "size": 13552573,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406422 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406422.CEL",
+                  "size": 13551253,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406421 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406421.CEL",
+                  "size": 13550618,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406420 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406420.CEL",
+                  "size": 13551222,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406419 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406419.CEL",
+                  "size": 13550642,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406418 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406418.CEL",
+                  "size": 13551138,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406417 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406417.CEL",
+                  "size": 13551322,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM406416 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM406416.CEL",
+                  "size": 13550921,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406424_sample_table.txt",
+                  "size": 1241527,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406419_sample_table.txt",
+                  "size": 1241470,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406425_sample_table.txt",
+                  "size": 1241432,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406422_sample_table.txt",
+                  "size": 1241202,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406435_sample_table.txt",
+                  "size": 1241459,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406418_sample_table.txt",
+                  "size": 1241453,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406417_sample_table.txt",
+                  "size": 1241498,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406431_sample_table.txt",
+                  "size": 1241646,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406429_sample_table.txt",
+                  "size": 1241384,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406416_sample_table.txt",
+                  "size": 1241324,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406427_sample_table.txt",
+                  "size": 1241500,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406423_sample_table.txt",
+                  "size": 1241317,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406434_sample_table.txt",
+                  "size": 1241203,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406426_sample_table.txt",
+                  "size": 1241197,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406432_sample_table.txt",
+                  "size": 1241397,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406430_sample_table.txt",
+                  "size": 1241315,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406428_sample_table.txt",
+                  "size": 1241435,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406420_sample_table.txt",
+                  "size": 1241186,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406433_sample_table.txt",
+                  "size": 1241307,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM406421_sample_table.txt",
+                  "size": 1241344,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-16191",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-16191.idf.txt",
+                  "size": 3435,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-16191.sdrf.txt",
+                  "size": 14993,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-16191",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-44"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-16191",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

@@ -1,0 +1,1337 @@
+{
+  "accno": "E-TABM-167",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of high and low grade gliomas from human patients to identify new diagnostic and prognostic markers"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2007-06-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-TABM-167"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-TABM-167",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of high and low grade gliomas from human patients to identify new diagnostic and prognostic markers"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Comparison of high grade  to low grade gliomas."
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-TABM-859",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-859"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "mo"
+                }
+              ],
+              "value": "specified_biomaterial_action"
+            },
+            {
+              "name": "Description",
+              "value": "A commercial total brain RNA mix was used (Ambion, Inc. USA). The commercial RNA was isolated from a donor who had no history of cancer, or brain disorders. All tumors were hybridized against this normal total brain reference."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-858",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-858"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "mo"
+                }
+              ],
+              "value": "specified_biomaterial_action"
+            },
+            {
+              "name": "Description",
+              "value": "Glioma samples were collected from patients who underwent surgery at Royal North Shore Hospital, North Shore Private Hospital, and Prince of Wales Private Hospital, NSW, Australia. Approval for this study was obtained from the Human Research Ethics Committees of the participating institutions. No patients received chemotherapy or radiotherapy prior to surgery. Surgically removed gliomas for RNA extraction were snap-frozen in liquid nitrogen immediately and stored at -80ºC until use. Pathology reports for all patients included in this study were reviewed for the presence of necrosis and microvascular proliferation (MVP). Necrosis was defined as either: geographic, palisaded or infarct (2) and MVP was defined as mild, moderate or glomeruloid (marked) proliferation (21). Gliomas presenting with necrosis and/or MVP were reclassified as high grade gliomas for the duration of this study. Gliomas with no description of necrosis and/or MVP were grouped and renamed low grade."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-854",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-854"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was extracted from fresh frozen brain tumor tissue using QIAZOL reagent (Qiagen GmbH, Strasse, Germany) and purified by precipitation with 2.5 mol/L LiCl2 according to the manufacturers protocols (Ambion, Inc., Austin, TX, USA). Purified RNA was quantitated by UV absorbance at 260 and 280nm and assessed qualitatively by formaldehyde agarose gel electrophoresis."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-856",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-856"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "mo"
+                }
+              ],
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "For each glioma, 20µg of purified RNA from both the tumor and the normal total brain control were reversed transcribed using Superscript III (Invitrogen® San Diego, CA, USA) and anchored oligo-(dT20VN) in the presence of Cy5-dCTP and Cy3-dCTP (Amersham Inc., Piscataway NJ, USA) as described previously (22)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-855",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-855"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Microarray slides printed with the Compugen 19,000 human oligonucleotide library were obtained from the Adelaide Microarray Facility, University of Adelaide, Australia. The oligonucleotides were immobilized to the surface of each slide by baking and UV-linking. An array list, H19K array list v3.01.gal, was provided with the chips. Slides from one print batch only were used in these experiments. After direct labeling, the two probes were hybridized for 20 hours at 50ºC to a microarray slide."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-TABM-857",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-TABM-857"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "The MGED Ontology"
+                }
+              ],
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "The slides were washed, immediately dried, and scanned with a 10-µm resolution on a GenePix 4000A scanner (Molecular Devices, Sunnyvale, CA, USA) at wavelengths 635 and 532 nm for Cy5- and Cy3- labeled probes, respectively. The resulting TIFF images were analyzed by GenePix Pro 4.0 software (Molecular Devices, Sunnyvale, CA, USA)."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Kerrie Mcdonald"
+          },
+          {
+            "name": "Email",
+            "value": "kerriem@med.usyd.edu.au"
+          },
+          {
+            "name": "Role",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Kolling Institute of Medical Research"
+          },
+          {
+            "name": "Address",
+            "value": "Royal North Shore Hospital, St. Leonards, NSW 2065, Australia"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "18852145",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Loss of prostaglandin D2 synthase: a key molecular event in the transition of a low-grade astrocytoma to an anaplastic astrocytoma"
+          },
+          {
+            "name": "Authors",
+            "value": "Payne, Cathy A.; Maleki, Sanaz; Messina, Marinella; OSullivan, Maree G.; Stone, Glenn; Hall, Nathan R.; Parkinson, Jonathon F.; Wheeler, Helen R.; Cook, Raymond J.; Biggs, Michael T.; Little, Nicholas S.; Teo, Charles; Robinson, Bruce G.; McDonald, Kerrie L."
+          },
+          {
+            "name": "DOI",
+            "value": "18852145"
+          },
+          {
+            "name": "Status",
+            "value": "journal_article"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-TABM-167",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "39"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "mo"
+              }
+            ],
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "mo"
+              }
+            ],
+            "value": "reference_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "mo"
+              }
+            ],
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "transcription profiling by array"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease_state"
+              }
+            ],
+            "value": "DiseaseState"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "tumor_grading"
+              }
+            ],
+            "value": "TumorGrading"
+          },
+          {
+            "name": "Quality Controls",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "biological_replicate"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-TABM-167",
+            "attributes": [
+              {
+                "name": "DiseaseState",
+                "value": "normal;glioma"
+              },
+              {
+                "name": "Tumorgrading",
+                "value": "grade IV"
+              },
+              {
+                "name": "Tumorgrading",
+                "value": "grade II"
+              },
+              {
+                "name": "Tumorgrading",
+                "value": "grade III"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade II"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"9037FINAL.gpr\" OR \"9037FINAL.gpr\" OR \"9573FINAL.gpr\" OR \"9573FINAL.gpr\" OR \"9677FINAL.gpr\" OR \"9677FINAL.gpr\" OR \"9674FINAL.gpr\" OR \"9674FINAL.gpr\" OR \"9506FINAL.gpr\" OR \"9506FINAL.gpr\" OR \"2712FINAL.gpr\" OR \"2712FINAL.gpr\" OR \"a19921final.gpr\" OR \"a19921final.gpr\" OR \"2713final.gpr\" OR \"2713final.gpr\" OR \"a2138final.gpr\" OR \"a2138final.gpr\" OR \"a2144final.gpr\" OR \"a2144final.gpr\""
+                        }
+                      ],
+                      "value": "11"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade IV"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"9038redone.gpr\" OR \"9038redone.gpr\" OR \"9061FINAL.gpr\" OR \"9061FINAL.gpr\" OR \"2711FINA.gpr\" OR \"2711FINA.gpr\" OR \"9558FINAL.gpr\" OR \"9558FINAL.gpr\" OR \"2708FINAL.gpr\" OR \"2708FINAL.gpr\" OR \"a19922final.gpr\" OR \"a19922final.gpr\" OR \"9058FINAL.gpr\" OR \"9058FINAL.gpr\" OR \"2709FINAL.gpr\" OR \"2709FINAL.gpr\" OR \"2707FINAL.gpr\" OR \"2707FINAL.gpr\" OR \"2706FINAL.gpr\" OR \"2706FINAL.gpr\""
+                        }
+                      ],
+                      "value": "11"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade III"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"a2135final.gpr\" OR \"a2135final.gpr\" OR \"a2160final.gpr\" OR \"a2160final.gpr\" OR \"9540redone.gpr\" OR \"9540redone.gpr\" OR \"9681FINAL.gpr\" OR \"9681FINAL.gpr\" OR \"9621FINAL.gpr\" OR \"9621FINAL.gpr\" OR \"9566redone.gpr\" OR \"9566redone.gpr\" OR \"a2432final.gpr\" OR \"a2432final.gpr\" OR \"9041FINAL.gpr\" OR \"9041FINAL.gpr\" OR \"9578FINAL.gpr\" OR \"9578FINAL.gpr\" OR \"9634FINAL.gpr\" OR \"9634FINAL.gpr\" OR \"9052FINAL.gpr\" OR \"9052FINAL.gpr\" OR \"9504FINAL.gpr\" OR \"9504FINAL.gpr\" OR \"2699FINAL.gpr\" OR \"2699FINAL.gpr\" OR \"9042FINAL.gpr\" OR \"9042FINAL.gpr\" OR \"9583redone.gpr\" OR \"9583redone.gpr\" OR \"9651FINAL.gpr\" OR \"9651FINAL.gpr\" OR \"9587FINAL.gpr\" OR \"9587FINAL.gpr\" OR \"a2082final.gpr\" OR \"a2082final.gpr\""
+                        }
+                      ],
+                      "value": "19"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-TABM-167",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "OrganismPart",
+                "value": "brain"
+              },
+              {
+                "name": "BioSourceType",
+                "value": "frozen_sample"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "glioma"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "normal"
+              },
+              {
+                "name": "Tumorgrading",
+                "value": "grade IV"
+              },
+              {
+                "name": "Tumorgrading",
+                "value": "low grade"
+              },
+              {
+                "name": "Tumorgrading",
+                "value": "oligodendroglioma"
+              },
+              {
+                "name": "Tumorgrading",
+                "value": "grade III"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "TumorGrading"
+                    },
+                    {
+                      "name": "TumorGrading"
+                    },
+                    {
+                      "name": "TumorGrading"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"9037FINAL.gpr\" OR \"9038redone.gpr\" OR \"a2135final.gpr\" OR \"9061FINAL.gpr\" OR \"9573FINAL.gpr\" OR \"a2160final.gpr\" OR \"9540redone.gpr\" OR \"9681FINAL.gpr\" OR \"2711FINA.gpr\" OR \"9558FINAL.gpr\" OR \"9621FINAL.gpr\" OR \"9677FINAL.gpr\" OR \"9566redone.gpr\" OR \"9674FINAL.gpr\" OR \"2708FINAL.gpr\" OR \"a2432final.gpr\" OR \"a19922final.gpr\" OR \"9041FINAL.gpr\" OR \"9578FINAL.gpr\" OR \"9634FINAL.gpr\" OR \"9052FINAL.gpr\" OR \"9504FINAL.gpr\" OR \"2699FINAL.gpr\" OR \"9506FINAL.gpr\" OR \"2712FINAL.gpr\" OR \"9058FINAL.gpr\" OR \"2709FINAL.gpr\" OR \"9042FINAL.gpr\" OR \"a19921final.gpr\" OR \"9583redone.gpr\" OR \"2713final.gpr\" OR \"2707FINAL.gpr\" OR \"a2138final.gpr\" OR \"9651FINAL.gpr\" OR \"a2144final.gpr\" OR \"9587FINAL.gpr\" OR \"a2082final.gpr\" OR \"2706FINAL.gpr\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "glioma"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "low grade"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "low grade"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "low grade"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"9037FINAL.gpr\" OR \"a2135final.gpr\" OR \"9573FINAL.gpr\" OR \"a2160final.gpr\" OR \"9681FINAL.gpr\" OR \"9677FINAL.gpr\" OR \"9566redone.gpr\" OR \"9674FINAL.gpr\" OR \"a2432final.gpr\" OR \"9041FINAL.gpr\" OR \"9504FINAL.gpr\" OR \"2699FINAL.gpr\" OR \"9506FINAL.gpr\" OR \"2712FINAL.gpr\" OR \"9042FINAL.gpr\" OR \"a19921final.gpr\" OR \"9583redone.gpr\" OR \"2713final.gpr\" OR \"a2138final.gpr\" OR \"a2144final.gpr\" OR \"9587FINAL.gpr\" OR \"a2082final.gpr\""
+                        }
+                      ],
+                      "value": "22"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "glioma"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade IV"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade IV"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade IV"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"9038redone.gpr\" OR \"9061FINAL.gpr\" OR \"2711FINA.gpr\" OR \"9558FINAL.gpr\" OR \"2708FINAL.gpr\" OR \"a19922final.gpr\" OR \"9058FINAL.gpr\" OR \"2709FINAL.gpr\" OR \"2707FINAL.gpr\" OR \"2706FINAL.gpr\""
+                        }
+                      ],
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "glioma"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "oligodendroglioma"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "oligodendroglioma"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "oligodendroglioma"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"9540redone.gpr\" OR \"9578FINAL.gpr\" OR \"9634FINAL.gpr\" OR \"9052FINAL.gpr\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "glioma"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade III"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade III"
+                    },
+                    {
+                      "name": "TumorGrading",
+                      "value": "grade III"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"9621FINAL.gpr\" OR \"9651FINAL.gpr\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-TABM-167",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9037, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9037FINAL.gpr",
+                  "size": 4800540,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9038, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9038redone.gpr",
+                  "size": 4520619,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-Reference, Kolling-a2135"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "a2135final.gpr",
+                  "size": 4720027,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9061, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9061FINAL.gpr",
+                  "size": 4678364,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9573, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9573FINAL.gpr",
+                  "size": 4695106,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-Reference, Kolling-a2160"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "a2160final.gpr",
+                  "size": 4639789,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9540, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9540redone.gpr",
+                  "size": 4788960,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9681, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9681FINAL.gpr",
+                  "size": 4672106,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-2711, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2711FINA.gpr",
+                  "size": 4706622,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9558, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9558FINAL.gpr",
+                  "size": 4789800,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9621, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9621FINAL.gpr",
+                  "size": 4743095,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9677, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9677FINAL.gpr",
+                  "size": 4725170,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9566, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9566redone.gpr",
+                  "size": 4738787,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9674, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9674FINAL.gpr",
+                  "size": 4696483,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-2708, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2708FINAL.gpr",
+                  "size": 4769041,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-Reference, Kolling-a2432"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "a2432final.gpr",
+                  "size": 4642515,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-Reference, Kolling-a19922"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "a19922final.gpr",
+                  "size": 4626787,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9041, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9041FINAL.gpr",
+                  "size": 4715151,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9578, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9578FINAL.gpr",
+                  "size": 4737727,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9634, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9634FINAL.gpr",
+                  "size": 4667681,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9052, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9052FINAL.gpr",
+                  "size": 4754180,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9504, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9504FINAL.gpr",
+                  "size": 4704317,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-2699, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2699FINAL.gpr",
+                  "size": 4669613,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9506, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9506FINAL.gpr",
+                  "size": 4754542,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-2712, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2712FINAL.gpr",
+                  "size": 4718074,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9058, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9058FINAL.gpr",
+                  "size": 4746689,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-2709, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2709FINAL.gpr",
+                  "size": 4862724,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9042, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9042FINAL.gpr",
+                  "size": 4805337,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-Reference, Kolling-a19921"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "a19921final.gpr",
+                  "size": 4656273,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9583, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9583redone.gpr",
+                  "size": 4710138,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-2713, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2713final.gpr",
+                  "size": 4610582,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-2707, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2707FINAL.gpr",
+                  "size": 4768143,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-Reference, Kolling-a2138"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "a2138final.gpr",
+                  "size": 4622217,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9651, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9651FINAL.gpr",
+                  "size": 4715822,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-Reference, Kolling-a2144"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "a2144final.gpr",
+                  "size": 4608980,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-9587, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "9587FINAL.gpr",
+                  "size": 4729938,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-Reference, Kolling-a2082"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "a2082final.gpr",
+                  "size": 4619766,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Kolling-2706, Kolling-Reference"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2706FINAL.gpr",
+                  "size": 4750144,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "additional-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "R object"
+                    }
+                  ],
+                  "path": "E-TABM-167.eSet.r",
+                  "size": 3999055,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Additional Files"
+          },
+          {
+            "accno": "mt-E-TABM-167",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-TABM-167.idf.txt",
+                  "size": 5523,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-TABM-167.sdrf.txt",
+                  "size": 37686,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-TABM-167",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-70"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-TABM-167",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

@@ -1,0 +1,3703 @@
+{
+  "accno": "E-MTAB-812",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Whole genome expression in Parkinson disease and neurologically healthy control prefrontal cortex Brodmann area 9 samples"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2012-09-19"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-812"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-812",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Whole genome expression in Parkinson disease and neurologically healthy control prefrontal cortex Brodmann area 9 samples"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Whole genome expression in Parkinson disease and neurologically healthy control prefrontal cortex Brodmann area 9 samples"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-23188",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-23188"
+            },
+            {
+              "name": "Type",
+              "value": "grow"
+            },
+            {
+              "name": "Description",
+              "value": "Brodmann area 9 prefrontal cortex brain tissue was disected from frozen brain samples."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-23189",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-23189"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was extracted with TRIzol (Invitrogen, Carlsbad, CA). RNA was purified using the RNeasy MinElute Cleanup columns (Qiagen Sciences Inc, Germantown, MD) and its quality was assessed with an Agilent Bioanalyzer Nano Chip 2100 (Agilent, Foster City, CA)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-23190",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-23190"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "1.65 ug of purified total RNA from each sample was labeled with fluorescent dye (Cy3)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-23191",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-23191"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Labeled samples were hybridized to the microarray at 60 degrees C for 30 min; 55 uL 2X HI-RPM hybridization buffer (Agilent Technologies) was added; samples were then washed with washing solutions (Agilent Technologies)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-23192",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-23192"
+            },
+            {
+              "name": "Type",
+              "value": "image_acquisition"
+            },
+            {
+              "name": "Description",
+              "value": "Arrays were scanned with Agilent Microarray Scanner (Agilent), and the obtained images were analyzed with Agilent Feature Extraction software (v10.1, Agilent Technologies)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-23193",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-23193"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "The post dye normalized and post surrogate processed signal of the green channel was obtained with the Agilent Feature Extraction software (v10.1, Agilent Technologies). Log2 of quantile-normalized intensity values."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Alexandra Dumitriu"
+          },
+          {
+            "name": "Email",
+            "value": "adumitri@bu.edu"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Richard Myers"
+          },
+          {
+            "name": "Email",
+            "value": "rmyers@bu.edu"
+          },
+          {
+            "name": "Role",
+            "value": "investigator"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o2"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Boston University"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "o2",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Boston University"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "22761592",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Gene Expression Profiles in Parkinson Disease Prefrontal Cortex Implicate FOXO1 and Genes under Its Transcriptional Regulation"
+          },
+          {
+            "name": "Authors",
+            "value": "Alexandra Dumitriu, Jeanne C. Latourelle, Tiffany C. Hadzi, Nathan Pankratz, Dan Garza, John P. Miller, Jeffery M. Vance, Tatiana Foroud, Thomas G. Beach, Richard H. Myers"
+          },
+          {
+            "name": "DOI",
+            "value": "doi:10.1371/journal.pgen.1002794"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "doi:10.1371/journal.pgen.1002794"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-812",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "53"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease_state"
+              }
+            ],
+            "value": "DISEASE_STATE"
+          },
+          {
+            "name": "Quality Controls",
+            "value": "Biological replicate"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-812",
+            "attributes": [
+              {
+                "name": "Disease_state",
+                "value": "neurologically healthy control"
+              },
+              {
+                "name": "Disease_state",
+                "value": "Parkinson disease"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "DISEASE_STATE",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_1.txt\" OR \"C_2.txt\" OR \"C_3.txt\" OR \"C_4.txt\" OR \"C_5.txt\" OR \"C_6.txt\" OR \"C_8.txt\" OR \"C_9.txt\" OR \"C_10.txt\" OR \"C_11.txt\" OR \"C_12.txt\" OR \"C_13.txt\" OR \"C_14.txt\" OR \"C_16.txt\" OR \"C_17.txt\" OR \"C_18.txt\" OR \"C_19.txt\" OR \"C_20.txt\" OR \"C_21.txt\" OR \"C_22.txt\" OR \"C_23.txt\" OR \"C_24.txt\" OR \"C_25.txt\" OR \"C_26.txt\" OR \"C_27.txt\" OR \"C_29.txt\""
+                        }
+                      ],
+                      "value": "26"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "DISEASE_STATE",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_1.txt\" OR \"P_3.txt\" OR \"P_4.txt\" OR \"P_5.txt\" OR \"P_6.txt\" OR \"P_7.txt\" OR \"P_8.txt\" OR \"P_9.txt\" OR \"P_11.txt\" OR \"P_12.txt\" OR \"P_13.txt\" OR \"P_14.txt\" OR \"P_15.txt\" OR \"P_16.txt\" OR \"P_18.txt\" OR \"P_19.txt\" OR \"P_20.txt\" OR \"P_21.txt\" OR \"P_22.txt\" OR \"P_24.txt\" OR \"P_26.txt\" OR \"P_27.txt\" OR \"P_28.txt\" OR \"P_29.txt\" OR \"P_30.txt\" OR \"P_31.txt\" OR \"P_33.txt\""
+                        }
+                      ],
+                      "value": "27"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-812",
+            "attributes": [
+              {
+                "name": "OrganismPart",
+                "value": "brain, prefrontal cortex BA9"
+              },
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "neurologically healthy control"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "Parkinson disease"
+              },
+              {
+                "name": "Age",
+                "value": "94 years"
+              },
+              {
+                "name": "Age",
+                "value": "66 years"
+              },
+              {
+                "name": "Age",
+                "value": "86 years"
+              },
+              {
+                "name": "Age",
+                "value": "65 years"
+              },
+              {
+                "name": "Age",
+                "value": "69 years"
+              },
+              {
+                "name": "Age",
+                "value": "84 years"
+              },
+              {
+                "name": "Age",
+                "value": "85 years"
+              },
+              {
+                "name": "Age",
+                "value": "91 years"
+              },
+              {
+                "name": "Age",
+                "value": "80 years"
+              },
+              {
+                "name": "Age",
+                "value": "61 years"
+              },
+              {
+                "name": "Age",
+                "value": "79 years"
+              },
+              {
+                "name": "Age",
+                "value": "70 years"
+              },
+              {
+                "name": "Age",
+                "value": "75 years"
+              },
+              {
+                "name": "Age",
+                "value": "82 years"
+              },
+              {
+                "name": "Age",
+                "value": "89 years"
+              },
+              {
+                "name": "Age",
+                "value": "... 17 other values"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "24.23 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "1.16 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "2.25 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "20.92 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "19.42 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "26.16 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "2.75 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "25 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "30.75 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "25.92 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "20.93 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "1.66 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "9.25 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "11.21 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "3.75 hours"
+              },
+              {
+                "name": "Post mortem interval",
+                "value": "... 28 other values"
+              },
+              {
+                "name": "Ph",
+                "value": "6.675"
+              },
+              {
+                "name": "Ph",
+                "value": "6.583"
+              },
+              {
+                "name": "Ph",
+                "value": "6.597"
+              },
+              {
+                "name": "Ph",
+                "value": "6.435"
+              },
+              {
+                "name": "Ph",
+                "value": "6.72"
+              },
+              {
+                "name": "Ph",
+                "value": "6.915"
+              },
+              {
+                "name": "Ph",
+                "value": "6.397"
+              },
+              {
+                "name": "Ph",
+                "value": "6.635"
+              },
+              {
+                "name": "Ph",
+                "value": "6.815"
+              },
+              {
+                "name": "Ph",
+                "value": "6.678"
+              },
+              {
+                "name": "Ph",
+                "value": "6.628"
+              },
+              {
+                "name": "Ph",
+                "value": "6.365"
+              },
+              {
+                "name": "Ph",
+                "value": "6.593"
+              },
+              {
+                "name": "Ph",
+                "value": "6.79"
+              },
+              {
+                "name": "Ph",
+                "value": "7.005"
+              },
+              {
+                "name": "Ph",
+                "value": "... 31 other values"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "8.3"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "7.2"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "6.4"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "6.9"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "7.5"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "7.8"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "8.4"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "6.3"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "7.1"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "5.5"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "7.7"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "8.2"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "7.6"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "8.1"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "7.4"
+              },
+              {
+                "name": "Rna integrity number",
+                "value": "... 11 other values"
+              },
+              {
+                "name": "Age at onset",
+                "value": "73 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "59 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "55 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "unknown"
+              },
+              {
+                "name": "Age at onset",
+                "value": "71 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "79 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "30 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "58 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "68 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "65 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "69 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "85 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "64 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "72 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "80 years"
+              },
+              {
+                "name": "Age at onset",
+                "value": "... 1 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "86 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "3 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.435"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.7"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_1.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "73 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.25 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.62"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "5.5"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_2.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "91 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "1.5 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.29"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.1"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "82 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.16 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.645"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_4.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "97 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "1.5 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "7.137"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.1"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_5.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "86 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "4.75 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.348"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.3"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_6.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "91 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.397"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.5"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_8.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "81 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.75 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.597"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.9"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_9.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "79 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.915"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.4"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_10.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "63 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "1.5 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.603"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.8"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_11.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "66 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "18.7 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.75"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.7"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_12.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "69 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "15.3 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "7.323"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_13.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "79 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "20.92 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.463"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.8"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_14.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "58 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "20.16 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.695"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.5"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_16.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "70 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "20.93 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.815"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.7"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_17.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "66 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "16.97 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.75"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.8"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_18.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "73 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "19.42 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.71"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.8"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_19.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "60 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "24.23 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.875"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.5"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_20.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "76 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "26.16 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.52"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.3"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_21.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "61 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "17 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.79"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_22.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "62 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "18.33 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.435"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.5"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_23.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "69 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "25.92 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.635"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.1"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_24.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "61 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "25 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "7.005"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.3"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_25.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "88 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "11.06 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.365"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.7"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_26.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "71 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "39.67 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.67"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.4"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_27.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "neurologically healthy control"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "93 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "12.9 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.555"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "4.8"
+                    },
+                    {
+                      "name": "Age at onset"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"C_29.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "70 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "1.83 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.678"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.5"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "58 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_1.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "74 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "3 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.475"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.4"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "72 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "70 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.33 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.583"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.3"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "30 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_4.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "77 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "1.66 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.438"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.2"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "64 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_5.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "83 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.58"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.6"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "76 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_6.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_31",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "73 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "7.16 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.69125"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "55 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_7.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_32",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "72 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "3.5 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.72"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "5.6"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "55 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_8.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_33",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "69 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "4.16 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.665"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.3"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "68 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_9.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_34",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "77 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "1.16 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.593"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.4"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "55 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_11.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_35",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "80 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.545"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.2"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "69 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_12.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_36",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "83 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.16 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.838"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.3"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "79 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_13.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_37",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "80 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.25 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.65"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "55 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_14.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_38",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "84 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.5 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.47"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.1"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "80 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_15.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_39",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "88 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.71"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.4"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "85 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_16.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_40",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "81 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.5 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.628"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.4"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "73 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_18.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_41",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "77 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "4 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.76375"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "73 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_19.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_42",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "64 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "3.75 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "7.043"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.3"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "59 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_20.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_43",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "85 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "2.66 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.755"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.4"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "85 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_21.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_44",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "94 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "9.25 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.79"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.4"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "unknown"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_22.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_45",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "67 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "8.25 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.675"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.9"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "58 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_24.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_46",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "85 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "15.75 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.53"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.3"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "65 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_26.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_47",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "75 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "6.67 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.935"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "8.2"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "unknown"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_27.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_48",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "74 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "15.15 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.67"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.8"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "unknown"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_28.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_49",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "89 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "30.75 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.675"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.2"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "72 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_29.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_50",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "66 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "11.21 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.735"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "7.9"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "55 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_30.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_51",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "65 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "7.83 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "7.13"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.9"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "unknown"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_31.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_52",
+                  "attributes": [
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson disease"
+                    },
+                    {
+                      "name": "Age",
+                      "value": "85 years"
+                    },
+                    {
+                      "name": "Post Mortem Interval",
+                      "value": "19.3 hours"
+                    },
+                    {
+                      "name": "pH",
+                      "value": "6.475"
+                    },
+                    {
+                      "name": "RNA Integrity Number",
+                      "value": "6.6"
+                    },
+                    {
+                      "name": "Age at onset",
+                      "value": "71 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"P_33.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-812",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_1.txt",
+                  "size": 23402141,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_2.txt",
+                  "size": 25266404,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_3"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_3.txt",
+                  "size": 25234947,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_4"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_4.txt",
+                  "size": 25228830,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_5"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_5.txt",
+                  "size": 25230101,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_6"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_6.txt",
+                  "size": 25254272,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_8"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_8.txt",
+                  "size": 25238810,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_9"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_9.txt",
+                  "size": 25219610,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_10"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_10.txt",
+                  "size": 25234495,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_11"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_11.txt",
+                  "size": 25237288,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_12"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_12.txt",
+                  "size": 25224487,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_13"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_13.txt",
+                  "size": 25237424,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_14"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_14.txt",
+                  "size": 25222947,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_16"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_16.txt",
+                  "size": 25222079,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_17"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_17.txt",
+                  "size": 25215680,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_18"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_18.txt",
+                  "size": 25219649,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_19"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_19.txt",
+                  "size": 25247448,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_20"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_20.txt",
+                  "size": 25197898,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_21"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_21.txt",
+                  "size": 25222510,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_22"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_22.txt",
+                  "size": 25241038,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_23"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_23.txt",
+                  "size": 25231670,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_24"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_24.txt",
+                  "size": 25235186,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_25"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_25.txt",
+                  "size": 25224185,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_26"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_26.txt",
+                  "size": 25234582,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_27"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_27.txt",
+                  "size": 25240086,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C_29"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "C_29.txt",
+                  "size": 25261804,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_1.txt",
+                  "size": 25270573,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_3"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_3.txt",
+                  "size": 25223090,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_4"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_4.txt",
+                  "size": 25245570,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_5"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_5.txt",
+                  "size": 25270467,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_6"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_6.txt",
+                  "size": 25239575,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_7"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_7.txt",
+                  "size": 25175625,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_8"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_8.txt",
+                  "size": 25216581,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_9"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_9.txt",
+                  "size": 25271285,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_11"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_11.txt",
+                  "size": 25236675,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_12"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_12.txt",
+                  "size": 25203231,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_13"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_13.txt",
+                  "size": 25244483,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_14"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_14.txt",
+                  "size": 25248189,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_15"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_15.txt",
+                  "size": 25265438,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_16"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_16.txt",
+                  "size": 25216578,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_18"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_18.txt",
+                  "size": 25218575,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_19"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_19.txt",
+                  "size": 25245935,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_20"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_20.txt",
+                  "size": 25214733,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_21"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_21.txt",
+                  "size": 25218726,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_22"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_22.txt",
+                  "size": 25218200,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_24"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_24.txt",
+                  "size": 25255890,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_26"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_26.txt",
+                  "size": 25217401,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_27"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_27.txt",
+                  "size": 25186752,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_28"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_28.txt",
+                  "size": 25212823,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_29"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_29.txt",
+                  "size": 25259926,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_30"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_30.txt",
+                  "size": 25205223,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_31"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_31.txt",
+                  "size": 25215753,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "P_33"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "P_33.txt",
+                  "size": 25217564,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-812",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-812.idf.txt",
+                  "size": 3042,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-812.sdrf.txt",
+                  "size": 28609,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-812",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AGIL-28"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-812",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

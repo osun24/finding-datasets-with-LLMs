@@ -1,0 +1,34 @@
+Accession: E-MTAB-6094
+Source list: alzheimer-screened
+Title: Whole genome transcriptional analysis of Alzheimer's disease patients compared with age-matched non-demented controls
+Study type: transcription profiling by array
+Description: Alzheimer’s disease (AD) is an aging related neurodegenerative pathology that affects millions of people worldwide. This pathology has been related to a range of features such as deposition of proteins in the brain, alterations in cell cycle, accumulation of DNA damage, DNA repair deficiency and mitochondrial dysfunction, however the molecular mechanisms implicated in its pathogenesis are still uncertain. Thereby, the present study aimed to evaluate whether peripheral blood mononuclear cells (PBMCs) of AD patients display alterations in gene expression profilescompared to age-matched controls. Blood samples were collected from 25 AD patients and 15 age-matched controls in order to perform genome-wide mRNA expression (microarray). In blood cells, Rank products bioinformatics analysis indicated 593 mRNAs adifferentially expressed in AD compared to controls. Our results demonstrated that PBMCs have alterations in cell cycle and DNA repair as proposed for AD neurons, reinforcing the idea that AD blood cells can provide information about AD status and also can be import as source of studies to better understand the disease.
+Sample count: 35
+Assay count: 35
+
+Samples:
+  Experimental Designs:
+    Not found
+  Experimental Factors:
+    Experimental Factors: disease, disease staging
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: blood
+    Disease: Alzheimers disease, normal, clinical dementia rate 1, clinical dementia rate 3, not applicable
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Disease staging: clinical dementia rate 1, clinical dementia rate 3, not applicable
+      disease staging: not applicable, clinical dementia rate 3, clinical dementia rate 1
+    Cell type/line:
+      Cell type: mononuclear cell
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

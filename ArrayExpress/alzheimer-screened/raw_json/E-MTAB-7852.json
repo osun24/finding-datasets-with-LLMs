@@ -1,0 +1,1234 @@
+{
+  "accno": "E-MTAB-7852",
+  "attributes": [
+    {
+      "name": "ReviewType",
+      "value": "DoubleBlind"
+    },
+    {
+      "name": "Title",
+      "value": "Cultures of hiPS cells and their differentiation into neuronal cells"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2020-01-24"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-7852"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-7852",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Cultures of hiPS cells and their differentiation into neuronal cells"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Study type",
+        "value": "Cell line - One-color microarray"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "In order to identify endogenous factors that modulate Aβ production, we performed a transcriptome analysis on neuronal cells derived from human induced pluripotent stem cells (hiPS) because these cells changed the Aβ production during neuronal differentiation. When the expression of APP and the ratio Aβ42/40 of the secreted proteins were measured at days 38, 45, and 52 during differentiation, both APP expression and the secretion of Aβ40 and Aβ42 at days 45 and 52 were significantly increased compared to those at day 38. Furthermore, the ratio of Aβ42/40 was dramatically reduced at days 45 and 52 compared to that at day 38. We hypothesized that transcriptional changes during the differentiation into neuronal cells may affect APP production and/or processing. To test this hypothesis, we performed microarray analyses using three independent neuronal cell cultures that were differentiated from each of three hiPS cells, namely 201B7, 253G4, and AD4F-1 (nine cell lines in total). Total RNA was prepared at three differentiation time points (days 38, 45, and 52) and subjected to an Affymetrix Gene Chip Human Exon 1.0 ST array. Compare between samples from 38-day cultures and samples from 45- and 52-day cultures."
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-84799",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-84799"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Cultures of hiPS cells and their differentiation into neuronal cells."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-84800",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-84800"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "RNA was obtained from neuronal cells differentiated from hiPS cells using TRIZOL reagent (Invitrogen, Carlsbad, CA, USA)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-84801",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-84801"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003813"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Biotinylated cRNA was prepared from 250 ng total RNA according to the standard protocol for the Affymetrix 3′ IVT Express Plus Reagent Kit."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-84802",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-84802"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003815"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Biotinylated cRNA was prepared from 250 ng total RNA according to the standard protocol for the Affymetrix 3′ IVT Express Plus Reagent Kit."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-84803",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-84803"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003814"
+                }
+              ],
+              "value": "array scanning and feature extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The GeneChips were scanned using a GeneChip Scanner 3000 7G (Affymetrix, Santa Clara, CA, USA)."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Tsuneyoshi Seki"
+          },
+          {
+            "name": "Email",
+            "value": "tsune@bg7.so-net.ne.jp"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Kobe University Graduate School of Medicine"
+          },
+          {
+            "name": "Address",
+            "value": "Kobe, Hyogo 650-0017, Japan"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-7852",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "27"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO:0001756"
+              }
+            ],
+            "value": "disease state design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO:0001746"
+              }
+            ],
+            "value": "development or differentiation design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "time"
+              }
+            ],
+            "value": "time"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell line"
+              }
+            ],
+            "value": "cell line"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-7852",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Disease",
+                "value": "Alzheimer disease"
+              },
+              {
+                "name": "Cell line",
+                "value": "201B7"
+              },
+              {
+                "name": "Cell line",
+                "value": "253G4"
+              },
+              {
+                "name": "Cell line",
+                "value": "AD4F-1"
+              },
+              {
+                "name": "Time",
+                "value": "52 day"
+              },
+              {
+                "name": "Time",
+                "value": "38 day"
+              },
+              {
+                "name": "Time",
+                "value": "45 day"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer disease"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "AD4F-1"
+                    },
+                    {
+                      "name": "time",
+                      "value": "38 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"AD4F_1_P20_14a_2_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_14b_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_14c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer disease"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "AD4F-1"
+                    },
+                    {
+                      "name": "time",
+                      "value": "45 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"AD4F_1_P20_21a_2_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_21b_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_21c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer disease"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "AD4F-1"
+                    },
+                    {
+                      "name": "time",
+                      "value": "52 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"AD4F_1_P20_28a_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_28b_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_28c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "201B7"
+                    },
+                    {
+                      "name": "time",
+                      "value": "38 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"201B7_P25_14a_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_14b_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_14c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "253G4"
+                    },
+                    {
+                      "name": "time",
+                      "value": "38 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"253G4_P25_14a_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_14b_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_14c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "253G4"
+                    },
+                    {
+                      "name": "time",
+                      "value": "45 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"253G4_P25_21a_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_21b_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_21c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "201B7"
+                    },
+                    {
+                      "name": "time",
+                      "value": "45 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"201B7_P25_21a_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_21b_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_21c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "253G4"
+                    },
+                    {
+                      "name": "time",
+                      "value": "52 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"253G4_P25_28a_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_28b_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_28c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "cell line",
+                      "value": "201B7"
+                    },
+                    {
+                      "name": "time",
+                      "value": "52 day"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"201B7_P25_28a_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_28b_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_28c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-7852",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell type",
+                "value": "induced pluripotent stem cell"
+              },
+              {
+                "name": "Growth condition",
+                "value": "neuronal differentiation"
+              },
+              {
+                "name": "Cell line",
+                "value": "201B7"
+              },
+              {
+                "name": "Cell line",
+                "value": "253G4"
+              },
+              {
+                "name": "Cell line",
+                "value": "AD4F-1"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Disease",
+                "value": "Alzheimer disease"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "cell line",
+                      "value": "AD4F-1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"AD4F_1_P20_14a_2_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_14b_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_14c_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_21a_2_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_21b_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_21c_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_28a_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_28b_HuEx_1_0_st_v2.CEL\" OR \"AD4F_1_P20_28c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "9"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "cell line",
+                      "value": "201B7"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"201B7_P25_14a_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_14b_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_14c_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_21a_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_21b_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_21c_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_28a_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_28b_HuEx_1_0_st_v2.CEL\" OR \"201B7_P25_28c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "9"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "cell line",
+                      "value": "253G4"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"253G4_P25_14a_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_14b_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_14c_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_21a_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_21b_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_21c_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_28a_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_28b_HuEx_1_0_st_v2.CEL\" OR \"253G4_P25_28c_HuEx_1_0_st_v2.CEL\""
+                        }
+                      ],
+                      "value": "9"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-7852",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "27"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 19"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_14a_2_HuEx_1_0_st_v2.CEL",
+                  "size": 66443295,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 20"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_14b_HuEx_1_0_st_v2.CEL",
+                  "size": 66104633,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 21"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_14c_HuEx_1_0_st_v2.CEL",
+                  "size": 66124885,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 22"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_21a_2_HuEx_1_0_st_v2.CEL",
+                  "size": 66351953,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 23"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_21b_HuEx_1_0_st_v2.CEL",
+                  "size": 66071985,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 24"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_21c_HuEx_1_0_st_v2.CEL",
+                  "size": 66174849,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 25"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_28a_HuEx_1_0_st_v2.CEL",
+                  "size": 66116253,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 26"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_28b_HuEx_1_0_st_v2.CEL",
+                  "size": 66242909,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 27"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "AD4F_1_P20_28c_HuEx_1_0_st_v2.CEL",
+                  "size": 66028901,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_14a_HuEx_1_0_st_v2.CEL",
+                  "size": 66038803,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 10"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_14a_HuEx_1_0_st_v2.CEL",
+                  "size": 65955857,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 11"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_14b_HuEx_1_0_st_v2.CEL",
+                  "size": 66190697,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 12"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_14c_HuEx_1_0_st_v2.CEL",
+                  "size": 66109905,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_14b_HuEx_1_0_st_v2.CEL",
+                  "size": 66243937,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_14c_HuEx_1_0_st_v2.CEL",
+                  "size": 66065849,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 13"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_21a_HuEx_1_0_st_v2.CEL",
+                  "size": 66000713,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 14"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_21b_HuEx_1_0_st_v2.CEL",
+                  "size": 65940217,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 15"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_21c_HuEx_1_0_st_v2.CEL",
+                  "size": 65975209,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 4"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_21a_HuEx_1_0_st_v2.CEL",
+                  "size": 66143177,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 5"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_21b_HuEx_1_0_st_v2.CEL",
+                  "size": 66011661,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 6"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_21c_HuEx_1_0_st_v2.CEL",
+                  "size": 66123625,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 16"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_28a_HuEx_1_0_st_v2.CEL",
+                  "size": 65966933,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 17"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_28b_HuEx_1_0_st_v2.CEL",
+                  "size": 66102237,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 18"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "253G4_P25_28c_HuEx_1_0_st_v2.CEL",
+                  "size": 65986761,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 7"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_28a_HuEx_1_0_st_v2.CEL",
+                  "size": 66069593,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 8"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_28b_HuEx_1_0_st_v2.CEL",
+                  "size": 66265703,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 9"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "201B7_P25_28c_HuEx_1_0_st_v2.CEL",
+                  "size": 66160777,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-7852",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-7852.idf.txt",
+                  "size": 3529,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-7852.sdrf.txt",
+                  "size": 11825,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-7852",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-2246"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-7852",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

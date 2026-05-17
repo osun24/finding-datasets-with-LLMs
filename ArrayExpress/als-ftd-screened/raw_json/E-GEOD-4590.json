@@ -1,0 +1,401 @@
+{
+  "accno": "E-GEOD-4590",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of human B cells at four cconsecutive stages of B cell development"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2008-06-18"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-4590"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-4590",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of human B cells at four cconsecutive stages of B cell development"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Cells from four develppmental stages were purified by FACS from human bone marrow samples Experiment Overall Design: Cells were sorted as follows: PB1: CD34+VpreB+ PB2: VpreB-CD34+ LAR: kappa/lambda-VpreB-large SMA: kappa/lambda-VpreB-small. All cells were CD19+"
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE4590"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-G4590-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-G4590-5"
+            },
+            {
+              "name": "Type",
+              "value": "specified_biomaterial_action"
+            },
+            {
+              "name": "Description",
+              "value": "Sorted as kappalambda- VpreB- large"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-G4590-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-G4590-1"
+            },
+            {
+              "name": "Type",
+              "value": "specified_biomaterial_action"
+            },
+            {
+              "name": "Description",
+              "value": "Sorted as VpreB+ CD34+"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-G4590-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-G4590-4"
+            },
+            {
+              "name": "Type",
+              "value": "specified_biomaterial_action"
+            },
+            {
+              "name": "Description",
+              "value": "Sorted as kappalambda- VpreB- small"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-G4590-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-G4590-6"
+            },
+            {
+              "name": "Type",
+              "value": "specified_biomaterial_action"
+            },
+            {
+              "name": "Description",
+              "value": "Sorted as VpreB+ CD34-"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-G4590-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-G4590-3"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Trizol extraction of total RNA was performed according to the manufacturer's instructions."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-G4590-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-G4590-2"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Biotinylated cRNA were prepared according to a tw cycle mRNA amplification procedue (Hoffmann et al  Genome Res., Jan 2002; 12: 98 - 111 ; doi:10.1101/gr.201501)"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Reinhard Hoffmann"
+          },
+          {
+            "name": "Email",
+            "value": "r_hoffmann@mvp.uni-muenchen.de"
+          },
+          {
+            "name": "Role",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Max von Pettenkofer Institut"
+          },
+          {
+            "name": "Address",
+            "value": "Bacteriology, Max von Pettenkofer Institut, Pettenkoferstr. 9a, Munich, 80336, Germany"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "17890238",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Neutrality, compensation, and negative selection during evolution of B-cell development transcriptomes."
+          },
+          {
+            "name": "Authors",
+            "value": "Reinhard Hoffmann, Claudio Lottaz, Thomas Kühne, Antonius Rolink, Fritz Melchers"
+          },
+          {
+            "name": "DOI",
+            "value": "17890238"
+          },
+          {
+            "name": "Status",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "journal_article"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "17890238"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-4590",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "20"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "unknown_experiment_design_type"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "transcription profiling by array"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "source_chars-E-GEOD-4590",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              }
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-4590",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "mt-E-GEOD-4590",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-4590.idf.txt",
+                  "size": 2996,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-4590.sdrf.txt",
+                  "size": 11835,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-4590",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-9"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-4590",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

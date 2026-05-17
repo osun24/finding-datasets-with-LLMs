@@ -1,0 +1,37 @@
+Accession: E-MEXP-18
+Source list: lbd-screened
+Title: Transcription profiling of human cell lines and tissues (Novartis/GNF)
+Study type: transcription profiling by array
+Description: High-throughput gene expression profiling has become an important tool for investigating transcriptional activity in a variety of biological samples. To date, the vast majority of these experiments have focused on specific biological processes and perturbations. Here, we have generated and analyzed gene expression from a set of samples spanning a broad range of biological conditions. Specifically, we profiled gene expression from 91 human and mouse samples across a diverse array of tissues, organs, and cell lines. Because these samples predominantly come from the normal physiological state in the human and mouse, this dataset represents a preliminary, but substantial, description of the normal mammalian transcriptome. We have used this dataset to illustrate methods of mining these data, and to reveal insights into molecular and physiological gene function, mechanisms of transcriptional regulation, disease etiology, and comparative genomics. Finally, to allow the scientific community to use this resource, we have built a free and publicly accessible website (http://expression.gnf.org) that integrates data visualization and curation of current gene annotations. The terms of the Novartis data release policy prevent us from redistributing .cel files for this experiment, therefore there is no raw data, we hope to be able to release this in future.
+Sample count: 1
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: organism_part_comparison_design, disease_state_design, transcription profiling by array
+  Experimental Factors:
+    Experimental Factors: organism_part, disease_state
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: adult
+    Organism part: caudate nucleus
+    Disease: cancer
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      DiseaseState: cancer
+      Diseasestate: cancer
+    Cell type/line:
+      CellLine: Daudi
+      CellType: hepatocyte
+      Cellline: Daudi
+      Celltype: hepatocyte
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Quality Controls: technical_replicate
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

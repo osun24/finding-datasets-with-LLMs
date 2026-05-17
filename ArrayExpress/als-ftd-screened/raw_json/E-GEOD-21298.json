@@ -1,0 +1,803 @@
+{
+  "accno": "E-GEOD-21298",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Profiling wt SOD versus ALS SOD1(G93A) mutant"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2010-12-22"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-21298"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-21298",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Profiling wt SOD versus ALS SOD1(G93A) mutant"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Whole-genome profiling of SH-SY5Y cells was done on neuroblastoma SH-SY5Y stably transfected with cDNAs coding for SOD1WT or the mutant SOD1(G93A) protein.  Five wt SOD versus five mutant SOD"
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE21298"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE21298-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21298-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Normalized RMA sketch signals"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21298-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21298-6"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "Standard Affymetrix scanning protocol for GeneChip® Exon 1.0 ST arrays"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21298-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21298-5"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Standard Affymetrix hybridization protocol for GeneChip® Exon 1.0 ST arrays"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21298-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21298-3"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was extracted using TRIzol® Reagent (Invitrogen), and subsequently purified using silica membrane spin columns from RNeasy Mini kit (Qiagen). RNA quantity and purity were assessed using a NanoDrop® instrument (Thermo Fisher Scientific Inc.). Total RNA integrity was assessed by using a 2100 Bioanalyzer (Agilent Technologies) and the RNA Integrity Number (RIN) was calculated."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21298-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21298-2"
+            },
+            {
+              "name": "Type",
+              "value": "grow"
+            },
+            {
+              "name": "Description",
+              "value": "cell lines were cultured  in D-MEM/F-12 media  with GlutaMAX™ (Gibco, Invitrogen, UK), 10% FBS,  100 Units/ml penicillin G, 100µg/ml streptomycin/ penicillin (Euroclone, Milano, Italy). Stably transfected cells were maintained in the presence of 400µg/ml Geneticin (G418 sulphate, Euroclone)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21298-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21298-4"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Whole transcriptome Affymetrix protocol with rRNA depletion."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21298-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21298-7"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Probeset summarization was done by RMA and normalization by sketch quantile method (Affymetrix APT tools)"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Raffaele Calogero"
+          },
+          {
+            "name": "Email",
+            "value": "raffaele.calogero@unito.it"
+          },
+          {
+            "name": "Phone",
+            "value": "++39 0116706457"
+          },
+          {
+            "name": "Fax",
+            "value": "++39 0119038639"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Silvia Lenzken"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Valentina Romeo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Francesca Zolezzi"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Francesca Cordero"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Giuseppe Lamorte"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Davide Bonanno"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Donatella Biancolini"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Mauro Cozzolino"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Alessia Maracchioni"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Remo Sanges"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Tilmann Achsel"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "MariaTeresa Carrì"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "R Calogero"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Silvia Barabino"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "University of Torino"
+          },
+          {
+            "name": "Address",
+            "value": "Molecular Biotechnology Center, University of Torino, Via Nizza 52, Torino, To, Italy"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "21120952",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Mutant SOD1 and mitochondrial damage alter expression and splicing of genes controlling neuritogenesis in models of neurodegeneration."
+          },
+          {
+            "name": "Authors",
+            "value": "Lenzken SC, Romeo V, Zolezzi F, Cordero F, Lamorte G, Bonanno D, Biancolini D, Cozzolino M, Pesaresi MG, Maracchioni A, Sanges R, Achsel T, Carrì MT, Calogero RA, Barabino SM"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1002/humu.21394"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1002/humu.21394"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-21298",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "10"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "source_chars-E-GEOD-21298",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell line",
+                "value": "neuroblastoma SH-SY5Y"
+              }
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-21298",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532279 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532279.CEL",
+                  "size": 65774649,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532278 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532278.CEL",
+                  "size": 65834305,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532277 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532277.CEL",
+                  "size": 65761585,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532274 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532274.CEL",
+                  "size": 65793761,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532265 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532265.CEL",
+                  "size": 65815345,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532264 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532264.CEL",
+                  "size": 65814857,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532263 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532263.CEL",
+                  "size": 65782340,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532262 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532262.CEL",
+                  "size": 65802976,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532261 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532261.CEL",
+                  "size": 65820688,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM532260 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM532260.CEL",
+                  "size": 65810984,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532261_sample_table.txt",
+                  "size": 351191,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532278_sample_table.txt",
+                  "size": 351282,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532263_sample_table.txt",
+                  "size": 351054,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532265_sample_table.txt",
+                  "size": 351130,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532274_sample_table.txt",
+                  "size": 351179,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532277_sample_table.txt",
+                  "size": 351244,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532262_sample_table.txt",
+                  "size": 351137,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532264_sample_table.txt",
+                  "size": 351230,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532279_sample_table.txt",
+                  "size": 351203,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM532260_sample_table.txt",
+                  "size": 351231,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-21298",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-21298.idf.txt",
+                  "size": 4516,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-21298.sdrf.txt",
+                  "size": 10294,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-21298",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-143"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-21298",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "-"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

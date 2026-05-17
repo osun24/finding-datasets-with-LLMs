@@ -1,0 +1,4321 @@
+{
+  "accno": "E-MTAB-2325",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Gene expression profiles in motor cortex of Control and Sporadic Amyotrphic Lateral Sclerosis patients"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2015-02-27"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-2325"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-2325",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Gene expression profiles in motor cortex of Control and Sporadic Amyotrphic Lateral Sclerosis patients"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Threshold: 1.0 . Logbase: 2 . Technology: Generic.SingleColor.014850. Normalization: Shift to 75 percentile . Baseline Transformation: median of all samples ."
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-37655",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-37655"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "RNA was extracted with Trizol (Invitrogen) following the manufacturer's standard protocol, followed by confirmation of RNA integrity by agarose gel electrophoresis."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-37656",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-37656"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Complementary RNAs (cRNAs) labeled with Cy5-CTP (Perkin-Elmer) were synthesized from 1 ug of total RNA of each sample using the Low RNA Input Fluorescent Linear Amplification Kit (Agilent Technologies) following the manufacturer's protocol. A reference cRNA, labeled with Cy3-CTP (Perkin-Elmer), was synthesized from 1 ug of sample D2 RNA. Aliquots (750 ng) of Cy3 and Cy5 labeled cRNA targets were co-hybridized on Whole Human Genome Oligo Microarrays (Agilent Technologies)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-37657",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-37657"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Microarray hybridization and washing were performed using reagents and instruments (hybridization chambers and rotating oven) as indicated by the manufacturer (Agilent Technologies)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-37658",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-37658"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "array scanning and feature extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Microarrays were scanned at 10-um resolution using a GenePix Personal 4100A microarray scanner and the GenePix Pro 6.0 acquisition and data-extraction software (Molecular Devices, Corp.)."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Sebastiano Cavallaro"
+          },
+          {
+            "name": "Email",
+            "value": "sebastiano.cavallaro@cnr.it"
+          },
+          {
+            "name": "Role",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "MGED"
+              }
+            ],
+            "value": "submitter"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-2325",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "41"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "case control design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "clinical history design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "age"
+              }
+            ],
+            "value": "age at death"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical information"
+              }
+            ],
+            "value": "Survival characteristics"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical information"
+              }
+            ],
+            "value": "Survival time from date of onset (months)"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "time"
+              }
+            ],
+            "value": "Post-mortem interval in hours"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical information"
+              }
+            ],
+            "value": "Location of onset"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical history"
+              }
+            ],
+            "value": "Occupation (job)"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical history"
+              }
+            ],
+            "value": "Smoker or non smoker"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical history"
+              }
+            ],
+            "value": "Alchool use or not"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical history"
+              }
+            ],
+            "value": "Other pathologies"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical treatment"
+              }
+            ],
+            "value": "Therapy used"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical treatment"
+              }
+            ],
+            "value": "Vaccination boost"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "clinical history"
+              }
+            ],
+            "value": "Familial anamnesis"
+          },
+          {
+            "name": "Normalizations",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "MO_811"
+              }
+            ],
+            "value": "median_log_centering"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-2325",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Disease",
+                "value": "Sporadic Amyotrophic Lateral Sclerosis"
+              },
+              {
+                "name": "Age at death",
+                "value": "51 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "58 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "57 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "64 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "41 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "48 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "71 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "59 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "39 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "60 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "38 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "55 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "46 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "44 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "43 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "... 12 other values"
+              },
+              {
+                "name": "Survival characteristics",
+                "value": "short term survival up to 24 months"
+              },
+              {
+                "name": "Survival characteristics",
+                "value": "long term survival more than 6 yrs"
+              },
+              {
+                "name": "Survival characteristics",
+                "value": "n/a"
+              },
+              {
+                "name": "Survival characteristics",
+                "value": "medium term survival up to 6 yrs"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "42"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "60"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "20"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "13"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "29"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "48"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "30"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "90"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "49"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "n/a"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "23"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "22"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "11"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "96"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "72"
+              },
+              {
+                "name": "Survival time from date of onset months",
+                "value": "... 9 other values"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "6"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "4"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "6.5"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "10"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "3"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "7"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "8"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "5"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "9"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "7.5"
+              },
+              {
+                "name": "Post-mortem interval in hours",
+                "value": "5.3"
+              },
+              {
+                "name": "Location of onset",
+                "value": "n/a"
+              },
+              {
+                "name": "Location of onset",
+                "value": "trunk onset"
+              },
+              {
+                "name": "Location of onset",
+                "value": "leg onset"
+              },
+              {
+                "name": "Location of onset",
+                "value": "arm onset"
+              },
+              {
+                "name": "Occupation job",
+                "value": "housewife and nurse in old people's nursing home untill 1987"
+              },
+              {
+                "name": "Occupation job",
+                "value": "\"Employed in bike club as secretary. Sportive type, cycled 150 km a day up unill 1994.\""
+              },
+              {
+                "name": "Occupation job",
+                "value": "Head constable of the policeforce in Haarlem"
+              },
+              {
+                "name": "Occupation job",
+                "value": "\"computer operator, worked also with chemical substances\""
+              },
+              {
+                "name": "Occupation job",
+                "value": "Assistent export manager in office product supplies. At the age of 16 suffered a heavy blow on his head"
+              },
+              {
+                "name": "Occupation job",
+                "value": "employed in administration"
+              },
+              {
+                "name": "Occupation job",
+                "value": "Ex-metal- bank employee"
+              },
+              {
+                "name": "Occupation job",
+                "value": "\"In the past contact with lead damps, and dental protheses with 9 amalgam fillings\""
+              },
+              {
+                "name": "Occupation job",
+                "value": "employed in administration in woodfactory and in past worked as barman"
+              },
+              {
+                "name": "Occupation job",
+                "value": "\"Plummer, intensive contact with copper and PVC-glue\""
+              },
+              {
+                "name": "Occupation job",
+                "value": "\"housewife, previously worked in a taylorshop, wife of painter,/decorator\""
+              },
+              {
+                "name": "Occupation job",
+                "value": "technical architecture head civil servant"
+              },
+              {
+                "name": "Occupation job",
+                "value": "housewife"
+              },
+              {
+                "name": "Occupation job",
+                "value": "\"occupation not known, however patient had been exposed to toxic substances\""
+              },
+              {
+                "name": "Occupation job",
+                "value": "employed in management with stressful job (self report)"
+              },
+              {
+                "name": "Occupation job",
+                "value": "... 4 other values"
+              },
+              {
+                "name": "Smoker or non smoker",
+                "value": "non smoker"
+              },
+              {
+                "name": "Smoker or non smoker",
+                "value": "n/a"
+              },
+              {
+                "name": "Smoker or non smoker",
+                "value": "smoker"
+              },
+              {
+                "name": "Alchool use or not",
+                "value": "abuse of acohol"
+              },
+              {
+                "name": "Alchool use or not",
+                "value": "abstinent"
+              },
+              {
+                "name": "Alchool use or not",
+                "value": "n/a"
+              },
+              {
+                "name": "Alchool use or not",
+                "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+              },
+              {
+                "name": "Alchool use or not",
+                "value": "\"more than moderate (3 /d men, 2/d women, elderly)\""
+              },
+              {
+                "name": "Other pathologies",
+                "value": "Suffered atopic eczema as a child (age 2 yrs). 1969 pneumonia. Chronic aspecific respiratory disease"
+              },
+              {
+                "name": "Other pathologies",
+                "value": "\"Colic pains left side of abdomen, had previously been operated 13 times for similar problem. Suffered hypertension\""
+              },
+              {
+                "name": "Other pathologies",
+                "value": "\"recidive sinusitis, suffered frequent colds\""
+              },
+              {
+                "name": "Other pathologies",
+                "value": "\"non-insulin-dependent diabetes, hypertension\""
+              },
+              {
+                "name": "Other pathologies",
+                "value": "transposition of n. ulnaris (1988)/in the past suffered some epileptic attacks/ spondylarthrosis deform. C4-C6"
+              },
+              {
+                "name": "Other pathologies",
+                "value": "Possible leasion of periferic and central motoric neuron at the spinal level. Known with hypertension"
+              },
+              {
+                "name": "Other pathologies",
+                "value": "\"Back pain underwent a laminectomy (L4-L5).As a child also suffered kidney disease during a cold. Bad acnﾎ, rontgen treatment of torax and face. In 1990 facial and bottom cheak infection\""
+              },
+              {
+                "name": "Other pathologies",
+                "value": "In 1976 operated for aneurysma. Post-operational abducensparesis. in 1981 dogbite upperlip. 1983 angina complaints"
+              },
+              {
+                "name": "Other pathologies",
+                "value": "n/a"
+              },
+              {
+                "name": "Other pathologies",
+                "value": "Suffered a heart attack after which he had probmlems of communication. August 1989 operated intestinal carcinoma (stoma was closed in november 1989)"
+              },
+              {
+                "name": "Other pathologies",
+                "value": "In the past frequent migrain headaches.Osteopenia and hypercholesterolemy. Trismus."
+              },
+              {
+                "name": "Other pathologies",
+                "value": "\"Had bronchitis untill 1945, had a period of hypertension during the use of the pill\""
+              },
+              {
+                "name": "Other pathologies",
+                "value": "\"Stressful experiences in her life, such as traumatic birth of her son.\""
+              },
+              {
+                "name": "Other pathologies",
+                "value": "psoriasis. Motor and car-accident"
+              },
+              {
+                "name": "Other pathologies",
+                "value": "period of alcohol abuse as well as depression period in the past. Suffered stomach ache"
+              },
+              {
+                "name": "Other pathologies",
+                "value": "... 10 other values"
+              },
+              {
+                "name": "Therapy used",
+                "value": "In 1990 infections treated with different antibiotics and a mushroom extract. Vit B injections"
+              },
+              {
+                "name": "Therapy used",
+                "value": "\"antidiabetics, Rastinon, glucophage\""
+              },
+              {
+                "name": "Therapy used",
+                "value": "\"rilutek, vit E, Oxazepam, amitriptyline-chloride, acetyl cyst.\""
+              },
+              {
+                "name": "Therapy used",
+                "value": "Trismus treated with botox injections and irradiation of parotids for excessive saliva"
+              },
+              {
+                "name": "Therapy used",
+                "value": "Renitec (hypertension). participated in the n-acetylcysteine trial"
+              },
+              {
+                "name": "Therapy used",
+                "value": "Participated in the n-acetylcysteine trial. Ozazepap when needed"
+              },
+              {
+                "name": "Therapy used",
+                "value": "Participated in the Acetyl cyst. trial"
+              },
+              {
+                "name": "Therapy used",
+                "value": "\"theolair retard, temesta, lactulose, codeine, zantac, regla, tranxene, euphiline, morfine hcl\""
+              },
+              {
+                "name": "Therapy used",
+                "value": "\"Participated in the n-acetylcysteine trial. Amytriptiline, Scopoderm plasters, Oxygen\""
+              },
+              {
+                "name": "Therapy used",
+                "value": "\"Vitamin B, Tryptizol, Prednison/Lactulose, Normison and lactulose when needed\""
+              },
+              {
+                "name": "Therapy used",
+                "value": "\"vit. B complex, Aldomet, Tolbutamide, Fluimicil and Lasix\""
+              },
+              {
+                "name": "Therapy used",
+                "value": "\"Tolbutamide, magnesiumsulfate (for cramps), Rilutec, Fluimicil, etc\""
+              },
+              {
+                "name": "Therapy used",
+                "value": "\"Selokeen, vit C, vit E, Coenzyme q10, vitamax, vit. B complex, superoxyde dismutase.\""
+              },
+              {
+                "name": "Therapy used",
+                "value": "n/a"
+              },
+              {
+                "name": "Therapy used",
+                "value": "rilutek"
+              },
+              {
+                "name": "Therapy used",
+                "value": "... 9 other values"
+              },
+              {
+                "name": "Vaccination boost",
+                "value": "n/a"
+              },
+              {
+                "name": "Vaccination boost",
+                "value": "polio vaccine (1992)"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "Mother died of cancer"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "Husband died in 13-03-1986 in Switserland of ALS. A nephew of mother's side was paralyzed"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "Father died of heart attack."
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "father died at the age of 49 of hart disease and mother suffered of hypertension"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "Several cases of Alzheimer in his mother's family"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "A son with asthma bronchiale. Brother with back problems."
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "\"brother MS, daughter handicapped\""
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "\"Mother died of cancer, father of consequences tentamen suicidii\""
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "father died in 1987 of brain tumor and had spinal cord tumors and intestine polyps"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "A sister of her mother had MS and died after an ilness period of 10 years at the age of 68"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "n/a"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "sister with morbus Reckinhhausen"
+              },
+              {
+                "name": "Familial anamnesis",
+                "value": "\"A sister had leukemia, whereas an uncle had Parkinson\""
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "31 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "59 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "71 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "9"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "10"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "40 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "long term survival more than 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "130"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "5"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"Stressful experiences in her life, such as traumatic birth of her son.\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "Mother died of cancer"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "long term survival more than 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "72"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "3"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "trunk onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "employed in administration"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"vit-B complex, vitamine C\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "polio vaccine (1992)"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "sister with morbus Reckinhhausen"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "long term survival more than 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "96"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "10"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "rilutek"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "48"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7.5"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "trunk onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "\"In the past contact with lead damps, and dental protheses with 9 amalgam fillings\""
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Acetyl cyst."
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "60"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "4"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "employed in administration in woodfactory and in past worked as barman"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"more than moderate (3 /d men, 2/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "transposition of n. ulnaris (1988)/in the past suffered some epileptic attacks/ spondylarthrosis deform. C4-C6"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Acetyl cyst."
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "\"brother MS, daughter handicapped\""
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "39 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "54 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "49"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "employed in management with stressful job (self report)"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "abuse of acohol"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "Raynaud's attacks"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"rilutek, vit E, Oxazepam, amitriptyline-chloride, acetyl cyst.\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "father died in 1987 of brain tumor and had spinal cord tumors and intestine polyps"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "71"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "5.3"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "\"housewife, previously worked in a taylorshop, wife of painter,/decorator\""
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "known with hypertension since 1960. Hypercholesterolemia and ECG with signs of anteroseptal infarct."
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Participated in the Acetyl cyst. trial"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "father died at the age of 49 of hart disease and mother suffered of hypertension"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "52"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "housewife and nurse in old people's nursing home untill 1987"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"Had bronchitis untill 1945, had a period of hypertension during the use of the pill\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "A sister of her mother had MS and died after an ilness period of 10 years at the age of 68"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_14",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "67 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "long term survival more than 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "90"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "technical architecture head civil servant"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"(1989) Anamnesis of Chronic aspecific respiratory disease, hypertsension and adipositas. Uncinate fits (temporal epilepsy). In 1988 Salmonella typhimu\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"Hypertension medication (tagamet, inhibin, trasolan, isoptin). Participated in the Acetyl cyst. trial\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_15",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "69 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "52"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "9"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "housewife"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "Possible leasion of periferic and central motoric neuron at the spinal level. Known with hypertension"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"Selokeen, vit C, vit E, Coenzyme q10, vitamax, vit. B complex, superoxyde dismutase.\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_16",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "4"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "Previously emplyed in the University canteen"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "abuse of acohol"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"non-insulin-dependent diabetes, hypertension\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"vit. B complex, Aldomet, Tolbutamide, Fluimicil and Lasix\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "\"A sister had leukemia, whereas an uncle had Parkinson\""
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_17",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "30"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "4"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "trunk onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"Adipositas, diabetes mellitus, arthrosis. Amamnesis: womb operaion, and knees and ankles due to arthrosis\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"Tolbutamide, magnesiumsulfate (for cramps), Rilutec, Fluimicil, etc\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_18",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "59 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "13"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "In 1976 operated for aneurysma. Post-operational abducensparesis. in 1981 dogbite upperlip. 1983 angina complaints"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"Legendal, Tryptizol\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_19",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "11"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "3"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "\"computer operator, worked also with chemical substances\""
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "abstinent"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "psoriasis. Motor and car-accident"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"Rilutek, cream for psoriasis\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_20",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "48 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "4"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_21",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "18"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "6"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "\"occupation not known, however patient had been exposed to toxic substances\""
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_22",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "23"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "trunk onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "Assistent export manager in office product supplies. At the age of 16 suffered a heavy blow on his head"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"malaria since 1991 (New-Guinea). Sincs 1990 diabetes type II. 1986 cholecystectomie, 1987 period with hypertension\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"antidiabetics, Rastinon, glucophage\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_23",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "31"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"Begin 1990,hallucinations with signs of daementia, change in personality, planning capacity and disorienation. 1990 diagnosis:schizofrenia simplex with loss of intelligence and frontal, cortical atrophy\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_24",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "63 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "27"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7.5"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "trunk onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "Known with hypertension"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Renitec (hypertension). participated in the n-acetylcysteine trial"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_25",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "29"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"Injured nose (with nosebleeds), due to violent ex-partner. Very stressed due to personal situation, divorce. Previous womb operation.\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Participated in the n-acetylcysteine trial. Ozazepap when needed"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "\"Mother died of cancer, father of consequences tentamen suicidii\""
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_26",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "9"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_27",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "38"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "6.5"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "\"Plummer, intensive contact with copper and PVC-glue\""
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"more than moderate (3 /d men, 2/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"recidive sinusitis, suffered frequent colds\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Participated in the n-acetylcysteine trial. Further medication Normison and Laxantia."
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_28",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "38 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "42"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "abuse of acohol"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "period of alcohol abuse as well as depression period in the past. Suffered stomach ache"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"theolair retard, temesta, lactulose, codeine, zantac, regla, tranxene, euphiline, morfine hcl\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_29",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "54 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "31"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "3"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "Head constable of the policeforce in Haarlem"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "abstinent"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "A lot of stress due to loss of family members/ friends and difficult contact with eldest son"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"Vitamin B, Tryptizol, Prednison/Lactulose, Normison and lactulose when needed\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "Several cases of Alzheimer in his mother's family"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_30",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "43 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "38"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "6"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "\"Administrator in gardening company, sportive man, Up until 1975 lived with his parents in gardening company and came into contact with different pesticides\""
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"more than moderate (3 /d men, 2/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"Back pain underwent a laminectomy (L4-L5).As a child also suffered kidney disease during a cold. Bad acnﾎ, rontgen treatment of torax and face. In 1990 facial and bottom cheak infection\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "In 1990 infections treated with different antibiotics and a mushroom extract. Vit B injections"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "A son with asthma bronchiale. Brother with back problems."
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_31",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "29"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "10"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"Participated in the n-acetylcysteine trial. Amytriptiline, Scopoderm plasters, Oxygen\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_32",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "43"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "6"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "In the past frequent migrain headaches.Osteopenia and hypercholesterolemy. Trismus."
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Trismus treated with botox injections and irradiation of parotids for excessive saliva"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_33",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "67 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "27"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "trunk onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "Employed in agricultural machinery factory. Sportive type. Suffered a severe fall on her buttocks while skating on ice."
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "diverticulosis since 2nd WW. Benign mammay cyst. Uterus myoma. Melanoma right leg"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Salazopyrin when needed"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_34",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "22"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "8"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "trunk onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "\"Colic pains left side of abdomen, had previously been operated 13 times for similar problem. Suffered hypertension\""
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "\"Carbamazepine divitabs, sinaspril, clonazepam, importal, microlax\""
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "Husband died in 13-03-1986 in Switserland of ALS. A nephew of mother's side was paralyzed"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_35",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "30"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "6"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "\"Employed in bike club as secretary. Sportive type, cycled 150 km a day up unill 1994.\""
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "\"moderate use of alcohol ( 2/d men, 1/d women, elderly)\""
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "Suffered atopic eczema as a child (age 2 yrs). 1969 pneumonia. Chronic aspecific respiratory disease"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "Father died of heart attack."
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_36",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "18"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_37",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "58 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "7"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_38",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "69 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "20"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "10"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "leg onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "Ex-metal- bank employee"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "Suffered a heart attack after which he had probmlems of communication. August 1989 operated intestinal carcinoma (stoma was closed in november 1989)"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_39",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Sporadic Amyotrophic Lateral Sclerosis"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "38"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "6.5"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "arm onset"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "non smoker"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "abstinent"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "Participated in the n-acetylcysteine trial"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_40",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Survival time from date of onset months",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Post-mortem interval in hours",
+                      "value": "6.5"
+                    },
+                    {
+                      "name": "Location of onset",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Occupation job",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Smoker or non smoker",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Alchool use or not",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Other pathologies",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Therapy used",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Vaccination boost",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "Familial anamnesis",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-2325",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "v4 cortex"
+              },
+              {
+                "name": "Ethnicity",
+                "value": "caucasian"
+              },
+              {
+                "name": "Sex",
+                "value": "Female"
+              },
+              {
+                "name": "Sex",
+                "value": "Male"
+              },
+              {
+                "name": "Age at death",
+                "value": "51 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "58 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "57 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "64 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "41 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "48 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "71 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "59 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "39 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "60 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "38 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "55 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "46 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "44 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "43 year"
+              },
+              {
+                "name": "Age at death",
+                "value": "... 12 other values"
+              },
+              {
+                "name": "Patient code",
+                "value": "1"
+              },
+              {
+                "name": "Patient code",
+                "value": "2"
+              },
+              {
+                "name": "Patient code",
+                "value": "3"
+              },
+              {
+                "name": "Patient code",
+                "value": "... 38 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "31 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "59 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "71 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "40 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "41 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "39 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "54 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "67 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "69 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "48 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "46 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "63 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "51 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "44 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "45 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "38 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "43 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "67 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Female"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "58 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_31",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "69 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_32",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_33",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "Male"
+                    },
+                    {
+                      "name": "age at death",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          },
+          {
+            "accno": "scan_chars-E-MTAB-2325",
+            "attributes": [
+              {
+                "name": "Survival characteristics",
+                "value": "short term survival up to 24 months"
+              },
+              {
+                "name": "Survival characteristics",
+                "value": "long term survival more than 6 yrs"
+              },
+              {
+                "name": "Survival characteristics",
+                "value": "n/a"
+              },
+              {
+                "name": "Survival characteristics",
+                "value": "medium term survival up to 6 yrs"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "scan_0",
+                  "attributes": [
+                    {
+                      "name": "Survival characteristics",
+                      "value": "n/a"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "10"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "scan_1",
+                  "attributes": [
+                    {
+                      "name": "Survival characteristics",
+                      "value": "long term survival more than 6 yrs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "scan_2",
+                  "attributes": [
+                    {
+                      "name": "Survival characteristics",
+                      "value": "medium term survival up to 6 yrs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "19"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "scan_3",
+                  "attributes": [
+                    {
+                      "name": "Survival characteristics",
+                      "value": "short term survival up to 24 months"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "8"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Scan Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-2325",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "41"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "1 09-13-07, 12bis 09-13-07, 14  09-13-07, 15bis 09-13-07, 17 09-13-07, 21 09-13-07, 23 09-13-07, 25bis 09-13-07, 27bis 09-13-07, 29 09-13-07, 3 09-13-07, 31 09-13-07, 33 09-13-07, 35 09-13-07, 37bis 09-13-07, 39 09-13-07, 41 09-13-07, 43  09-13-07, 45  09-13-07, 49 09-13-07, 5 09-13-07, 51bis 09-13-07, 53 09-13-07, 55 09-13-07, 57 09-13-07, 59  09-13-07, 6 09-13-07, 61 09-13-07, 63  09-13-07, 65 09-13-07, 67 09-13-07, 69bis 09-13-07, 71 09-13-07, 73 09-13-07, 75  09-13-07, 77  09-13-07, 79 09-13-07, 8 09-13-07, 81  09-13-07, 83  09-13-07, 9 09-13-07"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "raw_data.txt",
+                  "size": 13750704,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-2325",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-2325.idf.txt",
+                  "size": 4064,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-2325.sdrf.txt",
+                  "size": 34005,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-2325",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AGIL-28"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-2325",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

@@ -1,0 +1,983 @@
+{
+  "accno": "E-MTAB-4964",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Microenvironment-driven resistance to B-Raf inhibition in a melanoma patient is accompanied by broad changes of gene methylation and expression in distal fibroblasts. Transcriptomic study."
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2018-12-31"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-4964"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-4964",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Microenvironment-driven resistance to B-Raf inhibition in a melanoma patient is accompanied by broad changes of gene methylation and expression in distal fibroblasts. Transcriptomic study."
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "In this study, we compared gene expression and genome methylation of diverse fibroblast populations from a patient suffering from acrolentiginous melanoma (Breslow 4.0 mm, Clark IV, B-Raf V600E mutated). Stromal cells from the metastasis, i.e., melanoma associated fibroblasts (MAF), were positive for smooth muscle actin (SMA). Autologous control fibroblasts (ACF) isolated from distant uninvolved skin of the same patient during B-Raf inhibitor therapy and before clinical progression of the disease exhibited also strong SMA expression. Similar phenotype was observed in control dermal fibroblasts (CDF) from different donors yet exclusively after stimulation by TGF-Î²1. The identified differences in gene transcription as well as in DNA methylation indicate systemic activation of dermal fibroblasts in a patient with malignant melanoma. This dataset contains transcription profiling data, complementary methylation profiling data are available under accession E-MTAB-4965."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "Biostudies"
+            }
+          ],
+          "url": "E-MTAB-4965"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-51200",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51200"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Melanoma cutaneous metastasis on the chest was surgically removed and associated fibroblasts (MAF) were isolated from the metastasis mass."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-51201",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51201"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "After 3 month of the therapy by vemurafenib, unaffected skin from anatomically comparable site (to MAF) was collected by a punch biopsy to isolate autologous control fibroblasts (ACF)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-51202",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51202"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Control dermal fibroblasts (CDF) were prepared from anatomically comparable chest skin of two healthy Caucasian women donors undergoing aesthetic surgery."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-51203",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51203"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003789"
+                }
+              ],
+              "value": "growth protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Passage 3 or 4 cells were used in this study for analysis. Fibroblasts were cultured for 5 days before they reached subconfluent monolayers in DulbeccoÂ´s modified EagleÂ´s medium (D-MEM) containing 10% fetal bovine serum and antibiotics at 37Â°C and 5% CO2."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-51204",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51204"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was isolated using RNeasy Micro Kit (Qiagen, MD, USA) according to manufacturerâs protocol. Quality and concentration of RNA were measured with a NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific, MA, USA). The RNA integrity was analyzed by Agilent Bioanalyzer 2100 (Agilent). Only samples with an intact RNA profile were used for expression profiling analyses (RIN > 9)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-51205",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51205"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003813"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA (200 ng) was amplified using Illumina TotalPrep RNA Amplification Kit (Ambion, USA)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-51206",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51206"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003815"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Illumina HumanHT-12 v4 Expression BeadChips (Illumina, CA, USA) were used for the microarray analysis with 750 ng of labeled RNA hybridized on the chip according to the manufacture procedure."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-51207",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51207"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003814"
+                }
+              ],
+              "value": "array scanning and feature extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Arrays were scanned using Illumina BeadArray Reader (part of Illumina BeadStation 500), according to the manufacturer's protocol. Feature intensity values were extracted using GenomeStudio version 1.9.0.24624."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-51208",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-51208"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003816"
+                }
+              ],
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Feature intensities were background corrected and quantile normalized in GenomeStudio version 1.9.0.24624."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Michal Kolar"
+          },
+          {
+            "name": "Email",
+            "value": "kolarmi@img.cas.cz"
+          },
+          {
+            "name": "Phone",
+            "value": "420241063412"
+          },
+          {
+            "name": "Role",
+            "value": "data analyst;investigator;submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Karel Smetana"
+          },
+          {
+            "name": "Role",
+            "value": "biomaterial provider;data analyst;investigator"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o2"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Hynek Strnad"
+          },
+          {
+            "name": "Email",
+            "value": "strnad@img.cas.cz"
+          },
+          {
+            "name": "Phone",
+            "value": "420241063412"
+          },
+          {
+            "name": "Role",
+            "value": "data analyst;investigator"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o3"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Lukas Lacina"
+          },
+          {
+            "name": "Email",
+            "value": "lukas.lacina@lf1.cuni.cz"
+          },
+          {
+            "name": "Role",
+            "value": "biomaterial provider;data analyst;investigator"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o4"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Ondrej Kodet"
+          },
+          {
+            "name": "Role",
+            "value": "biomaterial provider;data analyst;investigator"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o5"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institute of Molecular Genetics of the ASCR"
+          },
+          {
+            "name": "Address",
+            "value": "Videnska 1083 142 20 Prague 4 Czech Republic"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "o2",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institute of Anatomy 1st Faculty of Medicine Charles University in Prague"
+          },
+          {
+            "name": "Address",
+            "value": "U Nemocnice 3, 128 00 Prague, Czech Republic"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "o3",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institute of Molecular Genetics of the ASCR"
+          },
+          {
+            "name": "Address",
+            "value": "Videnska 1083 142 20 Prague 4 Czech Republic"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "o4",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institute of Anatomy 1st Faculty of Medicine Charles University in Prague"
+          },
+          {
+            "name": "Address",
+            "value": "U Nemocnice 3, 128 00 Prague, Czech Republic"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "o5",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institute of Anatomy 1st Faculty of Medicine Charles University in Prague"
+          },
+          {
+            "name": "Address",
+            "value": "U Nemocnice 3, 128 00 Prague, Czech Republic"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-4964",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "8"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO_0001745"
+              }
+            ],
+            "value": "cell type comparison design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell type"
+              }
+            ],
+            "value": "cell type"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "individual"
+              }
+            ],
+            "value": "individual"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-4964",
+            "attributes": [
+              {
+                "name": "Cell type",
+                "value": "control dermal fibroblast"
+              },
+              {
+                "name": "Cell type",
+                "value": "melanoma associated fibroblast of dermis"
+              },
+              {
+                "name": "Cell type",
+                "value": "autologous control fibroblast of dermis"
+              },
+              {
+                "name": "Individual",
+                "value": "P1"
+              },
+              {
+                "name": "Individual",
+                "value": "P2"
+              },
+              {
+                "name": "Individual",
+                "value": "JAM"
+              },
+              {
+                "name": "Disease",
+                "value": "acrolentiginous melanoma"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "autologous control fibroblast of dermis"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "JAM"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "acrolentiginous melanoma"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "melanoma associated fibroblast of dermis"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "JAM"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "acrolentiginous melanoma"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "control dermal fibroblast"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "P1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "control dermal fibroblast"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "P2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-4964",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "dermis"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Cell type",
+                "value": "control dermal fibroblast"
+              },
+              {
+                "name": "Cell type",
+                "value": "melanoma associated fibroblast of dermis"
+              },
+              {
+                "name": "Cell type",
+                "value": "autologous control fibroblast of dermis"
+              },
+              {
+                "name": "Individual",
+                "value": "P1"
+              },
+              {
+                "name": "Individual",
+                "value": "P2"
+              },
+              {
+                "name": "Individual",
+                "value": "JAM"
+              },
+              {
+                "name": "Disease",
+                "value": "acrolentiginous melanoma"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Sampling site",
+                "value": "stromal cells from the metastasis"
+              },
+              {
+                "name": "Sampling site",
+                "value": "normal skin"
+              },
+              {
+                "name": "Sampling site",
+                "value": "distant uninvolved skin"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "autologous control fibroblast of dermis"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "JAM"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "acrolentiginous melanoma"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "distant uninvolved skin"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "melanoma associated fibroblast of dermis"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "JAM"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "acrolentiginous melanoma"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "stromal cells from the metastasis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "control dermal fibroblast"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "P1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal skin"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "cell type",
+                      "value": "control dermal fibroblast"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "P2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal skin"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-4964",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "8"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "Expression_JAM_quantile_bkgd_ArrayExpress_DataFile.txt",
+                  "size": 11668265,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-MTAB-4964",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-4964.idf.txt",
+                  "size": 6250,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-4964.sdrf.txt",
+                  "size": 6149,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-4964",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-2072"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-4964",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

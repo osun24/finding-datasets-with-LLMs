@@ -1,0 +1,748 @@
+{
+  "accno": "E-MTAB-1927",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Differences between C9ORF72 iPS neuronal and Control and SOD1D90A iPS neuronal transcriptomes"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2013-10-29"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-1927"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-1927",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Differences between C9ORF72 iPS neuronal and Control and SOD1D90A iPS neuronal transcriptomes"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "The purpose of this experiment was to compare differences in the transcript levels between RNA samples from induced pluripotent stem cells differentiated into neurons carrying a mutation in the SOD1 gene, an expanded GGGGCC repeat mutation in the chromosome 9 open reading frame 72 gene and those without any (control)."
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-35087",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-35087"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "growth protocol"
+            },
+            {
+              "name": "Description",
+              "value": "iPS cells were generated from healthy control and ALS patients and differentiated into neurons according to (Son, E.Y., Ichida, J.K., Wainger, B.J., Toma, J.S., Rafuse, V.F., Woolf, C.J., and Eggan, K. (2011). Conversion of mouse and human fibroblasts into functional spinal motor neurons. Cell stem cell 9, 205-218.)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-35088",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-35088"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Trizol extraction with column purification, using Qiagen Rneasy column and on-column Dnase treatment (Qiagen)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-35089",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-35089"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                }
+              ],
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Affymetrix CEL files were extracted and their data normalized with the Partek GS 6.6 platform.  Partek's Extended Meta-Probeset set was used with RMA normalization to create quantile-normalized log2 transcript signal values, which were used in subsequent ANOVA analyses."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Christopher Donnelly"
+          },
+          {
+            "name": "Email",
+            "value": "chrisdonnelly@jhmi.edu"
+          },
+          {
+            "name": "Phone",
+            "value": "(410) 502-6476 |"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Nipun Mistry"
+          },
+          {
+            "name": "Email",
+            "value": "nipunmistry@gmail.com"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o2"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Johns Hopkins University School of Medicine, Department of Neurology & Brain Science Institute"
+          },
+          {
+            "name": "Address",
+            "value": "John G. Rangos Sr. Building, 855 N. Wolfe St., Rm 250.20, 2nd Floor,  Baltimore, MD 21205 USA"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "o2",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Johns Hopkins University School of Medicine, Department of Neurology & Brain Science Institute"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "24139042",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "RNA Toxicity from the ALS/FTD C9ORF72 Expansion Is Mitigated by Antisense Intervention."
+          },
+          {
+            "name": "Authors",
+            "value": "Donnelly CJ, Zhang PW, Pham JT, Heusler AR, Mistry NA, Vidensky S, Daley EL, Poth EM, Hoover B, Fines DM, Maragakis N, Tienari PJ, Petrucelli L, Traynor BJ, Wang J, Rigo F, Bennett CF, Blackshaw S, Sattler R, Rothstein JD"
+          },
+          {
+            "name": "Status",
+            "value": "In Press at Neuron (expected online publication date 10-16-13)"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-1927",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "13"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "in_vitro_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          },
+          {
+            "name": "Quality Controls",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "biological replicate"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-1927",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "C9ORF72 amyotrophic lateral sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "SOD1 D90A amyotrophic lateral sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "C9ORF72 amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CDon-Neu-033BB-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-034_1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-034_3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-034_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-Hel137-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-Hel158_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CDon-Neu-CiPS1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-CiPS2-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-CiPS3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-RNN-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "SOD1 D90A amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CDon-Neu-D90A_1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-D90A_3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-D90A_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-1927",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell type",
+                "value": "neuron differentiated from induced pluripotent stem cell"
+              },
+              {
+                "name": "Disease",
+                "value": "C9ORF72 amyotrophic lateral sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "SOD1 D90A amyotrophic lateral sclerosis"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "C9ORF72 amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CDon-Neu-033BB-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-034_1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-034_3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-034_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-Hel137-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-Hel158_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CDon-Neu-CiPS1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-CiPS2-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-CiPS3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-RNN-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "SOD1 D90A amyotrophic lateral sclerosis"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"CDon-Neu-D90A_1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-D90A_3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\" OR \"CDon-Neu-D90A_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-1927",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "13"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-033"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-033BB-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65778981,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-034-1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-034_1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65756853,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-034-2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-034_3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65789645,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-034-3"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-034_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65750117,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-Con-CiPS-1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-CiPS1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65823993,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-Con-CiPS-2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-CiPS2-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65757881,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-Con-CiPS-3"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-CiPS3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65753941,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-028-1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-D90A_1-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65760009,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-028-2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-D90A_3-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65783605,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-028-3"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-D90A_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65753141,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-050"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-Hel137-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65785873,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-ALS-075"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-Hel158_R-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65777205,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Neu-Con-018"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "CDon-Neu-RNN-1a-HuEx1.0_(HuEx-1_0-st-v2).CEL",
+                  "size": 65782485,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-1927",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-1927.idf.txt",
+                  "size": 3274,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-1927.sdrf.txt",
+                  "size": 8622,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-1927",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-2246"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-1927",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

@@ -1,0 +1,35 @@
+Accession: E-GEOD-52390
+Source list: als-ftd-screened
+Title: Integrative DNA methylation and gene expression analysis in high-grade soft tissue sarcomas [gene expression]
+Study type: transcription profiling by array
+Description: We used the Infinium HumanHT-12 platform to profile gene expression in 79 primary, untreated high-grade soft tissue sarcomas, representing eight relevant subtypes, two non-neoplastic fat samples and 13 representative sarcoma cell lines. Marcus, Renner
+Sample count: 94
+Assay count: 94
+
+Samples:
+  Experimental Designs:
+    Not found
+  Experimental Factors:
+    Experimental Factors: SARCOMA SUBTYPE, TUMOR CELL LINE, AGE YRS, SEX
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: Not found
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Tumor cell line: MLS402, HS-SY-II, HT1080, STS26T, not specified, SW872, 1273, CME, FU-DDLS-1, T449, MLS1765, SYO-1, T778, Fuji
+      TUMOR CELL LINE: HT1080, MLS1765, MLS402, SW872, FU-DDLS-1, T778, T449, STS26T, HS-SY-II, Fuji, SYO-1, 1273, CME, not specified
+      tumor cell line: HT1080, MLS1765, MLS402, SW872, FU-DDLS-1, T778, T449, STS26T, HS-SY-II, Fuji, SYO-1, 1273, CME
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

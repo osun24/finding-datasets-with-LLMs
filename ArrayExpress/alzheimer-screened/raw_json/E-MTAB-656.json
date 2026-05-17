@@ -1,0 +1,2307 @@
+{
+  "accno": "E-MTAB-656",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Alternative splicing in human temporal cortex"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2012-04-27"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-656"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-656",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Alternative splicing in human temporal cortex"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "We analysed changes in transcript levels and alternative splicing in the temporal cortex of individuals of different ages that were cognitively normal, affected by frontotemporal lobar degeneration (FTLD), or affected by Alzheimer's disease (AD). Our experiment's purpose is to provide new insights into the gene expression changes that distinguish healthy aging from neurodegeneration and identify the candidate regulators of alternative splicing that are associated with both processes."
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-21259",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-21259"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was extracted from medial temporal gyrus of human postmortem samples using RNeasy kit, cDNA was synthesized using GeneChip WT cDNA"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-21260",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-21260"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Synthesis and Amplification kit (Affymetrix 900673) and hybridised to Affymetrix hjay AltSplice microarrays."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-21261",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-21261"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Use 60ul of DNA target for the 49/64 Format Array hybridization reaction using GeneChip Hybridization, Wash, and Stain Kit (900720)"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Melis Kayikci"
+          },
+          {
+            "name": "Email",
+            "value": "mkayikci@mrc-lmb.cam.ac.uk"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "MRC -  Laboratory of Molecular Biology"
+          },
+          {
+            "name": "Address",
+            "value": "Hills Road, Cambridge, CB2 0QH, UK"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Analysis of alternative splicing associated with aging and neurodegeneration in the human brain"
+          },
+          {
+            "name": "Authors",
+            "value": "James R. Tollervey, Zhen Wang, Tibor Hortobágyi, Joshua T. Witten, Kathi Zarnack, Melis Kayikci, Tyson A. Clark, Anthony C. Schweitzer, Gregor Rot, Toma? Curk, Bla? Zupan, Boris Rogelj, Christopher E. Shaw & Jernej Ule"
+          },
+          {
+            "name": "Status",
+            "value": "submitted"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-656",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "25"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "clinical_history_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "transcript_identification_design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease_state"
+              }
+            ],
+            "value": "DISEASESTATE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "age"
+              }
+            ],
+            "value": "AGE"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-656",
+            "attributes": [
+              {
+                "name": "Diseasestate",
+                "value": "Alzheimer's disease"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "normal"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "Frontotemporal lobar degeneration"
+              },
+              {
+                "name": "Age",
+                "value": "64 years"
+              },
+              {
+                "name": "Age",
+                "value": "76 years"
+              },
+              {
+                "name": "Age",
+                "value": "42 years"
+              },
+              {
+                "name": "Age",
+                "value": "80 years"
+              },
+              {
+                "name": "Age",
+                "value": "71 years"
+              },
+              {
+                "name": "Age",
+                "value": "86 years"
+              },
+              {
+                "name": "Age",
+                "value": "48 years"
+              },
+              {
+                "name": "Age",
+                "value": "91 years"
+              },
+              {
+                "name": "Age",
+                "value": "20 years"
+              },
+              {
+                "name": "Age",
+                "value": "88 years"
+              },
+              {
+                "name": "Age",
+                "value": "65 years"
+              },
+              {
+                "name": "Age",
+                "value": "49 years"
+              },
+              {
+                "name": "Age",
+                "value": "58 years"
+              },
+              {
+                "name": "Age",
+                "value": "60 years"
+              },
+              {
+                "name": "Age",
+                "value": "85 years"
+              },
+              {
+                "name": "Age",
+                "value": "... 7 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "20 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C23.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "42 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C31.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "63 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "82 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C38.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "86 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "95 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C41.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "33 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C32.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "65 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "57 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C11.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "48 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F24.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "58 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F26.CEL\" OR \"Brain_F3.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "60 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F22.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "49 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "57 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_14",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "85 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_15",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "61 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_16",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "64 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F10.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_17",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "74 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F21.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_18",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "71 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_19",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "76 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_20",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "80 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_21",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "82 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_22",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "88 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A8.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_23",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "AGE",
+                      "value": "91 years"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A12.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-656",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "OrganismPart",
+                "value": "middle temporal gyrus"
+              },
+              {
+                "name": "OrganismStatus",
+                "value": "postmortem"
+              },
+              {
+                "name": "Age",
+                "value": "64 years"
+              },
+              {
+                "name": "Age",
+                "value": "76 years"
+              },
+              {
+                "name": "Age",
+                "value": "42 years"
+              },
+              {
+                "name": "Age",
+                "value": "80 years"
+              },
+              {
+                "name": "Age",
+                "value": "71 years"
+              },
+              {
+                "name": "Age",
+                "value": "86 years"
+              },
+              {
+                "name": "Age",
+                "value": "48 years"
+              },
+              {
+                "name": "Age",
+                "value": "91 years"
+              },
+              {
+                "name": "Age",
+                "value": "20 years"
+              },
+              {
+                "name": "Age",
+                "value": "88 years"
+              },
+              {
+                "name": "Age",
+                "value": "65 years"
+              },
+              {
+                "name": "Age",
+                "value": "49 years"
+              },
+              {
+                "name": "Age",
+                "value": "58 years"
+              },
+              {
+                "name": "Age",
+                "value": "60 years"
+              },
+              {
+                "name": "Age",
+                "value": "85 years"
+              },
+              {
+                "name": "Age",
+                "value": "... 7 other values"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "Alzheimer's disease"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "normal"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "Frontotemporal lobar degeneration"
+              },
+              {
+                "name": "Clinicalhistory",
+                "value": "sporadic FTLD-TDP"
+              },
+              {
+                "name": "Clinicalhistory",
+                "value": "Familial FTLD-TDP with PGRN mutations"
+              },
+              {
+                "name": "Clinicalhistory",
+                "value": "cognitively normal"
+              },
+              {
+                "name": "Clinicalhistory",
+                "value": "Alzheimer's disease"
+              },
+              {
+                "name": "Clinicalhistory",
+                "value": "Familial FTLD with MAPT mutations"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "20 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C23.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "42 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C31.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "63 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "82 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C38.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "86 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "95 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C41.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "33 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C32.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "65 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "57 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "cognitively normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_C11.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "48 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Familial FTLD with MAPT mutations"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F24.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "58 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Familial FTLD with MAPT mutations"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F26.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "60 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Familial FTLD with MAPT mutations"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F22.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "49 years"
+                    },
+                    {
+                      "name": "Sex"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "sporadic FTLD-TDP"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "57 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "sporadic FTLD-TDP"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "58 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "sporadic FTLD-TDP"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "85 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "sporadic FTLD-TDP"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "61 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Familial FTLD-TDP with PGRN mutations"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "64 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Familial FTLD-TDP with PGRN mutations"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F10.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "74 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Frontotemporal lobar degeneration"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Familial FTLD-TDP with PGRN mutations"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_F21.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "71 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A5.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "76 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "80 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A6.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "82 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "88 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A8.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "91 years"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "ClinicalHistory",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"Brain_A12.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-656",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C20"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C23.CEL",
+                  "size": 157449743,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C42"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C31.CEL",
+                  "size": 160516322,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C63"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C17.CEL",
+                  "size": 160160246,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C82"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C38.CEL",
+                  "size": 158253418,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C86"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C3.CEL",
+                  "size": 159046338,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C95"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C41.CEL",
+                  "size": 157660637,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C33"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C32.CEL",
+                  "size": 159665933,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C65"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C6.CEL",
+                  "size": 159887295,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C57"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_C11.CEL",
+                  "size": 159791104,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "ft48"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F24.CEL",
+                  "size": 158741403,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "ft58"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F26.CEL",
+                  "size": 157195884,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "ft60"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F22.CEL",
+                  "size": 157362380,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Fu49"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F6.CEL",
+                  "size": 157828801,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "fu57"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F17.CEL",
+                  "size": 157529741,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Fu58"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F3.CEL",
+                  "size": 158539653,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "fu85"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F9.CEL",
+                  "size": 157980775,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Fp61"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F1.CEL",
+                  "size": 157725193,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Fp64"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F10.CEL",
+                  "size": 158119471,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Fp74"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_F21.CEL",
+                  "size": 157125817,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A71"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_A5.CEL",
+                  "size": 157971255,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A76"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_A4.CEL",
+                  "size": 159056710,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A80"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_A6.CEL",
+                  "size": 158668452,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A82"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_A3.CEL",
+                  "size": 159320513,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A88"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_A8.CEL",
+                  "size": 157410685,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A91"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Brain_A12.CEL",
+                  "size": 157767757,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "additional-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "R object"
+                    }
+                  ],
+                  "path": "E-MTAB-656.eSet.r",
+                  "size": 289843477,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Additional Files"
+          },
+          {
+            "accno": "mt-E-MTAB-656",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-656.idf.txt",
+                  "size": 2638,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-656.sdrf.txt",
+                  "size": 9011,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-656",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-8444"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-656",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

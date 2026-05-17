@@ -1,0 +1,1454 @@
+{
+  "accno": "E-MTAB-7",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of 51 human breast cancer cell lines"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2008-02-23"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-7"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-7",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of 51 human breast cancer cell lines"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "A cell line comparison experiment for breat cancer 51 cancer cell lines"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-61",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-61"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was extracted from cell lines using Trizol, according to standard protocols (Invitrogen). RNA integrity was assessed by denaturing formaldehyde agarose gel electrophoresis or by micro-analysis (Agilent Bioanalyzer, Palo Alto, CA, USA)."
+            },
+            {
+              "name": "Software"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-62",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-62"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was prepared from samples using Trizol reagent (GIBCO BRL Life Technologies) and quality was assessed on the Agilent Bioanalyser 2100. Preparation of in vitro transcription (IVT) products, oligonucleotide array hybridization and scanning were performed according to Affymetrix¨ (Santa Clara, California) protocols. In brief, 5 _g of total RNA from each breast cancer cell line and T7-linked oligo-dT primers were used for first-strand cDNA synthesis. IVT reactions were performed to generate biotinylated cRNA targets, which were chemically fragmented at 95¡C for 35 minutes. Fragmented biotinylated cRNA (10 _g) was hybriized at 45¡C for 16 hours to Affymetrix¨ high density oligonucleotide array human HG-U133A chip. The arrays were washed and stained with streptavidin-phycoerythrin (SAPE, final concentration 10 _g/ml). Signal amplification was performed using a biotinylated anti-streptavidin antibody. The array was scanned according to the manufacturer's instructions (Affymetrix Genechip¨ Technical Manual, 2001). Scanned images were inspected for the presence of obvious defects (artifacts or scratches) on the array. Defective chips were excluded and the sample was re-analyzed."
+            },
+            {
+              "name": "Software"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-60",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-60"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "grow"
+            },
+            {
+              "name": "Description",
+              "value": "Cell lines were grown to sub-confluent densities in RPMI, 10% FBS, 37¡c, 5% CO2 media"
+            },
+            {
+              "name": "Software"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-AFFY-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-AFFY-6"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Title: Affymetrix CEL analysis. Description:"
+            },
+            {
+              "name": "Software",
+              "value": "MicroArraySuite 5.0"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-63",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-63"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "The MGED Ontology"
+                }
+              ],
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "RMA from bioconductor with default values"
+            },
+            {
+              "name": "Software"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Helen Parkinson"
+          },
+          {
+            "name": "Email",
+            "value": "helen.parkinson@ebi.ac.uk"
+          },
+          {
+            "name": "Phone",
+            "value": "01223 494672"
+          },
+          {
+            "name": "Role",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "EMBL"
+          },
+          {
+            "name": "Address",
+            "value": "EBI, Wellcome Trust Genome Campus, Hinxton, UK CB10 1SD"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-7",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "51"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "in_vitro_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "mo"
+              }
+            ],
+            "value": "cell_type_comparison_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "mo"
+              }
+            ],
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "transcription profiling by array"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "cell_line"
+              }
+            ],
+            "value": "CELLLINE"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-7",
+            "attributes": [
+              {
+                "name": "Cellline",
+                "value": "HS578T"
+              },
+              {
+                "name": "Cellline",
+                "value": "SUM52PE"
+              },
+              {
+                "name": "Cellline",
+                "value": "HCC3153"
+              },
+              {
+                "name": "Cellline",
+                "value": "... 48 other values"
+              }
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-7",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Biosourceprovider",
+                "value": "Steve Ethier"
+              },
+              {
+                "name": "Biosourceprovider",
+                "value": "Gray Lab"
+              },
+              {
+                "name": "Biosourceprovider",
+                "value": "Adi gazdar"
+              },
+              {
+                "name": "Biosourceprovider",
+                "value": "ATCC"
+              },
+              {
+                "name": "Biosourceprovider",
+                "value": "Chris Benz"
+              },
+              {
+                "name": "Biosourceprovider",
+                "value": "Georgetown"
+              },
+              {
+                "name": "Biosourceprovider",
+                "value": "Ge"
+              },
+              {
+                "name": "Cellline",
+                "value": "HS578T"
+              },
+              {
+                "name": "Cellline",
+                "value": "SUM52PE"
+              },
+              {
+                "name": "Cellline",
+                "value": "HCC3153"
+              },
+              {
+                "name": "Cellline",
+                "value": "... 48 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "BioSourceProvider",
+                      "value": "ATCC"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"E-TABM-157-raw-cel-1229968192.cel\" OR \"E-TABM-157-raw-cel-1229968072.cel\" OR \"E-TABM-157-raw-cel-1229968088.cel\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "BioSourceProvider",
+                      "value": "Steve Ethier"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"E-TABM-157-raw-cel-1229967880.cel\" OR \"E-TABM-157-raw-cel-1229968184.cel\" OR \"E-TABM-157-raw-cel-1229967984.cel\" OR \"E-TABM-157-raw-cel-1229967848.cel\" OR \"E-TABM-157-raw-cel-1229968056.cel\" OR \"E-TABM-157-raw-cel-1229967960.cel\" OR \"E-TABM-157-raw-cel-1229968112.cel\" OR \"E-TABM-157-raw-cel-1229968144.cel\""
+                        }
+                      ],
+                      "value": "8"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "BioSourceProvider",
+                      "value": "Adi gazdar"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"E-TABM-157-raw-cel-1229967992.cel\" OR \"E-TABM-157-raw-cel-1229967888.cel\" OR \"E-TABM-157-raw-cel-1229968000.cel\" OR \"E-TABM-157-raw-cel-1229967856.cel\" OR \"E-TABM-157-raw-cel-1229968008.cel\" OR \"E-TABM-157-raw-cel-1229968040.cel\" OR \"E-TABM-157-raw-cel-1229968048.cel\" OR \"E-TABM-157-raw-cel-1229968064.cel\" OR \"E-TABM-157-raw-cel-1229967968.cel\" OR \"E-TABM-157-raw-cel-1229968096.cel\" OR \"E-TABM-157-raw-cel-1229967944.cel\" OR \"E-TABM-157-raw-cel-1229968120.cel\" OR \"E-TABM-157-raw-cel-1229968128.cel\" OR \"E-TABM-157-raw-cel-1229967912.cel\""
+                        }
+                      ],
+                      "value": "14"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "BioSourceProvider",
+                      "value": "Georgetown"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"E-TABM-157-raw-cel-1229967872.cel\" OR \"E-TABM-157-raw-cel-1229968016.cel\" OR \"E-TABM-157-raw-cel-1229968208.cel\" OR \"E-TABM-157-raw-cel-1229967864.cel\" OR \"E-TABM-157-raw-cel-1229968200.cel\" OR \"E-TABM-157-raw-cel-1229968024.cel\" OR \"E-TABM-157-raw-cel-1229967840.cel\" OR \"E-TABM-157-raw-cel-1229968032.cel\" OR \"E-TABM-157-raw-cel-1229967832.cel\" OR \"E-TABM-157-raw-cel-1229967816.cel\" OR \"E-TABM-157-raw-cel-1229967808.cel\" OR \"E-TABM-157-raw-cel-1229968080.cel\" OR \"E-TABM-157-raw-cel-1229967976.cel\" OR \"E-TABM-157-raw-cel-1229968104.cel\" OR \"E-TABM-157-raw-cel-1229967928.cel\" OR \"E-TABM-157-raw-cel-1229968136.cel\" OR \"E-TABM-157-raw-cel-1229967904.cel\" OR \"E-TABM-157-raw-cel-1229968160.cel\" OR \"E-TABM-157-raw-cel-1229967896.cel\""
+                        }
+                      ],
+                      "value": "19"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "BioSourceProvider",
+                      "value": "Gray Lab"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"E-TABM-157-raw-cel-1229968176.cel\" OR \"E-TABM-157-raw-cel-1229967952.cel\" OR \"E-TABM-157-raw-cel-1229967920.cel\" OR \"E-TABM-157-raw-cel-1229968152.cel\" OR \"E-TABM-157-raw-cel-1229968168.cel\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "BioSourceProvider",
+                      "value": "Ge"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"E-TABM-157-raw-cel-1229967824.cel\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "BioSourceProvider",
+                      "value": "Chris Benz"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"E-TABM-157-raw-cel-1229967936.cel\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-7",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 13"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968192.cel",
+                  "size": 11596229,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 1, Cell culture 10, Cell culture 11, Cell culture 12, Cell culture 13, Cell culture 14, Cell culture 15, Cell culture 16, Cell culture 17, Cell culture 18, Cell culture 19, Cell culture 2, Cell culture 20, Cell culture 21, Cell culture 22, Cell culture 23, Cell culture 24, Cell culture 25, Cell culture 26, Cell culture 27, Cell culture 28, Cell culture 29, Cell culture 3, Cell culture 30, Cell culture 31, Cell culture 32, Cell culture 33, Cell culture 34, Cell culture 35, Cell culture 36, Cell culture 37, Cell culture 38, Cell culture 39, Cell culture 4, Cell culture 40, Cell culture 41, Cell culture 42, Cell culture 43, Cell culture 44, Cell culture 45, Cell culture 46, Cell culture 47, Cell culture 48, Cell culture 49, Cell culture 5, Cell culture 50, Cell culture 51, Cell culture 6, Cell culture 7, Cell culture 8, Cell culture 9"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "Neve_FGEM.txt",
+                  "size": 10343691,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 50"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967880.cel",
+                  "size": 11772516,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 36"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967992.cel",
+                  "size": 11930178,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 12"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967888.cel",
+                  "size": 11714734,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 47"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968184.cel",
+                  "size": 11902259,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 14"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967984.cel",
+                  "size": 11868016,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 16"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967872.cel",
+                  "size": 11883092,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 18"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968176.cel",
+                  "size": 12127631,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968000.cel",
+                  "size": 11714423,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 48"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968016.cel",
+                  "size": 11879159,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 32"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967856.cel",
+                  "size": 11771757,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 20"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968208.cel",
+                  "size": 12301520,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 31"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967864.cel",
+                  "size": 11942517,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 5"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968008.cel",
+                  "size": 11865171,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 49"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967848.cel",
+                  "size": 11805225,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 37"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968200.cel",
+                  "size": 11758816,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 10"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968024.cel",
+                  "size": 11745676,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 28"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968040.cel",
+                  "size": 11717623,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 42"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967840.cel",
+                  "size": 11740291,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 15"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968032.cel",
+                  "size": 12125887,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 30"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968048.cel",
+                  "size": 12113888,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 4"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967824.cel",
+                  "size": 11706399,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 46"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967832.cel",
+                  "size": 11825918,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 39"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968064.cel",
+                  "size": 11767234,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 21"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968056.cel",
+                  "size": 11716260,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 17"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967816.cel",
+                  "size": 12015538,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 41"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968072.cel",
+                  "size": 12148957,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 44"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967808.cel",
+                  "size": 11835948,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 35"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968080.cel",
+                  "size": 11941215,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 33"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967976.cel",
+                  "size": 11819532,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968088.cel",
+                  "size": 11660073,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 11"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967968.cel",
+                  "size": 11948737,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 9"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968096.cel",
+                  "size": 12159995,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 7"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967960.cel",
+                  "size": 12156510,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 45"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968104.cel",
+                  "size": 12170425,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 25"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967952.cel",
+                  "size": 11830419,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 34"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968112.cel",
+                  "size": 11872156,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 38"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967944.cel",
+                  "size": 12169834,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 19"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968120.cel",
+                  "size": 11907852,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 24"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968128.cel",
+                  "size": 11840682,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 8"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967936.cel",
+                  "size": 12099592,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 43"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967928.cel",
+                  "size": 11921195,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 27"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968136.cel",
+                  "size": 11946320,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 40"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967920.cel",
+                  "size": 11908135,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 29"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968144.cel",
+                  "size": 11929936,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 22"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968152.cel",
+                  "size": 11956505,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 6"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967912.cel",
+                  "size": 11926926,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 26"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967904.cel",
+                  "size": 12033053,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 51"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968160.cel",
+                  "size": 12048122,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 23"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229967896.cel",
+                  "size": 11895204,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Cell culture 3"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "E-TABM-157-raw-cel-1229968168.cel",
+                  "size": 12061447,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "Neve_FGEM.txt",
+                  "size": 10343691,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "additional-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "xls"
+                    }
+                  ],
+                  "path": "E-MTAB-7.hybs.xls",
+                  "size": 18724,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "R object"
+                    }
+                  ],
+                  "path": "E-MTAB-7.eSet.r",
+                  "size": 57584701,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Additional Files"
+          },
+          {
+            "accno": "mt-E-MTAB-7",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-7.idf.txt",
+                  "size": 3723,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-7.sdrf.txt",
+                  "size": 27269,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-7",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-33"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-7",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

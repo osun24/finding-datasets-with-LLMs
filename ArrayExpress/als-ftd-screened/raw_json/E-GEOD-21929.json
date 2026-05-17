@@ -1,0 +1,1434 @@
+{
+  "accno": "E-GEOD-21929",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Specified Bacterial Species in Gingival Crevicular Fluid Predict Diversity of  Unattached Subgingival Microbiota"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2010-05-21"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-21929"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-21929",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Specified Bacterial Species in Gingival Crevicular Fluid Predict Diversity of  Unattached Subgingival Microbiota"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Analysis of gingival crevicular fluid (GCF) samples may give information of the identity of unattached (planktonic) subgingival bacteria, the 35 forefront candidates for systemic dispersal via ulcerated periodontal pocket  epithelium. Our study represents the first one targeting the identity of bacteria in gingival crevicular fluid. Methodology/Principal findings: We determined bacterial species diversity in GCF samples of a group of periodontitis patients and delineated contributing bacterial and host-associated factors. Subgingival paper point (PP) samples from the same sites were taken for comparison. After DNA extraction, 16S rRNA genes were PCR amplified and DNA-DNA hybridization was performed using a microarray for over 300 bacterial species or groups. Altogether 133 species from 41 genera and 8 phyla 45 were detected with 9 to 62 and 18 to 64 species in GCF and PP samples, respectively, 46 per patient. Projection to latent structures by means of partial least squares (PLS) was applied to the multivariate data analysis. PLS regression analysis showed that species of genera including Campylobacter, Selenomonas, Porphyromonas, Catonella, Tannerella, Dialister, Peptostreptococcus, Streptococcus and Eubacterium had significant positive correlations and the number of teeth with low-grade attachment loss a significant negative correlation to species diversity in GCF samples.  OPLS/O2PLS discriminant analysis revealed significant positive correlations to GCF  sample group membership for species of genera Campylobacter, Leptotrichia, Prevotella, Dialister, Tannerella, Haemophilus, Fusobacterium, Eubacterium, and Actinomyces. Conclusions/Significance: Among a variety of detected species those traditionally classified as Gram-negative anaerobes growing in mature subgingival biofilms were the main predictors for species diversity in GCF samples as well as responsible for distinguishing GCF samples from PP samples. GCF bacteria may provide new prospects for studying dynamic properties of subgingival biofilms. The microbial profiles of GCF and subgingival plaque were analyzed from 17 subjects with periodontal disease."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE21929"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE21929-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21929-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Data are normalized by comparing individual signal intensities to the average of signals from universal probes."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21929-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21929-5"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "The microarray slides are scanned using an Axon 4000B scanner and crude data is extracted using GenePix Pro software. Data are normalized by comparing individual signal intensities to the average of signals from universal probes."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21929-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21929-4"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Prior to hybridization, slides were blocked with sodium borohydride (NaBH4, 1X PBS, 99% ethanol) in order to reduce unreactive aldehyde groups, thus minimizing the fluorescent background.  Fourteen microliter of each labeled and purified PCR sample were mixed with 6 µl of hybridization buffer containing 2X SSC, 0.2 µg/µl yeast tRNA, 0.1% SDS, and heated for 5 minutes at 100oC. After that, 10 µl of each solution were loaded slowly at one corner and under the cover slip, allowing capillary action to pull the solution over the array. Slides were then placed on incubation racks in a humidified chamber, and hybridization was then performed at 55oC for 16 h in a microarray incubator. Slides were removed from the hybridization chamber and sunk into a water bath containing a washing solution (2X SSC, 10%SDS, at 55oC) to remove the cover slips. The slides were washed using an automated microarray robotic instrument. A washing program was set up as follow: one washing in buffer (2X SSC, 10%SDS) at 55oC for 2 minutes, a second washing in 2X SSC buffer at room temperature for 2 minutes, and a final washing in 0.1X SSC buffer at room temperature for 2 minutes. Once the slides are finished spinning in the centrifuge, they were removed and placed in a light-proof container until scanning."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21929-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21929-2"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Bacterial DNA was eluted from PerioPaper strips (GCF) and from paper points (subgingival sample), respectively, per patient using 400 ml buffer (1 × 388 PBS or TE). Genomic DNA was then extracted using the QiaAmp DNA isolation kit 389 (QiaGen)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21929-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21929-3"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Two separate PCR reactions were set up with, respectively, forward primer 5´-CCA GAG TTT GAT YMT GGC-3´ with reverse primer  5´-GAA GGA GGT GWT CCA RCC GCA -3´, and forward primer 5´-GAC TAG AGT TTG ATY MTG GC-3´ with reverse primer 5´-GYT ACC TTG TTA CGA CTT-3´.  Two µl of genomic DNA template were added to the reaction mixture (final volume 25 µl) containing 20 pmol of each primer, 40 nmol  of deoxytriphosphates, 1.5 mM Mg2+ and 1 U of Platinum  High Fidelity Taq polymerase (Invitrogen, San Diego, CA). The samples were preheated at 94°C for 2 min, followed by 32 cycles of amplification under the following conditions: 94°C for 30 s, 55°C for 30 s, and 68°C for 1.5 min, with an additional 1 s for each cycle. A final 10 min elongation step at 68°C was added. The results of the PCR amplification were examined by electrophoresis in a 1% agarose gel. The two parallel PCR reactions were combined and the products purified with QIAquick PCR Purification Kit (Qiagen).Purified PCR products were labeled via the incorporation of Cy3-dCTP during a second reaction. Briefly, 7 μL of each product were added into a 25 μL reaction mixture containing 15 pmol of the forward primer 9F (5`-GAGTTTGATYMTGGCTCAG-3`) , 5 pmol of the 1492R primer , 2.5 μL 10•X high fidelity PCR buffer, 2 mM MgSO4, 2.5 μL of deoxynucleotide triphosphate mixture without deoxycytidine triphosphate (10 mM, 0.2 mM final concentration of each deoxynucleotide), 2.5 μL of deoxycytidine triphosphate mixture (1 μL of 1 mM Cy3-dCTP + 4 μL of 2 mM dCTP, 0.2 mM final concentration), 0.25 μL 10% Triton X, and 1.25 U Taq polymerase. The PCR program included an initial denaturation step at 94oC for 2 minutes, followed by 40 cycles of denaturation at 94oC for 30s, annealing at 55oC for 30s, elongation at 68C for 1.5 minute with an additional 1 s for each cycle, and a final elongation step at 68oC for 10 minutes."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE21929-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE21929-6"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Individual probe spot net intensity was calculated by subtracting the foreground intensity (F532) with background intensity (B532); intensity was set to 1 if net intensity is <1 or signal to noise ratio (F532/B532) < 2; between-the-array signal normalization was done based on mean universal 16S sequence probe intensities; signals were also scaled to be within the same minimal and maximal intensities range across arrays; normalized and scaled intensities of the same probe sequence were then averaged. The averaged unique probe intensities were then raised to the power of 0.3 and then converted to ordinal numbers on a 0-5 scale, with 0=not detected and 1 to 5 reflect increasing signal strength. For detail analysis procedure see: http://bioinformatics.forsyth.org/homim"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Bruce Paster"
+          },
+          {
+            "name": "Email",
+            "value": "bpaster@forsyth.org"
+          },
+          {
+            "name": "Phone",
+            "value": "617-892-8288"
+          },
+          {
+            "name": "Fax",
+            "value": "617-892-8432"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Sirkka Asikainin"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "The Forsyth Institute"
+          },
+          {
+            "name": "Address",
+            "value": "The Forsyth Institute, 140 Fenway, Boston, MA, US"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-21929",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "34"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sample_number"
+              }
+            ],
+            "value": "SAMPLE_NUMBER"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sample_type"
+              }
+            ],
+            "value": "SAMPLE_TYPE"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-21929",
+            "attributes": [
+              {
+                "name": "Sample_type",
+                "value": "Subgingival paper point"
+              },
+              {
+                "name": "Sample_type",
+                "value": "gingival crevicular fluid"
+              },
+              {
+                "name": "Sample_number",
+                "value": "PP61A"
+              },
+              {
+                "name": "Sample_number",
+                "value": "PP60A"
+              },
+              {
+                "name": "Sample_number",
+                "value": "PP59A"
+              },
+              {
+                "name": "Sample_number",
+                "value": "... 31 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "SAMPLE_TYPE",
+                      "value": "Subgingival paper point"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM545592.gpr\" OR \"GSM545591.gpr\" OR \"GSM545590.gpr\" OR \"GSM545589.gpr\" OR \"GSM545588.gpr\" OR \"GSM545587.gpr\" OR \"GSM545586.gpr\" OR \"GSM545585.gpr\" OR \"GSM545584.gpr\" OR \"GSM545583.gpr\" OR \"GSM545582.gpr\" OR \"GSM545581.gpr\" OR \"GSM545580.gpr\" OR \"GSM545579.gpr\" OR \"GSM545578.gpr\" OR \"GSM545577.gpr\" OR \"GSM545576.gpr\""
+                        }
+                      ],
+                      "value": "17"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "SAMPLE_TYPE",
+                      "value": "gingival crevicular fluid"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM545575.gpr\" OR \"GSM545574.gpr\" OR \"GSM545573.gpr\" OR \"GSM545572.gpr\" OR \"GSM545571.gpr\" OR \"GSM545570.gpr\" OR \"GSM545566.gpr\" OR \"GSM545565.gpr\" OR \"GSM545564.gpr\" OR \"GSM545563.gpr\" OR \"GSM545562.gpr\" OR \"GSM545561.gpr\" OR \"GSM545560.gpr\" OR \"GSM545559.gpr\" OR \"GSM545558.gpr\" OR \"GSM545557.gpr\" OR \"GSM545556.gpr\""
+                        }
+                      ],
+                      "value": "17"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-21929",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Disease state",
+                "value": "periodontitis"
+              },
+              {
+                "name": "Sample_type",
+                "value": "Subgingival paper point"
+              },
+              {
+                "name": "Sample_type",
+                "value": "gingival crevicular fluid"
+              },
+              {
+                "name": "Sample_number",
+                "value": "PP61A"
+              },
+              {
+                "name": "Sample_number",
+                "value": "PP60A"
+              },
+              {
+                "name": "Sample_number",
+                "value": "PP59A"
+              },
+              {
+                "name": "Sample_number",
+                "value": "... 31 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "sample_type",
+                      "value": "Subgingival paper point"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM545592.gpr\" OR \"GSM545591.gpr\" OR \"GSM545590.gpr\" OR \"GSM545589.gpr\" OR \"GSM545588.gpr\" OR \"GSM545587.gpr\" OR \"GSM545586.gpr\" OR \"GSM545585.gpr\" OR \"GSM545584.gpr\" OR \"GSM545583.gpr\" OR \"GSM545582.gpr\" OR \"GSM545581.gpr\" OR \"GSM545580.gpr\" OR \"GSM545579.gpr\" OR \"GSM545578.gpr\" OR \"GSM545577.gpr\" OR \"GSM545576.gpr\""
+                        }
+                      ],
+                      "value": "17"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "sample_type",
+                      "value": "gingival crevicular fluid"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM545575.gpr\" OR \"GSM545574.gpr\" OR \"GSM545573.gpr\" OR \"GSM545572.gpr\" OR \"GSM545571.gpr\" OR \"GSM545570.gpr\" OR \"GSM545566.gpr\" OR \"GSM545565.gpr\" OR \"GSM545564.gpr\" OR \"GSM545563.gpr\" OR \"GSM545562.gpr\" OR \"GSM545561.gpr\" OR \"GSM545560.gpr\" OR \"GSM545559.gpr\" OR \"GSM545558.gpr\" OR \"GSM545557.gpr\" OR \"GSM545556.gpr\""
+                        }
+                      ],
+                      "value": "17"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-21929",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545592 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545592.gpr",
+                  "size": 192715,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545591 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545591.gpr",
+                  "size": 179792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545590 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545590.gpr",
+                  "size": 179644,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545589 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545589.gpr",
+                  "size": 178291,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545588 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545588.gpr",
+                  "size": 177430,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545587 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545587.gpr",
+                  "size": 178993,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545586 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545586.gpr",
+                  "size": 178467,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545585 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545585.gpr",
+                  "size": 177662,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545584 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545584.gpr",
+                  "size": 177898,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545583 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545583.gpr",
+                  "size": 179889,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545582 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545582.gpr",
+                  "size": 177482,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545581 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545581.gpr",
+                  "size": 178691,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545580 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545580.gpr",
+                  "size": 176879,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545579 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545579.gpr",
+                  "size": 177591,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545578 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545578.gpr",
+                  "size": 177929,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545577 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545577.gpr",
+                  "size": 182286,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545576 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545576.gpr",
+                  "size": 179639,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545575 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545575.gpr",
+                  "size": 173873,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545574 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545574.gpr",
+                  "size": 173254,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545573 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545573.gpr",
+                  "size": 177691,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545572 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545572.gpr",
+                  "size": 175045,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545571 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545571.gpr",
+                  "size": 173578,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545570 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545570.gpr",
+                  "size": 174769,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545566 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545566.gpr",
+                  "size": 167323,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545565 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545565.gpr",
+                  "size": 167540,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545564 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545564.gpr",
+                  "size": 163946,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545563 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545563.gpr",
+                  "size": 166817,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545562 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545562.gpr",
+                  "size": 164885,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545561 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545561.gpr",
+                  "size": 166556,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545560 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545560.gpr",
+                  "size": 163904,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545559 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545559.gpr",
+                  "size": 166550,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545558 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545558.gpr",
+                  "size": 165895,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545557 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545557.gpr",
+                  "size": 165559,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM545556 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM545556.gpr",
+                  "size": 163820,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545560_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545578_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545582_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545556_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545575_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545588_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545571_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545573_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545562_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545564_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545558_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545583_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545576_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545579_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545587_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545566_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545585_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545557_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545586_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545580_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545565_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545561_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545559_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545591_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545572_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545570_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545563_sample_table.txt",
+                  "size": 2444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545577_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545581_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545590_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545592_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545589_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545574_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM545584_sample_table.txt",
+                  "size": 2594,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-21929",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-21929.idf.txt",
+                  "size": 9178,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-21929.sdrf.txt",
+                  "size": 28360,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-21929",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-10445"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-10444"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-21929",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

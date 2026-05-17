@@ -1,0 +1,75 @@
+{
+  "Accession": "E-GEOD-68240",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "6"
+    ],
+    "Sample count": [
+      "12"
+    ]
+  },
+  "Description": "Differentiated motor neurons from hiPSC derived from peripheral nerve fibroblasts of sporadic ALS patients and evaluated the gene expression profile by means microarray-linked to specific analysis tools. Two-condition experiment, ALS patients motor neurons vs. controls. Biological replicates: 3 ALS replicates, 3 control replicates.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "Cell line": [
+          "HEK 293"
+        ],
+        "Cell type": [
+          "Fibroblasts from peripheral nerve"
+        ],
+        "cell line": [
+          "HEK 293"
+        ],
+        "cell type": [
+          "Fibroblasts from peripheral nerve"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {
+        "Disease state": [
+          "control",
+          "ALS",
+          "not specified"
+        ],
+        "disease state": [
+          "ALS",
+          "not specified",
+          "control"
+        ]
+      },
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {},
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "disease state"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "control",
+        "ALS",
+        "not specified"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "hiPSC-derived motor neurons: sporadic ALS patients vs. controls"
+}

@@ -1,0 +1,158 @@
+{
+  "Accession": "E-TABM-940",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "85"
+    ]
+  },
+  "Description": "ALS whole blood samples or non diseased control whole blood samples hybridized to HgU133vII Affymetrix genechips. As a factor value for experiment clinical history has been used including: 1) the ALS FRS score that provides a physician-generated estimate of the patientâs degree of functional impairment, which can be evaluated serially to objectively assess any response to treatment or progression of disease. The ALS FRS score includes ten questions that ask the physician to rate his/her impression of the patients level of functional impairment in performing one of ten common tasks, e.g. climbing stairs. Each task is rated on a five-point scale from 0 = can't do, to 4 = normal ability. Individual item scores are summed to produce a reported score of between 0=worst and 40=best. And 2) Forced Vital capacity that is the maximum amount of air a person can expel from the lungs after a maximum inspiration. It is equal to the inspiratory reserve volume plus the tidal volume plus the expiratory reserve volume. The measurement is performed during forceful exhalation. It reports the largest value of three technically satisfactory maneuvers. The three FVC measures should not differ by more than 150 mL from the next largest FVC, or 100 mL if the FVC is 1.0 L. If the difference is larger up to 8 measures should be performed.The percentage value is that compared to normal individuals of the same age and gender. 3) Date onset",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {
+        "ClinicalHistory": [
+          "Date onset: 7/1/1995 ALS FRS Score: 23/48 Forced Vital Capacity: 53%",
+          "Date onset: 4/1/2003 ALS FRS Score: 25/48 Forced Vital Capacity: 47%",
+          "Date onset: 4/1/2006 ALS FRS Score: 40/48 Forced Vital Capacity: 114%",
+          "Date onset: 10/1/2007 ALS FRS Score: 45/48 Forced Vital Capacity: ND",
+          "Date onset: 6/1/2006 ALS FRS Score: 39/48 Forced Vital Capacity: 92%",
+          "Date onset: 2/1/2007 ALS FRS Score: 35/48 Forced Vital Capacity: 51%",
+          "Date onset: 2/1/2007 ALS FRS Score: 39/48 Forced Vital Capacity: 106%",
+          "Date onset: 10/1/2005 ALS FRS Score: 35/48 Forced Vital Capacity: 97%",
+          "Date onset: 1/1/2005 ALS FRS Score: 31/48 Forced Vital Capacity: 62%",
+          "Date onset: 8/1/2006 ALS FRS Score: 29/48 Forced Vital Capacity: 74%",
+          "Date onset: 1/1/2002 ALS FRS Score: 17/48 Forced Vital Capacity: 19%",
+          "Date onset: 10/1/2001 ALS FRS Score: 26/48 Forced Vital Capacity: 87%",
+          "Date onset: 1/1/2006 ALS FRS Score: 31/48 Forced Vital Capacity: 85%",
+          "Date onset: 2/1/2007 ALS FRS Score: 35/48 Forced Vital Capacity: 71%",
+          "Date onset: 12/1/2006 ALS FRS Score: 33/48 Forced Vital Capacity: 70%",
+          "Date onset: 4/1/2007 ALS FRS Score: 31/48 Forced Vital Capacity: 20%",
+          "Forced Vital Capacity: 86%",
+          "Date onset: 1/1/2003 ALS FRS Score: 18/48 Forced Vital Capacity: 91%",
+          "Date onset: 4/1/2007 ALS FRS Score: 31/48 Forced Vital Capacity: 89%",
+          "Date onset: 10/1/2000 ALS FRS Score: 31/48 Forced Vital Capacity: 88%",
+          "Date onset: 6/1/2006 ALS FRS Score: 34/48 Forced Vital Capacity: 62%",
+          "Date onset: 1/1/2007 ALS FRS Score: 33/48 Forced Vital Capacity: 110%",
+          "Date onset: 4/1/2004",
+          "Date onset: 2/1/2006",
+          "Date onset: 2/1/2000 ALS FRS Score: 25/48 Forced Vital Capacity: 55%",
+          "Date onset: 1/1/2006 ALS FRS Score: 46/48 Forced Vital Capacity: 123%",
+          "Date onset: 11/1/2007 ALS FRS Score: 41/48 Forced Vital Capacity: 90%",
+          "Date onset: 5/1/2007 ALS FRS Score: 24/48 Forced Vital Capacity: 81%",
+          "Date onset: 3/1/2001 ALS FRS Score: 21/48 Forced Vital Capacity: 29%",
+          "Date onset: 12/1/2005 ALS FRS Score: 37/48 Forced Vital Capacity: 85%",
+          "Date onset: 11/1/2004 ALS FRS Score: 44/48 Forced Vital Capacity: 89%",
+          "Date onset: 9/1/2004 ALS FRS Score: 35/48 Forced Vital Capacity: 107%",
+          "Date onset: 7/1/2002 ALS FRS Score: 39/48 Forced Vital Capacity: 87%",
+          "Date onset: 11/1/2005 ALS FRS Score: 39/48 Forced Vital Capacity: 99%",
+          "Date onset: 5/1/2007 ALS FRS Score: 36/48 Forced Vital Capacity: 46%",
+          "Date onset: 5/1/2006 ALS FRS Score: 21/48 Forced Vital Capacity: 80%",
+          "Date onset: 3/1/1998 ALS FRS Score: 38/48 Forced Vital Capacity: 103%",
+          "Date onset: 6/1/2005 ALS FRS Score: 30/48 Forced Vital Capacity: 91%",
+          "Date onset: 1/1/2007 ALS FRS Score: 31/48 Forced Vital Capacity: 82%",
+          "Date onset: 6/1/2006 ALS FRS Score: 23/48 Forced Vital Capacity: 21%",
+          "Date onset: 8/1/2007 Forced Vital Capacity: 48%",
+          "Date onset: 9/1/2006 ALS FRS Score: 38/48 Forced Vital Capacity: 50%",
+          "Date onset: 12/1/2004 ALS FRS Score: 18/48 Forced Vital Capacity: 21%",
+          "Date onset: 1/1/2007 ALS FRS Score: 39/48 Forced Vital Capacity: 40%",
+          "Date onset: 10/1/2006",
+          "Date onset: 5/1/2006 ALS FRS Score: 22/48 Forced Vital Capacity: 102%",
+          "Date onset: 6/1/2007 ALS FRS Score: 43/48 Forced Vital Capacity: 96%",
+          "Date onset: 3/1/2004 ALS FRS Score: 24/48 Forced Vital Capacity: 55%",
+          "Date onset: 7/1/2007 ALS FRS Score: 32/48 Forced Vital Capacity: 67%",
+          "Date onset: 7/1/2003 ALS FRS Score: 13/48 Forced Vital Capacity: 25%",
+          "Date onset: 2/1/2007",
+          "Date onset: 10/1/2007 ALS FRS Score: 38/48 Forced Vital Capacity: 93%",
+          "Date onset: 5/1/2007",
+          "Date onset: 2/1/2007 ALS FRS Score: 31/48 Forced Vital Capacity: 48%"
+        ],
+        "Clinicalhistory": [
+          "Date onset: 5/1/2006 ALS FRS Score: 22/48 Forced Vital Capacity: 102%",
+          "Date onset: 11/1/2004 ALS FRS Score: 44/48 Forced Vital Capacity: 89%",
+          "Date onset: 5/1/2007 ALS FRS Score: 24/48 Forced Vital Capacity: 81%",
+          "Date onset: 1/1/2006 ALS FRS Score: 31/48 Forced Vital Capacity: 85%",
+          "Date onset: 6/1/2005 ALS FRS Score: 30/48 Forced Vital Capacity: 91%",
+          "Date onset: 6/1/2006 ALS FRS Score: 34/48 Forced Vital Capacity: 62%",
+          "Date onset: 10/1/2007 ALS FRS Score: 38/48 Forced Vital Capacity: 93%",
+          "Date onset: 6/1/2007 ALS FRS Score: 43/48 Forced Vital Capacity: 96%",
+          "Date onset: 2/1/2006",
+          "Date onset: 8/1/2007 Forced Vital Capacity: 48%",
+          "Date onset: 4/1/2003 ALS FRS Score: 25/48 Forced Vital Capacity: 47%",
+          "Forced Vital Capacity: 86%",
+          "Date onset: 10/1/2005 ALS FRS Score: 35/48 Forced Vital Capacity: 97%",
+          "Date onset: 4/1/2007 ALS FRS Score: 31/48 Forced Vital Capacity: 20%",
+          "Date onset: 3/1/2001 ALS FRS Score: 21/48 Forced Vital Capacity: 29%",
+          "... 39 other values"
+        ]
+      },
+      "Disease state/staging": {
+        "DiseaseState": [
+          "NON ALS",
+          "DEFINITIVE diagnosis of ALS",
+          "PROBABLE diagnosis of ALS",
+          "non diseased",
+          "ALS"
+        ],
+        "Diseasestate": [
+          "PROBABLE diagnosis of ALS",
+          "DEFINITIVE diagnosis of ALS",
+          "NON ALS",
+          "non diseased",
+          "ALS"
+        ]
+      },
+      "Quality controls": {
+        "Quality Controls": [
+          "biological_replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease_state_design",
+        "in_vivo_design",
+        "co-expression_design",
+        "transcription profiling by array"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "DiseaseState",
+        "ClinicalHistory",
+        "Ethnicity",
+        "DiseaseLocation",
+        "SamplingTimePoint"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "PROBABLE diagnosis of ALS",
+        "DEFINITIVE diagnosis of ALS",
+        "NON ALS",
+        "non diseased",
+        "ALS"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "Blood"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcription profiling of human blood from patients with ALS vs healthy"
+}

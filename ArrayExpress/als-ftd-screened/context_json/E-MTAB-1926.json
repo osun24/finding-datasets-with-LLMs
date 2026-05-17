@@ -1,0 +1,65 @@
+{
+  "Accession": "E-MTAB-1926",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "10"
+    ],
+    "Sample count": [
+      "10"
+    ]
+  },
+  "Description": "The purpose of this experiment was to compare the differences in transcript levels between RNA samples collected from fibroblasts from healthy control patients, amyotrophic lateral sclerosis (ALS) patients carrying an expanded GGGGCC repeat mutation in the chromosome 9 open reading frame 72 gene and ALS patients with a mutation in the SOD1 gene.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "Cell type": [
+          "fibroblast"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {
+        "Quality Controls": [
+          "biological replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease_state_design",
+        "in_vitro_design",
+        "co-expression_design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "disease"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "SOD1 mutant amyotrophic lateral sclerosis",
+        "C9ORF72 amyotrophic lateral sclerosis",
+        "normal"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcriptome profile of C9ORF72 ALS fibroblast"
+}

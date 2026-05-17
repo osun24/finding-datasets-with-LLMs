@@ -1,0 +1,1625 @@
+{
+  "accno": "E-MTAB-4164",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Rotenone susceptibility phenotype in olfactory derived patient cells as a model of idiopathic Parkinsonâs disease"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2016-10-04"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-4164"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-4164",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Rotenone susceptibility phenotype in olfactory derived patient cells as a model of idiopathic Parkinsonâs disease"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Physiologically relevant cellular models are critical for understanding complex pathological processes. Parkinsonâs disease (PD) is the second most common neurodegenerative disorder characterised by motor and non-motor symptoms. Several cellular models for PD have been developed to reproduce the abberant biochemical pathways associated with Parkinsonâs disease such as oxidative stress, apoptosis, improper clearance of misfolded proteins and mitochondrial impairment. However, there is still a need for models that effectively recapitulate pathological phenotypes of PD. We previously reported that cells derived from the olfactory epithelium of idiopathic PD patients have altered cellular functions compared with age and gender-matched healthy controls. We also identified an underlying dysregulation of molecular pathways including the Nrf2 pathway in PD hONS cells. Here, we tested the hypothesis that hONS cells derived from PD patients are more vulnerable to extrinsic stressors. We identified that PD-hONS cells are particularly sensitive to mitochondrial and oxidative stress.  Notably, PD hONS cells exposed to Rotenone undergo significant apoptosis, show reduced mitochondrial complex I activity and reduced induction of Heat Shock Protein HSP27."
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-49312",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-49312"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "hONS cell lines from PD and healthy control donors were established as previously described ( Dis Model Mech. 2010 Nov-Dec;3(11-12):785-98. doi: 10.1242/dmm.005447. Epub 2010 Aug 10. Disease-specific, neurosphere-derived cells as models for brain disorders. Matigian N1, Abrahamsen G, Sutharsan R, Cook AL, Vitale AM, Nouwens A, Bellette B, An J, Anderson M, Beckhouse AG, Bennebroek M, Cecil R, Chalk AM, Cochrane J, Fan Y, FÃ©ron F, McCurdy R, McGrath JJ, Murrell W, Perry C, Raju J, Ravishankar S, Silburn PA, Sutherland GT, Mahler S, Mellick GD, Wood SA, Sue CM, Wells CA, Mackay-Sim A.). hONS cell lines were cultured in DMEM/F12 (Invitrogen) supplemented with 10% fetal bovine serum FBS (Invitrogen). The medium was refreshed every other day until the cells reached confluency. 8 Control and 8 PD Patient hONS cells were cultured in DMEM/F12 supplemented with 10% foetal bovine serum. For RNA extraction, 24 hours after seeding, cells were treated with either 50nm Rotenone or 0.1% DMSO. The medium was left unchanged for 48 hours. After 48 hours of treatment, cells were harvested for RNA extraction."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-49313",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-49313"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was isolated using QIAGEN RNeasy Mini Kit using an on-column DNase I treatment. All RNA preparations were quantified using a Nanodrop ND1000 and checked with an Agilent 2100 Bioanalyser (RNA nano chips): only samples with RNA integrity number (RIN)>9 were accepted for RNA amplification."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-49314",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-49314"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003813"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "500 ng of each RNA sample was amplified using the Ambion Illumina RNA Amplification Kit with biotin UTP labeling (Ambion, Inc.). Column-purified samples were subjected to in vitro transcription using T7 RNA polymerase for 4 hours to synthesize biotin-labeled cRNA. The cRNA was then column-purified prior to quantification of size and yield using an Agilent 2100 Bioanalyser"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-49315",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-49315"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003815"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "A total of 750 ng of cRNA was hybridized to human whole-genome Illumina Human-Refseq8 v3 BeadChips (Illumina, Inc.). These slides were scanned on an Illumina Beadstation and bead summarization was performed using BeadStudio Version 3.1.7 (Illumina, Inc.). After summarization, the raw data were exported from BeadStudio with no additional processing"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-49316",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-49316"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003814"
+                }
+              ],
+              "value": "array scanning and feature extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "slides were scanned on an Illumina Beadstation and bead summarization was performed using BeadStudio Version 3.1.7 (Illumina, Inc.). After summarization, the raw data were exported from BeadStudio with no additional processing"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-49317",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-49317"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003816"
+                }
+              ],
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Raw summarized data were background corrected and quantile normalized using the lumi package (http://www.bioconductor.org/packages/2.0/bioc/vignettes/lumi/inst/doc/lumi.pdf) in R/BioConductor"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Nicholas Matigian"
+          },
+          {
+            "name": "Email",
+            "value": "n.matigian@uq.edu.au"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Australian Institute for Bioengineering and Nanotechnology (AIBN) University of Queensland, Cnr Cooper and College Road, St Lucia Brisbane, 4072 Australia n.matigian@uq.edu.au ResearcherID -A-4935-2009"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "27123847",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Rotenone Susceptibility Phenotype in Olfactory Derived Patient Cells as a Model of Idiopathic Parkinson's Disease."
+          },
+          {
+            "name": "Authors",
+            "value": "Murtaza M , Shan J , Matigian N , Todorovic M , Cook AL , Ravishankar S , Dong LF , Neuzil J , Silburn P , Mackay-Sim A , Mellick GD , Wood SA"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1371/journal.pone.0154544"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1371/journal.pone.0154544"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-4164",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "32"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO_0001427"
+              }
+            ],
+            "value": "case control design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO_0001755"
+              }
+            ],
+            "value": "compound treatment design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "compound"
+              }
+            ],
+            "value": "compound"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sex"
+              }
+            ],
+            "value": "sex"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-4164",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "parkinson's disease"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Compound",
+                "value": "none"
+              },
+              {
+                "name": "Compound",
+                "value": "rotenone"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-4164",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell type",
+                "value": "olfactory neurosphere-derived cell"
+              },
+              {
+                "name": "Disease",
+                "value": "parkinson's disease"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Individual",
+                "value": "200080021"
+              },
+              {
+                "name": "Individual",
+                "value": "200080007"
+              },
+              {
+                "name": "Individual",
+                "value": "200080013"
+              },
+              {
+                "name": "Individual",
+                "value": "100080003"
+              },
+              {
+                "name": "Individual",
+                "value": "100080009"
+              },
+              {
+                "name": "Individual",
+                "value": "200080006"
+              },
+              {
+                "name": "Individual",
+                "value": "200080020"
+              },
+              {
+                "name": "Individual",
+                "value": "200080001"
+              },
+              {
+                "name": "Individual",
+                "value": "100090001"
+              },
+              {
+                "name": "Individual",
+                "value": "100080004"
+              },
+              {
+                "name": "Individual",
+                "value": "200080017"
+              },
+              {
+                "name": "Individual",
+                "value": "100080015"
+              },
+              {
+                "name": "Individual",
+                "value": "100080002"
+              },
+              {
+                "name": "Individual",
+                "value": "100080016"
+              },
+              {
+                "name": "Individual",
+                "value": "200080015"
+              },
+              {
+                "name": "Individual",
+                "value": "... 1 other values"
+              },
+              {
+                "name": "Compound",
+                "value": "none"
+              },
+              {
+                "name": "Compound",
+                "value": "rotenone"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080002"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080009"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080003"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100090001"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080016"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080015"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080017"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080004"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080007"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080020"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080017"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080013"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080001"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080015"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080006"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080021"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "none"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080009"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080017"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080015"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080016"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080003"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080004"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100090001"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "100080002"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080015"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080021"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080001"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080007"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080017"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080020"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080013"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_31",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "parkinson's disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "200080006"
+                    },
+                    {
+                      "name": "compound",
+                      "value": "rotenone"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-4164",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "32"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "Rotenone_hONS_PDvControl_QuantileNormalizedData.txt",
+                  "size": 13640887,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-MTAB-4164",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-4164.idf.txt",
+                  "size": 6847,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-4164.sdrf.txt",
+                  "size": 20443,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-4164",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-1172"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-4164",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

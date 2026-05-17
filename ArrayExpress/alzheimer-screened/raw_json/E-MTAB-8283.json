@@ -1,0 +1,949 @@
+{
+  "accno": "E-MTAB-8283",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "miRNA PCR Array of cortex tissue from Alzheimer disease (AD), high pathological control (HPC) and normal (CTL)subjects"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2019-11-22"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-8283"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-8283",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "miRNA PCR Array of cortex tissue from Alzheimer disease (AD), high pathological control (HPC) and normal (CTL)subjects"
+      },
+      {
+        "name": "Study type",
+        "value": "Human - One-color microarray"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "These data assess the levels of microRNAs via miRNA array in brain tissue from control, high pathological controls, and Alzheimer disease subjects curated from the Rush cohort"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-91162",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-91162"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003813"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Mature miRNAs are polyadenylated by poly(A) polymerase and reverse transcribed into cDNA using oligo-dT primers. Polyadenylation and reverse transcription are performed in parallel in the same tube. The oligo-dT primers have a 3' degenerate anchor and a universal tag sequence on the 5' end, allowing amplification of mature miRNA in the real-time PCR step."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-91160",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-91160"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003815"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The miRNA expression profile of RNA extracted from brain tissue was analyzed using a miScript miRNA PCR Array Human miRBase Profiler HC Plate 1, MIHS-3401Z (Qiagen, Hilden, Germany).  Each array contains 372 unique miRNA assays, 3 snoRNA and 3 snRNA housekeeping genes, duplicate reverse transcription primer assays to evaluate RT efficiency, and duplicate PCR primer assays to evaluate the efficiency of the qPCR reaction (for a full list of miRNAs detectable using miScript arrays see: https://b2b.qiagen.com/~/media/genetable/mi/hs/34/mihs-3401z).  Six μL RNA (initial concentration = 50 ng/μL) was prepared in 20 μL reverse-transcription reactions (final concentration = 15 ng/μL) using miScript HiSpec Buffer.  Each reverse-transcription reaction was further diluted with 90 μL RNAse-free water (4.5 fold dilution) before being used as the template for real-time PCR analysis on the miScript miRNA HC PCR Array."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-91161",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-91161"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003814"
+                }
+              ],
+              "value": "array scanning and feature extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The array contained miRNA-specific miScript primers, the miScript SYBR Green kit with the the miScript universal primer (reverse primer), and the QuantiTect SYBR Green PCR Master Mix.  MiRNA cDNA was quantified using a ViiA 7 Real-Time PCR System (Applied Biosystems, Waltham, MA, USA).  The thermal cycling protocol was as follows: 95°C for 10 min (PCR activation step), 45 amplification cycles at 94 °C for 15 seconds (denaturation), at 55 °C for 30 seconds (annealing), and at 70 °C for 30 seconds (extension), followed by fluorescence data collection.  A no-template control (NTC) of RNase-free water was co-purified and profiled like the samples to measure background."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-91158",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-91158"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Human specimens were obtained from Rush Alzheimer’s Disease Center, Rush University Medical Center and used in accordance with the Partners Institutional Review Board (Protocol: Walsh BWH 2011).  Samples of frozen frontal cortex were from the Religious Orders Study (ROS), a longitudinal clinical-pathological cohort study in aging and Alzheimer’s Disease (Bennett et al., 2018).  Participants from religious communities were enrolled at a time when there were no signs of dementia and followed over time until brain donation.  Each participant underwent uniform structured annual cognitive and clinical evaluation. Dementia and a diagnosis of AD required evidence of meaningful cognitive decline in two domains of cognition, one of which was episodic memory.  Clinical summary diagnostic opinion was made post-mortem based on all available clinical information by a neurologist blinded to pathologic data.  A neuropathologic diagnosis of high (1), intermediate (2), low (3), or no AD (4) was based on the modified NIA-Reagan Diagnosis of AD.  This assessment relies on both neurofibrillary tangles and neuritic plaques (Bennett et al., 2006).  Individuals were categorized as controls, high pathology controls (HPC), or AD based on combined clinical and pathological criteria (Table 1).  Individuals with an NIA-Reagan score of 1 or 2 and a clinical diagnosis of AD dementia were defined AD (n=11), whereas patients with an NIA-Reagan Score of 1 or 2 and no evidence of dementia were designated HPC (n=8).  Patients in the control group had an NIA-Reagan score of 3 and no evidence of dementia."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-91159",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-91159"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Gray matter from frozen cortex was dissected on dry ice.  Total RNA was extracted from ~20 mg gray matter using a miRNeasy Advanced Kit (Qiagen, Louisville, KY, USA) according to manufacturer’s guidance.  Briefly, samples were suspended in 200 μL ice cold RIPA buffer followed by addition of 120 μL kit-provided RPL buffer.  Tissue was homogenized by gently pipetting samples up and down.  Forty μL kit-provided RPP buffer was added and samples vortexed for ~30 seconds to facilitate precipitation of proteins.  Samples were then centrifuged at 12,000 x g for 3 minutes to pellet the precipitate and debris, and approximately 230 μL of supernatant was transferred to a new 1.5 mL tube.  An equal volume of isopropanol was added and mixed by pipetting, and the entire sample was then transferred to an RNeasy UCP MinElute column.  Columns containing sample were centrifuged at 12,000 x g for 1 minute. Flow-through was discarded and columns were washed according to the manufacturer`s protocol.  RNA was eluted with two rounds of 20 μL RNase-free water.  RNA yield and quality were quantified on a nanodrop.  50 ng/μL aliquots of RNA were prepared and stored at -20°C."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Diana Jean Cha"
+          },
+          {
+            "name": "Email",
+            "value": "djcha4@gmail.com"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Amgen"
+          },
+          {
+            "name": "Address",
+            "value": "360 Binney St. Cambridge, MA. 02141"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-8283",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "15"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO:0001756"
+              }
+            ],
+            "value": "disease state design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease staging"
+              }
+            ],
+            "value": "disease staging"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-8283",
+            "attributes": [
+              {
+                "name": "Disease staging",
+                "value": "high-pathological control"
+              },
+              {
+                "name": "Disease staging",
+                "value": "Alzheimer's disease"
+              },
+              {
+                "name": "Disease staging",
+                "value": "normal"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease staging",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease staging",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease staging",
+                      "value": "high-pathological control"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-8283",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Individual",
+                "value": "mixed pool of 5 individuals"
+              },
+              {
+                "name": "Developmental stage",
+                "value": "adult"
+              },
+              {
+                "name": "Organism part",
+                "value": "brain"
+              },
+              {
+                "name": "Age",
+                "value": "80 to 85 year"
+              },
+              {
+                "name": "Age",
+                "value": "90 to 95 year"
+              },
+              {
+                "name": "Age",
+                "value": "85 to 90 year"
+              },
+              {
+                "name": "Age",
+                "value": "70 to 75 year"
+              },
+              {
+                "name": "Age",
+                "value": "100 to 105 year"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Disease",
+                "value": "Alzheimer's disease"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Disease staging",
+                "value": "high-pathological control"
+              },
+              {
+                "name": "Disease staging",
+                "value": "Alzheimer's disease"
+              },
+              {
+                "name": "Disease staging",
+                "value": "normal"
+              },
+              {
+                "name": "Clinical information",
+                "value": "low neurofibrillary tangles and no neuritic plaques"
+              },
+              {
+                "name": "Clinical information",
+                "value": "intermediate neurofibrillary tangles and low neuritic plaques"
+              },
+              {
+                "name": "Clinical information",
+                "value": "low neurofibrillary tangles and low neuritic plaques"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "85 to 90 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "90 to 95 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "100 to 105 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and no neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 to 75 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and no neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "80 to 85 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and no neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "90 to 95 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "intermediate neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "90 to 95 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "90 to 95 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "100 to 105 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "85 to 90 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "90 to 95 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "high-pathological control"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "90 to 95 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "high-pathological control"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and low neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "80 to 85 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "high-pathological control"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and no neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "80 to 85 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "high-pathological control"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "low neurofibrillary tangles and no neuritic plaques"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-8283",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "15"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "mt-E-MTAB-8283",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-8283.idf.txt",
+                  "size": 7133,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-8283.sdrf.txt",
+                  "size": 7757,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-8283",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-20870"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-8283",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

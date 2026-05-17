@@ -1,0 +1,69 @@
+{
+  "Accession": "E-MTAB-4964",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "8"
+    ],
+    "Sample count": [
+      "8"
+    ]
+  },
+  "Description": "In this study, we compared gene expression and genome methylation of diverse fibroblast populations from a patient suffering from acrolentiginous melanoma (Breslow 4.0 mm, Clark IV, B-Raf V600E mutated). Stromal cells from the metastasis, i.e., melanoma associated fibroblasts (MAF), were positive for smooth muscle actin (SMA). Autologous control fibroblasts (ACF) isolated from distant uninvolved skin of the same patient during B-Raf inhibitor therapy and before clinical progression of the disease exhibited also strong SMA expression. Similar phenotype was observed in control dermal fibroblasts (CDF) from different donors yet exclusively after stimulation by TGF-Î²1. The identified differences in gene transcription as well as in DNA methylation indicate systemic activation of dermal fibroblasts in a patient with malignant melanoma. This dataset contains transcription profiling data, complementary methylation profiling data are available under accession E-MTAB-4965.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "Cell type": [
+          "control dermal fibroblast",
+          "melanoma associated fibroblast of dermis",
+          "autologous control fibroblast of dermis"
+        ],
+        "cell type": [
+          "autologous control fibroblast of dermis",
+          "melanoma associated fibroblast of dermis",
+          "control dermal fibroblast"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "cell type comparison design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "cell type",
+        "individual",
+        "disease"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "acrolentiginous melanoma",
+        "normal"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "dermis"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Microenvironment-driven resistance to B-Raf inhibition in a melanoma patient is accompanied by broad changes of gene methylation and expression in distal fibroblasts. Transcriptomic study."
+}
