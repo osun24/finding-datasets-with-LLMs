@@ -349,16 +349,19 @@ def create_publication_plot(data, metadata):
                                    colors=color, alpha=0.35, linewidth=4)
 
     ax6.set_title('F. ROC Space',
-                  fontsize=20, fontweight='bold')
-    ax6.set_xlabel('1 - Specificity (False Positive Rate)', fontsize=16)
-    ax6.set_ylabel('Sensitivity (True Positive Rate)', fontsize=16)
+                  fontsize=20, fontweight='bold', pad=32)
+    ax6.set_xlabel('1 - Specificity', fontsize=16)
+    ax6.set_ylabel('Sensitivity', fontsize=16)
     ax6.set_xlim(0, 1.04)
     ax6.set_ylim(0, 1.04)
     ax6.set_xticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     ax6.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     handles, labels = ax6.get_legend_handles_labels()
     if handles:
-        ax6.legend(handles=handles, loc='lower right', fontsize=12)
+        ax6.legend(handles=handles, loc='lower center',
+                   bbox_to_anchor=(0.5, 1.0), ncol=len(handles),
+                   frameon=False, fontsize=11, handlelength=1.4,
+                   columnspacing=1.2, borderaxespad=0.2)
     ax6.grid(True, alpha=0.3)
     ax6.tick_params(axis='both', which='major', labelsize=14)
     ax6.plot([0, 1], [0, 1], 'k--', alpha=0.3, linewidth=1)
