@@ -23,7 +23,7 @@ plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("husl")
 plt.rcParams['axes.facecolor'] = 'white'
 
-TARGET_MULTI_TRIAL_MODELS = {"GPT-5-mini", "o4-mini"}
+TARGET_MULTI_TRIAL_MODELS = {"GPT-5-mini", "o4-mini", "Ensemble"}
 RATE_METRICS = ['sensitivity', 'specificity', 'precision', 'accuracy', 'f1_score']
 COUNT_METRICS = ['true_positive', 'false_positive', 'true_negative', 'false_negative']
 ALL_METRICS = RATE_METRICS + COUNT_METRICS
@@ -57,7 +57,7 @@ MODEL_ORDER = ['GPT-4o-mini', 'GPT-4.1-mini', 'GPT-5-mini', 'o4-mini', 'Ensemble
 
 def canonical_model_name(model: str) -> str:
     """Normalize model names written by older evaluation scripts."""
-    if str(model).startswith("ensemble"):
+    if str(model).lower().startswith("ensemble"):
         return "Ensemble"
     return model
 
@@ -241,12 +241,11 @@ def make_xaxis_labels(data):
 
 def create_publication_plot(data, metadata):
     """Create main figure with 6 subplots (A-F): per-disease metrics + all-diseases ROC."""
-    fig, axes = plt.subplots(3, 2, figsize=(16, 18))
+    fig, axes = plt.subplots(3, 2, figsize=(16, 18), constrained_layout=True)
     fig.suptitle(
         'Large Language Model Performance for ArrayExpress Dataset Screening\n',
         fontsize=20,
         fontweight='bold',
-        y=0.98,
     )
 
     models = model_keys_in_data(data)
@@ -283,6 +282,7 @@ def create_publication_plot(data, metadata):
                                     fmt='none', color='black',
                                     capsize=3, linewidth=1.2, zorder=3)
 
+        # Extra title pad reserves space for the horizontal legend below the title.
         ax.set_title(title, fontsize=20, fontweight='bold', pad=32)
         ax.set_xlabel('Target Disease', fontsize=16)
         ax.set_ylabel(ylabel, fontsize=16)
@@ -340,7 +340,7 @@ def create_publication_plot(data, metadata):
                 ax6.vlines(fpr, sens_low, sens_high,
                            colors=color, alpha=0.35, linewidth=4)
 
-    ax6.set_title('F. ROC Space (all-diseases)',
+    ax6.set_title('F. ROC Space',
                   fontsize=20, fontweight='bold', pad=32)
     ax6.set_xlabel('1 - Specificity', fontsize=16)
     ax6.set_ylabel('Sensitivity', fontsize=16)
@@ -348,17 +348,18 @@ def create_publication_plot(data, metadata):
     ax6.set_ylim(0, 1.04)
     ax6.set_xticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     ax6.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
-    handles, labels = ax6.get_legend_handles_labels()
-    if handles:
-        ax6.legend(handles=handles, loc='lower center',
-                   bbox_to_anchor=(0.5, 1.0), ncol=len(handles),
-                   frameon=False, fontsize=11, handlelength=1.4,
-                   columnspacing=1.2, borderaxespad=0.2)
     ax6.grid(True, alpha=0.3)
     ax6.tick_params(axis='both', which='major', labelsize=14)
     ax6.plot([0, 1], [0, 1], 'k--', alpha=0.3, linewidth=1)
 
-    plt.tight_layout()
+    handles, labels = ax6.get_legend_handles_labels()
+    if handles:
+        model_legend = ax6.legend(handles=handles, loc='lower center',
+                                  bbox_to_anchor=(0.5, 1.0), ncol=len(handles),
+                                  frameon=False, fontsize=11, handlelength=1.4,
+                                  columnspacing=1.2, borderaxespad=0.2)
+        ax6.add_artist(model_legend)
+
     return fig
 
 
@@ -366,6 +367,12 @@ def create_confusion_matrix_plots_by_disease(data):
     """Create confusion matrix visualizations for each target_disease."""
     figures = {}
     diseases = PER_DISEASE_ORDER + [ROC_DISEASE]
+
+    def add_heatmap_with_cbar_axes(fig, gridspec_cell):
+        nested_gs = gridspec_cell.subgridspec(
+            1, 2, width_ratios=[24, 1], wspace=0.06
+        )
+        return fig.add_subplot(nested_gs[0, 0]), fig.add_subplot(nested_gs[0, 1])
 
     for disease in diseases:
         models_here = []
@@ -378,16 +385,31 @@ def create_confusion_matrix_plots_by_disease(data):
             continue
 
         n_models = len(models_here)
-        if n_models <= 3:
-            rows, cols = 1, n_models
-            figsize = (5 * n_models, 5)
+        if n_models == 5:
+            fig = plt.figure(figsize=(16, 18), constrained_layout=True)
+            gs = fig.add_gridspec(3, 2)
+            bottom_gs = gs[2, :].subgridspec(1, 3, width_ratios=[1, 2, 1])
+            panel_cells = [gs[0, 0], gs[0, 1], gs[1, 0], gs[1, 1], bottom_gs[0, 1]]
         else:
-            rows, cols = 2, (n_models + 1) // 2
-            figsize = (16, 10)
+            rows = 1 if n_models <= 2 else 2
+            cols = n_models if n_models <= 2 else (n_models + 1) // 2
+            figsize = (16, 5) if n_models <= 2 else (16, 10)
+            fig = plt.figure(figsize=figsize, constrained_layout=True)
+            gs = fig.add_gridspec(rows, cols)
+            panel_cells = [gs[row, col] for row in range(rows) for col in range(cols)]
 
-        fig, axes = plt.subplots(rows, cols, figsize=figsize, squeeze=False)
-        axes = axes.flatten()
-        fig.suptitle(f'Confusion Matrices — {disease}',
+        axes = []
+        cbar_axes = []
+        for cell in panel_cells:
+            ax, cbar_ax = add_heatmap_with_cbar_axes(fig, cell)
+            axes.append(ax)
+            cbar_axes.append(cbar_ax)
+
+        if disease == "all-diseases":
+            fig.suptitle(f'ArrayExpress: Confusion Matrices — All Diseases',
+                     fontsize=24, fontweight='bold')
+        else: 
+            fig.suptitle(f'ArrayExpress: Confusion Matrices — {disease}',
                      fontsize=24, fontweight='bold')
 
         for idx, model in enumerate(models_here):
@@ -432,15 +454,16 @@ def create_confusion_matrix_plots_by_disease(data):
             sns.heatmap(cm_display, annot=annot_labels, fmt='', cmap='Blues',
                         xticklabels=['Predicted Negative', 'Predicted Positive'],
                         yticklabels=['Actual Negative', 'Actual Positive'],
-                        ax=axes[idx], annot_kws={'size': 14, 'va': 'center'})
+                        ax=axes[idx], cbar_ax=cbar_axes[idx],
+                        annot_kws={'size': 18, 'va': 'center'})
 
-            axes[idx].tick_params(axis='both', which='major', labelsize=14)
+            axes[idx].tick_params(axis='both', which='major', labelsize=18)
             axes[idx].set_title(f'{model} (n={trial_count})', fontsize=16, fontweight='bold')
 
         for idx in range(n_models, len(axes)):
             axes[idx].set_visible(False)
+            cbar_axes[idx].set_visible(False)
 
-        plt.tight_layout()
         figures[disease] = fig
 
     return figures
@@ -449,7 +472,7 @@ def create_confusion_matrix_plots_by_disease(data):
 def create_summary_table(data):
     """Create a comprehensive summary table and return as a pandas DataFrame."""
     rows = []
-    for model in sorted(data.keys()):
+    for model in model_keys_in_data(data):
         for version in sorted(data[model].keys()):
             for disease in sorted(data[model][version].keys()):
                 disease_data = data[model][version][disease]
@@ -483,65 +506,54 @@ def create_summary_table(data):
 
 
 def create_heatmap(data):
-    """Create heatmap with columns [AD, LBD, ALS-FTD, all-diseases] — split into files."""
+    """Single figure: 5 metric heatmaps arranged 2, 2, 1 (F1 centered on row 3)."""
     models = model_keys_in_data(data)
     diseases = PER_DISEASE_ORDER + [ROC_DISEASE]
 
     metrics = ['sensitivity', 'specificity', 'precision', 'accuracy', 'f1_score']
     titles = ['Sensitivity', 'Specificity', 'Precision', 'Accuracy', 'F1 Score']
 
-    figures = []
-    for fig_idx in range(3):
-        start_idx = fig_idx * 2
-        end_idx = min(start_idx + 2, len(metrics))
-        if start_idx >= len(metrics):
-            break
+    fig = plt.figure(figsize=(14, 18), constrained_layout=True)
+    gs = fig.add_gridspec(3, 2)
+    bottom_gs = gs[2, :].subgridspec(1, 3, width_ratios=[1, 2, 1])
+    panel_cells = [gs[0, 0], gs[0, 1], gs[1, 0], gs[1, 1], bottom_gs[0, 1]]
+    axes = []
+    cbar_axes = []
+    for cell in panel_cells:
+        nested_gs = cell.subgridspec(1, 2, width_ratios=[24, 1], wspace=0.06)
+        axes.append(fig.add_subplot(nested_gs[0, 0]))
+        cbar_axes.append(fig.add_subplot(nested_gs[0, 1]))
 
-        n_plots = end_idx - start_idx
-        if n_plots == 2:
-            fig, axes = plt.subplots(1, 2, figsize=(16, 6))
-        else:
-            fig, axes = plt.subplots(1, 1, figsize=(8, 6))
-            axes = [axes]
+    for ax, cbar_ax, metric, title in zip(axes, cbar_axes, metrics, titles):
+        matrix = np.full((len(models), len(diseases)), np.nan)
+        for i, model in enumerate(models):
+            model_data = data[model]
+            version = latest_version_for_model(model_data)
+            if version is None:
+                continue
+            for j, disease in enumerate(diseases):
+                if disease in model_data[version]:
+                    summary = model_data[version][disease].get("summary", {})
+                    value = summary.get("median", {}).get(metric)
+                    if value is not None:
+                        matrix[i, j] = value
 
-        for plot_idx, metric_idx in enumerate(range(start_idx, end_idx)):
-            metric = metrics[metric_idx]
-            title = titles[metric_idx]
+        sns.heatmap(matrix, annot=True, fmt='.3f', cmap='RdYlGn',
+                    xticklabels=diseases, yticklabels=models,
+                    ax=ax, cbar_ax=cbar_ax, cbar_kws={'label': title},
+                    mask=np.isnan(matrix), annot_kws={'size': 12})
 
-            matrix = np.full((len(models), len(diseases)), np.nan)
-            for i, model in enumerate(models):
-                model_data = data[model]
-                version = latest_version_for_model(model_data)
-                if version is None:
-                    continue
-                for j, disease in enumerate(diseases):
-                    if disease in model_data[version]:
-                        summary = model_data[version][disease].get("summary", {})
-                        value = summary.get("median", {}).get(metric)
-                        if value is not None:
-                            matrix[i, j] = value
+        ax.set_title(title, fontsize=20, fontweight='bold')
+        ax.set_xlabel('Target Disease', fontsize=14)
+        ax.set_ylabel('Model', fontsize=14)
+        ax.tick_params(axis='both', which='major', labelsize=12)
+        cbar = ax.collections[0].colorbar
+        cbar.ax.tick_params(labelsize=12)
+        cbar.set_label(title, fontsize=14)
 
-            mask = np.isnan(matrix)
-            sns.heatmap(matrix, annot=True, fmt='.3f', cmap='RdYlGn',
-                       xticklabels=diseases, yticklabels=models,
-                       ax=axes[plot_idx], cbar_kws={'label': title},
-                       mask=mask, annot_kws={'size': 12})
-
-            axes[plot_idx].set_title(f'{title}', fontsize=20, fontweight='bold')
-            axes[plot_idx].set_xlabel('Target Disease', fontsize=14)
-            axes[plot_idx].set_ylabel('Model', fontsize=14)
-            axes[plot_idx].tick_params(axis='both', which='major', labelsize=12)
-
-            cbar = axes[plot_idx].collections[0].colorbar
-            cbar.ax.tick_params(labelsize=12)
-            cbar.set_label(title, fontsize=14)
-
-        if fig_idx == 0:
-            plt.suptitle('LLM Performance Heatmap for ArrayExpress Dataset Screening',
-                         fontsize=20, fontweight='bold')
-
-        plt.tight_layout()
-        figures.append(fig)
+    fig.suptitle('LLM Performance Heatmap for ArrayExpress Dataset Screening',
+                 fontsize=20, fontweight='bold')
+    figures = [fig]
 
     return figures
 
@@ -613,9 +625,8 @@ def main():
     df_summary.to_csv(sys.stdout, index=False)
 
     heatmap_figs = create_heatmap(data)
-    for i, fig in enumerate(heatmap_figs, 1):
-        fig.savefig(SCRIPT_DIR / f'ArrayExpress_LLM_performance_heatmap_part{i}_{timestamp}.png', dpi=600, bbox_inches='tight',
-                    facecolor='white', edgecolor='none')
+    heatmap_figs[0].savefig(SCRIPT_DIR / f'ArrayExpress_LLM_performance_heatmap_{timestamp}.png', dpi=600, bbox_inches='tight',
+                            facecolor='white', edgecolor='none')
 
     plt.show()
 
@@ -624,8 +635,7 @@ def main():
     for key in cm_figs.keys():
         print(f"2. ArrayExpress_LLM_confusion_matrices_{key}_{timestamp}.png")
     print(f"3. {csv_filename}")
-    for i in range(1, len(heatmap_figs) + 1):
-        print(f"4. ArrayExpress_LLM_performance_heatmap_part{i}_{timestamp}.png")
+    print(f"4. ArrayExpress_LLM_performance_heatmap_{timestamp}.png")
 
     print_insights(data, results_data['metadata'])
 

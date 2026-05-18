@@ -195,12 +195,11 @@ def format_metric_value(summary: dict, metric: str, include_range: bool, decimal
 
 def create_publication_plot(data, metadata):
     """Create main figure with 6 subplots (A-F) showing dev and held-out test performance."""
-    fig, axes = plt.subplots(3, 2, figsize=(16, 18))
+    fig, axes = plt.subplots(3, 2, figsize=(16, 18), constrained_layout=True)
     fig.suptitle(
         'Large Language Model Performance for GEO Dataset Screening\n',
         fontsize=20,
         fontweight='bold',
-        y=0.98,
     )
 
     # Use Okabe–Ito colorblind-safe palette
@@ -212,7 +211,7 @@ def create_publication_plot(data, metadata):
         'Ensemble':      "#D55E00",
     }
     # Dev bars use a lightened shade; v2 test bars use the full color.
-    DEV_LIGHTEN = 0.55
+    DEV_LIGHTEN = 0.35
     model_color_pairs = {
         m: {'light': lighten_color(c, DEV_LIGHTEN), 'dark': c}
         for m, c in model_colors.items()
@@ -277,7 +276,6 @@ def create_publication_plot(data, metadata):
         ax.set_axisbelow(True)
         ax.tick_params(axis='both', which='major', labelsize=12)
 
-        # Legend: one entry per model (its darker/test shade), placed just below the title.
         legend_handles = [
             Patch(facecolor=model_colors.get(model, 'gray'),
                   edgecolor='black', linewidth=0.6, label=model)
@@ -352,6 +350,10 @@ def create_publication_plot(data, metadata):
     ax6.set_ylim(0, 1.04)
     ax6.set_xticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     ax6.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
+    ax6.grid(True, alpha=0.3)
+    ax6.tick_params(axis='both', which='major', labelsize=14)
+    ax6.plot([0, 1], [0, 1], 'k--', alpha=0.3, linewidth=1)
+
     handles, labels = ax6.get_legend_handles_labels()
     if handles:
         model_legend = ax6.legend(handles=handles, loc='lower center',
@@ -359,16 +361,18 @@ def create_publication_plot(data, metadata):
                                   frameon=False, fontsize=11, handlelength=1.4,
                                   columnspacing=1.2, borderaxespad=0.2)
         ax6.add_artist(model_legend)
-    ax6.grid(True, alpha=0.3)
-    ax6.tick_params(axis='both', which='major', labelsize=14)
-    ax6.plot([0, 1], [0, 1], 'k--', alpha=0.3, linewidth=1)
 
-    plt.tight_layout()
     return fig
 
 def create_confusion_matrix_plots_by_version(data):
     """Create confusion matrix visualizations for each (version, split) position."""
     figures = {}
+
+    def add_heatmap_with_cbar_axes(fig, gridspec_cell):
+        nested_gs = gridspec_cell.subgridspec(
+            1, 2, width_ratios=[24, 1], wspace=0.06
+        )
+        return fig.add_subplot(nested_gs[0, 0]), fig.add_subplot(nested_gs[0, 1])
 
     for version, split in XAXIS_ORDER:
         key = f"{version}-{'dev' if split == 'prompt-set' else 'test'}"
@@ -381,18 +385,28 @@ def create_confusion_matrix_plots_by_version(data):
             continue
 
         n_models = len(models_here)
-        if n_models <= 2:
-            rows, cols = 1, n_models
-            figsize = (16, 5)
+        if n_models == 5:
+            fig = plt.figure(figsize=(16, 18), constrained_layout=True)
+            gs = fig.add_gridspec(3, 2)
+            bottom_gs = gs[2, :].subgridspec(1, 3, width_ratios=[1, 2, 1])
+            panel_cells = [gs[0, 0], gs[0, 1], gs[1, 0], gs[1, 1], bottom_gs[0, 1]]
         else:
-            rows, cols = 2, (n_models + 1) // 2
-            figsize = (16, 10)
+            rows = 1 if n_models <= 2 else 2
+            cols = n_models if n_models <= 2 else (n_models + 1) // 2
+            figsize = (16, 5) if n_models <= 2 else (16, 10)
+            fig = plt.figure(figsize=figsize, constrained_layout=True)
+            gs = fig.add_gridspec(rows, cols)
+            panel_cells = [gs[row, col] for row in range(rows) for col in range(cols)]
 
-        fig, axes = plt.subplots(rows, cols, figsize=figsize, squeeze=False)
-        axes = axes.flatten()
+        axes = []
+        cbar_axes = []
+        for cell in panel_cells:
+            ax, cbar_ax = add_heatmap_with_cbar_axes(fig, cell)
+            axes.append(ax)
+            cbar_axes.append(cbar_ax)
 
-        split_label = 'Development' if split == 'prompt-set' else 'Held-Out Test'
-        fig.suptitle(f'Confusion Matrices — {version} ({split_label})',
+        split_label = 'Prompt Development' if split == 'prompt-set' else 'Held-Out Test'
+        fig.suptitle(f'GEO: Confusion Matrices — {version} ({split_label})',
                      fontsize=24, fontweight='bold')
 
         for idx, model in enumerate(models_here):
@@ -436,15 +450,16 @@ def create_confusion_matrix_plots_by_version(data):
             sns.heatmap(cm_display, annot=annot_labels, fmt='', cmap='Blues',
                         xticklabels=['Predicted Negative', 'Predicted Positive'],
                         yticklabels=['Actual Negative', 'Actual Positive'],
-                        ax=axes[idx], annot_kws={'size': 14, 'va': 'center'})
+                        ax=axes[idx], cbar_ax=cbar_axes[idx],
+                        annot_kws={'size': 24, 'va': 'center'}) # font size of the number in the confusion matrix
 
             axes[idx].tick_params(axis='both', which='major', labelsize=18)
             axes[idx].set_title(f'{model} (n={trial_count})', fontsize=16, fontweight='bold')
 
         for idx in range(n_models, len(axes)):
             axes[idx].set_visible(False)
+            cbar_axes[idx].set_visible(False)
 
-        plt.tight_layout()
         figures[key] = fig
 
     return figures
@@ -487,7 +502,7 @@ def create_summary_table(data):
     return df
 
 def create_heatmap(data):
-    """Create heatmap with columns [v1-dev, v2-dev, v2-test] — split into 3 files."""
+    """Single figure: 5 metric heatmaps arranged 2, 2, 1 (F1 centered on row 3)."""
     models = model_keys_in_data(data)
     col_labels_display = [
         f"v1\n(dev)",
@@ -498,58 +513,43 @@ def create_heatmap(data):
     metrics = ['sensitivity', 'specificity', 'precision', 'accuracy', 'f1_score']
     titles = ['Sensitivity', 'Specificity', 'Precision', 'Accuracy', 'F1 Score']
 
-    figures = []
+    fig = plt.figure(figsize=(14, 18), constrained_layout=True)
+    gs = fig.add_gridspec(3, 2)
+    bottom_gs = gs[2, :].subgridspec(1, 3, width_ratios=[1, 2, 1])
+    panel_cells = [gs[0, 0], gs[0, 1], gs[1, 0], gs[1, 1], bottom_gs[0, 1]]
+    axes = []
+    cbar_axes = []
+    for cell in panel_cells:
+        nested_gs = cell.subgridspec(1, 2, width_ratios=[24, 1], wspace=0.06)
+        axes.append(fig.add_subplot(nested_gs[0, 0]))
+        cbar_axes.append(fig.add_subplot(nested_gs[0, 1]))
 
-    for fig_idx in range(3):
-        start_idx = fig_idx * 2
-        end_idx = min(start_idx + 2, len(metrics))
+    for ax, cbar_ax, metric, title in zip(axes, cbar_axes, metrics, titles):
+        matrix = np.full((len(models), len(XAXIS_ORDER)), np.nan)
+        for i, model in enumerate(models):
+            for j, (version, split) in enumerate(XAXIS_ORDER):
+                if version in data[model] and split in data[model][version]:
+                    summary = data[model][version][split].get("summary", {})
+                    value = summary.get("median", {}).get(metric)
+                    if value is not None:
+                        matrix[i, j] = value
 
-        if start_idx >= len(metrics):
-            break
+        sns.heatmap(matrix, annot=True, fmt='.3f', cmap='RdYlGn',
+                    xticklabels=col_labels_display, yticklabels=models,
+                    ax=ax, cbar_ax=cbar_ax, cbar_kws={'label': title},
+                    mask=np.isnan(matrix), annot_kws={'size': 12})
 
-        n_plots = end_idx - start_idx
-        if n_plots == 2:
-            fig, axes = plt.subplots(1, 2, figsize=(16, 6))
-        else:
-            fig, axes = plt.subplots(1, 1, figsize=(8, 6))
-            axes = [axes]
+        ax.set_title(title, fontsize=20, fontweight='bold')
+        ax.set_xlabel('Prompt Version / Evaluation Set', fontsize=14)
+        ax.set_ylabel('Model', fontsize=14)
+        ax.tick_params(axis='both', which='major', labelsize=12)
+        cbar = ax.collections[0].colorbar
+        cbar.ax.tick_params(labelsize=12)
+        cbar.set_label(title, fontsize=14)
 
-        for plot_idx, metric_idx in enumerate(range(start_idx, end_idx)):
-            metric = metrics[metric_idx]
-            title = titles[metric_idx]
-
-            matrix = np.full((len(models), len(XAXIS_ORDER)), np.nan)
-            for i, model in enumerate(models):
-                for j, (version, split) in enumerate(XAXIS_ORDER):
-                    if version in data[model] and split in data[model][version]:
-                        summary = data[model][version][split].get("summary", {})
-                        value = summary.get("median", {}).get(metric)
-                        if value is not None:
-                            matrix[i, j] = value
-
-            mask = np.isnan(matrix)
-            sns.heatmap(matrix, annot=True, fmt='.3f', cmap='RdYlGn',
-                       xticklabels=col_labels_display, yticklabels=models,
-                       ax=axes[plot_idx], cbar_kws={'label': title},
-                       mask=mask, annot_kws={'size': 12})
-
-            axes[plot_idx].set_title(f'{title}', fontsize=20, fontweight='bold')
-            axes[plot_idx].set_xlabel('Prompt Version / Evaluation Set', fontsize=14)
-            axes[plot_idx].set_ylabel('Model', fontsize=14)
-            axes[plot_idx].tick_params(axis='both', which='major', labelsize=12)
-
-            cbar = axes[plot_idx].collections[0].colorbar
-            cbar.ax.tick_params(labelsize=12)
-            cbar.set_label(title, fontsize=14)
-
-        if fig_idx == 0:
-            plt.suptitle('LLM Performance Heatmap for GEO Dataset Screening',
-                         fontsize=20, fontweight='bold')
-
-        plt.tight_layout()
-        figures.append(fig)
-
-    return figures
+    fig.suptitle('LLM Performance Heatmap for GEO Dataset Screening',
+                 fontsize=20, fontweight='bold')
+    return [fig]
 
 def print_insights(data, metadata):
     """Print key insights from the analysis."""
@@ -650,11 +650,10 @@ def main():
     print('\n--- Summary table (CSV) ---\n')
     df_summary.to_csv(sys.stdout, index=False)
 
-    # 4. Heatmaps
+    # 4. Heatmap (single merged figure)
     heatmap_figs = create_heatmap(data)
-    for i, fig in enumerate(heatmap_figs, 1):
-        fig.savefig(f'GEO_LLM_performance_heatmap_part{i}_{timestamp}.png', dpi=600, bbox_inches='tight',
-                    facecolor='white', edgecolor='none')
+    heatmap_figs[0].savefig(f'GEO_LLM_performance_heatmap_{timestamp}.png', dpi=600, bbox_inches='tight',
+                            facecolor='white', edgecolor='none')
 
     plt.show()
 
@@ -663,8 +662,7 @@ def main():
     for key in cm_figs.keys():
         print(f"2. GEO_LLM_confusion_matrices_{key}_{timestamp}.png")
     print(f"3. {csv_filename}")
-    for i in range(1, len(heatmap_figs) + 1):
-        print(f"4. GEO_LLM_performance_heatmap_part{i}_{timestamp}.png")
+    print(f"4. GEO_LLM_performance_heatmap_{timestamp}.png")
 
     print_insights(data, results_data['metadata'])
 
