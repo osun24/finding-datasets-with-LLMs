@@ -4,7 +4,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import json
-from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 from datetime import datetime
 import sys
@@ -19,7 +18,7 @@ plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("husl")
 plt.rcParams['axes.facecolor'] = 'white'
 
-TARGET_MULTI_TRIAL_MODELS = {"GPT-5-mini", "o4-mini"}
+TARGET_MULTI_TRIAL_MODELS = {"GPT-5-mini", "o4-mini", "Ensemble"}
 RATE_METRICS = ['sensitivity', 'specificity', 'precision', 'accuracy', 'f1_score']
 COUNT_METRICS = ['true_positive', 'false_positive', 'true_negative', 'false_negative']
 ALL_METRICS = RATE_METRICS + COUNT_METRICS
@@ -47,6 +46,20 @@ XAXIS_LABELS = [
     "Test\n(v2, n = 357)",
 ]
 
+MODEL_ORDER = ['GPT-4o-mini', 'GPT-4.1-mini', 'GPT-5-mini', 'o4-mini', 'Ensemble']
+
+
+def canonical_model_name(model: str) -> str:
+    if str(model).lower().startswith("ensemble"):
+        return "Ensemble"
+    return model
+
+
+def model_keys_in_data(data):
+    keys = [model for model in MODEL_ORDER if model in data]
+    extras = sorted(model for model in data if model not in MODEL_ORDER)
+    return keys + extras
+
 
 def load_results(filename="model_performance_results.json"):
     """Load results from JSON file"""
@@ -72,7 +85,7 @@ def process_data(results_data):
         if split == 'combined-prompt-test':
             continue
 
-        model = result.get('model', 'Unknown')
+        model = canonical_model_name(result.get('model', 'Unknown'))
         version = result.get('version', 'v1')
         metrics = result.get('metrics', {})
 
@@ -196,6 +209,7 @@ def create_publication_plot(data, metadata):
         'o4-mini':       "#E69F00",  
         'GPT-4.1-mini':  "#009E73",  
         'GPT-5-mini':    "#0072B2",  
+        'Ensemble':      "#D55E00",
     }
     # Dev bars use a lightened shade; v2 test bars use the full color.
     DEV_LIGHTEN = 0.55
@@ -213,7 +227,7 @@ def create_publication_plot(data, metadata):
                 counts.append(split_data.get("trial_count", 0))
         replication_counts[model] = max(counts) if counts else 0
 
-    models = list(data.keys())
+    models = model_keys_in_data(data)
     n_models = len(models)
     # Bars within a position group: total width ~0.8, split evenly across models.
     group_width = 0.8
@@ -252,7 +266,7 @@ def create_publication_plot(data, metadata):
 
         # Extra title pad reserves space for the horizontal legend below the title.
         ax.set_title(title, fontsize=20, fontweight='bold', pad=32)
-        ax.set_xlabel('Prompt Version and Evaluation Set', fontsize=16)
+        ax.set_xlabel('Evaluation Set and Prompt Version', fontsize=16)
         ax.set_ylabel(ylabel, fontsize=16)
         ax.set_xticks(x_positions)
         ax.set_xticklabels(XAXIS_LABELS, fontsize=13)
@@ -314,39 +328,21 @@ def create_publication_plot(data, metadata):
         if not roc_points:
             continue
 
-        dev_pts = [p for p in roc_points if p['split'] == 'prompt-set']
-        test_pts = [p for p in roc_points if p['split'] == 'test-set']
-
-        # Solid line between dev points
-        if len(dev_pts) >= 2:
-            ax6.plot([p['fpr'] for p in dev_pts], [p['sens'] for p in dev_pts],
-                     '-', alpha=0.5, color=color, linewidth=1.5)
-
-        # Dashed connector from last dev to test
-        if dev_pts and test_pts:
-            ax6.plot([dev_pts[-1]['fpr'], test_pts[0]['fpr']],
-                     [dev_pts[-1]['sens'], test_pts[0]['sens']],
-                     '--', alpha=0.5, color=color, linewidth=1.5)
-
-        added_legend = False
         for p in roc_points:
-            if p['split'] == 'prompt-set':
-                # Both v1 and v2 development points: hollow circles
-                ax6.scatter([p['fpr']], [p['sens']], s=100, marker='o',
-                            facecolors='none', edgecolors=color, linewidths=2.0,
-                            label=legend_label if not added_legend else None)
-                added_legend = True
-            else:
-                # v2 test: solid square, with error cross for multi-trial models
-                ax6.scatter([p['fpr']], [p['sens']], s=120, marker='s',
-                            facecolors=color, edgecolors=color, linewidths=2.0)
-                if should_include_range(model, p['split_data'], 'test-set'):
-                    if p['fpr_low'] is not None and p['fpr_high'] is not None and p['fpr_low'] != p['fpr_high']:
-                        ax6.hlines(p['sens'], p['fpr_low'], p['fpr_high'],
-                                   colors=color, alpha=0.35, linewidth=4)
-                    if p['sens_low'] is not None and p['sens_high'] is not None and p['sens_low'] != p['sens_high']:
-                        ax6.vlines(p['fpr'], p['sens_low'], p['sens_high'],
-                                   colors=color, alpha=0.35, linewidth=4)
+            if p['split'] != 'test-set':
+                continue
+
+            # v2 test: solid square, with error cross for multi-trial models
+            ax6.scatter([p['fpr']], [p['sens']], s=120, marker='s',
+                        facecolors=color, edgecolors=color, linewidths=2.0,
+                        label=legend_label)
+            if should_include_range(model, p['split_data'], 'test-set'):
+                if p['fpr_low'] is not None and p['fpr_high'] is not None and p['fpr_low'] != p['fpr_high']:
+                    ax6.hlines(p['sens'], p['fpr_low'], p['fpr_high'],
+                               colors=color, alpha=0.35, linewidth=4)
+                if p['sens_low'] is not None and p['sens_high'] is not None and p['sens_low'] != p['sens_high']:
+                    ax6.vlines(p['fpr'], p['sens_low'], p['sens_high'],
+                               colors=color, alpha=0.35, linewidth=4)
 
     ax6.set_title('F. ROC Space',
                   fontsize=20, fontweight='bold', pad=32)
@@ -358,10 +354,11 @@ def create_publication_plot(data, metadata):
     ax6.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     handles, labels = ax6.get_legend_handles_labels()
     if handles:
-        ax6.legend(handles=handles, loc='lower center',
-                   bbox_to_anchor=(0.5, 1.0), ncol=len(handles),
-                   frameon=False, fontsize=11, handlelength=1.4,
-                   columnspacing=1.2, borderaxespad=0.2)
+        model_legend = ax6.legend(handles=handles, loc='lower center',
+                                  bbox_to_anchor=(0.5, 1.0), ncol=len(handles),
+                                  frameon=False, fontsize=11, handlelength=1.4,
+                                  columnspacing=1.2, borderaxespad=0.2)
+        ax6.add_artist(model_legend)
     ax6.grid(True, alpha=0.3)
     ax6.tick_params(axis='both', which='major', labelsize=14)
     ax6.plot([0, 1], [0, 1], 'k--', alpha=0.3, linewidth=1)
@@ -375,8 +372,11 @@ def create_confusion_matrix_plots_by_version(data):
 
     for version, split in XAXIS_ORDER:
         key = f"{version}-{'dev' if split == 'prompt-set' else 'test'}"
-        models_here = [model for model, model_data in data.items()
-                       if version in model_data and split in model_data[version]]
+        models_here = [
+            model
+            for model in model_keys_in_data(data)
+            if version in data[model] and split in data[model][version]
+        ]
         if not models_here:
             continue
 
@@ -452,7 +452,7 @@ def create_confusion_matrix_plots_by_version(data):
 def create_summary_table(data):
     """Create a comprehensive summary table and return as a pandas DataFrame."""
     rows = []
-    for model in sorted(data.keys()):
+    for model in model_keys_in_data(data):
         for version in sorted(data[model].keys()):
             for split in sorted(data[model][version].keys()):
                 version_data = data[model][version][split]
@@ -488,7 +488,7 @@ def create_summary_table(data):
 
 def create_heatmap(data):
     """Create heatmap with columns [v1-dev, v2-dev, v2-test] — split into 3 files."""
-    models = list(data.keys())
+    models = model_keys_in_data(data)
     col_labels_display = [
         f"v1\n(dev)",
         f"v2\n(dev)",

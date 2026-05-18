@@ -653,6 +653,70 @@ def evaluate_dataframe(df, model, version, trial, file_path, actual_files, split
     return result_entry
 
 
+def actual_files_for_split(split_label):
+    if split_label == "prompt-set":
+        return PROMPT_POSITIVE_FILES
+    if split_label == "test-set":
+        return TEST_POSITIVE_FILES
+    if split_label == "combined-prompt-test":
+        return COMBINED_POSITIVE_FILES
+    raise ValueError(f"Unknown split label for ensemble calculation: {split_label}")
+
+
+def build_ensemble_results(results):
+    """For each (version, trial, split), include a study if any model included it."""
+    groups = {}
+    for result in results:
+        if str(result.get("model", "")).lower().startswith("ensemble"):
+            continue
+        key = (
+            result.get("version", ""),
+            result.get("trial") or "",
+            result.get("split", ""),
+        )
+        groups.setdefault(key, []).append(result)
+
+    ensemble_entries = []
+    for (version, trial, split_label), runs in groups.items():
+        if len(runs) < 2 or not split_label:
+            continue
+
+        actual_files = actual_files_for_split(split_label)
+        identified_union = set()
+        for result in runs:
+            identified_union.update(result["details"].get("identified_studies", []))
+        identified_studies = sorted(identified_union)
+
+        matched, false_positives, false_negatives = match_files(identified_studies, actual_files)
+        total_files_evaluated = runs[0]["metrics"]["total_files_evaluated"]
+        print(f"\n--- ensemble-or {version}{f' [{trial}]' if trial else ''} [{split_label}] ---")
+        metrics = calculate_metrics(matched, false_positives, false_negatives, total_files_evaluated)
+
+        ensemble_entries.append(
+            {
+                "model": "ensemble-or",
+                "version": version,
+                "trial": trial or None,
+                "split": split_label,
+                "file_path": "ensemble",
+                "timestamp": datetime.now().isoformat(),
+                "metrics": metrics,
+                "details": {
+                    "identified_studies": identified_studies,
+                    "matched_studies": matched,
+                    "false_positives": false_positives,
+                    "false_negatives": false_negatives,
+                    "total_studies_in_dataset": len(actual_files),
+                    "trial": trial or None,
+                    "split": split_label,
+                    "constituent_models": sorted({result["model"] for result in runs}),
+                },
+            }
+        )
+
+    return ensemble_entries
+
+
 def upsert_result(result_entry):
     existing_index = None
     for i, existing_result in enumerate(all_results["results"]):
@@ -764,6 +828,14 @@ for file_path in file_paths:
             )
 
     print("\n" + "="*40 + "\n")
+
+all_results["results"] = [
+    result
+    for result in all_results["results"]
+    if not str(result.get("model", "")).lower().startswith("ensemble")
+]
+for ensemble_entry in build_ensemble_results(all_results["results"]):
+    upsert_result(ensemble_entry)
 
 # Save all results to JSON
 save_results_to_json(all_results)
