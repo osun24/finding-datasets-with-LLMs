@@ -6,3 +6,5 @@ __pycache__/*
 .vscode
 ProteomeXChange/__pycache__/*
 GEO/__pycache__/*
+~*/.xlsx
+ArrayExpress/~$1-s2.0-S0969996120305003-mmc2.xlsx

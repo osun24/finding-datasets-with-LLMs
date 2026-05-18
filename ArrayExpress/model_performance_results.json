@@ -1,0 +1,5468 @@
+{
+  "metadata": {
+    "timestamp": "2026-05-17T19:59:43.925766",
+    "description": "AI model performance evaluation for ArrayExpress neurodegenerative dataset screening",
+    "total_actual_studies": 10,
+    "evaluation_criteria": "Per-disease (AD / LBD / ALS-FTD) dataset inclusion/exclusion",
+    "last_updated": "2026-05-17T19:59:44.918662",
+    "positive_counts_per_disease": {
+      "AD": 2,
+      "LBD": 2,
+      "ALS-FTD": 6
+    },
+    "target_diseases": [
+      "AD",
+      "LBD",
+      "ALS-FTD"
+    ]
+  },
+  "results": [
+    {
+      "model": "GPT-4.1-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-4.1-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:43.953641",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-4.1-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:43.958021",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-4.1-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:43.962297",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": null,
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-4.1-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-4.1-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:43.971527",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.982,
+        "f1_score": 0.947
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-6189",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-1925",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-6189",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-1925",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": null,
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-4o-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-4o-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:43.984605",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-4o-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-4o-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:43.990582",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-4o-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-4o-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:43.991501",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": null,
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-4o-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-4o-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:43.997454",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 1,
+        "false_negative": 1,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 0.978,
+        "precision": 0.9,
+        "accuracy": 0.964,
+        "f1_score": 0.9
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-6189",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-6189",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": null,
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-43.jsonl",
+      "timestamp": "2026-05-17T19:59:44.017246",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed43",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-43.jsonl",
+      "timestamp": "2026-05-17T19:59:44.023410",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed43",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-43.jsonl",
+      "timestamp": "2026-05-17T19:59:44.024211",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed43",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-43.jsonl",
+      "timestamp": "2026-05-17T19:59:44.024875",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.982,
+        "f1_score": 0.947
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed43",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-44.jsonl",
+      "timestamp": "2026-05-17T19:59:44.046686",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed44",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-44.jsonl",
+      "timestamp": "2026-05-17T19:59:44.056525",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed44",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-44.jsonl",
+      "timestamp": "2026-05-17T19:59:44.114531",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed44",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-44.jsonl",
+      "timestamp": "2026-05-17T19:59:44.307685",
+      "metrics": {
+        "true_positive": 8,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.8,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.964,
+        "f1_score": 0.889
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed44",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-45.jsonl",
+      "timestamp": "2026-05-17T19:59:44.328810",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed45",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-45.jsonl",
+      "timestamp": "2026-05-17T19:59:44.364897",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed45",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-45.jsonl",
+      "timestamp": "2026-05-17T19:59:44.368927",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed45",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-45.jsonl",
+      "timestamp": "2026-05-17T19:59:44.390641",
+      "metrics": {
+        "true_positive": 8,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.8,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.964,
+        "f1_score": 0.889
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed45",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-46.jsonl",
+      "timestamp": "2026-05-17T19:59:44.412189",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed46",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-46.jsonl",
+      "timestamp": "2026-05-17T19:59:44.417520",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed46",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-46.jsonl",
+      "timestamp": "2026-05-17T19:59:44.418416",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed46",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-46.jsonl",
+      "timestamp": "2026-05-17T19:59:44.419283",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.982,
+        "f1_score": 0.947
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed46",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-47.jsonl",
+      "timestamp": "2026-05-17T19:59:44.437734",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed47",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-47.jsonl",
+      "timestamp": "2026-05-17T19:59:44.443658",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed47",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-47.jsonl",
+      "timestamp": "2026-05-17T19:59:44.444579",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed47",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-47.jsonl",
+      "timestamp": "2026-05-17T19:59:44.445252",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.982,
+        "f1_score": 0.947
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed47",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-48.jsonl",
+      "timestamp": "2026-05-17T19:59:44.461206",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed48",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-48.jsonl",
+      "timestamp": "2026-05-17T19:59:44.466189",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed48",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-48.jsonl",
+      "timestamp": "2026-05-17T19:59:44.467040",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed48",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-48.jsonl",
+      "timestamp": "2026-05-17T19:59:44.471670",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.982,
+        "f1_score": 0.947
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed48",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-49.jsonl",
+      "timestamp": "2026-05-17T19:59:44.503655",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed49",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-49.jsonl",
+      "timestamp": "2026-05-17T19:59:44.515027",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed49",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-49.jsonl",
+      "timestamp": "2026-05-17T19:59:44.516515",
+      "metrics": {
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.667,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.935,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed49",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-49.jsonl",
+      "timestamp": "2026-05-17T19:59:44.528742",
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.7,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.946,
+        "f1_score": 0.824
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed49",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-50.jsonl",
+      "timestamp": "2026-05-17T19:59:44.546286",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed50",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-50.jsonl",
+      "timestamp": "2026-05-17T19:59:44.553780",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed50",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-50.jsonl",
+      "timestamp": "2026-05-17T19:59:44.554612",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed50",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-50.jsonl",
+      "timestamp": "2026-05-17T19:59:44.559229",
+      "metrics": {
+        "true_positive": 8,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.8,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.964,
+        "f1_score": 0.889
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed50",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-51.jsonl",
+      "timestamp": "2026-05-17T19:59:44.577909",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed51",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-51.jsonl",
+      "timestamp": "2026-05-17T19:59:44.586385",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed51",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-51.jsonl",
+      "timestamp": "2026-05-17T19:59:44.587966",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed51",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1-51.jsonl",
+      "timestamp": "2026-05-17T19:59:44.589975",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.982,
+        "f1_score": 0.947
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed51",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:44.609624",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:44.614846",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:44.615660",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": null,
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "GPT-5-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-gpt-5-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:44.616311",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.982,
+        "f1_score": 0.947
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": null,
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-43.jsonl",
+      "timestamp": "2026-05-17T19:59:44.632200",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed43",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-43.jsonl",
+      "timestamp": "2026-05-17T19:59:44.633141",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed43",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-43.jsonl",
+      "timestamp": "2026-05-17T19:59:44.634126",
+      "metrics": {
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.903,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed43",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-43.jsonl",
+      "timestamp": "2026-05-17T19:59:44.643361",
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.7,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.946,
+        "f1_score": 0.824
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed43",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-44.jsonl",
+      "timestamp": "2026-05-17T19:59:44.658225",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed44",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-44.jsonl",
+      "timestamp": "2026-05-17T19:59:44.665537",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed44",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-44.jsonl",
+      "timestamp": "2026-05-17T19:59:44.666418",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 4,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.333,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.871,
+        "f1_score": 0.5
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed44",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-44.jsonl",
+      "timestamp": "2026-05-17T19:59:44.682520",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 1,
+        "false_negative": 4,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.6,
+        "specificity": 0.978,
+        "precision": 0.857,
+        "accuracy": 0.911,
+        "f1_score": 0.706
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MTAB-8283",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed44",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-45.jsonl",
+      "timestamp": "2026-05-17T19:59:44.701433",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed45",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-45.jsonl",
+      "timestamp": "2026-05-17T19:59:44.707766",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed45",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-45.jsonl",
+      "timestamp": "2026-05-17T19:59:44.709014",
+      "metrics": {
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.667,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.935,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed45",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-45.jsonl",
+      "timestamp": "2026-05-17T19:59:44.714846",
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.7,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.946,
+        "f1_score": 0.824
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-8635",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed45",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-46.jsonl",
+      "timestamp": "2026-05-17T19:59:44.726282",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed46",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-46.jsonl",
+      "timestamp": "2026-05-17T19:59:44.727246",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed46",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-46.jsonl",
+      "timestamp": "2026-05-17T19:59:44.728062",
+      "metrics": {
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.903,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed46",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-46.jsonl",
+      "timestamp": "2026-05-17T19:59:44.736247",
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.7,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.946,
+        "f1_score": 0.824
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed46",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-47.jsonl",
+      "timestamp": "2026-05-17T19:59:44.750945",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed47",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-47.jsonl",
+      "timestamp": "2026-05-17T19:59:44.752272",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed47",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-47.jsonl",
+      "timestamp": "2026-05-17T19:59:44.753194",
+      "metrics": {
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.903,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed47",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-47.jsonl",
+      "timestamp": "2026-05-17T19:59:44.763147",
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.7,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.946,
+        "f1_score": 0.824
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed47",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-48.jsonl",
+      "timestamp": "2026-05-17T19:59:44.776389",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed48",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-48.jsonl",
+      "timestamp": "2026-05-17T19:59:44.781479",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed48",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-48.jsonl",
+      "timestamp": "2026-05-17T19:59:44.782264",
+      "metrics": {
+        "true_positive": 3,
+        "false_positive": 0,
+        "false_negative": 3,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.903,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed48",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-48.jsonl",
+      "timestamp": "2026-05-17T19:59:44.788666",
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 1,
+        "false_negative": 3,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.7,
+        "specificity": 0.978,
+        "precision": 0.875,
+        "accuracy": 0.929,
+        "f1_score": 0.778
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-1925",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-8283",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-1925",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed48",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-49.jsonl",
+      "timestamp": "2026-05-17T19:59:44.803047",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed49",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-49.jsonl",
+      "timestamp": "2026-05-17T19:59:44.809161",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed49",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-49.jsonl",
+      "timestamp": "2026-05-17T19:59:44.809998",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-1925"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed49",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-49.jsonl",
+      "timestamp": "2026-05-17T19:59:44.814611",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 1,
+        "false_negative": 1,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 0.978,
+        "precision": 0.9,
+        "accuracy": 0.964,
+        "f1_score": 0.9
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-6189",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-6189",
+          "lbd-screened_E-MTAB-1194",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed49",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-50.jsonl",
+      "timestamp": "2026-05-17T19:59:44.824379",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed50",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-50.jsonl",
+      "timestamp": "2026-05-17T19:59:44.829793",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed50",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-50.jsonl",
+      "timestamp": "2026-05-17T19:59:44.830575",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 4,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.333,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.871,
+        "f1_score": 0.5
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed50",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-50.jsonl",
+      "timestamp": "2026-05-17T19:59:44.837813",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 1,
+        "false_negative": 4,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.6,
+        "specificity": 0.978,
+        "precision": 0.857,
+        "accuracy": 0.911,
+        "f1_score": 0.706
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-8283",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed50",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-51.jsonl",
+      "timestamp": "2026-05-17T19:59:44.854057",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed51",
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-51.jsonl",
+      "timestamp": "2026-05-17T19:59:44.859234",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed51",
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-51.jsonl",
+      "timestamp": "2026-05-17T19:59:44.860177",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 4,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.333,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.871,
+        "f1_score": 0.5
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed51",
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1-51.jsonl",
+      "timestamp": "2026-05-17T19:59:44.867085",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 1,
+        "false_negative": 4,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.6,
+        "specificity": 0.978,
+        "precision": 0.857,
+        "accuracy": 0.911,
+        "f1_score": 0.706
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-8283",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed51",
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "AD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:44.883201",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 1,
+        "false_negative": 1,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 0.889,
+        "precision": 0.5,
+        "accuracy": 0.818,
+        "f1_score": 0.5
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "AD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "LBD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:44.897511",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "LBD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "ALS-FTD",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:44.898608",
+      "metrics": {
+        "true_positive": 4,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.667,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.935,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": null,
+        "target_disease": "ALS-FTD"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "all-diseases",
+      "file_path": "/Users/owensun/Downloads/code/finding-datasets-with-LLMs/ArrayExpress/out-o4-mini-arrayexpress-v1.jsonl",
+      "timestamp": "2026-05-17T19:59:44.908122",
+      "metrics": {
+        "true_positive": 7,
+        "false_positive": 1,
+        "false_negative": 3,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.7,
+        "specificity": 0.978,
+        "precision": 0.875,
+        "accuracy": 0.929,
+        "f1_score": 0.778
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-8283",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "alzheimer-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-8635",
+          "als-ftd-screened_E-MTAB-1925",
+          "lbd-screened_E-MTAB-812",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-6189",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": null,
+        "target_disease": "all-diseases"
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916121",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-4.1-mini",
+          "GPT-4o-mini",
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916180",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": null,
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-4.1-mini",
+          "GPT-4o-mini",
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916215",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": null,
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-4.1-mini",
+          "GPT-4o-mini",
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": null,
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916242",
+      "metrics": {
+        "true_positive": 10,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 1.0,
+        "specificity": 0.978,
+        "precision": 0.909,
+        "accuracy": 0.982,
+        "f1_score": 0.952
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 10,
+        "trial": null,
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-4.1-mini",
+          "GPT-4o-mini",
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916285",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed43",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916367",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed43",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916399",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed43",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed43",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916526",
+      "metrics": {
+        "true_positive": 10,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 10,
+        "trial": "seed43",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916551",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed44",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916573",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed44",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916596",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed44",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed44",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916621",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 1,
+        "false_negative": 1,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 0.978,
+        "precision": 0.9,
+        "accuracy": 0.964,
+        "f1_score": 0.9
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed44",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916742",
+      "metrics": {
+        "true_positive": 1,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 0.5,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.909,
+        "f1_score": 0.667
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 2,
+        "trial": "seed45",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916820",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed45",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916847",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed45",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed45",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.916952",
+      "metrics": {
+        "true_positive": 8,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.8,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.964,
+        "f1_score": 0.889
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed45",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917046",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed46",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917089",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed46",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917122",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed46",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed46",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917148",
+      "metrics": {
+        "true_positive": 10,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 10,
+        "trial": "seed46",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917170",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 9,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed47",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917199",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed47",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917236",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed47",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed47",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917262",
+      "metrics": {
+        "true_positive": 10,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 46,
+        "total_files_evaluated": 56,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 10,
+        "trial": "seed47",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917283",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed48",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917332",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed48",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917367",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed48",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed48",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917397",
+      "metrics": {
+        "true_positive": 10,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 1.0,
+        "specificity": 0.978,
+        "precision": 0.909,
+        "accuracy": 0.982,
+        "f1_score": 0.952
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 10,
+        "trial": "seed48",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917419",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed49",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917440",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed49",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917476",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed49",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed49",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917501",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 1,
+        "false_negative": 1,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 0.978,
+        "precision": 0.9,
+        "accuracy": 0.964,
+        "f1_score": 0.9
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MEXP-2280"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed49",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917532",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed50",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917565",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed50",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917603",
+      "metrics": {
+        "true_positive": 5,
+        "false_positive": 0,
+        "false_negative": 1,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 0.833,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 0.968,
+        "f1_score": 0.909
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656"
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "total_studies_in_dataset": 6,
+        "trial": "seed50",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed50",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917628",
+      "metrics": {
+        "true_positive": 9,
+        "false_positive": 1,
+        "false_negative": 1,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 0.9,
+        "specificity": 0.978,
+        "precision": 0.9,
+        "accuracy": 0.964,
+        "f1_score": 0.9
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "total_studies_in_dataset": 10,
+        "trial": "seed50",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "AD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917664",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 8,
+        "total_files_evaluated": 11,
+        "sensitivity": 1.0,
+        "specificity": 0.889,
+        "precision": 0.667,
+        "accuracy": 0.909,
+        "f1_score": 0.8
+      },
+      "details": {
+        "identified_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "matched_studies": [
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed51",
+        "target_disease": "AD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "LBD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917688",
+      "metrics": {
+        "true_positive": 2,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 12,
+        "total_files_evaluated": 14,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 2,
+        "trial": "seed51",
+        "target_disease": "LBD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "ALS-FTD",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917725",
+      "metrics": {
+        "true_positive": 6,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_negative": 25,
+        "total_files_evaluated": 31,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "accuracy": 1.0,
+        "f1_score": 1.0
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635"
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "total_studies_in_dataset": 6,
+        "trial": "seed51",
+        "target_disease": "ALS-FTD",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    },
+    {
+      "model": "ensemble-or",
+      "version": "v1",
+      "trial": "seed51",
+      "target_disease": "all-diseases",
+      "file_path": "ensemble",
+      "timestamp": "2026-05-17T19:59:44.917750",
+      "metrics": {
+        "true_positive": 10,
+        "false_positive": 1,
+        "false_negative": 0,
+        "true_negative": 45,
+        "total_files_evaluated": 56,
+        "sensitivity": 1.0,
+        "specificity": 0.978,
+        "precision": 0.909,
+        "accuracy": 0.982,
+        "f1_score": 0.952
+      },
+      "details": {
+        "identified_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "alzheimer-screened_E-MTAB-8283",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "matched_studies": [
+          "als-ftd-screened_E-MEXP-2280",
+          "als-ftd-screened_E-MTAB-1925",
+          "als-ftd-screened_E-MTAB-2325",
+          "als-ftd-screened_E-MTAB-6189",
+          "als-ftd-screened_E-MTAB-656",
+          "als-ftd-screened_E-MTAB-8635",
+          "alzheimer-screened_E-MEXP-2280",
+          "alzheimer-screened_E-MTAB-656",
+          "lbd-screened_E-MTAB-1194",
+          "lbd-screened_E-MTAB-812"
+        ],
+        "false_positives": [
+          "alzheimer-screened_E-MTAB-8283"
+        ],
+        "false_negatives": [],
+        "total_studies_in_dataset": 10,
+        "trial": "seed51",
+        "target_disease": "all-diseases",
+        "constituent_models": [
+          "GPT-5-mini",
+          "o4-mini"
+        ]
+      }
+    }
+  ]
+}

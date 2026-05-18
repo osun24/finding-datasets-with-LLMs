@@ -451,9 +451,9 @@ def monitor_batch(batch_id: str, output_prefix: Path) -> None:
 
 def main() -> int:
     # gpt-5-mini; o4-mini; gpt-4.1-mini; gpt-4o-mini
-    model = "gpt-4o-mini"
+    model = "o4-mini"
     verbose_prompts = False
-    replication = False
+    replication = True
 
     reasoning = model in {"o4-mini", "gpt-5-mini"}
     base_name = f"{model}-arrayexpress-{PROMPT_VERSION}"
