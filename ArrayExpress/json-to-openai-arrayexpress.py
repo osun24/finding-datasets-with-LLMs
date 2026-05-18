@@ -26,10 +26,6 @@ SOURCE_LIST_TARGETS = {
     "als-ftd-screened": "ALS-FTD",
 }
 
-# Diseases for which familial cases are an exclusion criterion. ALS-FTD is
-# omitted because familial ALS-FTD datasets are eligible for inclusion.
-# “excluded familial AD and LBD datasets to increase data homogeneity” — Noori et al. 2021
-# Schema name slugs (lowercase, no special chars) for the response_format `name` field.
 RESPONSE_FORMAT_NAME_SLUG = {
     "AD": "ad",
     "LBD": "lbd",
@@ -44,7 +40,7 @@ DISEASE_YES_NO_QUESTIONS = {
     "AD": [
         "human_microarray_expression_profiling",
         "target_disease",
-        "human_brain_tissue",
+        "human_cns_tissue",
         "non_clinical",
         "case_control_design",
         "irrelevant_brain_region",
@@ -55,7 +51,7 @@ DISEASE_YES_NO_QUESTIONS = {
     "LBD": [
         "human_microarray_expression_profiling",
         "target_disease",
-        "human_brain_tissue",
+        "human_cns_tissue",
         "non_clinical",
         "case_control_design",
         "irrelevant_brain_region",
@@ -65,7 +61,7 @@ DISEASE_YES_NO_QUESTIONS = {
     "ALS-FTD": [
         "human_microarray_expression_profiling",
         "target_disease",
-        "human_brain_tissue",
+        "human_cns_tissue",
         "non_clinical",
         "case_control_design",
         "irrelevant_brain_region",
@@ -140,8 +136,7 @@ def make_response_format(target_disease: str) -> dict:
         "json_schema": {
             "name": f"arrayexpress_{slug}_dataset_screening",
             "description": (
-                f"Structured screening decision for ArrayExpress microarray datasets "
-                f"in a {target_disease} screen."
+                f"Structured screening decision targeting {target_disease} for ArrayExpress microarray datasets."
             ),
             "schema": make_output_schema(target_disease),
             "strict": True,
@@ -183,7 +178,7 @@ def build_prompt_ad(context_text: str) -> tuple[str, str]:
         "Let's think step by step and answer the following questions, matching the JSON schema keys:\n"
         "\t1.\tq1_human_microarray_expression_profiling: Is the dataset about human microarray expression profiling? If so, please justify.\n"
         "\t2.\tq2_target_disease: Does the dataset pertain to Alzheimer's disease (AD)? If so, please justify.\n"
-        "\t3.\tq3_human_brain_tissue: Does the dataset involve samples from human brain/CNS tissue? If so, please justify.\n"
+        "\t3.\tq3_human_cns_tissue: Does the dataset involve samples from human brain/CNS tissue? If so, please justify.\n"
         "\t4.\tq4_non_clinical: Does the dataset involve patient-derived in vitro cell lines or disease models? If so, please justify.\n"
         "\t5.\tq5_case_control_design: Does the dataset have a case/control study design? If so, please justify.\n"
         "\t6.\tq6_irrelevant_brain_region: Does the dataset involve brain regions not significantly affected by AD neurodegeneration (e.g., cerebellum)? If so, please justify.\n"
@@ -220,7 +215,7 @@ def build_prompt_lbd(context_text: str) -> tuple[str, str]:
         "Let's think step by step and answer the following questions, matching the JSON schema keys:\n"
         "\t1.\tq1_human_microarray_expression_profiling: Is the dataset about human microarray expression profiling? If so, please justify.\n"
         "\t2.\tq2_target_disease: Does the dataset pertain to Lewy body diseases (LBD)? If so, please justify.\n"
-        "\t3.\tq3_human_brain_tissue: Does the dataset involve samples from human brain/CNS tissue? If so, please justify.\n"
+        "\t3.\tq3_human_cns_tissue: Does the dataset involve samples from human brain/CNS tissue? If so, please justify.\n"
         "\t4.\tq4_non_clinical: Does the dataset involve patient-derived in vitro cell lines or disease models? If so, please justify.\n"
         "\t5.\tq5_case_control_design: Does the dataset have a case/control study design? If so, please justify.\n"
         "\t6.\tq6_irrelevant_brain_region: Does the dataset involve brain regions not significantly affected by LBD neurodegeneration? If so, please justify.\n"
@@ -256,7 +251,7 @@ def build_prompt_als_ftd(context_text: str) -> tuple[str, str]:
         "Let's think step by step and answer the following questions, matching the JSON schema keys:\n"
         "\t1.\tq1_human_microarray_expression_profiling: Is the dataset about human microarray expression profiling? If so, please justify.\n"
         "\t2.\tq2_target_disease: Does the dataset pertain to amyotrophic lateral sclerosis-frontotemporal dementia (ALS-FTD)? If so, please justify.\n"
-        "\t3.\tq3_human_brain_tissue: Does the dataset involve samples from human brain/CNS tissue? If so, please justify.\n"
+        "\t3.\tq3_human_cns_tissue: Does the dataset involve samples from human brain/CNS tissue? If so, please justify.\n"
         "\t4.\tq4_non_clinical: Does the dataset involve patient-derived in vitro cell lines or disease models? If so, please justify.\n"
         "\t5.\tq5_case_control_design: Does the dataset have a case/control study design? If so, please justify.\n"
         "\t6.\tq6_irrelevant_brain_region: Does the dataset involve brain regions not significantly affected by ALS-FTD neurodegeneration? If so, please justify.\n"
@@ -456,12 +451,12 @@ def monitor_batch(batch_id: str, output_prefix: Path) -> None:
 
 def main() -> int:
     # gpt-5-mini; o4-mini; gpt-4.1-mini; gpt-4o-mini
-    model = "o4-mini"
+    model = "gpt-4o-mini"
     verbose_prompts = False
-    replication = True
+    replication = False
 
-    reasoning = model == "o4-mini"
-    base_name = f"{model}-arrayexpress-neurodegeneration-{PROMPT_VERSION}"
+    reasoning = model in {"o4-mini", "gpt-5-mini"}
+    base_name = f"{model}-arrayexpress-{PROMPT_VERSION}"
 
     verify_schema_matches_prompt()
 
