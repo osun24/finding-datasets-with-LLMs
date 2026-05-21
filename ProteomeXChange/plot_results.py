@@ -451,7 +451,7 @@ def create_confusion_matrix_plots_by_version(data):
                         xticklabels=['Predicted Negative', 'Predicted Positive'],
                         yticklabels=['Actual Negative', 'Actual Positive'],
                         ax=axes[idx], cbar_ax=cbar_axes[idx],
-                        annot_kws={'size': 18, 'va': 'center'})
+                        annot_kws={'size': 24, 'va': 'center'})
 
             axes[idx].tick_params(axis='both', which='major', labelsize=18)
             axes[idx].set_title(f'{model} (n={trial_count})', fontsize=16, fontweight='bold')

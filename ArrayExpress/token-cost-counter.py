@@ -1,15 +1,15 @@
 """
-Count input/output tokens and costs for runs in model_performance_summary.csv.
+Count input/output tokens and costs for ArrayExpress model_performance_summary.csv.
 
-The ProteomeXChange summary now includes prompt-set, test-set, and combined
-rows. Split rows are costed from their own output JSONL file; combined rows sum
-the prompt/test files listed as combined:<prompt_file>+<test_file>.
+ArrayExpress performance rows are target-disease specific. The batch output file
+can contain AD, LBD, and ALS-FTD requests together, so disease rows are costed by
+filtering JSONL records by custom_id prefix; all-diseases rows use the full file.
 """
 
 import csv
 import json
 from pathlib import Path
-from typing import Dict, Iterable, List, Tuple
+from typing import Callable, Dict, Iterable, List, Optional, Tuple
 
 try:
     import tiktoken
@@ -39,6 +39,12 @@ PRICING_PER_MILLION: Dict[str, Dict[str, float]] = {
     "o4-mini": {"input": 0.55, "output": 2.2},
 }
 
+SOURCE_LIST_BY_TARGET = {
+    "AD": "alzheimer-screened",
+    "LBD": "lbd-screened",
+    "ALS-FTD": "als-ftd-screened",
+}
+
 
 def safe_encoding(model_name: str):
     """Return a tiktoken encoding for the given model, falling back to cl100k_base."""
@@ -51,7 +57,7 @@ def safe_encoding(model_name: str):
 
 
 def count_message_tokens(messages, encoding) -> int:
-    """Count tokens for a list of chat messages, matching json-to-openai-proteom.py."""
+    """Count tokens for a list of chat messages, matching json-to-openai-arrayexpress.py."""
     total = 0
     for message in messages or []:
         total += len(encoding.encode(message.get("role", "")))
@@ -90,7 +96,24 @@ def expand_file_spec(file_spec: str, base_dir: Path) -> List[Path]:
     return [resolve_file_path(spec, base_dir)] if spec else []
 
 
-def iter_successful_bodies(output_paths: Iterable[Path]):
+def target_record_filter(target_disease: str) -> Optional[Callable[[dict], bool]]:
+    target = clean_cell(target_disease)
+    if not target or target == "all-diseases":
+        return None
+
+    source_list = SOURCE_LIST_BY_TARGET.get(target)
+    if not source_list:
+        print(f"Unknown target disease '{target}'. Counting the full output file.")
+        return None
+
+    prefix = f"{source_list}_"
+    return lambda record: clean_cell(record.get("custom_id")).startswith(prefix)
+
+
+def iter_successful_bodies(
+    output_paths: Iterable[Path],
+    record_filter: Optional[Callable[[dict], bool]] = None,
+):
     for output_path in output_paths:
         with output_path.open("r", encoding="utf-8") as handle:
             for line in handle:
@@ -101,13 +124,20 @@ def iter_successful_bodies(output_paths: Iterable[Path]):
                 except json.JSONDecodeError:
                     continue
 
+                if record_filter and not record_filter(record):
+                    continue
+
                 response = record.get("response")
                 if not response or response.get("error") or response.get("status_code") != 200:
                     continue
                 yield response.get("body", {})
 
 
-def summarize_tokens(output_paths: Iterable[Path], default_model: str) -> Tuple[int, int]:
+def summarize_tokens(
+    output_paths: Iterable[Path],
+    default_model: str,
+    record_filter: Optional[Callable[[dict], bool]] = None,
+) -> Tuple[int, int]:
     """
     Return total (input_tokens, output_tokens) for one or more batch outputs.
     API usage counts are preferred so output cost includes reasoning tokens.
@@ -122,7 +152,7 @@ def summarize_tokens(output_paths: Iterable[Path], default_model: str) -> Tuple[
             encodings[key] = safe_encoding(key)
         return encodings[key]
 
-    for body in iter_successful_bodies(output_paths):
+    for body in iter_successful_bodies(output_paths, record_filter):
         usage = body.get("usage", {})
         prompt_tokens = usage.get("prompt_tokens")
         completion_tokens = usage.get("completion_tokens")
@@ -161,6 +191,7 @@ def main():
         version = clean_cell(row.get("Version"))
         trial = clean_cell(row.get("Trial"))
         split = clean_cell(row.get("Split"))
+        target_disease = clean_cell(row.get("Target_Disease"))
         file_name = clean_cell(row.get("File"))
 
         if model == "ensemble-or" or file_name == "ensemble" or split == "combined-prompt-test":
@@ -170,11 +201,19 @@ def main():
         missing_paths = [path for path in file_paths if not path.exists()]
         if not file_paths or missing_paths:
             missing = ", ".join(str(path) for path in missing_paths) or file_name
-            print(f"Skipping {model} {version} {trial} {split}: file not found: {missing}")
+            print(
+                f"Skipping {model} {version} {trial} {target_disease}: "
+                f"file not found: {missing}"
+            )
             continue
 
         model_key = normalize_model_name(model)
-        prompt_tokens, completion_tokens = summarize_tokens(file_paths, model_key)
+        record_filter = target_record_filter(target_disease)
+        prompt_tokens, completion_tokens = summarize_tokens(
+            file_paths,
+            model_key,
+            record_filter,
+        )
 
         pricing = PRICING_PER_MILLION.get(model_key)
         if not pricing:
@@ -190,6 +229,7 @@ def main():
                 "version": version,
                 "trial": trial,
                 "split": split,
+                "target_disease": target_disease,
                 "input_tokens": prompt_tokens,
                 "output_tokens": completion_tokens,
                 "input_cost": round(input_cost, 4),
@@ -203,6 +243,7 @@ def main():
         "version",
         "trial",
         "split",
+        "target_disease",
         "input_tokens",
         "output_tokens",
         "input_cost",

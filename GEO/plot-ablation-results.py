@@ -37,6 +37,17 @@ MODEL_COLORS = {
 RATE_METRICS = ["sensitivity", "specificity", "precision", "accuracy", "f1_score"]
 COUNT_METRICS = ["true_positive", "false_positive", "true_negative", "false_negative"]
 ALL_METRICS = RATE_METRICS + COUNT_METRICS
+METRIC_DECIMALS = {
+    "sensitivity": 3,
+    "specificity": 3,
+    "precision": 3,
+    "accuracy": 3,
+    "f1_score": 3,
+    "true_positive": 1,
+    "false_positive": 1,
+    "true_negative": 1,
+    "false_negative": 1,
+}
 METRIC_TITLES = {
     "sensitivity": "A. Sensitivity",
     "specificity": "B. Specificity",
@@ -136,6 +147,34 @@ def yerr_from_summary(summary):
     if np.isnan(median) or np.isnan(lower) or np.isnan(upper) or lower == upper:
         return None
     return [[median - lower], [upper - median]]
+
+
+def format_metric_value(summary, include_range, decimals=3):
+    """Format a metric using its median and optional min-max range."""
+    if not summary:
+        return "-"
+
+    median = summary.get("median")
+    if median is None or pd.isna(median):
+        return "-"
+
+    lower = summary.get("min", median)
+    upper = summary.get("max", median)
+
+    def _fmt(value, precision):
+        if value is None or pd.isna(value):
+            return "-"
+        if abs(value - round(value)) < 10 ** (-(precision + 1)):
+            return f"{int(round(value))}"
+        return f"{value:.{precision}f}"
+
+    median_fmt = _fmt(median, decimals)
+    lower_fmt = _fmt(lower, decimals)
+    upper_fmt = _fmt(upper, decimals)
+
+    if include_range:
+        return f"{median_fmt}\n({lower_fmt}-{upper_fmt})"
+    return median_fmt
 
 
 def create_metric_panel(grouped, metadata):
@@ -471,13 +510,13 @@ def create_confusion_matrix_panel(grouped):
                 fmt="",
                 cmap="Blues",
                 cbar=False,
-                xticklabels=["Pred Neg", "Pred Pos"],
-                yticklabels=["Actual Neg", "Actual Pos"],
+                xticklabels=["Predicted Negative", "Predicted Positive"],
+                yticklabels=["Actual Negative", "Actual Positive"],
                 ax=ax,
-                annot_kws={"size": 12, "va": "center"},
+                annot_kws={"size": 24, "va": "center"},
             )
             title = INPUT_CONFIG_LABELS.get(input_config, input_config).replace("\n", " ")
-            ax.set_title(f"{title}\ntrials={entry['trial_count']}", fontsize=12)
+            ax.set_title(f"{title}\n(trials={entry['trial_count']})", fontsize=12)
             ax.tick_params(axis="both", which="major", labelsize=10)
             if col_index == 0:
                 ax.set_ylabel(model, fontsize=13, fontweight="bold")
@@ -503,32 +542,78 @@ def create_summary_table(grouped):
         ),
     ):
         entry = grouped[(model, input_config)]
-        row = {
-            "model": model,
-            "input_config": input_config,
-            "trials": entry["trial_count"],
-        }
-        for metric in ALL_METRICS:
-            summary = entry["summary"].get(metric)
-            if not summary:
-                continue
-            row[f"{metric}_median"] = summary["median"]
-            row[f"{metric}_min"] = summary["min"]
-            row[f"{metric}_max"] = summary["max"]
+        include_range = entry.get("trial_count", 1) > 1
+        row = [
+            model,
+            input_config,
+            entry["trial_count"],
+            format_metric_value(
+                entry["summary"].get("sensitivity"),
+                include_range,
+                METRIC_DECIMALS["sensitivity"],
+            ),
+            format_metric_value(
+                entry["summary"].get("specificity"),
+                include_range,
+                METRIC_DECIMALS["specificity"],
+            ),
+            format_metric_value(
+                entry["summary"].get("precision"),
+                include_range,
+                METRIC_DECIMALS["precision"],
+            ),
+            format_metric_value(
+                entry["summary"].get("accuracy"),
+                include_range,
+                METRIC_DECIMALS["accuracy"],
+            ),
+            format_metric_value(
+                entry["summary"].get("f1_score"),
+                include_range,
+                METRIC_DECIMALS["f1_score"],
+            ),
+            format_metric_value(
+                entry["summary"].get("true_positive"),
+                include_range,
+                METRIC_DECIMALS["true_positive"],
+            ),
+            format_metric_value(
+                entry["summary"].get("false_positive"),
+                include_range,
+                METRIC_DECIMALS["false_positive"],
+            ),
+            format_metric_value(
+                entry["summary"].get("true_negative"),
+                include_range,
+                METRIC_DECIMALS["true_negative"],
+            ),
+            format_metric_value(
+                entry["summary"].get("false_negative"),
+                include_range,
+                METRIC_DECIMALS["false_negative"],
+            ),
+        ]
+        rows.append([str(item) for item in row])
 
-        baseline = grouped.get((model, "title_description_clinical"))
-        if baseline and input_config != "title_description_clinical":
-            for metric in RATE_METRICS:
-                current = entry["summary"].get(metric)
-                full = baseline["summary"].get(metric)
-                if current and full:
-                    row[f"delta_{metric}_vs_full"] = (
-                        current["median"] - full["median"]
-                    )
+    col_labels = [
+        "Model",
+        "Input Configuration",
+        "Trials",
+        "Sensitivity",
+        "Specificity",
+        "Precision",
+        "Accuracy",
+        "F1 Score",
+        "TP",
+        "FP",
+        "TN",
+        "FN",
+    ]
 
-        rows.append(row)
+    if not rows:
+        return pd.DataFrame(columns=col_labels)
 
-    return pd.DataFrame(rows)
+    return pd.DataFrame(rows, columns=col_labels)
 
 
 def print_insights(grouped):
