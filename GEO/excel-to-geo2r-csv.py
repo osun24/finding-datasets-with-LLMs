@@ -61,8 +61,8 @@ def collect_data_for_url(driver, accession_id, platform):
             return pd.DataFrame(data, columns=headers)  # Return a DataFrame
     return None
 
+# Create a Chrome WebDriver compatible with headless/Linux environments.
 def _create_driver():
-    """Create a Chrome WebDriver compatible with headless/Linux environments."""
     options = Options()
     options.add_argument("--headless=new")       # headless mode (works on Linux servers)
     options.add_argument("--no-sandbox")          # required when running as root / in containers
@@ -83,7 +83,7 @@ def process_geo_data(input_file):
     os.makedirs(output_folder, exist_ok=True)
 
     no_platform_file = os.path.join(output_folder, 'no_platforms.txt')
-    driver = webdriver.Chrome()  # Ensure ChromeDriver is installed and in PATH
+    driver = _create_driver()  # Ensure ChromeDriver is installed and in PATH
     
     no_data_file = os.path.join(output_folder, 'no_data.txt')
     
