@@ -1,12 +1,20 @@
 import pandas as pd
 import os, time
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import UnexpectedAlertPresentException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import UnexpectedAlertPresentException, NoAlertPresentException, TimeoutException
+
+try:
+    from webdriver_manager.chrome import ChromeDriverManager
+    _use_manager = True
+except ImportError:
+    _use_manager = False
 
 error_log_file = "error_log.txt"
 no_data = []
@@ -53,6 +61,21 @@ def collect_data_for_url(driver, accession_id, platform):
             return pd.DataFrame(data, columns=headers)  # Return a DataFrame
     return None
 
+# Create a Chrome WebDriver compatible with headless/Linux environments.
+def _create_driver():
+    options = Options()
+    options.add_argument("--headless=new")       # headless mode (works on Linux servers)
+    options.add_argument("--no-sandbox")          # required when running as root / in containers
+    options.add_argument("--disable-dev-shm-usage")  # avoid /dev/shm size issues in Docker/CI
+    options.add_argument("--disable-gpu")
+    options.add_argument("--window-size=1920,1080")
+ 
+    if _use_manager:
+        service = Service(ChromeDriverManager().install())
+        return webdriver.Chrome(service=service, options=options)
+    else:
+        return webdriver.Chrome(options=options)
+
 # Main data processing function
 def process_geo_data(input_file):
     data = pd.read_excel(input_file, sheet_name='Sheet1')
@@ -60,7 +83,7 @@ def process_geo_data(input_file):
     os.makedirs(output_folder, exist_ok=True)
 
     no_platform_file = os.path.join(output_folder, 'no_platforms.txt')
-    driver = webdriver.Chrome()  # Ensure ChromeDriver is installed and in PATH
+    driver = _create_driver()  # Ensure ChromeDriver is installed and in PATH
     
     no_data_file = os.path.join(output_folder, 'no_data.txt')
     
