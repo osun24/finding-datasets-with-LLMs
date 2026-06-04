@@ -61,20 +61,80 @@ def collect_data_for_url(driver, accession_id, platform):
             return pd.DataFrame(data, columns=headers)  # Return a DataFrame
     return None
 
-# Create a Chrome WebDriver compatible with headless/Linux environments.
+# Locate the Chrome or Chromium binary across macOS, Linux, and Windows.
+def _find_chrome_binary():
+    import shutil, platform
+    candidates = []
+    system = platform.system()
+    if system == "Darwin":
+        candidates = [
+            "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            "/Applications/Chromium.app/Contents/MacOS/Chromium",
+        ]
+    elif system == "Linux":
+        candidates = [
+            "/usr/bin/google-chrome",
+            "/usr/bin/google-chrome-stable",
+            "/usr/bin/chromium",
+            "/usr/bin/chromium-browser",
+            "/snap/bin/chromium",
+        ]
+    elif system == "Windows":
+        candidates = [
+            os.path.join(os.environ.get("PROGRAMFILES", "C:\\Program Files"), "Google\\Chrome\\Application\\chrome.exe"),
+            os.path.join(os.environ.get("PROGRAMFILES(X86)", "C:\\Program Files (x86)"), "Google\\Chrome\\Application\\chrome.exe"),
+            os.path.join(os.environ.get("LOCALAPPDATA", ""), "Google\\Chrome\\Application\\chrome.exe"),
+        ]
+    
+    # Also check PATH for chromium / google-chrome
+    for name in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser"):
+        found = shutil.which(name)
+        if found:
+            candidates.insert(0, found)
+    for path in candidates:
+        if path and os.path.exists(path):
+            return path
+    return None  # Let Selenium try to find it on its own
+
+def _find_chromedriver_binary():
+    """Find a system-installed chromedriver binary (e.g. installed via apt in Docker)."""
+    import shutil
+    for name in ("chromedriver", "chromium-driver", "chromium.chromedriver"):
+        found = shutil.which(name)
+        if found:
+            return found
+    for path in ("/usr/bin/chromedriver", "/usr/lib/chromium/chromedriver",
+                 "/usr/lib/chromium-browser/chromedriver"):
+        if os.path.exists(path):
+            return path
+    return None
+
+# Helper Function to create a Chrome WebDriver compatible with headless/Linux environments.
 def _create_driver():
     options = Options()
-    options.add_argument("--headless=new")       # headless mode (works on Linux servers)
-    options.add_argument("--no-sandbox")          # required when running as root / in containers
-    options.add_argument("--disable-dev-shm-usage")  # avoid /dev/shm size issues in Docker/CI
+    options.add_argument("--headless=new")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
- 
+
+    binary = _find_chrome_binary()
+    if binary:
+        print(f"Using Chrome binary: {binary}")
+        options.binary_location = binary
+
+    # Prefer system chromedriver (already matched to installed Chromium, e.g. in Docker)
+    system_driver = _find_chromedriver_binary()
+    if system_driver:
+        print(f"Using system ChromeDriver: {system_driver}")
+        return webdriver.Chrome(service=Service(system_driver), options=options)
+
+    # Fall back to webdriver-manager (downloads matching driver — works on macOS/Windows)
     if _use_manager:
         service = Service(ChromeDriverManager().install())
         return webdriver.Chrome(service=service, options=options)
-    else:
-        return webdriver.Chrome(options=options)
+
+    return webdriver.Chrome(options=options)
 
 # Main data processing function
 def process_geo_data(input_file):

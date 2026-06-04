@@ -5,6 +5,7 @@ openai
 tiktoken
 python-dotenv
 selenium
+webdriver-manager
 beautifulsoup4
 requests
 matplotlib
