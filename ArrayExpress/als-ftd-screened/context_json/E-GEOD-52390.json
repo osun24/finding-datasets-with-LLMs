@@ -1,0 +1,98 @@
+{
+  "Accession": "E-GEOD-52390",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "94"
+    ],
+    "Sample count": [
+      "94"
+    ]
+  },
+  "Description": "We used the Infinium HumanHT-12 platform to profile gene expression in 79 primary, untreated high-grade soft tissue sarcomas, representing eight relevant subtypes, two non-neoplastic fat samples and 13 representative sarcoma cell lines. Marcus, Renner",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "TUMOR CELL LINE": [
+          "HT1080",
+          "MLS1765",
+          "MLS402",
+          "SW872",
+          "FU-DDLS-1",
+          "T778",
+          "T449",
+          "STS26T",
+          "HS-SY-II",
+          "Fuji",
+          "SYO-1",
+          "1273",
+          "CME",
+          "not specified"
+        ],
+        "Tumor cell line": [
+          "MLS402",
+          "HS-SY-II",
+          "HT1080",
+          "STS26T",
+          "not specified",
+          "SW872",
+          "1273",
+          "CME",
+          "FU-DDLS-1",
+          "T449",
+          "MLS1765",
+          "SYO-1",
+          "T778",
+          "Fuji"
+        ],
+        "tumor cell line": [
+          "HT1080",
+          "MLS1765",
+          "MLS402",
+          "SW872",
+          "FU-DDLS-1",
+          "T778",
+          "T449",
+          "STS26T",
+          "HS-SY-II",
+          "Fuji",
+          "SYO-1",
+          "1273",
+          "CME"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {},
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "SARCOMA SUBTYPE",
+        "TUMOR CELL LINE",
+        "AGE YRS",
+        "SEX"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Integrative DNA methylation and gene expression analysis in high-grade soft tissue sarcomas [gene expression]"
+}

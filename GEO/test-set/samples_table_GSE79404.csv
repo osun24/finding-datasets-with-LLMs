@@ -1,0 +1,27 @@
+# TITLE: Lectin-type oxidized LDL receptor 1 defines population of polymorphonuclear myeloid-derived suppressor cells in cancer patients
+# SUMMARY: Polymorphonuclear myeloid-derived suppressor cells (PMN-MDSC) are important regulators of immune responses and promoters of tumor progression in cancer1,2. The heterogeneity of these cells as well as their distinction from neutrophils hampers the progress in understanding of the biology and clinical significance of these cells. PMN-MDSC had a distinct gene signature from neutrophils isolated from the same patients with most prominent changes in genes associated with endoplasmic reticulum (ER) stress response. Surprisingly, low-density lipoprotein (LDL) was one of the most enriched gene regulators and oxidized LDL receptor 1 (OLR1) was one of the most overexpressed genes in PMN-MDSC. Lectin-type oxidized LDL receptor 1 (LOX-1) encoded by OLR1 was expressed in only 0.7% of neutrophils in peripheral blood of healthy donors, whereas 5-15% of neutrophils in cancer patients and 15-50% of neutrophils in tumor tissues were LOX-1+. In contrast to their LOX-1- counterparts, LOX-1+ neutrophils had gene signature, biochemical and functional characteristics of PMN-MDSC. Induction of ER stress in neutrophils from healthy donors up-regulated LOX-1 expression and converted these cells to suppressive PMN-MDSC. Thus, PMN-MDSC have distinct gene signature and LOX-1 can define this population of cells, which may provide new insight to the biology and clinical evaluation of these cells.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Selection,GPL10558_Cancer,GPL10558_Subject id
+-,GSM2094831,PMN.hd.1,PMN cells from healthy donors,PMN,heathy donor,PMN.hd.1
+-,GSM2094832,PMN.hd.2,PMN cells from healthy donors,PMN,heathy donor,PMN.hd.2
+-,GSM2094833,PMN.hd.3,PMN cells from healthy donors,PMN,heathy donor,PMN.hd.3
+-,GSM2094834,PMN.hd.4,PMN cells from healthy donors,PMN,heathy donor,PMN.hd.4
+-,GSM2094835,PMN.HNC.4,PMN cells from Head and Neck cancer patient,PMN,head and neck cancer,PMN.HNC.4
+-,GSM2094836,PMN.HNC.5,PMN cells from Head and Neck cancer patient,PMN,head and neck cancer,PMN.HNC.5
+-,GSM2094837,PMN.HNC.6,PMN cells from Head and Neck cancer patient,PMN,head and neck cancer,PMN.HNC.6
+-,GSM2094838,PMN.HNC.7,PMN cells from Head and Neck cancer patient,PMN,head and neck cancer,PMN.HNC.7
+-,GSM2094839,PMN.NSCLC.2,PMN cells from Lung cancer patient,PMN,non-small cell lung cancer,PMN.NSCLC.2
+-,GSM2094840,PMN.NSCLC.3,PMN cells from Lung cancer patient,PMN,non-small cell lung cancer,PMN.NSCLC.3
+-,GSM2094841,PMN-MDSC.HNC.4,PMN-MDSC cells from Head and Neck cancer patient,PMN-MDSC,head and neck cancer,PMN.HNC.4
+-,GSM2094842,PMN-MDSC.HNC.5,PMN-MDSC cells from Head and Neck cancer patient,PMN-MDSC,head and neck cancer,PMN.HNC.5
+-,GSM2094843,PMN-MDSC.HNC.6,PMN-MDSC cells from Head and Neck cancer patient,PMN-MDSC,head and neck cancer,PMN.HNC.6
+-,GSM2094844,PMN-MDSC.HNC.7,PMN-MDSC cells from Head and Neck cancer patient,PMN-MDSC,head and neck cancer,PMN.HNC.7
+-,GSM2094845,PMN-MDSC.NSCLC.2,PMN-MDSC cells from Lung cancer patient,PMN-MDSC,non-small cell lung cancer,PMN.NSCLC.2
+-,GSM2094846,PMN-MDSC.NSCLC.3,PMN-MDSC cells from Lung cancer patient,PMN-MDSC,non-small cell lung cancer,PMN.NSCLC.3
+-,GSM2094847,LOX1-.NSCLC.1,LOX1- cells from Lung cancer patient,LOX1-,non-small cell lung cancer,LOX.NSCLC.1
+-,GSM2094848,LOX1-.NSCLC.2,LOX1- cells from Lung cancer patient,LOX1-,non-small cell lung cancer,LOX.NSCLC.2
+-,GSM2094849,LOX1-.CC.1,LOX1- cells from Colon cancer patient,LOX1-,colon cancer,LOX.CC.1
+-,GSM2094850,LOX1-.CC.2,LOX1- cells from Colon cancer patient,LOX1-,colon cancer,LOX.CC.2
+-,GSM2094851,LOX1+.NSCLC.1,LOX1+ cells from Lung cancer patient,LOX1+,non-small cell lung cancer,LOX.NSCLC.1
+-,GSM2094852,LOX1+.NSCLC.2,LOX1+ cells from Lung cancer patient,LOX1+,non-small cell lung cancer,LOX.NSCLC.2
+-,GSM2094853,LOX1+.CC.1,LOX1+ cells from Colon cancer patient,LOX1+,colon cancer,LOX.CC.1
+-,GSM2094854,LOX1+.CC.2,LOX1+ cells from Colon cancer patient,LOX1+,colon cancer,LOX.CC.2

@@ -1,0 +1,7 @@
+# TITLE: Establishment of Afatinib-Resistant Non-Small Cell Lung Cancer Cells Derived from Tumor Xenograft Model [No treatment]
+# SUMMARY: This experiment aimed to indentify signifcant expression genes in afatinib-resistant HCC827 cell lines. The nude mice bearing subcutaneous tumors were administerd with afatinib at different intensities and dosages (5–100 mg/kg). Finally, well-growing tumors were harvested and dissocciated by 450 units/ml collagenase IV and maintained in culture dishs. All the gene expression profiles of resistant cell lines were comapared to parental HCC827 cell.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Tissue,GPL10558_Cell line origin
+-,GSM1955567,Parental HCC827,parental cell,parental HCC827 NSCLC cell line,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955568,BR42,afatinib resistant,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955569,BR16-1,afatinib resistant,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955570,BR16-2,afatinib resistant,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female

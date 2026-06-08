@@ -1,0 +1,66 @@
+# TITLE: Human cancer cell lines
+# SUMMARY: We used cDNA microarrays to explore the variation in expression of approximately 8,000 unique genes among the 60 cell lines used in the National Cancer Institute's screen for anti-cancer drugs. Classification of the cell lines based solely on the observed patterns of gene expression revealed a correspondence to the ostensible origins of the tumors from which the cell lines were derived. The consistent relationship between the gene expression patterns and the tissue of origin allowed us to recognize outliers whose previous classification appeared incorrect. Specific features of the gene expression patterns appeared to be related to physiological properties of the cell lines, such as their doubling time in culture, drug metabolism or the interferon response. Comparison of gene expression patterns in the cell lines to those observed in normal breast tissue or in breast tumor specimens revealed features of the expression patterns in the tumors that had recognizable counterparts in specific cell lines, reflecting the tumor, stromal and inflammatory components of the tumor tissue. These results provided a novel molecular characterization of this important group of human cell lines and their relationships to tumors in vivo. This study is described more fully in Ross DT et al.(2000) Nat Genet 24:227-35 Keywords: other
+GPL169_Group,GPL169_Accession,GPL169_Title,GPL169_Source name 1,GPL169_Source name 2,GPL167_Group,GPL167_Accession,GPL167_Title,GPL167_Source name 1,GPL167_Source name 2
+-,GSM2170,LOXIMVI (CL10001) MELANOMA,Reference Pool,LOXIMVI (CL10001) MELANOMA,-,GSM2089,COLO205_CL4010_COLON,Reference_Pool,COLO205_CL4010_COLON
+-,GSM2171,PC-3 (CL11001) PROSTATE,Reference Pool,PC-3 (CL11001) PROSTATE,-,GSM2090,SNB-19_CL12002_CNS,Reference_Pool,SNB-19_CL12002_CNS
+-,GSM2172,K-562 (CL7005) LEUKEMIA,Reference Pool,K-562 (CL7005) LEUKEMIA,-,GSM2091,UACC-62_CL10020_MELANOMA,Reference_Pool,UACC-62_CL10020_MELANOMA
+-,GSM2173,HL-60 (CL7008) LEUKEMIA,Reference Pool,HL-60 (CL7008) LEUKEMIA,-,GSM2092,MOLT-4_CL7006_LEUKEMIA,Reference_Pool,MOLT-4_CL7006_LEUKEMIA
+-,GSM2174,OVCAR-4 (CL6002) OVARIAN,Reference Pool,OVCAR-4 (CL6002) OVARIAN,-,GSM2093,ACHN_CL9023_RENAL,Reference_Pool,ACHN_CL9023_RENAL
+,,,,,-,GSM2094,SK-MEL-5_CL10007_MELANOMA,Reference_Pool,SK-MEL-5_CL10007_MELANOMA
+,,,,,-,GSM2095,MDA-MB-435_CL5011__BREAST,Reference_Pool,MDA-MB-435_CL5011__BREAST
+,,,,,-,GSM2096,MDA-N_CL5012__BREAST,Reference_Pool,MDA-N_CL5012__BREAST
+,,,,,-,GSM2097,SN12C_CL9008__RENAL,Reference_Pool,SN12C_CL9008__RENAL
+,,,,,-,GSM2098,T-47D__CL5014__BREAST,Reference_Pool,T-47D__CL5014__BREAST
+,,,,,-,GSM2099,ADR-RES_CL5002_UNKNOWN,Reference_Pool,ADR-RES_CL5002_UNKNOWN
+,,,,,-,GSM2100,RXF-393_CL9016__RENAL,Reference_Pool,RXF-393_CL9016__RENAL
+,,,,,-,GSM2101,NCI-H522_CL1003__NSCLC,Reference_Pool,NCI-H522_CL1003__NSCLC
+,,,,,-,GSM2102,SR_CL7019__LEUKEMIA,Reference_Pool,SR_CL7019__LEUKEMIA
+,,,,,-,GSM2103,U251_CL12009_CNS,Reference_Pool,U251_CL12009_CNS
+,,,,,-,GSM2104,UO-31_CL9004__RENAL,Reference_Pool,UO-31_CL9004__RENAL
+,,,,,-,GSM2105,HOP-62_CL1026_NSCLC,Reference_Pool,HOP-62_CL1026_NSCLC
+,,,,,-,GSM2106,NCI-H23_CL1001__NSCLC,Reference_Pool,NCI-H23_CL1001__NSCLC
+,,,,,-,GSM2107,SW-620_CL4009_COLON,Reference_Pool,SW-620_CL4009_COLON
+,,,,,-,GSM2108,SF-268__CL12014_CNS,Reference_Pool,SF-268__CL12014_CNS
+,,,,,-,GSM2109,SK-MEL-2_CL10005_MELANOMA,Reference_Pool,SK-MEL-2_CL10005_MELANOMA
+,,,,,-,GSM2110,SK-OV-3_CL6011_OVARIAN,Reference_Pool,SK-OV-3_CL6011_OVARIAN
+,,,,,-,GSM2111,MCF7_CL5001__BREAST,Reference_Pool,MCF7_CL5001__BREAST
+,,,,,-,GSM2112,HT-29___CL4001__COLON,Reference_Pool,HT-29___CL4001__COLON
+,,,,,-,GSM2113,HS_578T_CL5006__BREAST,Reference_Pool,HS_578T_CL5006__BREAST
+,,,,,-,GSM2114,A549_CL1004__NSCLC,Reference_Pool,A549_CL1004__NSCLC
+,,,,,-,GSM2115,SK-MEL-28_CL10008_MELANOMA,Reference_Pool,SK-MEL-28_CL10008_MELANOMA
+,,,,,-,GSM2116,CCRF-CEM_CL7003_LEUKEMIA,Reference_Pool,CCRF-CEM_CL7003_LEUKEMIA
+,,,,,-,GSM2117,OVCAR-8_CL6005_OVARIAN,Reference_Pool,OVCAR-8_CL6005_OVARIAN
+,,,,,-,GSM2118,MALME-3M_CL10002_MELANOMA,Reference_Pool,MALME-3M_CL10002_MELANOMA
+,,,,,-,GSM2119,TK-10_CL9024_RENAL,Reference_Pool,TK-10_CL9024_RENAL
+,,,,,-,GSM2120,DU-145_CL11003_PROSTATE,Reference_Pool,DU-145_CL11003_PROSTATE
+,,,,,-,GSM2121,BT-549_CL5013_BREAST,Reference_Pool,BT-549_CL5013_BREAST
+,,,,,-,GSM2122,OVCAR-3_CL6001_OVARIAN,Reference_Pool,OVCAR-3_CL6001_OVARIAN
+,,,,,-,GSM2123,NCI-H226_CL1013__NSCLC,Reference_Pool,NCI-H226_CL1013__NSCLC
+,,,,,-,GSM2124,MDA-MB-231_CL5005__BREAST,Reference_Pool,MDA-MB-231_CL5005__BREAST
+,,,,,-,GSM2125,HOP-92__CL1029_NSCLC,Reference_Pool,HOP-92__CL1029_NSCLC
+,,,,,-,GSM2126,OVCAR-5_CL6003_OVARIAN,Reference_Pool,OVCAR-5_CL6003_OVARIAN
+,,,,,-,GSM2127,IGROV1_CL6010_OVARIAN,Reference_Pool,IGROV1_CL6010_OVARIAN
+,,,,,-,GSM2128,786-0__CL9018_RENAL,Reference_Pool,786-0__CL9018_RENAL
+,,,,,-,GSM2129,HCT-15_CL4015__COLON,Reference_Pool,HCT-15_CL4015__COLON
+,,,,,-,GSM2130,KM12__CL4017_COLON,Reference_Pool,KM12__CL4017_COLON
+,,,,,-,GSM2131,NCI-H322_CL1017_NSCLC,Reference_Pool,NCI-H322_CL1017_NSCLC
+,,,,,-,GSM2132,A498_CL9013_RENAL,Reference_Pool,A498_CL9013_RENAL
+,,,,,-,GSM2133,SF-539__CL12016_CNS,Reference_Pool,SF-539__CL12016_CNS
+,,,,,-,GSM2134,K562B-repro,Reference Pool,K562B
+,,,,,-,GSM2135,RPMI-8226_CL7010__LEUKEMIA,Reference_Pool,RPMI-8226_CL7010__LEUKEMIA
+,,,,,-,GSM2136,K562A-repro,Reference Pool,K562A
+,,,,,-,GSM2137,MCF7A-repro,Reference Pool,MCF-7A
+,,,,,-,GSM2138,SF-295_CL12015_CNS,Reference_Pool,SF-295_CL12015_CNS
+,,,,,-,GSM2139,UACC-257CL10021_MELANOMA,Reference_Pool,UACC-257CL10021_MELANOMA
+,,,,,-,GSM2140,M-14_CL10014_MELANOMA,Reference_Pool,M-14_CL10014_MELANOMA
+,,,,,-,GSM2141,SNB-75_CL12005_RENAL,Reference_Pool,SNB-75_CL12005_RENAL
+,,,,,-,GSM2142,EKVX__CL1008_NSCLC,Reference_Pool,EKVX__CL1008_NSCLC
+,,,,,-,GSM2143,HCT-116_CL4003_COLON,Reference_Pool,HCT-116_CL4003_COLON
+,,,,,-,GSM2146,HCC-2998 (CL4002) COLON,Reference Pool,HCC-2998 (CL4002) COLON
+,,,,,-,GSM2147,CAKI-1 (CL9015) RENAL,Reference Pool,CAKI-1 (CL9015) RENAL
+,,,,,-,GSM2148,Breast Tumor 2 X NCI reference,Reference Pool,BC2 Lymph Node
+,,,,,-,GSM2149,Breast Tumor 16 X NCI reference,Reference Pool,BC16
+,,,,,-,GSM2150,Normal Breast,Reference Pool,Normal Breast
+,,,,,-,GSM2151,BC2 Lymph Node X NCI reference,Reference Pool,BC2 Lymph Node
+,,,,,-,GSM2152,NCI-H460_CL1021_NSCLC,Reference_Pool,NCI-H460_CL1021_NSCLC
+,,,,,-,GSM2153,MCF7D-repro,Reference Pool,MCF-7D

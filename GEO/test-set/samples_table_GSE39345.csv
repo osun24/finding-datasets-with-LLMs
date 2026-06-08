@@ -1,0 +1,72 @@
+# TITLE: Microarray gene expression profiles of peripheral blood mononuclear cells in patients with advanced stage non-small cell lung cancer treated with first line combination chemotherapy
+# SUMMARY: We have extended our investigation to advanced-stage NSCLC by analyzing gene expression in peripheral blood mononuclear cells (PBMC) from patients with newly-diagnosed NSCLC and histopathology of either AC or SCC. Furthermore, to establish a direct link between gene expression and chemotherapy treatment, PBMC from patients who have received 4 courses of combination chemotherapy with CDDP and GEM were obtained, and the effects of chemotherapy on global gene expression were evaluated using microarray analyses.
+GPL6104_Group,GPL6104_Accession,GPL6104_Title,GPL6104_Source name,GPL6104_Tissue,GPL6104_Sample type,GPL6104_Tumor stage,GPL6104_Sex,GPL6104_Age,GPL6104_Treatment response
+-,GSM966355,lung cancer patient before chemotherapy-01,PBMC,PBMC,before chemotherapy,3B,female,69,partial response
+-,GSM966356,lung cancer patient before chemotherapy-02,PBMC,PBMC,before chemotherapy,4,female,60,stable disease
+-,GSM966357,lung cancer patient before chemotherapy-03,PBMC,PBMC,before chemotherapy,4,female,52,stable disease
+-,GSM966358,lung cancer patient before chemotherapy-04,PBMC,PBMC,before chemotherapy,4,male,77,partial response
+-,GSM966359,lung cancer patient before chemotherapy-05,PBMC,PBMC,before chemotherapy,3B,male,57,partial response
+-,GSM966360,lung cancer patient before chemotherapy-06,PBMC,PBMC,before chemotherapy,3B,male,63,partial response
+-,GSM966361,lung cancer patient before chemotherapy-07,PBMC,PBMC,before chemotherapy,4,male,59,stable disease
+-,GSM966362,lung cancer patient before chemotherapy-08,PBMC,PBMC,before chemotherapy,3B,male,51,stable disease
+-,GSM966363,lung cancer patient before chemotherapy-09,PBMC,PBMC,before chemotherapy,4,male,65,stable disease
+-,GSM966364,lung cancer patient before chemotherapy-10,PBMC,PBMC,before chemotherapy,4,male,85,partial response
+-,GSM966365,lung cancer patient after chemotherapy-01,PBMC,PBMC,after chemotherapy,4,male,85,partial response
+-,GSM966366,lung cancer patient after chemotherapy-02,PBMC,PBMC,after chemotherapy,4,male,66,partial response
+-,GSM966367,lung cancer patient after chemotherapy-03,PBMC,PBMC,after chemotherapy,4,female,69,partial response
+-,GSM966368,lung cancer patient after chemotherapy-04,PBMC,PBMC,after chemotherapy,3B,male,76,partial response
+-,GSM966369,lung cancer patient after chemotherapy-05,PBMC,PBMC,after chemotherapy,3B,male,35,partial response
+-,GSM966370,lung cancer patient after chemotherapy-06,PBMC,PBMC,after chemotherapy,3B,male,61,partial response
+-,GSM966371,lung cancer patient after chemotherapy-07,PBMC,PBMC,after chemotherapy,3B,male,68,progressive disease
+-,GSM966372,lung cancer patient before chemotherapy-11,PBMC,PBMC,before chemotherapy,4,male,57,progressive disease
+-,GSM966373,lung cancer patient before chemotherapy-12,PBMC,PBMC,before chemotherapy,4,male,66,partial response
+-,GSM966374,lung cancer patient before chemotherapy-13,PBMC,PBMC,before chemotherapy,4,male,86,stable disease
+-,GSM966375,lung cancer patient before chemotherapy-14,PBMC,PBMC,before chemotherapy,4,male,57,progressive disease
+-,GSM966376,lung cancer patient before chemotherapy-15,PBMC,PBMC,before chemotherapy,4,female,69,partial response
+-,GSM966377,lung cancer patient before chemotherapy-16,PBMC,PBMC,before chemotherapy,3B,male,68,stable disease
+-,GSM966378,lung cancer patient before chemotherapy-17,PBMC,PBMC,before chemotherapy,3B,male,76,partial response
+-,GSM966379,lung cancer patient before chemotherapy-18,PBMC,PBMC,before chemotherapy,3B,male,35,partial response
+-,GSM966380,healthy subject-01,PBMC,PBMC,healthy,,male,57,
+-,GSM966381,healthy subject-02,PBMC,PBMC,healthy,,female,55,
+-,GSM966382,healthy subject-03,PBMC,PBMC,healthy,,male,35,
+-,GSM966383,healthy subject-04,PBMC,PBMC,healthy,,female,41,
+-,GSM966384,healthy subject-05,PBMC,PBMC,healthy,,male,56,
+-,GSM966385,healthy subject-06,PBMC,PBMC,healthy,,male,78,
+-,GSM966386,healthy subject-07,PBMC,PBMC,healthy,,female,68,
+-,GSM966387,healthy subject-08,PBMC,PBMC,healthy,,male,69,
+-,GSM966388,lung cancer patient before chemotherapy-19,PBMC,PBMC,before chemotherapy,3B,male,76,partial response
+-,GSM966389,lung cancer patient before chemotherapy-20,PBMC,PBMC,before chemotherapy,3B,male,60,stable disease
+-,GSM966390,lung cancer patient before chemotherapy-21,PBMC,PBMC,before chemotherapy,3B,female,49,progressive disease
+-,GSM966391,lung cancer patient before chemotherapy-22,PBMC,PBMC,before chemotherapy,3B,male,61,partial response
+-,GSM966392,lung cancer patient before chemotherapy-23,PBMC,PBMC,before chemotherapy,3B,female,80,stable disease
+-,GSM966393,lung cancer patient before chemotherapy-24,PBMC,PBMC,before chemotherapy,4,male,49,progressive disease
+-,GSM966394,lung cancer patient before chemotherapy-25,PBMC,PBMC,before chemotherapy,4,female,49,partial response
+-,GSM966395,lung cancer patient before chemotherapy-26,PBMC,PBMC,before chemotherapy,3B,male,68,progressive disease
+-,GSM966396,healthy subject-09,PBMC,PBMC,healthy,,male,83,
+-,GSM966397,healthy subject-10,PBMC,PBMC,healthy,,female,65,
+-,GSM966398,healthy subject-11,PBMC,PBMC,healthy,,male,66,
+-,GSM966399,healthy subject-12,PBMC,PBMC,healthy,,male,47,
+-,GSM966400,healthy subject-13,PBMC,PBMC,healthy,,female,63,
+-,GSM966401,healthy subject-14,PBMC,PBMC,healthy,,male,63,
+-,GSM966402,healthy subject-15,PBMC,PBMC,healthy,,female,80,
+-,GSM966403,healthy subject-16,PBMC,PBMC,healthy,,male,54,
+-,GSM966404,healthy subject-17,PBMC,PBMC,healthy,,male,72,
+-,GSM966405,healthy subject-18,PBMC,PBMC,healthy,,male,60,
+-,GSM966406,healthy subject-19,PBMC,PBMC,healthy,,female,60,
+-,GSM966407,healthy subject-20,PBMC,PBMC,healthy,,female,45,
+-,GSM966408,lung cancer patient before chemotherapy-27,PBMC,PBMC,before chemotherapy,3B,male,47,stable disease
+-,GSM966409,lung cancer patient before chemotherapy-28,PBMC,PBMC,before chemotherapy,3B,female,58,stable disease
+-,GSM966410,lung cancer patient before chemotherapy-29,PBMC,PBMC,before chemotherapy,4,female,60,stable disease
+-,GSM966411,lung cancer patient before chemotherapy-30,PBMC,PBMC,before chemotherapy,4,male,48,stable disease
+-,GSM966412,lung cancer patient before chemotherapy-31,PBMC,PBMC,before chemotherapy,4,male,78,partial response
+-,GSM966413,lung cancer patient before chemotherapy-32,PBMC,PBMC,before chemotherapy,,female,64,progressive disease
+-,GSM966414,lung cancer patient after chemotherapy-08,PBMC,PBMC,after chemotherapy,4,male,48,
+-,GSM966415,lung cancer patient after chemotherapy-09,PBMC,PBMC,after chemotherapy,4,female,52,stable disease
+-,GSM966416,lung cancer patient after chemotherapy-10,PBMC,PBMC,after chemotherapy,4,male,77,partial response
+-,GSM966417,lung cancer patient after chemotherapy-11,PBMC,PBMC,after chemotherapy,3B,male,57,partial response
+-,GSM966418,lung cancer patient after chemotherapy-12,PBMC,PBMC,after chemotherapy,3B,female,69,partial response
+-,GSM966419,lung cancer patient after chemotherapy-13,PBMC,PBMC,after chemotherapy,3B,male,47,stable disease
+-,GSM966420,lung cancer patient after chemotherapy-14,PBMC,PBMC,after chemotherapy,4,female,60,partial response
+-,GSM966421,lung cancer patient after chemotherapy-15,PBMC,PBMC,after chemotherapy,3B,male,51,stable disease
+-,GSM966422,lung cancer patient after chemotherapy-16,PBMC,PBMC,after chemotherapy,4,female,65,stable disease
+-,GSM966423,lung cancer patient after chemotherapy-17,PBMC,PBMC,after chemotherapy,3B,male,76,partial response

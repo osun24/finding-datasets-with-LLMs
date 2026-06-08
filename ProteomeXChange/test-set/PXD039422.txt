@@ -1,0 +1,2 @@
+Title: Effect of cryopreservation of lysate/tissue on EOC tissue-derived EVs
+Description: We optimized a method previously developed to extract EVs from epithelial ovarian cancer (EOC) tissues and investigated whether cryopreservation of EOC tissues in clinical practice affects the phenotypes, contents, and biological functions of subsequently extracted EVs.

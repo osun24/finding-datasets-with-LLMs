@@ -1,0 +1,9 @@
+# TITLE: Expression data from human lung cancer cancer treated with TXA1.Hcl
+# SUMMARY: The antitumour activity of a hit tioxanthone is associated with alterations in cholesterol localization We used microarrays to detail the global programme of gene expression underlying treatment of lung cancer with TXA1.Hcl
+GPL24626_Group,GPL24626_Accession,GPL24626_Title,GPL24626_Source name,GPL24626_Cell line,GPL24626_Protocol
+-,GSM3017276,Control replica 1,Control replica 1,NCI-H460,Control treatments consisting of untreated cells (Blank) or cells treated with equivalent volumes of H20 (Control)
+-,GSM3017277,Control replica 2,Control replica 2,NCI-H460,Control treatments consisting of untreated cells (Blank) or cells treated with equivalent volumes of H20 (Control)
+-,GSM3017278,Control replica 3,Control replica 3,NCI-H460,Control treatments consisting of untreated cells (Blank) or cells treated with equivalent volumes of H20 (Control)
+-,GSM3017279,Treated replica 1,Treated replica 1,NCI-H460,"cells were plated (1 × 105 cells/well in 6-well plates), incubated for 24 h to allow adhesion and then treated with of TXA1.HCl"
+-,GSM3017280,Treated replica 2,Treated replica 2,NCI-H460,"cells were plated (1 × 105 cells/well in 6-well plates), incubated for 24 h to allow adhesion and then treated with of TXA1.HCl"
+-,GSM3017281,Treated replica 3,Treated replica 3,NCI-H460,"cells were plated (1 × 105 cells/well in 6-well plates), incubated for 24 h to allow adhesion and then treated with of TXA1.HCl"

@@ -1,0 +1,9 @@
+# TITLE: MicroRNA expression data from Bcl-xL silenced A549 lung adenocarcinoma cells
+# SUMMARY: Bcl-xL is an anti-apoptotic protein that is frequently found to be overexpressed in non-small cell lung cancer leading to an inhibition of apoptosis and poor prognosis. Recently, the role of miRNAs in regulating apoptosis and cell survival during tumorigenesis has become evident, with cancer cells showing perturbed expression of various miRNAs. We utilized miRNA microarrays to determine if miRNA dysregulation in bcl-xL silenced lung adenocarcinoma cells could be involved in regulating apoptotic behavior, and identified dysregulated miRNAs with putative targets involved in signal transduction pathways regulating apoptosis, cell proliferation and cell progression.
+GPL8786_Group,GPL8786_Accession,GPL8786_Title,GPL8786_Source name,GPL8786_Cell line,GPL8786_Treatment
+-,GSM1143929,A549_Non-Transfected_biological replicate 1,A549 cells with non-silenced Bcl-xL,A549 lung adenocarcinoma,control
+-,GSM1143930,A549_Non-Transfected_biological replicate 2,A549 cells with non-silenced Bcl-xL,A549 lung adenocarcinoma,control
+-,GSM1143931,A549_Non-Transfected_biological replicate 3,A549 cells with non-silenced Bcl-xL,A549 lung adenocarcinoma,control
+-,GSM1143932,A549_siRNA-Transfected A549_biological replicate 1,A549 cells with silenced Bcl-xL,A549 lung adenocarcinoma,bcl-xL silenced
+-,GSM1143933,A549_siRNA-Transfected A549_biological replicate 2,A549 cells with silenced Bcl-xL,A549 lung adenocarcinoma,bcl-xL silenced
+-,GSM1143934,A549_siRNA-Transfected A549_biological replicate 3,A549 cells with silenced Bcl-xL,A549 lung adenocarcinoma,bcl-xL silenced

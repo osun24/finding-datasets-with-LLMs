@@ -1,0 +1,68 @@
+{
+  "Accession": "E-MTAB-1194",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "18"
+    ]
+  },
+  "Description": "Microarrays of frontal cortex (area 8) of Parkinson cases and controls",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {
+        "DISEASESTATE": [
+          "Parkinson's disease",
+          "normal"
+        ],
+        "DiseaseState": [
+          "Parkinson's disease",
+          "normal"
+        ],
+        "Diseasestate": [
+          "normal",
+          "Parkinson's disease"
+        ]
+      },
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease_state_design",
+        "co-expression_design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "DISEASESTATE"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "normal",
+        "Parkinson's disease"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "frontal lobe"
+      ]
+    }
+  },
+  "Source list": "lbd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Microarrays of frontal cortex (area 8) of Parkinson cases and controls"
+}

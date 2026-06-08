@@ -1,0 +1,104 @@
+{
+  "Accession": "E-MEXP-3260",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "38"
+    ]
+  },
+  "Description": "This study was designed to identify gene expression changes in skeletal muscle that could define reliably the degree of the severity of Amyotrophic lateral sclerosis (ALS). All samples were from human biopsies, either from healthy muscles or from muscle whose patients were clearly diagnosed as having Amyotrophic Lateral Sclerosis (ALS)",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {
+        "CLINICAL_INFORMATION": [
+          "Right arm abduction score 5",
+          "Right arm abduction score 4",
+          "Right arm abduction score 2",
+          "Right arm abduction score 1"
+        ],
+        "ClinicalInformation": [
+          "Right arm abduction score 5",
+          "Right arm abduction score 4",
+          "Right arm abduction score 2",
+          "Right arm abduction score 1"
+        ],
+        "Clinical_information": [
+          "Right arm abduction score 2",
+          "Right arm abduction score 5",
+          "Right arm abduction score 4",
+          "Right arm abduction score 1"
+        ],
+        "Clinicalinformation": [
+          "Right arm abduction score 2",
+          "Right arm abduction score 5",
+          "Right arm abduction score 4",
+          "Right arm abduction score 1"
+        ]
+      },
+      "Disease state/staging": {
+        "DISEASE_STATE": [
+          "normal",
+          "amyotrophic lateral sclerosis"
+        ],
+        "DiseaseState": [
+          "normal",
+          "amyotrophic lateral sclerosis"
+        ],
+        "Disease_state": [
+          "normal",
+          "amyotrophic lateral sclerosis"
+        ],
+        "Diseasestate": [
+          "normal",
+          "amyotrophic lateral sclerosis"
+        ]
+      },
+      "Quality controls": {
+        "Quality Controls": [
+          "biological_replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease_state_design",
+        "co-expression_design",
+        "replicate_design",
+        "clinical_history_design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "DISEASE_STATE",
+        "CLINICAL_INFORMATION"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "normal",
+        "amyotrophic lateral sclerosis"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "muscle"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Muscle Gene Expression Is a Marker of Amyotrophic Lateral Sclerosis Severity"
+}

@@ -1,0 +1,7 @@
+# TITLE: Gene expression signature of EpCAMlow/PDPN+ and EpCAMhigh/PDPN- cancer cells in engineered human NSCLC HSAEC_4T53RD mouse xenograft model.
+# SUMMARY: Gene expression signature of EpCAMlow/PDPN+ and EpCAMhigh/PDPN- cancer cells in engineered human NSCLC HSAEC_4T53RD mouse xenograft model.
+GPL14550_Group,GPL14550_Accession,GPL14550_Title,GPL14550_Source name,GPL14550_Tissue
+-,GSM6412077,HSAEC_4T53RD_tumor_EpCAMhigh/PDPN-_1,Mouse xenograft,Tumor
+-,GSM6412078,HSAEC_4T53RD_tumor_EpCAMlow/PDPN+_1,Mouse xenograft,Tumor
+-,GSM6412079,HSAEC_4T53RD_tumor_EpCAMhigh/PDPN-_2,Mouse xenograft,Tumor
+-,GSM6412080,HSAEC_4T53RD_tumor_EpCAMlow/PDPN+_2,Mouse xenograft,Tumor

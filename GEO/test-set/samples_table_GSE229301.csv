@@ -1,0 +1,9 @@
+# TITLE: Rawdata of mRNAs microarray from 3 fresh lung cancer tissues and 3 fresh non-tumor tissues.
+# SUMMARY: We performed mRNAss microarray to analyze the differential mRNAs expression profiles according to the recommended protocols.
+GPL13497_Group,GPL13497_Accession,GPL13497_Title,GPL13497_Source name,GPL13497_Tissue,GPL13497_Status after 5 years,GPL13497_Histology,GPL13497_Age,GPL13497_Sex,GPL13497_Stage
+-,GSM7158565,Tumor 1,primary lung cancer,primary lung cancer,Alive,NSCLC,55 years,Male,IIB
+-,GSM7158566,Tumor 2,primary lung cancer,primary lung cancer,Dead,NSCLC,70 years,Male,IIIA
+-,GSM7158567,Tumor 3,primary lung cancer,primary lung cancer,Alive,NSCLC,61 years,Female,IB
+-,GSM7158568,ANT 1,primary lung cancer,adjacent nontumor tissues,Alive,NSCLC,55 years,Male,IIB
+-,GSM7158569,ANT 2,primary lung cancer,adjacent nontumor tissues,Dead,NSCLC,70 years,Male,IIIA
+-,GSM7158570,ANT 3,primary lung cancer,adjacent nontumor tissues,Alive,NSCLC,61 years,Female,IB

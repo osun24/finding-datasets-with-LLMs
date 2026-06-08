@@ -1,0 +1,2 @@
+Title: miR141 Proteomic profile in Ovarian Cancer
+Description: Over the last two decades, mounting evidence has demonstrated the aberrant expression of miRNAs in different human malignancies, including ovarian carcinomas. In this study, we found that miR-141 were secreted by ovarian cancer cells and transferred to the stromal cells by exosomal pathway. To clarify the mechanisms that miR-141 remodeling stromal fibroblast and reprogramming the relevant signals, miR-141 were overexpressed in WPMY-1 and their respective scrambled control were send for proteomic analysis.

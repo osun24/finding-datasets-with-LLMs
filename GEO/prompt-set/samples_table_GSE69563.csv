@@ -1,0 +1,6 @@
+# TITLE: Expression data from H1299 cells
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL17586_Group,GPL17586_Accession,GPL17586_Title,GPL17586_Source name,GPL17586_Cell line,GPL17586_Transfection,GPL20278_Group,GPL20278_Accession,GPL20278_Title,GPL20278_Source name,GPL20278_Cell line,GPL20278_Cell type,GPL20278_Transfected with,GPL20287_Group,GPL20287_Accession,GPL20287_Title,GPL20287_Source name,GPL20287_Cell line,GPL20287_Cell type,GPL20287_Transfected with
+-,GSM1701910,miR-138 group,Human H1299 cells,H1299,miR-138,-,GSM1703987,NC group [miRNA],H1299_NC,H1299,Human non-small cell lung cancer cell,NC mimics,-,GSM1703990,Control group [qPCR],H1299_NC,H1299,Human non-small cell lung cancer cell,NC mimics
+-,GSM1701911,NC mimic group,Human H1299 cells,H1299,NC mimics,-,GSM1703988,AGO2 siRNA group [miRNA],H1299_AGO2 siRNA,H1299,Human non-small cell lung cancer cell,AGO2 siRNA,-,GSM1703991,AGO2 siRNA group [qPCR],H1299_AGO2 siRNA,H1299,Human non-small cell lung cancer cell,AGO2 siRNA
+,,,,,,-,GSM1703989,miR-138 group [miRNA],H1299_miR-138,H1299,Human non-small cell lung cancer cell,miR-138,-,GSM1703992,miR-138 group [qPCR],H1299_miR-138,H1299,Human non-small cell lung cancer cell,miR-138

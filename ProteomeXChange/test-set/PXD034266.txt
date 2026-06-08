@@ -1,0 +1,2 @@
+Title: CRMP2 derived from cancer associated fibroblasts facilitates progression of ovarian cancer via HIF-1α-glycolysis signaling pathway
+Description: the differntial proteins scanning between supernatent of CAFs and NOFs in ovarian cancer.

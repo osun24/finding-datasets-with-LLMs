@@ -1,0 +1,73 @@
+{
+  "Accession": "E-MTAB-1925",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "6"
+    ],
+    "Sample count": [
+      "6"
+    ]
+  },
+  "Description": "The purpose of this experiment was to compare differences in the transcript level between RNA samples collected from post-mortem motor cortex from healthy control patients and amyotrophic lateral sclerosis (ALS) patients that carry an expanded GGGGCC repeat mutation in the chromosome 9 open reading frame 72 (C9ORF72) gene.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {
+        "Clinical information": [
+          "not applicable",
+          "C9ORF72 amyotrophic lateral sclerosis"
+        ],
+        "clinical information": [
+          "C9ORF72 amyotrophic lateral sclerosis",
+          "not applicable"
+        ]
+      },
+      "Disease state/staging": {},
+      "Quality controls": {
+        "Quality Controls": [
+          "biological replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease state design",
+        "In vitro design",
+        "co-expression design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "disease"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [
+        "adult"
+      ],
+      "Disease": [
+        "normal",
+        "amyotrophic lateral sclerosis"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "motor cortex"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcription profiling by array of post-mortem brain cortex from healthy control patients and amyotrophic lateral sclerosis patients that carry an expanded GGGGCC repeat mutation in the chromosome 9 open reading frame 72 (C9ORF72) gene"
+}

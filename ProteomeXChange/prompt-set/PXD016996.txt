@@ -1,0 +1,2 @@
+Title: NK cell proteome reponse to tumor microenvironment
+Description: To elucidate the mechanisms that regulate metabolic suppression versus sustained metabolic fitness in NK cells in the tumor microenvironment (TME), we assessed global differences in protein levels via proteomics in NK cells exposed to the TME or control media.

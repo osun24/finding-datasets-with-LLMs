@@ -1,0 +1,33 @@
+# TITLE: Gene expression profiling of two NSCLC cell lines treated with PAEP/glycodelin expression stimulating substances
+# SUMMARY: We compared H1975 and 2106T cells treated with PAEP/glycodelin expression inducing substances and the corresponding contol treated cells. Gene expression profiling of H1975 and 2106T cells with induced PAEP/glycodelin expression might give hints on several pathways regulating this activated expression.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue,GPL570_Cell line,GPL570_Cell type,GPL570_Histology,GPL570_Treatment
+-,GSM3178541,1 H1975 control 1,H1975 control 1,lung,H1975,human non-small cell lung cancer cells,adenocarcinoma,control
+-,GSM3178542,2 H1975 control 2,H1975 control 2,lung,H1975,human non-small cell lung cancer cells,adenocarcinoma,control
+-,GSM3178543,3 H1975 control 3,H1975 control 3,lung,H1975,human non-small cell lung cancer cells,adenocarcinoma,control
+-,GSM3178544,4 H1975 PMA 1,H1975 PMA 1,lung,H1975,human non-small cell lung cancer cells,adenocarcinoma,PMA
+-,GSM3178545,5 H1975 PMA 2,H1975 PMA 2,lung,H1975,human non-small cell lung cancer cells,adenocarcinoma,PMA
+-,GSM3178546,6 H1975 PMA 3,H1975 PMA 3,lung,H1975,human non-small cell lung cancer cells,adenocarcinoma,PMA
+-,GSM3178547,7 2106T control 1,2106T control 1,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178548,8 2106T control 2,2106T control 2,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178549,9 2106T control 3,2106T control 3,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178550,10 2106T LPA 1,2106T LPA 1,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,LPA
+-,GSM3178551,11 2106T LPA 2,2106T LPA 2,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,LPA
+-,GSM3178552,12 2106T LPA 3,2106T LPA 3,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,LPA
+-,GSM3178553,13 2106T control 1,2106T control 1,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178554,14 2106T control 2,2106T control 2,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178555,15 2106T control 3,2106T control 3,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178556,16 2106T PMA 1,2106T PMA 1,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,PMA
+-,GSM3178557,17 2106T PMA 2,2106T PMA 2,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,PMA
+-,GSM3178558,18 2106T PMA 3,2106T PMA 3,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,PMA
+-,GSM3178559,19 2106T control 1,2106T control 1,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178560,20 2106T control 2,2106T control 2,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178561,21 2106T control 3,2106T control 3,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178562,22 2106T EGF 1,2106T EGF 1,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,EGF
+-,GSM3178563,23 2106T EGF 2,2106T EGF 2,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,EGF
+-,GSM3178564,24 2106T EGF 3,2106T EGF 3,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,EGF
+-,GSM3178565,25 2106T control 1,2106T control 1,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178566,26 2106T control 2,2106T control 2,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178567,27 2106T control 3,2106T control 3,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,control
+-,GSM3178568,28 2106T HB-EGF 1,2106T HB-EGF 1,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,HB-EGF
+-,GSM3178569,29 2106T HB-EGF 2,2106T HB-EGF 2,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,HB-EGF
+-,GSM3178570,30 2106T HB-EGF 3,2106T HB-EGF 3,lung,2106T,human non-small cell lung cancer cells,squamous cell carcinoma,HB-EGF

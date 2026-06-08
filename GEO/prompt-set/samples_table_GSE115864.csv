@@ -1,0 +1,21 @@
+# TITLE: Notch3-dependent beta-catenin signaling mediates EGFR TKI drug persistence in EGFR mutant NSCLC
+# SUMMARY: EGFR tyrosine kinase inhibitors cause dramatic responses in EGFR-mutant lung cancer, but resistance universally develops. The involvement of β-catenin in EGFR TKI resistance has been previously reported however the precise mechanism by which β-catenin activation contributes to EGFR TKI resistance is not clear. Here, we show that EGFR inhibition results in the activation of β-catenin signaling in a Notch3-dependent manner, which facilitates the survival of a subset of cells that we call “adaptive persisters”. We previously reported that EGFR-TKI treatment rapidly activates Notch3, and here describe the physical association of Notch3 with β-catenin, leading to increased stability and activation of β-catenin. We demonstrate that the combination of EGFR-TKI and a β-catenin inhibitor inhibits the development of these adaptive persisters, decreases tumor burden, improves recurrence free survival, and overall survival in xenograft models. These results supports combined EGFR-TKI and β-catenin inhibition in patients with EGFR mutant lung cancer.
+GPL17586_Group,GPL17586_Accession,GPL17586_Title,GPL17586_Source name,GPL17586_Cell line,GPL17586_Tissue
+-,GSM3192079,s13: NTC-DMSO#1,DMSO,HCC4006,Lung cancer cell line
+-,GSM3192080,s14: NTC-DMSO#2,DMSO,HCC4006,Lung cancer cell line
+-,GSM3192081,s15: NTC-DMSO#3,DMSO,HCC4006,Lung cancer cell line
+-,GSM3192082,s22: Notch1-sIRNA-Erlotinib#1,Notch1 KO + Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192083,s23: Notch1-sIRNA-Erlotinib#2,Notch1 KO + Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192084,s24: Notch1-sIRNA-Erlotinib#3,Notch1 KO + Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192085,s25: Notch3-sIRNA-Erlotinib#4,Notch3 KO + Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192086,s26: Notch3-sIRNA-Erlotinib#5,Notch3 KO + Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192087,s27: Notch3-sIRNA-Erlotinib#6,Notch3 KO + Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192088,s31: NTC-Erlotinib#1,Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192089,s32: NTC-Erlotinib#2,Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192090,s33: NTC-Erlotinib#3,Erlotinib,HCC4006,Lung cancer cell line
+-,GSM3192091,s4: Notch1-sIRNA-DMSO#1,Notch1 KO,HCC4006,Lung cancer cell line
+-,GSM3192092,s5: Notch1-sIRNA-DMSO#2,Notch1 KO,HCC4006,Lung cancer cell line
+-,GSM3192093,s6: Notch1-sIRNA-DMSO#3,Notch1 KO,HCC4006,Lung cancer cell line
+-,GSM3192094,s7: Notch3-sIRNA-DMSO#1,Notch3 KO,HCC4006,Lung cancer cell line
+-,GSM3192095,s8: Notch3-sIRNA-DMSO#2,Notch3 KO,HCC4006,Lung cancer cell line
+-,GSM3192096,s9: Notch3-sIRNA-DMSO#3,Notch3 KO,HCC4006,Lung cancer cell line

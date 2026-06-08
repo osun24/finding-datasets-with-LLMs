@@ -1,0 +1,1781 @@
+{
+  "accno": "E-GEOD-60082",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Effective sorafenib treatment response in a panel of genomically-characterized malignant peripheral nerve sheath tumor orthoxenograft models"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2015-04-15"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-60082"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-60082",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Effective sorafenib treatment response in a panel of genomically-characterized malignant peripheral nerve sheath tumor orthoxenograft models"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Background: Malignant peripheral nerve sheath tumors (MPNST) are soft-tissue sarcomas that can arise either sporadically or in association with neurofibromatosis type 1 (NF1). These aggressive malignancies confer poor survival, with no effective therapy available. Methods: We generated five patient-derived MPNST orthoxenograft models (three NF1-related and two sporadic) and performed an exhaustive histological and molecular characterization of primary MPNSTs and their corresponding orthoxenografts. Finally, orthoxenografts models were used as an in vivo pre-clinical platform to test several treatment strategies. Results: MPNST orthoxenografts recapitulate the histopathological properties and preserve the genomic and transcriptomic status of their parental primary tumors. Additionally, they mimic distal dissemination properties in mice. Compatible with an origin in a catastrophic event and subsequent stabilization, MPNSTs contained highly altered genomes that remained remarkably stable in orthoxenograft establishment and along passages. Although preliminary, the results presented here point to clear differences between NF1-associated and sporadic MPNSTs. In accordance, mutation frequency in sporadic MPNSTs was an order of magnitude higher than in NF1-associated MPNSTs and unsupervised cluster analysis and principal component analysis (PCA) using a MPNST signature perfectly divided the samples between NF1 and sporadic MPNST. Finally, different therapeutic approaches tested in the validated orthoxenograft MPNST models, reveal that sorafenib, or in combination with doxorubicin or rapamycin caused a great tumor reduction in all models. Conclusion: The development of a well-characterized and standardized preclinical model for MPNSTs has laid the foundations for evaluating novel therapeutic strategies in the clinical setting. Moreover, results obtained strongly support the clinical evaluation of Sorafenib in this subset of patients. Primary MPNSTs were implanted in the sciatic nerve of nude mices to create orthoxenograft MPNST models. Several orthoxenograft passages were created. The primary tumor (when available) and passages 1 and 4 were selected for gene expression profiling to demonstrate that the orthoxenografts closely resemble their primary tumors and are stable along xenograft passages."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE60082"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE60082-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE60082-1"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The data were processed using R/Bioconductor using the packages “gcrma” and “hugene10stv1cdf”. The rma function was used to normalize the data. ID_REF =  VALUE = log2 GC-RMA"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE60082-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE60082-3"
+            },
+            {
+              "name": "Type",
+              "value": "labelling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The Ambion WT Expression Kit and the Affymetrix GeneChip WT terminal labeling"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE60082-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE60082-4"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Labeled cDNA was hybridized to Human GEneCHip Gene 1.0 ST microarray (Affymetrix, Santa Clara, CA)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE60082-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE60082-2"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA was isolated from frozen samples using miRCURY RNA (Exiqon). RNA integrity number (RIN) was verified for each sample using a RNA Nano Chip Kit (Agilent Technologies, Germany) in Agilent Bioanalyzer 2100."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE60082-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE60082-5"
+            },
+            {
+              "name": "Type",
+              "value": "array scanning protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The array were scanned using the Affymetrix Model 3000 Scanner."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Bernat Gel Moreno"
+          },
+          {
+            "name": "Email",
+            "value": "bgel@imppc.org"
+          },
+          {
+            "name": "Phone",
+            "value": "+34935543068"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Joan Castellsagué"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Bernat Gel"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Juana Fernández-Rodríguez"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Roger Llatjós"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Ignacio Blanco"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Yolanda Benavente"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Diana Pérez-Sidelnikova"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Javier García-del Muro"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Joan MariaViñals"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Rafael Valdés-Mas"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Ernest Terribas"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Adriana López-Doriga"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Miguel Pujana"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Gabriel Capellá"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Xose Puente"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Eduard Serra"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Alberto Villanueva"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Conxi Lázaro"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Institut de Medicina Predictiva i Personalitzada del Càncer"
+          },
+          {
+            "name": "Address",
+            "value": "Hereditary Cancer Program, Institut de Medicina Predictiva i Personalitzada del Càncer, Ctra. de Can Ruti, camí de les escoles, s/n, Badalona, Barcelona, Spain"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "25810463",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Comprehensive establishment and characterization of orthoxenograft mouse models of malignant peripheral nerve sheath tumors for personalized medicine."
+          },
+          {
+            "name": "Authors",
+            "value": "Castellsaguï¿½ J, Gel B, Fernï¿½ndez-Rodrï¿½guez J, Llatjï¿½s R, Blanco I, Benavente Y, Pï¿½rez-Sidelnikova D, Garcï¿½a-Del Muro J, Viï¿½als JM, Vidal A, Valdï¿½s-Mas R, Terribas E, Lï¿½pez-Doriga A, Pujana MA, Capellï¿½ G, Puente XS, Serra E, Villanueva A, Lï¿½zaro C"
+          },
+          {
+            "name": "DOI",
+            "value": "10.15252/emmm.201404430"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.15252/emmm.201404430"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-60082",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "12"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sample type"
+              }
+            ],
+            "value": "sample type"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "nf1-associated"
+              }
+            ],
+            "value": "nf1-associated"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "passage"
+              }
+            ],
+            "value": "passage"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "original tumor"
+              }
+            ],
+            "value": "original tumor"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-60082",
+            "attributes": [
+              {
+                "name": "Nf1-associated",
+                "value": "No"
+              },
+              {
+                "name": "Nf1-associated",
+                "value": "Yes"
+              },
+              {
+                "name": "Original tumor",
+                "value": "NF_001"
+              },
+              {
+                "name": "Original tumor",
+                "value": "SP_002"
+              },
+              {
+                "name": "Original tumor",
+                "value": "SP_001"
+              },
+              {
+                "name": "Original tumor",
+                "value": "S462"
+              },
+              {
+                "name": "Original tumor",
+                "value": "NF_002"
+              },
+              {
+                "name": "Passage",
+                "value": "NA"
+              },
+              {
+                "name": "Passage",
+                "value": "1"
+              },
+              {
+                "name": "Passage",
+                "value": "4"
+              },
+              {
+                "name": "Sample type",
+                "value": "primary tumor"
+              },
+              {
+                "name": "Sample type",
+                "value": "cell line"
+              },
+              {
+                "name": "Sample type",
+                "value": "orthoxenograft"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "S462"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464664_S462_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "S462"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "NA"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "cell line"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464663_S462_CL.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "4"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464662_SP_002_P4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464661_SP_002_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "NA"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "primary tumor"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464660_SP_002_PT.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_001"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464659_SP_001_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_001"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "NA"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "primary tumor"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464658_SP_001_PT.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "4"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464657_NF_002_P4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464656_NF_002_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "NA"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "primary tumor"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464655_NF_002_PT.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_001"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "4"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464654_NF_001_P4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_001"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464653_NF_001_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-60082",
+            "attributes": [
+              {
+                "name": "Host organism",
+                "value": "nude mouse"
+              },
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Nf1-associated",
+                "value": "No"
+              },
+              {
+                "name": "Nf1-associated",
+                "value": "Yes"
+              },
+              {
+                "name": "Original tumor",
+                "value": "NF_001"
+              },
+              {
+                "name": "Original tumor",
+                "value": "SP_002"
+              },
+              {
+                "name": "Original tumor",
+                "value": "SP_001"
+              },
+              {
+                "name": "Original tumor",
+                "value": "S462"
+              },
+              {
+                "name": "Original tumor",
+                "value": "NF_002"
+              },
+              {
+                "name": "Passage",
+                "value": "NA"
+              },
+              {
+                "name": "Passage",
+                "value": "1"
+              },
+              {
+                "name": "Passage",
+                "value": "4"
+              },
+              {
+                "name": "Sample type",
+                "value": "primary tumor"
+              },
+              {
+                "name": "Sample type",
+                "value": "cell line"
+              },
+              {
+                "name": "Sample type",
+                "value": "orthoxenograft"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "S462"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464664_S462_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "S462"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "NA"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "cell line"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464663_S462_CL.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "4"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464662_SP_002_P4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464661_SP_002_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "NA"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "primary tumor"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464660_SP_002_PT.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_001"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464659_SP_001_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "No"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "SP_001"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "NA"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "primary tumor"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464658_SP_001_PT.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "4"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464657_NF_002_P4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464656_NF_002_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_002"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "NA"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "primary tumor"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464655_NF_002_PT.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_001"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "4"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464654_NF_001_P4.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "nf1-associated",
+                      "value": "Yes"
+                    },
+                    {
+                      "name": "original tumor",
+                      "value": "NF_001"
+                    },
+                    {
+                      "name": "passage",
+                      "value": "1"
+                    },
+                    {
+                      "name": "sample type",
+                      "value": "orthoxenograft"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1464653_NF_001_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-60082",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "12"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464664 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464664_S462_P1.CEL",
+                  "size": 11071135,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464663 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464663_S462_CL.CEL",
+                  "size": 11071623,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464662 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464662_SP_002_P4.CEL",
+                  "size": 11071351,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464661 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464661_SP_002_P1.CEL",
+                  "size": 11072223,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464660 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464660_SP_002_PT.CEL",
+                  "size": 11070531,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464659 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464659_SP_001_P1.CEL",
+                  "size": 11073595,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464658 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464658_SP_001_PT.CEL",
+                  "size": 11072855,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464657 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464657_NF_002_P4.CEL",
+                  "size": 11071823,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464656 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464656_NF_002_P1.CEL",
+                  "size": 11071563,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464655 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464655_NF_002_PT.CEL",
+                  "size": 11071575,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464654 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464654_NF_001_P4.CEL",
+                  "size": 11073859,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1464653 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1464653_NF_001_P1.CEL",
+                  "size": 11073301,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464664_sample_table.txt",
+                  "size": 642734,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464654_sample_table.txt",
+                  "size": 642781,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464653_sample_table.txt",
+                  "size": 642842,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464660_sample_table.txt",
+                  "size": 642757,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464661_sample_table.txt",
+                  "size": 642924,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464663_sample_table.txt",
+                  "size": 642877,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464656_sample_table.txt",
+                  "size": 642918,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464658_sample_table.txt",
+                  "size": 642882,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464662_sample_table.txt",
+                  "size": 642912,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464659_sample_table.txt",
+                  "size": 642865,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464655_sample_table.txt",
+                  "size": 642809,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1464657_sample_table.txt",
+                  "size": 642783,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-60082",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-60082.idf.txt",
+                  "size": 5880,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-60082.sdrf.txt",
+                  "size": 10740,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-60082",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-141"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-60082",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

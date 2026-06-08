@@ -1,0 +1,38 @@
+Accession: E-GEOD-27564
+Source list: als-ftd-screened
+Title: Gene expression profiles of subepithelial myofibroblasts from mouse ileum or colon, implanted together with human cancer cells in mouse xenografts
+Study type: transcription profiling by array
+Description: We isolated myofibroblasts from C57BL6/J mouse ileum or colon and analyzed gene expression profiles from the cultured cells. We also isolated human colon cancer cells from xenografts interacting with mouse intestinal subepithelial myofibroblasts (ISEMFs) and analyzed gene expression in sorted human cancer cells. We used Affymetrix microarrays to detail the global gene expression prolfiles in mouse fibroblasts and human colon cancer cells and identified distinct biological processes of differentially expressed genes in mouse fibroblasts and interacting human colon cancer cells For mouse SEMFs, we isolated fresh fibroblasts from mouse ileum and colon, confirmed their predicted immunophenotype (alpha SMA positive, vimentin positive, desmin negative), and expanded cells in culture before expression array analysis. We examined gene expression in human cancer cells following their interaction with murine ileal or colonic SEMFs, using flow cytometry to isolate DsRed-expressing Caco2 or T84 cells after 5 weeks of growth in NOD/SCID mice in the presence of GFP-expressing ileal or colonic SEMFs.
+Sample count: 12
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Not found
+  Experimental Factors:
+    Experimental Factors: CELL LINE, ORGANISM, CELL TYPE
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens, Mus musculus
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: Not found
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Cell line: not specified, T84, Caco2
+      Cell type: subepithelial myofibroblasts, cancer cells
+      CELL LINE: T84, Caco2, not specified
+      CELL TYPE: cancer cells, subepithelial myofibroblasts
+      cell line: T84, Caco2
+      cell type: cancer cells, subepithelial myofibroblasts
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

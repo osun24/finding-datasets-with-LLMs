@@ -1,0 +1,2 @@
+Title: A Novel Classifier Based on Urinary Proteomics for Distinguishing between Benign and Malignant Ovarian Tumors
+Description: Preoperative differentiation of benign and malignant tumor types is critical for providing individualized treatment interventions to improve prognosis of patients with ovarian cancer. High-throughput proteomics analysis of urine samples was performed to identify reliable and non-invasive biomarkers that could effectively discriminate between the two ovarian tumor types.

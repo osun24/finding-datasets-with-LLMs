@@ -1,0 +1,3089 @@
+{
+  "accno": "E-GEOD-38652",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "In vitro responses of fibroblasts from patients with TBK1 deficiency after TLR3 dependent and independent stimuli"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2012-07-29"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-38652"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-38652",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "In vitro responses of fibroblasts from patients with TBK1 deficiency after TLR3 dependent and independent stimuli"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "We report here two unrelated HSE patients carrying different heterozygous mutations (D50A and G159A) in TBK1, the gene encoding TANK-binding kinase 1, a kinase at the crossroads of multiple IFN-inducing signaling pathways. Both mutant TBK1 alleles are loss-of-function, but through different mechanisms: protein instability (D50A) or a loss of kinase activity (G159A). Both are also associated with an autosomal dominant (AD) trait, but by different mechanisms: haplotype-insufficiency (D50A) or negative dominance (G159A). A defect in poly(I:C)-induced TLR3 responses can be detected in fibroblasts heterozygous for G159A, but not for D50A TBK1. Skin fibroblast cell lines were derived from healthy controls (n=3), patients with deficiencies for TBK1 (n=2),  TLR3 (n=2), STAT1 (n=1) and cultured for 2 or 8 hours in the presence of IFNa (105 IU/ml), IL1b (20ng/ml), or poly I:C (25ug/ml) or left unstimulated for the same length of time."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE38652"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE38652-56",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-56"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069027_F.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-36",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-36"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_C.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-7"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768041_L.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-57",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-57"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069027_H.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-23",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-23"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768108_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-47",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-47"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_E.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-34",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-34"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_A.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-28",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-28"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_G.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-2"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768041_C.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-9",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-9"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-48",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-48"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_G.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-25",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-25"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-24",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-24"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768108_K.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-50",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-50"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_I.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-26",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-26"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_C.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-17",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-17"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768108_A.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-14",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-14"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-5"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768041_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-22",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-22"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768108_H.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-21",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-21"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768108_G.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-42",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-42"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_K.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-54",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-54"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069027_C.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-27",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-27"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_F.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-35",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-35"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-20",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-20"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768108_F.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-40",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-40"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_H.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-3"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768041_F.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-58",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-58"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069027_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-37",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-37"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_D.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-6"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768041_K.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-8",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-8"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_A.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-13",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-13"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_I.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-46",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-46"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_D.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-38",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-38"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_F.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-33",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-33"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_L.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-11",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-11"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_F.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-51",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-51"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-30",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-30"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_I.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-45",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-45"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_C.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-29",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-29"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_H.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-39",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-39"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_G.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-53",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-53"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069027_A.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-15",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-15"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_K.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-44",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-44"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-18",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-18"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768108_B.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-43",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-43"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_L.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-19",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-19"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768108_D.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-12",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-12"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_G.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-49",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-49"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_H.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-41",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-41"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069024_I.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-55",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-55"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069027_D.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-32",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-32"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_K.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-52",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-52"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069026_K.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-31",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-31"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6142069020_J.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-4"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768041_G.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-16",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-16"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_L.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-10",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-10"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768082_E.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = Following background subtraction, the raw signal values extracted with Illumina Beadstudio version 2 software were quantile normalized<br>X6116768041_A.Detection.Pval ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-62",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-62"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "Standard Illumina scanning protocol"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-61",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-61"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Standard Illumina hybridization protocol"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-59",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-59"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Cells were lysed in RLT + 1% ?-Mercaptoethanol, RNA were isolated using Qiagen Rneasy mini kit"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-60",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-60"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Biotinylated cRNA were prepared with the Ambion MessageAmp kit for Illumina arrays"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE38652-63",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE38652-63"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "The data were normalised using quantile normalisation with in R. PALO (p<0.05 present in at least one) were used to filter the data."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Elisabeth Israelsson"
+          },
+          {
+            "name": "Email",
+            "value": "lisraelsson@benaroyaresearch.org"
+          },
+          {
+            "name": "Phone",
+            "value": "206-287-1058"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Melina Herman"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Michael Ciancanelli"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Yi-Hung Ou"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Lazaro Lorenzo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Maja Klaudel-Dreszler"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Elodie Pauwels"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Vanessa Sancho-Shimizu"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Rebeca Pérez de Diego"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Avinash Abhyankar"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Yiqi Guo"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Annabelle Cardon"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Flore Rozenberg"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Pierre Lebon"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Marc Tardieu"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Edyta Heropolita?ska-Pliszka"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Damien Chaussabel"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Michael White"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Laurent Abel"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Shen-Ying Zhang"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Jean-Laurent Casanova"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Benaroya Research Institute at Virginia Mason"
+          },
+          {
+            "name": "Address",
+            "value": "Systems Immunology, Benaroya Research Institute at Virginia Mason, 1201 9th Ave, Seattle, WA, USA"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "22851595",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Heterozygous TBK1 mutations impair TLR3 immunity and underlie herpes simplex encephalitis of childhood."
+          },
+          {
+            "name": "Authors",
+            "value": "Herman M, Ciancanelli M, Ou YH, Lorenzo L, Klaudel-Dreszler M, Pauwels E, Sancho-Shimizu V, Pérez de Diego R, Abhyankar A, Israelsson E, Guo Y, Cardon A, Rozenberg F, Lebon P, Tardieu M, Heropolitanska-Pliszka E, Chaussabel D, White MA, Abel L, Zhang SY, Casanova JL"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1084/jem.20111316"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1084/jem.20111316"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-38652",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "58"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "concentration"
+              }
+            ],
+            "value": "CONCENTRATION"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "stimulation"
+              }
+            ],
+            "value": "STIMULATION"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "timepoints"
+              }
+            ],
+            "value": "TIMEPOINTS"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sex"
+              }
+            ],
+            "value": "SEX"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-38652",
+            "attributes": [
+              {
+                "name": "Concentration",
+                "value": "not specified"
+              },
+              {
+                "name": "Concentration",
+                "value": "10^5 IU/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "25ug/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "20ng/ml"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Stimulation",
+                "value": "IFNa"
+              },
+              {
+                "name": "Stimulation",
+                "value": "Poly I:C"
+              },
+              {
+                "name": "Stimulation",
+                "value": "IL1b"
+              },
+              {
+                "name": "Stimulation",
+                "value": "NS"
+              },
+              {
+                "name": "Timepoints",
+                "value": "8h"
+              },
+              {
+                "name": "Timepoints",
+                "value": "not specified"
+              },
+              {
+                "name": "Timepoints",
+                "value": "2h"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "25ug/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "Poly I:C"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "10^5 IU/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "IFNa"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "25ug/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "Poly I:C"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "IL1b"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "IL1b"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "25ug/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "Poly I:C"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "10^5 IU/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "IFNa"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "10^5 IU/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "IFNa"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "10^5 IU/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "IFNa"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "NS"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "IL1b"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "25ug/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "Poly I:C"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "NS"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "CONCENTRATION",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "STIMULATION",
+                      "value": "IL1b"
+                    },
+                    {
+                      "name": "TIMEPOINTS",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-38652",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Concentration",
+                "value": "10^5 IU/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "25ug/ml"
+              },
+              {
+                "name": "Concentration",
+                "value": "20ng/ml"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Stimulation",
+                "value": "IFNa"
+              },
+              {
+                "name": "Stimulation",
+                "value": "Poly I:C"
+              },
+              {
+                "name": "Stimulation",
+                "value": "IL1b"
+              },
+              {
+                "name": "Stimulation",
+                "value": "NS"
+              },
+              {
+                "name": "Timepoints",
+                "value": "8h"
+              },
+              {
+                "name": "Timepoints",
+                "value": "2h"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "25ug/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "Poly I:C"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "10^5 IU/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "IFNa"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "25ug/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "Poly I:C"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "IL1b"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "IL1b"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "25ug/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "Poly I:C"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "10^5 IU/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "IFNa"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "2h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "10^5 IU/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "IFNa"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "10^5 IU/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "IFNa"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "NS"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "IL1b"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "25ug/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "Poly I:C"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "NS"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "concentration",
+                      "value": "20ng/ml"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "stimulation",
+                      "value": "IL1b"
+                    },
+                    {
+                      "name": "timepoints",
+                      "value": "8h"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-38652",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946874_sample_table.txt",
+                  "size": 895427,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946894_sample_table.txt",
+                  "size": 886849,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946869_sample_table.txt",
+                  "size": 904061,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946912_sample_table.txt",
+                  "size": 894405,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946908_sample_table.txt",
+                  "size": 903255,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946901_sample_table.txt",
+                  "size": 887781,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946893_sample_table.txt",
+                  "size": 899328,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946883_sample_table.txt",
+                  "size": 881026,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946866_sample_table.txt",
+                  "size": 887770,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946917_sample_table.txt",
+                  "size": 896103,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946914_sample_table.txt",
+                  "size": 896433,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946886_sample_table.txt",
+                  "size": 878745,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946910_sample_table.txt",
+                  "size": 884335,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946872_sample_table.txt",
+                  "size": 889923,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946882_sample_table.txt",
+                  "size": 900696,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946877_sample_table.txt",
+                  "size": 884499,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946868_sample_table.txt",
+                  "size": 892799,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946870_sample_table.txt",
+                  "size": 887401,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946905_sample_table.txt",
+                  "size": 888794,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946885_sample_table.txt",
+                  "size": 895629,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946865_sample_table.txt",
+                  "size": 884993,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946911_sample_table.txt",
+                  "size": 903129,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946863_sample_table.txt",
+                  "size": 898005,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946896_sample_table.txt",
+                  "size": 881061,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946873_sample_table.txt",
+                  "size": 885072,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946909_sample_table.txt",
+                  "size": 891320,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946891_sample_table.txt",
+                  "size": 900393,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946904_sample_table.txt",
+                  "size": 885871,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946907_sample_table.txt",
+                  "size": 900686,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946902_sample_table.txt",
+                  "size": 894529,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946892_sample_table.txt",
+                  "size": 891910,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946897_sample_table.txt",
+                  "size": 890680,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946895_sample_table.txt",
+                  "size": 899328,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946900_sample_table.txt",
+                  "size": 887793,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946903_sample_table.txt",
+                  "size": 884563,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946884_sample_table.txt",
+                  "size": 901330,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946875_sample_table.txt",
+                  "size": 900671,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946876_sample_table.txt",
+                  "size": 911521,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946906_sample_table.txt",
+                  "size": 890887,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946916_sample_table.txt",
+                  "size": 899548,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946862_sample_table.txt",
+                  "size": 890892,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946880_sample_table.txt",
+                  "size": 904549,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946889_sample_table.txt",
+                  "size": 887653,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946867_sample_table.txt",
+                  "size": 892765,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946864_sample_table.txt",
+                  "size": 889166,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946898_sample_table.txt",
+                  "size": 891966,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946887_sample_table.txt",
+                  "size": 887190,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946890_sample_table.txt",
+                  "size": 884048,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946871_sample_table.txt",
+                  "size": 895251,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946915_sample_table.txt",
+                  "size": 892697,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946888_sample_table.txt",
+                  "size": 889766,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946860_sample_table.txt",
+                  "size": 887260,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946878_sample_table.txt",
+                  "size": 894246,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946861_sample_table.txt",
+                  "size": 890474,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946881_sample_table.txt",
+                  "size": 897167,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946879_sample_table.txt",
+                  "size": 901706,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946899_sample_table.txt",
+                  "size": 895281,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM946913_sample_table.txt",
+                  "size": 893238,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-38652",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-38652.idf.txt",
+                  "size": 20854,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-38652.sdrf.txt",
+                  "size": 33109,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-38652",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-10558"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-38652",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

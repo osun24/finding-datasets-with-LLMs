@@ -1,0 +1,34 @@
+Accession: E-MTAB-2374
+Source list: lbd-screened
+Title: Transcriptional profiling of cerebrospinal fluid cells of multiple sclerosis patients
+Study type: transcription profiling by array
+Description: RNA was isolated from fresh cerebrospinal fluid samples of multiple sclerosis and control patients and analyzed by hybridization of HG U133 plus 2.0 arrays in order to investigate disease mechanisms of multiple sclerosis and to identify transcriptional biomarker
+Sample count: 48
+Assay count: 48
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: disease state design, ex_vivo_design, co-expression_design
+  Experimental Factors:
+    Experimental Factors: disease
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: cerebrospinal fluid
+    Disease: primary-progressive multiple sclerosis, unknown - not multiple sclerosis, HTLV1-associated myelopathy, stroke, relapsing-remitting multiple sclerosis, Parkinson's disease, secondary progressive multiple sclerosis, spinal stenosis, neurosarcoidosis
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Not found
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Treatment: none, Tysabri, Avonex, itMTX, oral MTX, intrathecal methotrexate, Avonex, intrathecal methotrexate
+      treatment: none, intrathecal methotrexate, itMTX, Tysabri, Avonex, oral MTX, Avonex, intrathecal methotrexate
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

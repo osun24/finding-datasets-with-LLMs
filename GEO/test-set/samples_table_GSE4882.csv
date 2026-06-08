@@ -1,0 +1,128 @@
+# TITLE: A Gene Expression Signature to Predict Metastasis and Survival in Non-small Cell Lung Cancer
+# SUMMARY: Background: Current histopathological methods are inadequate for predicting outcome and recurrence in patients with non-small cell lung carcinoma (NSCLC) after surgery. In this study, we investigated the use of gene expression signatures to predict outcome and metastasis in lung cancer patients. Methods: Gene expression was studied by microarray and the real-time reverse transcriptase polymerase chain reaction (RT-PCR) in normal and lung tumor tissue of 188 NSCLC patients who underwent surgical resection. The 5 cancer-related genes and 1 reference gene expression levels measureed by real-time RT-PCR were used in a prospectively defined algorithm to determine the risk for each patient. Finally, we used an independent cohort to verify the 5 gene-based predictive model derived from decision tree analysis. Results: The 5 gene-based decision tree model was able to predict the prognosis. The recurrence rate at 36 months was 53% in the low-risk group versus 83% in the high-risk group (P=0.002). The 5 gene-based model could also predict overall survival (P<0.001). In multivariate analysis, the decision tree model predicted that high-low dichotomy and stage were both significant for recurrence. In addition, it could also predict metastasis and survival of NSCLC patients within the stage I-II subgroups. A similar result was found using an independent cohort of NSCLC patients. The high-risk patients had a significantly poorer overall survival than the low-risk patients (P=0.005). We also found distinct gene signatures which could distinguish between NSCLC, and normal tissue and histology subtypes. Conclusions: A gene expression signature can predict metastasis and survival of NSCLC patients. Keywords: Survival and metastasis analysis
+GPL3730_Group,GPL3730_Accession,GPL3730_Title,GPL3730_Source name,GPL3730_Age,GPL3730_Gender,GPL3730_Cell type,GPL3730_Cancer stage,GPL3730_Characteristics
+-,GSM109662,Lung cancer_Paitent_100,Frozen lung cancer,61.6415868673051,Male,Large cell carcinoma,I,Survival time (month): 47.0627062706271Metastasis time (month): 47.0161556214969
+-,GSM109663,Lung cancer_Paitent_101,Frozen lung cancer,59.8248974008208,Male,Squamous cell carcinoma,I,Survival time (month): 49.2739273927393Metastasis time (month): 15.6280909990109
+-,GSM109664,Lung cancer_Paitent_102,Frozen lung cancer,79.3761969904241,Male,Adenocarcinoma,I,Survival time (month): 20.0660066006601Metastasis time (month): 7.48433893834487
+-,GSM109665,Lung cancer_Paitent_109,Frozen lung cancer,63.7920656634747,Female,Squamous cell carcinoma,III,Survival time (month): 26.996699669967Metastasis time (month): 26.996699669967
+-,GSM109666,Lung cancer_Paitent_110,Frozen lung cancer,58.4514363885089,Male,Squamous cell carcinoma,II,Survival time (month): 39.9009900990099Metastasis time (month): 39.8615232443126
+-,GSM109667,Lung cancer_Paitent_113,Frozen lung cancer,68.1532147742818,Male,Large cell carcinoma,I,Survival time (month): 35.9380151665018Metastasis time (month): 35.9380151665018
+-,GSM109668,Lung cancer_Paitent_115,Frozen lung cancer,60.6429548563612,Male,Squamous cell carcinoma,I,Survival time (month): 45.2805280528053Metastasis time (month): 45.2357401912298
+-,GSM109669,Lung cancer_Paitent_116,Frozen lung cancer,36.2489740082079,Male,Adenocarcinoma,III,Survival time (month): 9.43894389438944Metastasis time (month): 5.93471810089021
+-,GSM109670,Lung cancer_Paitent_128,Frozen lung cancer,65.2476060191518,Male,Squamous cell carcinoma,III,Survival time (month): 21.2871287128713Metastasis time (month): 21.0352786020442
+-,GSM109671,Lung cancer_Paitent_144,Frozen lung cancer,23.406292749658,Female,Squamous cell carcinoma,III,Survival time (month): 41.3201320132013Metastasis time (month): 28.2228816353445
+-,GSM109672,Lung cancer_Paitent_151,Frozen lung cancer,25.7729138166895,Male,Adenocarcinoma,II,Survival time (month): 40.8580858085809Metastasis time (month): 24.2004615891856
+-,GSM109673,Lung cancer_Paitent_160,Frozen lung cancer,65.4719562243502,Male,Squamous cell carcinoma,III,Survival time (month): 11.2541254125413Metastasis time (month): 11.2541254125413
+-,GSM109674,Lung cancer_Paitent_165,Frozen lung cancer,78.3337893296854,Male,Adenocarcinoma,III,Survival time (month): 31.3531353135314Metastasis time (month): 2.30794592812397
+-,GSM109675,Lung cancer_Paitent_169,Frozen lung cancer,61.0369357045144,Male,Squamous cell carcinoma,II,Survival time (month): 38.6798679867987Metastasis time (month): 38.6416089680185
+-,GSM109676,Lung cancer_Paitent_170,Frozen lung cancer,68.8700410396717,Male,Squamous cell carcinoma,III,Survival time (month): 20.03300330033Metastasis time (month): 4.38509726343554
+-,GSM109677,Lung cancer_Paitent_174,Frozen lung cancer,69.5868673050616,Male,Squamous cell carcinoma,III,Survival time (month): 16.4686468646865Metastasis time (month): 9.92416749093307
+-,GSM109678,Lung cancer_Paitent_175,Frozen lung cancer,72.9658002735978,Male,Adenocarcinoma,I,Survival time (month): 36.6996699669967Metastasis time (month): 36.6633696010551
+-,GSM109679,Lung cancer_Paitent_177,Frozen lung cancer,68.1395348837209,Male,Squamous cell carcinoma,III,Survival time (month): 36.2706270627063Metastasis time (month): 11.2759643916914
+-,GSM109680,Lung cancer_Paitent_179,Frozen lung cancer,67.5677154582763,Male,Adenocarcinoma,I,Survival time (month): 14.4081767227168Metastasis time (month): 14.4081767227168
+-,GSM109681,Lung cancer_Paitent_181,Frozen lung cancer,60.6621067031464,Male,Adenocarcinoma,III,Survival time (month): 13.4323432343234Metastasis time (month): 7.68216287504121
+-,GSM109682,Lung cancer_Paitent_182,Frozen lung cancer,63.3953488372093,Male,Large cell carcinoma,II,Survival time (month): 30.990099009901Metastasis time (month): 30.9594460929773
+-,GSM109683,Lung cancer_Paitent_183,Frozen lung cancer,72.4870041039672,Male,Adenocarcinoma,II,Survival time (month): 7.64919221892516Metastasis time (month): 7.64919221892516
+-,GSM109684,Lung cancer_Paitent_184,Frozen lung cancer,71.0205198358413,Male,Adenocarcinoma,III,Survival time (month): 32.1452145214521Metastasis time (month): 32.1134190570392
+-,GSM109685,Lung cancer_Paitent_185,Frozen lung cancer,59.6005471956224,Female,Adenocarcinoma,II,Survival time (month): 7.88778877887789Metastasis time (month): 7.88778877887789
+-,GSM109686,Lung cancer_Paitent_186,Frozen lung cancer,62.2681258549932,Male,Large cell carcinoma,III,Survival time (month): 32.6402640264026Metastasis time (month): 28.6844708209693
+-,GSM109687,Lung cancer_Paitent_190,Frozen lung cancer,72.7797537619699,Male,Large cell carcinoma,I,Survival time (month): 33.3333333333333Metastasis time (month): 33.3003626772173
+-,GSM109688,Lung cancer_Paitent_192,Frozen lung cancer,73.4664842681259,Female,Adenocarcinoma,III,Survival time (month): 5.04950495049505Metastasis time (month): 1.15397296406198
+-,GSM109689,Lung cancer_Paitent_193,Frozen lung cancer,75.5321477428181,Male,Adenocarcinoma,II,Survival time (month): 18.1518151815182Metastasis time (month): 18.1338608638312
+-,GSM109690,Lung cancer_Paitent_194,Frozen lung cancer,70.5335157318741,Female,Large cell carcinoma,III,Survival time (month): 14.0924092409241Metastasis time (month): 5.11045169798879
+-,GSM109691,Lung cancer_Paitent_195,Frozen lung cancer,59.2421340629275,Female,Large cell carcinoma,I,Survival time (month): 29.0759075907591Metastasis time (month): 29.047148038246
+-,GSM109692,Lung cancer_Paitent_198,Frozen lung cancer,70.155950752394,Male,Squamous cell carcinoma,II,Survival time (month): 13.5313531353135Metastasis time (month): 6.95680844048797
+-,GSM109693,Lung cancer_Paitent_199,Frozen lung cancer,66.4432284541724,Male,Large cell carcinoma,II,Survival time (month): 5.80858085808581Metastasis time (month): 2.76953511374876
+-,GSM109694,Lung cancer_Paitent_200,Frozen lung cancer,83.2749658002736,Male,Squamous cell carcinoma,II,Survival time (month): 4.84668644906034Metastasis time (month): 4.84668644906034
+-,GSM109695,Lung cancer_Paitent_201,Frozen lung cancer,64.9192886456908,Male,Adenocarcinoma,I,Survival time (month): 26.5346534653465Metastasis time (month): 26.5084075173096
+-,GSM109696,Lung cancer_Paitent_202,Frozen lung cancer,62.0738714090287,Male,Adenocarcinoma,III,Survival time (month): 18.1518151815182Metastasis time (month): 14.4741180349489
+-,GSM109697,Lung cancer_Paitent_203,Frozen lung cancer,69.8002735978112,Male,Squamous cell carcinoma,I,Survival time (month): 31.9471947194719Metastasis time (month): 31.9155951203429
+-,GSM109698,Lung cancer_Paitent_204,Frozen lung cancer,77.6142270861833,Male,Adenocarcinoma,I,Survival time (month): 26.9306930693069Metastasis time (month): 15.4632377184306
+-,GSM109699,Lung cancer_Paitent_206,Frozen lung cancer,47.6552667578659,Female,Adenocarcinoma,III,Survival time (month): 17.2937293729373Metastasis time (month): 14.3422354104847
+-,GSM109700,Lung cancer_Paitent_207,Frozen lung cancer,42.3091655266758,Male,Squamous cell carcinoma,II,Survival time (month): 29.0759075907591Metastasis time (month): 11.5397296406198
+-,GSM109701,Lung cancer_Paitent_208,Frozen lung cancer,54.2845417236662,Male,Adenocarcinoma,III,Survival time (month): 18.019801980198Metastasis time (month): 10.0230794592812
+-,GSM109702,Lung cancer_Paitent_210,Frozen lung cancer,44.7770177838577,Male,Adenocarcinoma,III,Survival time (month): 30.4620462046205Metastasis time (month): 30.4319155951203
+-,GSM109703,Lung cancer_Paitent_211,Frozen lung cancer,67.4582763337893,Male,Adenocarcinoma,III,Survival time (month): 20.3300330033003Metastasis time (month): 2.50576986482031
+-,GSM109704,Lung cancer_Paitent_213,Frozen lung cancer,73.9233926128591,Male,Adenocarcinoma,I,Survival time (month): 30.3630363036304Metastasis time (month): 12.4958786679855
+-,GSM109705,Lung cancer_Paitent_214,Frozen lung cancer,75.4856361149111,Male,Squamous cell carcinoma,I,Survival time (month): 29.6369636963696Metastasis time (month): 29.6076491922189
+-,GSM109706,Lung cancer_Paitent_215,Frozen lung cancer,74.2845417236662,Male,Squamous cell carcinoma,I,Survival time (month): 20.1320132013201Metastasis time (month): 7.91295746785361
+-,GSM109707,Lung cancer_Paitent_216,Frozen lung cancer,77.8139534883721,Male,Adenocarcinoma,II,Survival time (month): 15.5115511551155Metastasis time (month): 11.5067589845038
+-,GSM109708,Lung cancer_Paitent_217,Frozen lung cancer,76.391244870041,Male,Squamous cell carcinoma,I,Survival time (month): 17.953795379538Metastasis time (month): 17.9360369271349
+-,GSM109709,Lung cancer_Paitent_219,Frozen lung cancer,73.4664842681259,Male,Mixed ( Small / large cell carcinoma),III,Survival time (month): 3.36300692383778Metastasis time (month): 3.36300692383778
+-,GSM109710,Lung cancer_Paitent_222,Frozen lung cancer,64.0054719562244,Male,Squamous cell carcinoma,II,Survival time (month): 29.2079207920792Metastasis time (month): 29.1790306627102
+-,GSM109711,Lung cancer_Paitent_223,Frozen lung cancer,65.844049247606,Male,Adenocarcinoma,III,Survival time (month): 18.6468646864686Metastasis time (month): 13.6498516320475
+-,GSM109712,Lung cancer_Paitent_224,Frozen lung cancer,68.812585499316,Male,Squamous cell carcinoma,II,Survival time (month): 26.5346534653465Metastasis time (month): 26.5084075173096
+-,GSM109713,Lung cancer_Paitent_226,Frozen lung cancer,79.469220246238,Male,Adenocarcinoma,I,Survival time (month): 29.6699669966997Metastasis time (month): 29.640619848335
+-,GSM109714,Lung cancer_Paitent_227,Frozen lung cancer,64.3447332421341,Male,Mixed ( Small / large cell carcinoma),I,Survival time (month): 27.5247524752475Metastasis time (month): 27.4975272007913
+-,GSM109715,Lung cancer_Paitent_232,Frozen lung cancer,80.6593707250342,Male,Bronchioloalveolar carcinoma,I,Survival time (month): 27.5247524752475Metastasis time (month): 27.4975272007913
+-,GSM109716,Lung cancer_Paitent_237,Frozen lung cancer,79.2694938440493,Male,Adenocarcinoma,I,Survival time (month): 27.1287128712871Metastasis time (month): 27.1018793273986
+-,GSM109717,Lung cancer_Paitent_238,Frozen lung cancer,71.4145006839945,Male,Squamous cell carcinoma,II,Survival time (month): 27.029702970297Metastasis time (month): 27.0029673590504
+-,GSM109718,Lung cancer_Paitent_239,Frozen lung cancer,60.8235294117647,Male,Squamous cell carcinoma,I,Survival time (month): 22.9042904290429Metastasis time (month): 22.8816353445434
+-,GSM109719,Lung cancer_Paitent_242,Frozen lung cancer,44.1176470588235,Male,Adenocarcinoma,III,Survival time (month): 26.3366336633663Metastasis time (month): 11.638641608968
+-,GSM109720,Lung cancer_Paitent_243,Frozen lung cancer,40.1641586867305,Male,Adenocarcinoma,II,Survival time (month): 27.7887788778878Metastasis time (month): 27.7612924497198
+-,GSM109721,Lung cancer_Paitent_244,Frozen lung cancer,76.3720930232558,Male,Squamous cell carcinoma,I,Survival time (month): 27.7942631058358Metastasis time (month): 27.7942631058358
+-,GSM109722,Lung cancer_Paitent_245,Frozen lung cancer,61.2311901504788,Female,Adenocarcinoma,I,Survival time (month): 22.6072607260726Metastasis time (month): 22.5848994394988
+-,GSM109723,Lung cancer_Paitent_246,Frozen lung cancer,64.7113543091655,Female,Adenocarcinoma,I,Survival time (month): 27.5304978569074Metastasis time (month): 27.5304978569074
+-,GSM109724,Lung cancer_Paitent_247,Frozen lung cancer,72.4295485636115,Female,Adenocarcinoma,I,Survival time (month): 14.6864686468647Metastasis time (month): 14.6719419716452
+-,GSM109725,Lung cancer_Paitent_248,Frozen lung cancer,71.0998632010944,Female,Adenocarcinoma,I,Survival time (month): 20.5610561056106Metastasis time (month): 20.5407187603033
+-,GSM109726,Lung cancer_Paitent_250,Frozen lung cancer,76.0656634746922,Male,Adenocarcinoma,III,Survival time (month): 26.2706270627063Metastasis time (month): 26.2446422683811
+-,GSM109727,Lung cancer_Paitent_252,Frozen lung cancer,74.7332421340629,Male,Adenocarcinoma,I,Survival time (month): 26.8316831683168Metastasis time (month): 11.5397296406198
+-,GSM109728,Lung cancer_Paitent_253,Frozen lung cancer,72.6675786593707,Male,Squamous cell carcinoma,III,Survival time (month): 11.8811881188119Metastasis time (month): 1.71447411803495
+-,GSM109729,Lung cancer_Paitent_256,Frozen lung cancer,67.5841313269494,Male,Adenocarcinoma,I,Survival time (month): 26.7986798679868Metastasis time (month): 26.7721727662381
+-,GSM109730,Lung cancer_Paitent_259,Frozen lung cancer,53.2913816689466,Male,Squamous cell carcinoma,I,Survival time (month): 25.8489943949885Metastasis time (month): 25.8489943949885
+-,GSM109731,Lung cancer_Paitent_261,Frozen lung cancer,63.7318741450068,Male,Adenocarcinoma,I,Survival time (month): 24.4884488448845Metastasis time (month): 18.4635674249918
+-,GSM109732,Lung cancer_Paitent_263,Frozen lung cancer,66.2982216142271,Male,Squamous cell carcinoma,I,Survival time (month): 23.5313531353135Metastasis time (month): 23.5080778107484
+-,GSM109733,Lung cancer_Paitent_264,Frozen lung cancer,75.8221614227086,Male,Squamous cell carcinoma,III,Survival time (month): 21.4521452145215Metastasis time (month): 21.4309264754369
+-,GSM109734,Lung cancer_Paitent_266,Frozen lung cancer,72.5854993160055,Female,Adenocarcinoma,III,Survival time (month): 22.7392739273927Metastasis time (month): 22.7167820639631
+-,GSM109735,Lung cancer_Paitent_267,Frozen lung cancer,74.6730506155951,Female,Squamous cell carcinoma,III,Survival time (month): 10.8910891089109Metastasis time (month): 7.12166172106825
+-,GSM109736,Lung cancer_Paitent_270,Frozen lung cancer,43.1682626538988,Female,Adenocarcinoma,I,Survival time (month): 21.8151815181518Metastasis time (month): 21.7936036927135
+-,GSM109737,Lung cancer_Paitent_271,Frozen lung cancer,65.8413132694938,Male,Squamous cell carcinoma,I,Survival time (month): 16.8976897689769Metastasis time (month): 16.880975931421
+-,GSM109738,Lung cancer_Paitent_272,Frozen lung cancer,69.8112175102599,Male,Adenocarcinoma,I,Survival time (month): 22.2112211221122Metastasis time (month): 22.1892515661062
+-,GSM109739,Lung cancer_Paitent_273,Frozen lung cancer,62.9247606019152,Male,Squamous cell carcinoma,I,Survival time (month): 21.4851485148515Metastasis time (month): 21.4638971315529
+-,GSM109740,Lung cancer_Paitent_274,Frozen lung cancer,51.3378932968536,Female,Adenocarcinoma,III,Survival time (month): 18.2178217821782Metastasis time (month): 18.1998021760633
+-,GSM109741,Lung cancer_Paitent_277,Frozen lung cancer,78.5389876880985,Male,Adenocarcinoma,III,Survival time (month): 21.1221122112211Metastasis time (month): 21.1012199142763
+-,GSM109742,Lung cancer_Paitent_278,Frozen lung cancer,82.8891928864569,Male,Squamous cell carcinoma,II,Survival time (month): 21.5181518151815Metastasis time (month): 21.496867787669
+-,GSM109743,Lung cancer_Paitent_280,Frozen lung cancer,64.7305061559507,Male,Squamous cell carcinoma,III,Survival time (month): 2.50825082508251Metastasis time (month): 1.84635674249918
+-,GSM109744,Lung cancer_Paitent_283,Frozen lung cancer,65.3543091655267,Male,Squamous cell carcinoma,II,Survival time (month): 20.8250825082508Metastasis time (month): 20.8044840092318
+-,GSM109745,Lung cancer_Paitent_286,Frozen lung cancer,63.03146374829,Female,Adenocarcinoma,I,Survival time (month): 20.6270627062706Metastasis time (month): 20.6066600725354
+-,GSM109746,Lung cancer_Paitent_287,Frozen lung cancer,69.8221614227086,Male,Squamous cell carcinoma,II,Survival time (month): 2.93729372937294Metastasis time (month): 1.05506099571381
+-,GSM109747,Lung cancer_Paitent_289,Frozen lung cancer,61.8495212038304,Female,Adenocarcinoma,III,Survival time (month): 20.1650165016502Metastasis time (month): 1.15397296406198
+-,GSM109748,Lung cancer_Paitent_292,Frozen lung cancer,75.1381668946648,Male,Adenocarcinoma,III,Survival time (month): 19.8349834983498Metastasis time (month): 19.8153643257501
+-,GSM109749,Lung cancer_Paitent_295,Frozen lung cancer,69.4172366621067,Female,Adenocarcinoma,I,Survival time (month): 19.5709570957096Metastasis time (month): 15.5951203428948
+-,GSM109750,Lung cancer_Paitent_296,Frozen lung cancer,72.7086183310534,Male,Adenocarcinoma,I,Survival time (month): 17.6897689768977Metastasis time (month): 17.6722716782064
+-,GSM109751,Lung cancer_Paitent_297,Frozen lung cancer,73.4664842681259,Male,Squamous cell carcinoma,II,Survival time (month): 18.7128712871287Metastasis time (month): 18.6943620178042
+-,GSM109752,Lung cancer_Paitent_298,Frozen lung cancer,79.8960328317373,Male,Squamous cell carcinoma,I,Survival time (month): 18.4488448844884Metastasis time (month): 18.4305967688757
+-,GSM109753,Lung cancer_Paitent_299,Frozen lung cancer,73.5184678522572,Male,Squamous cell carcinoma,I,Survival time (month): 13.8613861386139Metastasis time (month): 13.8476755687438
+-,GSM109754,Lung cancer_Paitent_300,Frozen lung cancer,53.5649794801642,Female,Adenocarcinoma,III,Survival time (month): 18.6798679867987Metastasis time (month): 18.6613913616881
+-,GSM109755,Lung cancer_Paitent_301,Frozen lung cancer,76.0574555403557,Male,Squamous cell carcinoma,I,Survival time (month): 15.4125412541254Metastasis time (month): 15.3972964061985
+-,GSM109756,Lung cancer_Paitent_303,Frozen lung cancer,64.172366621067,Male,Squamous cell carcinoma,III,Survival time (month): 19.3399339933993Metastasis time (month): 18.2657434882954
+-,GSM109757,Lung cancer_Paitent_304,Frozen lung cancer,44.3775649794802,Male,Adenocarcinoma,II,Survival time (month): 17.8547854785479Metastasis time (month): 17.8371249587867
+-,GSM109758,Lung cancer_Paitent_306,Frozen lung cancer,49.3707250341997,Female,Adenocarcinoma,II,Survival time (month): 13.8613861386139Metastasis time (month): 13.8476755687438
+-,GSM109759,Lung cancer_Paitent_307,Frozen lung cancer,79.3570451436389,Male,Squamous cell carcinoma,II,Survival time (month): 17.2937293729373Metastasis time (month): 17.2766238048137
+-,GSM109760,Lung cancer_Paitent_308,Frozen lung cancer,65.7893296853625,Male,Adenocarcinoma,III,Survival time (month): 14.1254125412541Metastasis time (month): 14.1114408176723
+-,GSM109761,Lung cancer_Paitent_309,Frozen lung cancer,45.3160054719562,Male,Squamous cell carcinoma,II,Survival time (month): 14.7524752475248Metastasis time (month): 14.7378832838774
+-,GSM109762,Lung cancer_Paitent_311,Frozen lung cancer,53.0642954856361,Female,Adenocarcinoma,III,Survival time (month): 16.2046204620462Metastasis time (month): 13.1882624464227
+-,GSM109763,Lung cancer_Paitent_312,Frozen lung cancer,66.3419972640219,Male,Squamous cell carcinoma,III,Survival time (month): 2.83828382838284Metastasis time (month): 2.83828382838284
+-,GSM109764,Lung cancer_Paitent_313,Frozen lung cancer,55.4774281805746,Male,Squamous cell carcinoma,II,Survival time (month): 16.7326732673267Metastasis time (month): 16.7161226508408
+-,GSM109765,Lung cancer_Paitent_314,Frozen lung cancer,73.1135430916553,Male,Squamous cell carcinoma,I,Survival time (month): 16.6666666666667Metastasis time (month): 16.6501813386086
+-,GSM109766,Lung cancer_Paitent_315,Frozen lung cancer,72.1477428180575,Male,Adenocarcinoma,III,Survival time (month): 0.231023102310231Metastasis time (month): 0.231023102310231
+-,GSM109767,Lung cancer_Paitent_317,Frozen lung cancer,83.1436388508892,Male,Adenocarcinoma,I,Survival time (month): 16.4686468646865Metastasis time (month): 16.4523574019123
+-,GSM109768,Lung cancer_Paitent_319,Frozen lung cancer,64.3392612859097,Male,Squamous cell carcinoma,II,Survival time (month): 7.95379537953795Metastasis time (month): 7.8470161556215
+-,GSM109769,Lung cancer_Paitent_320,Frozen lung cancer,72.656634746922,Male,Squamous cell carcinoma,I,Survival time (month): 12.2112211221122Metastasis time (month): 12.199142762941
+-,GSM109770,Lung cancer_Paitent_321,Frozen lung cancer,62.5718194254446,Male,Squamous cell carcinoma,I,Survival time (month): 15.8085808580858Metastasis time (month): 15.7929442795912
+-,GSM109771,Lung cancer_Paitent_325,Frozen lung cancer,68.3392612859097,Male,Squamous cell carcinoma,III,Survival time (month): 4.71947194719472Metastasis time (month): 1.18694362017804
+-,GSM109772,Lung cancer_Paitent_326,Frozen lung cancer,50.484268125855,Female,Adenocarcinoma,III,Survival time (month): 13.7623762376238Metastasis time (month): 13.1552917903066
+-,GSM109773,Lung cancer_Paitent_327,Frozen lung cancer,70.610123119015,Male,Adenocarcinoma,I,Survival time (month): 13.1353135313531Metastasis time (month): 13.1223211341906
+-,GSM109774,Lung cancer_Paitent_329,Frozen lung cancer,62.6019151846785,Male,Adenocarcinoma,III,Survival time (month): 12.4752475247525Metastasis time (month): 12.4629080118694
+-,GSM109775,Lung cancer_Paitent_332,Frozen lung cancer,75.0916552667579,Male,Squamous cell carcinoma,II,Survival time (month): 12.0792079207921Metastasis time (month): 12.0672601384768
+-,GSM109776,Lung cancer_Paitent_334,Frozen lung cancer,72.4240766073871,Male,Squamous cell carcinoma,III,Survival time (month): 12.0792079207921Metastasis time (month): 12.0672601384768
+-,GSM109777,Lung cancer_Paitent_340,Frozen lung cancer,53.8549931600547,Male,Squamous cell carcinoma,III,Survival time (month): 5.28052805280528Metastasis time (month): 5.28052805280528
+-,GSM109778,Lung cancer_Paitent_343,Frozen lung cancer,66.1969904240766,Male,Adenocarcinoma,III,Survival time (month): 7.55775577557756Metastasis time (month): 4.81371579294428
+-,GSM109779,Lung cancer_Paitent_346,Frozen lung cancer,64.0984952120383,Female,Mixed ( Small / large cell carcinoma),II,Survival time (month): 11.0891089108911Metastasis time (month): 7.12166172106825
+-,GSM109780,Lung cancer_Paitent_347,Frozen lung cancer,56.5116279069767,Male,Adenocarcinoma,I,Survival time (month): 10.8250825082508Metastasis time (month): 9.39663699307616
+-,GSM109781,Lung cancer_Paitent_350,Frozen lung cancer,72.6484268125855,Male,Adenocarcinoma,II,Survival time (month): 6.10561056105611Metastasis time (month): 5.1763930102209
+-,GSM109782,Lung cancer_Paitent_351,Frozen lung cancer,66.6429548563611,Male,Adenocarcinoma,II,Survival time (month): 6.6006600660066Metastasis time (month): 3.65974282888229
+-,GSM109783,Lung cancer_Paitent_355,Frozen lung cancer,65.9288645690834,Female,Mixed ( Small / large cell carcinoma),III,Survival time (month): 9.63696369636964Metastasis time (month): 7.58325090669304
+-,GSM109784,Lung cancer_Paitent_363,Frozen lung cancer,67.7729138166895,Male,Squamous cell carcinoma,III,Survival time (month): 2.67326732673267Metastasis time (month): 1.87932739861523
+-,GSM109785,Lung cancer_Paitent_365,Frozen lung cancer,68.4350205198358,Male,Adenocarcinoma,III,Survival time (month): 4.55445544554455Metastasis time (month): 1.18694362017804
+-,GSM109786,Lung cancer_Paitent_75,Frozen lung cancer,77.0095759233926,Male,Adenocarcinoma,I,Survival time (month): 56.8414111440818Metastasis time (month): 56.8414111440818

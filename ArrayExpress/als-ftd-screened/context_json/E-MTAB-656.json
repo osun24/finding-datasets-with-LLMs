@@ -1,0 +1,90 @@
+{
+  "Accession": "E-MTAB-656",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "25"
+    ]
+  },
+  "Description": "We analysed changes in transcript levels and alternative splicing in the temporal cortex of individuals of different ages that were cognitively normal, affected by frontotemporal lobar degeneration (FTLD), or affected by Alzheimer's disease (AD). Our experiment's purpose is to provide new insights into the gene expression changes that distinguish healthy aging from neurodegeneration and identify the candidate regulators of alternative splicing that are associated with both processes.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {
+        "ClinicalHistory": [
+          "cognitively normal",
+          "Familial FTLD with MAPT mutations",
+          "sporadic FTLD-TDP",
+          "Familial FTLD-TDP with PGRN mutations",
+          "Alzheimer's disease"
+        ],
+        "Clinicalhistory": [
+          "sporadic FTLD-TDP",
+          "Familial FTLD-TDP with PGRN mutations",
+          "cognitively normal",
+          "Alzheimer's disease",
+          "Familial FTLD with MAPT mutations"
+        ]
+      },
+      "Disease state/staging": {
+        "DISEASESTATE": [
+          "normal",
+          "Frontotemporal lobar degeneration",
+          "Alzheimer's disease"
+        ],
+        "DiseaseState": [
+          "normal",
+          "Frontotemporal lobar degeneration",
+          "Alzheimer's disease"
+        ],
+        "Diseasestate": [
+          "Alzheimer's disease",
+          "normal",
+          "Frontotemporal lobar degeneration"
+        ]
+      },
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease_state_design",
+        "clinical_history_design",
+        "co-expression_design",
+        "transcript_identification_design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "DISEASESTATE",
+        "AGE"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "Alzheimer's disease",
+        "normal",
+        "Frontotemporal lobar degeneration"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "middle temporal gyrus"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Alternative splicing in human temporal cortex"
+}

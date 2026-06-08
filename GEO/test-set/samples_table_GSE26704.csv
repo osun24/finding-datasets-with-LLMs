@@ -1,0 +1,11 @@
+# TITLE: p38alfa and ATF2 act differentially depending on DUSP1 expression in NCSCL in response to cisplatin
+# SUMMARY: DUSP1 is involved in different cellular pathways including cancer cell proliferation, angiogenesis, invasion and resistance to chemotherapy. To gain insight into the cellular signaling pathways involving DUSP1 actions and the response to Cisplatin (CDDP) in non small cell lung cancer (NSCLC), we have used a double strategy that combines microarray and SiRNA technology. This strategy provided a differential expression profile of genes involved in CDDP response in NSCLC cell line regulated by DUSP1 using H460 and H460cri and a time course to CDDP. KEYWORDS: Expression profiling by array in cells with genetic modification in response to CCDP treatment
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Genotype/variation,GPL570_Agent,GPL570_Time
+-,GSM657239,H460v-control,H460v-control,non small cell lung cancer cell line H460,wild type,untreated (control),
+-,GSM657240,H460cri-control,H460cri-control,non small cell lung cancer cell line H460,DUSP1 knockdown (siRNA-mediated),untreated (control),
+-,GSM657241,H460v-CCDP 1hour,H460v-CCDP 1hour,non small cell lung cancer cell line H460,wild type,CCDP,1 hour
+-,GSM657242,H460cri-CCDP 1hour,H460cri-CCDP 1hour,non small cell lung cancer cell line H460,DUSP1 knockdown (siRNA-mediated),CCDP,1 hour
+-,GSM657243,H460v-CCDP 3 hour,H460v-CCDP 3 hour,non small cell lung cancer cell line H460,wild type,CCDP,3 hour
+-,GSM657244,H460cri-CCDP 3 hour,H460cri-CCDP 3 hour,non small cell lung cancer cell line H460,DUSP1 knockdown (siRNA-mediated),CCDP,3 hour
+-,GSM657245,H460v-CCDP 6hour,H460v-CCDP 6hour,non small cell lung cancer cell line H460,wild type,CCDP,6 hour
+-,GSM657246,H460cri-CCDP 6hour,H460cri-CCDP 6hour,non small cell lung cancer cell line H460,DUSP1 knockdown (siRNA-mediated),CCDP,6 hour

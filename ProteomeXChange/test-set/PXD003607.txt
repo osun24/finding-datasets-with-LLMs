@@ -1,0 +1,2 @@
+Title: Ovarian Cancer Proteomics of FFPE Tissue
+Description: We have performed in-depth examination of single tissue sections from a collection of FFPE and Frozen treated tumors, as well as cell line material all originating from different subtypes of epithelial ovarian cancer (high-grade serous, clear cell, endometrioid). Data were prepared using a tandem mass tag 10plex protocol with MS3 analysis on an Orbitrap Fusion.

@@ -1,0 +1,190 @@
+# TITLE: Gene expression profiles of poorly differentiated, undifferentiated and metastatic cancers
+# SUMMARY: The tissue of origin form metastatic tumors is sometimes difficult to identify from clinical and histologic information. Gene expression signatures are one potential method for identifying the tissue of origin. In the development of algorithms to identify tissue of origin, a collection of human tumor metastatic specimens with known primary sites or primary tumors with poor differentiation are very useful in identifying gene expressions signatures that can classify unknown specimens as to the tissue of origin. Here we describe a series of 276 such tumor specimens used for this purpose. The specimens are poorly differentiated, undifferentiated and metastatic specimens from tumors of the following types/tissues of origin: breast, liver, non-Hodgkin's lymphoma, non-small cell lung cancer, ovary, testicular germ cell, thyroid, kidney, pancreas, colorectal cancer, soft tissue sarcoma, bladder, gastric cancer, prostate and melanoma. This data combined with other series (GSE2109) was used to validate a proprietary tumor classification algorithm of Pathwork Diagnostics. The results of this validation set (N = 545 CEL files) showed that the algorithm correctly identified the tissue of origin for 89.4% of the specimens. Guidelines for commercial use: http://pathworkdx.com/GSE12630_request.html
+GPL7280_Group,GPL7280_Accession,GPL7280_Title,GPL7280_Source name,GPL7280_Anatomical sites,GPL7280_Gender,GPL7280_Age,GPL7280_TNM,GPL96_Group,GPL96_Accession,GPL96_Title,GPL96_Source name,GPL96_Anatomical sites,GPL96_Gender,GPL96_Age,GPL96_TNM
+-,GSM319520,P09_1170P1H,Liver,Liver,F,60-69,G4,-,GSM319663,M06_0202U1A,Ovary,Ovary,F,50-59,3 to 4
+-,GSM319521,P09_1182P1H,Bladder,Bladder,M,60-69,G4,-,GSM319664,M06_0203U1A,Ovary,Ovary,F,60-69,4
+-,GSM319522,P09_1215P1H,Bladder,Bladder,M,60-69,G4,-,GSM319665,M06_0204U1A,Breast,Breast,F,50-59,4
+-,GSM319523,P09_1288P1H,Liver,Liver,M,50-59,G4,-,GSM319666,M06_0205U1A,Ovary,Ovary,F,50-59,4
+-,GSM319524,P09_1290P1H,Liver,Liver,F,50-59,G4,-,GSM319667,M06_0208U1A,Breast,Breast,F,50-59,4
+-,GSM319525,P09_1495P1H,Bladder,Bladder,M,50-59,G4,-,GSM319668,M06_0222U1A,Breast,Breast,F,60-69,4
+-,GSM319526,P09_1620P1H,Bladder,Bladder,M,40-49,G4,-,GSM319669,J06_0258U1A,Lung,Lung,M,50-59,4
+-,GSM319527,P09_1625P1H,Prostate,Prostate,M,60-69,Gleason 7,-,GSM319670,J06_0259U1A,Breast,Ovary,F,40-49,-
+-,GSM319528,P09_1626P1H,Bladder,Bladder,M,60-69,G4,-,GSM319671,J06_0261U1A,Lung,Lymph node,F,50-59,-
+-,GSM319529,P09_2040P1H,Bladder,Bladder,M,50-59,G4,-,GSM319672,J06_0262U1A,Colorectal,Colon,F,60-69,3 to 4
+-,GSM319530,P09_2139P1H,Bladder,Bladder,M,50-59,G4,-,GSM319673,J06_0272U1A,Lymph Node,Thigh mass,F,70-79,-
+-,GSM319531,P09_2353P1H,Bladder,Bladder,M,50-59,G4,-,GSM319674,J06_0274U1A,Lung,Adrenal gland,F,50-59,-
+-,GSM319532,P09_2407P1H,Liver,Liver,M,20-29,G4,-,GSM319675,J06_0276U1A,Lymph Node,Thyroid,F,80-89,-
+-,GSM319533,P09_2511P1H,Liver,Liver,M,40-49,G4,-,GSM319676,J06_0278U1A,Colorectal,Stomach,M,50-59,-
+-,GSM319534,P09_9665P1H,Germ Cell,Testis,M,20-29,-,-,GSM319677,J06_0260U1A,Colorectal,Colon,F,70-79,3 to 4
+-,GSM319535,P09_9685P1H,Liver,Liver,F,10-19,G4,-,GSM319678,J06_0269U1A,Breast,Liver,F,60-69,-
+-,GSM319536,J06_0300P2A,Bladder,Lymph node,M,60-69,-,-,GSM319679,J06_0270U1A,Lung,Adrenal gland,F,60-69,-
+-,GSM319537,J06_0317P2A,Thyroid,Neck mass,F,30-39,-,-,GSM319680,J06_0271U1A,Lymph Node,Lymph node,M,60-69,3 to 4
+-,GSM319538,J06_0323P2A,Prostate,Lymph node,M,50-59,-,-,GSM319681,J06_0273U1A,Lung,Adrenal gland,M,70-79,-
+-,GSM319539,J06_0324P2A,Soft Tissue,Liver,F,40-49,-,-,GSM319682,J06_0275U1A,Pancreas,Pancreas,F,60-69,4
+-,GSM319540,J06_0325P2A,Soft Tissue,Lung,M,60-69,-,-,GSM319683,J06_0320U1A,Colorectal,Omentum,F,40-49,-
+-,GSM319541,J06_0327P2A,Liver,Subcutaneous Tissue,F,20-29,-,-,GSM319684,J06_0356U1A,Lung,Lung,F,60-69,3 to 4
+-,GSM319542,J06_0328P2A,Prostate,Lymph node,M,50-59,-,-,GSM319685,J06_0360U1A,Colorectal,Lung,M,70-79,-
+-,GSM319543,J06_0329P2A,Kidney,Liver,F,40-49,-,-,GSM319686,J06_0338U1A,Pancreas,Pancreas,M,60-69,3
+-,GSM319544,J06_0333P2A,Kidney,Adrenal gland,F,50-59,-,-,GSM319687,J06_0339U1A,Breast,Liver,F,60-69,-
+-,GSM319545,J06_0351P2A,Liver,Lymph node,F,20-29,-,-,GSM319688,J06_0343U1A,Pancreas,Pancreas,F,70-79,3
+-,GSM319546,J06_0352P2A,Prostate,Lymph node,M,70-79,-,-,GSM319689,J06_0347U1A,Pancreas,Pancreas/Duod.,F,70-79,3
+-,GSM319547,J06_0353P2A,Thyroid,Muscle/soft tissue,M,70-79,-,-,GSM319690,J06_0349U1A,Lymph Node,Spleen/soft tissue,F,60-69,-
+-,GSM319548,J06_0358P2A,Thyroid,Thyroid,F,10-19,-,-,GSM319691,J06_0344U1A,Breast,Lymph node,F,50-59,-
+-,GSM319549,J06_0359P2A,Soft Tissue,Liver,M,50-59,-,-,GSM319692,H03_0223U2H,Colorectal,Lymph node,F,70-79,-
+-,GSM319550,J06_0367P2A,Ovary,Mesentary/small bowel,F,60-69,-,-,GSM319693,H03_0237U2H,Pancreas,Lymph node,F,70-79,-
+-,GSM319551,J06_0368P2A,Ovary,Ovary,F,60-69,3 to 4,-,GSM319694,H03_1001U2H,Pancreas,Omentum,F,50-59,-
+-,GSM319552,J06_0369P2A,Ovary,Ovary,F,50-59,4,-,GSM319695,H03_1160U2H,Lymph Node,Thyroid gland,M,20-29,-
+-,GSM319553,J06_0387P2A,Liver,Colon/rectum,M,60-69,-,-,GSM319696,H03_5083U2H,Lymph Node,Lung,F,70-79,-
+-,GSM319554,J06_0288P2A,Skin,Stomach,M,60-69,-,-,GSM319697,H03_5096U2H,Colorectal,Lung,M,80-89,-
+-,GSM319555,J06_0290P2A,Skin,Small bowel,M,40-49,-,-,GSM319698,H03_5289U2H,Colorectal,Liver,M,70-79,G2
+-,GSM319556,J06_0292P2A,Bladder,Lung,M,70-79,-,-,GSM319699,H03_5971U2H,Lung,Lymph node,M,70-79,-
+-,GSM319557,J06_0293P2A,Gastric,Liver,M,70-79,-,-,GSM319700,H03_6111U2H,Lung,Skin,F,60-69,G3
+-,GSM319558,J06_0296P2A,Germ Cell,Lymph node,M,30-39,-,-,GSM319701,H03_6153U2H,Lymph Node,Lymph node,F,60-69,WHO grade 1
+-,GSM319559,J06_0460P2A,Skin,Lung,M,50-59,-,-,GSM319702,H03_7975U2H,Breast,Ovary,F,40-49,-
+-,GSM319560,K09_8864P8H,Pancreas,Liver,M,79,-,-,GSM319703,H03_1243U2H,Breast,Lymph node,F,60-69,-
+-,GSM319561,K07_2049P8H,Skin,Lymph node: sentinel,M,37,-,-,GSM319704,H03_1490U2H,Breast,Lung,F,40-49,-
+-,GSM319562,K09_2132P8H,Germ Cell,Testis,M,19,-,-,GSM319705,H03_5005U2H,Lung,Small intestine,M,60-69,-
+-,GSM319563,K09_2754P8H,Pancreas,Liver,F,64,-,-,GSM319706,P08_1117U3H,Thyroid,Lymph node,F,30-39,-
+-,GSM319564,K08_1126P8H,Thyroid,Lymph node,F,47,-,-,GSM319707,P08_1119U3H,Thyroid,Lymph node,F,50-59,-
+-,GSM319565,K07_7668P8H,Skin,Soft tissue,F,79,-,-,GSM319708,P08_1120U3H,Thyroid,Lymph node,M,20-29,-
+-,GSM319566,K09_3319P8H,Pancreas,Adrenal Gland and Soft Tissue,M,71,-,-,GSM319709,P08_8175U3H,Gastric,Lymph node,M,30-39,-
+-,GSM319567,K09_2079P8H,Thyroid,Lymph Node,F,51,-,-,GSM319710,P08_8195U3H,Gastric,Lymph node,M,50-59,-
+-,GSM319568,K09_2672P8H,Thyroid,Thyroid Gland,M,56,High Grade,-,GSM319711,P08_8200U3H,Gastric,Lymph node,M,50-59,-
+-,GSM319569,K09_3108P8H,Thyroid,Thyroid Gland,F,39,Poorly Differentiated,-,GSM319712,P08_8208U3H,Gastric,Lymph node,M,70-79,-
+-,GSM319570,K09_6286P8H,Thyroid,Thyroid Gland,-,-,Poorly Differentiated,-,GSM319713,P07_0420U3H,Kidney,Adrenal gland,M,60-69,-
+-,GSM319571,K07_1707P8H,Gastric,Stomach,M,72,G3,-,GSM319714,P07_1680U3H,Kidney,Lung,M,50-59,-
+-,GSM319572,K07_1753P8H,Gastric,Ovary: right,F,49,-,-,GSM319715,P07_1759U3H,Liver,Liver,M,60-69,G3
+-,GSM319573,K09_9131P8H,Germ Cell,Testis,M,19,-,-,GSM319716,P07_6525U3H,Kidney,Liver,F,70-79,Fuhrman G3
+-,GSM319574,K08_1278P8H,Thyroid,Lymph node,F,81,-,-,GSM319717,P07_8275U3H,Liver,Liver,M,40-49,G3
+-,GSM319575,K08_1127P8H,Thyroid,Lymph node,F,65,-,-,GSM319718,P06_0291U3H,Skin,Lung,M,60-69,-
+-,GSM319576,K07_1208P8H,Gastric,Stomach,F,65,G3,-,GSM319719,P06_0336U2H,Bladder,Lung,F,60-69,-
+-,GSM319577,K07_6094P8H,Thyroid,Thyroid gland,M,52,G3,-,GSM319720,P06_0348U2H,Lymph Node,Small bowel,M,80-89,-
+-,GSM319578,K09_1960P8H,Germ Cell,Testis,M,30,-,-,GSM319721,P06_0350U2H,Skin,Small Bowel,F,40-49,-
+-,GSM319579,K09_2138P8H,Germ Cell,Testis,M,20,-,-,GSM319722,P06_0354U2H,Lymph Node,Spleen,M,80-89,-
+-,GSM319580,K09_2205P8H,Germ Cell,Testis,M,23,-,-,GSM319723,P06_0355U2H,Pancreas,Stomach/Duod/Pancreas,M,80-89,-
+-,GSM319581,K09_2510P8H,Germ Cell,Testis,M,30,-,-,GSM319724,P06_0357U2H,Lung,Lung,F,70-79,4
+-,GSM319582,K09_7905P8H,Pancreas,Lung,M,56,-,-,GSM319725,P06_0374U2H,Ovary,Colon,M,70-79,-
+-,GSM319583,K09_9317P8H,Pancreas,Liver,M,59,-,-,GSM319726,P06_0375U2H,Ovary,Colon,M,70-79,-
+-,GSM319584,K09_1104P8H,Germ Cell,Testis,M,25,-,-,GSM319727,P06_0376U2H,Soft Tissue,Adominal sarcoma,F,70-79,3 to 4
+-,GSM319585,K09_1195P8H,Germ Cell,Testis,M,25,-,-,GSM319728,P06_0379U2H,Kidney,Kidney,F,80-89,3 to 4
+-,GSM319586,K09_1342P8H,Germ Cell,Testis,M,34,-,-,GSM319729,P06_0381U2H,Soft Tissue,Soft Tissue,F,50-59,4
+-,GSM319587,K08_1285P8H,Thyroid,Lymph node,M,69,-,-,GSM319730,P06_0383U1H,Thyroid,Thyroid,M,30-39,-
+-,GSM319588,K08_1123P8H,Thyroid,Lymph node,F,56,-,-,GSM319731,P06_0392U1H,Germ Cell,Testicle,M,10-19,-
+-,GSM319589,K08_1190P8H,Thyroid,Lymph node,F,46,-,-,GSM319732,P06_0393U1H,Germ Cell,Testicle,M,20-29,-
+-,GSM319590,K08_8247P8H,Gastric,Ovary,F,51,-,-,GSM319733,P06_0402U2H,Germ Cell,Lymph node,M,30-39,-
+-,GSM319591,K08_8250P8H,Gastric,Lymph node,F,49,-,-,GSM319734,P06_0405U2H,Kidney,Adrenal Gland,M,60-69,-
+-,GSM319592,K08_8270P8H,Gastric,Ovary,F,70,-,-,GSM319735,P06_0406U2H,Gastric,Stomach,M,80-89,4
+-,GSM319593,K08_1298P8H,Thyroid,Lymph node,F,29,-,-,GSM319736,P06_0410U2H,Liver,Liver,M,50-59,2 to 3
+-,GSM319594,K08_1128P8H,Thyroid,Lymph node,F,26,-,-,GSM319737,P06_0411U2H,Thyroid,Lymph Node,F,40-49,-
+-,GSM319595,K08_1297P8H,Thyroid,Lymph node,F,44,-,-,GSM319738,P06_0416U2H,Skin,Lung,F,50-59,-
+-,GSM319596,K14_0037PXT,Liver,Liver,M,84,3,-,GSM319739,P06_0418U2H,Lung,Adrenal gland,M,50-59,-
+-,GSM319597,K14_0034PXT,Liver,Liver,F,77,3,-,GSM319740,P06_0422U2H,Ovary,Umbilical nodule,M,70-79,-
+-,GSM319598,K14_0042PXT,Pancreas,Mesentary,M,78,3,-,GSM319741,P06_0424U2H,Breast,Breast,M,70-79,4
+-,GSM319599,K14_0040PXT,Liver,Liver,F,96,3,-,GSM319742,P06_0427U2H,Thyroid,Thyroid,F,60-69,-
+-,GSM319600,K14_0045PXT,Pancreas,Pancreas,F,49,4,-,GSM319743,P07_0144U3H,Skin,Lung,M,40-49,-
+-,GSM319601,K14_0035PXT,Liver,Liver,M,66,3,-,GSM319744,P07_0213U3H,Skin,Small intestine,M,70-79,-
+-,GSM319602,K14_0039PXT,Liver,Liver,M,88,3,-,GSM319745,P07_0322U3H,Skin,Lung,M,40-49,-
+-,GSM319603,K14_0044PXT,Pancreas,Stomach,M,70,4,-,GSM319746,P07_0543U3H,Skin,Liver,M,50-59,-
+-,GSM319604,K14_0047PXT,Pancreas,Retroperiteum,M,78,2,-,GSM319747,P07_0698U3H,Skin,Jejunum,M,40-49,-
+-,GSM319605,K14_0048PXT,Pancreas,Pancreas,F,67,4,-,GSM319748,P07_0748U3H,Skin,Lung,M,50-59,-
+-,GSM319606,K14_0049PXT,Pancreas,Lymph node,M,70,3,-,GSM319749,P07_0876U3H,Skin,Omentum,F,60-69,-
+-,GSM319607,K14_0036PXT,Liver,Liver,F,68,3,-,GSM319750,P07_1141U3H,Gastric,Ovary,F,80-86,-
+-,GSM319608,K14_0038PXT,Liver,Liver,M,64,3,-,GSM319751,P07_1260U3H,Skin,Small intestine,M,50-59,-
+,,,,,,,,-,GSM319752,P07_1279U3H,Bladder,Lymph node,M,70-79,G3
+,,,,,,,,-,GSM319753,P07_9399U3H,Thyroid,Lung,M,80-89,-
+,,,,,,,,-,GSM319754,P07_0011U3H,Lymph Node,Stomach,M,70-79,-
+,,,,,,,,-,GSM319755,P07_0043U3H,Kidney,Lung,M,40-49,-
+,,,,,,,,-,GSM319756,P07_0045U3H,Lymph Node,Spleen,M,50-59,-
+,,,,,,,,-,GSM319757,P07_0100U3H,Skin,Small intestine,M,30-39,-
+,,,,,,,,-,GSM319758,P07_0162U3H,Kidney,Lung,M,50-59,Fuhrman G3
+,,,,,,,,-,GSM319759,P07_0164U3H,Lymph Node,Spleen,F,60-69,-
+,,,,,,,,-,GSM319760,P07_0584U3H,Lymph Node,Lung,F,70-79,WHO grade 1
+,,,,,,,,-,GSM319761,P07_1165U3H,Kidney,Lymph node,F,40-49,Fuhrman G4
+,,,,,,,,-,GSM319762,P07_1625U3H,Lymph Node,Spleen,F,60-69,-
+,,,,,,,,-,GSM319763,P07_5107U3H,Lymph Node,Spleen,M,60-69,-
+,,,,,,,,-,GSM319764,P07_5235U3H,Lymph Node,Neck,-,60-69,-
+,,,,,,,,-,GSM319765,P07_5334U3H,Lymph Node,lleum,-,80-89,-
+,,,,,,,,-,GSM319766,P07_5382U3H,Lymph Node,Groin,M,30-39,-
+,,,,,,,,-,GSM319767,P07_5522U3H,Lymph Node,Small intestine,F,50-59,WHO grade II
+,,,,,,,,-,GSM319768,P07_5564U3H,Lymph Node,Groin,M,60-69,-
+,,,,,,,,-,GSM319769,P07_5669U3H,Lymph Node,Thyroid gland,F,60-69,-
+,,,,,,,,-,GSM319770,P07_5765U3H,Lymph Node,Testis,M,50-59,-
+,,,,,,,,-,GSM319771,P07_9585U3H,Kidney,Lung,M,50-59,-
+,,,,,,,,-,GSM319772,M06_0340U1A,Skin,Skin,F,80-89,-
+,,,,,,,,-,GSM319773,P08_1670U4H,Gastric,Ovary,F,50-59,-
+,,,,,,,,-,GSM319774,P08_1970U4H,Gastric,Gastric,M,50-59,4
+,,,,,,,,-,GSM319775,P08_2002U4H,Gastric,Gastric,M,50-59,4
+,,,,,,,,-,GSM319776,P08_2180U4H,Gastric,Gastric,M,50-59,4
+,,,,,,,,-,GSM319777,P08_1020U4H,Gastric,Ovary,F,40-49,-
+,,,,,,,,-,GSM319778,P07_9333U4H,Liver,Lymph node,M,20-29,-
+,,,,,,,,-,GSM319779,P07_0191U5H,Germ Cell,Testis,M,20-29,-
+,,,,,,,,-,GSM319780,P07_0353U5H,Prostate,Prostate,M,60-69,Gleason = 7/10
+,,,,,,,,-,GSM319781,P07_0386U4H,Pancreas,Pancreas,F,60-69,G3
+,,,,,,,,-,GSM319782,P07_0463U5H,Prostate,Prostate,M,50-59,Gleason = 7/10
+,,,,,,,,-,GSM319783,P07_1300U4H,Liver,Omentum,M,70-79,G3
+,,,,,,,,-,GSM319784,P07_1307U4H,Pancreas,Pancreas,F,70-79,G4
+,,,,,,,,-,GSM319785,P07_1473U4H,Lung,Lymph node,F,70-79,G3
+,,,,,,,,-,GSM319786,P07_1480U4H,Lung,Lymph node,M,60-69,G3
+,,,,,,,,-,GSM319787,P07_1714U4H,Pancreas,Pancreas,M,60-69,G3-4
+,,,,,,,,-,GSM319788,P07_1861U5H,Germ Cell,Testis,M,30-39,-
+,,,,,,,,-,GSM319789,P07_2118U5H,Prostate,Prostate,M,60-69,Gleason = 7/10
+,,,,,,,,-,GSM319790,P07_5002U4H,Lung,Omentum,F,30-39,G2
+,,,,,,,,-,GSM319791,P07_5248U5H,Prostate,Prostate,M,50-59,Gleason = 6/10
+,,,,,,,,-,GSM319792,P07_5253U5H,Prostate,Prostate,M,50-59,Gleason = 7/10
+,,,,,,,,-,GSM319793,P07_5377U4H,Pancreas,Pancreas,F,70-79,G3
+,,,,,,,,-,GSM319794,P07_5828U5H,Germ Cell,Testis,M,10-19,-
+,,,,,,,,-,GSM319795,P07_8520U5H,Prostate,Prostate,M,50-59,Gleason = 6/10
+,,,,,,,,-,GSM319796,P07_0132U4H,Thyroid,Lymph node,M,50-59,-
+,,,,,,,,-,GSM319797,P07_0401U4H,Pancreas,Pancreas,M,70-79,G3
+,,,,,,,,-,GSM319798,P07_0824U4H,Germ Cell,Testis,M,30-39,-
+,,,,,,,,-,GSM319799,P07_1213U4H,Liver,Liver,M,60-69,G3
+,,,,,,,,-,GSM319800,P07_1222U4H,Germ Cell,Testis,M,30-39,-
+,,,,,,,,-,GSM319801,P07_1484U4H,Germ Cell,Testis,M,20-29,-
+,,,,,,,,-,GSM319802,P07_1627U4H,Germ Cell,Testis,M,30-39,-
+,,,,,,,,-,GSM319803,P07_1879U4H,Germ Cell,Testis,M,40-49,-
+,,,,,,,,-,GSM319804,P07_6029U4H,Germ Cell,Testis,M,20-29,-
+,,,,,,,,-,GSM319805,P07_6086U4H,Bladder,Lymph node,M,60-69,-
+,,,,,,,,-,GSM319806,P07_6551U4H,Thyroid,Neck,M,60-69,-
+,,,,,,,,-,GSM319807,P07_7830U4H,Pancreas,Pancreas,F,70-79,G3
+,,,,,,,,-,GSM319808,P06_0282U2H,Colorectal,Pelvic mass,M,70-79,-
+,,,,,,,,-,GSM319809,P06_0284U2H,Skin,Lung,F,40-49,-
+,,,,,,,,-,GSM319810,P06_0294U2H,Gastric,Stomach,M,70-79,4
+,,,,,,,,-,GSM319811,P06_0295U2H,Skin,Lung,F,40-49,-
+,,,,,,,,-,GSM319812,P06_0298U2H,Skin,Small bowel,F,30-39,-
+,,,,,,,,-,GSM319813,P06_0303U2H,Skin,Lung,F,40-49,-
+,,,,,,,,-,GSM319814,P06_0304U2H,Bladder,Lymph node,M,60-69,-
+,,,,,,,,-,GSM319815,P06_0322U2H,Bladder,Lymph node,M,70-79,-
+,,,,,,,,-,GSM319816,P06_0330U2H,Germ Cell,Lung,M,30-39,-
+,,,,,,,,-,GSM319817,P06_0332U2H,Bladder,Bladder,F,60-69,4
+,,,,,,,,-,GSM319818,P06_0334U2H,Bladder,Lymph node,F,60-69,-
+,,,,,,,,-,GSM319819,P06_0335U2H,Bladder,Small bowel,M,60-69,-
+,,,,,,,,-,GSM319820,X06_0364UXA,Prostate,Liver,M,70-79,-
+,,,,,,,,-,GSM319821,X06_0384UXA,Soft Tissue,Liver,F,70-79,-
+,,,,,,,,-,GSM319822,X06_0417UXA,Kidney,Lymph node,F,50-59,-
+,,,,,,,,-,GSM319823,U06_0263U2A,Lung,Lymph node,M,60-69,-
+,,,,,,,,-,GSM319824,U06_0265U2A,Lymph Node,Lymph node,M,50-59,3 to 4
+,,,,,,,,-,GSM319825,U06_0267U2A,Lymph Node,Lymph node,M,40-49,3 to 4
+,,,,,,,,-,GSM319826,U06_0326U2A,Prostate,Lymph node,M,60-69,-
+,,,,,,,,-,GSM319827,U06_0337U2A,Gastric,Lymph node,M,40-49,-
+,,,,,,,,-,GSM319828,U06_0362U2A,Prostate,Lymph Node,M,50-59,-
+,,,,,,,,-,GSM319829,U06_0365U2A,Prostate,Prostate,F,60-69,4
+,,,,,,,,-,GSM319830,U06_0366U2A,Bladder,Lymph node,F,60-69,-
+,,,,,,,,-,GSM319831,U06_0372U2A,Gastric,Ovary,F,70-79,-
+,,,,,,,,-,GSM319832,U06_0373U2A,Gastric,Chest Wall,M,70-79,-
+,,,,,,,,-,GSM319833,U06_0378U2A,Ovary,Omentum,M,70-79,-
+,,,,,,,,-,GSM319834,U06_0382U2A,Soft Tissue,Soft Tissue,M,20-29,4
+,,,,,,,,-,GSM319835,U06_0388U2A,Germ Cell,Testicle,M,20-29,-
+,,,,,,,,-,GSM319836,U06_0391U2A,Bladder,Lymph node,M,30-39,-
+,,,,,,,,-,GSM319837,U06_0403U2A,Soft Tissue,Liver,M,20-29,-
+,,,,,,,,-,GSM319838,U06_0408U2A,Germ Cell,Testicle,F,50-59,-
+,,,,,,,,-,GSM319839,U06_0413U2A,Soft Tissue,Lung,M,50-57,-
+,,,,,,,,-,GSM319840,U06_0420U2A,Kidney,Lung,F,70-79,-
+,,,,,,,,-,GSM319841,U06_0426U2A,Ovary,Chest wall,F,60-69,-
+,,,,,,,,-,GSM319842,U06_0428U2A,Soft Tissue,Lymph node,M,60-69,-
+,,,,,,,,-,GSM319843,U06_0431U2A,Ovary,Adrenal gland,M,40-49,-
+,,,,,,,,-,GSM319844,U06_0432U2A,Bladder,Ureter,M,70-79,3 to 4
+,,,,,,,,-,GSM319845,U06_0438U2A,Liver,Adrenal gland,M,70-79,-
+,,,,,,,,-,GSM319846,U06_0439U2A,Liver,Mediastinal mass,M,80-89,-
+,,,,,,,,-,GSM319847,U06_0499U2A,Prostate,Prostate,M,50-59,4
+,,,,,,,,-,GSM319848,U06_0459UXA,Lymph Node,Extradural Mass (Cranium),M,80-89,-
+,,,,,,,,-,GSM319981,P06_0400U2H,Germ Cell,Lymph node,F,50-59,-

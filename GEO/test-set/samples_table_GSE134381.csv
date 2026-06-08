@@ -1,0 +1,77 @@
+# TITLE: Metabolomics, Transcriptomic and Genetic - Integrative Analysis Reveals Important Roles of Adenosine Diphosphate in Haemostasis and Platelet Activation in Non-Small Cell Lung Cancer
+# SUMMARY: Transcriptomic and genetic profiles of tumours and matched normal tissues could help to identify important factors and potential therapeutic targets that contribute to tumorigenesis. We integrated omics profiles in tumours and matched adjacent normal tissues of patients with LUSC (N = 20) and LUAD (N = 17)
+GPL11532_Group,GPL11532_Accession,GPL11532_Title,GPL11532_Source name,GPL11532_Age,GPL11532_Gender,GPL11532_Group
+-,GSM3944637,1008_T,Tumour,71,2,LUSC
+-,GSM3944638,476_T,Tumour,62,2,LUSC
+-,GSM3944639,64_T,Tumour,79,2,LUSC
+-,GSM3944640,677_T,Tumour,64,1,LUSC
+-,GSM3944641,954_T,Tumour,66,1,LUAD
+-,GSM3944642,851_T,Tumour,72,2,LUAD
+-,GSM3944643,835_T,Tumour,85,2,LUSC
+-,GSM3944644,983_T,Tumour,72,1,LUAD
+-,GSM3944645,965_T,Tumour,82,1,LUAD
+-,GSM3944646,1008_N,Normal Tissue,71,2,LUSC
+-,GSM3944647,476_N,Normal Tissue,62,2,LUSC
+-,GSM3944648,64_N,Normal Tissue,79,2,LUSC
+-,GSM3944649,677_N,Normal Tissue,64,1,LUSC
+-,GSM3944650,954_N,Normal Tissue,66,1,LUAD
+-,GSM3944651,851_N,Normal Tissue,72,2,LUAD
+-,GSM3944652,835_N,Normal Tissue,85,2,LUSC
+-,GSM3944653,983_N,Normal Tissue,72,1,LUAD
+-,GSM3944654,965_N,Normal Tissue,82,1,LUAD
+-,GSM3944655,1023_T,Tumour,62,2,LUAD
+-,GSM3944656,687_T,Tumour,68,2,LUAD
+-,GSM3944657,941_T,Tumour,63,2,LUAD
+-,GSM3944658,253_T,Tumour,74,2,LUSC
+-,GSM3944659,380_T,Tumour,60,1,LUSC
+-,GSM3944660,878_T,Tumour,82,2,LUAD
+-,GSM3944661,988_T,Tumour,64,1,LUAD
+-,GSM3944662,362_T,Tumour,62,2,LUSC
+-,GSM3944663,1011_T,Tumour,62,2,LUAD
+-,GSM3944664,937_T,Tumour,81,2,LUAD
+-,GSM3944665,1023_N,Normal Tissue,62,2,LUAD
+-,GSM3944666,687_N,Normal Tissue,68,2,LUAD
+-,GSM3944667,941_N,Normal Tissue,63,2,LUAD
+-,GSM3944668,253_N,Normal Tissue,74,2,LUSC
+-,GSM3944669,380_N,Normal Tissue,60,1,LUSC
+-,GSM3944670,878_N,Normal Tissue,82,2,LUAD
+-,GSM3944671,988_N,Normal Tissue,64,1,LUAD
+-,GSM3944672,362_N,Normal Tissue,62,2,LUSC
+-,GSM3944673,1011_N,Normal Tissue,62,2,LUAD
+-,GSM3944674,937_N,Normal Tissue,81,2,LUAD
+-,GSM3944675,1012_T,Tumour,83,2,LUAD
+-,GSM3944676,1022_T,Tumour,89,2,LUAD
+-,GSM3944677,208_T,Tumour,59,1,LUSC
+-,GSM3944678,822_T,Tumour,61,2,LUAD
+-,GSM3944679,363_T,Tumour,74,2,LUSC
+-,GSM3944680,612_T,Tumour,66,1,LUAD
+-,GSM3944681,921_T,Tumour,71,2,LUAD
+-,GSM3944682,931_T,Tumour,64,1,LUAD
+-,GSM3944683,282_T,Tumour,73,2,LUSC
+-,GSM3944684,627_T,Tumour,65,2,LUAD
+-,GSM3944685,1012_N,Normal Tissue,83,2,LUAD
+-,GSM3944686,1022_N,Normal Tissue,89,2,LUAD
+-,GSM3944687,208_N,Normal Tissue,59,1,LUSC
+-,GSM3944688,822_N,Normal Tissue,61,2,LUAD
+-,GSM3944689,363_N,Normal Tissue,74,2,LUSC
+-,GSM3944690,612_N,Normal Tissue,66,1,LUAD
+-,GSM3944691,921_N,Normal Tissue,71,2,LUAD
+-,GSM3944692,931_N,Normal Tissue,64,1,LUAD
+-,GSM3944693,282_N,Normal Tissue,73,2,LUSC
+-,GSM3944694,627_N,Normal Tissue,65,2,LUAD
+-,GSM3944695,223_T,Tumour,78,1,LUSC
+-,GSM3944696,24_T,Tumour,65,2,LUSC
+-,GSM3944697,689_T,Tumour,73,2,LUSC
+-,GSM3944698,969_T,Tumour,78,2,LUAD
+-,GSM3944699,1002_T,Tumour,74,1,LUSC
+-,GSM3944700,617_T,Tumour,67,2,LUSC
+-,GSM3944701,82_T,Tumour,80,2,LUSC
+-,GSM3944702,674_T,Tumour,75,1,LUAD
+-,GSM3944703,223_N,Normal Tissue,78,1,LUSC
+-,GSM3944704,24_N,Normal Tissue,65,2,LUSC
+-,GSM3944705,689_N,Normal Tissue,73,2,LUSC
+-,GSM3944706,969_N,Normal Tissue,78,2,LUAD
+-,GSM3944707,1002_N,Normal Tissue,74,1,LUSC
+-,GSM3944708,617_N,Normal Tissue,67,2,LUSC
+-,GSM3944709,82_N,Normal Tissue,80,2,LUSC
+-,GSM3944710,674_N,Normal Tissue,75,1,LUAD

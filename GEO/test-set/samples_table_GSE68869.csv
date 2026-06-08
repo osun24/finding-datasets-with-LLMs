@@ -1,0 +1,15 @@
+# TITLE: Knockdown of CUL3 and PTEN in A549 lung adenocarcinoma cells
+# SUMMARY: Non-small cell lung cancers (NSCLCs) harbor thousands of passenger events that hide genetic drivers. Even highly recurrent events in NSCLC, such as mutations in PTEN, EGFR, KRAS, and ALK, are only detected in, at most, 30% of patients. Thus, many unidentified low-penetrant events are causing a significant portion of lung cancers. To detect low-penetrance drivers of NSCLC a forward genetic screen was performed in mice using the Sleeping Beauty (SB) DNA transposon as a random mutagen to generate lung tumors in a Pten deficient background. SB mutations coupled with Pten deficiency were sufficient to produce lung tumors in 29% of mice. Pten deficiency alone, without SB mutations, resulted in lung tumors in 11% of mice, while the rate in control mice was ~3%. In addition, thyroid cancer and other carcinomas as well as the presence of bronchiolar and alveolar epithelialization in mice deficient for Pten were also identified. Analysis of common transposon insertion sites identified 76 candidate cancer driver genes. These genes are frequently dysregulated in human lung cancers and implicate several signaling pathways. Cullin3 (Cul3), a member of an ubiquitin ligase complex that plays a role in the oxidative stress response pathway, was identified in the screen and evidence demonstrates that Cul3 functions as a tumor suppressor HumanHT-12 v4 Expression BeadChip Kit for human A549 lung adenocarcinoma cells with CUL3, PTEN, CUL3 and PTEN or no knockdown.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Treatment
+-,GSM1684727,A549-lung adenocarcinoma-NS-Neg-rep1,A549 stage 2 lung adenocarcinoma,A549,Control
+-,GSM1684728,A549-lung adenocarcinoma-NS-Neg-rep2,A549 stage 2 lung adenocarcinoma,A549,Control
+-,GSM1684729,A549-lung adenocarcinoma-NS-Neg-rep3,A549 stage 2 lung adenocarcinoma,A549,Control
+-,GSM1684730,A549-lung adenocarcinoma-CUL3-Neg-rep1,A549 stage 2 lung adenocarcinoma,A549,CUL3 knockdown
+-,GSM1684731,A549-lung adenocarcinoma-CUL3-Neg-rep2,A549 stage 2 lung adenocarcinoma,A549,CUL3 knockdown
+-,GSM1684732,A549-lung adenocarcinoma-CUL3-Neg-rep3,A549 stage 2 lung adenocarcinoma,A549,CUL3 knockdown
+-,GSM1684733,A549-lung adenocarcinoma-NS-PTEN-rep1,A549 stage 2 lung adenocarcinoma,A549,PTEN knockdown
+-,GSM1684734,A549-lung adenocarcinoma-NS-PTEN-rep2,A549 stage 2 lung adenocarcinoma,A549,PTEN knockdown
+-,GSM1684735,A549-lung adenocarcinoma-NS-PTEN-rep3,A549 stage 2 lung adenocarcinoma,A549,PTEN knockdown
+-,GSM1684736,A549-lung adenocarcinoma-CUL3-PTEN-rep1,A549 stage 2 lung adenocarcinoma,A549,CUL3 and PTEN knockdown
+-,GSM1684737,A549-lung adenocarcinoma-CUL3-PTEN-rep2,A549 stage 2 lung adenocarcinoma,A549,CUL3 and PTEN knockdown
+-,GSM1684738,A549-lung adenocarcinoma-CUL3-PTEN-rep3,A549 stage 2 lung adenocarcinoma,A549,CUL3 and PTEN knockdown

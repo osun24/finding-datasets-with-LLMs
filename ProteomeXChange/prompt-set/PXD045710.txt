@@ -1,0 +1,2 @@
+Title: Evaluation of Tumor Infiltrating Lymphocytes in High-Grade Serous Ovarian Cancer
+Description: Tumor infiltrating lymphocytes (TILs) play a significant role in the tumor microenvironment in high-grade serous ovarian cancer (HGSOC). To better understand the interactions and functions of TILs in HGSOC progression, we performed proteogenomic profiling of TILs in 65 tumors collected from 12 HGSOC patients.

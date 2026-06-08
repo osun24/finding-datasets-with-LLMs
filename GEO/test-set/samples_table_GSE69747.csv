@@ -1,0 +1,75 @@
+# TITLE: Microarray analysis of 20 gene knockdowns (including each three replicates and 12 controls) of EGFR mutated H1650 cell line in order to unravel AMPK signal transduction
+# SUMMARY: Identification of a AMPK-relevant gene network hierarchy based on transcriptome data upon gene knockdown
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Tumor type,GPL10558_Gene knockdown,GPL10558_Chip experiment batch
+-,GSM1708172,H1650_Mock_1_control,H1650 cell line,H1650,lung adenocarcinoma,Mock control,1
+-,GSM1708173,H1650_Mock_2_control,H1650 cell line,H1650,lung adenocarcinoma,Mock control,1
+-,GSM1708174,H1650_Mock_3_control,H1650 cell line,H1650,lung adenocarcinoma,Mock control,1
+-,GSM1708175,H1650_AllStar_1_control,H1650 cell line,H1650,lung adenocarcinoma,AllStar non-template control,1
+-,GSM1708176,H1650_AllStar_2_control,H1650 cell line,H1650,lung adenocarcinoma,AllStar non-template control,1
+-,GSM1708177,H1650_AllStar_3_control,H1650 cell line,H1650,lung adenocarcinoma,AllStar non-template control,1
+-,GSM1708178,H1650_ITGB4_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,ITGB4,1
+-,GSM1708179,H1650_ITGB4_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,ITGB4,1
+-,GSM1708180,H1650_ITGB4_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,ITGB4,1
+-,GSM1708181,H1650_mTOR_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,MTOR,1
+-,GSM1708182,H1650_mTOR_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,MTOR,1
+-,GSM1708183,H1650_mTOR_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,MTOR,1
+-,GSM1708184,H1650_PRKAB1_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PRKAB1,1
+-,GSM1708185,H1650_PRKAB1_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PRKAB1,1
+-,GSM1708186,H1650_PRKAB1_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PRKAB1,1
+-,GSM1708187,H1650_BCL10_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,BCL10,1
+-,GSM1708188,H1650_BCL10_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,BCL10,1
+-,GSM1708189,H1650_BCL10_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,BCL10,1
+-,GSM1708190,H1650_EGFR_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,EGFR mutation,1
+-,GSM1708191,H1650_EGFR_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,EGFR mutation,1
+-,GSM1708192,H1650_EGFR_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,EGFR mutation,1
+-,GSM1708193,H1650_ESPL1_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,ESPL1,1
+-,GSM1708194,H1650_ESPL1_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,ESPL1,1
+-,GSM1708195,H1650_ESPL1_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,ESPL1,1
+-,GSM1708196,H1650_p70S6K_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RPS6KB1,1
+-,GSM1708197,H1650_p70S6K_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RPS6KB1,1
+-,GSM1708198,H1650_p70S6K_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RPS6KB1,1
+-,GSM1708199,H1650_SRC_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,SRC,1
+-,GSM1708200,H1650_SRC_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,SRC,1
+-,GSM1708201,H1650_SRC_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,SRC,1
+-,GSM1708202,H1650_WDR3_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,WDR3,1
+-,GSM1708203,H1650_WDR3_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,WDR3,1
+-,GSM1708204,H1650_WDR3_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,WDR3,1
+-,GSM1708205,H1650_PRKAA1_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PRKAA1,1
+-,GSM1708206,H1650_PRKAA1_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PRKAA1,1
+-,GSM1708207,H1650_PRKAA1_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PRKAA1,1
+-,GSM1708208,H1650_DNTC_1_control,H1650 cell line,H1650,lung adenocarcinoma,DNTC non-template control,2
+-,GSM1708209,H1650_DNTC_2_control,H1650 cell line,H1650,lung adenocarcinoma,DNTC non-template control,2
+-,GSM1708210,H1650_DNTC_3_control,H1650 cell line,H1650,lung adenocarcinoma,DNTC non-template control,2
+-,GSM1708211,H1650_Mock_1_control_2,H1650 cell line,H1650,lung adenocarcinoma,Mock control,2
+-,GSM1708212,H1650_Mock_2_control_2,H1650 cell line,H1650,lung adenocarcinoma,Mock control,2
+-,GSM1708213,H1650_Mock_3_control_2,H1650 cell line,H1650,lung adenocarcinoma,Mock control,2
+-,GSM1708214,H1650_LKB1_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,LKB1,2
+-,GSM1708215,H1650_LKB1_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,LKB1,2
+-,GSM1708216,H1650_LKB1_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,LKB1,2
+-,GSM1708217,H1650_PIK3C3_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PIK3C3,2
+-,GSM1708218,H1650_PIK3C3_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PIK3C3,2
+-,GSM1708219,H1650_PIK3C3_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,PIK3C3,2
+-,GSM1708220,H1650_TRUB2_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TRUB2,2
+-,GSM1708221,H1650_TRUB2_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TRUB2,2
+-,GSM1708222,H1650_TRUB2_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TRUB2,2
+-,GSM1708223,H1650_LEPR_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,LEPR,2
+-,GSM1708224,H1650_LEPR_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,LEPR,2
+-,GSM1708225,H1650_LEPR_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,LEPR,2
+-,GSM1708226,H1650_P90S6K_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RPS6KA1,2
+-,GSM1708227,H1650_P90S6K_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RPS6KA1,2
+-,GSM1708228,H1650_P90S6K_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RPS6KA1,2
+-,GSM1708229,H1650_TSC2_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TSC2,2
+-,GSM1708230,H1650_TSC2_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TSC2,2
+-,GSM1708231,H1650_TSC2_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TSC2,2
+-,GSM1708232,H1650_TSC1_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TSC1,2
+-,GSM1708233,H1650_TSC1_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TSC1,2
+-,GSM1708234,H1650_TSC1_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,TSC1,2
+-,GSM1708235,H1650_GSK3B_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,GSK3B,2
+-,GSM1708236,H1650_GSK3B_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,GSK3B,2
+-,GSM1708237,H1650_GSK3B_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,GSK3B,2
+-,GSM1708238,H1650_GSK3A_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,GSK3A,2
+-,GSM1708239,H1650_GSK3A_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,GSK3A,2
+-,GSM1708240,H1650_GSK3A_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,GSK3A,2
+-,GSM1708241,H1650_RAF1_1_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RAF1,2
+-,GSM1708242,H1650_RAF1_2_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RAF1,2
+-,GSM1708243,H1650_RAF1_3_knockdown,H1650 cell line,H1650,lung adenocarcinoma,RAF1,2

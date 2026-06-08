@@ -1,0 +1,9 @@
+# TITLE: YAP activation mediates acquired resistance to ALK inhibitor in ALK rearranged non–small cell lung cancer
+# SUMMARY: To investigate a possible candidate for overcoming the acquired resistance to ALK-TKI, we established an in vitro model of acquired resistance to crizotinib (H3122-CR) by exposing EML4-ALK–positive H3122 lung cancer cells to increasing doses of crizotinib.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line,GPL16686_Treatment
+-,GSM3273061,"non treat, biological rep1",H3122 lung cancer cell line,H3122,None
+-,GSM3273062,"non treat, biological rep2",H3122 lung cancer cell line,H3122,None
+-,GSM3273063,"non treat, biological rep3",H3122 lung cancer cell line,H3122,None
+-,GSM3273064,"Crizotinib resistance cell, biological rep1",H3122 lung cancer cell line,H3122,Crizotinib
+-,GSM3273065,"Crizotinib resistance cell, biological rep2",H3122 lung cancer cell line,H3122,Crizotinib
+-,GSM3273066,"Crizotinib resistance cell, biological rep3",H3122 lung cancer cell line,H3122,Crizotinib

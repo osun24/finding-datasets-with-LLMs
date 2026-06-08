@@ -1,0 +1,31 @@
+# TITLE: Aberrant DNA methylation in Non Small Cell Lung Cancer associated fibroblasts
+# SUMMARY: Epigenetic changes through altered DNA methylation have been implicated with critical aspects of tumor progression, and have been extensively studied in cancer cells and tumor tissue samples. In contrast, our current knowledge of the aberrant genomic methylation in tumor-associated fibroblasts (TAFs), which are critical co-conspirators of tumor progression, is very scarce. To address this gap of knowledge, we conducted genome-wide DNA methylation profiling on lung TAFs and paired control fibroblasts (CFs) from surgical non-small cell lung cancer patients. We found widespread DNA hypomethylation concomitant with focal gains of DNA methylation in TAFs compared to CFs. The aberrant DNA methylation landscape of TAFs had a global impact on gene expression and a selective impact on the TGF-β pathway. The latter included hypermethylation-associated SMAD3 silencing, which was associated with a hyperresponsiveness to exogenous TGF-β1 in terms of contractility and extracellular matrix expression. In turn, activation of CFs with exogenous TGF-β1 partially mimicked the epigenetic alterations observed in TAFs, suggesting that TGF-β1 may be necessary but not sufficient to elicit such alterations. In addition, pathway enrichment analysis of the DNA methylation alterations revealed that a fraction of TAFs may be bone marrow-derived fibrocytes. Finally, survival analyses using DNA methylation and gene expression datasets identified aberrant DNA methylation on the EDARADD promoter sequence as a prognostic factor in NSCLC patients. Our findings shed light on the unique origin and molecular alterations underlying the aberrant phenotype of lung TAFs, and identify a stromal biomarker with potential clinical relevance.
+GPL13534_Group,GPL13534_Accession,GPL13534_Title,GPL13534_Source name,GPL13534_Cell type
+-,GSM1684333,28 Fibroblasts in normal-like stiffness,Patient_28_Soft_Sustrate,Fibroblasts in normal-like stiffness
+-,GSM1684334,5 Fibroblasts in normal-like stiffness,Patient_5_Soft_Sustrate,Fibroblasts in normal-like stiffness
+-,GSM1684335,28 Fibroblasts in tumor-like stiffness,Patient_28_Stiff_Sustrate,Fibroblasts in tumor-like stiffness
+-,GSM1684336,5 Fibroblasts in tumor-like stiffness,Patient_5_Stiff_Sustrate,Fibroblasts in tumor-like stiffness
+-,GSM1684337,18 Control fibroblasts,Patient_18_CTL,Control fibroblasts
+-,GSM1684338,25 Control fibroblasts,Patient_25_CTL,Control fibroblasts
+-,GSM1684339,26 Control fibroblasts,Patient_26_CTL,Control fibroblasts
+-,GSM1684340,27 Control fibroblasts,Patient_27_CTL,Control fibroblasts
+-,GSM1684341,28 Control fibroblasts,Patient_28_CTL,Control fibroblasts
+-,GSM1684342,5 Control fibroblasts,Patient_5_CTL,Control fibroblasts
+-,GSM1684343,12 Control fibroblasts,Patient_12_CTL,Control fibroblasts
+-,GSM1684344,13 Control fibroblasts,Patient_13_CTL,Control fibroblasts
+-,GSM1684345,14 Control fibroblasts,Patient_14_CTL,Control fibroblasts
+-,GSM1684346,16 Control fibroblasts,Patient_16_CTL,Control fibroblasts
+-,GSM1684347,6 Control fibroblasts,Patient_6_CTL,Control fibroblasts
+-,GSM1684348,9 Control fibroblasts,Patient_9_CTL,Control fibroblasts
+-,GSM1684349,18 Tumor-associated fibroblasts,Patient_18_TAF,Tumor-associated fibroblasts
+-,GSM1684350,25 Tumor-associated fibroblasts,Patient_25_TAF,Tumor-associated fibroblasts
+-,GSM1684351,26 Tumor-associated fibroblasts,Patient_26_TAF,Tumor-associated fibroblasts
+-,GSM1684352,27 Tumor-associated fibroblasts,Patient_27_TAF,Tumor-associated fibroblasts
+-,GSM1684353,28 Tumor-associated fibroblasts,Patient_28_TAF,Tumor-associated fibroblasts
+-,GSM1684354,5 Tumor-associated fibroblasts,Patient_5_TAF,Tumor-associated fibroblasts
+-,GSM1684355,12 Tumor-associated fibroblasts,Patient_12_TAF,Tumor-associated fibroblasts
+-,GSM1684356,13 Tumor-associated fibroblasts,Patient_13_TAF,Tumor-associated fibroblasts
+-,GSM1684357,14 Tumor-associated fibroblasts,Patient_14_TAF,Tumor-associated fibroblasts
+-,GSM1684358,16 Tumor-associated fibroblasts,Patient_16_TAF,Tumor-associated fibroblasts
+-,GSM1684359,6 Tumor-associated fibroblasts,Patient_6_TAF,Tumor-associated fibroblasts
+-,GSM1684360,9 Tumor-associated fibroblasts,Patient_9_TAF,Tumor-associated fibroblasts

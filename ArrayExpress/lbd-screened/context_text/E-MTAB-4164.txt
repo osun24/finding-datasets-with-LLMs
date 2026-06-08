@@ -1,0 +1,34 @@
+Accession: E-MTAB-4164
+Source list: lbd-screened
+Title: Rotenone susceptibility phenotype in olfactory derived patient cells as a model of idiopathic Parkinsonâs disease
+Study type: transcription profiling by array
+Description: Physiologically relevant cellular models are critical for understanding complex pathological processes. Parkinsonâs disease (PD) is the second most common neurodegenerative disorder characterised by motor and non-motor symptoms. Several cellular models for PD have been developed to reproduce the abberant biochemical pathways associated with Parkinsonâs disease such as oxidative stress, apoptosis, improper clearance of misfolded proteins and mitochondrial impairment. However, there is still a need for models that effectively recapitulate pathological phenotypes of PD. We previously reported that cells derived from the olfactory epithelium of idiopathic PD patients have altered cellular functions compared with age and gender-matched healthy controls. We also identified an underlying dysregulation of molecular pathways including the Nrf2 pathway in PD hONS cells. Here, we tested the hypothesis that hONS cells derived from PD patients are more vulnerable to extrinsic stressors. We identified that PD-hONS cells are particularly sensitive to mitochondrial and oxidative stress. Notably, PD hONS cells exposed to Rotenone undergo significant apoptosis, show reduced mitochondrial complex I activity and reduced induction of Heat Shock Protein HSP27.
+Sample count: 32
+Assay count: 32
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: case control design, compound treatment design
+  Experimental Factors:
+    Experimental Factors: disease, compound, sex
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: parkinson's disease, normal
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Cell type: olfactory neurosphere-derived cell
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Compound: none, rotenone
+      compound: none, rotenone
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

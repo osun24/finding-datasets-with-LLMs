@@ -1,0 +1,523 @@
+{
+  "accno": "E-GEOD-47554",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "DEG in human gastric carcinoma formed in stomach wall and metastasized to ovary in mice system"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2013-06-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-47554"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-47554",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "DEG in human gastric carcinoma formed in stomach wall and metastasized to ovary in mice system"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Spontaneous metastasis of gastric carcinoma to secondary organs is seldom reproduced in the mice. In this study, we established highly reproducible, experimental mice model in which gastric carcinoma progressively grows in the site of gastric walls and metastasize to secondary sites. A highly tumorigenic GC cells were engineered to express type 2 luciferase and injected via orthotopic route into BALB/c nude mice. The mice developed highly progressive GC tumors in the gastric wall where implanted and slow metastases to liver, spleen, lung, kidney and ovary, with rate of metastases to ovary being 63.6% of implanted mice. The tumors colonized in the ovary expressed a GI marker MUC5A, suggestive of typical human Krukenberg tumor. Immuno-histochemical stainings revealed that many mesenchymal markers were strongly positive in motile tumor cells in the vein of ovary and became gradually weak during extravasations to colonize in the ovary. When routes of metastasis were further investigated, the mesenchymal marker SMA stained low in the tumor cells of the primary site of stomach wall, became high in intravasating vein in the stomach wall, remained high in extravasating veins in the liver and ovary and finally returned low in the colonized tumor in the liver and ovary. However, expression of an epithelial marker Claudin did not show in the opposite profile to SMA, indicating that acquisition of mesenchymal phenotypes rather than loss of epithelial characteristics may more give rise to metastatic potential. Dissociated cells derived from tumors in the implanted mouse stomach or metastasized to ovaries retain their tumorigenicity and metastatic potentials. The mRNA microarray and Western blot analyses showed that metastatic tumor-derived cells showed significantly higher expression of GAGE12 gene family than orthotopic tumors-derived cells. The shRNA-mediated knock-down of the GAGE12 family in the metastatic tumors-derived cells abolished the tumor formation in gastric wall and metastasis as well. In conclusion, we established an in vivo orthotopic gastric cancer mouse model spontaneously metastasizing to secondary organs including ovary, which exhibits typical characteristics of a Krukenberg tumor. Expression of mesenchymal markers should be functionally associated with the gain of metastatic ability in this study. A hightly tumorigenic gastric carcinoma SNU-16 cells were orthotpically injected into stomach wall. Tumors formed in the stomach wall (16S) and mestasized to ovary (16O) were dissociated and cultured for 7 day. These cells were re-injected orthotopically and tumors formed in the stomach from 16S (16SS) and ovary from 16O injection (16OO) were dissociated. Total RNAs were isolated from 16S, 16SS, 16O and 16OO2 and subjected to mRNA microarrays"
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE47554"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE47554-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE47554-1"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Data were processed using Expression Console software. Convolution background correction were applied to probe intensities, gene level expression were summarized from the corrected intensities and then quantile normalized. HuGene-1_0-st-v1.r4.pgf HuGene-1_0-st-v1.r4.mps ID_REF =  VALUE = Quantile normalized gene level expression values from Expression Console"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE47554-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE47554-4"
+            },
+            {
+              "name": "Type",
+              "value": "labelling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Samples were enzymatically fragmented and biotinylated using the WT Terminal Labeling Kit (Affymetrix)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE47554-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE47554-5"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Samples were hybridized using Affymetrix hybridization kit materials M-bM-^@M-\" Heat cocktails at 99M-0 for 5 minutes, then 42M-0 for 5 minutes centrifuge at max speed for 1 minute (N.B. this deviates from Affy SOP). M-bM-^@M-\" Transfer 200M-NM-<l of hyb solution to each array, then tape holes and parafilm. M-bM-^@M-\" Hybridize 16 hours at 45M-0 at 60rpmM-bM-^@M-\" Fluidics washing is FS450_0001"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE47554-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE47554-2"
+            },
+            {
+              "name": "Type",
+              "value": "growth protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Cells were maintained in RPMI-1640 supplemented with 10% fetal bovine serum (FBS), 100 U/ml penicillin, and 100 M-5g/ml streptomycin (R10), and incubated at 37M-bM-^DM-^C in humidified air containing 5% CO2"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE47554-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE47554-3"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Pellets of ten millions cells of each 16S, 16O, 16SS, and 16OO cells were washed once with PBS and lysed in 1 ml of TRIzolM-. reagent (Invitrogen). Total RNAs were isolated as manufacturerM-bM-^@M-^Ys instruction."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE47554-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE47554-6"
+            },
+            {
+              "name": "Type",
+              "value": "array scanning protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Affymetrix Gene ChIP Scanner 3000 7G"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Myung-Soo Kang"
+          },
+          {
+            "name": "Email",
+            "value": "mkang@skku.edu"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Eun-Kyung Lee"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Samsung Medical Center"
+          },
+          {
+            "name": "Address",
+            "value": "SAIHST, Samsung Medical Center, 50 Irwon-dong, Seoul, South Korea"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-47554",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "4"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "organism part"
+              }
+            ],
+            "value": "ORGANISM PART"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-47554",
+            "attributes": [
+              {
+                "name": "Organism part",
+                "value": "Xenografted tumor metastasized to ovaries from 2nd round implantation"
+              },
+              {
+                "name": "Organism part",
+                "value": "Xenografted tumor formed in the stomach from 2nd round of implantation"
+              },
+              {
+                "name": "Organism part",
+                "value": "Xenografted tumor metastasized to ovaries from 1st round implantation"
+              },
+              {
+                "name": "Organism part",
+                "value": "... 1 other values"
+              }
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-47554",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "Xenografted tumor metastasized to ovaries from 2nd round implantation"
+              },
+              {
+                "name": "Organism part",
+                "value": "Xenografted tumor formed in the stomach from 2nd round of implantation"
+              },
+              {
+                "name": "Organism part",
+                "value": "Xenografted tumor metastasized to ovaries from 1st round implantation"
+              },
+              {
+                "name": "Organism part",
+                "value": "... 1 other values"
+              }
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-47554",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "4"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1152399 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1152399_9_16OO.CEL",
+                  "size": 11082665,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1152398 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1152398_8_16SS.CEL",
+                  "size": 11081929,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1152397 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1152397_7_16O.CEL",
+                  "size": 11081165,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1152396 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1152396_6_16S.CEL",
+                  "size": 11082785,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1152399_sample_table.txt",
+                  "size": 562234,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1152397_sample_table.txt",
+                  "size": 562307,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1152396_sample_table.txt",
+                  "size": 562376,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1152398_sample_table.txt",
+                  "size": 562453,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-47554",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-47554.idf.txt",
+                  "size": 5531,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-47554.sdrf.txt",
+                  "size": 5363,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-47554",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-141"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-47554",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

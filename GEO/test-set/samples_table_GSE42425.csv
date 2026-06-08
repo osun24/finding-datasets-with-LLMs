@@ -1,0 +1,139 @@
+# TITLE: MicroRNA expression in epithelial and stromal compartments of stage I human non-small cell lung cancer tumors
+# SUMMARY: To identify tumor compartment-specific microRNA expression in stage I non-small cell lung cancer in humans, surgically resected and formalin-fixed tumor tissues were used in laser capture microdissection to isolate tumor epithelia and stroma. Total RNA extracted from the microdissectates was analyzed for microRNA expression using the 7th generation miRCURY™ locked nucleic acid microarray platform (Exiqon®, Vedbaek, Denmark).
+GPL16294_Group,GPL16294_Accession,GPL16294_Title,GPL16294_Source name 1,GPL16294_Source name 2,GPL16294_Tissue (Ch1),GPL16294_Patient (Ch1),GPL16294_Recurrence (Ch1),GPL16294_Histology (Ch1),GPL16294_Age_at_surgery (Ch1),GPL16294_Gender (Ch1),GPL16294_Race (Ch1),GPL16294_Smoking_history (Ch1),GPL16294_Pathologic_stage (Ch1),GPL16294_Months_to_death_or_censorship (Ch1),GPL16294_Tumor_component (Ch1),GPL16294_Sample type (Ch2),GPL16294_Months_to_death_if_recurrence_time_unknown (Ch1),GPL16294_Months_to_recurrence (Ch1)
+-,GSM1039747,Non-recurrence_patient-1_SCC_epi_tech-rep2,"Non-recurrence case, patient-1, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,1,N,SCC,62,F,White,current,1B,37,E,reference,,
+-,GSM1039748,Non-recurrence_patient-12_AC_epi_tech-rep2,"Non-recurrence case, patient-12, AC, epithelium",Reference RNA,adenocarcinoma epithelia,12,N,AC,66,F,White,former,1A,49,E,reference,,
+-,GSM1039749,Non-recurrence_patient-28_SCC_epi_tech-rep2,"Non-recurrence case, patient-28, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,28,N,SCC,64,M,White,former,1A,51,E,reference,,
+-,GSM1039750,Recurrence_patient-44_AC_epi_tech-rep2,"Recurrence case, patient-44, AC, epithelium",Reference RNA,adenocarcinoma epithelia,44,Y,AC,57,M,White,current,1A,13,E,reference,13,
+-,GSM1039751,Recurrence_patient-62_SCC_epi_tech-rep2,"Recurrence case, patient-62, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,62,Y,SCC,63,F,White,former,1A,84,E,reference,,40
+-,GSM1039752,Recurrence_patient-62_SCC_epi_tech-rep2b,"Recurrence case, patient-62, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,62,Y,SCC,63,F,White,former,1A,84,E,reference,,40
+-,GSM1039753,Non-recurrence_patient-1_SCC_epi,"Non-recurrence case, patient-1, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,1,N,SCC,62,F,White,current,1B,37,E,reference,,
+-,GSM1039754,Non-recurrence_patient-1_SCC_str,"Non-recurrence case, patient-1, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,1,N,SCC,62,F,White,current,1B,37,S,reference,,
+-,GSM1039755,Non-recurrence_patient-2_SCC_epi,"Non-recurrence case, patient-2, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,2,N,SCC,71,M,White,current,1B,70,E,reference,,
+-,GSM1039756,Non-recurrence_patient-2_SCC_str,"Non-recurrence case, patient-2, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,2,N,SCC,71,M,White,current,1B,70,S,reference,,
+-,GSM1039757,Non-recurrence_patient-3_SCC_epi,"Non-recurrence case, patient-3, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,3,N,SCC,63,F,White,former,1A,106,E,reference,,
+-,GSM1039758,Non-recurrence_patient-3_SCC_str,"Non-recurrence case, patient-3, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,3,N,SCC,63,F,White,former,1A,106,S,reference,,
+-,GSM1039759,Recurrence_patient-4_AC_epi,"Recurrence case, patient-4, AC, epithelium",Reference RNA,adenocarcinoma epithelia,4,Y,AC,72,F,White,never,1B,18,E,reference,,13
+-,GSM1039760,Recurrence_patient-4_AC_str,"Recurrence case, patient-4, AC, stromum",Reference RNA,adenocarcinoma stroma,4,Y,AC,72,F,White,never,1B,18,S,reference,,13
+-,GSM1039761,Non-recurrence_patient-6_SCC_epi,"Non-recurrence case, patient-6, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,6,N,SCC,75,F,White,never,1A,90,E,reference,,
+-,GSM1039762,Non-recurrence_patient-6_SCC_str,"Non-recurrence case, patient-6, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,6,N,SCC,75,F,White,never,1A,90,S,reference,,
+-,GSM1039763,Non-recurrence_patient-7_SCC_epi,"Non-recurrence case, patient-7, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,7,N,SCC,68,F,White,former,1B,74,E,reference,,
+-,GSM1039764,Non-recurrence_patient-7_SCC_str,"Non-recurrence case, patient-7, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,7,N,SCC,68,F,White,former,1B,74,S,reference,,
+-,GSM1039765,Recurrence_patient-8_SCC_epi,"Recurrence case, patient-8, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,8,Y,SCC,46,M,White,current,1B,17,E,reference,,6
+-,GSM1039766,Recurrence_patient-8_SCC_str,"Recurrence case, patient-8, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,8,Y,SCC,46,M,White,current,1B,17,S,reference,,6
+-,GSM1039767,Non-recurrence_patient-9_BAC_epi,"Non-recurrence case, patient-9, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,9,N,BAC,77,M,White,current,1B,60,E,reference,,
+-,GSM1039768,Non-recurrence_patient-9_BAC_str,"Non-recurrence case, patient-9, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,9,N,BAC,77,M,White,current,1B,60,S,reference,,
+-,GSM1039769,Non-recurrence_patient-10_AC_epi,"Non-recurrence case, patient-10, AC, epithelium",Reference RNA,adenocarcinoma epithelia,10,N,AC,77,F,White,never,1B,51,E,reference,,
+-,GSM1039770,Non-recurrence_patient-10_AC_str,"Non-recurrence case, patient-10, AC, stromum",Reference RNA,adenocarcinoma stroma,10,N,AC,77,F,White,never,1B,51,S,reference,,
+-,GSM1039771,Recurrence_patient-11_SCC_epi,"Recurrence case, patient-11, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,11,Y,SCC,75,M,White,former,1B,25,E,reference,,16
+-,GSM1039772,Recurrence_patient-11_SCC_str,"Recurrence case, patient-11, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,11,Y,SCC,75,M,White,former,1B,25,S,reference,,16
+-,GSM1039773,Non-recurrence_patient-12_AC_epi,"Non-recurrence case, patient-12, AC, epithelium",Reference RNA,adenocarcinoma epithelia,12,N,AC,66,F,White,former,1A,49,E,reference,,
+-,GSM1039774,Non-recurrence_patient-12_AC_str,"Non-recurrence case, patient-12, AC, stromum",Reference RNA,adenocarcinoma stroma,12,N,AC,66,F,White,former,1A,49,S,reference,,
+-,GSM1039775,Recurrence_patient-13_AC_epi,"Recurrence case, patient-13, AC, epithelium",Reference RNA,adenocarcinoma epithelia,13,Y,AC,72,M,White,current,1A,18,E,reference,,6
+-,GSM1039776,Recurrence_patient-13_AC_str,"Recurrence case, patient-13, AC, stromum",Reference RNA,adenocarcinoma stroma,13,Y,AC,72,M,White,current,1A,18,S,reference,,6
+-,GSM1039777,Recurrence_patient-14_AC_epi,"Recurrence case, patient-14, AC, epithelium",Reference RNA,adenocarcinoma epithelia,14,Y,AC,68,M,White,former,1A,23,E,reference,,4
+-,GSM1039778,Recurrence_patient-14_AC_str,"Recurrence case, patient-14, AC, stromum",Reference RNA,adenocarcinoma stroma,14,Y,AC,68,M,White,former,1A,23,S,reference,,4
+-,GSM1039779,Non-recurrence_patient-15_AC_epi,"Non-recurrence case, patient-15, AC, epithelium",Reference RNA,adenocarcinoma epithelia,15,N,AC,58,F,White,former,1A,85,E,reference,,
+-,GSM1039780,Non-recurrence_patient-15_AC_str,"Non-recurrence case, patient-15, AC, stromum",Reference RNA,adenocarcinoma stroma,15,N,AC,58,F,White,former,1A,85,S,reference,,
+-,GSM1039781,Non-recurrence_patient-16_BAC_epi,"Non-recurrence case, patient-16, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,16,N,BAC,53,M,White,former,1B,87,E,reference,,
+-,GSM1039782,Non-recurrence_patient-16_BAC_str,"Non-recurrence case, patient-16, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,16,N,BAC,53,M,White,former,1B,87,S,reference,,
+-,GSM1039783,Recurrence_patient-17_SCC_epi,"Recurrence case, patient-17, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,17,Y,SCC,77,M,Asian,former,1A,30,E,reference,,25
+-,GSM1039784,Recurrence_patient-17_SCC_str,"Recurrence case, patient-17, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,17,Y,SCC,77,M,Asian,former,1A,30,S,reference,,25
+-,GSM1039785,Recurrence_patient-18_SCC_epi,"Recurrence case, patient-18, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,18,Y,SCC,76,F,White,former,1A,19,E,reference,,14
+-,GSM1039786,Recurrence_patient-18_SCC_str,"Recurrence case, patient-18, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,18,Y,SCC,76,F,White,former,1A,19,S,reference,,14
+-,GSM1039787,Non-recurrence_patient-19_SCC_epi,"Non-recurrence case, patient-19, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,19,N,SCC,82,M,White,former,1B,77,E,reference,,
+-,GSM1039788,Non-recurrence_patient-20_AS_epi,"Non-recurrence case, patient-20, AS, epithelium",Reference RNA,adenosquamous carcinoma epithelia,20,N,AS,71,M,White,former,1A,55,E,reference,,
+-,GSM1039789,Non-recurrence_patient-20_AS_str,"Non-recurrence case, patient-20, AS, stromum",Reference RNA,adenosquamous carcinoma stroma,20,N,AS,71,M,White,former,1A,55,S,reference,,
+-,GSM1039790,Non-recurrence_patient-21_AC_epi,"Non-recurrence case, patient-21, AC, epithelium",Reference RNA,adenocarcinoma epithelia,21,N,AC,51,M,White,former,1B,59,E,reference,,
+-,GSM1039791,Non-recurrence_patient-21_AC_str,"Non-recurrence case, patient-21, AC, stromum",Reference RNA,adenocarcinoma stroma,21,N,AC,51,M,White,former,1B,59,S,reference,,
+-,GSM1039792,Recurrence_patient-22_AC_epi,"Recurrence case, patient-22, AC, epithelium",Reference RNA,adenocarcinoma epithelia,22,Y,AC,51,F,White,current,1B,64,E,reference,,8
+-,GSM1039793,Recurrence_patient-22_AC_str,"Recurrence case, patient-22, AC, stromum",Reference RNA,adenocarcinoma stroma,22,Y,AC,51,F,White,current,1B,64,S,reference,,8
+-,GSM1039794,Recurrence_patient-23_BAC_epi,"Recurrence case, patient-23, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,23,Y,BAC,62,F,White,current,1A,82,E,reference,,57
+-,GSM1039795,Recurrence_patient-23_BAC_str,"Recurrence case, patient-23, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,23,Y,BAC,62,F,White,current,1A,82,S,reference,,57
+-,GSM1039796,Non-recurrence_patient-24_SCC_str,"Non-recurrence case, patient-24, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,24,N,SCC,59,F,White,never,1A,55,S,reference,,
+-,GSM1039797,Non-recurrence_patient-25_BAC_epi,"Non-recurrence case, patient-25, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,25,N,BAC,78,F,White,former,1B,57,E,reference,,
+-,GSM1039798,Non-recurrence_patient-25_BAC_str,"Non-recurrence case, patient-25, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,25,N,BAC,78,F,White,former,1B,57,S,reference,,
+-,GSM1039799,Non-recurrence_patient-26_AC_epi,"Non-recurrence case, patient-26, AC, epithelium",Reference RNA,adenocarcinoma epithelia,26,N,AC,80,M,White,former,1A,37,E,reference,,
+-,GSM1039800,Non-recurrence_patient-27_SCC_str,"Non-recurrence case, patient-27, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,27,N,SCC,58,M,White,current,1A,59,S,reference,,
+-,GSM1039801,Non-recurrence_patient-28_SCC_epi,"Non-recurrence case, patient-28, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,28,N,SCC,64,M,White,former,1A,51,E,reference,,
+-,GSM1039802,Non-recurrence_patient-28_SCC_str,"Non-recurrence case, patient-28, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,28,N,SCC,64,M,White,former,1A,51,S,reference,,
+-,GSM1039803,Non-recurrence_patient-29_SCC_epi,"Non-recurrence case, patient-29, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,29,N,SCC,81,M,White,former,1A,47,E,reference,,
+-,GSM1039804,Non-recurrence_patient-29_SCC_str,"Non-recurrence case, patient-29, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,29,N,SCC,81,M,White,former,1A,47,S,reference,,
+-,GSM1039805,Non-recurrence_patient-30_AC_epi,"Non-recurrence case, patient-30, AC, epithelium",Reference RNA,adenocarcinoma epithelia,30,N,AC,51,F,White,current,1A,46,E,reference,,
+-,GSM1039806,Non-recurrence_patient-30_AC_str,"Non-recurrence case, patient-30, AC, stromum",Reference RNA,adenocarcinoma stroma,30,N,AC,51,F,White,current,1A,46,S,reference,,
+-,GSM1039807,Non-recurrence_patient-31_BAC_epi,"Non-recurrence case, patient-31, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,31,N,BAC,76,M,White,former,1B,47,E,reference,,
+-,GSM1039808,Non-recurrence_patient-31_BAC_str,"Non-recurrence case, patient-31, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,31,N,BAC,76,M,White,former,1B,47,S,reference,,
+-,GSM1039809,Non-recurrence_patient-32_AC_epi,"Non-recurrence case, patient-32, AC, epithelium",Reference RNA,adenocarcinoma epithelia,32,N,AC,67,F,White,former,1A,43,E,reference,,
+-,GSM1039810,Non-recurrence_patient-32_AC_str,"Non-recurrence case, patient-32, AC, stromum",Reference RNA,adenocarcinoma stroma,32,N,AC,67,F,White,former,1A,43,S,reference,,
+-,GSM1039811,Recurrence_patient-33_AC_epi,"Recurrence case, patient-33, AC, epithelium",Reference RNA,adenocarcinoma epithelia,33,Y,AC,67,M,White,former,1B,20,E,reference,,9
+-,GSM1039812,Recurrence_patient-33_AC_str,"Recurrence case, patient-33, AC, stromum",Reference RNA,adenocarcinoma stroma,33,Y,AC,67,M,White,former,1B,20,S,reference,,9
+-,GSM1039813,Recurrence_patient-34_SCC_epi,"Recurrence case, patient-34, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,34,Y,SCC,81,M,Black,former,1B,16,E,reference,,12
+-,GSM1039814,Recurrence_patient-34_SCC_str,"Recurrence case, patient-34, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,34,Y,SCC,81,M,Black,former,1B,16,S,reference,,12
+-,GSM1039815,Recurrence_patient-35_AC_epi,"Recurrence case, patient-35, AC, epithelium",Reference RNA,adenocarcinoma epithelia,35,Y,AC,60,M,White,former,1B,29,E,reference,,14
+-,GSM1039816,Recurrence_patient-35_AC_str,"Recurrence case, patient-35, AC, stromum",Reference RNA,adenocarcinoma stroma,35,Y,AC,60,M,White,former,1B,29,S,reference,,14
+-,GSM1039817,Recurrence_patient-36_AC_epi,"Recurrence case, patient-36, AC, epithelium",Reference RNA,adenocarcinoma epithelia,36,Y,AC,77,M,White,current,1B,27,E,reference,,8
+-,GSM1039818,Recurrence_patient-36_AC_str,"Recurrence case, patient-36, AC, stromum",Reference RNA,adenocarcinoma stroma,36,Y,AC,77,M,White,current,1B,27,S,reference,,8
+-,GSM1039819,Non-recurrence_patient-37_SCC_epi,"Non-recurrence case, patient-37, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,37,N,SCC,78,F,White,current,1A,68,E,reference,,
+-,GSM1039820,Non-recurrence_patient-37_SCC_str,"Non-recurrence case, patient-37, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,37,N,SCC,78,F,White,current,1A,68,S,reference,,
+-,GSM1039821,Non-recurrence_patient-38_AC_epi,"Non-recurrence case, patient-38, AC, epithelium",Reference RNA,adenocarcinoma epithelia,38,N,AC,65,F,Black,former,1A,36,E,reference,,
+-,GSM1039822,Non-recurrence_patient-38_AC_str,"Non-recurrence case, patient-38, AC, stromum",Reference RNA,adenocarcinoma stroma,38,N,AC,65,F,Black,former,1A,36,S,reference,,
+-,GSM1039823,Recurrence_patient-39_SCC_epi,"Recurrence case, patient-39, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,39,Y,SCC,57,F,White,current,1B,13,E,reference,13,
+-,GSM1039824,Recurrence_patient-39_SCC_str,"Recurrence case, patient-39, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,39,Y,SCC,57,F,White,current,1B,13,S,reference,13,
+-,GSM1039825,Recurrence_patient-40_BAC_epi,"Recurrence case, patient-40, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,40,Y,BAC,51,F,White,current,1A,34,E,reference,,6
+-,GSM1039826,Recurrence_patient-40_BAC_str,"Recurrence case, patient-40, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,40,Y,BAC,51,F,White,current,1A,34,S,reference,,6
+-,GSM1039827,Recurrence_patient-41_AC_epi,"Recurrence case, patient-41, AC, epithelium",Reference RNA,adenocarcinoma epithelia,41,Y,AC,67,M,White,former,1B,21,E,reference,,15
+-,GSM1039828,Recurrence_patient-41_AC_str,"Recurrence case, patient-41, AC, stromum",Reference RNA,adenocarcinoma stroma,41,Y,AC,67,M,White,former,1B,21,S,reference,,15
+-,GSM1039829,Recurrence_patient-42_BAC_epi,"Recurrence case, patient-42, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,42,Y,BAC,69,F,White,former,1B,22,E,reference,,17
+-,GSM1039830,Recurrence_patient-42_BAC_str,"Recurrence case, patient-42, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,42,Y,BAC,69,F,White,former,1B,22,S,reference,,17
+-,GSM1039831,Non-recurrence_patient-43_AC_epi,"Non-recurrence case, patient-43, AC, epithelium",Reference RNA,adenocarcinoma epithelia,43,N,AC,50,F,White,current,1B,36,E,reference,,
+-,GSM1039832,Non-recurrence_patient-43_AC_str,"Non-recurrence case, patient-43, AC, stromum",Reference RNA,adenocarcinoma stroma,43,N,AC,50,F,White,current,1B,36,S,reference,,
+-,GSM1039833,Recurrence_patient-44_AC_epi,"Recurrence case, patient-44, AC, epithelium",Reference RNA,adenocarcinoma epithelia,44,Y,AC,57,M,White,current,1A,13,E,reference,13,
+-,GSM1039834,Recurrence_patient-44_AC_str,"Recurrence case, patient-44, AC, stromum",Reference RNA,adenocarcinoma stroma,44,Y,AC,57,M,White,current,1A,13,S,reference,13,
+-,GSM1039835,Recurrence_patient-45_AC_epi,"Recurrence case, patient-45, AC, epithelium",Reference RNA,adenocarcinoma epithelia,45,Y,AC,70,F,White,never,1A,12,E,reference,,10
+-,GSM1039836,Recurrence_patient-45_AC_str,"Recurrence case, patient-45, AC, stromum",Reference RNA,adenocarcinoma stroma,45,Y,AC,70,F,White,never,1A,12,S,reference,,10
+-,GSM1039837,Non-recurrence_patient-46_AC_epi,"Non-recurrence case, patient-46, AC, epithelium",Reference RNA,adenocarcinoma epithelia,46,N,AC,70,M,White,former,1B,119,E,reference,,
+-,GSM1039838,Non-recurrence_patient-46_AC_str,"Non-recurrence case, patient-46, AC, stromum",Reference RNA,adenocarcinoma stroma,46,N,AC,70,M,White,former,1B,119,S,reference,,
+-,GSM1039839,Recurrence_patient-47_AC_epi,"Recurrence case, patient-47, AC, epithelium",Reference RNA,adenocarcinoma epithelia,47,Y,AC,70,F,White,former,1A,17,E,reference,,9
+-,GSM1039840,Recurrence_patient-47_AC_str,"Recurrence case, patient-47, AC, stromum",Reference RNA,adenocarcinoma stroma,47,Y,AC,70,F,White,former,1A,17,S,reference,,9
+-,GSM1039841,Recurrence_patient-49_SCC_epi,"Recurrence case, patient-49, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,49,Y,SCC,73,F,Black,former,1B,18,E,reference,,7
+-,GSM1039842,Recurrence_patient-49_SCC_str,"Recurrence case, patient-49, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,49,Y,SCC,73,F,Black,former,1B,18,S,reference,,7
+-,GSM1039843,Non-recurrence_patient-50_BAC_epi,"Non-recurrence case, patient-50, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,50,N,BAC,71,F,White,never,1B,110,E,reference,,
+-,GSM1039844,Non-recurrence_patient-50_BAC_str,"Non-recurrence case, patient-50, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,50,N,BAC,71,F,White,never,1B,110,S,reference,,
+-,GSM1039845,Recurrence_patient-51_BAC_epi,"Recurrence case, patient-51, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,51,Y,BAC,70,M,White,never,1B,16,E,reference,,10
+-,GSM1039846,Recurrence_patient-51_BAC_str,"Recurrence case, patient-51, BAC, stromum",Reference RNA,bronchioloalveolar carcinoma stroma,51,Y,BAC,70,M,White,never,1B,16,S,reference,,10
+-,GSM1039847,Non-recurrence_patient-52_AC_epi,"Non-recurrence case, patient-52, AC, epithelium",Reference RNA,adenocarcinoma epithelia,52,N,AC,47,F,White,former,1A,96,E,reference,,
+-,GSM1039848,Non-recurrence_patient-52_AC_str,"Non-recurrence case, patient-52, AC, stromum",Reference RNA,adenocarcinoma stroma,52,N,AC,47,F,White,former,1A,96,S,reference,,
+-,GSM1039849,Non-recurrence_patient-53_AC_epi,"Non-recurrence case, patient-53, AC, epithelium",Reference RNA,adenocarcinoma epithelia,53,N,AC,68,F,White,never,1B,72,E,reference,,
+-,GSM1039850,Non-recurrence_patient-53_AC_str,"Non-recurrence case, patient-53, AC, stromum",Reference RNA,adenocarcinoma stroma,53,N,AC,68,F,White,never,1B,72,S,reference,,
+-,GSM1039851,Recurrence_patient-54_SCC_epi,"Recurrence case, patient-54, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,54,Y,SCC,74,M,White,former,1A,13,E,reference,,7
+-,GSM1039852,Recurrence_patient-54_SCC_str,"Recurrence case, patient-54, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,54,Y,SCC,74,M,White,former,1A,13,S,reference,,7
+-,GSM1039853,Recurrence_patient-55_SCC_epi,"Recurrence case, patient-55, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,55,Y,SCC,75,M,White,former,1A,29,E,reference,,21
+-,GSM1039854,Recurrence_patient-55_SCC_str,"Recurrence case, patient-55, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,55,Y,SCC,75,M,White,former,1A,29,S,reference,,21
+-,GSM1039855,Non-recurrence_patient-56_BAC_epi,"Non-recurrence case, patient-56, BAC, epithelium",Reference RNA,bronchioloalveolar carcinoma epithelia,56,N,BAC,65,M,White,former,1A,90,E,reference,,
+-,GSM1039856,Non-recurrence_patient-57_SCC_epi,"Non-recurrence case, patient-57, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,57,N,SCC,73,F,White,former,1A,50,E,reference,,
+-,GSM1039857,Non-recurrence_patient-57_SCC_str,"Non-recurrence case, patient-57, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,57,N,SCC,73,F,White,former,1A,50,S,reference,,
+-,GSM1039858,Recurrence_patient-58_AC_str,"Recurrence case, patient-58, AC, stromum",Reference RNA,adenocarcinoma stroma,58,Y,AC,79,F,White,former,1B,32,S,reference,,21
+-,GSM1039859,Non-recurrence_patient-59_SCC_epi,"Non-recurrence case, patient-59, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,59,N,SCC,71,F,American Indian,former,1A,63,E,reference,,
+-,GSM1039860,Non-recurrence_patient-59_SCC_str,"Non-recurrence case, patient-59, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,59,N,SCC,71,F,American Indian,former,1A,63,S,reference,,
+-,GSM1039861,Non-recurrence_patient-60_SCC_epi,"Non-recurrence case, patient-60, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,60,N,SCC,77,M,White,current,1B,60,E,reference,,
+-,GSM1039862,Non-recurrence_patient-60_SCC_str,"Non-recurrence case, patient-60, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,60,N,SCC,77,M,White,current,1B,60,S,reference,,
+-,GSM1039863,Non-recurrence_patient-61_AC_epi,"Non-recurrence case, patient-61, AC, epithelium",Reference RNA,adenocarcinoma epithelia,61,N,AC,64,M,White,current,1A,55,E,reference,,
+-,GSM1039864,Non-recurrence_patient-61_AC_str,"Non-recurrence case, patient-61, AC, stromum",Reference RNA,adenocarcinoma stroma,61,N,AC,64,M,White,current,1A,55,S,reference,,
+-,GSM1039865,Recurrence_patient-62_SCC_epi,"Recurrence case, patient-62, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,62,Y,SCC,63,F,White,former,1A,84,E,reference,,40
+-,GSM1039866,Recurrence_patient-62_SCC_str,"Recurrence case, patient-62, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,62,Y,SCC,63,F,White,former,1A,84,S,reference,,40
+-,GSM1039867,Non-recurrence_patient-64_SCC_epi,"Non-recurrence case, patient-64, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,64,N,SCC,71,M,White,former,1B,71,E,reference,,
+-,GSM1039868,Non-recurrence_patient-64_SCC_str,"Non-recurrence case, patient-64, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,64,N,SCC,71,M,White,former,1B,71,S,reference,,
+-,GSM1039869,Non-recurrence_patient-67_SCC_epi,"Non-recurrence case, patient-67, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,67,N,SCC,52,F,White,current,1A,71,E,reference,,
+-,GSM1039870,Non-recurrence_patient-67_SCC_str,"Non-recurrence case, patient-67, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,67,N,SCC,52,F,White,current,1A,71,S,reference,,
+-,GSM1039871,Recurrence_patient-70_AS_epi,"Recurrence case, patient-70, AS, epithelium",Reference RNA,adenosquamous carcinoma epithelia,70,Y,AS,75,M,White,current,1B,9,E,reference,,9
+-,GSM1039872,Recurrence_patient-70_AS_str,"Recurrence case, patient-70, AS, stromum",Reference RNA,adenosquamous carcinoma stroma,70,Y,AS,75,M,White,current,1B,9,S,reference,,9
+-,GSM1039873,Recurrence_patient-71_AC_epi,"Recurrence case, patient-71, AC, epithelium",Reference RNA,adenocarcinoma epithelia,71,Y,AC,78,M,Black,former,1B,52,E,reference,,46
+-,GSM1039874,Recurrence_patient-71_AC_str,"Recurrence case, patient-71, AC, stromum",Reference RNA,adenocarcinoma stroma,71,Y,AC,78,M,Black,former,1B,52,S,reference,,46
+-,GSM1039875,Recurrence_patient-72_AC_epi,"Recurrence case, patient-72, AC, epithelium",Reference RNA,adenocarcinoma epithelia,72,Y,AC,83,F,White,former,1A,36,E,reference,,36
+-,GSM1039876,Recurrence_patient-72_AC_str,"Recurrence case, patient-72, AC, stromum",Reference RNA,adenocarcinoma stroma,72,Y,AC,83,F,White,former,1A,36,S,reference,,36
+-,GSM1039877,Non-recurrence_patient-77_AC_epi,"Non-recurrence case, patient-77, AC, epithelium",Reference RNA,adenocarcinoma epithelia,77,N,AC,79,M,White,never,1B,58,E,reference,,
+-,GSM1039878,Non-recurrence_patient-77_AC_str,"Non-recurrence case, patient-77, AC, stromum",Reference RNA,adenocarcinoma stroma,77,N,AC,79,M,White,never,1B,58,S,reference,,
+-,GSM1039879,Non-recurrence_patient-78_SCC_epi,"Non-recurrence case, patient-78, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,78,N,SCC,61,F,White,former,1A,50,E,reference,,
+-,GSM1039880,Non-recurrence_patient-78_SCC_str,"Non-recurrence case, patient-78, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,78,N,SCC,61,F,White,former,1A,50,S,reference,,
+-,GSM1039881,Recurrence_patient-62_SCC_epi_bio-rep2,"Recurrence case, patient-62, SCC, epithelium",Reference RNA,squamous cell carcinoma epithelia,62,Y,SCC,63,F,White,former,1A,84,E,reference,,40
+-,GSM1039882,Recurrence_patient-62_SCC_str_bio-rep2,"Recurrence case, patient-62, SCC, stromum",Reference RNA,squamous cell carcinoma stroma,62,Y,SCC,63,F,White,former,1A,84,S,reference,,40

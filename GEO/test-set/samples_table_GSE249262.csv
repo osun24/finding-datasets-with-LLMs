@@ -1,0 +1,79 @@
+# TITLE: Circulating tumor cell analysis from stage III lung cancer patients
+# SUMMARY: Imaging technologies only detect progression after it has occurred, which may be well after tumor growth or disease progression has begun. In this work, we determined whether circulating tumor cell (CTC) quantification, PD-L1 expression on CTCs, or CTC gene expression can be used as a blood-based biomarker to predict patient outcomes in stage III NSCLC. The primary endpoint was disease progression, either locoregional, distant, or death. We used immunoaffinity graphene oxide (GO) chip to isolated CTCs from stage III NSCLC patients, and extracted bulk RNA materials from isolated CTC samples and conducted microarray gene expression profiling.
+GPL23159_Group,GPL23159_Accession,GPL23159_Title,GPL23159_Source name,GPL23159_Tissue,GPL23159_Cell type,GPL23159_Timepoint,GPL23159_Status,GPL23159_Ctc count level
+-,GSM7932467,"CTCs from patient 1, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",high
+-,GSM7932468,"CTCs from patient 1, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, progression",high
+-,GSM7932469,"CTCs from patient 2, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",high
+-,GSM7932470,"CTCs from patient 2, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",low
+-,GSM7932471,"CTCs from patient 3, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",high
+-,GSM7932472,"CTCs from patient 3, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, progression",mid
+-,GSM7932473,"CTCs from patient 4, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",high
+-,GSM7932474,"CTCs from patient 5, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",high
+-,GSM7932475,"CTCs from patient 5, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",high
+-,GSM7932476,"CTCs from patient 6, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",high
+-,GSM7932477,"CTCs from patient 6, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, progression",low
+-,GSM7932478,"CTCs from patient 7, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",high
+-,GSM7932479,"CTCs from patient 7, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",mid
+-,GSM7932480,"CTCs from patient 8, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",high
+-,GSM7932481,"CTCs from patient 8, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, progression",mid
+-,GSM7932482,"CTCs from patient 9, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",high
+-,GSM7932483,"CTCs from patient 9, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",low
+-,GSM7932484,"CTCs from patient 9, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",mid
+-,GSM7932485,"CTCs from patient 10, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",high
+-,GSM7932486,"CTCs from patient 10, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",mid
+-,GSM7932487,"CTCs from patient 11, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",high
+-,GSM7932488,"CTCs from patient 11, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",low
+-,GSM7932489,"CTCs from patient 11, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",low
+-,GSM7932490,"CTCs from patient 12, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",mid
+-,GSM7932491,"CTCs from patient 12, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, progression",mid
+-,GSM7932492,"CTCs from patient 13, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",mid
+-,GSM7932493,"CTCs from patient 13, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",high
+-,GSM7932494,"CTCs from patient 14, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",high
+-,GSM7932495,"CTCs from patient 15, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",mid
+-,GSM7932496,"CTCs from patient 15, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",low
+-,GSM7932497,"CTCs from patient 16, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",mid
+-,GSM7932498,"CTCs from patient 16, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, progression",high
+-,GSM7932499,"CTCs from patient 16, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, progression",high
+-,GSM7932500,"CTCs from patient 17, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",mid
+-,GSM7932501,"CTCs from patient 17, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",low
+-,GSM7932502,"CTCs from patient 17, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",low
+-,GSM7932503,"CTCs from patient 18, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",mid
+-,GSM7932504,"CTCs from patient 18, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, progression",NA
+-,GSM7932505,"CTCs from patient 18, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, progression",low
+-,GSM7932506,"CTCs from patient 19, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",high
+-,GSM7932507,"CTCs from patient 20, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",low
+-,GSM7932508,"CTCs from patient 20, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",low
+-,GSM7932509,"CTCs from patient 20, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",low
+-,GSM7932510,"CTCs from patient 21, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",low
+-,GSM7932511,"CTCs from patient 21, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",low
+-,GSM7932512,"CTCs from patient 21, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",low
+-,GSM7932513,"CTCs from patient 22, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",low
+-,GSM7932514,"CTCs from patient 22, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, progression",mid
+-,GSM7932515,"CTCs from patient 23, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",low
+-,GSM7932516,"CTCs from patient 23, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",mid
+-,GSM7932517,"CTCs from patient 23, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",high
+-,GSM7932518,"CTCs from patient 24, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",low
+-,GSM7932519,"CTCs from patient 24, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",low
+-,GSM7932520,"CTCs from patient 24, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",low
+-,GSM7932521,"CTCs from patient 25, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, progression",low
+-,GSM7932522,"CTCs from patient 25, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, progression",low
+-,GSM7932523,"CTCs from patient 26, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",low
+-,GSM7932524,"CTCs from patient 26, week 10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",low
+-,GSM7932525,"CTCs from patient 26, week 4",CTCs from cancer patients,Blood,CTCs from cancer patients,week4,"Tumor, stable",low
+-,GSM7932526,"CTCs from patient 27, baseline",CTCs from cancer patients,Blood,CTCs from cancer patients,base,"Tumor, stable",NA
+-,GSM7932527,"CTCs from patient 27, week10",CTCs from cancer patients,Blood,CTCs from cancer patients,week10,"Tumor, stable",NA
+-,GSM7932528,"H1650 cell line, replicate 1",Lung cancer cell line,Cell line derived from lung tumor,Lung cancer cell line,cell line control,Cell line,NA
+-,GSM7932529,"H1650 cell line, replicate 2",Lung cancer cell line,Cell line derived from lung tumor,Lung cancer cell line,cell line control,Cell line,NA
+-,GSM7932530,"H3255 cell line, replicate 1",Lung cancer cell line,Cell line derived from lung tumor,Lung cancer cell line,cell line control,Cell line,NA
+-,GSM7932531,"H3255 cell line, replicate 2",Lung cancer cell line,Cell line derived from lung tumor,Lung cancer cell line,cell line control,Cell line,NA
+-,GSM7932532,"H441 cell line, replicate 1",Lung cancer cell line,Cell line derived from lung tumor,Lung cancer cell line,cell line control,Cell line,NA
+-,GSM7932533,"H441 cell line, replicate 2",Lung cancer cell line,Cell line derived from lung tumor,Lung cancer cell line,cell line control,Cell line,NA
+-,GSM7932534,Healthy control 1,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low
+-,GSM7932535,Healthy control 2,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low
+-,GSM7932536,Heatlhy control 3,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low
+-,GSM7932537,Healthy control 4,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low
+-,GSM7932538,Healthy control 5,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low
+-,GSM7932539,Healthy control 6,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low
+-,GSM7932540,Healthy control 7,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low
+-,GSM7932541,Healthy control 8,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low
+-,GSM7932542,Healthy control 9,white blood cells from healthy control,Blood,white blood cells from healthy control,healthy control,Healthy,low

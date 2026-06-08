@@ -1,0 +1,1125 @@
+{
+  "accno": "E-MTAB-1194",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Microarrays of frontal cortex (area 8) of Parkinson cases and controls"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2013-06-02"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-1194"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-1194",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Microarrays of frontal cortex (area 8) of Parkinson cases and controls"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Microarrays of frontal cortex (area 8) of Parkinson cases and controls"
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-27264",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-27264"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "RNA from the frontal cortex (area 8) of Parkinson cases and controls were extracted and further purified with RNeasy Lipid Tissue Mini Kit (Qiagen, DE) following the protocol provided by the manufacturer. The concentration of each sample was obtained from A260 measurements with Nanodrop 1000. RNA integrity was tested using the Agilent 2100 BioAnalyzer (Agilent, US)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-27265",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-27265"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Briefly, sense ssDNA suitable for labelling was generated from total RNA with the Ambion WT Expression Kit from Ambion (Carlsbad, CA, US) according to the manufacturerM-^Rs instructions. Sense ssDNA was fragmented, labelled and hybridized to the arrays with the GeneChip WT Terminal Labeling and Hybridization Kit from Affymetrix (Affymetrix, Santa Clara, CA, US)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-27266",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-27266"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Briefly, sense ssDNA suitable for labelling was generated from total RNA with the Ambion WT Expression Kit from Ambion (Carlsbad, CA, US) according to the manufacturerM-^Rs instructions. Sense ssDNA was fragmented, labelled and hybridized to the arrays with the GeneChip WT Terminal Labeling and Hybridization Kit from Affymetrix (Affymetrix, Santa Clara, CA, US)."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Agatha Schluter"
+          },
+          {
+            "name": "Email",
+            "value": "aschluter@idibell.org"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Bellvitge Biomedical Research Institute (IDIBELL)"
+          },
+          {
+            "name": "Address",
+            "value": "Neurometabolic Diseases Lab, Hospital Duran i Reynals. 3a planta - Gran Via de l'Hospitalet 199, Hospitalet del Llob., Barcelona, 08908, Spain"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-1194",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "18"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease_state"
+              }
+            ],
+            "value": "DISEASESTATE"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-1194",
+            "attributes": [
+              {
+                "name": "Diseasestate",
+                "value": "normal"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "Parkinson's disease"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"1_A05_P1.CEL\" OR \"2_D07_P1.CEL\" OR \"3_A07_P2.CEL\" OR \"29_B05_P2.CEL\" OR \"4_F05_P2.CEL\" OR \"5_A07_P1.CEL\" OR \"6_B05_P1.CEL\" OR \"7_E05_P1_3.CEL\" OR \"8R_F07.CEL\" OR \"10_B07_P2.CEL\" OR \"11_C05_P2.CEL\""
+                        }
+                      ],
+                      "value": "11"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "DISEASESTATE",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20_C07_P1.CEL\" OR \"21_G05_P2.CEL\" OR \"24_H07_P1.CEL\" OR \"25_A05_P2.CEL\" OR \"26_D07_P2.CEL\" OR \"27_E05_P2.CEL\" OR \"28_E07_P2.CEL\""
+                        }
+                      ],
+                      "value": "7"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-1194",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "OrganismPart",
+                "value": "frontal lobe"
+              },
+              {
+                "name": "Age",
+                "value": "58 year"
+              },
+              {
+                "name": "Age",
+                "value": "49 year"
+              },
+              {
+                "name": "Age",
+                "value": "72 year"
+              },
+              {
+                "name": "Age",
+                "value": "73 year"
+              },
+              {
+                "name": "Age",
+                "value": "52 year"
+              },
+              {
+                "name": "Age",
+                "value": "77 year"
+              },
+              {
+                "name": "Age",
+                "value": "78 year"
+              },
+              {
+                "name": "Age",
+                "value": "54 year"
+              },
+              {
+                "name": "Age",
+                "value": "57 year"
+              },
+              {
+                "name": "Age",
+                "value": "70 year"
+              },
+              {
+                "name": "Age",
+                "value": "66 year"
+              },
+              {
+                "name": "Age",
+                "value": "79 year"
+              },
+              {
+                "name": "Age",
+                "value": "82 year"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "normal"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "Parkinson's disease"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "66 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"1_A05_P1.CEL\" OR \"4_F05_P2.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"2_D07_P1.CEL\" OR \"10_B07_P2.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "77 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"3_A07_P2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "72 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"29_B05_P2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"5_A07_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"6_B05_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "78 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"7_E05_P1_3.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "54 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"8R_F07.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "79 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "Parkinson's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"11_C05_P2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "79 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"20_C07_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "52 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"21_G05_P2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "58 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"24_H07_P1.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "49 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"25_A05_P2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "82 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"26_D07_P2.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "Age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "DiseaseState",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"27_E05_P2.CEL\" OR \"28_E07_P2.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-1194",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A03136"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "1_A05_P1.CEL",
+                  "size": 11803304,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A05175"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "2_D07_P1.CEL",
+                  "size": 11803304,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A06207"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "3_A07_P2.CEL",
+                  "size": 11803288,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A07064"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "29_B05_P2.CEL",
+                  "size": 11803324,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A02006"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "4_F05_P2.CEL",
+                  "size": 11803288,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A02042"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "5_A07_P1.CEL",
+                  "size": 11803304,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A03042"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "6_B05_P1.CEL",
+                  "size": 11803280,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A07065"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "7_E05_P1_3.CEL",
+                  "size": 11803286,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A06193"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "8R_F07.CEL",
+                  "size": 11803044,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "BK506"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "10_B07_P2.CEL",
+                  "size": 11803292,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "BK574"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "11_C05_P2.CEL",
+                  "size": 11803292,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A02098"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "20_C07_P1.CEL",
+                  "size": 11803284,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A04022"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "21_G05_P2.CEL",
+                  "size": 11803324,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A05005"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "24_H07_P1.CEL",
+                  "size": 11803284,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A02015"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "25_A05_P2.CEL",
+                  "size": 11803292,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A02063"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "26_D07_P2.CEL",
+                  "size": 11803348,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A04065"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "27_E05_P2.CEL",
+                  "size": 11803332,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "A03086"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "28_E07_P2.CEL",
+                  "size": 11803292,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MTAB-1194",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-1194.idf.txt",
+                  "size": 2514,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-1194.sdrf.txt",
+                  "size": 5700,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-1194",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-168"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-1194",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

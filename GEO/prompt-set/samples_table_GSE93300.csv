@@ -1,0 +1,16 @@
+# TITLE: Gene expression-signatures for non-small cell lung cancer patients with different EGFR muational status.
+# SUMMARY: To identify a plasma miRNA panel that could help to separate NSCLC patients with EGFR sensitive mutations and wild-type EGFR, plasma samples of 3 EGFR19DEL, 3 EGFRp.L858R, and 3 EGFRWT patients with NSCLC and 4 HCs were selected for Agilent miRNA microarray analysis to detect differences in the expression levels of circulating miRNAs (n = 2,568) between the above cohorts.
+GPL21576_Group,GPL21576_Accession,GPL21576_Title,GPL21576_Source name,GPL21576_Plasma,GPL21576_Age,GPL21576_Gender,GPL21576_Smoking history,GPL21576_Histology,GPL21576_Clinical stage,GPL21576_Egfr mutational status
+-,GSM2450563,Patient 1 150690A_TKI-19-1,primary lung cancer,primary lung cancer,41 years,Male,No,Adenocarcinoma,IV,19DEL
+-,GSM2450564,Patient 2 150690A_TKI-19-2,primary lung cancer,primary lung cancer,43 years,Female,No,Adenocarcinoma,IV,19DEL
+-,GSM2450565,Patient 3 150690A_TKI-19-3,primary lung cancer,primary lung cancer,52 years,Male,Yes,Adenocarcinoma,IIIB,19DEL
+-,GSM2450566,Patient 4 150690A_TKI-21-1,primary lung cancer,primary lung cancer,77 years,Female,No,Adenocarcinoma,IV,L858R
+-,GSM2450567,Patient 5 150690A_TKI-21-2,primary lung cancer,primary lung cancer,56 years,Male,No,Adenocarcinoma,IV,L858R
+-,GSM2450568,Patient 6 150690A_TKI-21-3,primary lung cancer,primary lung cancer,64 years,Female,No,Adenocarcinoma,IV,L858R
+-,GSM2450569,Patient 7 150690A_ALK-1,primary lung cancer,primary lung cancer,59 years,Male,Yes,Adenocarcinoma,IV,WT
+-,GSM2450570,Patient 8 150690A_ALK-2,primary lung cancer,primary lung cancer,37 years,Male,No,Adenocarcinoma,IV,WT
+-,GSM2450571,Patient 9 150690A_ALK-3,primary lung cancer,primary lung cancer,43 years,Female,No,Adenocarcinoma,IV,WT
+-,GSM2450572,Patient 10 150690A_M-1,primary lung cancer,healthy donor,63 years,Male,Yes,Not applicable,Not applicable,Not applicable
+-,GSM2450573,Patient 11 150690A_M-2,primary lung cancer,healthy donor,62 years,Female,No,Not applicable,Not applicable,Not applicable
+-,GSM2450574,Patient 12 150690A_M-3,primary lung cancer,healthy donor,64 years,Male,Yes,Not applicable,Not applicable,Not applicable
+-,GSM2450575,Patient 13 150690A_M-4,primary lung cancer,healthy donor,35 years,Female,No,Not applicable,Not applicable,Not applicable

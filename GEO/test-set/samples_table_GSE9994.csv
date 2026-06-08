@@ -1,0 +1,27 @@
+# TITLE: Genomic profiling identifies TITF1 as a lineage-specific oncogene amplified in lung cancer: Expression Arrays
+# SUMMARY: Lung cancer is a leading cause of cancer death, where the amplification of oncogenes contributes to tumorigenesis. Genomic profiling of 128 lung cancer cell lines and tumors revealed frequent focal DNA amplification at cytoband 14q13.3, a locus not amplified in other tumor types. The smallest region of recurrent amplification spanned the homeobox transcription factor TITF1 (also known as NKX2-1), previously linked to normal lung development and function. When amplified, TITF1 exhibited increased expression at both the RNA and protein level. siRNA-mediated knockdown of TITF1 in lung cancer cell lines with amplification led to reduced cell proliferation, manifested by both decreased cell-cycle progression and increased apoptosis. Our findings indicate that TITF1 amplification and overexpression contribute to lung cancer cell proliferation rates and survival, and implicate TITF1 as a lineage-specific oncogene in lung cancer. Set of arrays organized by shared biological context, such as organism, tumors types, processes, etc. Cell Line Keywords: Logical Set
+GPL6313_Group,GPL6313_Accession,GPL6313_Title,GPL6313_Source name 1,GPL6313_Source name 2,GPL6313_Common Reference CRH (Ch1),GPL6313_H460 (Ch2),GPL6313_HCC15 (Ch2),GPL6311_Group,GPL6311_Accession,GPL6311_Title,GPL6311_Source name 1,GPL6311_Source name 2,GPL6311_Characteristics 1,GPL6311_Characteristics 2,GPL6311_H28 ME_RNA (Ch2),GPL6312_Group,GPL6312_Accession,GPL6312_Title,GPL6312_Source name 1,GPL6312_Source name 2,GPL6312_Characteristics 1,GPL6312_Characteristics 2
+-,GSM252636,H460_RNA,Common Reference CRH,H460,,,,-,GSM252633,H157_RNA,"Common reference, CRH",H157 (8117),"Common reference, CRH",H157 (8117),,-,GSM252627,H1819_RNA,"Common reference, CRH",H1819 (8363),"Common reference, CRH",H1819 (8363)
+-,GSM252639,HCC15_RNA,Common Reference CRH,HCC15,,,,-,GSM252634,H358_RNA,"Common reference, CRH",H358 (8147),"Common reference, CRH",H358 (8147),,-,GSM252628,HBEC5-UI_RNA,"Common reference, CRH",HBEC5-UI (NHBEC) (8368),"Common reference, CRH",HBEC5-UI (NHBEC) (8368)
+,,,,,,,,-,GSM252637,H1648_RNA,"Common reference, CRH",H1648 (8112),"Common reference, CRH",H1648 (8112),,-,GSM252629,SAEC_RNA,"Common reference, CRH",SAEC (8369),"Common reference, CRH",SAEC (8369)
+,,,,,,,,-,GSM252638,HCC827_RNA,"Common reference, CRH",HCC827 (8110),"Common reference, CRH",HCC827 (8110),,-,GSM252630,H2052 ME_RNA (8364),"Common reference, CRH",H2052 ME_RNA (8364),"Common reference, CRH",H2052 ME_RNA (8364)
+,,,,,,,,-,GSM252640,HCC1359_RNA,"Common reference, CRH",HCC1359 (8146),"Common reference, CRH",HCC1359 (8146),,-,GSM252631,HCC1195_RNA,"Common reference, CRH",HCC1195 (8366),"Common reference, CRH",HCC1195 (8366)
+,,,,,,,,-,GSM252641,H2073_RNA,"Common reference, CRH",H2073 (8160),"Common reference, CRH",H2073 (8160),,-,GSM252632,HCC2450_RNA,"Common reference, CRH",HCC2450 (8367),"Common reference, CRH",HCC2450 (8367)
+,,,,,,,,-,GSM252642,H2009_RNA,"Common reference, CRH",H2009 (8153),"Common reference, CRH",H2009 (8153),,-,GSM252648,HCC461_RNA,"Common reference, CRH",HCC461 (8137),"Common reference, CRH",HCC461 (8137)
+,,,,,,,,-,GSM252643,H2347_RNA,"Common reference, CRH",H2347 (8126),"Common reference, CRH",H2347 (8126),,-,GSM252649,HCC44_RNA,"Common reference, CRH",HCC44 (8193),"Common reference, CRH",HCC44 (8193)
+,,,,,,,,-,GSM252644,H2087_RNA,"Common reference, CRH",H2087 (7076),"Common reference, CRH",H2087 (7076),,-,GSM252650,BEAS-2B _RNA,"Common reference, CRH",BEAS-2B  (8355),"Common reference, CRH",BEAS-2B  (8355)
+,,,,,,,,-,GSM252645,HCC1833_RNA,"Common reference, CRH",HCC1833 (8154),"Common reference, CRH",HCC1833 (8154),,,,,,,,
+,,,,,,,,-,GSM252646,H28 ME_RNA (8115),"Common reference, CRH",H28 ME_RNA,"Common reference, CRH",,,,,,,,,
+,,,,,,,,-,GSM252647,HCC95_RNA,"Common reference, CRH",HCC95 (8129),"Common reference, CRH",HCC95 (8129),,,,,,,,
+,,,,,,,,-,GSM252651,HCC193_RNA,"Common reference, CRH",HCC193 (8144),"Common reference, CRH",HCC193 (8144),,,,,,,,
+,,,,,,,,-,GSM252652,H1299_RNA,"Common reference, CRH",H1299 (8161),"Common reference, CRH",H1299 (8161),,,,,,,,
+,,,,,,,,-,GSM252653,H2122_RNA,"Common reference, CRH",H2122 (7078),"Common reference, CRH",H2122 (7078),,,,,,,,
+,,,,,,,,-,GSM252654,H2126_RNA,"Common reference, CRH",H2126 (8104),"Common reference, CRH",H2126 (8104),,,,,,,,
+,,,,,,,,-,GSM252655,H1395_RNA,"Common reference, CRH",H1395 (8150),"Common reference, CRH",H1395 (8150),,,,,,,,
+,,,,,,,,-,GSM252656,H2887_RNA,"Common reference, CRH",H2887 (8127),"Common reference, CRH",H2887 (8127),,,,,,,,
+,,,,,,,,-,GSM252657,H1155_RNA,"Common reference, CRH",H1155 (8124),"Common reference, CRH",H1155 (8124),,,,,,,,
+,,,,,,,,-,GSM252658,H2882_RNA,"Common reference, CRH",H2882 (8159),"Common reference, CRH",H2882 (8159),,,,,,,,
+,,,,,,,,-,GSM252659,HCC1171_RNA,"Common reference, CRH",HCC1171 (8122),"Common reference, CRH",HCC1171 (8122),,,,,,,,
+,,,,,,,,-,GSM252660,HCC366_RNA,"Common reference, CRH",HCC366 (8148),"Common reference, CRH",HCC366 (8148),,,,,,,,
+,,,,,,,,-,GSM252661,HCC515_RNA,"Common reference, CRH",HCC515 (8138),"Common reference, CRH",HCC515 (8138),,,,,,,,
+,,,,,,,,-,GSM252662,HCC78_RNA,"Common reference, CRH",HCC78 (8128),"Common reference, CRH",HCC78 (8128),,,,,,,,

@@ -1,0 +1,35 @@
+Accession: E-MTAB-1841
+Source list: alzheimer-screened
+Title: Transcription profiling of SH-SY5Y cells after treatment with soluble Abeta42_wt, Abeta42_G33A and Abeta40 for different timepoints
+Study type: transcription profiling by array
+Description: Although amyloid-beta42 (Abeta42) has long been implicated in the pathogenesis of Alzheimer disease (AD), the biological basis of its effects remains uncertain. Intraneuronal Abeta accumulation in brains of patients with AD or Down syndrome, in animal models, and in cultured cells has suggested an early pathophysiological role specific for intracellular Abeta40 and Abeta42. As a consequence of intraneuronal oligomerization, cell death can result from ER stress, endosomal/lysosomal leakage, and mitochondrial dysfunction. A possible nuclear role of intraneuronal Abeta has remained unexplored so far. We here study the role of intranuclear Abeta40 versus Abeta42 and Abeta42_G33A, and an untreated vehicle control in synchronized SH-SY5Y cells. RNA samples for microarray gene expression profiling were collected at t=0, 2, 6, 8 and 12 hours after incubation with Abeta40, Abeta42 and Abeta42_G33A peptides, respectively.'
+Sample count: 80
+Assay count: 80
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: compound_treatment_design, time_series_design, in_vitro_design, co-expression_design
+  Experimental Factors:
+    Experimental Factors: compound, time
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: Not found
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Cell line: SH-SY5Y
+      Cell type: neuroblastoma
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Compound: Abeta peptide 40, vehicle control, Abeta peptide 42, Abeta peptide 42_G33A
+      compound: Abeta peptide 42, Abeta peptide 42_G33A, Abeta peptide 40, vehicle control
+    Quality controls:
+      Quality Controls: technical replicate
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

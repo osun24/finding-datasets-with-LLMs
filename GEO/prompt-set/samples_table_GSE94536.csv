@@ -1,0 +1,12 @@
+# TITLE: Gene expression-signatures for non-small cell lung cancer patients with different ALK mutational status.
+# SUMMARY: To identify a plasma microRNA panel that could help to distinguish ALK positive with ALK negative NSCLC patients, plasma samples of 3 ALK-positive, 3 ALK-negative NSCLC, and 3 Healthy Subjects were selected for Agilent miRNA microarray analysis to detect differences in the expression levels of circulating miRNAs (n = 2568) between the above cohorts.
+GPL21576_Group,GPL21576_Accession,GPL21576_Title,GPL21576_Source name,GPL21576_Plasma,GPL21576_Age,GPL21576_Gender,GPL21576_Smoking history,GPL21576_Histology,GPL21576_Clinical stage,GPL21576_Alk mutational status
+-,GSM2477854,Patient 1 257015610720_S01_ALK-neg-1,primary lung cancer,primary lung cancer,41 years,Male,No,Adenocarcinoma,IV,ALK negative
+-,GSM2477855,Patient 2 257015610720_S01_ALK-neg-2,primary lung cancer,primary lung cancer,43 years,Female,No,Adenocarcinoma,IV,ALK negative
+-,GSM2477856,Patient 3 257015610720_S01_ALK-neg-3,primary lung cancer,primary lung cancer,52 years,Male,Yes,Adenocarcinoma,IIIB,ALK negative
+-,GSM2477857,Patient 4 257015610720_S01_ALK-pos-1,primary lung cancer,primary lung cancer,59 years,Male,Yes,Adenocarcinoma,IV,ALK positive
+-,GSM2477858,Patient 5 257015610720_S01_ALK-pos-2,primary lung cancer,primary lung cancer,37 years,Male,No,Adenocarcinoma,IV,ALK positive
+-,GSM2477859,Patient 6 257015610721_S01_ALK-pos-3,primary lung cancer,primary lung cancer,43 years,Female,No,Adenocarcinoma,IV,ALK positive
+-,GSM2477860,Patient 7 257015610721_S01_HS-1,healthy donor,healthy donor,63 years,Male,Yes,Not applicable,Not applicable,Not applicable
+-,GSM2477861,Patient 8 257015610721_S01_HS-2,healthy donor,healthy donor,62 years,Female,No,Not applicable,Not applicable,Not applicable
+-,GSM2477862,Patient 9 257015610721_S01_HS-3,healthy donor,healthy donor,64 years,Male,Yes,Not applicable,Not applicable,Not applicable

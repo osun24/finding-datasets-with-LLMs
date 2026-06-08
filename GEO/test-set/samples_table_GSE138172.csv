@@ -1,0 +1,13 @@
+# TITLE: LncRNA and mRNA expression in five paired lung tissues (lung cancer tissues versus nontumor tissues) from non-small cell lung cancer (NSCLC) patients
+# SUMMARY: To determine the LncRNA and mRNA expression profile in lung cancer tissues and matched nontumor tissues, we used LncRNA microarray analysis from Arraystar to examine the expression of LncRNAs and mRNAs in lung cancer tissues and matched nontumor tissues.
+GPL16956_Group,GPL16956_Accession,GPL16956_Title,GPL16956_Source name,GPL16956_Tissue,GPL16956_Disease state,GPL16956_Gender,GPL16956_Age,GPL16956_Patient id
+-,GSM4101214,Lung tissue_surgery_rep1-1,"Lung cancer tissues, rep1-1",Lung,non-small cell lung cancer (NSCLC),male,70,1
+-,GSM4101215,Lung tissue_surgery_rep1-2,"Matched nontumor tissues, rep1-2",Lung,matched non-tumor,male,70,1
+-,GSM4101216,Lung tissue_surgery_rep2-1,"Lung cancer tissues, rep2-1",Lung,non-small cell lung cancer (NSCLC),male,70,2
+-,GSM4101217,Lung tissue_surgery_rep2-2,"Matched nontumor tissues, rep2-2",Lung,matched non-tumor,male,70,2
+-,GSM4101218,Lung tissue_surgery_rep3-1,"Lung cancer tissues, rep3-1",Lung,non-small cell lung cancer (NSCLC),male,59,3
+-,GSM4101219,Lung tissue_surgery_rep3-2,"Matched nontumor tissues, rep3-2",Lung,matched non-tumor,male,59,3
+-,GSM4101220,Lung tissue_surgery_rep4-1,"Lung cancer tissues, rep4-1",Lung,non-small cell lung cancer (NSCLC),male,77,4
+-,GSM4101221,Lung tissue_surgery_rep4-2,"Matched nontumor tissues, rep4-2",Lung,matched non-tumor,male,77,4
+-,GSM4101222,Lung tissue_surgery_rep5-1,"Lung cancer tissues, rep5-1",Lung,non-small cell lung cancer (NSCLC),female,46,5
+-,GSM4101223,Lung tissue_surgery_rep5-2,"Matched nontumor tissues, rep5-2",Lung,matched non-tumor,female,46,5

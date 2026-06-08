@@ -1,0 +1,2616 @@
+{
+  "accno": "E-MEXP-2280",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of patients with four neurodegenerative disorders distinguishes tauopathies and identifies shared molecular pathways"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2010-01-14"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MEXP-2280"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MEXP-2280",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of patients with four neurodegenerative disorders distinguishes tauopathies and identifies shared molecular pathways"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "We have constructed genome wide expression profiles from snap frozen post-mortem tissue from the medial temporal lobe of patients with four neurodegenerative disorders (5 AD, 5 PSP, 5 PiD and 5 FTD patients) and 5 control subjects. All patients were matched for age, gender, ApoE-epsilon and MAPT (tau) haplotype. From all groups a total of 790 probes were shown to be differently expressed when compared to control individuals. The results from these experiments were then used to investigate the correlations between clinical, pathological and molecular findings. From the 790 identified probes we extracted a gene set of 166 probes whose expression could discriminate between these disorders and normal ageing. This gene set can be further developed into an accurate microarray-based classification test. Furthermore, from this dataset we extracted a disease specific set of genes and identified two aging related transcription factors (FOXO1A and FOXO3A) as possible drug targets related to neurodegenerative disease."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "gxa"
+            }
+          ],
+          "url": "E-MEXP-2280"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-4951",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-4951"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "MGED Ontology"
+                }
+              ],
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "RNA was isolated from 100 - 200 mg snap frozen brain material that had been stored at -80 ∞C. RNA was isolated in groups of four samples, to prevent degradation during the isolation procedure, using 2-4 ml RNA-Bee (Iso-Tex diagnostics Inc, Friendswood, Texas, USA) and purified using the RNeasy RNA cleanup kit (QIAGEN Benelux B.V., Venlo, The Netherlands) according to manufacturerís protocol. It was then quantified using a spectrophotometer and quality was assessed using an Agilent 6000 Nano bioanalyser chip (Agilent Technologies Netherlands B.V., Amstelveen, The Netherlands). RNA samples were only included when the ratio between 28s and 18s rRNA was higher than 0.5 and contributed to more than 15% of total mRNA. Ten µg of total RNA was transcribed into cDNA and subsequently into biotin labelled complement RNA (cRNA) using the Affymetrix one cycle target labelling kit (Affymetrix, Inc., Santa Clara, California, USA).<br>(Parameters: Extracted product = total_RNA, Amplification = none)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-4952",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-4952"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "MGED Ontology"
+                }
+              ],
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "All microarray data was normalised using GeneChip Operating Software (GCOS) 3.0 (Affymetrix, Inc., Santa Clara, California, USA). Only marginal (0.06<p<0.04) and present (p<0.04) probe sets, that were present in four of the five initial samples were used for subsequent permutation analysis using the statistical package Significance Analysis of Microarrays (SAM) in R (http://www.r-project.org).<br><br><br><br>For the cluster analysis (to correct for inter-experimental error between original and control datasets) all 790 probes obtained in the stringent analysis were standardised between the two experiments by dividing expression values of the 790 genes from the original dataset and the new dataset by the average expression ratio of the two datasets per probe in Microsoft excel (Microsoft Corporation, Redmond WA, USA). Since the second set of samples did not include controls, standardisation was only done using patient samples from the first dataset. Next, expression of independent genes (Expn) was transformed to fit between 1 and 0 using the minimal (Expmin) and maximal expression (Expmax) according to following formula: (Expn-Expmin/(Expmax-Expmin)), and hierarchical cluster analysis was done using Cluster3. <br><br>"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Iraad Bronner"
+          },
+          {
+            "name": "Email",
+            "value": "ibronner@mrc-lmb.cam.ac.uk"
+          },
+          {
+            "name": "Phone",
+            "value": "1223402038"
+          },
+          {
+            "name": "Role",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "MGED Ontology"
+              }
+            ],
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "VU University and VU University Medical Center"
+          },
+          {
+            "name": "Address",
+            "value": "Clinical Genetics, Van der Boechorststraat 7, Amsterdam, Noord Holland, 1081 BT, Netherlands"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "19714246",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Comprehensive mRNA expression profiling distinguishes tauopathies and identifies shared molecular pathways"
+          },
+          {
+            "name": "Authors",
+            "value": "Bronner IF, Bochdanovits Z, Rizzu P, Kamphorst W, Ravid R, van Swieten JC, Heutink P"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1371/journal.pone.0006826"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1371/journal.pone.0006826"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MEXP-2280",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "31"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "replicate_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "transcription profiling by array"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MEXP-2280",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "progressive supranuclear palsy"
+              },
+              {
+                "name": "Disease",
+                "value": "Pick disease"
+              },
+              {
+                "name": "Disease",
+                "value": "Alzheimer's disease"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB02.CEL\" OR \"050705MJA_U133_2.0_IB03.CEL\" OR \"050705MJA_U133_2.0_IB04.CEL\" OR \"050705MJA_U133_2.0_IB05.CEL\" OR \"050705MJA_U133_2.0_IB06.CEL\" OR \"051223MJA_U133_2.0_IB59.CEL\" OR \"051223MJA_U133_2.0_IB60.CEL\""
+                        }
+                      ],
+                      "value": "7"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB07.CEL\" OR \"050705MJA_U133_2.0_IB08.CEL\" OR \"050705MJA_U133_2.0_IB09.CEL\" OR \"050705MJA_U133_2.0_IB10.CEL\" OR \"050705MJA_U133_2.0_IB11.CEL\""
+                        }
+                      ],
+                      "value": "5"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB17.CEL\" OR \"050511MJA_U133_2.0_IB18.CEL\" OR \"050511MJA_U133_2.0_IB19.CEL\" OR \"050511MJA_U133_2.0_IB20.CEL\" OR \"050511MJA_U133_2.0_IB21.CEL\" OR \"050511MJA_U133_2.0_IB22.CEL\" OR \"050511MJA_U133_2.0_IB23.CEL\" OR \"050511MJA_U133_2.0_IB24.CEL\" OR \"050511MJA_U133_2.0_IB25.CEL\" OR \"050511MJA_U133_2.0_IB26.CEL\" OR \"051223MJA_U133_2.0_IB62.CEL\" OR \"051223MJA_U133_2.0_IB63.CEL\""
+                        }
+                      ],
+                      "value": "12"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "progressive supranuclear palsy"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB27.CEL\" OR \"050512MJA_U133_2.0_IB28.CEL\" OR \"050512MJA_U133_2.0_IB29.CEL\" OR \"050512MJA_U133_2.0_IB30.CEL\" OR \"050512MJA_U133_2.0_IB31.CEL\" OR \"051223MJA_U133_2.0_IB55.CEL\" OR \"051223MJA_U133_2.0_IB64.CEL\""
+                        }
+                      ],
+                      "value": "7"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MEXP-2280",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Developmental stage",
+                "value": "adult"
+              },
+              {
+                "name": "Organism part",
+                "value": "medial temporal lobe"
+              },
+              {
+                "name": "Age",
+                "value": "78 year"
+              },
+              {
+                "name": "Age",
+                "value": "68 year"
+              },
+              {
+                "name": "Age",
+                "value": "80 year"
+              },
+              {
+                "name": "Age",
+                "value": "93 year"
+              },
+              {
+                "name": "Age",
+                "value": "82 year"
+              },
+              {
+                "name": "Age",
+                "value": "61 year"
+              },
+              {
+                "name": "Age",
+                "value": "57 year"
+              },
+              {
+                "name": "Age",
+                "value": "75 year"
+              },
+              {
+                "name": "Age",
+                "value": "73 year"
+              },
+              {
+                "name": "Age",
+                "value": "83 year"
+              },
+              {
+                "name": "Age",
+                "value": "72 year"
+              },
+              {
+                "name": "Age",
+                "value": "64 year"
+              },
+              {
+                "name": "Age",
+                "value": "77 year"
+              },
+              {
+                "name": "Age",
+                "value": "70 year"
+              },
+              {
+                "name": "Age",
+                "value": "74 year"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 5:30"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 5:15"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 3:25"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 3:45"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 3:35"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 5:48"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 7:55"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 4:40"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 4:20"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 4:15"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 5:00"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 5:10"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 7:40"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 8:10"
+              },
+              {
+                "name": "Clinical information",
+                "value": "post mortem delay 6:45"
+              },
+              {
+                "name": "Clinical information",
+                "value": "... 6 other values"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype: 32; MAPT haplotype: H1/H1"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype: 33; MAPT haplotype: H1/H2"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype:33; MAPT haplotype: H1/H2"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype: 44; MAPT haplotype: H1/H2"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype:43; MAPT haplotype: H1/H1"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype: 42; MAPT haplotype: H1/H1"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype:43; MAPT haplotype: H2/H2"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype: 44; MAPT haplotype: H1/H1"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+              },
+              {
+                "name": "Genotype",
+                "value": "APOE haplotype: 43; MAPT haplotype: H1/H2"
+              },
+              {
+                "name": "Disease",
+                "value": "progressive supranuclear palsy"
+              },
+              {
+                "name": "Disease",
+                "value": "Pick disease"
+              },
+              {
+                "name": "Disease",
+                "value": "Alzheimer's disease"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Disease staging",
+                "value": "braak stage 2"
+              },
+              {
+                "name": "Disease staging",
+                "value": "braak stage 0"
+              },
+              {
+                "name": "Disease staging",
+                "value": "constantinides type A"
+              },
+              {
+                "name": "Disease staging",
+                "value": "braak stage 1"
+              },
+              {
+                "name": "Disease staging",
+                "value": "braak stage 6"
+              },
+              {
+                "name": "Disease staging",
+                "value": "constantinides type C1"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 15 years; Cause of death: dehydration"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 2 years; Cause of death: euthanasia"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 7 years; Cause of death: pulmonary arrest"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 3 years; Cause of death: pneumonia / cachexia"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Cause of death: heart failure"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 4 years; Cause of death: complications secondary to a cerebro vasculair accident"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 7 years; Cause of death: unknown"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 7 years; Cause of death: dehydration and vascular insufficiency"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 11 years; Cause of death: pneumonia in a dehydrated and cachexic patient"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 10 years; Cause of death: cachexia following swallowing disturbances"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 15 years; Cause of death: aspiration pneumonia"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 3 years; Cause of death: cachexia and dehydration"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 13 years; Cause of death: cachexia and dehydration"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Disease duration: 4 years; Cause of death: septic with a urinary infection"
+              },
+              {
+                "name": "Clinical history",
+                "value": "Cause of death: myocardial infarction"
+              },
+              {
+                "name": "Clinical history",
+                "value": "... 15 other values"
+              },
+              {
+                "name": "Individual",
+                "value": "00-044"
+              },
+              {
+                "name": "Individual",
+                "value": "01-091"
+              },
+              {
+                "name": "Individual",
+                "value": "00-099"
+              },
+              {
+                "name": "Individual",
+                "value": "... 28 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "80 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:20"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 44; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 6"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: more than 7 years; Cause of death: general deterioration"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB02.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:00"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype:43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 6"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 10 years; Cause of death: cachexia following swallowing disturbances"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB03.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "78 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 3:35"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 6"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 7 years; Cause of death: unknown"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB04.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "72 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 3:45"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 6"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 15 years; Cause of death: dehydration"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB05.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "80 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 4:20"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype:43; MAPT haplotype: H2/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 6"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 7 years; Cause of death: dehydration and vascular insufficiency"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB06.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "82 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 3:25"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype:43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 6"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 13 years; Cause of death: cachexia and dehydration"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"051223MJA_U133_2.0_IB59.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 4:15"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 44; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimer's disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 6"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 8 years; Cause of death: aspiration pneumonia"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"051223MJA_U133_2.0_IB60.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "82 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:30"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 32; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Cause of death: myocardial infarction"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB07.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "72 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 6:45"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 0"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Cause of death: heart failure"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB08.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "78 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 4:50"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Cause of death: myocardial infarction"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB09.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "78 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 4:20"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 0"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Cause of death: pancreatic cancer"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB10.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "82 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 7:40"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype:33; MAPT haplotype: H1/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Cause of death: heart attack"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050705MJA_U133_2.0_IB11.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "78 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:00"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type C1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 12 years; Cause of death: sepsis, due to an urinary tract infection, and cachexia"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB17.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:10"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type C1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 3 years; Cause of death: respiratory insufficience"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB18.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "72 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 3:55"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type C1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 8 years; Cause of death: cachexia and dehydration"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB19.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "74 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:10"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type C1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 14 years; Cause of death: infection of lungs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB20.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "74 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 3:45"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type C1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 11 years; Cause of death: pneumonia in a dehydrated and cachexic patient"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB21.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "77 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:20"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type A"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 4 years; Cause of death: complications secondary to a cerebro vasculair accident"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB22.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "83 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:10"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type A"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 16 years; Cause of death: acute cardiac arrest"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB23.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 4:40"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type A"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 6 years; Cause of death: myocardial infarction"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB24.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:15"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type A"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 15 years; Cause of death: aspiration pneumonia"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB25.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "64 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 7:55"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type A"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 6 years; Cause of death: bleeding of the stomach"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB26.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 6:15"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 44; MAPT haplotype: H1/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type A"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 8 years; Cause of death: lungdisorder with fever for 4 weeks"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"051223MJA_U133_2.0_IB62.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "75 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:30"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H2"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Pick disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "constantinides type C1"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 12 years; Cause of death: bronchopneumonia"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"051223MJA_U133_2.0_IB63.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 8:55"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 42; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "progressive supranuclear palsy"
+                    },
+                    {
+                      "name": "disease staging"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 2 years; Cause of death: euthanasia"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050511MJA_U133_2.0_IB27.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:43"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "progressive supranuclear palsy"
+                    },
+                    {
+                      "name": "disease staging"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 6 years; Cause of death: pneumonia and cachexia by PSP"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050512MJA_U133_2.0_IB28.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "72 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:48"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "progressive supranuclear palsy"
+                    },
+                    {
+                      "name": "disease staging"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 9 years; Cause of death: dehydration and respiratory insufficiency"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050512MJA_U133_2.0_IB29.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "93 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 4:15"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "progressive supranuclear palsy"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "braak stage 2"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 3 years; Cause of death: cachexia and dehydration"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050512MJA_U133_2.0_IB30.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "72 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:20"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "progressive supranuclear palsy"
+                    },
+                    {
+                      "name": "disease staging"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 7 years; Cause of death: pulmonary arrest"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"050512MJA_U133_2.0_IB31.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "57 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 8:10"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 33; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "progressive supranuclear palsy"
+                    },
+                    {
+                      "name": "disease staging"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 4 years; Cause of death: septic with a urinary infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"051223MJA_U133_2.0_IB55.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "clinical information",
+                      "value": "post mortem delay 5:20"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "genotype",
+                      "value": "APOE haplotype: 43; MAPT haplotype: H1/H1"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "progressive supranuclear palsy"
+                    },
+                    {
+                      "name": "disease staging"
+                    },
+                    {
+                      "name": "clinical history",
+                      "value": "Disease duration: 3 years; Cause of death: pneumonia / cachexia"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"051223MJA_U133_2.0_IB64.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MEXP-2280",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB32"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB02.CEL",
+                  "size": 13550478,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB33"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB03.CEL",
+                  "size": 13551895,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB34"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB04.CEL",
+                  "size": 13550495,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB35"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB05.CEL",
+                  "size": 13552263,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB36"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB06.CEL",
+                  "size": 13551059,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB59"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "051223MJA_U133_2.0_IB59.CEL",
+                  "size": 13550508,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB60"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "051223MJA_U133_2.0_IB60.CEL",
+                  "size": 13550468,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB37"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB07.CEL",
+                  "size": 13550343,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB38"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB08.CEL",
+                  "size": 13550971,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB39"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB09.CEL",
+                  "size": 13550671,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB40"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB10.CEL",
+                  "size": 13550675,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB41"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050705MJA_U133_2.0_IB11.CEL",
+                  "size": 13550511,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB17"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB17.CEL",
+                  "size": 13550940,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB18"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB18.CEL",
+                  "size": 13552084,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB19"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB19.CEL",
+                  "size": 13553672,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB20"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB20.CEL",
+                  "size": 13552180,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB21"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB21.CEL",
+                  "size": 13565444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB22"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB22.CEL",
+                  "size": 13553128,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB23"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB23.CEL",
+                  "size": 13550700,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB24"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB24.CEL",
+                  "size": 13551196,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB25"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB25.CEL",
+                  "size": 13551628,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB26"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB26.CEL",
+                  "size": 13551636,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB62"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "051223MJA_U133_2.0_IB62.CEL",
+                  "size": 13550444,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB63"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "051223MJA_U133_2.0_IB63.CEL",
+                  "size": 13550392,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB27"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050511MJA_U133_2.0_IB27.CEL",
+                  "size": 13554596,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB28"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050512MJA_U133_2.0_IB28.CEL",
+                  "size": 13551000,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB29"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050512MJA_U133_2.0_IB29.CEL",
+                  "size": 13550700,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB30"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050512MJA_U133_2.0_IB30.CEL",
+                  "size": 13550868,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB31"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "050512MJA_U133_2.0_IB31.CEL",
+                  "size": 13550376,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB55"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "051223MJA_U133_2.0_IB55.CEL",
+                  "size": 13550584,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "IB64"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "051223MJA_U133_2.0_IB64.CEL",
+                  "size": 13550480,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MEXP-2280",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MEXP-2280.idf.txt",
+                  "size": 5274,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MEXP-2280.sdrf.txt",
+                  "size": 22192,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MEXP-2280",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-44"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MEXP-2280",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

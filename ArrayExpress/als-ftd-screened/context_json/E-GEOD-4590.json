@@ -1,0 +1,46 @@
+{
+  "Accession": "E-GEOD-4590",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "20"
+    ]
+  },
+  "Description": "Cells from four develppmental stages were purified by FACS from human bone marrow samples Experiment Overall Design: Cells were sorted as follows: PB1: CD34+VpreB+ PB2: VpreB-CD34+ LAR: kappa/lambda-VpreB-large SMA: kappa/lambda-VpreB-small. All cells were CD19+",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "unknown_experiment_design_type",
+        "transcription profiling by array"
+      ]
+    },
+    "Experimental Factors": {},
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcription profiling of human B cells at four cconsecutive stages of B cell development"
+}

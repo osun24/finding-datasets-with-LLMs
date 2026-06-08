@@ -1,0 +1,32 @@
+# TITLE: Gene expression data from lung tumor biopsie
+# SUMMARY: We analyzed the differences in the genetic expression of adenocarcinoma subtypes according to the new WHO 2015 classification.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Subtype,GPL6244_Disease state
+-,GSM2319046,ACN_CaP_1 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319047,ACN_CaP_2 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319048,ACN_CaP_3_2 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319049,ACN_CaP_6_2 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319050,ACN_CaP_7 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319051,ACN_CaP_11 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319052,ACN_CaP_12 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319053,ACN_CaP_13 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319054,ACN_CaP_15 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319055,ACN_CaP_17 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319056,ACN_CaP_18 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319057,ACN_CaP_20 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319058,ACN_CaP_21 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319059,ACN_CaP_24 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319060,ACN_CaP_25 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319061,ACN_CaP_27 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319062,ACN_CaP_29 acinar,Lung tumor with acinar adenocarcinoma,acinar,Adenocarsinoma
+-,GSM2319063,LEP_CaP_4 lepidic,Lung tumor with lepidic adenocarcinoma,lepidic,Adenocarsinoma
+-,GSM2319064,LEP_CaP_8 lepidic,Lung tumor with lepidic adenocarcinoma,lepidic,Adenocarsinoma
+-,GSM2319065,LEP_CaP_9 lepidic,Lung tumor with lepidic adenocarcinoma,lepidic,Adenocarsinoma
+-,GSM2319066,PAP_CaP_16 papilar,Lung tumor with papilar adenocarcinoma,papilar,Adenocarsinoma
+-,GSM2319067,PAP_CaP_22 papilar,Lung tumor with papilar adenocarcinoma,papilar,Adenocarsinoma
+-,GSM2319068,SOL_CaP_5 solid,Lung tumor with solid adenocarcinoma,solid,Adenocarsinoma
+-,GSM2319069,SOL_CaP_10 solid,Lung tumor with solid adenocarcinoma,solid,Adenocarsinoma
+-,GSM2319070,SOL_CaP_14 solid,Lung tumor with solid adenocarcinoma,solid,Adenocarsinoma
+-,GSM2319071,SOL_CaP_19 solid,Lung tumor with solid adenocarcinoma,solid,Adenocarsinoma
+-,GSM2319072,SOL_CaP_23 solid,Lung tumor with solid adenocarcinoma,solid,Adenocarsinoma
+-,GSM2319073,SOL_CaP_26 solid,Lung tumor with solid adenocarcinoma,solid,Adenocarsinoma
+-,GSM2319074,SOL_CaP_28 solid,Lung tumor with solid adenocarcinoma,solid,Adenocarsinoma

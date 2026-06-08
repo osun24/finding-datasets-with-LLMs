@@ -1,0 +1,27 @@
+# TITLE: Transcriptional profiling of HCC515 lung cells with dox-inducible KEAP1 knockdown and/or STK11 re-addition, under different metabolic tstress conditions
+# SUMMARY: HCC515 lung cells with dox-inducible KEAP1 knockdown and/or STK11 re-addition, under two different metabolic stress conditions, baseline vs. suspension, were transcriptionally profiled to investigate whether KEAP1 knockdown can rescue metabolic defects in STK11-null cancer cells and how the regulation of the transcriptome by KEAP1 knockdown is affected by STK11 status and different metabolic stress conditions. In lung adenocarcinoma (LUAD), stabilization of the transcription factor NRF2 through genomic alterations in KEAP1 and NFE2L2 occurs in roughly a quarter of patients, often in the context of STK11 tumor suppressor loss. In this study, we demonstrate that NRF2 activation in the context of concurrent KRAS mutation and STK11 loss promotes aggressive LUAD tumor behavior in both human and mouse preclinical models. This phenotype is associated with metabolic rewiring and rescue by NRF2 of redox stress, high in STK11 null tumors. Applying a novel, pan-lung cancer, diagnostic NRF2 activation gene expression signature that is independent of frequently co-occurring mutations, we dissect the independent contributions of the three most frequent genetic events in human LUAD (NRF2 activation, STK11 loss and KRAS mutations) on patient prognosis and clinical responses in a dataset of second-line LUAD patients treated with immunotherapy or chemotherapy (OAK trial). Our findings underscore that both individual effects and epistatic relationships among oncogenic and tumor suppressor pathways influence tumor biology, immune contexture and patient clinical outcomes. Our work also highlights the value of lung cancer disease sub-classification based on genetic and expression profiling as part of patient clinical management.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue
+-,GSM3923239,HCC515_minusdoxLUCsh_baseline_rep2,HCC515 KEAP1-wt LKB1-mut baseline,Lung
+-,GSM3923240,HCC515_minusdoxLUCsh_baseline_rep1,HCC515 KEAP1-wt LKB1-mut baseline,Lung
+-,GSM3923241,HCC515_minusdoxKEAP1shminus1_baseline_rep2,HCC515 KEAP1-wt LKB1-mut baseline,Lung
+-,GSM3923242,HCC515_minusdoxKEAP1shminus1_baseline_rep1,HCC515 KEAP1-wt LKB1-mut baseline,Lung
+-,GSM3923243,HCC515_plusdoxLUCsh_baseline_rep1,HCC515 KEAP1-wt LKB1-mut baseline,Lung
+-,GSM3923244,HCC515_plusdoxLUCsh_baseline_rep2,HCC515 KEAP1-wt LKB1-mut baseline,Lung
+-,GSM3923245,HCC515_plusdoxKEAP1shminus1_baseline_rep1,HCC515 KEAP1-mut LKB1-mut baseline,Lung
+-,GSM3923246,HCC515_plusdoxKEAP1shminus1_baseline_rep2,HCC515 KEAP1-mut LKB1-mut baseline,Lung
+-,GSM3923247,HCC515_plusdoxLKB1plusLUCsh_baseline_rep1,HCC515 KEAP1-wt LKB1-wt baseline,Lung
+-,GSM3923248,HCC515_plusdoxLKB1plusLUCsh_baseline_rep2,HCC515 KEAP1-wt LKB1-wt baseline,Lung
+-,GSM3923249,HCC515_plusdoxLKB1plusKEAP1shminus1_baseline_rep2,HCC515 KEAP1-mut LKB1-wt baseline,Lung
+-,GSM3923250,HCC515_plusdoxLKB1plusKEAP1shminus1_baseline_rep1,HCC515 KEAP1-mut LKB1-wt baseline,Lung
+-,GSM3923251,HCC515_minusdoxLUCsh_suspension_rep1,HCC515 KEAP1-wt LKB1-mut suspension,Lung
+-,GSM3923252,HCC515_minusdoxLUCsh_suspension_rep2,HCC515 KEAP1-wt LKB1-mut suspension,Lung
+-,GSM3923253,HCC515_minusdoxKEAP1shminus1_suspension_rep2,HCC515 KEAP1-wt LKB1-mut suspension,Lung
+-,GSM3923254,HCC515_minusdoxKEAP1shminus1_suspension_rep1,HCC515 KEAP1-wt LKB1-mut suspension,Lung
+-,GSM3923255,HCC515_plusdoxLUCsh_suspension_rep2,HCC515 KEAP1-wt LKB1-mut suspension,Lung
+-,GSM3923256,HCC515_plusdoxLUCsh_suspension_rep1,HCC515 KEAP1-wt LKB1-mut suspension,Lung
+-,GSM3923257,HCC515_plusdoxKEAP1shminus1_suspension_rep2,HCC515 KEAP1-mut LKB1-mut suspension,Lung
+-,GSM3923258,HCC515_plusdoxKEAP1shminus1_suspension_rep1,HCC515 KEAP1-mut LKB1-mut suspension,Lung
+-,GSM3923259,HCC515_plusdoxLKB1plusLUCsh_suspension_rep1,HCC515 KEAP1-wt LKB1-wt suspension,Lung
+-,GSM3923260,HCC515_plusdoxLKB1plusLUCsh_suspension_rep2,HCC515 KEAP1-wt LKB1-wt suspension,Lung
+-,GSM3923261,HCC515_plusdoxLKB1plusKEAP1shminus1_suspension_rep1,HCC515 KEAP1-mut LKB1-wt suspension,Lung
+-,GSM3923262,HCC515_plusdoxLKB1plusKEAP1shminus1_suspension_rep2,HCC515 KEAP1-mut LKB1-wt suspension,Lung

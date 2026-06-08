@@ -1,0 +1,27 @@
+# TITLE: Reversal of Aberrant Cancer Methylome and Transcriptome upon Direct Reprogramming of Lung Cancer Cells [Expression]
+# SUMMARY: Non-small cell lung cancer cell (NSCLC) lines were reprogrammed with Yamanaka's cocktail and their methylome and transcriptome were studied and characterized.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell type,GPL10558_Cell line,GPL10558_Gender
+-,GSM877283,H1P99A,human ESC,human embyronic stem cell line,H1 p99,male
+-,GSM877284,iPSIMR90Col10,Induced Pluripotent Stem Cell,Induced Pluripotent stem cell,iPSIMR90Col10,female
+-,GSM877285,IMR90P6A,Human Fetal Lung Fibroblast,fetal lung fibroblast,IMR90 P6,female
+-,GSM877286,iPCH358Col3,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH358 Col3,male
+-,GSM877287,IMR90P5,Human Fetal Lung Fibroblast,fetal lung fibroblast,IMR90 P6,female
+-,GSM877288,iPCH358Col1,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH358 Col1,male
+-,GSM877289,H358P13A,Lung Adenocarcinoma Cell Line,lung adenocarcinoma,H358 P13,male
+-,GSM877290,iPCH460Col12,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH460 Col12,male
+-,GSM877291,H460P22A,Lung Large Cell Carcinoma,lung large cell carcinoma,H460 p22,male
+-,GSM877292,piPCH358Col11,Differentiated Induced Pluripotent Cancer Cell,post induced pluripotent cancer cell,post-iPCH358Col11,male
+-,GSM877293,H460P21,Lung Large Cell Carcinoma,lung large cell carcinoma,H460 p21,male
+-,GSM877294,piPCH358Col1,Differentiated Induced Pluripotent Cancer Cell,post induced pluripotent cancer cell,post-iPCH358Col1,male
+-,GSM877295,H1P99B,human ESC,human embyronic stem cell line,H1 p99,male
+-,GSM877296,iPSIMR90Col1,Induced Pluripotent Stem Cell,Induced Pluripotent stem cell,iPSIMR90Col1,female
+-,GSM877297,H1P99C,human ESC,human embyronic stem cell line,H1 p99,male
+-,GSM877298,iPSIMR90Col9,Induced Pluripotent Stem Cell,Induced Pluripotent stem cell,iPSIMR90Col9,female
+-,GSM877299,IMR90P6B,Human Fetal Lung Fibroblast,fetal lung fibroblast,IMR90 P6,female
+-,GSM877300,iPCH358Col11,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH358 Col11,male
+-,GSM877301,H358P14,Lung Adenocarcinoma Cell Line,lung adenocarcinoma,H358 P14,male
+-,GSM877302,iPCH460Col5,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH460 Col5,male
+-,GSM877303,H358P13B,Lung Adenocarcinoma Cell Line,lung adenocarcinoma,H358 P13,male
+-,GSM877304,iPCH460Col9,Induced Pluripotent Cancer Cell,induced pluripotent cancer cell,iPCH460 Col9,male
+-,GSM877305,H460P22B,Lung Large Cell Carcinoma,lung large cell carcinoma,H460 p22,male
+-,GSM877306,piPCH358Col3,Differentiated Induced Pluripotent Cancer Cell,post induced pluripotent cancer cell,post-iPCH358Col3,male

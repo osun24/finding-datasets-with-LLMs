@@ -1,0 +1,101 @@
+# TITLE: Molecular classification of histological origin of NSCLC
+# SUMMARY: Lung cancer is one of the most common malignant tumors in the world. The latest edition of WHO classifies lung cancer on the basis of histological morphology and molecular typing, which is a relatively complete pathological classification of lung cancer at present. However, in clinical practice, it is difficult to make accurate subtype classification of NSCLC only by using morphological structure and immunohistochemical characteristics, and the degree of coincidence with gene mutation and clinicopathological parameters is poor, which has limited guiding effect on clinical diagnosis and treatment. In this study, we proposed Molecular Pathological Classification Model of NSCLC Tissue Origin.
+GPL23126_Group,GPL23126_Accession,GPL23126_Title,GPL23126_Source name,GPL23126_Tissue
+-,GSM5140954,A21_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140955,A21_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140956,A23_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140957,A23_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140958,A25_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140959,A25_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140960,A27_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140961,A27_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140962,A29_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140963,A29_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140964,A31_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140965,A31_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140966,A33_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140967,A33_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140968,A35_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140969,A35_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140970,A37_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140971,A37_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140972,A39_N,normal terminal bronchiolar epithelium,normal terminal bronchiolar epithelium
+-,GSM5140973,A39_T,Bronchoalveolar carcinoma,Bronchoalveolar carcinoma
+-,GSM5140974,B21_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140975,B21_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140976,B23_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140977,B23_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140978,B25_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140979,B25_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140980,B27_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140981,B27_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140982,B29_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140983,B29_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140984,B31_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140985,B31_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140986,B33_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140987,B33_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140988,B35_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140989,B35_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140990,B37_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140991,B37_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140992,B39_N,normal alveolar epithelial,normal alveolar epithelial
+-,GSM5140993,B39_T,Alveolar epithelial carcinoma,Alveolar epithelial carcinoma
+-,GSM5140994,C16_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5140995,C16_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5140996,C21_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5140997,C21_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5140998,C23_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5140999,C23_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5141000,C25_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5141001,C25_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5141002,C27_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5141003,C27_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5141004,C29_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5141005,C29_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5141006,C33_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5141007,C33_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5141008,C35_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5141009,C35_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5141010,C37_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5141011,C37_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5141012,C39_N,normal bronchial epithelial,normal bronchial epithelial
+-,GSM5141013,C39_T,Bronchial epithelial carcinoma,Bronchial epithelial carcinoma
+-,GSM5141014,D29_N,normal secretory gland cells,normal secretory gland cells
+-,GSM5141015,D29_T,secretory adenocarcinoma,secretory adenocarcinoma
+-,GSM5141016,D31_N,normal secretory gland cells,normal secretory gland cells
+-,GSM5141017,D31_T,secretory adenocarcinoma,secretory adenocarcinoma
+-,GSM5141018,D33_N,normal secretory gland cells,normal secretory gland cells
+-,GSM5141019,D33_T,secretory adenocarcinoma,secretory adenocarcinoma
+-,GSM5141020,D35_N,normal secretory gland cells,normal secretory gland cells
+-,GSM5141021,D35_T,secretory adenocarcinoma,secretory adenocarcinoma
+-,GSM5141022,D39_N,normal secretory gland cells,normal secretory gland cells
+-,GSM5141023,D39_T,secretory adenocarcinoma,secretory adenocarcinoma
+-,GSM5141024,D41_N,normal secretory gland cells,normal secretory gland cells
+-,GSM5141025,D41_T,secretory adenocarcinoma,secretory adenocarcinoma
+-,GSM5141026,D43_N,normal secretory gland cells,normal secretory gland cells
+-,GSM5141027,D43_T,secretory adenocarcinoma,secretory adenocarcinoma
+-,GSM5141028,D45_N,normal secretory gland cells,normal secretory gland cells
+-,GSM5141029,D45_T,secretory adenocarcinoma,secretory adenocarcinoma
+-,GSM5141030,E21_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141031,E21_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141032,E23_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141033,E23_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141034,E24_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141035,E24_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141036,E25_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141037,E25_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141038,E26_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141039,E26_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141040,E28_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141041,E28_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141042,E30_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141043,E30_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141044,E41_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141045,E41_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141046,E43_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141047,E43_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141048,E45_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141049,E45_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma
+-,GSM5141050,E47_N,normal mucinous adenocarcinoma,normal mucinous adenocarcinoma
+-,GSM5141051,E47_T,Mucinous adenocarcinoma,Mucinous adenocarcinoma

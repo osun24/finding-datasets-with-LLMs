@@ -1,0 +1,5 @@
+# TITLE: Gene expression profiles of naïve PC-9 cells and PC-9GR cells that are resistant to gefitinib.
+# SUMMARY: We investigated gene expression profiles of gefitinib-resistant PC-9 (PC-9GR) cells as well as naïve PC-9 cells. The data exhibited marked differences in the expression profiles between them.
+GPL16699_Group,GPL16699_Accession,GPL16699_Title,GPL16699_Source name,GPL16699_Cell line,GPL16699_Cell type,GPL16699_Phenotype
+-,GSM1857432,PC-9,PC-9,PC-9,non-small cell lung cancer,Gefitinib sensitive
+-,GSM1857433,PC-9GR,PC-9GR,PC-9,non-small cell lung cancer,Gefitinib resistant

@@ -1,0 +1,2 @@
+Title: Proteomics of SKOV3 treated with PBS/PL
+Description: SKOV3 cells were treated with 0.5mM Pyridoxal or PBS for 48h

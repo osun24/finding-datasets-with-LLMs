@@ -1,0 +1,35 @@
+Accession: E-MTAB-7852
+Source list: alzheimer-screened
+Title: Cultures of hiPS cells and their differentiation into neuronal cells
+Study type: transcription profiling by array
+Description: In order to identify endogenous factors that modulate Aβ production, we performed a transcriptome analysis on neuronal cells derived from human induced pluripotent stem cells (hiPS) because these cells changed the Aβ production during neuronal differentiation. When the expression of APP and the ratio Aβ42/40 of the secreted proteins were measured at days 38, 45, and 52 during differentiation, both APP expression and the secretion of Aβ40 and Aβ42 at days 45 and 52 were significantly increased compared to those at day 38. Furthermore, the ratio of Aβ42/40 was dramatically reduced at days 45 and 52 compared to that at day 38. We hypothesized that transcriptional changes during the differentiation into neuronal cells may affect APP production and/or processing. To test this hypothesis, we performed microarray analyses using three independent neuronal cell cultures that were differentiated from each of three hiPS cells, namely 201B7, 253G4, and AD4F-1 (nine cell lines in total). Total RNA was prepared at three differentiation time points (days 38, 45, and 52) and subjected to an Affymetrix Gene Chip Human Exon 1.0 ST array. Compare between samples from 38-day cultures and samples from 45- and 52-day cultures.
+Sample count: 27
+Assay count: 27
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: disease state design, development or differentiation design
+  Experimental Factors:
+    Experimental Factors: time, disease, cell line
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: normal, Alzheimer disease
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Cell line: 201B7, 253G4, AD4F-1
+      cell line: AD4F-1, 201B7, 253G4
+      Cell type: induced pluripotent stem cell
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

@@ -1,0 +1,9 @@
+# TITLE: Re-activating pRB via PD 0332991 treatment in NSCLC H1299 Cells
+# SUMMARY: CDk4/6 inhibitor activates RB and represses RB/E2F target genes
+GPL17586_Group,GPL17586_Accession,GPL17586_Title,GPL17586_Source name,GPL17586_Cell line,GPL17586_Treatment
+-,GSM2342200,H1299  DMSO 1,H1299 cell line,H1299,DMSO
+-,GSM2342201,H1299  DMSO 2,H1299 cell line,H1299,DMSO
+-,GSM2342202,H1299  DMSO 3,H1299 cell line,H1299,DMSO
+-,GSM2342203,H1299  PD 1,H1299 cell line,H1299,DMSO containing  PD 0332991 ( 500 nM)
+-,GSM2342204,H1299  PD 2,H1299 cell line,H1299,DMSO containing  PD 0332991 ( 500 nM)
+-,GSM2342205,H1299  PD 3,H1299 cell line,H1299,DMSO containing  PD 0332991 ( 500 nM)

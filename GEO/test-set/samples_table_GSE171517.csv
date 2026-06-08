@@ -1,0 +1,15 @@
+# TITLE: Circulating miRNAs in serum as biomarkers for early diagnosis of non-small cell lung cancer
+# SUMMARY: The aim of this study was to explore novel miRNA biomarkers in the serum of lung cancer patients based on miRNA profiling. A miRCURY™ LNA Array was used to identify differentially altered miRNAs in the serum of lung cancer patients (n = 6) and healthy controls (n = 6). Total RNA was isolated using TRI reagent BD (MRCgene, TB-126) according to manufacturer’s instructions. After having passed RNA quantity measurement using the NanoDrop 1000, the samples were labeled using the miRCURY™ Hy3™/Hy5™ Power labeling kit and hybridized on the miRCURY™ LNA Array (v.18.0). Following the washing steps the slides were scanned using the Axon GenePix 4000B microarray scanner.Scanned images were then imported into GenePix Pro 6.0 software (Axon) for grid alignment and data extraction. Replicated miRNAs were averaged and miRNAs that intensities>=30 in all samples were chosen for calculating normalization factor. Expressed data were normalized using the Median normalization. After normalization, significant differentially expressed miRNAs were identified through Volcano Plot filtering. Finally, hierarchical clustering was performed to show distinguishable miRNA expression profiling among samples.
+GPL18058_Group,GPL18058_Accession,GPL18058_Title,GPL18058_Source name,GPL18058_Sample type,GPL18058_Pathology,GPL18058_Tnm,GPL18058_Stage,GPL18058_Disease state
+-,GSM5226511,LC_Serum_Exp1,"Serum, Lung Cancer Patient, Experimental Group, 01",Serum,SCC,T2aN0M0,IB,lung cancer
+-,GSM5226512,LC_Serum_Exp2,"Serum, Lung Cancer Patient, Experimental Group, 02",Serum,SCC,T2aN0M0,IB,lung cancer
+-,GSM5226513,LC_Serum_Exp3,"Serum, Lung Cancer Patient, Experimental Group, 03",Serum,SCC,T3N0M0,IIB,lung cancer
+-,GSM5226514,LC_Serum_Exp4,"Serum, Lung Cancer Patient, Experimental Group, 04",Serum,AD,T1aN0M0,IA,lung cancer
+-,GSM5226515,LC_Serum_Exp5,"Serum, Lung Cancer Patient, Experimental Group, 05",Serum,AD,T1bN0M0,IA,lung cancer
+-,GSM5226516,LC_Serum_Exp6,"Serum, Lung Cancer Patient, Experimental Group, 06",Serum,AD,T2aN0M0,IB,lung cancer
+-,GSM5226517,HP_Serum_Con1,"Serum, Healthy People, Control Group, 01",Serum,-,-,-,healthy
+-,GSM5226518,HP_Serum_Con2,"Serum, Healthy People, Control Group, 02",Serum,-,-,-,healthy
+-,GSM5226519,HP_Serum_Con3,"Serum, Healthy People, Control Group, 03",Serum,-,-,-,healthy
+-,GSM5226520,HP_Serum_Con4,"Serum, Healthy People, Control Group, 04",Serum,-,-,-,healthy
+-,GSM5226521,HP_Serum_Con5,"Serum, Healthy People, Control Group, 05",Serum,-,-,-,healthy
+-,GSM5226522,HP_Serum_Con6,"Serum, Healthy People, Control Group, 06",Serum,-,-,-,healthy

@@ -1,0 +1,43 @@
+# TITLE: A gene expression signature associated with K-Ras addiction reveals regulators of EMT and tumor cell survival
+# SUMMARY: K-Ras mutations occur frequently in epithelial cancers. Using shRNAs to deplete K-Ras in lung and pancreatic cancer cell lines harboring K-Ras mutations, two classes were identified—lines that do or do not require K-Ras to maintain viability. Comparing these two classes of cancer cells revealed a gene expression signature in K-Ras-dependent cells, associated with a well-differentiated epithelial phenotype, which was also seen in primary tumors. Several of these genes encode pharmacologically tractable proteins, such as Syk and Ron kinases and integrin beta6, depletion of which induces epithelial-mesenchymal transformation (EMT) and apoptosis specifically in K-Ras-dependent cells. These findings indicate that epithelial differentiation and tumor cell viability are associated, and that EMT regulators in “K-Ras-addicted” cancers represent candidate therapeutic targets.
+GPL1352_Group,GPL1352_Accession,GPL1352_Title,GPL1352_Source name,GPL1352_Cell line,GPL1352_Tissue,GPL1352_K-ras dependence,GPL3720_Group,GPL3720_Accession,GPL3720_Title,GPL3720_Source name,GPL3720_Tissue,GPL3720_Cell line,GPL3718_Group,GPL3718_Accession,GPL3718_Title,GPL3718_Source name,GPL3718_Tissue,GPL3718_Cell line
+-,GSM377981,A-427,Lung:NSCLC,A-427,Lung:NSCLC,independent,-,GSM385528,HPAF-II_STY,Pancreas cell line HPAF-II,Pancreas,HPAF-II,-,GSM385517,HPAF-II_NSP,Pancreas cell line HPAF-II,Pancreas,HPAF-II
+-,GSM377982,AGS,Stomach,AGS,Stomach,dependent,-,GSM385529,NCI-H2009_STY,Lung:NSCLC cell line NCI-H2009,Lung,NCI-H2009,-,GSM385518,NCI-H2009_NSP,Lung:NSCLC cell line NCI-H2009,Lung,NCI-H2009
+-,GSM377983,Calu-1,Lung:NSCLC,Calu-1,Lung:NSCLC,not tested,-,GSM385530,NCI-H23_STY,Lung:NSCLC cell line NCI-H23,Lung,NCI-H23,-,GSM385519,NCI-H23_NSP,Lung:NSCLC cell line NCI-H23,Lung,NCI-H23
+-,GSM377984,GP5d,Intestine,GP5d,Intestine,dependent,-,GSM385531,NCI-H358_STY,Lung:NSCLC cell line NCI-H358,Lung,NCI-H358,-,GSM385520,NCI-H358_NSP,Lung:NSCLC cell line NCI-H358,Lung,NCI-H358
+-,GSM377985,HCT 116,Intestine,HCT 116,Intestine,not tested,-,GSM385532,NCI-H441_STY,Lung:NSCLC cell line NCI-H441,Lung,NCI-H441,-,GSM385521,NCI-H441_NSP,Lung:NSCLC cell line NCI-H441,Lung,NCI-H441
+-,GSM377986,HEC-1,Uterus,HEC-1,Uterus,independent,-,GSM385533,NCI-H460_STY,Lung:NSCLC cell line NCI-H460,Lung,NCI-H460,-,GSM385522,NCI-H460_NSP,Lung:NSCLC cell line NCI-H460,Lung,NCI-H460
+-,GSM377987,HPAF-II,Pancreas,HPAF-II,Pancreas,dependent,-,GSM385534,NCI-H727_STY,Lung cell line NCI-H727,Lung,NCI-H727,-,GSM385523,NCI-H727_NSP,Lung cell line NCI-H727,Lung,NCI-H727
+-,GSM377988,HuCCT1,Liver,HuCCT1,Liver,independent,-,GSM385535,PA-TU-8988T_STY,Pancreas cell line PA-TU-8988T,Pancreas,PA-TU-8988T,-,GSM385524,PA-TU-8988T_NSP,Pancreas cell line PA-TU-8988T,Pancreas,PA-TU-8988T
+-,GSM377989,HUP-T4,Pancreas,HUP-T4,Pancreas,dependent,-,GSM385536,SK-LU-1_STY,Lung:NSCLC cell line SK-LU-1,Lung,SK-LU-1,-,GSM385525,SK-LU-1_NSP,Lung:NSCLC cell line SK-LU-1,Lung,SK-LU-1
+-,GSM377990,KP-1N,Pancreas,KP-1N,Pancreas,independent,-,GSM385537,SW 1573_STY,Lung:NSCLC cell line SW 1573,Lung,SW 1573,-,GSM385526,SW 1573_NSP,Lung:NSCLC cell line SW 1573,Lung,SW 1573
+-,GSM377991,KP-4,Pancreas,KP-4,Pancreas,independent,,,,,,,,,,,,
+-,GSM377992,KYSE-410,Esophagus,KYSE-410,Esophagus,dependent,,,,,,,,,,,,
+-,GSM377993,LS174T,Intestine,LS174T,Intestine,independent,,,,,,,,,,,,
+-,GSM377994,LU65,Lung:NSCLC,LU65,Lung:NSCLC,independent,,,,,,,,,,,,
+-,GSM377995,LU99A,Lung:NSCLC,LU99A,Lung:NSCLC,not tested,,,,,,,,,,,,
+-,GSM377996,NCI-H1155,Lung:NSCLC,NCI-H1155,Lung:NSCLC,not tested,,,,,,,,,,,,
+-,GSM377997,NCI-H1573,Lung:NSCLC,NCI-H1573,Lung:NSCLC,dependent,,,,,,,,,,,,
+-,GSM377998,NCI-H1734,Lung:NSCLC,NCI-H1734,Lung:NSCLC,not tested,,,,,,,,,,,,
+-,GSM377999,NCI-H1792,Lung:NSCLC,NCI-H1792,Lung:NSCLC,independent,,,,,,,,,,,,
+-,GSM378000,NCI-H2009,Lung:NSCLC,NCI-H2009,Lung:NSCLC,dependent,,,,,,,,,,,,
+-,GSM378001,NCI-H2122,Lung:NSCLC,NCI-H2122,Lung:NSCLC,not tested,,,,,,,,,,,,
+-,GSM378002,NCI-H23,Lung:NSCLC,NCI-H23,Lung:NSCLC,independent,,,,,,,,,,,,
+-,GSM378003,NCI-H358,Lung:NSCLC,NCI-H358,Lung:NSCLC,dependent,,,,,,,,,,,,
+-,GSM378004,NCI-H441,Lung:NSCLC,NCI-H441,Lung:NSCLC,dependent,,,,,,,,,,,,
+-,GSM378005,NCI-H460,Lung:NSCLC,NCI-H460,Lung:NSCLC,independent,,,,,,,,,,,,
+-,GSM378006,NCI-H727,Lung,NCI-H727,Lung,dependent,,,,,,,,,,,,
+-,GSM378007,NOMO-1/ADM,Blood,NOMO-1/ADM,Blood,not tested,,,,,,,,,,,,
+-,GSM378008,Panc 08.13,Pancreas,Panc 08.13,Pancreas,dependent,,,,,,,,,,,,
+-,GSM378009,PA-TU-8988T,Pancreas,PA-TU-8988T,Pancreas,independent,,,,,,,,,,,,
+-,GSM378010,RCM-1,Intestine,RCM-1,Intestine,not tested,,,,,,,,,,,,
+-,GSM378011,SK-LU-1,Lung:NSCLC,SK-LU-1,Lung:NSCLC,independent,,,,,,,,,,,,
+-,GSM378012,SNG-M,Uterus,SNG-M,Uterus,not tested,,,,,,,,,,,,
+-,GSM378013,SUIT-2,Pancreas,SUIT-2,Pancreas,dependent,,,,,,,,,,,,
+-,GSM378014,SW 1116,Intestine,SW 1116,Intestine,dependent,,,,,,,,,,,,
+-,GSM378015,SW 1463,Intestine,SW 1463,Intestine,dependent,,,,,,,,,,,,
+-,GSM378016,SW 1573,Lung:NSCLC,SW 1573,Lung:NSCLC,independent,,,,,,,,,,,,
+-,GSM378017,SW 900,Lung:NSCLC,SW 900,Lung:NSCLC,not tested,,,,,,,,,,,,
+-,GSM378018,SW837,Intestine,SW837,Intestine,independent,,,,,,,,,,,,
+-,GSM378019,T84,Intestine,T84,Intestine,not tested,,,,,,,,,,,,
+-,GSM378020,TCO-1,Thyroid,TCO-1,Thyroid,independent,,,,,,,,,,,,

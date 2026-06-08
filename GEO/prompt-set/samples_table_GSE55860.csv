@@ -1,0 +1,11 @@
+# TITLE: A set of NF-KB-regulated microRNAs induce acquired TRAIL resistance in lung cancer
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL18410_Group,GPL18410_Accession,GPL18410_Title,GPL18410_Source name,GPL18410_Cell line,GPL18410_Genotype/variation,GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Genotype/variation
+-,GSM1346481,H460S-1,TRAIL-sensitive H460 cells,H460,control,-,GSM1347627,H460S-1,TRAIL-sensitive H460 cells,H460,control
+-,GSM1346482,H460S-2,TRAIL-sensitive H460 cells,H460,control,-,GSM1347628,H460S-2,TRAIL-sensitive H460 cells,H460,control
+-,GSM1346483,H460S-3,TRAIL-sensitive H460 cells,H460,control,-,GSM1347629,H460S-3,TRAIL-sensitive H460 cells,H460,control
+-,GSM1346484,H460R-1,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance,-,GSM1347630,H460S-4,TRAIL-sensitive H460 cells,H460,control
+-,GSM1346485,H460R-2,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance,-,GSM1347631,H460R-1,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance
+-,GSM1346486,H460R-3,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance,-,GSM1347632,H460R-2,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance
+,,,,,,-,GSM1347633,H460R-3,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance
+,,,,,,-,GSM1347634,H460R-4,TRAIL-resistant H460 cells,H460,acquired TRAIL-resistance

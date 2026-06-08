@@ -1,0 +1,85 @@
+{
+  "Accession": "E-MTAB-2325",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "41"
+    ],
+    "Sample count": [
+      "41"
+    ]
+  },
+  "Description": "Threshold: 1.0 . Logbase: 2 . Technology: Generic.SingleColor.014850. Normalization: Shift to 75 percentile . Baseline Transformation: median of all samples .",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {
+        "Familial anamnesis": [
+          "Mother died of cancer",
+          "Husband died in 13-03-1986 in Switserland of ALS. A nephew of mother's side was paralyzed",
+          "Father died of heart attack.",
+          "father died at the age of 49 of hart disease and mother suffered of hypertension",
+          "Several cases of Alzheimer in his mother's family",
+          "A son with asthma bronchiale. Brother with back problems.",
+          "\"brother MS, daughter handicapped\"",
+          "\"Mother died of cancer, father of consequences tentamen suicidii\"",
+          "father died in 1987 of brain tumor and had spinal cord tumors and intestine polyps",
+          "A sister of her mother had MS and died after an ilness period of 10 years at the age of 68",
+          "n/a",
+          "sister with morbus Reckinhhausen",
+          "\"A sister had leukemia, whereas an uncle had Parkinson\""
+        ]
+      },
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "case control design",
+        "clinical history design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "age at death",
+        "disease",
+        "Survival characteristics",
+        "Survival time from date of onset (months)",
+        "Post-mortem interval in hours",
+        "Location of onset",
+        "Occupation (job)",
+        "Smoker or non smoker",
+        "Alchool use or not",
+        "Other pathologies",
+        "Therapy used",
+        "Vaccination boost",
+        "Familial anamnesis"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "normal",
+        "Sporadic Amyotrophic Lateral Sclerosis"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "v4 cortex"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Gene expression profiles in motor cortex of Control and Sporadic Amyotrphic Lateral Sclerosis patients"
+}

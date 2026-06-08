@@ -1,16 +1,22 @@
 """
-Count input/output tokens and costs for the runs listed in model_performance_summary.csv.
-Input tokens are pulled from each JSONL response (same loop pattern used in csv-to-openai.py);
-output tokens are recomputed with tiktoken for accuracy, then both are priced with the
-provided per-1M-token rates (no cached input discount is applied).
+Count input/output tokens and costs for runs in model_performance_summary.csv.
+
+The ProteomeXChange summary now includes prompt-set, test-set, and combined
+rows. Split rows are costed from their own output JSONL file; combined rows sum
+the prompt/test files listed as combined:<prompt_file>+<test_file>.
 """
 
 import csv
 import json
 from pathlib import Path
-from typing import Dict, Tuple
+from typing import Dict, Iterable, List, Tuple
 
-import tiktoken
+try:
+    import tiktoken
+except ImportError:
+    tiktoken = None
+
+SCRIPT_DIR = Path(__file__).resolve().parent
 
 # Pricing in USD per 1M tokens (no cached-input discount applied).
 PRICING_PER_MILLION: Dict[str, Dict[str, float]] = {
@@ -36,6 +42,8 @@ PRICING_PER_MILLION: Dict[str, Dict[str, float]] = {
 
 def safe_encoding(model_name: str):
     """Return a tiktoken encoding for the given model, falling back to cl100k_base."""
+    if tiktoken is None:
+        raise RuntimeError("tiktoken is required when a JSONL record lacks usage tokens.")
     try:
         return tiktoken.encoding_for_model(model_name)
     except Exception:
@@ -43,7 +51,7 @@ def safe_encoding(model_name: str):
 
 
 def count_message_tokens(messages, encoding) -> int:
-    """Count tokens for a list of messages (role/content) like csv-to-openai.py."""
+    """Count tokens for a list of chat messages, matching json-to-openai-proteom.py."""
     total = 0
     for message in messages or []:
         total += len(encoding.encode(message.get("role", "")))
@@ -51,12 +59,58 @@ def count_message_tokens(messages, encoding) -> int:
     return total
 
 
-def summarize_tokens(output_path: Path, default_model: str) -> Tuple[int, int]:
+def normalize_model_name(raw: str) -> str:
+    """Normalize model names from the summary CSV to pricing keys."""
+    return clean_cell(raw).lower()
+
+
+def clean_cell(value) -> str:
+    """Convert None/blank cells to empty strings."""
+    if value is None:
+        return ""
+    return str(value).strip()
+
+
+def resolve_file_path(file_name: str, base_dir: Path) -> Path:
+    path = Path(file_name)
+    if not path.is_absolute():
+        path = base_dir / path
+    return path
+
+
+def expand_file_spec(file_spec: str, base_dir: Path) -> List[Path]:
+    """Return one or more JSONL paths from a File column value."""
+    spec = clean_cell(file_spec)
+    if spec.startswith("combined:"):
+        return [
+            resolve_file_path(part, base_dir)
+            for part in spec.removeprefix("combined:").split("+")
+            if part.strip()
+        ]
+    return [resolve_file_path(spec, base_dir)] if spec else []
+
+
+def iter_successful_bodies(output_paths: Iterable[Path]):
+    for output_path in output_paths:
+        with output_path.open("r", encoding="utf-8") as handle:
+            for line in handle:
+                if not line.strip():
+                    continue
+                try:
+                    record = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+
+                response = record.get("response")
+                if not response or response.get("error") or response.get("status_code") != 200:
+                    continue
+                yield response.get("body", {})
+
+
+def summarize_tokens(output_paths: Iterable[Path], default_model: str) -> Tuple[int, int]:
     """
-    Return total (input_tokens, output_tokens) for a batch JSONL response file.
-    Input tokens are summed from usage.prompt_tokens when present; if missing,
-    we fall back to counting message tokens in the request body.
-    Output tokens are recomputed with tiktoken using the response model.
+    Return total (input_tokens, output_tokens) for one or more batch outputs.
+    API usage counts are preferred so output cost includes reasoning tokens.
     """
     total_prompt_tokens = 0
     total_completion_tokens = 0
@@ -68,62 +122,37 @@ def summarize_tokens(output_path: Path, default_model: str) -> Tuple[int, int]:
             encodings[key] = safe_encoding(key)
         return encodings[key]
 
-    with output_path.open("r", encoding="utf-8") as f:
-        for line in f:
-            if not line.strip():
-                continue
-            try:
-                record = json.loads(line)
-            except json.JSONDecodeError:
-                continue
+    for body in iter_successful_bodies(output_paths):
+        usage = body.get("usage", {})
+        prompt_tokens = usage.get("prompt_tokens")
+        completion_tokens = usage.get("completion_tokens")
 
-            response = record.get("response")
-            if not response or response.get("error") or response.get("status_code") != 200:
-                continue
+        if prompt_tokens is None:
+            messages = body.get("messages", [])
+            prompt_tokens = count_message_tokens(messages, get_encoding(body.get("model")))
 
-            body = response.get("body", {})
-            usage = body.get("usage", {})
-            prompt_tokens = usage.get("prompt_tokens")
-
-            if prompt_tokens is None:
-                messages = body.get("messages", [])
-                prompt_tokens = count_message_tokens(messages, get_encoding(body.get("model")))
-
-            total_prompt_tokens += prompt_tokens
-
+        if completion_tokens is None:
             choices = body.get("choices") or []
-            if not choices:
-                continue
+            content = ""
+            if choices:
+                content = choices[0].get("message", {}).get("content", "")
+            completion_tokens = len(get_encoding(body.get("model")).encode(content))
 
-            message = choices[0].get("message", {})
-            content = message.get("content", "")
-            encoding = get_encoding(body.get("model"))
-            total_completion_tokens += len(encoding.encode(content))
+        total_prompt_tokens += prompt_tokens
+        total_completion_tokens += completion_tokens
 
     return total_prompt_tokens, total_completion_tokens
 
 
-def normalize_model_name(raw: str) -> str:
-    """Normalize model names from the summary CSV to pricing keys."""
-    return raw.strip().lower()
-
-
-def clean_cell(value) -> str:
-    """Convert None/blank cells to empty strings."""
-    if value is None:
-        return ""
-    return str(value).strip()
-
-
 def main():
-    summary_path = Path("model_performance_summary.csv")
-    output_path = Path("token_costs_edoc.csv")
+    summary_path = SCRIPT_DIR / "model_performance_summary.csv"
+    output_path = SCRIPT_DIR / "token_costs.csv"
 
     if not summary_path.exists():
         raise FileNotFoundError(f"Cannot find summary CSV at {summary_path}")
 
-    with summary_path.open(newline="", encoding="utf-8") as f:
-        rows = list(csv.DictReader(f))
+    with summary_path.open(newline="", encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle))
 
     results = []
 
@@ -131,23 +160,21 @@ def main():
         model = clean_cell(row.get("Model"))
         version = clean_cell(row.get("Version"))
         trial = clean_cell(row.get("Trial"))
+        split = clean_cell(row.get("Split"))
         file_name = clean_cell(row.get("File"))
 
-        if not file_name:
-            print(f"Skipping {model} {version} {trial}: missing file name.")
+        if model == "ensemble-or" or file_name == "ensemble" or split == "combined-prompt-test":
             continue
 
-        file_path = Path(file_name)
-        if not file_path.exists():
-            alt_path = summary_path.parent / file_name
-            if alt_path.exists():
-                file_path = alt_path
-            else:
-                print(f"Skipping {model} {version} {trial}: file {file_name} not found.")
-                continue
+        file_paths = expand_file_spec(file_name, SCRIPT_DIR)
+        missing_paths = [path for path in file_paths if not path.exists()]
+        if not file_paths or missing_paths:
+            missing = ", ".join(str(path) for path in missing_paths) or file_name
+            print(f"Skipping {model} {version} {trial} {split}: file not found: {missing}")
+            continue
 
         model_key = normalize_model_name(model)
-        prompt_tokens, completion_tokens = summarize_tokens(file_path, model_key)
+        prompt_tokens, completion_tokens = summarize_tokens(file_paths, model_key)
 
         pricing = PRICING_PER_MILLION.get(model_key)
         if not pricing:
@@ -162,16 +189,28 @@ def main():
                 "model": model,
                 "version": version,
                 "trial": trial,
+                "split": split,
                 "input_tokens": prompt_tokens,
                 "output_tokens": completion_tokens,
                 "input_cost": round(input_cost, 4),
                 "output_cost": round(output_cost, 4),
+                "total_cost": round(input_cost + output_cost, 4),
             }
         )
 
-    fieldnames = ["model", "version", "trial", "input_tokens", "output_tokens", "input_cost", "output_cost"]
-    with output_path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+    fieldnames = [
+        "model",
+        "version",
+        "trial",
+        "split",
+        "input_tokens",
+        "output_tokens",
+        "input_cost",
+        "output_cost",
+        "total_cost",
+    ]
+    with output_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results)
     print(f"Wrote {output_path} with {len(results)} rows.")

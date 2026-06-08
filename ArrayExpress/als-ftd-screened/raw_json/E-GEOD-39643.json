@@ -1,0 +1,3304 @@
+{
+  "accno": "E-GEOD-39643",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "NanoString miRNA profiling of peripheral blood sorted CD14+CD16- monocytes from amyotrophic lateral sclerosis, multiple sclerosis and healthy control subjects"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2012-07-25"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-39643"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-39643",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "NanoString miRNA profiling of peripheral blood sorted CD14+CD16- monocytes from amyotrophic lateral sclerosis, multiple sclerosis and healthy control subjects"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "We investigated the innate immune system in the SOD1 ALS model. We found that splenic Ly6CHi monocytes were activated and their progressive recruitment to the spinal cord, but not brain, correlated with neuronal loss. We found a decrease in resident microglia in the spinal cord with disease progression. Two months prior to disease onset, splenic Ly6CHi monocytes had an M1 signature which included increased CCR2. At one month prior to disease onset, microglia expressed increased CCL2 and other chemotaxis-associated molecules. Microglia derived from the spinal cord of SOD1 mice recruited Ly6C+ monocytes to the CNS. Treatment with anti-Ly6C mAb modulated the Ly6CHi monocyte cytokine profile, reduced monocyte recruitment to the spinal cord, diminished neuronal loss and extended survival. In humans with ALS, CD14+/CD16- monocytes (analogue of Ly6CHi monocytes) exhibited an ALS specific microRNA inflammatory signature similar to that observed in the SOD1 mouse providing a direct link between the animal model and the human disease. Thus, the SOD1-like profile of monocytes in ALS subjects may serve as a biomarker for disease stage or progression. Our results suggest that recruitment of inflammatory monocytes plays an important role in disease progression and that modulation of these cells is a potential therapeutic approach. This study used the NanoString nCounter hybridization system and nCounter miRNA expression assays to identify and quantitate miRNAs in blood CD14+CD16- monocytes from ALS, MS and HC subjects Total RNA was isolated from FACS sorted CD14+CD16- blood-derived monocytes from sporadic ALS (n=8), MS (n=8) and HC (n=8) subjects. RNA was profiled using the NanoString nCounter miRNA expression assay"
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE39643"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE39643-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE39643-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = vsn normalized RNA transcriptoms per 100ng of total RNA"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE39643-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE39643-5"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "Hybridized probes were purified and counted on the nCounter Prep Station and Digital Analyzer (NanoString) following the manufacturerM-bM-^@M-^Ys instructions. For each assay, a high-density scan (600 fields of view) was performed"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE39643-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE39643-4"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Hybrdization reactions were performed according to the manufacturer's instructions (NanoString.com) with 5 M-5l of the 5-fold diluted sample preparation reaction. All hybridization reactions were incubated at 65M-0C for a minimum of 18 h."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE39643-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE39643-2"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Blood monocytes were sorted and total RNA was extracted using mirVana miRNA isolation kit (Ambion) according to the manufacturerM-bM-^@M-^Ys protocol"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE39643-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE39643-3"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "100 ng of total RNA was used in 5 M-5l with specific miRNA tag probes from Nanostring using nCounter Human miRNA Expression Assay Kit"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE39643-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE39643-6"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "The data were normalized for lane-to-lane variation with a dilution series of six spike-in positive controls using vsn normalization"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Oleg Butovsky"
+          },
+          {
+            "name": "Email",
+            "value": "obutovsky@rics.bwh.harvard.edu"
+          },
+          {
+            "name": "Phone",
+            "value": "161745255313"
+          },
+          {
+            "name": "Fax",
+            "value": "1617525500"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Brigham and Women's Hospital, Harvard Medical School"
+          },
+          {
+            "name": "Address",
+            "value": "Center of Neurologic Diseases, Brigham and Women's Hospital, Harvard Medical School, 77 Avenue Louis Pasteur, Room 720, Boston, MA, USA"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-39643",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "24"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "fvc"
+              }
+            ],
+            "value": "FVC"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "onset site"
+              }
+            ],
+            "value": "ONSET SITE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "Sex"
+              }
+            ],
+            "value": "SEX"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "age"
+              }
+            ],
+            "value": "AGE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease state"
+              }
+            ],
+            "value": "DISEASE STATE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "alsfrs"
+              }
+            ],
+            "value": "ALSFRS"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-39643",
+            "attributes": [
+              {
+                "name": "Age",
+                "value": "71 years"
+              },
+              {
+                "name": "Age",
+                "value": "69 years"
+              },
+              {
+                "name": "Age",
+                "value": "58 years"
+              },
+              {
+                "name": "Age",
+                "value": "63 years"
+              },
+              {
+                "name": "Age",
+                "value": "78 years"
+              },
+              {
+                "name": "Age",
+                "value": "68 years"
+              },
+              {
+                "name": "Age",
+                "value": "49 years"
+              },
+              {
+                "name": "Age",
+                "value": "67 years"
+              },
+              {
+                "name": "Age",
+                "value": "36 years"
+              },
+              {
+                "name": "Age",
+                "value": "48 years"
+              },
+              {
+                "name": "Age",
+                "value": "42 years"
+              },
+              {
+                "name": "Age",
+                "value": "51 years"
+              },
+              {
+                "name": "Age",
+                "value": "59 years"
+              },
+              {
+                "name": "Age",
+                "value": "61 years"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "41"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "37"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "N/A"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "25"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "40"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "19"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "43"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "35"
+              },
+              {
+                "name": "Disease state",
+                "value": "multiple sclerosis"
+              },
+              {
+                "name": "Disease state",
+                "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+              },
+              {
+                "name": "Disease state",
+                "value": "healthy control"
+              },
+              {
+                "name": "Fvc",
+                "value": "93"
+              },
+              {
+                "name": "Fvc",
+                "value": "112"
+              },
+              {
+                "name": "Fvc",
+                "value": "N/A"
+              },
+              {
+                "name": "Fvc",
+                "value": "107"
+              },
+              {
+                "name": "Fvc",
+                "value": "116"
+              },
+              {
+                "name": "Fvc",
+                "value": "30"
+              },
+              {
+                "name": "Fvc",
+                "value": "60"
+              },
+              {
+                "name": "Fvc",
+                "value": "95"
+              },
+              {
+                "name": "Fvc",
+                "value": "100"
+              },
+              {
+                "name": "Onset site",
+                "value": "N/A"
+              },
+              {
+                "name": "Onset site",
+                "value": "limb"
+              },
+              {
+                "name": "Onset site",
+                "value": "both limbs"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "67 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973620_20110525_mirB_mirB_12.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "51 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973619_20110525_mirB_mirB_11.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "51 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973618_20110525_mirB_mirB_10.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "49 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973617_20110525_mirB_mirB_09.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "71 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973616_20110525_mirB_mirB_08.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "68 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973615_20110525_mirB_mirB_07.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "63 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973614_20110525_mirB_mirB_06.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "61 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973613_20110525_mirB_mirB_05.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "61 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "25"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "60"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973612_20110525_mirB_mirB_04.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "69 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "41"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "95"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973611_20110525_mirB_mirB_03.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "36 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "19"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "30"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973610_20110525_mirB_mirB_02.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "42 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "40"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "100"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973609_20110525_mirB_mirB_01.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "42 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "40"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "93"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973608_20110525_mirA_mirA_12.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "67 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "43"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "116"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "both limbs"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973607_20110525_mirA_mirA_11.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_14",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "78 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "35"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "107"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973606_20110525_mirA_mirA_10.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_15",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "59 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "37"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "112"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973605_20110525_mirA_mirA_09.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_16",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "67 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973604_20110525_mirA_mirA_08.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_17",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "51 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973603_20110525_mirA_mirA_07.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_18",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "51 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973602_20110525_mirA_mirA_06.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_19",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "49 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973601_20110525_mirA_mirA_05.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_20",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "71 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973600_20110525_mirA_mirA_04.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_21",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "58 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973599_20110525_mirA_mirA_03.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_22",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "69 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973598_20110525_mirA_mirA_02.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_23",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "48 years"
+                    },
+                    {
+                      "name": "ALSFRS",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "FVC",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "ONSET SITE",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973597_20110525_mirA_mirA_01.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-39643",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell type",
+                "value": "CD14+CD16- monocytes"
+              },
+              {
+                "name": "Ethnicity",
+                "value": "Non-hispanic"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Age",
+                "value": "71 years"
+              },
+              {
+                "name": "Age",
+                "value": "69 years"
+              },
+              {
+                "name": "Age",
+                "value": "58 years"
+              },
+              {
+                "name": "Age",
+                "value": "63 years"
+              },
+              {
+                "name": "Age",
+                "value": "78 years"
+              },
+              {
+                "name": "Age",
+                "value": "68 years"
+              },
+              {
+                "name": "Age",
+                "value": "49 years"
+              },
+              {
+                "name": "Age",
+                "value": "67 years"
+              },
+              {
+                "name": "Age",
+                "value": "36 years"
+              },
+              {
+                "name": "Age",
+                "value": "48 years"
+              },
+              {
+                "name": "Age",
+                "value": "42 years"
+              },
+              {
+                "name": "Age",
+                "value": "51 years"
+              },
+              {
+                "name": "Age",
+                "value": "59 years"
+              },
+              {
+                "name": "Age",
+                "value": "61 years"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "41"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "37"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "N/A"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "25"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "40"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "19"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "43"
+              },
+              {
+                "name": "Alsfrs",
+                "value": "35"
+              },
+              {
+                "name": "Disease state",
+                "value": "multiple sclerosis"
+              },
+              {
+                "name": "Disease state",
+                "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+              },
+              {
+                "name": "Disease state",
+                "value": "healthy control"
+              },
+              {
+                "name": "Fvc",
+                "value": "93"
+              },
+              {
+                "name": "Fvc",
+                "value": "112"
+              },
+              {
+                "name": "Fvc",
+                "value": "N/A"
+              },
+              {
+                "name": "Fvc",
+                "value": "107"
+              },
+              {
+                "name": "Fvc",
+                "value": "116"
+              },
+              {
+                "name": "Fvc",
+                "value": "30"
+              },
+              {
+                "name": "Fvc",
+                "value": "60"
+              },
+              {
+                "name": "Fvc",
+                "value": "95"
+              },
+              {
+                "name": "Fvc",
+                "value": "100"
+              },
+              {
+                "name": "Onset site",
+                "value": "N/A"
+              },
+              {
+                "name": "Onset site",
+                "value": "limb"
+              },
+              {
+                "name": "Onset site",
+                "value": "both limbs"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "67 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973620_20110525_mirB_mirB_12.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973619_20110525_mirB_mirB_11.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973618_20110525_mirB_mirB_10.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973617_20110525_mirB_mirB_09.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "71 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973616_20110525_mirB_mirB_08.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "68 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973615_20110525_mirB_mirB_07.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "63 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973614_20110525_mirB_mirB_06.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "61 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "multiple sclerosis"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973613_20110525_mirB_mirB_05.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "61 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "25"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "60"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973612_20110525_mirB_mirB_04.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "69 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "41"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "95"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973611_20110525_mirB_mirB_03.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "36 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "19"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "30"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973610_20110525_mirB_mirB_02.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "42 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "40"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "100"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973609_20110525_mirB_mirB_01.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "42 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "40"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "93"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973608_20110525_mirA_mirA_12.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "67 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "43"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "116"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "both limbs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973607_20110525_mirA_mirA_11.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "78 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "35"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "107"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973606_20110525_mirA_mirA_10.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "59 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "37"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "Sporadic amyotrophic lateral sclerosis (SALS)"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "112"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "limb"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973605_20110525_mirA_mirA_09.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "67 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973604_20110525_mirA_mirA_08.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973603_20110525_mirA_mirA_07.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "51 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973602_20110525_mirA_mirA_06.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "49 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973601_20110525_mirA_mirA_05.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "71 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973600_20110525_mirA_mirA_04.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "age",
+                      "value": "58 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973599_20110525_mirA_mirA_03.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "69 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973598_20110525_mirA_mirA_02.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "age",
+                      "value": "48 years"
+                    },
+                    {
+                      "name": "alsfrs",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "healthy control"
+                    },
+                    {
+                      "name": "fvc",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "onset site",
+                      "value": "N/A"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM973597_20110525_mirA_mirA_01.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-39643",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973620 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973620_20110525_mirB_mirB_12.txt",
+                  "size": 32304,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973619 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973619_20110525_mirB_mirB_11.txt",
+                  "size": 32408,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973618 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973618_20110525_mirB_mirB_10.txt",
+                  "size": 32384,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973617 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973617_20110525_mirB_mirB_09.txt",
+                  "size": 32388,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973616 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973616_20110525_mirB_mirB_08.txt",
+                  "size": 32392,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973615 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973615_20110525_mirB_mirB_07.txt",
+                  "size": 32367,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973614 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973614_20110525_mirB_mirB_06.txt",
+                  "size": 32346,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973613 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973613_20110525_mirB_mirB_05.txt",
+                  "size": 32200,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973612 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973612_20110525_mirB_mirB_04.txt",
+                  "size": 32368,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973611 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973611_20110525_mirB_mirB_03.txt",
+                  "size": 32410,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973610 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973610_20110525_mirB_mirB_02.txt",
+                  "size": 32335,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973609 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973609_20110525_mirB_mirB_01.txt",
+                  "size": 32023,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973608 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973608_20110525_mirA_mirA_12.txt",
+                  "size": 32389,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973607 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973607_20110525_mirA_mirA_11.txt",
+                  "size": 32380,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973606 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973606_20110525_mirA_mirA_10.txt",
+                  "size": 32427,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973605 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973605_20110525_mirA_mirA_09.txt",
+                  "size": 32453,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973604 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973604_20110525_mirA_mirA_08.txt",
+                  "size": 32391,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973603 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973603_20110525_mirA_mirA_07.txt",
+                  "size": 32360,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973602 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973602_20110525_mirA_mirA_06.txt",
+                  "size": 32380,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973601 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973601_20110525_mirA_mirA_05.txt",
+                  "size": 32362,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973600 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973600_20110525_mirA_mirA_04.txt",
+                  "size": 32435,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973599 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973599_20110525_mirA_mirA_03.txt",
+                  "size": 32415,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973598 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973598_20110525_mirA_mirA_02.txt",
+                  "size": 32438,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM973597 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM973597_20110525_mirA_mirA_01.txt",
+                  "size": 32256,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973613_sample_table.txt",
+                  "size": 2827,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973605_sample_table.txt",
+                  "size": 2838,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973610_sample_table.txt",
+                  "size": 2838,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973603_sample_table.txt",
+                  "size": 2821,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973599_sample_table.txt",
+                  "size": 2816,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973601_sample_table.txt",
+                  "size": 2819,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973616_sample_table.txt",
+                  "size": 2829,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973611_sample_table.txt",
+                  "size": 2840,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973618_sample_table.txt",
+                  "size": 2828,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973604_sample_table.txt",
+                  "size": 2829,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973597_sample_table.txt",
+                  "size": 2811,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973614_sample_table.txt",
+                  "size": 2834,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973598_sample_table.txt",
+                  "size": 2819,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973600_sample_table.txt",
+                  "size": 2819,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973607_sample_table.txt",
+                  "size": 2835,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973615_sample_table.txt",
+                  "size": 2829,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973606_sample_table.txt",
+                  "size": 2836,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973609_sample_table.txt",
+                  "size": 2833,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973612_sample_table.txt",
+                  "size": 2837,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973602_sample_table.txt",
+                  "size": 2825,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973617_sample_table.txt",
+                  "size": 2831,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973620_sample_table.txt",
+                  "size": 2834,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973619_sample_table.txt",
+                  "size": 2828,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM973608_sample_table.txt",
+                  "size": 2837,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-39643",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-39643.idf.txt",
+                  "size": 5327,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-39643.sdrf.txt",
+                  "size": 22948,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-39643",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-15847"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-39643",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

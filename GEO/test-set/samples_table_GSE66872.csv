@@ -1,0 +1,63 @@
+# TITLE: Epigenetic Inactivation of the Putative DNA/RNA Helicase SLFN11 in Human Cancer Confers Resistance to Platinum-derived Drugs
+# SUMMARY: Platinum-derived drugs such as cisplatin and carboplatin are among the most commonly used cancer chemotherapy drugs, but very few specific molecular and cellular markers to predict different sentivity to these agents in a given tumor type have been clearly identified. Because epigenetic gene silencing is increasingly being recognized as a factor in conferring distinct tumoral drug sensitivity, we have used a comprehensive DNA methylation microarray platform to interrogate the widely characterized NCI60 panel of human cancer cell lines according to CpG methylation status and cisplatin/carboplatin sensitivity. Using this approach, we have identified that promoter CpG island hypermethylation-associated silencing of the putative DNA/RNA helicase Schlafen-11 (SLFN11) is associated with increased resistance to platinum-derived compounds. We have also experimentally validated these findings in vitro. In this setting, we were also able to identify the BRCA1 interacting DHX9 RNA helicase (also known as RHA) as a protein partner for SLFN11, suggesting a mechanistic pathway for the observed chemoresistance effect. Most importantly, we were able to extend these findings to the clinical setting where we observed that those patients with ovarian and non-small cell lung cancer carrying SLFN11 hypermethylation showed poor response to cisplatin and carboplatin treatments. Overall, these results identify SLFN11 epigenetic inactivation as a predictor of resistance to platin-derived drugs in human cancer.
+GPL13534_Group,GPL13534_Accession,GPL13534_Title,GPL13534_Source name,GPL13534_Cell line,GPL13534_Cell type,GPL13534_Characteristics
+-,GSM1633593,Cell Line_EKVX,EKVX,EKVX,Lung Adenocarcinoma,-log(ic50) cisplatin (m): 5.15-log(ic50) carboplatin (m): 3.71
+-,GSM1633594,Cell Line_UACC_257,UACC_257,UACC_257,Malignant Melanoma,-log(ic50) cisplatin (m): 5.39-log(ic50) carboplatin (m): 3.89
+-,GSM1633595,Cell Line_M14,M14,M14,Malignant Melanoma,-log(ic50) cisplatin (m): 5.71-log(ic50) carboplatin (m): 3.95
+-,GSM1633596,Cell Line_CCRF_CEM,CCRF_CEM,CCRF_CEM,Acute Lymphoblastic Leukemia,-log(ic50) cisplatin (m): 5.95-log(ic50) carboplatin (m): 4.15
+-,GSM1633597,Cell Line_HCT_116,HCT_116,HCT_116,Colorectal Carcinoma,-log(ic50) cisplatin (m): 5.39-log(ic50) carboplatin (m): 3.76
+-,GSM1633598,Cell Line_PC_3,PC_3,PC_3,Prostate Adenocarcinoma,-log(ic50) cisplatin (m): 5.3-log(ic50) carboplatin (m): 3.6
+-,GSM1633599,Cell Line_NCI_ADR_RES,NCI_ADR_RES,NCI_ADR_RES,Ovary Carcinoma,-log(ic50) cisplatin (m): 5.31-log(ic50) carboplatin (m): 3.77
+-,GSM1633600,Cell Line_HT29,HT29,HT29,Colorectal Carcinoma,-log(ic50) cisplatin (m): 5.1-log(ic50) carboplatin (m): 3.68
+-,GSM1633601,Cell Line_MALME_3M,MALME_3M,MALME_3M,Malignant Melanoma,-log(ic50) cisplatin (m): 5.8-log(ic50) carboplatin (m): 4.13
+-,GSM1633602,Cell Line_OVCAR_5,OVCAR_5,OVCAR_5,Ovary Carcinoma,-log(ic50) cisplatin (m): 5.35-log(ic50) carboplatin (m): 3.63
+-,GSM1633603,Cell Line_NCI_H23,NCI_H23,NCI_H23,Lung Non Small Cell Carcinoma,-log(ic50) cisplatin (m): 6.11-log(ic50) carboplatin (m): 4.22
+-,GSM1633604,Cell Line_HL_60,HL_60,HL_60,Acute Leukemia,-log(ic50) cisplatin (m): 6.27-log(ic50) carboplatin (m): 4.55
+-,GSM1633605,Cell Line_HCC_2998,HCC_2998,HCC_2998,Colon Adenocarcinoma,-log(ic50) cisplatin (m): 5.27-log(ic50) carboplatin (m): 3.67
+-,GSM1633606,Cell Line_SR,SR,SR,Lymphoid Neoplasm,-log(ic50) cisplatin (m): 6.21-log(ic50) carboplatin (m): 4.13
+-,GSM1633607,Cell Line_SW_620,SW_620,SW_620,Colon Adenocarcinoma,-log(ic50) cisplatin (m): 5.41-log(ic50) carboplatin (m): 3.79
+-,GSM1633608,Cell Line_SK_OV_3,SK_OV_3,SK_OV_3,Ovary Adenocarcinoma,-log(ic50) cisplatin (m): 5.27-log(ic50) carboplatin (m): 3.76
+-,GSM1633609,Cell Line_HS578T,HS578T,HS578T,Breast Carcinoma,-log(ic50) cisplatin (m): 5.3-log(ic50) carboplatin (m): 4.21
+-,GSM1633610,Cell Line_U251,U251,U251,Glioma,-log(ic50) cisplatin (m): 5.72-log(ic50) carboplatin (m): 4.17
+-,GSM1633611,Cell Line_K_562,K_562,K_562,Chronic Myeloid Leukemia,-log(ic50) cisplatin (m): 5.26-log(ic50) carboplatin (m): 3.8
+-,GSM1633612,Cell Line_UACC_62,UACC_62,UACC_62,Malignant Melanoma,-log(ic50) cisplatin (m): 5.93-log(ic50) carboplatin (m): 4.46
+-,GSM1633613,Cell Line_MOLT_4,MOLT_4,MOLT_4,Acute Lymphoblastic Leukemia,-log(ic50) cisplatin (m): 5.85-log(ic50) carboplatin (m): 4.08
+-,GSM1633614,Cell Line_A498,A498,A498,Renal Carcinoma,-log(ic50) cisplatin (m): 5.08-log(ic50) carboplatin (m): 3.66
+-,GSM1633615,Cell Line_OVCAR 3,OVCAR 3,OVCAR 3,Ovary Adenocarcinoma,-log(ic50) cisplatin (m): 5.57-log(ic50) carboplatin (m): 4.22
+-,GSM1633616,Cell Line_CAKI_1,CAKI_1,CAKI_1,Renal Tumor Clear Cell,-log(ic50) cisplatin (m): 5.7-log(ic50) carboplatin (m): 4.02
+-,GSM1633617,Cell Line_SK_MEL_28,SK_MEL_28,SK_MEL_28,Malignant Melanoma,-log(ic50) cisplatin (m): 5.35-log(ic50) carboplatin (m): 3.76
+-,GSM1633618,Cell Line_OVCAR_4,OVCAR_4,OVCAR_4,Ovary Carcinoma,-log(ic50) cisplatin (m): 5.83-log(ic50) carboplatin (m): 4.08
+-,GSM1633619,Cell Line_NCI_H322M,NCI_H322M,NCI_H322M,Lung Bronchioloalveolar Adenocarcinoma,-log(ic50) cisplatin (m): 5.2-log(ic50) carboplatin (m): 3.68
+-,GSM1633620,Cell Line_HCT_15,HCT_15,HCT_15,Colorectal Carcinoma,-log(ic50) cisplatin (m): 5.14-log(ic50) carboplatin (m): 3.61
+-,GSM1633621,Cell Line_MDA_MB_231,MDA_MB_231,MDA_MB_231,Breast Carcinoma,-log(ic50) cisplatin (m): 4.65-log(ic50) carboplatin (m): 3.61
+-,GSM1633622,Cell Line_MDA_MB_435,MDA_MB_435,MDA_MB_435,Malignant Melanoma,-log(ic50) cisplatin (m): 5.23-log(ic50) carboplatin (m): 3.69
+-,GSM1633623,Cell Line_TK_10,TK_10,TK_10,Renal Cell Carcinoma,-log(ic50) cisplatin (m): 5.18-log(ic50) carboplatin (m): 3.65
+-,GSM1633624,Cell Line_IGROV1,IGROV1,IGROV1,Ovary Carcinoma,-log(ic50) cisplatin (m): 5.69-log(ic50) carboplatin (m): 4.33
+-,GSM1633625,Cell Line_COLO205,COLO205,COLO205,Colon Adenocarcinoma,-log(ic50) cisplatin (m): 4.87-log(ic50) carboplatin (m): 3.65
+-,GSM1633626,Cell Line_SNB_19,SNB_19,SNB_19,Astrocytoma,-log(ic50) cisplatin (m): 5.5-log(ic50) carboplatin (m): 3.84
+-,GSM1633627,Cell Line_NCI_H522,NCI_H522,NCI_H522,Lung Non Small Cell Carcinoma,-log(ic50) cisplatin (m): 5.69-log(ic50) carboplatin (m): 4.27
+-,GSM1633628,Cell Line_SK_MEL_2,SK_MEL_2,SK_MEL_2,Malignant Melanoma,-log(ic50) cisplatin (m): 5.29-log(ic50) carboplatin (m): 3.79
+-,GSM1633629,Cell Line_RPMI_8226,RPMI_8226,RPMI_8226,Plasma Cell Myeloma,-log(ic50) cisplatin (m): 5.37-log(ic50) carboplatin (m): 3.78
+-,GSM1633630,Cell Line_MCF7,MCF7,MCF7,Breast Carcinoma,-log(ic50) cisplatin (m): 5.52-log(ic50) carboplatin (m): 3.83
+-,GSM1633631,Cell Line_T47D,T47D,T47D,Breast Ductal Carcinoma,-log(ic50) cisplatin (m): 4.85-log(ic50) carboplatin (m): 3.6
+-,GSM1633632,Cell Line_UO_31,UO_31,UO_31,Renal Cell Carcinoma,-log(ic50) cisplatin (m): 5.47-log(ic50) carboplatin (m): 3.79
+-,GSM1633633,Cell Line_OVCAR_8,OVCAR_8,OVCAR_8,Ovary Carcinoma,-log(ic50) cisplatin (m): 5.34-log(ic50) carboplatin (m): 3.74
+-,GSM1633634,Cell Line_SN12C,SN12C,SN12C,Renal Cell Carcinoma,-log(ic50) cisplatin (m): 5.32-log(ic50) carboplatin (m): 3.82
+-,GSM1633635,Cell Line_ACHN,ACHN,ACHN,Renal Cell Carcinoma,-log(ic50) cisplatin (m): 5.92-log(ic50) carboplatin (m): 4.1
+-,GSM1633636,Cell Line_HOP_62,HOP_62,HOP_62,Lung Adenocarcinoma,-log(ic50) cisplatin (m): 5.74-log(ic50) carboplatin (m): 3.85
+-,GSM1633637,Cell Line_SF_295,SF_295,SF_295,Glioma,-log(ic50) cisplatin (m): 6.04-log(ic50) carboplatin (m): 4.19
+-,GSM1633638,Cell Line_DU_145,DU_145,DU_145,Prostate Adenocarcinoma,-log(ic50) cisplatin (m): 5.7-log(ic50) carboplatin (m): 3.9
+-,GSM1633639,Cell Line_LOXIMVI,LOXIMVI,LOXIMVI,Malignant Melanoma,-log(ic50) cisplatin (m): 5.85-log(ic50) carboplatin (m): 4.16
+-,GSM1633640,Cell Line_KM12,KM12,KM12,Colon Adenocarcinoma,-log(ic50) cisplatin (m): 5-log(ic50) carboplatin (m): 3.66
+-,GSM1633641,Cell Line_SK_MEL_5,SK_MEL_5,SK_MEL_5,Malignant Melanoma,-log(ic50) cisplatin (m): 5.57-log(ic50) carboplatin (m): 3.97
+-,GSM1633642,Cell Line_BT_549,BT_549,BT_549,Breast Ductal Carcinoma,-log(ic50) cisplatin (m): 5.43-log(ic50) carboplatin (m): 3.83
+-,GSM1633643,Cell Line_SF_539,SF_539,SF_539,Glioma,-log(ic50) cisplatin (m): 5.78-log(ic50) carboplatin (m): 4.09
+-,GSM1633644,Cell Line_HOP_92,HOP_92,HOP_92,Lung Large Cell Carcinoma,-log(ic50) cisplatin (m): 5.43-log(ic50) carboplatin (m): 3.94
+-,GSM1633645,Cell Line_NCI_H226,NCI_H226,NCI_H226,Lung Squamous Cell Carcinoma,-log(ic50) cisplatin (m): 5.3-log(ic50) carboplatin (m): 3.87
+-,GSM1633646,Cell Line_786_0,786_0,786_0,Renal Tumor Clear Cell,-log(ic50) cisplatin (m): 5.96-log(ic50) carboplatin (m): 4.01
+-,GSM1633647,Cell Line_A549,A549,A549,Lung Non Small Cell Carcinoma,-log(ic50) cisplatin (m): 5.51-log(ic50) carboplatin (m): 3.98
+-,GSM1633648,Cell Line_SNB_75,SNB_75,SNB_75,Glioma,-log(ic50) cisplatin (m): 5.55-log(ic50) carboplatin (m): 3.98
+-,GSM1633649,Cell Line_MDA_MB_468,MDA_MB_468,MDA_MB_468,Breast Carcinoma,-log(ic50) cisplatin (m): 6.67-log(ic50) carboplatin (m): NA
+-,GSM1633650,Cell Line_SF_268,SF_268,SF_268,Glioma,-log(ic50) cisplatin (m): 6.13-log(ic50) carboplatin (m): 4.32
+-,GSM1633651,Cell Line_RXF393,RXF393,RXF393,Renal Cell Carcinoma,-log(ic50) cisplatin (m): 5.48-log(ic50) carboplatin (m): 4.09
+-,GSM1633652,Cell Line_NCI_H460,NCI_H460,NCI_H460,Lung Large Cell Carcinoma,-log(ic50) cisplatin (m): 6.24-log(ic50) carboplatin (m): 4.43

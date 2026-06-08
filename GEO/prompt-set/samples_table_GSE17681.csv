@@ -1,0 +1,39 @@
+# TITLE: miRNA Profiling from total blood of lung cancer and control samples
+# SUMMARY: This project aims at the detection of specific patterns of miRNAs in peripheral blood samples of lung cancer patients. As controls, blood of donors without known affection have been tested. Using the miRNA patterns we hope to detect a diagnostic pattern for the non-invasive diagnosis of non-small cell lung carcinoma.
+GPL9040_Group,GPL9040_Accession,GPL9040_Title,GPL9040_Source name,GPL9040_Class label
+-,GSM441129,Tumor Sample 1,blood of tumor patient,lung tumor
+-,GSM441130,Tumor Sample 2,blood of tumor patient,lung tumor
+-,GSM441131,Tumor Sample 3,blood of tumor patient,lung tumor
+-,GSM441132,Tumor Sample 4,blood of tumor patient,lung tumor
+-,GSM441133,Tumor Sample 5,blood of tumor patient,lung tumor
+-,GSM441134,Tumor Sample 6,blood of tumor patient,lung tumor
+-,GSM441135,Tumor Sample 7,blood of tumor patient,lung tumor
+-,GSM441136,Tumor Sample 8,blood of tumor patient,lung tumor
+-,GSM441137,Tumor Sample 9,blood of tumor patient,lung tumor
+-,GSM441138,Tumor Sample 10,blood of tumor patient,lung tumor
+-,GSM441139,Tumor Sample 11,blood of tumor patient,lung tumor
+-,GSM441140,Tumor Sample 12,blood of tumor patient,lung tumor
+-,GSM441141,Tumor Sample 13,blood of tumor patient,lung tumor
+-,GSM441142,Tumor Sample 14,blood of tumor patient,lung tumor
+-,GSM441143,Tumor Sample 15,blood of tumor patient,lung tumor
+-,GSM441144,Tumor Sample 16,blood of tumor patient,lung tumor
+-,GSM441145,Tumor Sample 17,blood of tumor patient,lung tumor
+-,GSM441146,Normal Control 1,blood of control,control
+-,GSM441147,Normal Control 2,blood of control,control
+-,GSM441148,Normal Control 3,blood of control,control
+-,GSM441149,Normal Control 4,blood of control,control
+-,GSM441150,Normal Control 5,blood of control,control
+-,GSM441151,Normal Control 6,blood of control,control
+-,GSM441152,Normal Control 7,blood of control,control
+-,GSM441153,Normal Control 8,blood of control,control
+-,GSM441154,Normal Control 9,blood of control,control
+-,GSM441155,Normal Control 10,blood of control,control
+-,GSM441156,Normal Control 11,blood of control,control
+-,GSM441157,Normal Control 12,blood of control,control
+-,GSM441158,Normal Control 13,blood of control,control
+-,GSM441159,Normal Control 14,blood of control,control
+-,GSM441160,Normal Control 15,blood of control,control
+-,GSM441161,Normal Control 16,blood of control,control
+-,GSM441162,Normal Control 17,blood of control,control
+-,GSM441163,Normal Control 18,blood of control,control
+-,GSM441164,Normal Control 19,blood of control,control

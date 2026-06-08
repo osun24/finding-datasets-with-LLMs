@@ -1,5 +1,3 @@
-# UNTESTED
-
 from Bio import Entrez
 import pandas as pd
 import time

@@ -1,0 +1,9 @@
+# TITLE: Expression data from SNU-449 cells transfected with USP48
+# SUMMARY: Deubiquitinating enzymes (DUBs) are divided into seven subgroups based on sequence and structure and perform the roles of mediating the deubiquitination of substrate proteins, regulating protein function, and participating in various cellular life activities. Among them, the ubiquitin-specific protease family (USP) is the DUB subtype with the most members and structural diversity discovered so far. USP48 is a member of the USP family of ubiquitin-specific proteases and has been found to promote glioblastoma by deubiquitinating the Gli1 transcription factor and to promote the progression of non-small-cell lung cancer through inhibition of the Wnt/β-catenin signaling pathway. We used microarrays to detail changes in gene expression regulated by USP48 overexpression in HCC cells.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Genotype
+-,GSM8213693,"SNU-449 cells transfected with vector, rep1",SNU-449 cells transfected with vector,SNU-449,Ctrl
+-,GSM8213694,"SNU-449 cells transfected with vector, rep2",SNU-449 cells transfected with vector,SNU-449,Ctrl
+-,GSM8213695,"SNU-449 cells transfected with vector, rep3",SNU-449 cells transfected with vector,SNU-449,Ctrl
+-,GSM8213696,"SNU-449 cells transfected with USP48, rep1",SNU-449 cells transfected with USP48,SNU-449,USP48 OE
+-,GSM8213697,"SNU-449 cells transfected with USP48, rep2",SNU-449 cells transfected with USP48,SNU-449,USP48 OE
+-,GSM8213698,"SNU-449 cells transfected with USP48, rep3",SNU-449 cells transfected with USP48,SNU-449,USP48 OE

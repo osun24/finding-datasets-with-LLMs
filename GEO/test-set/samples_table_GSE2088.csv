@@ -1,0 +1,90 @@
+# TITLE: Subclassification of lung squamous cell carcinoma
+# SUMMARY: Two subclasses of lung squamous cell carcinoma with different gene expression profiles and prognosis identified by hierarchical clustering and validated by non-negative matrix factorization . BACKGROUND: Current clinical and histopathological criteria used to define lung squamous cell carcinomas (SCCs) are insufficient to predict clinical outcome. We attempted to make a clinically-useful classification based on gene expression profiling. METHODS: We used cDNA microarrays with 40386 elements to analyze the gene expression profiles of 48 surgically resected samples of lung SCC. 9 samples of lung adenocarcinoma and 30 of normal lung were also included to give a total of 87 samples analyzed. After gene filtering, the data were subjected to hierarchical clustering and consensus clustering with the non-negative matrix factorization (NMF) approach. FINDINGS: Initial analysis by hierarchical clustering allowed division of SCCs into two distinct subclasses. An additional independent round of hierarchical clustering and consensus clustering with the NMF approach provided a validation for the classification. Kaplan-Meier analysis with the log rank test pointed to a non-significant difference in survival (p=0.071) but the likelihood of survival to 6 years was significantly different between the two groups (40.5% vs 81.8%, p=0.014, Z-test). Biological process categories characteristic for each subclass were identified statistically and up-regulation of cell-proliferation related genes was evident in the subclass with a poor prognosis. In the subclass with the better survival, genes involved in differentiated intracellular functions, such as the MAPKKK cascade, ceramide metabolism, or regulation of transcription, were up-regulated. Keywords: repeat sample
+GPL962_Group,GPL962_Accession,GPL962_Title,GPL962_Source name 1,GPL962_Source name 2
+-,GSM16567,adenocarcinoma 3806,adenocarcinoma 3806,lung reference mix
+-,GSM17287,normal 1037,primary normal lung tissue 1037,lung reference
+-,GSM17288,normal 1050,primary normal lung tissue 1050,lung reference
+-,GSM17289,normal 1074,primary normal lung tissue 1074,lung reference
+-,GSM17290,normal 1090,primary normal lung tissue 1090,lung reference
+-,GSM17291,normal 1103,primary normal lung tissue 1103,lung reference
+-,GSM17292,normal 1112,primary normal lung tissue 1112,lung reference
+-,GSM17293,normal 1144,primary normal lung tissue 1144,lung reference
+-,GSM17294,normal 1319,primary normal lung tissue 1319,lung reference
+-,GSM17295,normal 1345,primary normal lung tissue 1345,lung reference
+-,GSM17296,normal 1361,primary normal lung tissue 1361,lung reference
+-,GSM17297,normal 1455,primary normal lung tissue 1455,lung reference
+-,GSM17298,normal 1473,primary normal lung tissue 1473,lung reference
+-,GSM17299,normal 1502,primary normal lung tissue 1502,lung reference
+-,GSM17300,normal 1546,primary normal lung tissue 1546,lung reference
+-,GSM17301,normal 2266,primary normal lung tissue 2266,lung reference
+-,GSM17302,normal 2841,primary normal lung tissue 2841,lung reference
+-,GSM17303,normal 2911,primary normal lung tissue 2911,lung reference
+-,GSM17304,normal 3208,primary normal lung tissue 3208,lung reference
+-,GSM17305,normal 3370,primary normal lung tissue 3370,lung reference
+-,GSM37597,squamous cell carcinoma 564,squamous cell carcinoma 564,lung reference mix
+-,GSM37737,squamous cell carcinoma 674,squamous cell carcinoma 674,lung reference mix
+-,GSM37738,squamous cell carcinoma 694,squamous cell carcinoma 694,lung reference mix
+-,GSM37739,squamous cell carcinoma 778,squamous cell carcinoma 778,lung reference mix
+-,GSM37741,squamous cell carcinoma 972,squamous cell carcinoma 972,lung reference mix
+-,GSM37749,squamous cell carcinoma 1051,squamous cell carcinoma 1051,lung reference mix
+-,GSM37750,squamous cell carcinoma 1071,squamous cell carcinoma 1071,lung reference mix
+-,GSM37751,squamous cell carcinoma 1195,squamous cell carcinoma 1195,lung reference mix
+-,GSM37752,squamous cell carcinoma 1288,squamous cell carcinoma 1288,lung reference mix
+-,GSM37753,squamous cell carcinoma 1438,squamous cell carcinoma 1438,lung reference mix
+-,GSM37754,squamous cell carcinoma 1509,squamous cell carcinoma 1509,lung reference mix
+-,GSM37755,squamous cell carcinoma 1555,squamous cell carcinoma 1555,lung reference mix
+-,GSM37756,squamous cell carcinoma 1601,squamous cell carcinoma 1601,lung reference mix
+-,GSM37757,squamous cell carcinoma 1606,squamous cell carcinoma 1606,lung reference mix
+-,GSM37758,squamous cell carcinoma 1649,squamous cell carcinoma 1649,lung reference mix
+-,GSM37759,squamous cell carcinoma 1654,squamous cell carcinoma 1654,lung reference mix
+-,GSM37760,squamous cell carcinoma 1737,squamous cell carcinoma 1737,lung reference mix
+-,GSM37761,squamous cell carcinoma 1806,squamous cell carcinoma 1806,lung reference mix
+-,GSM37762,squamous cell carcinoma 1824,squamous cell carcinoma 1824,lung reference mix
+-,GSM37763,squamous cell carcinoma 1854,squamous cell carcinoma 1854,lung reference mix
+-,GSM37764,squamous cell carcinoma 1897,squamous cell carcinoma 1897,lung reference mix
+-,GSM37765,squamous cell carcinoma 2025,squamous cell carcinoma 2025,lung reference mix
+-,GSM37766,squamous cell carcinoma 2169,squamous cell carcinoma 2169,lung reference mix
+-,GSM37767,squamous cell carcinoma 2187,squamous cell carcinoma 2187,lung reference mix
+-,GSM37768,squamous cell carcinoma 2204,squamous cell carcinoma 2204,lung reference mix
+-,GSM37769,squamous cell carcinoma 2379,squamous cell carcinoma 2379,lung reference mix
+-,GSM37770,squamous cell carcinoma 2417,squamous cell carcinoma 2417,lung reference mix
+-,GSM37771,squamous cell carcinoma 2459,squamous cell carcinoma 2459,lung reference mix
+-,GSM37772,squamous cell carcinoma 2492,squamous cell carcinoma 2492,lung reference mix
+-,GSM37773,squamous cell carcinoma 2674,squamous cell carcinoma 2674,lung reference mix
+-,GSM37774,squamous cell carcinoma 2901,squamous cell carcinoma 2901,lung reference mix
+-,GSM37775,squamous cell carcinoma 3002,squamous cell carcinoma 3002,lung reference mix
+-,GSM37776,squamous cell carcinoma 3062,squamous cell carcinoma 3062,lung reference mix
+-,GSM37777,squamous cell carcinoma 3097,squamous cell carcinoma 3097,lung reference mix
+-,GSM37778,squamous cell carcinoma 3124,squamous cell carcinoma 3124,lung reference mix
+-,GSM37779,squamous cell carcinoma 3156,squamous cell carcinoma 3156,lung reference mix
+-,GSM37780,squamous cell carcinoma 3320,squamous cell carcinoma 3320,lung reference mix
+-,GSM37781,squamous cell carcinoma 3340,squamous cell carcinoma 3340,lung reference mix
+-,GSM37782,squamous cell carcinoma 3453,squamous cell carcinoma 3453,lung reference mix
+-,GSM37783,squamous cell carcinoma 3532,squamous cell carcinoma 3532,lung reference mix
+-,GSM37784,squamous cell carcinoma 3536,squamous cell carcinoma 3536,lung reference mix
+-,GSM37785,squamous cell carcinoma 3726,squamous cell carcinoma 3726,lung reference mix
+-,GSM37786,squamous cell carcinoma 3813,squamous cell carcinoma 3813,lung reference mix
+-,GSM37787,squamous cell carcinoma 3951,squamous cell carcinoma 3951,lung reference mix
+-,GSM37788,squamous cell carcinoma 4136,squamous cell carcinoma 4136,lung reference mix
+-,GSM37789,squamous cell carcinoma 4395,squamous cell carcinoma 4395,lung reference mix
+-,GSM37790,squamous cell carcinoma 4485,squamous cell carcinoma 4485,lung reference mix
+-,GSM37791,squamous cell carcinoma 4617,squamous cell carcinoma 4617,lung reference mix
+-,GSM37792,normal 574,normal 574,lung reference mix
+-,GSM37793,normal 579,normal 579,lung reference mix
+-,GSM37794,normal 589,normal 589,lung reference mix
+-,GSM37795,normal 598,normal 598,lung reference mix
+-,GSM37796,normal 699,normal 699,lung reference mix
+-,GSM37797,normal 709,normal 709,lung reference mix
+-,GSM37798,normal 792,normal 792,lung reference mix
+-,GSM37799,normal 798,normal 798,lung reference mix
+-,GSM37800,normal 835,normal 835,lung reference mix
+-,GSM37801,normal 845,normal 845,lung reference mix
+-,GSM37802,normal 865,normal 865,lung reference mix
+-,GSM37803,adenocarcinoma 3836,adenocarcinoma 3836,lung reference mix
+-,GSM37804,adenocarcinoma 3896,adenocarcinoma 3896,lung reference mix
+-,GSM37805,adenocarcinoma 3947,adenocarcinoma 3947,lung reference mix
+-,GSM37806,adenocarcinoma 3985,adenocarcinoma 3985,lung reference mix
+-,GSM37807,adenocarcinoma 4174,adenocarcinoma 4174,lung reference mix
+-,GSM37808,adenocarcinoma 4364,adenocarcinoma 4364,lung reference mix
+-,GSM37809,adenocarcinoma 4372,adenocarcinoma 4372,lung reference mix
+-,GSM37810,adenocarcinoma 4412,adenocarcinoma 4412,lung reference mix

@@ -1,16 +1,24 @@
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import json
-from matplotlib.patches import Rectangle
+from matplotlib.patches import Patch
 from datetime import datetime
 import sys
 
+
+def lighten_color(color, amount=0.5):
+    """Mix `color` with white. amount=0 returns the original; amount=1 returns white."""
+    rgb = mcolors.to_rgb(color)
+    return tuple(c + (1 - c) * amount for c in rgb)
+
 plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("husl")
+plt.rcParams['axes.facecolor'] = 'white'
 
-TARGET_MULTI_TRIAL_MODELS = {"GPT-5-mini", "o4-mini"}
+TARGET_MULTI_TRIAL_MODELS = {"GPT-5-mini", "o4-mini", "Ensemble"}
 RATE_METRICS = ['sensitivity', 'specificity', 'precision', 'accuracy', 'f1_score']
 COUNT_METRICS = ['true_positive', 'false_positive', 'true_negative', 'false_negative']
 ALL_METRICS = RATE_METRICS + COUNT_METRICS
@@ -26,6 +34,33 @@ METRIC_DECIMALS = {
     'false_negative': 1,
 }
 
+# 3-position X-axis: v1-dev → v2-dev → v2-test
+XAXIS_ORDER = [
+    ("v1", "prompt-set"),   # position 0
+    ("v2", "prompt-set"),   # position 1
+    ("v2", "test-set"),     # position 2
+]
+XAXIS_LABELS = [
+    "Train\n(v1, n = 179)",
+    "Train\n(v2, n = 179)",
+    "Test\n(v2, n = 357)",
+]
+
+MODEL_ORDER = ['GPT-4o-mini', 'GPT-4.1-mini', 'GPT-5-mini', 'o4-mini', 'Ensemble']
+
+
+def canonical_model_name(model: str) -> str:
+    if str(model).lower().startswith("ensemble"):
+        return "Ensemble"
+    return model
+
+
+def model_keys_in_data(data):
+    keys = [model for model in MODEL_ORDER if model in data]
+    extras = sorted(model for model in data if model not in MODEL_ORDER)
+    return keys + extras
+
+
 def load_results(filename="model_performance_results.json"):
     """Load results from JSON file"""
     try:
@@ -40,82 +75,89 @@ def load_results(filename="model_performance_results.json"):
         return None
 
 def process_data(results_data):
-    """Convert JSON results to structured format with trial-level metrics."""
+    """Convert JSON results to structured format keyed by model/version/split."""
     if not results_data:
         return None
 
     data = {}
     for result in results_data['results']:
-        model = result.get('model', 'Unknown')
+        split = result.get('split', 'prompt-set')
+        if split == 'combined-prompt-test':
+            continue
+
+        model = canonical_model_name(result.get('model', 'Unknown'))
         version = result.get('version', 'v1')
         metrics = result.get('metrics', {})
 
         model_data = data.setdefault(model, {})
-        version_entry = model_data.setdefault(version, {"trials": []})
+        version_data = model_data.setdefault(version, {})
+        split_entry = version_data.setdefault(split, {"trials": []})
 
-        existing_trials = [trial['trial'] for trial in version_entry['trials']]
+        existing_trials = [trial['trial'] for trial in split_entry['trials']]
         trial_label = result.get('trial')
         if not trial_label:
             trial_label = f"trial-{len(existing_trials) + 1}"
         elif trial_label in existing_trials:
-            # Ensure uniqueness if duplicated entries slip through.
             trial_label = f"{trial_label}-{len(existing_trials) + 1}"
 
-        version_entry['trials'].append({
+        split_entry['trials'].append({
             "trial": trial_label,
             "metrics": metrics,
             "file_path": result.get('file_path')
         })
 
     for model_data in data.values():
-        for version, payload in model_data.items():
-            trials = payload.get("trials", [])
-            metrics_records = [trial["metrics"] for trial in trials if trial.get("metrics")]
+        for version_splits in model_data.values():
+            for split, payload in version_splits.items():
+                trials = payload.get("trials", [])
+                metrics_records = [trial["metrics"] for trial in trials if trial.get("metrics")]
 
-            if not metrics_records:
-                payload["summary"] = {"median": {}, "range": {}, "mean": {}, "ci95": {}}
-                payload["trial_count"] = 0
-                payload["metric_columns"] = []
-                payload["trial_labels"] = []
-                continue
-
-            metrics_df = pd.DataFrame(metrics_records, dtype=float)
-            metric_columns = metrics_df.columns.tolist()
-
-            summary = {"median": {}, "range": {}, "mean": {}, "ci95": {}}
-            for metric in metric_columns:
-                values = metrics_df[metric].dropna().astype(float)
-                if values.empty:
+                if not metrics_records:
+                    payload["summary"] = {"median": {}, "range": {}, "mean": {}, "ci95": {}}
+                    payload["trial_count"] = 0
+                    payload["metric_columns"] = []
+                    payload["trial_labels"] = []
                     continue
 
-                median = float(values.median())
-                min_val = float(values.min())
-                max_val = float(values.max())
-                summary["median"][metric] = median
-                summary["range"][metric] = (min_val, max_val)
-                summary["mean"][metric] = float(values.mean())
+                metrics_df = pd.DataFrame(metrics_records, dtype=float)
+                metric_columns = metrics_df.columns.tolist()
 
-                if len(values) > 1:
-                    std = float(values.std(ddof=1))
-                    margin = 1.96 * std / (len(values) ** 0.5) if len(values) > 0 else 0.0
-                    summary["ci95"][metric] = (
-                        summary["mean"][metric] - margin,
-                        summary["mean"][metric] + margin,
-                    )
-                else:
-                    summary["ci95"][metric] = (median, median)
+                summary = {"median": {}, "range": {}, "mean": {}, "ci95": {}}
+                for metric in metric_columns:
+                    values = metrics_df[metric].dropna().astype(float)
+                    if values.empty:
+                        continue
 
-            payload["summary"] = summary
-            payload["trial_count"] = len(trials)
-            payload["metric_columns"] = metric_columns
-            payload["trial_labels"] = [trial["trial"] for trial in trials]
+                    median = float(values.median())
+                    min_val = float(values.min())
+                    max_val = float(values.max())
+                    summary["median"][metric] = median
+                    summary["range"][metric] = (min_val, max_val)
+                    summary["mean"][metric] = float(values.mean())
+
+                    if len(values) > 1:
+                        std = float(values.std(ddof=1))
+                        margin = 1.96 * std / (len(values) ** 0.5) if len(values) > 0 else 0.0
+                        summary["ci95"][metric] = (
+                            summary["mean"][metric] - margin,
+                            summary["mean"][metric] + margin,
+                        )
+                    else:
+                        summary["ci95"][metric] = (median, median)
+
+                payload["summary"] = summary
+                payload["trial_count"] = len(trials)
+                payload["metric_columns"] = metric_columns
+                payload["trial_labels"] = [trial["trial"] for trial in trials]
 
     return data
 
 
-def should_include_range(model: str, version_data: dict) -> bool:
+def should_include_range(model: str, version_data: dict, split: str) -> bool:
     """Return True when the visualization should display min-max bands."""
-    return model in TARGET_MULTI_TRIAL_MODELS and version_data.get("trial_count", 0) > 1
+    return (model in TARGET_MULTI_TRIAL_MODELS
+            and split == "test-set"
+            and version_data.get("trial_count", 0) > 1)
 
 
 def get_metric_summary(version_data: dict, metric: str):
@@ -149,262 +191,244 @@ def format_metric_value(summary: dict, metric: str, include_range: bool, decimal
     if include_range:
         value_label = f"{median_fmt}\n({lower_fmt}-{upper_fmt})"
 
-    # Uncomment the block below to switch to mean ± 95% CI reporting instead of median/range.
-    # mean_val = summary.get("mean", {}).get(metric)
-    # if mean_val is not None:
-    #     ci_low, ci_high = summary.get("ci95", {}).get(metric, (mean_val, mean_val))
-    #     mean_fmt = _fmt(mean_val, decimals)
-    #     ci_low_fmt = _fmt(ci_low, decimals)
-    #     ci_high_fmt = _fmt(ci_high, decimals)
-    #     value_label = f"{mean_fmt} ({ci_low_fmt}-{ci_high_fmt})"
-
     return value_label
 
 def create_publication_plot(data, metadata):
-    """Create main figure with 6 subplots (A-F)"""
-    # Create figure with subplots (3 rows x 2 cols)
-    fig, axes = plt.subplots(3, 2, figsize=(16, 18))
+    """Create main figure with 6 subplots (A-F) showing dev and held-out test performance."""
+    fig, axes = plt.subplots(3, 2, figsize=(16, 18), constrained_layout=True)
     fig.suptitle(
-        'Performance of LLMs for GEO Dataset Screening Across Prompt Versions (N = 536)\n',
+        'Large Language Model Performance for GEO Dataset Screening\n',
         fontsize=20,
         fontweight='bold',
-        y=0.98,
     )
-    
-    # Colors for each model
+
+    # Use Okabe–Ito colorblind-safe palette
     model_colors = {
-        'GPT-4o-mini': '#1f77b4', 
-        'o4-mini': '#ff7f0e', 
-        'GPT-4.1-mini': '#2ca02c', 
-        'GPT-4.1-nano': '#d62728',
-        'GPT-5-mini': '#9467bd'
+        'GPT-4o-mini':   "#CC79A7", 
+        'o4-mini':       "#E69F00",  
+        'GPT-4.1-mini':  "#009E73",  
+        'GPT-5-mini':    "#0072B2",  
+        'Ensemble':      "#D55E00",
+    }
+    # Dev bars use a lightened shade; v2 test bars use the full color.
+    DEV_LIGHTEN = 0.35
+    model_color_pairs = {
+        m: {'light': lighten_color(c, DEV_LIGHTEN), 'dark': c}
+        for m, c in model_colors.items()
     }
 
+    # Max trial count per model (used for legend R= label)
     replication_counts = {}
     for model, model_data in data.items():
-        counts = [version_data.get("trial_count", 0) for version_data in model_data.values()]
+        counts = []
+        for version_splits in model_data.values():
+            for split_data in version_splits.values():
+                counts.append(split_data.get("trial_count", 0))
         replication_counts[model] = max(counts) if counts else 0
-    
-    # Get available versions
-    all_versions = set()
-    for model_data in data.values():
-        all_versions.update(model_data.keys())
-    versions = sorted(list(all_versions))
-    version_positions = {version: idx for idx, version in enumerate(versions)}
-    xtick_positions = list(version_positions.values())
 
-    def plot_metric(ax, metric, marker, title, ylabel, ylim=(0, 1.0)):
-        for model, model_data in data.items():
-            plotted_versions = []
-            x_vals = []
-            y_vals = []
-            range_bounds = []
+    models = model_keys_in_data(data)
+    n_models = len(models)
+    # Bars within a position group: total width ~0.8, split evenly across models.
+    group_width = 0.8
+    bar_width = group_width / max(n_models, 1)
 
-            for version in versions:
-                if version not in model_data:
+    def plot_metric(ax, metric, title, ylabel, ylim=(0, 1.04)):
+        x_positions = np.arange(len(XAXIS_ORDER))
+
+        for pos_idx, (version, split) in enumerate(XAXIS_ORDER):
+            shade_key = 'dark' if pos_idx == 2 else 'light'
+            for i, model in enumerate(models):
+                model_data = data[model]
+                if version not in model_data or split not in model_data[version]:
                     continue
-                median, (lower, upper) = get_metric_summary(model_data[version], metric)
+                split_data = model_data[version][split]
+                median, (lower, upper) = get_metric_summary(split_data, metric)
                 if median is None:
                     continue
-                plotted_versions.append(version)
-                x_vals.append(version_positions[version])
-                y_vals.append(median)
-                range_bounds.append((lower, upper))
 
-            if not x_vals:
-                continue
+                pair = model_color_pairs.get(model)
+                color = pair[shade_key] if pair else 'gray'
+                # Center the cluster of model bars around the position tick.
+                offset = (i - (n_models - 1) / 2) * bar_width
+                bar_x = pos_idx + offset
 
-            color = model_colors.get(model, 'gray')
-            legend_label = f"{model} (R = {replication_counts.get(model, 0)})"
-            ax.plot(x_vals, y_vals, marker=marker, linewidth=2.5, markersize=8,
-                    label=legend_label, color=color)
-            
-            # always put legend in the bottom right
-            
+                ax.bar(bar_x, median, width=bar_width, color=color,
+                       edgecolor='black', linewidth=0.6, zorder=2)
 
-            for xv, (lower, upper), version in zip(x_vals, range_bounds, plotted_versions):
-                if lower is None or upper is None:
-                    continue
-                if should_include_range(model, model_data[version]):
-                    ax.vlines(xv, lower, upper, color=color, alpha=0.35, linewidth=6)
-                    ax.scatter([xv, xv], [lower, upper], color=color, alpha=1, s=50, marker='_')
+                # Error bars for multi-trial test-set
+                if pos_idx == 2 and should_include_range(model, split_data, "test-set"):
+                    if lower is not None and upper is not None and lower != upper:
+                        ax.errorbar(bar_x, median,
+                                    yerr=[[median - lower], [upper - median]],
+                                    fmt='none', color='black',
+                                    capsize=3, linewidth=1.2, zorder=3)
 
-        ax.set_title(title, fontsize=20, fontweight='bold')
-        ax.set_xlabel('Prompt Version', fontsize=16)
+        # Extra title pad reserves space for the horizontal legend below the title.
+        ax.set_title(title, fontsize=20, fontweight='bold', pad=32)
+        ax.set_xlabel('Evaluation Set and Prompt Version', fontsize=16)
         ax.set_ylabel(ylabel, fontsize=16)
-        ax.set_xticks(xtick_positions)
-        ax.set_xticklabels(versions, fontsize=14)
+        ax.set_xticks(x_positions)
+        ax.set_xticklabels(XAXIS_LABELS, fontsize=13)
         if ylim:
             ax.set_ylim(*ylim)
-        handles, labels = ax.get_legend_handles_labels()
-        if handles:
-            ax.legend(loc='best', fontsize=14)
-        ax.grid(True, alpha=0.3)
-        ax.tick_params(axis='both', which='major', labelsize=14)
-    
-    # Plot A: Sensitivity across prompts
-    ax1 = axes[0, 0]
-    plot_metric(ax1, 'sensitivity', '.', 'A. Sensitivity (Recall)', 'Sensitivity', ylim=(0, 1.0))
-    
-    # Plot B: Specificity across prompts
-    ax2 = axes[0, 1]
-    plot_metric(ax2, 'specificity', '.', 'B. Specificity', 'Specificity', ylim=(0, 1.0))
-    
-    # Plot C: Precision across prompts
-    ax3 = axes[1, 0]
-    plot_metric(ax3, 'precision', '.', 'C. Precision', 'Precision', ylim=(0, 1.0))
-    
-    # Plot D: Accuracy across prompts
-    ax4 = axes[1, 1]
-    plot_metric(ax4, 'accuracy', '.', 'D. Accuracy', 'Accuracy', ylim=(0, 1.0))
-    
-    # Plot E: F1 Score across prompts
-    ax5 = axes[2, 0]
-    plot_metric(ax5, 'f1_score', '.', 'E. F1 Score', 'F1 Score', ylim=(0, 1.0))
+        ax.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
+        ax.grid(True, alpha=0.3, axis='y')
+        ax.set_axisbelow(True)
+        ax.tick_params(axis='both', which='major', labelsize=12)
 
-    # Plot F: ROC-like plot (Sensitivity vs Specificity)
+        legend_handles = [
+            Patch(facecolor=model_colors.get(model, 'gray'),
+                  edgecolor='black', linewidth=0.6, label=model)
+            for model in models
+        ]
+        ax.legend(handles=legend_handles, loc='lower center',
+                  bbox_to_anchor=(0.5, 1.0), ncol=len(legend_handles),
+                  frameon=False, fontsize=11, handlelength=1.4,
+                  columnspacing=1.2, borderaxespad=0.2)
+
+    plot_metric(axes[0, 0], 'sensitivity', 'A. Sensitivity', 'Sensitivity')
+    plot_metric(axes[0, 1], 'specificity', 'B. Specificity', 'Specificity')
+    plot_metric(axes[1, 0], 'precision', 'C. Precision', 'Precision')
+    plot_metric(axes[1, 1], 'accuracy', 'D. Accuracy', 'Accuracy')
+    plot_metric(axes[2, 0], 'f1_score', 'E. F1 Score', 'F1 Score')
+
+    # Plot F: ROC space — 3-point trajectory per model
     ax6 = axes[2, 1]
     for model, model_data in data.items():
-        sens_vals = []
-        spec_vals = []
-        version_labels = []
+        color = model_colors.get(model, 'gray')
+        legend_label = f"{model}"
 
-        for v in versions:
-            if v not in model_data:
+        roc_points = []
+        for pos_idx, (version, split) in enumerate(XAXIS_ORDER):
+            if version not in model_data or split not in model_data[version]:
                 continue
-            sens_median, (sens_low, sens_high) = get_metric_summary(model_data[v], 'sensitivity')
-            spec_median, (spec_low, spec_high) = get_metric_summary(model_data[v], 'specificity')
+            split_data = model_data[version][split]
+            sens_median, (sens_low, sens_high) = get_metric_summary(split_data, 'sensitivity')
+            spec_median, (spec_low, spec_high) = get_metric_summary(split_data, 'specificity')
             if sens_median is None or spec_median is None:
                 continue
-            sens_vals.append((sens_median, sens_low, sens_high))
-            spec_vals.append((spec_median, spec_low, spec_high))
-            version_labels.append(v)
+            fpr = 1 - spec_median
+            fpr_low = (1 - spec_high) if spec_high is not None else fpr
+            fpr_high = (1 - spec_low) if spec_low is not None else fpr
+            roc_points.append({
+                'pos_idx': pos_idx,
+                'version': version,
+                'split': split,
+                'fpr': fpr,
+                'sens': sens_median,
+                'fpr_low': fpr_low,
+                'fpr_high': fpr_high,
+                'sens_low': sens_low,
+                'sens_high': sens_high,
+                'split_data': split_data,
+            })
 
-        if sens_vals:  # Only plot if we have data
-            fpr_vals = []
-            sens_med_vals = []
-            fpr_range = []
-            sens_range = []
+        if not roc_points:
+            continue
 
-            for (spec_median, spec_low, spec_high), (sens_median, sens_low, sens_high) in zip(spec_vals, sens_vals):
-                fpr = 1 - spec_median
-                fpr_vals.append(fpr)
-                sens_med_vals.append(sens_median)
+        for p in roc_points:
+            if p['split'] != 'test-set':
+                continue
 
-                if spec_low is None or spec_high is None:
-                    fpr_range.append((fpr, fpr))
-                else:
-                    fpr_range.append((1 - spec_high, 1 - spec_low))
-                if sens_low is None or sens_high is None:
-                    sens_range.append((sens_median, sens_median))
-                else:
-                    sens_range.append((sens_low, sens_high))
+            # v2 test: solid square, with error cross for multi-trial models
+            ax6.scatter([p['fpr']], [p['sens']], s=120, marker='s',
+                        facecolors=color, edgecolors=color, linewidths=2.0,
+                        label=legend_label)
+            if should_include_range(model, p['split_data'], 'test-set'):
+                if p['fpr_low'] is not None and p['fpr_high'] is not None and p['fpr_low'] != p['fpr_high']:
+                    ax6.hlines(p['sens'], p['fpr_low'], p['fpr_high'],
+                               colors=color, alpha=0.35, linewidth=4)
+                if p['sens_low'] is not None and p['sens_high'] is not None and p['sens_low'] != p['sens_high']:
+                    ax6.vlines(p['fpr'], p['sens_low'], p['sens_high'],
+                               colors=color, alpha=0.35, linewidth=4)
 
-            color = model_colors.get(model, 'gray')
-            legend_label = f"{model} (R = {replication_counts.get(model, 0)})"
-
-            # Separate points: v3 filled, others hollow
-            mask_v3 = [v == 'v3' for v in version_labels]
-            x_v3 = [x for x, m in zip(fpr_vals, mask_v3) if m]
-            y_v3 = [y for y, m in zip(sens_med_vals, mask_v3) if m]
-            x_other = [x for x, m in zip(fpr_vals, mask_v3) if not m]
-            y_other = [y for y, m in zip(sens_med_vals, mask_v3) if not m]
-
-            if x_other:
-                ax6.scatter(x_other, y_other, s=100, label=legend_label,
-                            facecolors='none', edgecolors=color, linewidths=2.0)
-            if x_v3:
-                ax6.scatter(x_v3, y_v3, s=100,
-                            facecolors=color, edgecolors=color, linewidths=1.5,
-                            label=legend_label if not x_other else None)
-
-            ax6.plot(fpr_vals, sens_med_vals, '--', alpha=0.5, color=color)
-
-            for fpr, sens, version, (fpr_low, fpr_high), (sens_low, sens_high) in zip(
-                fpr_vals, sens_med_vals, version_labels, fpr_range, sens_range
-            ):
-                #ax6.annotate(version, (fpr, sens), xytext=(5, 5), textcoords='offset points',
-                             #fontsize=12, alpha=0.8)
-                if should_include_range(model, model_data[version]):
-                    if fpr_low is not None and fpr_high is not None:
-                        ax6.hlines(sens, fpr_low, fpr_high, colors=color, alpha=0.35, linewidth=4)
-                    if sens_low is not None and sens_high is not None:
-                        ax6.vlines(fpr, sens_low, sens_high, colors=color, alpha=0.35, linewidth=4)
-
-    ax6.set_title('F. ROC Space (Sensitivity vs 1-Specificity)', fontsize=20, fontweight='bold')
-    ax6.set_xlabel('1 - Specificity (False Positive Rate)', fontsize=16)
-    ax6.set_ylabel('Sensitivity (True Positive Rate)', fontsize=16)
-    ax6.set_xlim(0, 1.0)
-    ax6.set_ylim(0, 1.0)
-    handles, labels = ax6.get_legend_handles_labels()
-    if handles:
-        ax6.legend(loc='lower right', fontsize=14)
+    ax6.set_title('F. ROC Space',
+                  fontsize=20, fontweight='bold', pad=32)
+    ax6.set_xlabel('1 - Specificity', fontsize=16)
+    ax6.set_ylabel('Sensitivity', fontsize=16)
+    ax6.set_xlim(0, 1.04)
+    ax6.set_ylim(0, 1.04)
+    ax6.set_xticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
+    ax6.set_yticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     ax6.grid(True, alpha=0.3)
     ax6.tick_params(axis='both', which='major', labelsize=14)
-
-    # Add diagonal line for reference
     ax6.plot([0, 1], [0, 1], 'k--', alpha=0.3, linewidth=1)
 
-    plt.tight_layout()
+    handles, labels = ax6.get_legend_handles_labels()
+    if handles:
+        model_legend = ax6.legend(handles=handles, loc='lower center',
+                                  bbox_to_anchor=(0.5, 1.0), ncol=len(handles),
+                                  frameon=False, fontsize=11, handlelength=1.4,
+                                  columnspacing=1.2, borderaxespad=0.2)
+        ax6.add_artist(model_legend)
+
     return fig
 
 def create_confusion_matrix_plots_by_version(data):
-    """Create confusion matrix visualizations for each version"""
-    
-    # Get available versions
-    all_versions = set()
-    for model_data in data.values():
-        all_versions.update(model_data.keys())
-    versions = sorted(list(all_versions))
-    
+    """Create confusion matrix visualizations for each (version, split) position."""
     figures = {}
-    
-    for version in versions:
-        models_in_version = [model for model, model_data in data.items() if version in model_data]
-        if not models_in_version:
+
+    def add_heatmap_with_cbar_axes(fig, gridspec_cell):
+        nested_gs = gridspec_cell.subgridspec(
+            1, 2, width_ratios=[24, 1], wspace=0.06
+        )
+        return fig.add_subplot(nested_gs[0, 0]), fig.add_subplot(nested_gs[0, 1])
+
+    for version, split in XAXIS_ORDER:
+        key = f"{version}-{'dev' if split == 'prompt-set' else 'test'}"
+        models_here = [
+            model
+            for model in model_keys_in_data(data)
+            if version in data[model] and split in data[model][version]
+        ]
+        if not models_here:
             continue
 
-        n_models = len(models_in_version)
-        
-        # Determine subplot layout
-        if n_models <= 2:
-            rows, cols = 1, n_models
-            figsize = (16, 5)
+        n_models = len(models_here)
+        if n_models == 5:
+            fig = plt.figure(figsize=(16, 18), constrained_layout=True)
+            gs = fig.add_gridspec(3, 2)
+            bottom_gs = gs[2, :].subgridspec(1, 3, width_ratios=[1, 2, 1])
+            panel_cells = [gs[0, 0], gs[0, 1], gs[1, 0], gs[1, 1], bottom_gs[0, 1]]
         else:
-            rows, cols = 2, (n_models + 1) // 2
-            figsize = (16, 10)
-        
-        if n_models == 0: continue
+            rows = 1 if n_models <= 2 else 2
+            cols = n_models if n_models <= 2 else (n_models + 1) // 2
+            figsize = (16, 5) if n_models <= 2 else (16, 10)
+            fig = plt.figure(figsize=figsize, constrained_layout=True)
+            gs = fig.add_gridspec(rows, cols)
+            panel_cells = [gs[row, col] for row in range(rows) for col in range(cols)]
 
-        fig, axes = plt.subplots(rows, cols, figsize=figsize, squeeze=False)
-        axes = axes.flatten()
-        
-        fig.suptitle(f'Confusion Matrices by Model for GEO Dataset Screening', 
+        axes = []
+        cbar_axes = []
+        for cell in panel_cells:
+            ax, cbar_ax = add_heatmap_with_cbar_axes(fig, cell)
+            axes.append(ax)
+            cbar_axes.append(cbar_ax)
+
+        split_label = 'Prompt Development' if split == 'prompt-set' else 'Held-Out Test'
+        fig.suptitle(f'GEO: Confusion Matrices — {version} ({split_label})',
                      fontsize=24, fontweight='bold')
-        
-        for idx, model in enumerate(models_in_version):
-            version_data = data[model][version]
-            trial_count = version_data.get("trial_count", 1)
-            include_range = trial_count > 1
 
-            # Get median values for display
-            median_summary = version_data.get("summary", {}).get("median", {})
+        for idx, model in enumerate(models_here):
+            split_data = data[model][version][split]
+            trial_count = split_data.get("trial_count", 1)
+            include_range = should_include_range(model, split_data, split)
+
+            median_summary = split_data.get("summary", {}).get("median", {})
             tn_med = median_summary.get('true_negative')
             fp_med = median_summary.get('false_positive')
             fn_med = median_summary.get('false_negative')
             tp_med = median_summary.get('true_positive')
 
             if None in {tn_med, fp_med, fn_med, tp_med}:
-                axes[idx].set_title(f'{model} ({version})\nData Missing', fontsize=16)
+                axes[idx].set_title(f'{model} — Data Missing', fontsize=16)
                 axes[idx].set_visible(False)
                 continue
 
             cm_display = np.round([[tn_med, fp_med], [fn_med, tp_med]]).astype(int)
-            
-            # Prepare annotations with ranges if applicable
-            annot_labels = np.full_like(cm_display, "", dtype=object)
-            range_summary = version_data.get("summary", {}).get("range", {})
 
+            annot_labels = np.full_like(cm_display, "", dtype=object)
+            range_summary = split_data.get("summary", {}).get("range", {})
             metrics_for_cm = [
                 ['true_negative', 'false_positive'],
                 ['false_negative', 'true_positive']
@@ -426,174 +450,140 @@ def create_confusion_matrix_plots_by_version(data):
             sns.heatmap(cm_display, annot=annot_labels, fmt='', cmap='Blues',
                         xticklabels=['Predicted Negative', 'Predicted Positive'],
                         yticklabels=['Actual Negative', 'Actual Positive'],
-                        ax=axes[idx], annot_kws={'size': 14, 'va': 'center'})
+                        ax=axes[idx], cbar_ax=cbar_axes[idx],
+                        annot_kws={'size': 24, 'va': 'center'}) # font size of the number in the confusion matrix
 
             axes[idx].tick_params(axis='both', which='major', labelsize=18)
+            axes[idx].set_title(f'{model} (n={trial_count})', fontsize=16, fontweight='bold')
 
-            axes[idx].set_title(f'{model} ({version}, n={trial_count})',
-                                fontsize=16, fontweight='bold')
-        
-        # Hide unused subplots
         for idx in range(n_models, len(axes)):
             axes[idx].set_visible(False)
-        
-        plt.tight_layout()
-        figures[version] = fig
-        
+            cbar_axes[idx].set_visible(False)
+
+        figures[key] = fig
+
     return figures
 
 def create_summary_table(data):
-    """Create a comprehensive summary table and return as a pandas DataFrame.
-
-    The table is returned so callers can save or print it. This function intentionally
-    avoids any interactive plotting libraries and focuses on tabular output.
-    """
-    # Prepare data for table
+    """Create a comprehensive summary table and return as a pandas DataFrame."""
     rows = []
-    for model in sorted(data.keys()):
+    for model in model_keys_in_data(data):
         for version in sorted(data[model].keys()):
-            version_data = data[model][version]
-            summary = version_data.get("summary", {})
-            trials = version_data.get("trial_count", 1)
-            include_range = should_include_range(model, version_data)
+            for split in sorted(data[model][version].keys()):
+                version_data = data[model][version][split]
+                summary = version_data.get("summary", {})
+                trials = version_data.get("trial_count", 1)
+                include_range = should_include_range(model, version_data, split)
 
-            row = [
-                model,
-                version,
-                trials,
-                format_metric_value(summary, 'sensitivity', include_range, METRIC_DECIMALS['sensitivity']),
-                format_metric_value(summary, 'specificity', include_range, METRIC_DECIMALS['specificity']),
-                format_metric_value(summary, 'precision', include_range, METRIC_DECIMALS['precision']),
-                format_metric_value(summary, 'accuracy', include_range, METRIC_DECIMALS['accuracy']),
-                format_metric_value(summary, 'f1_score', include_range, METRIC_DECIMALS['f1_score']),
-                format_metric_value(summary, 'true_positive', include_range, METRIC_DECIMALS['true_positive']),
-                format_metric_value(summary, 'false_positive', include_range, METRIC_DECIMALS['false_positive']),
-                format_metric_value(summary, 'true_negative', include_range, METRIC_DECIMALS['true_negative']),
-                format_metric_value(summary, 'false_negative', include_range, METRIC_DECIMALS['false_negative'])
-            ]
-            rows.append([str(item) for item in row])
+                row = [
+                    model,
+                    version,
+                    split,
+                    trials,
+                    format_metric_value(summary, 'sensitivity', include_range, METRIC_DECIMALS['sensitivity']),
+                    format_metric_value(summary, 'specificity', include_range, METRIC_DECIMALS['specificity']),
+                    format_metric_value(summary, 'precision', include_range, METRIC_DECIMALS['precision']),
+                    format_metric_value(summary, 'accuracy', include_range, METRIC_DECIMALS['accuracy']),
+                    format_metric_value(summary, 'f1_score', include_range, METRIC_DECIMALS['f1_score']),
+                    format_metric_value(summary, 'true_positive', include_range, METRIC_DECIMALS['true_positive']),
+                    format_metric_value(summary, 'false_positive', include_range, METRIC_DECIMALS['false_positive']),
+                    format_metric_value(summary, 'true_negative', include_range, METRIC_DECIMALS['true_negative']),
+                    format_metric_value(summary, 'false_negative', include_range, METRIC_DECIMALS['false_negative'])
+                ]
+                rows.append([str(item) for item in row])
 
-    col_labels = ['Model', 'Version', 'Trials', 'Sensitivity', 'Specificity',
+    col_labels = ['Model', 'Version', 'Split', 'Trials', 'Sensitivity', 'Specificity',
                   'Precision', 'Accuracy', 'F1 Score', 'TP', 'FP', 'TN', 'FN']
 
     if not rows:
-        # Return an empty DataFrame with the expected columns
         return pd.DataFrame(columns=col_labels)
 
     df = pd.DataFrame(rows, columns=col_labels)
     return df
 
 def create_heatmap(data):
-    """Create heatmap showing performance across models and versions - split into 3 files"""
-    # Prepare data for heatmaps
-    models = list(data.keys())
-    all_versions = set()
-    for model_data in data.values():
-        all_versions.update(model_data.keys())
-    versions = sorted(list(all_versions))
-    
+    """Single figure: 5 metric heatmaps arranged 2, 2, 1 (F1 centered on row 3)."""
+    models = model_keys_in_data(data)
+    col_labels_display = [
+        f"v1\n(dev)",
+        f"v2\n(dev)",
+        f"v2\n(test)",
+    ]
+
     metrics = ['sensitivity', 'specificity', 'precision', 'accuracy', 'f1_score']
     titles = ['Sensitivity', 'Specificity', 'Precision', 'Accuracy', 'F1 Score']
-    
-    figures = []
-    
-    # Create 3 figures with 2 heatmaps each (except last one might have 1)
-    for fig_idx in range(3):
-        start_idx = fig_idx * 2
-        end_idx = min(start_idx + 2, len(metrics))
-        
-        if start_idx >= len(metrics):
-            break
-            
-        # Determine subplot layout
-        n_plots = end_idx - start_idx
-        if n_plots == 2:
-            fig, axes = plt.subplots(1, 2, figsize=(16, 6))
-        else:
-            fig, axes = plt.subplots(1, 1, figsize=(8, 6))
-            axes = [axes]
-        
-        for plot_idx, metric_idx in enumerate(range(start_idx, end_idx)):
-            metric = metrics[metric_idx]
-            title = titles[metric_idx]
-            
-            # Create matrix for heatmap
-            matrix = np.full((len(models), len(versions)), np.nan)
-            for i, model in enumerate(models):
-                for j, version in enumerate(versions):
-                    if version in data[model]:
-                        summary = data[model][version].get("summary", {})
-                        value = summary.get("median", {}).get(metric)
-                        if value is not None:
-                            matrix[i, j] = value
-            
-            # Create heatmap with larger fonts
-            mask = np.isnan(matrix)
-            sns.heatmap(matrix, annot=True, fmt='.3f', cmap='RdYlGn', 
-                       xticklabels=versions, yticklabels=models,
-                       ax=axes[plot_idx], cbar_kws={'label': title},
-                       mask=mask, annot_kws={'size': 12})
-            
-            axes[plot_idx].set_title(f'{title}', fontsize=20, fontweight='bold')
-            axes[plot_idx].set_xlabel('Prompt Version', fontsize=14)
-            axes[plot_idx].set_ylabel('Model', fontsize=14)
-            
-            # Increase tick label sizes
-            axes[plot_idx].tick_params(axis='both', which='major', labelsize=12)
-            
-            # Increase colorbar label size
-            cbar = axes[plot_idx].collections[0].colorbar
-            cbar.ax.tick_params(labelsize=12)
-            cbar.set_label(title, fontsize=14)
-        
-        # Only add title to the first figure
-        if fig_idx == 0:
-            plt.suptitle('LLM Performance Heatmap Across Prompt Versions for GEO Dataset Screening', 
-                         fontsize=20, fontweight='bold')
-        
-        plt.tight_layout()
-        figures.append(fig)
-    
-    return figures
+
+    fig = plt.figure(figsize=(14, 18), constrained_layout=True)
+    gs = fig.add_gridspec(3, 2)
+    bottom_gs = gs[2, :].subgridspec(1, 3, width_ratios=[1, 2, 1])
+    panel_cells = [gs[0, 0], gs[0, 1], gs[1, 0], gs[1, 1], bottom_gs[0, 1]]
+    axes = []
+    cbar_axes = []
+    for cell in panel_cells:
+        nested_gs = cell.subgridspec(1, 2, width_ratios=[24, 1], wspace=0.06)
+        axes.append(fig.add_subplot(nested_gs[0, 0]))
+        cbar_axes.append(fig.add_subplot(nested_gs[0, 1]))
+
+    for ax, cbar_ax, metric, title in zip(axes, cbar_axes, metrics, titles):
+        matrix = np.full((len(models), len(XAXIS_ORDER)), np.nan)
+        for i, model in enumerate(models):
+            for j, (version, split) in enumerate(XAXIS_ORDER):
+                if version in data[model] and split in data[model][version]:
+                    summary = data[model][version][split].get("summary", {})
+                    value = summary.get("median", {}).get(metric)
+                    if value is not None:
+                        matrix[i, j] = value
+
+        sns.heatmap(matrix, annot=True, fmt='.3f', cmap='RdYlGn',
+                    xticklabels=col_labels_display, yticklabels=models,
+                    ax=ax, cbar_ax=cbar_ax, cbar_kws={'label': title},
+                    mask=np.isnan(matrix), annot_kws={'size': 12})
+
+        ax.set_title(title, fontsize=20, fontweight='bold')
+        ax.set_xlabel('Prompt Version / Evaluation Set', fontsize=14)
+        ax.set_ylabel('Model', fontsize=14)
+        ax.tick_params(axis='both', which='major', labelsize=12)
+        cbar = ax.collections[0].colorbar
+        cbar.ax.tick_params(labelsize=12)
+        cbar.set_label(title, fontsize=14)
+
+    fig.suptitle('LLM Performance Heatmap for GEO Dataset Screening',
+                 fontsize=20, fontweight='bold')
+    return [fig]
 
 def print_insights(data, metadata):
-    """Print key insights from the analysis"""
+    """Print key insights from the analysis."""
     print("\n" + "="*60)
     print("KEY INSIGHTS:")
     print("="*60)
-    
-    # Best performing model-version combinations
+
     all_combinations = []
     for model, versions in data.items():
-        for version, version_data in versions.items():
-            medians = version_data.get("summary", {}).get("median", {})
-            if not medians:
-                continue
-            all_combinations.append((model, version, medians))
-    
-    if all_combinations:
-        best_sensitivity = max(
-            all_combinations, key=lambda x: x[2].get('sensitivity', float('-inf'))
-        )
-        best_specificity = max(
-            all_combinations, key=lambda x: x[2].get('specificity', float('-inf'))
-        )
-        best_f1 = max(
-            all_combinations, key=lambda x: x[2].get('f1_score', float('-inf'))
-        )
-        best_accuracy = max(
-            all_combinations, key=lambda x: x[2].get('accuracy', float('-inf'))
-        )
+        for version, splits in versions.items():
+            for split, split_data in splits.items():
+                medians = split_data.get("summary", {}).get("median", {})
+                if not medians:
+                    continue
+                all_combinations.append((model, version, split, medians))
 
-        print(f"Best Sensitivity: {best_sensitivity[0]} {best_sensitivity[1]} ({best_sensitivity[2].get('sensitivity', 0):.3f})")
-        print(f"Best Specificity: {best_specificity[0]} {best_specificity[1]} ({best_specificity[2].get('specificity', 0):.3f})")
-        print(f"Best F1 Score: {best_f1[0]} {best_f1[1]} ({best_f1[2].get('f1_score', 0):.3f})")
-        print(f"Best Accuracy: {best_accuracy[0]} {best_accuracy[1]} ({best_accuracy[2].get('accuracy', 0):.3f})")
-    else:
-        print("No metrics available to compute insights.")
-    
-    # Version progression analysis
-    print("\nVERSION PROGRESSION ANALYSIS:")
+    for target_split in ['prompt-set', 'test-set']:
+        subset = [(m, v, s, metrics) for m, v, s, metrics in all_combinations if s == target_split]
+        if not subset:
+            continue
+        split_label = 'Prompt-set (dev)' if target_split == 'prompt-set' else 'Test-set (held-out)'
+        print(f"\n{split_label}:")
+
+        best_sensitivity = max(subset, key=lambda x: x[3].get('sensitivity', float('-inf')))
+        best_specificity = max(subset, key=lambda x: x[3].get('specificity', float('-inf')))
+        best_f1 = max(subset, key=lambda x: x[3].get('f1_score', float('-inf')))
+        best_accuracy = max(subset, key=lambda x: x[3].get('accuracy', float('-inf')))
+
+        print(f"  Best Sensitivity: {best_sensitivity[0]} {best_sensitivity[1]} ({best_sensitivity[3].get('sensitivity', 0):.3f})")
+        print(f"  Best Specificity: {best_specificity[0]} {best_specificity[1]} ({best_specificity[3].get('specificity', 0):.3f})")
+        print(f"  Best F1 Score:    {best_f1[0]} {best_f1[1]} ({best_f1[3].get('f1_score', 0):.3f})")
+        print(f"  Best Accuracy:    {best_accuracy[0]} {best_accuracy[1]} ({best_accuracy[3].get('accuracy', 0):.3f})")
+
+    print("\nVERSION PROGRESSION (prompt-set, v1 → v2):")
     for model, versions_data in data.items():
         versions = sorted(versions_data.keys())
         if len(versions) > 1:
@@ -601,76 +591,79 @@ def print_insights(data, metadata):
             for i in range(1, len(versions)):
                 prev_v = versions[i-1]
                 curr_v = versions[i]
-                
-                curr_summary = versions_data[curr_v].get("summary", {}).get("median", {})
-                prev_summary = versions_data[prev_v].get("summary", {}).get("median", {})
-
+                prev_summary = versions_data[prev_v].get('prompt-set', {}).get("summary", {}).get("median", {})
+                curr_summary = versions_data[curr_v].get('prompt-set', {}).get("summary", {}).get("median", {})
                 f1_change = curr_summary.get('f1_score', 0) - prev_summary.get('f1_score', 0)
                 sens_change = curr_summary.get('sensitivity', 0) - prev_summary.get('sensitivity', 0)
                 spec_change = curr_summary.get('specificity', 0) - prev_summary.get('specificity', 0)
-                
                 print(f"  {prev_v} → {curr_v}: F1 {f1_change:+.3f}, Sens {sens_change:+.3f}, Spec {spec_change:+.3f}")
+
+    print("\nGENERALIZATION GAP (v2 dev → v2 test):")
+    for model, versions_data in data.items():
+        v2_dev = versions_data.get('v2', {}).get('prompt-set', {})
+        v2_test = versions_data.get('v2', {}).get('test-set', {})
+        if not v2_dev or not v2_test:
+            continue
+        dev_medians = v2_dev.get('summary', {}).get('median', {})
+        test_medians = v2_test.get('summary', {}).get('median', {})
+        f1_gap = test_medians.get('f1_score', 0) - dev_medians.get('f1_score', 0)
+        sens_gap = test_medians.get('sensitivity', 0) - dev_medians.get('sensitivity', 0)
+        spec_gap = test_medians.get('specificity', 0) - dev_medians.get('specificity', 0)
+        trial_count = v2_test.get('trial_count', 1)
+        trial_note = f" (n={trial_count} seeds)" if trial_count > 1 else ""
+        print(f"  {model}{trial_note}: F1 {f1_gap:+.3f}, Sens {sens_gap:+.3f}, Spec {spec_gap:+.3f}")
 
 def main():
     """Main function to run all visualizations"""
-    # Load results
     results_data = load_results()
     if not results_data:
         return
-    
-    # Process data
+
     data = process_data(results_data)
     if not data:
         print("❌ No data to plot")
         return
-    
+
     print(f"📊 Found data for models: {list(data.keys())}")
-    
-    # Create timestamp for file naming
+
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    
-    # Create and save all plots
+
     print("🎨 Creating visualizations...")
-    
+
     # 1. Main performance plot
     fig1 = create_publication_plot(data, results_data['metadata'])
-    fig1.savefig(f'GEO_LLM_model_performance_{timestamp}.png', dpi=300, bbox_inches='tight', 
+    fig1.savefig(f'GEO_LLM_model_performance_{timestamp}.png', dpi=600, bbox_inches='tight',
                 facecolor='white', edgecolor='none')
-    fig1.savefig(f'GEO_LLM_model_performance_{timestamp}.pdf', bbox_inches='tight', 
+    fig1.savefig(f'GEO_LLM_model_performance_{timestamp}.pdf', bbox_inches='tight',
                 facecolor='white', edgecolor='none')
-    
-    # 2. Confusion matrices by version
+
+    # 2. Confusion matrices per (version, split)
     cm_figs = create_confusion_matrix_plots_by_version(data)
-    for version, fig in cm_figs.items():
-        fig.savefig(f'GEO_LLM_confusion_matrices_{version}_{timestamp}.png', dpi=300, bbox_inches='tight',
+    for key, fig in cm_figs.items():
+        fig.savefig(f'GEO_LLM_confusion_matrices_{key}_{timestamp}.png', dpi=600, bbox_inches='tight',
                     facecolor='white', edgecolor='none')
-    
-    # 3. Summary table (CSV printed to terminal)
+
+    # 3. Summary table
     df_summary = create_summary_table(data)
     csv_filename = f'GEO_LLM_performance_summary_table_{timestamp}.csv'
     df_summary.to_csv(csv_filename, index=False)
-    # Print CSV to terminal
     print('\n--- Summary table (CSV) ---\n')
     df_summary.to_csv(sys.stdout, index=False)
-    
-    # 4. Heatmaps (multiple figures)
+
+    # 4. Heatmap (single merged figure)
     heatmap_figs = create_heatmap(data)
-    for i, fig in enumerate(heatmap_figs, 1):
-        fig.savefig(f'GEO_LLM_performance_heatmap_part{i}_{timestamp}.png', dpi=300, bbox_inches='tight',
-                    facecolor='white', edgecolor='none')
-    
+    heatmap_figs[0].savefig(f'GEO_LLM_performance_heatmap_{timestamp}.png', dpi=600, bbox_inches='tight',
+                            facecolor='white', edgecolor='none')
+
     plt.show()
-    
-    print(f"\n📈 Publication-quality plots saved with timestamp {timestamp}:")
-    print(f"1. GEO_LLM_model_performance_{timestamp}.png/pdf - Main figure with 4 subplots")
-    for version in cm_figs.keys():
-        print(f"2. GEO_LLM_confusion_matrices_{version}_{timestamp}.png - Confusion matrices for {version}")
-    print(f"3. GEO_LLM_performance_summary_table_{timestamp}.csv - Comprehensive summary table (CSV)")
-    print(f"4. GEO_LLM_performance_heatmap_part1_{timestamp}.png - Performance heatmap (Sensitivity & Specificity)")
-    print(f"5. GEO_LLM_performance_heatmap_part2_{timestamp}.png - Performance heatmap (Precision & Accuracy)")
-    print(f"6. GEO_LLM_performance_heatmap_part3_{timestamp}.png - Performance heatmap (F1 Score)")
-    
-    # Print insights
+
+    print(f"\n📈 Plots saved with timestamp {timestamp}:")
+    print(f"1. GEO_LLM_model_performance_{timestamp}.png/pdf")
+    for key in cm_figs.keys():
+        print(f"2. GEO_LLM_confusion_matrices_{key}_{timestamp}.png")
+    print(f"3. {csv_filename}")
+    print(f"4. GEO_LLM_performance_heatmap_{timestamp}.png")
+
     print_insights(data, results_data['metadata'])
 
 if __name__ == "__main__":

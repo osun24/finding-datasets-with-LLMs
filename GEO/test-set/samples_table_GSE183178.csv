@@ -1,0 +1,5 @@
+# TITLE: Identification of Wnt target genes associated with malignant phenotypes in CTNNB1-mutated NSCLC
+# SUMMARY: Microarray analysis comparing the expression profiles of siRNA-mediated CTNNB1-silenced and CTNNB1-retained HCC15 cells harboring a homozygous CTNNB1 S45F mutation revealed that besides several known Wnt genes, LGR6 was significantly downregulated by CTNNB1 knockdown in HCC15 cells.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Histology,GPL570_Subtype,GPL570_Treatment,GPL570_Cell line
+-,GSM5552499,HCC15-Tax,HCC15 treated with control siRNA,Lung cancer cell line,Squamous,control siRNA,HCC15
+-,GSM5552500,HCC15-CTNNB1,HCC15 treated with CTNNB1 siRNA,Lung cancer cell line,Squamous,CTNNB1 siRNA,HCC15

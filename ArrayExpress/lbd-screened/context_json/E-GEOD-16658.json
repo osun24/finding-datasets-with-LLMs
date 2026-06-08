@@ -1,0 +1,99 @@
+{
+  "Accession": "E-GEOD-16658",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "64"
+    ]
+  },
+  "Description": "To investigate the role of miRNAs in the etiology of idiopathic PD, we conducted global miRNA expression profiling in peripheral blood mononuclear cells (PBMCs) of PD patients and controls. Total RNA was extracted from the PBMCs of 19 PD patients and 13 controls, labeled and hybridized to Exiqon microarrays spotted with probes for 733 human miRNAs.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {
+        "DISEASE STATE": [
+          "not specified",
+          "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)",
+          "parkinson´s disease patient (with tremor and bradykinesia)",
+          "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)",
+          "parkinson´s disease patient (with tremor, bradykinesia, and postural disturbance)",
+          "parkinson´s disease patient (with rigidity and bradykinesia)",
+          "parkinson´s disease patient (with tremor and rigidity)",
+          "parkinson´s disease patient (with tremor, rigidity, and postural disturbance)",
+          "parkinson´s disease patient (with rigidity and postural disturbance)",
+          "parkinson´s disease patient (with tremor, rigidity, bradykinesia, and postural disturbance)",
+          "unaffected with parkinson´s disease"
+        ],
+        "Disease state": [
+          "not specified",
+          "parkinson´s disease patient (with tremor, rigidity, bradykinesia, and postural disturbance)",
+          "parkinson´s disease patient (with tremor, bradykinesia, and postural disturbance)",
+          "unaffected with parkinson´s disease",
+          "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)",
+          "parkinson´s disease patient (with rigidity and postural disturbance)",
+          "parkinson´s disease patient (with rigidity and bradykinesia)",
+          "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)",
+          "parkinson´s disease patient (with tremor and bradykinesia)",
+          "parkinson´s disease patient (with tremor and rigidity)",
+          "parkinson´s disease patient (with tremor, rigidity, and postural disturbance)"
+        ],
+        "disease state": [
+          "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)",
+          "parkinson´s disease patient (with tremor and bradykinesia)",
+          "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)",
+          "parkinson´s disease patient (with tremor, bradykinesia, and postural disturbance)",
+          "parkinson´s disease patient (with rigidity and bradykinesia)",
+          "parkinson´s disease patient (with tremor and rigidity)",
+          "parkinson´s disease patient (with tremor, rigidity, and postural disturbance)",
+          "parkinson´s disease patient (with rigidity and postural disturbance)",
+          "parkinson´s disease patient (with tremor, rigidity, bradykinesia, and postural disturbance)",
+          "unaffected with parkinson´s disease"
+        ]
+      },
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {},
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "UPDRS SCORE",
+        "DISEASE STATE",
+        "AGE",
+        "SEX"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "not specified",
+        "parkinson´s disease patient (with tremor, rigidity, bradykinesia, and postural disturbance)",
+        "parkinson´s disease patient (with tremor, bradykinesia, and postural disturbance)",
+        "unaffected with parkinson´s disease",
+        "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)",
+        "parkinson´s disease patient (with rigidity and postural disturbance)",
+        "parkinson´s disease patient (with rigidity and bradykinesia)",
+        "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)",
+        "parkinson´s disease patient (with tremor and bradykinesia)",
+        "parkinson´s disease patient (with tremor and rigidity)",
+        "parkinson´s disease patient (with tremor, rigidity, and postural disturbance)"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "lbd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "microRNA (miRNA) expression profiling of PBMCs of Parkinson's disease (PD) patients and controls"
+}

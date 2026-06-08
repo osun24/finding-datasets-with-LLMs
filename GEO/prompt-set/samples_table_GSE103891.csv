@@ -1,0 +1,9 @@
+# TITLE: Expression data from Control or TRIB3-silenced A549 cells
+# SUMMARY: To determine the critical mediator of TRIB3-enhanced EGFR recycling, we examined the expression profile of genes that might regulate EGFR recycling by using mRNA microarrays. EGFR tyrosine kinase inhibitors (TKIs) confer first line therapy for patients with non-small-cell lung cancer (NSCLC). However, patients eventually develop disease progression, often driven by inevitable acquisition of EGFR TKI resistant mutations. Currently all EGFR TKIs repress NSCLC through inhibiting the kinase activity of EGFR signaling, highlighting the need for therapeutics with alternative mechanisms of action. Here we report that the elevated TRIB3 expression associates positively with EGFR stability and NSCLC progression. TRIB3 interacts with EGFR and recruits PKCα thereby enhances PKCα-induced T654 phosphorylation, which suppresses EGFR degradation and enhances membrane recycling, EGFR downstream signaling, and NSCLC stemness.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line,GPL16686_Cell type,GPL16686_Genotype/variation
+-,GSM2785669,A549 TRIB3-shRNA cells-1,A549 TRIB3-shRNA cells,A549,lung cancer cell line,stably expressing TRIB3-shRNA
+-,GSM2785670,A549 TRIB3-shRNA cells-2,A549 TRIB3-shRNA cells,A549,lung cancer cell line,stably expressing TRIB3-shRNA
+-,GSM2785671,A549 TRIB3-shRNA cells-3,A549 TRIB3-shRNA cells,A549,lung cancer cell line,stably expressing TRIB3-shRNA
+-,GSM2785672,A549 Control-shRNA cells-1,A549 Control-shRNA cells,A549,lung cancer cell line,stably expressing Control-shRNA
+-,GSM2785673,A549 Control-shRNA cells-2,A549 Control-shRNA cells,A549,lung cancer cell line,stably expressing Control-shRNA
+-,GSM2785674,A549 Control-shRNA cells-3,A549 Control-shRNA cells,A549,lung cancer cell line,stably expressing Control-shRNA

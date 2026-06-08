@@ -1,0 +1,30 @@
+# TITLE: Paradoxical drug sensitization of lung cancer cells by stromal fibroblast-secreted IGF-binding proteins
+# SUMMARY: Cells were grown to 80-90% confluency before RNA extraction. Microarray-measured basal gene expression was used to differentiate the various cell types, e.g., CAFs vs NAFs.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Cell type,GPL570_Cell type abbreviation,GPL570_Biological replicate,GPL570_Notes
+-,GSM5018082,CAF12_1,CAF12 lung cancer associated fibroblasts,CAF12,cancer associated fibroblasts,LC_CAF,1,
+-,GSM5018083,CAF12_2,CAF12 lung cancer associated fibroblasts,CAF12,cancer associated fibroblasts,LC_CAF,2,
+-,GSM5018084,CAF12_3,CAF12 lung cancer associated fibroblasts,CAF12,cancer associated fibroblasts,LC_CAF,3,
+-,GSM5018085,CAF7_1,CAF7 lung cancer associated fibroblasts,CAF7,cancer associated fibroblasts,LC_CAF,1,
+-,GSM5018086,CAF7_2,CAF7 lung cancer associated fibroblasts,CAF7,cancer associated fibroblasts,LC_CAF,2,
+-,GSM5018087,CAF7_3,CAF7 lung cancer associated fibroblasts,CAF7,cancer associated fibroblasts,LC_CAF,3,
+-,GSM5018088,H3122_1,H3122 non-small cell lung cancer cells,H3122,non-small cell lung cancer,NSCLC,1,
+-,GSM5018089,H3122_2,H3122 non-small cell lung cancer cells,H3122,non-small cell lung cancer,NSCLC,2,
+-,GSM5018090,H3122_3,H3122 non-small cell lung cancer cells,H3122,non-small cell lung cancer,NSCLC,3,
+-,GSM5018091,HS5_1,HS5 normal bone marrow associated fibroblasts,HS5,normal bone marrow associated fibroblasts,BM_NAF,1,
+-,GSM5018092,HS5_2,HS5 normal bone marrow associated fibroblasts,HS5,normal bone marrow associated fibroblasts,BM_NAF,2,
+-,GSM5018093,HS5_3,HS5 normal bone marrow associated fibroblasts,HS5,normal bone marrow associated fibroblasts,BM_NAF,3,
+-,GSM5018094,IMR90_1,IMR90 normal lung associated fibroblasts,IMR90,normal lung associated fibroblasts,LC_NAF,1,
+-,GSM5018095,IMR90_2,IMR90 normal lung associated fibroblasts,IMR90,normal lung associated fibroblasts,LC_NAF,2,
+-,GSM5018096,IMR90_3,IMR90 normal lung associated fibroblasts,IMR90,normal lung associated fibroblasts,LC_NAF,3,
+-,GSM5018097,MRC5_1,MRC5 normal lung associated fibroblasts,MRC5,normal lung associated fibroblasts,LC_NAF,1,
+-,GSM5018098,MRC5_2,MRC5 normal lung associated fibroblasts,MRC5,normal lung associated fibroblasts,LC_NAF,2,
+-,GSM5018099,MRC5_3,MRC5 normal lung associated fibroblasts,MRC5,normal lung associated fibroblasts,LC_NAF,3,
+-,GSM5018100,PC9_1,PC9 non-small cell lung cancer cells,PC9,non-small cell lung cancer,NSCLC,1,
+-,GSM5018101,PC9_2,PC9 non-small cell lung cancer cells,PC9,non-small cell lung cancer,NSCLC,2,
+-,GSM5018102,PC9_3,PC9 non-small cell lung cancer cells,PC9,non-small cell lung cancer,NSCLC,3,
+-,GSM5018103,PC9_GR_1,PC9_GR gefitinib resistant non-small cell lung cancer cells,PC9_GR,gefitinib resistant non-small cell lung cancer,NSCLC_GR,1,gefitinib resistant PC9: https://www.sciencedirect.com/science/article/pii/S0923753420320482
+-,GSM5018104,PC9_GR_2,PC9_GR gefitinib resistant non-small cell lung cancer cells,PC9_GR,gefitinib resistant non-small cell lung cancer,NSCLC_GR,2,gefitinib resistant PC9: https://www.sciencedirect.com/science/article/pii/S0923753420320482
+-,GSM5018105,PC9_GR_3,PC9_GR gefitinib resistant non-small cell lung cancer cells,PC9_GR,gefitinib resistant non-small cell lung cancer,NSCLC_GR,3,gefitinib resistant PC9: https://www.sciencedirect.com/science/article/pii/S0923753420320482
+-,GSM5018106,WI38_1,WI38 normal lung associated fibroblasts,WI38,normal lung associated fibroblasts,LC_NAF,1,
+-,GSM5018107,WI38_2,WI38 normal lung associated fibroblasts,WI38,normal lung associated fibroblasts,LC_NAF,2,
+-,GSM5018108,WI38_3,WI38 normal lung associated fibroblasts,WI38,normal lung associated fibroblasts,LC_NAF,3,

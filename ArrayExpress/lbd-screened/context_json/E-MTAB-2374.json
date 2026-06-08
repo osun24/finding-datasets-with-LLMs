@@ -1,0 +1,84 @@
+{
+  "Accession": "E-MTAB-2374",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "48"
+    ],
+    "Sample count": [
+      "48"
+    ]
+  },
+  "Description": "RNA was isolated from fresh cerebrospinal fluid samples of multiple sclerosis and control patients and analyzed by hybridization of HG U133 plus 2.0 arrays in order to investigate disease mechanisms of multiple sclerosis and to identify transcriptional biomarker",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {
+        "Treatment": [
+          "none",
+          "Tysabri",
+          "Avonex",
+          "itMTX",
+          "oral MTX",
+          "intrathecal methotrexate",
+          "Avonex, intrathecal methotrexate"
+        ],
+        "treatment": [
+          "none",
+          "intrathecal methotrexate",
+          "itMTX",
+          "Tysabri",
+          "Avonex",
+          "oral MTX",
+          "Avonex, intrathecal methotrexate"
+        ]
+      }
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease state design",
+        "ex_vivo_design",
+        "co-expression_design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "disease"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "primary-progressive multiple sclerosis",
+        "unknown - not multiple sclerosis",
+        "HTLV1-associated myelopathy",
+        "stroke",
+        "relapsing-remitting multiple sclerosis",
+        "Parkinson's disease",
+        "secondary progressive multiple sclerosis",
+        "spinal stenosis",
+        "neurosarcoidosis"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "cerebrospinal fluid"
+      ]
+    }
+  },
+  "Source list": "lbd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcriptional profiling of cerebrospinal fluid cells of multiple sclerosis patients"
+}

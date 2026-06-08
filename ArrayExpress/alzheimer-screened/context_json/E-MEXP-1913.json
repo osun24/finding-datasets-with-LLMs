@@ -1,0 +1,60 @@
+{
+  "Accession": "E-MEXP-1913",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "12"
+    ]
+  },
+  "Description": "Alzheimer's disease (AD) is characterized by massive neurodegeneration and multiple changes in cellular processes, including neurogenesis. Proteolytic processing of the amyloid precursor protein (APP) plays a central role in AD. Due to varying APP processing, several beta-amyloid peptides are generated. In contrast to the form with 40 amino acids, the variant with 42 amino acids is thought to be the pathogenic form triggering the pathophysiological cascade in AD. Here, we studied the transcriptomic response to increased or decreased Abeta42 levels generated in human neuroblastoma cells. Genome-wide expression profiles (Affymetrix)were used to analyze the cellular response to the changed Abeta42 and Abeta40-levels. <br><br>Human neuroblastoma cell line SH-SY5Y is a thrice cloned (SK-N-SH -> SH-SY -> SH-SY5 -> SH-SY5Y) subline of the neuroblastoma cell line SK-N-SH which was isolated and established in 1970. This cell line has 47 chromosomes. The cells possess a unique marker comprised of a chromosome 1 with a complex insertion of an additional copy of a 1q segment into the long arm, resulting in trisomy of 1q. The cell lines used in this study are SHSY5Y transfected with the constructs pCEP-C99I45F, pCEP-C99V50F, pCEP-C99 wildtype or mock transfected with an empty vector. Independent cell clones of each transfected line were used to provide biological replicates.<br> Overexpressed C99 I45F is intracellularly cleaved resulting in high Abeta42, but low Abeta40 levels.<br> Overexpressed C99V50F is intracellularly cleaved resulting in low Abeta42, but high Abeta40 levels.<br>Overexpressed C99 wildtype is intracellularly cleaved resulting in medium Abeta42 and Abeta40 levels<br>Mock is the SHSY5Y cell line transfected with the empty vector pCEP (Invitrogen) as a negative control",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "Cell line": [
+          "SH-SY5Y"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {
+        "Quality Controls": [
+          "biological_replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "transcript_identification_design",
+        "in_vitro_design",
+        "co-expression_design",
+        "transcription profiling by array"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "phenotype"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "alzheimer-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcription profiling of human neuroblastoma cell line SH-SY5Y transfected to produce phenotypes with low, medium or high levels of beta-amyloid peptides with 40 or 42 amino acids"
+}

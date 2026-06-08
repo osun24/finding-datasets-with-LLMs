@@ -1,0 +1,2 @@
+Title: LC-MS/MS of proteomics in human ovarian cancer versus control samples
+Description: We investigated how the proteome changed in human patients with ovarian cancer compared with healthy individuals.

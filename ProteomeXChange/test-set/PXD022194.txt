@@ -1,0 +1,2 @@
+Title: Immunopeptidomics by use of a microfluidics chip.
+Description: A microfluidics technology was implemented to the immunoaffinity purification process of MHC peptides in Ligandomics/Immunopeptidomics. The thus purified HLA peptides were analysed by LCMS with the nanoElute LC and TimsTOF Pro Mass Spectrometer from Bruker. The aim of the microfluidics implementation was to improve the sensitivity and robustness while also reducing antibody and other material requirements in the immunoaffinity purification protocol.

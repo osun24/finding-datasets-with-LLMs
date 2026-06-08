@@ -1,0 +1,2 @@
+Title: Sera Protein Signatures of Endometrial Cancer Lymph Node Metastases
+Description: sera collected from endometrial cancer patients submitted to direct MS/MS analysis in diluted unprocessed form. MS only analysis of sera has also been performed. files are also available.

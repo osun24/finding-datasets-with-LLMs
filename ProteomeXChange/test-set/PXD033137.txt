@@ -1,0 +1,2 @@
+Title: Highly Active CAR T Cells that Bind to a Juxta-Membrane Region of Mesothelin and are Not Blocked by Shed Mesothelin
+Description: Identification of the major protease sites in MSLN and preparation of a monoclonal antibody, 15B6, that binds next to cell membrane at the protease sensitive region and inhibits MSLN shedding. Mab 15B6 makes very active CAR-T cells whose activity is not blocked by shed MSLN. The 15B6 CAR-T cells have greatly superior anti-tumor activity in mice than CAR-T cells targeting an epitope in shed MSLN.

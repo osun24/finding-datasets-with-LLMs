@@ -1,0 +1,15 @@
+# TITLE: Genome-wide analysis of microRNA expression in Non-small Cell Lung Cancer
+# SUMMARY: Analysis of NSCLC development at microRNA expression level. Results shows that has-miR-96 is significant up-regulated in the cancer tissue compared with the adjacent normal tissue. Illumina Human v2 MicroRNA expression beadchip
+GPL8179_Group,GPL8179_Accession,GPL8179_Title,GPL8179_Source name,GPL8179_Gender,GPL8179_Disease state,GPL8179_Nsclc type,GPL8179_Tissue,GPL8179_Tnm
+-,GSM723147,NSCLC 1,lung,male,NSCLC,squamous,cancer,/4/1/0/
+-,GSM723148,adjacent normal tissue 1,lung,male,NSCLC,squamous,adjacent normal,/4/1/0/
+-,GSM723149,NSCLC 2,lung,male,NSCLC,squamous,cancer,/4/2/0/
+-,GSM723150,adjacent normal tissue 2,lung,male,NSCLC,squamous,adjacent normal,/4/2/0/
+-,GSM723151,NSCLC 3,lung,male,NSCLC,squamous,cancer,/4/0/0/
+-,GSM723152,adjacent normal tissue 3,lung,male,NSCLC,squamous,adjacent normal,/4/0/0/
+-,GSM723153,NSCLC 4,lung,male,NSCLC,adenocarcinoma,cancer,/2/3/0/
+-,GSM723154,adjacent normal tissue 4,lung,male,NSCLC,adenocarcinoma,adjacent normal,/2/3/0/
+-,GSM723155,NSCLC 5,lung,male,NSCLC,adenocarcinoma,cancer,/2/2/0/
+-,GSM723156,adjacent normal tissue 5,lung,male,NSCLC,adenocarcinoma,adjacent normal,/2/2/0/
+-,GSM723157,NSCLC 6,lung,male,NSCLC,adenocarcinoma,cancer,/3/2/0/
+-,GSM723158,adjacent normal tissue 6,lung,male,NSCLC,adenocarcinoma,adjacent normal,/3/2/0/

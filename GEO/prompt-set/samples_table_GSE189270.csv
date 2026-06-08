@@ -1,0 +1,11 @@
+# TITLE: aCGH and high-throughput transcriptome profiling of non-small cell lung cancer cell lines sensitive or resistant to CPL304110 FGFR inhibitor
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL17052_Group,GPL17052_Accession,GPL17052_Title,GPL17052_Source name 1,GPL17052_Source name 2,GPL17052_Tissue (Ch1),GPL17052_Gender (Ch1),GPL17052_Cell line (Ch1),GPL17052_Variant (Ch1),GPL17052_Tissue (Ch2),GPL17052_Gender (Ch2),GPL20301_Group,GPL20301_Accession,GPL20301_Title,GPL20301_Source name,GPL20301_Tissue,GPL20301_Cell line,GPL20301_Variant
+-,GSM5696877,H1581_S,non-small cell lung cancer,standard reference genomic DNA,non-small cell lung cancer,male,NCI-H1581,sensitive,standard reference genomic DNA,male,-,GSM5696881,H1581_S_rep1,non-small cell lung cancer,non-small cell lung cancer,NCI-H1581,sensitive
+-,GSM5696878,H1581_R,non-small cell lung cancer,standard reference genomic DNA,non-small cell lung cancer,male,NCI-H1581,resistant,standard reference genomic DNA,male,-,GSM5696882,H1581_S_rep2,non-small cell lung cancer,non-small cell lung cancer,NCI-H1581,sensitive
+-,GSM5696879,H1703_S,non-small cell lung cancer,standard reference genomic DNA,non-small cell lung cancer,male,NCI-H1703,sensitive,standard reference genomic DNA,male,-,GSM5696883,H1581_R_rep1,non-small cell lung cancer,non-small cell lung cancer,NCI-H1581,resistant
+-,GSM5696880,H1703_R,non-small cell lung cancer,standard reference genomic DNA,non-small cell lung cancer,male,NCI-H1703,resistant,standard reference genomic DNA,male,-,GSM5696884,H1581_R_rep2,non-small cell lung cancer,non-small cell lung cancer,NCI-H1581,resistant
+,,,,,,,,,,,-,GSM5696885,H1703_S_rep1,non-small cell lung cancer,non-small cell lung cancer,NCI-H1703,sensitive
+,,,,,,,,,,,-,GSM5696886,H1703_S_rep2,non-small cell lung cancer,non-small cell lung cancer,NCI-H1703,sensitive
+,,,,,,,,,,,-,GSM5696887,H1703_R_rep1,non-small cell lung cancer,non-small cell lung cancer,NCI-H1703,resistant
+,,,,,,,,,,,-,GSM5696888,H1703_R_rep2,non-small cell lung cancer,non-small cell lung cancer,NCI-H1703,resistant

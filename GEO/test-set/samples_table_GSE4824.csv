@@ -1,0 +1,81 @@
+# TITLE: Analysis of lung cancer cell lines
+# SUMMARY: These arrays are used for various projects Keywords: cell type comparison
+GPL97_Group,GPL97_Accession,GPL97_Title,GPL97_Source name,GPL97_Histology,GPL97_Age,GPL97_Sex,GPL97_Race,GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Histology,GPL570_Age,GPL570_Sex,GPL570_Race,GPL96_Group,GPL96_Accession,GPL96_Title,GPL96_Source name,GPL96_Histology,GPL96_Age,GPL96_Sex,GPL96_Race
+-,GSM108800,A549(B),lung cancer cell line,adenocarcinoma,58,M,caucasian,-,GSM171892,HBEC2-E,Human Bronchial Epithelial Cell,immortalized normal,68,M,,-,GSM108799,A549(A),lung cancer cell line,adenocarcinoma,58,M,caucasian
+-,GSM108802,Calu-1(B),lung cancer cell line,NSCLC,,M,,-,GSM171893,HBEC2-KT,Human Bronchial Epithelial Cell,immortalized normal,68,M,,-,GSM108801,Calu-1(A),lung cancer cell line,NSCLC,,M,
+-,GSM108804,Calu-3(B),lung cancer cell line,adenocarcinoma,,M,,-,GSM171894,HBEC3-ET,Human Bronchial Epithelial Cell,immortalized normal,65,F,,-,GSM108803,Calu-3(A),lung cancer cell line,adenocarcinoma,,M,
+-,GSM108806,Calu-6(B),lung cancer cell line,NSCLC,,F,,-,GSM171895,HBEC3-KT,Human Bronchial Epithelial Cell,immortalized normal,65,F,,-,GSM108805,Calu-6(A),lung cancer cell line,NSCLC,,F,
+-,GSM108808,H1299(B),lung cancer cell line,large cell carcinoma,43,M,caucasian,-,GSM171896,HBEC4-KT,Human Bronchial Epithelial Cell,immortalized normal,71,F,,-,GSM108807,H1299(A),lung cancer cell line,large cell carcinoma,43,M,caucasian
+-,GSM108810,H1355(B),lung cancer cell line,adenocarcinoma,53,M,caucasian,-,GSM171897,HBEC5-KT,Human Bronchial Epithelial Cell,immortalized normal,,F,,-,GSM108809,H1355(A),lung cancer cell line,adenocarcinoma,53,M,caucasian
+-,GSM108812,H1395(B),lung cancer cell line,adenocarcinoma,55,F,caucasian,,,,,,,,,-,GSM108811,H1395(A),lung cancer cell line,adenocarcinoma,55,F,caucasian
+-,GSM108814,H1437(B),lung cancer cell line,adenocarcinoma,6,M,caucasian,,,,,,,,,-,GSM108813,H1437(A),lung cancer cell line,adenocarcinoma,6,M,caucasian
+-,GSM108816,H157(B),lung cancer cell line,squamous cell carcinoma,59,M,caucasian,,,,,,,,,-,GSM108815,H157(A),lung cancer cell line,squamous cell carcinoma,59,M,caucasian
+-,GSM108818,H1648(B),lung cancer cell line,adenocarcinoma,39,M,black,,,,,,,,,-,GSM108817,H1648(A),lung cancer cell line,adenocarcinoma,39,M,black
+-,GSM108820,H1650(B),lung cancer cell line,Bronchoalveolar,27,M,caucasian,,,,,,,,,-,GSM108819,H1650(A),lung cancer cell line,Bronchoalveolar,27,M,caucasian
+-,GSM108822,H1666(B),lung cancer cell line,Bronchoalveolar,5,F,caucasian,,,,,,,,,-,GSM108821,H1666(A),lung cancer cell line,Bronchoalveolar,5,F,caucasian
+-,GSM108824,H1672(B2),lung cancer cell line,SCLC,58,M,caucasian,,,,,,,,,-,GSM108823,H1672(A2),lung cancer cell line,SCLC,58,M,caucasian
+-,GSM108828,H1819(B),lung cancer cell line,adenocarcinoma,55,F,caucasian,,,,,,,,,-,GSM108827,H1819(A),lung cancer cell line,adenocarcinoma,55,F,caucasian
+-,GSM108830,H1975(B),lung cancer cell line,adenocarcinoma,,F,,,,,,,,,,-,GSM108829,H1975(A),lung cancer cell line,adenocarcinoma,,F,
+-,GSM108832,H1993(B),lung cancer cell line,adenocarcinoma,47,F,caucasian,,,,,,,,,-,GSM108831,H1993(A),lung cancer cell line,adenocarcinoma,47,F,caucasian
+-,GSM108834,H2009(B),lung cancer cell line,adenocarcinoma,68,F,caucasian,,,,,,,,,-,GSM108833,H2009(A),lung cancer cell line,adenocarcinoma,68,F,caucasian
+-,GSM108836,H2087(B),lung cancer cell line,adenocarcinoma,69,M,caucasian,,,,,,,,,-,GSM108835,H2087(A),lung cancer cell line,adenocarcinoma,69,M,caucasian
+-,GSM108838,H2122(B),lung cancer cell line,adenocarcinoma,46,F,caucasian,,,,,,,,,-,GSM108837,H2122(A),lung cancer cell line,adenocarcinoma,46,F,caucasian
+-,GSM108840,H2126(B),lung cancer cell line,large cell carcinoma,65,M,caucasian,,,,,,,,,-,GSM108839,H2126(A),lung cancer cell line,large cell carcinoma,65,M,caucasian
+-,GSM108842,H2347(B),lung cancer cell line,adenocarcinoma,54,F,caucasian,,,,,,,,,-,GSM108841,H2347(A),lung cancer cell line,adenocarcinoma,54,F,caucasian
+-,GSM108844,H2882(B),lung cancer cell line,NSCLC,,F,,,,,,,,,,-,GSM108843,H2882(A),lung cancer cell line,NSCLC,,F,
+-,GSM108846,H2887(B),lung cancer cell line,NSCLC,,M,,,,,,,,,,-,GSM108845,H2887(A),lung cancer cell line,NSCLC,,M,
+-,GSM108848,H3255(B),lung cancer cell line,adenocarcinoma,,F,caucasian,,,,,,,,,-,GSM108847,H3255(A),lung cancer cell line,adenocarcinoma,,F,caucasian
+-,GSM108850,H358(B),lung cancer cell line,Bronchoalveolar,,M,asian,,,,,,,,,-,GSM108849,H358(A),lung cancer cell line,Bronchoalveolar,,M,asian
+-,GSM108852,H441(B),lung cancer cell line,adenocarcinoma,33,M,,,,,,,,,,-,GSM108851,H441(A),lung cancer cell line,adenocarcinoma,33,M,
+-,GSM108854,H460(B2),lung cancer cell line,large cell carcinoma,,M,,,,,,,,,,-,GSM108853,H460(A2),lung cancer cell line,large cell carcinoma,,M,
+-,GSM108856,H820(B),lung cancer cell line,Bronchoalveolar,53,M,caucasian,,,,,,,,,-,GSM108855,H820(A),lung cancer cell line,Bronchoalveolar,53,M,caucasian
+-,GSM108858,HCC1171(B),lung cancer cell line,NSCLC,58,M,caucasian,,,,,,,,,-,GSM108857,HCC1171(A),lung cancer cell line,NSCLC,58,M,caucasian
+-,GSM108860,HCC1195(B),lung cancer cell line,adenocarcinoma (mixed),47,M,black,,,,,,,,,-,GSM108859,HCC1195(A),lung cancer cell line,adenocarcinoma (mixed),47,M,black
+-,GSM108862,HCC1359(B),lung cancer cell line,large cell carcinoma,55,F,black,,,,,,,,,-,GSM108861,HCC1359(A),lung cancer cell line,large cell carcinoma,55,F,black
+-,GSM108864,HCC15(B2),lung cancer cell line,squamous cell carcinoma,55,M,black,,,,,,,,,-,GSM108863,HCC15(A2),lung cancer cell line,squamous cell carcinoma,55,M,black
+-,GSM108866,HCC193(B),lung cancer cell line,adenocarcinoma,71,F,caucasian,,,,,,,,,-,GSM108865,HCC193(A),lung cancer cell line,adenocarcinoma,71,F,caucasian
+-,GSM108868,HCC2279(B),lung cancer cell line,adenocarcinoma,52,F,asian,,,,,,,,,-,GSM108867,HCC2279(A),lung cancer cell line,adenocarcinoma,52,F,asian
+-,GSM108870,HCC2935(B),lung cancer cell line,NSCLC,39,M,caucasian,,,,,,,,,-,GSM108869,HCC2935(A),lung cancer cell line,NSCLC,39,M,caucasian
+-,GSM108872,HCC366(B),lung cancer cell line,adenosquamous,8,F,,,,,,,,,,-,GSM108871,HCC366(A),lung cancer cell line,adenosquamous,8,F,
+-,GSM108874,HCC4006(B),lung cancer cell line,adenocarcinoma,,M,caucasian,,,,,,,,,-,GSM108873,HCC4006(A),lung cancer cell line,adenocarcinoma,,M,caucasian
+-,GSM108876,HCC44(B),lung cancer cell line,NSCLC,,F,caucasian,,,,,,,,,-,GSM108875,HCC44(A),lung cancer cell line,NSCLC,,F,caucasian
+-,GSM108878,HCC461(B),lung cancer cell line,adenocarcinoma,69,M,caucasian,,,,,,,,,-,GSM108877,HCC461(A),lung cancer cell line,adenocarcinoma,69,M,caucasian
+-,GSM108880,HCC515(B),lung cancer cell line,adenocarcinoma,39,F,caucasian,,,,,,,,,-,GSM108879,HCC515(A),lung cancer cell line,adenocarcinoma,39,F,caucasian
+-,GSM108882,HCC78(B),lung cancer cell line,adenocarcinoma,58,M,caucasian,,,,,,,,,-,GSM108881,HCC78(A),lung cancer cell line,adenocarcinoma,58,M,caucasian
+-,GSM108884,HCC827(B),lung cancer cell line,adenocarcinoma (BAC features),38,F,caucasian,,,,,,,,,-,GSM108883,HCC827(A),lung cancer cell line,adenocarcinoma (BAC features),38,F,caucasian
+-,GSM108886,HCC95(B),lung cancer cell line,squamous cell carcinoma,65,M,caucasian,,,,,,,,,-,GSM108885,HCC95(A),lung cancer cell line,squamous cell carcinoma,65,M,caucasian
+-,GSM171837,BEAS-2B(B),Human Bronchial Epithelial Cell,immortalized normal,,M,,,,,,,,,,-,GSM171836,BEAS-2B(A),Human Bronchial Epithelial Cell,immortalized normal,,M,
+-,GSM171839,H1155f(B),lung cancer cell line,large cell carcinoma,36,M,caucasian,,,,,,,,,-,GSM171838,H1155f(A),lung cancer cell line,large cell carcinoma,36,M,caucasian
+-,GSM171841,H1184(B),lung cancer cell line,SCLC,42,M,Caucasian,,,,,,,,,-,GSM171840,H1184(A),lung cancer cell line,SCLC,42,M,Caucasian
+-,GSM171843,H128(B),lung cancer cell line,SCLC,59,M,black,,,,,,,,,-,GSM171842,H128(A),lung cancer cell line,SCLC,59,M,black
+-,GSM171845,H146(B2),lung cancer cell line,SCLC,59,M,caucasian,,,,,,,,,-,GSM171844,H146(A2),lung cancer cell line,SCLC,59,M,caucasian
+-,GSM171847,H1607(B),lung cancer cell line,SCLC,54,M,caucasian,,,,,,,,,-,GSM171846,H1607(A),lung cancer cell line,SCLC,54,M,caucasian
+-,GSM171849,H1792(B),lung cancer cell line,adenocarcinoma,5,M,caucasian,,,,,,,,,-,GSM171848,H1792(A),lung cancer cell line,adenocarcinoma,5,M,caucasian
+-,GSM171851,H187(B),lung cancer cell line,SCLC,47,M,caucasian,,,,,,,,,-,GSM171850,H187(A),lung cancer cell line,SCLC,47,M,caucasian
+-,GSM171853,H1963(B),lung cancer cell line,SCLC,56,M,black,,,,,,,,,-,GSM171852,H1963(A),lung cancer cell line,SCLC,56,M,black
+-,GSM171855,H2052(B),lung cancer cell line,mesothelioma,65,M,caucasian,,,,,,,,,-,GSM171854,H2052(A),lung cancer cell line,mesothelioma,65,M,caucasian
+-,GSM171857,H209(B2),lung cancer cell line,SCLC,55,M,caucasian,,,,,,,,,-,GSM171856,H209(A2),lung cancer cell line,SCLC,55,M,caucasian
+-,GSM171859,H2107(B),lung cancer cell line,SCLC,36,M,black,,,,,,,,,-,GSM171858,H2107(A),lung cancer cell line,SCLC,36,M,black
+-,GSM171861,H2141(B),lung cancer cell line,SCLC,58,M,caucasian,,,,,,,,,-,GSM171860,H2141(A),lung cancer cell line,SCLC,58,M,caucasian
+-,GSM171863,H2171(B),lung cancer cell line,SCLC,5,M,caucasian,,,,,,,,,-,GSM171862,H2171(A),lung cancer cell line,SCLC,5,M,caucasian
+-,GSM171865,H2195(B),lung cancer cell line,SCLC,67,M,Caucasian,,,,,,,,,-,GSM171864,H2195(A),lung cancer cell line,SCLC,67,M,Caucasian
+-,GSM171867,H2227(B),lung cancer cell line,SCLC,54,M,Caucasian,,,,,,,,,-,GSM171866,H2227(A),lung cancer cell line,SCLC,54,M,Caucasian
+-,GSM171869,H23(B),lung cancer cell line,adenocarcinoma,51,M,black,,,,,,,,,-,GSM171868,H23(A),lung cancer cell line,adenocarcinoma,51,M,black
+-,GSM171871,H28(B),lung cancer cell line,mesothelioma,49,M,caucasian,,,,,,,,,-,GSM171870,H28(A),lung cancer cell line,mesothelioma,49,M,caucasian
+-,GSM171873,H289(B),lung cancer cell line,SCLC,45,F,caucasian,,,,,,,,,-,GSM171872,H289(A),lung cancer cell line,SCLC,45,F,caucasian
+-,GSM171875,H3122(B),lung cancer cell line,NSCLC,,,,,,,,,,,,-,GSM171874,H3122(A),lung cancer cell line,NSCLC,,,
+-,GSM171877,H322(B),lung cancer cell line,bronchoalveolar,52,M,caucasian,,,,,,,,,-,GSM171876,H322(A),lung cancer cell line,bronchoalveolar,52,M,caucasian
+-,GSM171879,H378(B),lung cancer cell line,SCLC,66,F,caucasian,,,,,,,,,-,GSM171878,H378(A),lung cancer cell line,SCLC,66,F,caucasian
+-,GSM171881,H524(B),lung cancer cell line,SCLC,63,M,caucasian,,,,,,,,,-,GSM171880,H524(A),lung cancer cell line,SCLC,63,M,caucasian
+-,GSM171883,H526(B2),lung cancer cell line,SCLC,55,M,caucasian,,,,,,,,,-,GSM171882,H526(A2),lung cancer cell line,SCLC,55,M,caucasian
+-,GSM171885,H661(B),lung cancer cell line,large cell carcinoma,43,M,caucasian,,,,,,,,,-,GSM171884,H661(A),lung cancer cell line,large cell carcinoma,43,M,caucasian
+-,GSM171887,H82(B),lung cancer cell line,SCLC,4,M,caucasian,,,,,,,,,-,GSM171886,H82(A),lung cancer cell line,SCLC,4,M,caucasian
+-,GSM171889,H841f(B),lung cancer cell line,SCLC,51,M,caucasian,,,,,,,,,-,GSM171888,H841f(A),lung cancer cell line,SCLC,51,M,caucasian
+-,GSM171891,H889(B),lung cancer cell line,SCLC,69,F,caucasian,,,,,,,,,-,GSM171890,H889(A),lung cancer cell line,SCLC,69,F,caucasian
+-,GSM171899,HCC1833(B),lung cancer cell line,adenocarcinoma,69,F,Caucasian,,,,,,,,,-,GSM171898,HCC1833(A),lung cancer cell line,adenocarcinoma,69,F,Caucasian
+-,GSM171901,HCC2429(B),lung cancer cell line,NSCLC,,F,,,,,,,,,,-,GSM171900,HCC2429(A),lung cancer cell line,NSCLC,,F,
+-,GSM171903,HCC2450(B),lung cancer cell line,squamous cell carcinoma,,M,,,,,,,,,,-,GSM171902,HCC2450(A),lung cancer cell line,squamous cell carcinoma,,M,
+-,GSM171905,HCC33(B),lung cancer cell line,SCLC,53,M,Caucasian,,,,,,,,,-,GSM171904,HCC33(A),lung cancer cell line,SCLC,53,M,Caucasian
+-,GSM171907,HCC970(B),lung cancer cell line,SCLC,62,M,,,,,,,,,,-,GSM171906,HCC970(A),lung cancer cell line,SCLC,62,M,
+-,GSM171909,NHBEC(B),Normal Human Bronchial Epithelial Cell,immortalized normal,11,F,,,,,,,,,,-,GSM171908,NHBEC(A),Normal Human Bronchial Epithelial Cell,immortalized normal,11,F,
+-,GSM171911,SAEC(B),Small Airway Epithelial Cell,immortalized normal,,F,,,,,,,,,,-,GSM171910,SAEC(A),Small Airway Epithelial Cell,immortalized normal,,F,

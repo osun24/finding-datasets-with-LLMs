@@ -1,0 +1,2 @@
+Title: Small molecule inhibition of ubiquitin C-terminal hydrolase L1 alters cell metabolism proteins and exerts anti- or pro-tumorigenic effects contingent upon chemosensitivity status in high grade serous ovarian cancer
+Description: In the current investigation, we sought to characterize the implications of UCHL1 small molecule inhibition in both chemosensitive and chemoresistant HGSOC cells, generating an unprecedented understanding of the clinically relevant implications of targeting UCHL1.

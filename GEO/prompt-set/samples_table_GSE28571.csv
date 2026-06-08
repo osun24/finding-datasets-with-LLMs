@@ -1,0 +1,103 @@
+# TITLE: Gene Copy Number Aberrations are Associated with Survival in Histological Subgroups of Non-Small Cell Lung Cancer (expression data)
+# SUMMARY: Hypothesis: Non-small cell lung cancer (NSCLC) is characterized by a multitude of genetic aberrations with unknown clinical impact. In this study, we aimed to identify gene copy number changes that correlate with clinical outcome in NSCLC. To maximize the chance to identify clinically relevant events, we applied a strategy involving two prognostically extreme patient groups. Results: Genetic aberrations were strongly associated with tumor histology. In adenocarcinoma (n=50), gene copy number gains on chromosome 8q21-q24.3 (177 genes) were more frequent in long-term survivors. In squamous cell carcinoma (n=28), gains on chromosome 14q23.1-24.3 (133 genes) were associated with shorter survival, whereas losses in a neighboring region, 14q31.1-32.33 (110 genes), correlated with favorable outcome. In accordance with copy number gains and losses, mRNA expression levels of corresponding genes were increased or decreased, respectively. Conclusion: Comprehensive tumor profiling permits the integration of genomic, histologic and clinical data. We identified gene copy number gains and losses, with corresponding changes in mRNA levels, that were associated with prognosis in adenocarcinoma and squamous cell carcinoma of the lung.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue,GPL570_Histology,GPL570_Survival,GPL570_Registry year
+-,GSM707333,Large_cell_carcinoma_sample_133A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,2005
+-,GSM707334,Large_cell_carcinoma_sample_158A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,2005
+-,GSM707335,Adenocarcinoma_sample_171A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1996
+-,GSM707336,Large_cell_carcinoma_sample_174A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,1996
+-,GSM707337,Adenocarcinoma_sample_192C,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1998
+-,GSM707338,Adenocarcinoma_sample_193B,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1998
+-,GSM707339,Adenocarcinoma_sample_19A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2002
+-,GSM707340,Adenocarcinoma_sample_200A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1995
+-,GSM707341,Adenocarcinoma_sample_201A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1997
+-,GSM707342,Squamous_cell_carcinoma_sample_202A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1998
+-,GSM707343,Large_cell_carcinoma_sample_203B,"Non-small cell lung cancer tissue, long-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,long,1999
+-,GSM707344,Large_cell_carcinoma_sample_212A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,1999
+-,GSM707345,Adenocarcinoma_sample_213A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1999
+-,GSM707346,Large_cell_carcinoma_sample_214A,"Non-small cell lung cancer tissue, long-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,long,1999
+-,GSM707347,Adenocarcinoma_sample_215A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1999
+-,GSM707348,Squamous_cell_carcinoma_sample_217A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,1999
+-,GSM707349,Adenocarcinoma_sample_223A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2000
+-,GSM707350,Adenocarcinoma_sample_224A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2000
+-,GSM707351,Adenocarcinoma_sample_228B,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2000
+-,GSM707352,Adenocarcinoma_sample_22B,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2002
+-,GSM707353,Adenocarcinoma_sample_23A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2002
+-,GSM707354,Large_cell_carcinoma_sample_243A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,2001
+-,GSM707355,Squamous_cell_carcinoma_sample_249A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,2001
+-,GSM707356,Large_cell_carcinoma_sample_260A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,2002
+-,GSM707357,Adenocarcinoma_sample_272B,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1997
+-,GSM707358,Squamous_cell_carcinoma_sample_274B,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1997
+-,GSM707359,Adenocarcinoma_sample_282A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1997
+-,GSM707360,Squamous_cell_carcinoma_sample_291A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,1997
+-,GSM707361,Adenocarcinoma_sample_292B,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1997
+-,GSM707362,Squamous_cell_carcinoma_sample_296A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1998
+-,GSM707363,Adenocarcinoma_sample_301A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1998
+-,GSM707364,Adenocarcinoma_sample_302A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1998
+-,GSM707365,Adenocarcinoma_sample_311C,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1999
+-,GSM707366,Large_cell_carcinoma_sample_332Y,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,1995
+-,GSM707367,Adenocarcinoma_sample_341A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1996
+-,GSM707368,Squamous_cell_carcinoma_sample_344A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,1996
+-,GSM707369,Squamous_cell_carcinoma_sample_357A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1995
+-,GSM707370,Adenocarcinoma_sample_369A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1995
+-,GSM707371,Large_cell_carcinoma_sample_375A,"Non-small cell lung cancer tissue, long-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,long,1996
+-,GSM707372,Adenocarcinoma_sample_61A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2003
+-,GSM707373,Squamous_cell_carcinoma_sample_98A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,2004
+-,GSM707374,Adenocarcinoma_sample_112B,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2005
+-,GSM707375,Adenocarcinoma_sample_11C,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2002
+-,GSM707376,Adenocarcinoma_sample_12B,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2002
+-,GSM707377,Squamous_cell_carcinoma_sample_131A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,2005
+-,GSM707378,Squamous_cell_carcinoma_sample_13A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,2002
+-,GSM707379,Squamous_cell_carcinoma_sample_14A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,2002
+-,GSM707380,Adenocarcinoma_sample_162A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2005
+-,GSM707381,Adenocarcinoma_sample_165C,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1995
+-,GSM707382,Adenocarcinoma_sample_169D,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1995
+-,GSM707383,Adenocarcinoma_sample_172C,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1996
+-,GSM707384,Squamous_cell_carcinoma_sample_175B,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1996
+-,GSM707385,Adenocarcinoma_sample_189A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1998
+-,GSM707386,Large_cell_carcinoma_sample_195B,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,1998
+-,GSM707387,Large_cell_carcinoma_sample_196A,"Non-small cell lung cancer tissue, long-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,long,1998
+-,GSM707388,Adenocarcinoma_sample_197B,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1999
+-,GSM707389,Large_cell_carcinoma_sample_207A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,1999
+-,GSM707390,Adenocarcinoma_sample_229A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2000
+-,GSM707391,Large_cell_carcinoma_sample_234A,"Non-small cell lung cancer tissue, long-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,long,2000
+-,GSM707392,Adenocarcinoma_sample_235A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2000
+-,GSM707393,Adenocarcinoma_sample_247A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2001
+-,GSM707394,Adenocarcinoma_sample_255A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2001
+-,GSM707395,Squamous_cell_carcinoma_sample_256A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,2002
+-,GSM707396,Adenocarcinoma_sample_258A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2002
+-,GSM707397,Large_cell_carcinoma_sample_265A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,2003
+-,GSM707398,Squamous_cell_carcinoma_sample_271A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1997
+-,GSM707399,Squamous_cell_carcinoma_sample_278A_2,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,1997
+-,GSM707400,Squamous_cell_carcinoma_sample_27A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,2002
+-,GSM707401,Adenocarcinoma_sample_284A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1997
+-,GSM707402,Adenocarcinoma_sample_288A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1997
+-,GSM707403,Large_cell_carcinoma_sample_295B,"Non-small cell lung cancer tissue, long-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,long,1998
+-,GSM707404,Squamous_cell_carcinoma_sample_297A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1998
+-,GSM707405,Adenocarcinoma_sample_299B,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1998
+-,GSM707406,Squamous_cell_carcinoma_sample_300A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1998
+-,GSM707407,Squamous_cell_carcinoma_sample_305A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1998
+-,GSM707408,Large_cell_carcinoma_sample_309A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,1999
+-,GSM707409,Adenocarcinoma_sample_310A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1999
+-,GSM707410,Large_cell_carcinoma_sample_314A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,2000
+-,GSM707411,Adenocarcinoma_sample_317A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,1996
+-,GSM707412,Squamous_cell_carcinoma_sample_319A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,1996
+-,GSM707413,Adenocarcinoma_sample_32A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2002
+-,GSM707414,Large_cell_carcinoma_sample_331A,"Non-small cell lung cancer tissue, long-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,long,1995
+-,GSM707415,Adenocarcinoma_sample_338A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1995
+-,GSM707416,Large_cell_carcinoma_sample_33A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,2002
+-,GSM707417,Squamous_cell_carcinoma_sample_342A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,1996
+-,GSM707418,Adenocarcinoma_sample_347A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1996
+-,GSM707419,Adenocarcinoma_sample_359A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1995
+-,GSM707420,Adenocarcinoma_sample_35A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2002
+-,GSM707421,Large_cell_carcinoma_sample_361A,"Non-small cell lung cancer tissue, long-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,long,1995
+-,GSM707422,Squamous_cell_carcinoma_sample_365A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1995
+-,GSM707423,Squamous_cell_carcinoma_sample_367A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,1995
+-,GSM707424,Squamous_cell_carcinoma_sample_370A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,1996
+-,GSM707425,Adenocarcinoma_sample_373B,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,1996
+-,GSM707426,Adenocarcinoma_sample_37A,"Non-small cell lung cancer tissue, long-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,long,2002
+-,GSM707427,Squamous_cell_carcinoma_sample_39A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,2002
+-,GSM707428,Adenocarcinoma_sample_48A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2003
+-,GSM707429,Squamous_cell_carcinoma_sample_6A,"Non-small cell lung cancer tissue, long-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,long,2001
+-,GSM707430,Adenocarcinoma_sample_81A,"Non-small cell lung cancer tissue, short-term survival, adenocarcinoma",non-small cell lung cancer,adenocarcinoma,short,2004
+-,GSM707431,Large_cell_carcinoma_sample_87A,"Non-small cell lung cancer tissue, short-term survival, large cell carcinoma",non-small cell lung cancer,large cell carcinoma,short,2004
+-,GSM707432,Squamous_cell_carcinoma_sample_88A,"Non-small cell lung cancer tissue, short-term survival, squamous cell carcinoma",non-small cell lung cancer,squamous cell carcinoma,short,2004

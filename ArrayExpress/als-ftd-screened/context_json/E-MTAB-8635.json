@@ -1,0 +1,58 @@
+{
+  "Accession": "E-MTAB-8635",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "40"
+    ],
+    "Sample count": [
+      "40"
+    ]
+  },
+  "Description": "We performed gene expression profiles of spinal cord samples of ALS patients (30) and controls (10) in order to obtain transcriptomics information belonging to different brain regions of ALS patients. Motor cortex gene expression profiles of the same patients were previously submitted (E-MTAB-2325) and published.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "case control design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "disease"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [
+        "adult"
+      ],
+      "Disease": [
+        "sporadic amyotrophic lateral sclerosis",
+        "normal"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "first lumbar spinal cord segment"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Gene expression profiles in spinal cord of control and sporadic Amyotrophic Lateral Sclerosis patients"
+}

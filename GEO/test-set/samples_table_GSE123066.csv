@@ -1,0 +1,12 @@
+# TITLE: Transcriptomic analysis of gefitinib-resistant EGFR-mutant NSCLC cells
+# SUMMARY: We have employed a transcriptomic approach to find a molecular target that could compensate for the loss of EGFR signaling in NSCLC cell lines with acquired resistance to gefitinib with an EMT phenotype.
+GPL10904_Group,GPL10904_Accession,GPL10904_Title,GPL10904_Source name,GPL10904_Cell line,GPL10904_Treatment
+-,GSM3494550,"HCC4006 cells, parental, rep1",HCC4006 cell line,HCC4006,parental
+-,GSM3494551,"HCC4006 cells, parental, rep2",HCC4006 cell line,HCC4006,parental
+-,GSM3494552,"HCC4006 cells, parental, rep3",HCC4006 cell line,HCC4006,parental
+-,GSM3494553,"HCC4006 cells, gefitinib resistant, rep 1",HCC4006 cell line,HCC4006,Gefitinib resistant (6 months)
+-,GSM3494554,"HCC4006 cells, gefitinib resistant, rep 2",HCC4006 cell line,HCC4006,Gefitinib resistant (6 months)
+-,GSM3494555,"HCC4006 cells, gefitinib resistant, rep 3",HCC4006 cell line,HCC4006,Gefitinib resistant (6 months)
+-,GSM3494556,"HCC4006 cells, gefitinib resistant, TGFBR inhibitor treated, rep1",HCC4006 cell line,HCC4006,"Gefitinib resistant, TGFBR inhibitor treated (6 months)"
+-,GSM3494557,"HCC4006 cells, gefitinib resistant, TGFBR inhibitor treated, rep2",HCC4006 cell line,HCC4006,"Gefitinib resistant, TGFBR inhibitor treated (6 months)"
+-,GSM3494558,"HCC4006 cells, gefitinib resistant, TGFBR inhibitor treated, rep3",HCC4006 cell line,HCC4006,"Gefitinib resistant, TGFBR inhibitor treated (6 months)"

@@ -1,0 +1,52 @@
+# TITLE: Gene expression profiles of NSCLC tumors
+# SUMMARY: A custom microarray was used to measure the gene expression of NSCLC tumors. This represents a subset of samples which also have matched DNA copy number profiles from array CGH experiments
+GPL14189_Group,GPL14189_Accession,GPL14189_Title,GPL14189_Source name,GPL14189_Tissue,GPL14189_Subtype
+-,GSM788926,AC_2_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788927,AC_74_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788928,AC_57_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788929,AC_81_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788930,AC_113_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788931,AC_73_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788932,AC_58_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788933,AC_69_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788934,AC_70_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788935,AC_72_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788936,AC_98_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788937,AC_108_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788938,AC_94_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788939,AC_26_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788940,AC_170_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788941,AC_12_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788942,AC_138_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788943,AC_160_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788944,AC_131_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788945,AC_46_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788946,AC_161_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788947,AC_36_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788948,AC_1_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788949,AC_149_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788950,AC_151_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788951,AC_150_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788952,AC_139_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788953,AC_147_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788954,AC_85_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Adenocarcinoma
+-,GSM788955,SqCC_45_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788956,SqCC_59_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788957,SqCC_24_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788958,SqCC_39_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788959,SqCC_40_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788960,SqCC_50_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788961,SqCC_49_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788962,SqCC_81_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788963,SqCC_88_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788964,SqCC_92_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788965,SqCC_21_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788966,SqCC_9_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788967,SqCC_30_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788968,SqCC_10_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788969,SqCC_12_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788970,SqCC_3_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788971,SqCC_27_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788972,SqCC_91_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788973,SqCC_83_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma
+-,GSM788974,SqCC_84_mRNA,RNA from microdissected lung tumor,Resected lung tumor,Squamous Cell Carcinoma

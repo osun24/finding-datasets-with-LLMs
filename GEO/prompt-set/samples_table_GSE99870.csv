@@ -1,0 +1,19 @@
+# TITLE: Plasma lncRNA and mRNA profiles in patients with NSCLC: Pre-operation vs. post-operation
+# SUMMARY: Circulating transcriptional landscapes between pre-operation and post-operation plasma samples were compared using the Arraystar Human LncRNA Microarray V4 with probes for profiling of 40173 human lncRNAs and 20730mRNAs. Goal was to investigate the impact of tumor removal on circulating lncRNA and mRNA expression levels.
+GPL21827_Group,GPL21827_Accession,GPL21827_Title,GPL21827_Source name,GPL21827_Age,GPL21827_Tissue,GPL21827_Disease state
+-,GSM2656535,Pre-operation plasma sample of subject C434091,Collection before operation,61,Plasma,non-small cell lung cancer
+-,GSM2656536,Pre-operation plasma sample of subject T433711,Collection before operation,60,Plasma,non-small cell lung cancer
+-,GSM2656537,Pre-operation plasma sample of subject X222956,Collection before operation,66,Plasma,non-small cell lung cancer
+-,GSM2656538,Pre-operation plasma sample of subject Y446053,Collection before operation,78,Plasma,non-small cell lung cancer
+-,GSM2656539,Pre-operation plasma sample of subject Z433442,Collection before operation,38,Plasma,non-small cell lung cancer
+-,GSM2656540,Pre-operation plasma sample of subject Z433583,Collection before operation,47,Plasma,non-small cell lung cancer
+-,GSM2656541,Pre-operation plasma sample of subject Ni,Collection before operation,63,Plasma,non-small cell lung cancer
+-,GSM2656542,Pre-operation plasma sample of subject Zhang,Collection before operation,52,Plasma,non-small cell lung cancer
+-,GSM2656543,Post-operation plasma sample of subject C434091,Collection after operation,61,Plasma,non-small cell lung cancer
+-,GSM2656544,Post-operation plasma sample of subject T433711,Collection after operation,60,Plasma,non-small cell lung cancer
+-,GSM2656545,Post-operation plasma sample of subject X222956,Collection after operation,66,Plasma,non-small cell lung cancer
+-,GSM2656546,Post-operation plasma sample of subject Y446053,Collection after operation,78,Plasma,non-small cell lung cancer
+-,GSM2656547,Post-operation plasma sample of subject Z433442,Collection after operation,38,Plasma,non-small cell lung cancer
+-,GSM2656548,Post-operation plasma sample of subject Z433583,Collection after operation,47,Plasma,non-small cell lung cancer
+-,GSM2656549,Post-operation plasma sample of subject Ni,Collection after operation,63,Plasma,non-small cell lung cancer
+-,GSM2656550,Post-operation plasma sample of subject Zhang,Collection after operation,52,Plasma,non-small cell lung cancer

@@ -1,0 +1,5 @@
+# TITLE: Expression data from EGR1-transfected H1299 cells vs normal H1299 cells
+# SUMMARY: The functions of EGR1, a multifunctional transcription factor, in prostate cancer are well documented. However, little is known about the functions of EGR1 in lung cancer. we observed the function of EGR1 in non-small cell lung carcinoma (NSCLC) and identified the genes that influence cell fate and tumor development. We used microarrays to detail the global programme of gene expression and identified genes differentially expressed when EGR1-overexpressed.
+GPL15207_Group,GPL15207_Accession,GPL15207_Title,GPL15207_Source name,GPL15207_Tissue,GPL15207_Cell line,GPL15207_Treatment
+-,GSM1232322,H1299 cells_pcDNA3.1 transfected,Human H1299 cells,Lung,H1299,control
+-,GSM1232323,H1299 cells_EGR1 transfected,Human H1299 cells,Lung,H1299,EGR1 transfected

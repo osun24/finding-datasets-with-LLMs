@@ -1,0 +1,76 @@
+{
+  "Accession": "E-MTAB-812",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "53"
+    ]
+  },
+  "Description": "Whole genome expression in Parkinson disease and neurologically healthy control prefrontal cortex Brodmann area 9 samples",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {
+        "DISEASE_STATE": [
+          "neurologically healthy control",
+          "Parkinson disease"
+        ],
+        "DiseaseState": [
+          "neurologically healthy control",
+          "Parkinson disease"
+        ],
+        "Disease_state": [
+          "neurologically healthy control",
+          "Parkinson disease"
+        ],
+        "Diseasestate": [
+          "neurologically healthy control",
+          "Parkinson disease"
+        ]
+      },
+      "Quality controls": {
+        "Quality Controls": [
+          "Biological replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease_state_design",
+        "co-expression_design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "DISEASE_STATE"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "neurologically healthy control",
+        "Parkinson disease"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "brain, prefrontal cortex BA9"
+      ]
+    }
+  },
+  "Source list": "lbd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Whole genome expression in Parkinson disease and neurologically healthy control prefrontal cortex Brodmann area 9 samples"
+}

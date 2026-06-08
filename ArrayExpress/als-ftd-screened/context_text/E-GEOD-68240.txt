@@ -1,0 +1,37 @@
+Accession: E-GEOD-68240
+Source list: als-ftd-screened
+Title: hiPSC-derived motor neurons: sporadic ALS patients vs. controls
+Study type: transcription profiling by array
+Description: Differentiated motor neurons from hiPSC derived from peripheral nerve fibroblasts of sporadic ALS patients and evaluated the gene expression profile by means microarray-linked to specific analysis tools. Two-condition experiment, ALS patients motor neurons vs. controls. Biological replicates: 3 ALS replicates, 3 control replicates.
+Sample count: 12
+Assay count: 6
+
+Samples:
+  Experimental Designs:
+    Not found
+  Experimental Factors:
+    Experimental Factors: disease state
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: Not found
+    Disease: control, ALS, not specified
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Disease state: control, ALS, not specified
+      disease state: ALS, not specified, control
+    Cell type/line:
+      Cell line: HEK 293
+      Cell type: Fibroblasts from peripheral nerve
+      cell type: Fibroblasts from peripheral nerve
+      cell line: HEK 293
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

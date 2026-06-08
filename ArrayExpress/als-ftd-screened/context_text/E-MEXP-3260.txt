@@ -1,0 +1,39 @@
+Accession: E-MEXP-3260
+Source list: als-ftd-screened
+Title: Muscle Gene Expression Is a Marker of Amyotrophic Lateral Sclerosis Severity
+Study type: transcription profiling by array
+Description: This study was designed to identify gene expression changes in skeletal muscle that could define reliably the degree of the severity of Amyotrophic lateral sclerosis (ALS). All samples were from human biopsies, either from healthy muscles or from muscle whose patients were clearly diagnosed as having Amyotrophic Lateral Sclerosis (ALS)
+Sample count: 38
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: disease_state_design, co-expression_design, replicate_design, clinical_history_design
+  Experimental Factors:
+    Experimental Factors: DISEASE_STATE, CLINICAL_INFORMATION
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: muscle
+    Disease: normal, amyotrophic lateral sclerosis
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Disease_state: normal, amyotrophic lateral sclerosis
+      DISEASE_STATE: normal, amyotrophic lateral sclerosis
+      Diseasestate: normal, amyotrophic lateral sclerosis
+      DiseaseState: normal, amyotrophic lateral sclerosis
+    Cell type/line:
+      Not found
+    Clinical/familial:
+      Clinical_information: Right arm abduction score 2, Right arm abduction score 5, Right arm abduction score 4, Right arm abduction score 1
+      CLINICAL_INFORMATION: Right arm abduction score 5, Right arm abduction score 4, Right arm abduction score 2, Right arm abduction score 1
+      Clinicalinformation: Right arm abduction score 2, Right arm abduction score 5, Right arm abduction score 4, Right arm abduction score 1
+      ClinicalInformation: Right arm abduction score 5, Right arm abduction score 4, Right arm abduction score 2, Right arm abduction score 1
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Quality Controls: biological_replicate
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

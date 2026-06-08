@@ -1,0 +1,13 @@
+# TITLE: lncRNA/mRNA expression profiling for 10 human lung samples
+# SUMMARY: Detect lncRNA/mRNA expression profiling for 10 human lung samples from NSCLC patients to elucidate the dysregulation of lncRNAs and mRNA in tumorigenesis
+GPL16956_Group,GPL16956_Accession,GPL16956_Title,GPL16956_Source name,GPL16956_Tissue
+-,GSM2628009,HJP-LC+,HJP-lung adenocarcinoma tissue,lung adenocarcinoma
+-,GSM2628010,CWL-LC+,CWL-lung adenocarcinoma tissue,lung adenocarcinoma
+-,GSM2628011,LSF-LC+,LSF-lung adenocarcinoma tissue,lung adenocarcinoma
+-,GSM2628012,CHN-LC+,CHN-lung adenocarcinoma tissue,lung adenocarcinoma
+-,GSM2628013,ZGC-LC+,ZGC-lung adenocarcinoma tissue,lung adenocarcinoma
+-,GSM2628014,HJP-LC-,HJP-normal lung tissue,normal lung
+-,GSM2628015,CWL-LC-,CWL-normal lung tissue,normal lung
+-,GSM2628016,LSF-LC-,LSF-normal lung tissue,normal lung
+-,GSM2628017,CHN-LC-,CHN-normal lung tissue,normal lung
+-,GSM2628018,ZGC-LC-,ZGC-normal lung tissue,normal lung

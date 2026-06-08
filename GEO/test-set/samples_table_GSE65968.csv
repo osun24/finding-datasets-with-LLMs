@@ -1,0 +1,9 @@
+# TITLE: MYEOV as a novel biomarker for human non-small cell lung cancer
+# SUMMARY: To investigate the roles of MYEOV in lung cancer cell proliferation, we compared the expression profiles of A549 lung adenocarcinoma cell lines transfected with control siRNA and siMYEOV.
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Cell line,GPL16686_Transfection
+-,GSM1611783,A549_siNC_rep1,human lung cancer cell line A549,A549,siNC
+-,GSM1611784,A549_siNC_rep2,human lung cancer cell line A549,A549,siNC
+-,GSM1611785,A549_siMYEOV_1 rep1,human lung cancer cell line A549,A549,siMYEOV #1
+-,GSM1611786,A549_siMYEOV_1 rep2,human lung cancer cell line A549,A549,siMYEOV #1
+-,GSM1611787,A549_siMYEOV_2 rep1,human lung cancer cell line A549,A549,siMYEOV #2
+-,GSM1611788,A549_siMYEOV_2 rep2,human lung cancer cell line A549,A549,siMYEOV #2

@@ -1,0 +1,548 @@
+{
+  "accno": "E-MEXP-18",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of human cell lines and tissues (Novartis/GNF)"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2002-03-19"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MEXP-18"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MEXP-18",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of human cell lines and tissues (Novartis/GNF)"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "High-throughput gene expression profiling has become an important tool for investigating transcriptional activity in a variety of biological samples. To date, the vast majority of these experiments have focused on specific biological processes and perturbations. Here, we have generated and analyzed gene expression from a set of samples spanning a broad range of biological conditions. Specifically, we profiled gene expression from 91 human and mouse samples across a diverse array of tissues, organs, and cell lines. Because these samples predominantly come from the normal physiological state in the human and mouse, this dataset represents a preliminary, but substantial, description of the normal mammalian transcriptome. We have used this dataset to illustrate methods of mining these data, and to reveal insights into molecular and physiological gene function, mechanisms of transcriptional regulation, disease etiology, and comparative genomics. Finally, to allow the scientific community to use this resource, we have built a free and publicly accessible website (http://expression.gnf.org) that integrates data visualization and curation of current gene annotations. The terms of the Novartis data release policy prevent us from redistributing .cel files for this experiment, therefore there is no raw data, we hope to be able to release this in future."
+      }
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-NOVT-709",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-NOVT-709"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "mo"
+                }
+              ],
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "RNA Modified Prep 1.Add 1 ml Trizol per 50 ?100mg of tissue or cells. 2.Add 20ul of 1ug/ul Glycogen  3.Homogenize  a.Hand held Polytron Homogenizer (for all tissues) for  1minute or b.20 gauge needle on a 5cc syringe (for cells only), pass  10 times or c.Qiagen homogenizer machine (for non-fibrous, and non-elastic tissues) 4.Incubate homogenized samples at room temperature for 5-10 minutes 5.Add 200ul of chloroform per 1 ml of Trizol used in step 1. 6.Vortex, incubate at room temp. for 3 minutes 7.Centrifuge at maximum speed, room temp, for 10 minutes 8.Isolate upper, aqueous phase and transfer to a new 1.5 ml tube 9.Add 500ul Isopropanol per 1 ml of Trizol used in step 1. 10.Vortex 11.Incubate at ?20C for 20 minutes 12.Centrifuge at maximum speed 4C for 20 minutes 13.Remove supernatant, keep pellet, don?t bother to dry  14.Resuspend  pellet in 100ul in RNAase free H20 15.Use Rneasy qiagen column to clean up total RNA. Elute total RNA off column with 25 ul  RNAase free H2O  twice for a total of 50ul."
+            },
+            {
+              "name": "Parameters",
+              "value": "Amplification;Extracted product;"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-NOVT-710",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-NOVT-710"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "mo"
+                }
+              ],
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "GeneChip Expression Technical Manual using GNF fluidics station  cDNA synthesis Variable amounts of RNA will produce good cDNA but we recommend the following starting amounts: Total RNA- 5 ug or mRNA- 0.5  1st strand cDNA synthesis Reagent vol. ul RNA + H2O 11 T7T24 primer 100pm/ul 1 - Make sure you add the primer, INDIVIDUALLY, DIRECTLY INTO YOUR SAMPLES - Incubate 10 minutes at 70°C ® chill on ice  Add the following to RNA mix: Reagent vol. ul 5X 1st strand buffer 4 0.1 M DTT 2 10 mM dntp 1 SuperScript II RT (200units/ul) 1 - When making a cocktail mix, make 20% more than you need - Incubate 1 hour at 42°C  2nd strand cDNA synthesis On ice add: Reagent vol. ul DEPC 91 5X 2nd strand buffer 30 10mM dntp 3 E coli DNA pol I (10 units/ul) 4 E coli DNA ligase (10 units/ul) 1 E coli RNAse H (2 units/ul) 1 - When making a cocktail mix, make 20% more than you need - Incubate 2 hours at 16°C (use microcooler)  Add: Reagent vol. ul T4 DNA polymerase (5units/ul) 2 - 5 minutes at 16 °C - Add 10 ul  0.5 M EDTA - Proceed to clean-up procedure for cDNA or store at -20°C  (* the above reagents provided by Invitrogen)            Purify ds cDNA QIAquick for Purification of ds cDNA  - Add 810ul (5 folds of cDNA mixture) of Buffer PB to ds cDNA mixture (162 ul) from 2nd strand cDNA synthesis and mix - Apply half of the sample (486ul) to the QlAquick column and centrifuge 45 sec at  > 10,000 rpm - Discard flow-through and apply the other half of the sample to the QlAquick column and centrifuge 45 sec at  > 10,000 rpm - Discard flow-through and place QIAquick column back into the same tube - To wash, add 750 ul Buffer PE to column and centrifuge 45 sec at  > 10,000 rpm  - Discard flow-through. Place QIAquick column in new collection tubes. Centrifuge column for an additional 1 min at maximum speed - Place QIAquick column in a clean 1.5-ml microfuge tube  - To elute DNA, add 30 ul Buffer EB (10 mM Tris-Cl, pH 8.5) to the center of the QIAquick column, let it sit for 1 min. then centrifuge for 1 min. Repeat for a total 60 ul elution. - Speed vacuum dry the samples and resuspend in 22 ml Nuclease Free H2O - You may freeze at -20°C or continue to IVT reaction                  Synthesis of Biotin-Labeled cRNA (using ENZO BioArray High Yield RNA Transcript Labeling Kit)  vol. ul Reagent X Fraction of ds cDNA corresponding to 5ug total RNA input Y DEPC H2O 4 10X Hy reaction buffer 4 10X Biotin labeled ribonucleotides 4 10X DTT 4 10X Rnase inhibitor 2 T7 RNA polymerase 40 ul total  X + Y = 22 ul in volume - Incubate 37°C for 4 -6 hours-gently mixing the reaction every 30 minutes - Clean up cRNA with QIAGEN RNeasy spin columns - Quantify the cRNA using Beckman DU640 Spectrophotometer  Fragmentation the cRNA for Target preparation - Add 15 mg cRNA to a volume of 16 ml - Speed vac cRNA if necessary and resuspend to 16 ml - Add 4 ml RNA fragmentation buffer - Incubate at 94 °C for 17.5 minutes  - Quick spin down - Incubate at 94 °C for another 17.5  minutes (total  of 35 minute incubation) - Spin down and add hybridization mix to the fragmented cRNA tube - Put the tubes in ice and ready for chip hybridization Reagent Mini Array (µl) Standard Array(µl) Final concentration 15 µg fragmented cRNA in 20ul    0.05 µg/µl DEPC Tx H2O 21.3 104   2X MES Hybridization Buffer 50 150  1X Promega Herring Sperm DNA(10mg/ml)  3  0.1 mg/ml BSA (50 mg/ml) 1 3  0.5 mg/ml Control Oligonucleotide B2 (3 nM) 1.67 5 50 pM 20 X Eukaryotic Hybridization Controls (BioB,BioC,BioD and cre)  5 15 1.5, 5, 25, 100 pMrespectively Final volume 100 ul 300 ul   * Incubate 20 X Controls and Herring Sperm DNA at 70 C for 5 min before use * Incubate Control Oligo B2 and BSA at 37 C for 5 min before use              Target Cleanup and Hybridization Chip Pre-treatment - Place the chip in  the 45 °C oven for 15 minutes - Fill the chip with pre-warmed (45 °C) pretreatment solution - Place the chip in the 45 °C oven for 15 minutes  Pre-treatment solution (prepared fresh) Add (µl) Final concentration 1X  MES Hyb buffer 294  Ac-BSA (50 mg/ml) 3     0.5 mg/ml Promega Herring Sperm DNA (10mg/ml) 3     0.1 mg/ml  Setup hybridization - Place hybridization mix for 5 minutes in the 99 °C heat block - Place hybridization mix in the 45 °C heat block for 5 minutes - Centrifuge hybridization mix for 10 minutes at 14K rpm - Transfer to a new tube without taking the last 10-20 µl to avoid the precipitate - Place hybridization mix in the 45 °C heat block for 5 minutes - Remove pretreatment solution from the chips - Fill the chip with  hybridization mix - Cover septa with tough spots - Place chip in the 45 °C (50°C for Human Chips) in the GeneChip Hybridization Oven and rotate for 16-18 hrs  Washing and Staining Probe Arrays  SAPE stain (600 µl) Reagent Add (µl) Final concentration 2X MES Hybridization Buffer 300 1X DEPC Tx H2O 270  BSA (50 mg/ml) 24 0.5 mg/ml SAPE (1mg/ml) 6 10 µg /ml AB stain (300 µl) Reagent Add (ul) Final concentration 2X MES Hybridization Buffer 150 1X DEPC Tx H2O 133.2  BSA (50 mg/ml) 12 0.5 mg/ml Normal goat IgG in PBS (10 mg/ml)  3 0.1 mg/ml Biotinylated antibody (500 ug/ml) 1.8 1.25 µg/ml  - Pre-warm Affymetrix buffer B (500ul per chip) at 50C for 10 min - Remove sample from the chips and store in 1.5 ml tube at -20 C - Fill the chips with room temp Affymetrix buffer A  - Wash chips on GNF fluidics station - Remove 6x SSPE, then add 200 ul prewarmed buffer B and rotate the chip at 50C for 5 min - Remove buffer B and repeat above step and rotate for another 5 min at 50C - Cool chips with room temp buffer A - After removing buffer A, add SAPE and incubate 10 minutes at room temp, FACE DOWN - Wash  chips on GNF fluidics station  - Remove 6 x SSPE and fill the chip with antibody (AB) stain for 10 min at room temp, FACE DOWN - Remove the stain buffer and rinse with 200 ul buffer A - Stain with another SAPE at room temp for 10 min, FACE DOWN - Wash the chip on GNF machine - Remove 6x SSPE, fill with 1 x MES without bubble and cover septa with tough spots  Reagents 12X MES stock  (100 ml)    1.22 M MES     pH should be 6.5-6.7 (without adjustment) Reagent Add (g)  MES free acid monohydrate 7.04    MES Sodium Salt 19.3    bring up to 100 ml DEPC water  0.2 µm filter sterilize and store at 4 °C    2X MES Hybridization Buffer (500 ml) Reagent Add (ml) Final 2X concentration DEPC water 216   5M NaCl 200   2 M 12X MES stock 82    200 mM 0.2 µm filter sterilize store at room temperature for a few weeks or 4C several months  6XSSPE-Washing buffer (5L)                                       (pH should be ~7.5-7.6 without adjustment) Reagent Add (ml) Final concentration 20X SSPE 1500 6X MQ water Add water to 5L  0.2 µm filter sterilize add to the filtered solution 10% Triton X-100 5 0.01 %   Buffer B (Affymetrix): Stringent Wash Buffer (500ml) Reagent Add (ml) 12X MES stock 41.65 5 M NaCl 2.6 DEPC water 455.25 10% Tween 20 0.5 0.2 µm filter sterilize  Buffer A (Affymetrix): Non-Stringent Wash Buffer (500ml) Reagent Add (ml) 20X SSPE 150 water 349 10% Tween 20 0.5 0.2 µm filter sterilize  2X Stain Buffer (250ml) Reagent Add (ml) 12X MES stock 41.65 5 M NaCl 92.5 DEPC water 112.8 10% Tween 20 2.5 0.2 µm filter sterilize"
+            },
+            {
+              "name": "Parameters",
+              "value": "Amplification;Amount of nucleic acid labeled;Used LAbel;"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-NOVT-719",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-NOVT-719"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "mo"
+                }
+              ],
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "GeneChip Expression Technical Manual using GNF fluidics station  cDNA synthesis Variable amounts of RNA will produce good cDNA but we recommend the following starting amounts: Total RNA- 5 ug or mRNA- 0.5  1st strand cDNA synthesis Reagent vol. ul RNA + H2O 11 T7T24 primer 100pm/ul 1 - Make sure you add the primer, INDIVIDUALLY, DIRECTLY INTO YOUR SAMPLES - Incubate 10 minutes at 70°C ® chill on ice  Add the following to RNA mix: Reagent vol. ul 5X 1st strand buffer 4 0.1 M DTT 2 10 mM dntp 1 SuperScript II RT (200units/ul) 1 - When making a cocktail mix, make 20% more than you need - Incubate 1 hour at 42°C  2nd strand cDNA synthesis On ice add: Reagent vol. ul DEPC 91 5X 2nd strand buffer 30 10mM dntp 3 E coli DNA pol I (10 units/ul) 4 E coli DNA ligase (10 units/ul) 1 E coli RNAse H (2 units/ul) 1 - When making a cocktail mix, make 20% more than you need - Incubate 2 hours at 16°C (use microcooler)  Add: Reagent vol. ul T4 DNA polymerase (5units/ul) 2 - 5 minutes at 16 °C - Add 10 ul  0.5 M EDTA - Proceed to clean-up procedure for cDNA or store at -20°C  (* the above reagents provided by Invitrogen)            Purify ds cDNA QIAquick for Purification of ds cDNA  - Add 810ul (5 folds of cDNA mixture) of Buffer PB to ds cDNA mixture (162 ul) from 2nd strand cDNA synthesis and mix - Apply half of the sample (486ul) to the QlAquick column and centrifuge 45 sec at  > 10,000 rpm - Discard flow-through and apply the other half of the sample to the QlAquick column and centrifuge 45 sec at  > 10,000 rpm - Discard flow-through and place QIAquick column back into the same tube - To wash, add 750 ul Buffer PE to column and centrifuge 45 sec at  > 10,000 rpm  - Discard flow-through. Place QIAquick column in new collection tubes. Centrifuge column for an additional 1 min at maximum speed - Place QIAquick column in a clean 1.5-ml microfuge tube  - To elute DNA, add 30 ul Buffer EB (10 mM Tris-Cl, pH 8.5) to the center of the QIAquick column, let it sit for 1 min. then centrifuge for 1 min. Repeat for a total 60 ul elution. - Speed vacuum dry the samples and resuspend in 22 ml Nuclease Free H2O - You may freeze at -20°C or continue to IVT reaction                  Synthesis of Biotin-Labeled cRNA (using ENZO BioArray High Yield RNA Transcript Labeling Kit)  vol. ul Reagent X Fraction of ds cDNA corresponding to 5ug total RNA input Y DEPC H2O 4 10X Hy reaction buffer 4 10X Biotin labeled ribonucleotides 4 10X DTT 4 10X Rnase inhibitor 2 T7 RNA polymerase 40 ul total  X + Y = 22 ul in volume - Incubate 37°C for 4 -6 hours-gently mixing the reaction every 30 minutes - Clean up cRNA with QIAGEN RNeasy spin columns - Quantify the cRNA using Beckman DU640 Spectrophotometer  Fragmentation the cRNA for Target preparation - Add 15 mg cRNA to a volume of 16 ml - Speed vac cRNA if necessary and resuspend to 16 ml - Add 4 ml RNA fragmentation buffer - Incubate at 94 °C for 17.5 minutes  - Quick spin down - Incubate at 94 °C for another 17.5  minutes (total  of 35 minute incubation) - Spin down and add hybridization mix to the fragmented cRNA tube - Put the tubes in ice and ready for chip hybridization Reagent Mini Array (µl) Standard Array(µl) Final concentration 15 µg fragmented cRNA in 20ul    0.05 µg/µl DEPC Tx H2O 21.3 104   2X MES Hybridization Buffer 50 150  1X Promega Herring Sperm DNA(10mg/ml)  3  0.1 mg/ml BSA (50 mg/ml) 1 3  0.5 mg/ml Control Oligonucleotide B2 (3 nM) 1.67 5 50 pM 20 X Eukaryotic Hybridization Controls (BioB,BioC,BioD and cre)  5 15 1.5, 5, 25, 100 pMrespectively Final volume 100 ul 300 ul   * Incubate 20 X Controls and Herring Sperm DNA at 70 C for 5 min before use * Incubate Control Oligo B2 and BSA at 37 C for 5 min before use              Target Cleanup and Hybridization Chip Pre-treatment - Place the chip in  the 45 °C oven for 15 minutes - Fill the chip with pre-warmed (45 °C) pretreatment solution - Place the chip in the 45 °C oven for 15 minutes  Pre-treatment solution (prepared fresh) Add (µl) Final concentration 1X  MES Hyb buffer 294  Ac-BSA (50 mg/ml) 3     0.5 mg/ml Promega Herring Sperm DNA (10mg/ml) 3     0.1 mg/ml  Setup hybridization - Place hybridization mix for 5 minutes in the 99 °C heat block - Place hybridization mix in the 45 °C heat block for 5 minutes - Centrifuge hybridization mix for 10 minutes at 14K rpm - Transfer to a new tube without taking the last 10-20 µl to avoid the precipitate - Place hybridization mix in the 45 °C heat block for 5 minutes - Remove pretreatment solution from the chips - Fill the chip with  hybridization mix - Cover septa with tough spots - Place chip in the 45 °C (50°C for Human Chips) in the GeneChip Hybridization Oven and rotate for 16-18 hrs  Washing and Staining Probe Arrays  SAPE stain (600 µl) Reagent Add (µl) Final concentration 2X MES Hybridization Buffer 300 1X DEPC Tx H2O 270  BSA (50 mg/ml) 24 0.5 mg/ml SAPE (1mg/ml) 6 10 µg /ml AB stain (300 µl) Reagent Add (ul) Final concentration 2X MES Hybridization Buffer 150 1X DEPC Tx H2O 133.2  BSA (50 mg/ml) 12 0.5 mg/ml Normal goat IgG in PBS (10 mg/ml)  3 0.1 mg/ml Biotinylated antibody (500 ug/ml) 1.8 1.25 µg/ml  - Pre-warm Affymetrix buffer B (500ul per chip) at 50C for 10 min - Remove sample from the chips and store in 1.5 ml tube at -20 C - Fill the chips with room temp Affymetrix buffer A  - Wash chips on GNF fluidics station - Remove 6x SSPE, then add 200 ul prewarmed buffer B and rotate the chip at 50C for 5 min - Remove buffer B and repeat above step and rotate for another 5 min at 50C - Cool chips with room temp buffer A - After removing buffer A, add SAPE and incubate 10 minutes at room temp, FACE DOWN - Wash  chips on GNF fluidics station  - Remove 6 x SSPE and fill the chip with antibody (AB) stain for 10 min at room temp, FACE DOWN - Remove the stain buffer and rinse with 200 ul buffer A - Stain with another SAPE at room temp for 10 min, FACE DOWN - Wash the chip on GNF machine - Remove 6x SSPE, fill with 1 x MES without bubble and cover septa with tough spots  Reagents 12X MES stock  (100 ml)    1.22 M MES     pH should be 6.5-6.7 (without adjustment) Reagent Add (g)  MES free acid monohydrate 7.04    MES Sodium Salt 19.3    bring up to 100 ml DEPC water  0.2 µm filter sterilize and store at 4 °C    2X MES Hybridization Buffer (500 ml) Reagent Add (ml) Final 2X concentration DEPC water 216   5M NaCl 200   2 M 12X MES stock 82    200 mM 0.2 µm filter sterilize store at room temperature for a few weeks or 4C several months  6XSSPE-Washing buffer (5L)                                       (pH should be ~7.5-7.6 without adjustment) Reagent Add (ml) Final concentration 20X SSPE 1500 6X MQ water Add water to 5L  0.2 µm filter sterilize add to the filtered solution 10% Triton X-100 5 0.01 %   Buffer B (Affymetrix): Stringent Wash Buffer (500ml) Reagent Add (ml) 12X MES stock 41.65 5 M NaCl 2.6 DEPC water 455.25 10% Tween 20 0.5 0.2 µm filter sterilize  Buffer A (Affymetrix): Non-Stringent Wash Buffer (500ml) Reagent Add (ml) 20X SSPE 150 water 349 10% Tween 20 0.5 0.2 µm filter sterilize  2X Stain Buffer (250ml) Reagent Add (ml) 12X MES stock 41.65 5 M NaCl 92.5 DEPC water 112.8 10% Tween 20 2.5 0.2 µm filter sterilize"
+            },
+            {
+              "name": "Parameters",
+              "value": "Temperature;Volume;Time;Quantity of label target used;Chamber type;"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Helen Parkinson"
+          },
+          {
+            "name": "Email",
+            "value": "parkinson@ebi.ac.uk"
+          },
+          {
+            "name": "Phone",
+            "value": "01223 494672"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "John Walker"
+          },
+          {
+            "name": "Role",
+            "value": "investigator"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o2"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Hilmar Hilmar"
+          },
+          {
+            "name": "Role",
+            "value": "investigator"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o3"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "EBI"
+          },
+          {
+            "name": "Address",
+            "value": "Wellcome Trust Genome Campus"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "o2",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Genomics Institute of the Novartis Foundation"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "o3",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Genomics Institute of the Novartis Foundation"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "11904358",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Large-scale analysis of the human and mouse transcriptomes"
+          },
+          {
+            "name": "Authors",
+            "value": "Andrew I. Su, Michael P. Cooke, Keith A. Ching, Yaron Hakak, John R. Walker, Tim Wiltshire, Anthony P. Orth, Raquel G. Vega, Lisa M. Sapinoso, Aziz Moqrich, Ardem Patapoutian, Garret M. Hampton, Peter G. Schultz*, and John B. Hogenesch"
+          },
+          {
+            "name": "DOI",
+            "value": "11904358"
+          },
+          {
+            "name": "Status",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "mo"
+              }
+            ],
+            "value": "journal_article"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "11904358"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MEXP-18",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "1"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "mo"
+              }
+            ],
+            "value": "organism_part_comparison_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "mo"
+              }
+            ],
+            "value": "disease_state_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "transcription profiling by array"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "organism_part"
+              }
+            ],
+            "value": "organism_part"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease_state"
+              }
+            ],
+            "value": "disease_state"
+          },
+          {
+            "name": "Quality Controls",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "mo"
+              }
+            ],
+            "value": "technical_replicate"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "source_chars-E-MEXP-18",
+            "attributes": [
+              {
+                "name": "OrganismPart",
+                "value": "caudate nucleus"
+              },
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "DevelopmentalStage",
+                "value": "adult"
+              },
+              {
+                "name": "Sex",
+                "value": "mixed_sex"
+              },
+              {
+                "name": "Sex",
+                "value": "mixed_sex"
+              },
+              {
+                "name": "Age",
+                "value": "84"
+              },
+              {
+                "name": "Age",
+                "value": "84"
+              },
+              {
+                "name": "TimeUnit",
+                "value": "seconds"
+              },
+              {
+                "name": "InitialTimePoint",
+                "value": "birth"
+              },
+              {
+                "name": "DiseaseState",
+                "value": "cancer"
+              },
+              {
+                "name": "CellLine",
+                "value": "Daudi"
+              },
+              {
+                "name": "IndividualGeneticCharacteristics",
+                "value": "cancer"
+              },
+              {
+                "name": "CellType",
+                "value": "hepatocyte"
+              },
+              {
+                "name": "Organismpart",
+                "value": "caudate nucleus"
+              },
+              {
+                "name": "Developmentalstage",
+                "value": "adult"
+              },
+              {
+                "name": "Timeunit",
+                "value": "seconds"
+              },
+              {
+                "name": "Initialtimepoint",
+                "value": "birth"
+              },
+              {
+                "name": "Diseasestate",
+                "value": "cancer"
+              },
+              {
+                "name": "Cellline",
+                "value": "Daudi"
+              },
+              {
+                "name": "Individualgeneticcharacteristics",
+                "value": "cancer"
+              },
+              {
+                "name": "Celltype",
+                "value": "hepatocyte"
+              }
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MEXP-18",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "mt-E-MEXP-18",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MEXP-18.idf.txt",
+                  "size": 19622,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MEXP-18.sdrf.txt",
+                  "size": 1698,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MEXP-18",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-1"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MEXP-18",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Variables",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

@@ -1,0 +1,27 @@
+# TITLE: miR-7 as novel predictive epigenetic biomarker for platinum-resistance in cancer (miRNA)
+# SUMMARY: Background. One of the major limitations associated to the platinum use is the resistance that almost invariably will progress in lung and ovarian cancers. In the current study, we sought to identify epigenetically regulated miRNAs as novel biomarkers of platinum-resistance in those tumor types. Methods. We combined transcriptomic data from miRNA and mRNA under the influence of an epigenetic reactivation treatment, followed by qRT-PCR and epigenteic validations for an accurate candidate selection in 23 human cancer cell lines. Functional analysis were performed to study their biological and therapeutic implications, that were further tested in 257 primary samples obtained from lung and ovarian tumors. Results. We identified a group of 9 miRNAs belonging to the CM19 cluster and 7 potential miRNA-targets potentially involved in resistance development, in both tumor types. Deregulation of miR-7, -132, -335 and -148a may be a common event in the development of CDDP-resistance. miR-7 presented specific methylation in the resistant subtypes and its reexpression, decreased cell viability, suggesting a possible cell sensitization to cisplatin. Our translational approach indicated that miR-7 methylation is a frequent event that may play an important role in the early establishment of NSCLC tumorigenesis, and seems to play an additional platinum-predictive role in ovarian cancer. Conclusions. miR-7 is a novel potential epigenetic biomarker tool for the selection of ovarian cancer patients with higher risk to earlier relapse and worst response to platinum-based chemotherapy. Funding. FIS (ISCIII): PI12/00386, PI13/01450, PI15/00186, and FEDER/FSE (Una manera de hacer Europa).
+GPL8227_Group,GPL8227_Accession,GPL8227_Title,GPL8227_Source name,GPL8227_Cell line,GPL8227_Tissue,GPL8227_Chemoterapy drug,GPL8227_Phenotype
+-,GSM2228958,H23_S_1,Sensitive cisplatin H23 lung cancer cell line,H23,Lung,cisplatin,Sensitive
+-,GSM2228959,H23_R_1,Resistant cisplatin H23 lung cancer cell line,H23,Lung,cisplatin,Resistant
+-,GSM2228960,H23_RT_1,Resistant under epigenetic reactivation treatment H23 lung cancer cell line,H23,Lung,cisplatin,Resistant under epigenetic reactivation treatment
+-,GSM2228961,H23_S_2,Sensitive cisplatin H23 lung cancer cell line,H23,Lung,cisplatin,Sensitive
+-,GSM2228962,H23_R_2,Resistant cisplatin H23 lung cancer cell line,H23,Lung,cisplatin,Resistant
+-,GSM2228963,H23_RT_2,Resistant under epigenetic reactivation treatment H23 lung cancer cell line,H23,Lung,cisplatin,Resistant under epigenetic reactivation treatment
+-,GSM2228964,H460_S_1,Sensitive cisplatin H460 lung cancer cell line,H460,Lung,cisplatin,Sensitive
+-,GSM2228965,H460_R_1,Resistant cisplatin H460 lung cancer cell line,H460,Lung,cisplatin,Resistant
+-,GSM2228966,H460_RT_1,Resistant under epigenetic reactivation treatment H2460 lung cancer cell line,H460,Lung,cisplatin,Resistant under epigenetic reactivation treatment
+-,GSM2228967,H460_S_2,Sensitive cisplatin H460 lung cancer cell line,H460,Lung,cisplatin,Sensitive
+-,GSM2228968,H460_R_2,Resistant cisplatin H460 lung cancer cell line,H460,Lung,cisplatin,Resistant
+-,GSM2228969,H460_RT_2,Resistant under epigenetic reactivation treatment H460 lung cancer cell line,H460,Lung,cisplatin,Resistant under epigenetic reactivation treatment
+-,GSM2228970,OVCAR3_S_1,Sensitive cisplatin OVCAR3 lung cancer cell line,OVCAR3,Ovarian,cisplatin,Sensitive
+-,GSM2228971,OVCAR3_R_1,Resistant cisplatin OVCAR3 lung cancer cell line,OVCAR3,Ovarian,cisplatin,Resistant
+-,GSM2228972,OVCAR3_RT_1,Resistant under epigenetic reactivation treatment OVCAR3 lung cancer cell line,OVCAR3,Ovarian,cisplatin,Resistant under epigenetic reactivation treatment
+-,GSM2228973,OVCAR3_S_2,Sensitive cisplatin OVCAR3 lung cancer cell line,OVCAR3,Ovarian,cisplatin,Sensitive
+-,GSM2228974,OVCAR3_R_2,Resistant cisplatin OVCAR3 lung cancer cell line,OVCAR3,Ovarian,cisplatin,Resistant
+-,GSM2228975,OVCAR3_RT_2,Resistant under epigenetic reactivation treatment OVCAR3 lung cancer cell line,OVCAR3,Ovarian,cisplatin,Resistant under epigenetic reactivation treatment
+-,GSM2228976,A2780_S_1,Sensitive cisplatin A2780 lung cancer cell line,A2780,Ovarian,cisplatin,Sensitive
+-,GSM2228977,A2780_R_1,Resistant cisplatin A2780 lung cancer cell line,A2780,Ovarian,cisplatin,Resistant
+-,GSM2228978,A2780_RT_1,Resistant under epigenetic reactivation treatment A2780 lung cancer cell line,A2780,Ovarian,cisplatin,Resistant under epigenetic reactivation treatment
+-,GSM2228979,A2780_S_2,Sensitive cisplatin A2780 lung cancer cell line,A2780,Ovarian,cisplatin,Sensitive
+-,GSM2228980,A2780_R_2,Resistant cisplatin A2780 lung cancer cell line,A2780,Ovarian,cisplatin,Resistant
+-,GSM2228981,A2780_RT_2,Resistant under epigenetic reactivation treatment A2780 lung cancer cell line,A2780,Ovarian,cisplatin,Resistant under epigenetic reactivation treatment

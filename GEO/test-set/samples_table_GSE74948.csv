@@ -1,0 +1,165 @@
+# TITLE: Copy number variations distinguish lung adenocarcinomas from squamous cell carcinomas
+# SUMMARY: For a number of clinical and biological reasons, the accurate classification of non-small cell lung carcinoma (NSCLC) into adenocarcinoma (ADC) and squamous cell carcinoma (SCC) is essential. DNA-based tests, which are not currently used, are more robust when applied to formalin-fixed paraffin-embedded tissues. To develop a molecular-based classification of NSCLC based on genome wide copy number variations (CNVs), the corresponding TCGA, SPORE and CANARY patient datasets were used as training and independent validation data. The signature genes were selected by advanced supervised classification algorithms and restricted to known important oncogenes/tumor suppressors, resulting in a final 27-gene signature that was able to classify ADC from SCC with 0.85-0.87 accuracies of SPORE validation sets and 0.96-0.98 accuracy of CANARY validation sets. Even by using the top 7 genes in this signature, the accuracies of the validation sets were still as high as 0.80 and 0.97, respectively. These signature genes also classified adenocarcinoma and squamous cell carcinomas from the non-malignant lung samples with accuracies of 91-97%.
+GPL4091_Group,GPL4091_Accession,GPL4091_Title,GPL4091_Source name 1,GPL4091_Source name 2,GPL4091_Tissue (Ch1),GPL4091_Cell type (Ch1),GPL4091_Race (Ch1),GPL4091_Gender (Ch1),GPL4091_Tumor stage (Ch1),GPL4091_Gender (Ch2)
+-,GSM1938723,2319-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938724,1465-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938725,764-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938726,1064-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938727,771-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIB,Female
+-,GSM1938728,2190-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Hispanic,F,IA,Female
+-,GSM1938729,1309-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIB,Female
+-,GSM1938730,758-T1,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938731,1805-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938732,1462-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIB,Female
+-,GSM1938733,482-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938734,1987-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938735,296-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938736,1692-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IB,Female
+-,GSM1938737,426-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938738,1591-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIA,Female
+-,GSM1938739,1718-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938740,566-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938741,1266-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938742,1727-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,African American,M,IA,Female
+-,GSM1938743,1974-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938744,1884-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IIIB,Female
+-,GSM1938745,1375-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IA,Female
+-,GSM1938746,1804-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Hispanic,M,IB,Female
+-,GSM1938747,1858-T2,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,African American,F,IA,Female
+-,GSM1938748,96-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938749,1872-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IV,Female
+-,GSM1938750,1839-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938751,2078-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938752,1434-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIA,Female
+-,GSM1938753,1833-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938754,1729-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938755,501-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938756,654-T2,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IB,Female
+-,GSM1938757,1933-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,African American,F,IIIA,Female
+-,GSM1938758,1402-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IA,Female
+-,GSM1938759,582-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IB,Female
+-,GSM1938760,556-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938761,1289-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938762,1350-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938763,18-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938764,1549-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938765,1380-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938766,1964-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938767,1273-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IB,Female
+-,GSM1938768,1240-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IA & IA,Female
+-,GSM1938769,1576-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIB,Female
+-,GSM1938770,1662-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Hispanic,F,IB,Female
+-,GSM1938771,2230-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938772,1853-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938773,475-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIB,Female
+-,GSM1938774,393-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IB,Female
+-,GSM1938775,15-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIA,Female
+-,GSM1938776,1888-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIB,Female
+-,GSM1938777,2308-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIB,Female
+-,GSM1938778,2257-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIA,Female
+-,GSM1938779,720-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IIIB,Female
+-,GSM1938780,1809-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIA,Female
+-,GSM1938781,568-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIA,Female
+-,GSM1938782,1346-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IV,Female
+-,GSM1938783,1237-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938784,416-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIA,Female
+-,GSM1938785,1623-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIB,Female
+-,GSM1938786,1824-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938787,1355-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938788,814-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIA,Female
+-,GSM1938789,1956-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938790,250-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938791,756-T1,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938792,1921-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIA,Female
+-,GSM1938793,1496-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938794,1378-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938795,1476-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938796,1129-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IIA,Female
+-,GSM1938797,686-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IB,Female
+-,GSM1938798,412-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Hispanic,F,IIIA,Female
+-,GSM1938799,2313-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938800,399-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938801,2135-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Asian,M,IIIB,Female
+-,GSM1938802,1443-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938803,1598-T2,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIB vs IV,Female
+-,GSM1938804,1303-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938805,590-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIA,Female
+-,GSM1938806,1284-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938807,952-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIA,Female
+-,GSM1938808,539-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIA,Female
+-,GSM1938809,1992-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IA,Female
+-,GSM1938810,1793-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIA,Female
+-,GSM1938811,1041-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,African American,F,IB,Female
+-,GSM1938812,497-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIB,Female
+-,GSM1938813,2029-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938814,2303-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IA,Female
+-,GSM1938815,1213-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938816,993-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IB,Female
+-,GSM1938817,485-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Hispanic,M,IIB,Female
+-,GSM1938818,2307-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IIB,Female
+-,GSM1938819,1477-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IB,Female
+-,GSM1938820,1052-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938821,722-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIB,Female
+-,GSM1938822,1183-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IA,Female
+-,GSM1938823,1353-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938824,1966-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,African American,M,IA & IA,Female
+-,GSM1938825,697-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIB,Female
+-,GSM1938826,1168-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIA,Female
+-,GSM1938827,999-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938828,2279-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938829,1930-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,African American,M,IA,Female
+-,GSM1938830,1038-T2,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIB,Female
+-,GSM1938831,2006-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIB,Female
+-,GSM1938832,309-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938833,2280-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IIIB,Female
+-,GSM1938834,2076-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938835,2281-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIB,Female
+-,GSM1938836,1978-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IIIA,Female
+-,GSM1938837,2278-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IV,Female
+-,GSM1938838,1908-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938839,1161-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938840,917-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IB,Female
+-,GSM1938841,1502-T2,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIA,Female
+-,GSM1938842,1601-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938843,2211-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIB,Female
+-,GSM1938844,1332-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,African American,M,IIB,Female
+-,GSM1938845,670-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Hispanic,F,IA,Female
+-,GSM1938846,1498-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938847,1405-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIA,Female
+-,GSM1938848,2299-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938849,2204-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938850,1671-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938851,1844-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938852,1551-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938853,1265-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IA,Female
+-,GSM1938854,1761-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIA,Female
+-,GSM1938855,1238-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Asian or Pacific Islander,F,IIIA,Female
+-,GSM1938856,2309-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938857,1325-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938858,1510-Tx,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938859,1095-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938860,1454-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIA,Female
+-,GSM1938861,1736-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938862,259-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,African American,F,IB,Female
+-,GSM1938863,717-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938864,1714-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIB,Female
+-,GSM1938865,495-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIA,Female
+-,GSM1938866,1311-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIB,Female
+-,GSM1938867,2024-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IB,Female
+-,GSM1938868,1282-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938869,1330-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIIA,Female
+-,GSM1938870,2244-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,African American,M,IIB,Female
+-,GSM1938871,386-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IA,Female
+-,GSM1938872,2247-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938873,2167-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,F,IIIA,Female
+-,GSM1938874,555-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IIB,Female
+-,GSM1938875,2239-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IB,Female
+-,GSM1938876,940-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIB,Female
+-,GSM1938877,363-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938878,602-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IA,Female
+-,GSM1938879,850-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIB,Female
+-,GSM1938880,2212-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Asian,F,IB,Female
+-,GSM1938881,2192-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IB,Female
+-,GSM1938882,819-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,F,IIIB,Female
+-,GSM1938883,2269-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Adenocarcinoma,Caucasian,M,IIIB,Female
+-,GSM1938884,440-T,Early stage lung cancer,"Human Genomic DNA, Female, Promega, Inc., Cat #G1521",Lung,Squamous,Caucasian,M,IB,Female

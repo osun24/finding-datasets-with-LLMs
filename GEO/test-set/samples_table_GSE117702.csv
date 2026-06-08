@@ -1,0 +1,9 @@
+# TITLE: Expression data of LUAD cell line PC9 treated with 2 uM HCI-2509 for 48 hours
+# SUMMARY: The epigenetic regulator LSD1 is overepxpressed in lung adenocarcinoma (LUAD). HCI-2509 a LSD1 inhibitor leads to growth arrest in in vitro tumor models. To identify the underlying molecular mechanims behind LSD1 overexpression, we examined the gene expression patterns using microarray in the LUAD cell line PC9 after HCI-2509 treatment
+GPL16686_Group,GPL16686_Accession,GPL16686_Title,GPL16686_Source name,GPL16686_Tissue
+-,GSM3307398,PC9 Untreated rep1,Untreated PC9 cells,Lung
+-,GSM3307399,PC9 Untreated rep2,Untreated PC9 cells,Lung
+-,GSM3307400,PC9 Untreated rep3,Untreated PC9 cells,Lung
+-,GSM3307401,PC9 HCI-2509 rep1,PC9 cells treated with 2µM HCI-2509,Lung
+-,GSM3307402,PC9 HCI-2509 rep2,PC9 cells treated with 2µM HCI-2509,Lung
+-,GSM3307403,PC9 HCI-2509 rep3,PC9 cells treated with 2µM HCI-2509,Lung

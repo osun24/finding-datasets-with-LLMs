@@ -1,0 +1,7 @@
+# TITLE: Expression data from the different EMT and stemness status of lung cancer cell lines
+# SUMMARY: To study the drug resistant phenotype between stem-like cancer cells at different EMT status, we isolated 4 subpopulations from the non-small-cell lung cancer cell line (PC14) according to the E-cadherin and CD133 expression level. We demonstrated that the epithelial type CD133high stem-like cells (E-cadhighCD133high) significantly exhibited higher drug resistant ability compared to the mesenchymal type CD133high stem-like cells (E-cadlowCD133high), epithelial type CD133low non-stem like cells (E-cadhighCD133low) and mesenchymal type CD133low non-stem like cells (E-cadlowCD133low). We used microarray to study the global gene expression profiles of these 4 subpopulations and identified distinct classes of up-regulated genes and down-regulated genes in the epithelial type CD133high stem-like cells.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Cell subpopulation
+-,GSM2455344,PC14 E+CD133+,PC14,NSCLC PC14 cell line,PC14 E+CD133+
+-,GSM2455345,PC14 E-CD133+,PC14,NSCLC PC14 cell line,PC14 E-CD133+
+-,GSM2455346,PC14 E+CD133-,PC14,NSCLC PC14 cell line,PC14 E+CD133-
+-,GSM2455347,PC14 E-CD133-,PC14,NSCLC PC14 cell line,PC14 E-CD133-

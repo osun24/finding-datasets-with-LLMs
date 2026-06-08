@@ -1,0 +1,18 @@
+# TITLE: Identification of mutant KRAS-related genes associated with malignant phenotypes in NSCLC
+# SUMMARY: Oncogenic KRAS is found in more than 25% of lung adenocarcinomas, the major histologic subtype of non–small cell lung cancer (NSCLC), and is an important target for drug development. To this end, we generated four NSCLC lines with stable knockdown selective for oncogenic KRAS. As expected, stable knockdown of oncogenic KRAS led to inhibition of in vitro and in vivo tumor growth in the KRAS-mutant NSCLC cells, but not in NSCLC cells that have wild-type KRAS (but mutant NRAS). Surprisingly, we did not see large-scale induction of cell death and the growth inhibitory effect was not complete. To further understand the ability of NSCLCs to grow despite selective removal of mutant KRAS expression, we conducted microarray expression profiling of NSCLC cell lines with or without mutant KRAS knockdown and isogenic human bronchial epithelial cell lines with and without oncogenic KRAS. We found that although the mitogen-activated protein kinase pathway is significantly downregulated after mutant KRAS knockdown, these NSCLCs showed increased levels of phospho-STAT3 and phospho–epidermal growth factor receptor, and variable changes in phospho-Akt. In addition, mutant KRAS knockdown sensitized the NSCLCs to p38 and EGFR inhibitors. Our findings suggest that targeting oncogenic KRAS by itself will not be sufficient treatment, but may offer possibilities of combining anti-KRAS strategies with other targeted drugs. Detailed information on the microarray results are available in a previous study (Sunaga N, et al. Mol Cancer Ther. 2011;10:336-46).
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Histology,GPL570_Subtype
+-,GSM8391918,H23-Ctrl,H23 with control shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391919,H23-KRAS-C12,H23 with mutant KRAS-C12 shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391920,H358-Ctrl,H358 with control shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391921,H358-KRAS-C12,H358 with mutant KRAS-C12 shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391922,H1792-Ctrl,H1792 with control shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391923,H1792-KRAS-C12,H1792 with mutant KRAS-C12 shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391924,H441-Ctrl,H441 with control shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391925,H441-KRAS-V12,H441 with mutant KRAS-V12 shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391926,H1299-Ctrl,H1299 with control shRNA,Lung cancer cell line,Adenocarcinoma
+-,GSM8391927,H1299-KRAS-C12,H1299 with mutant KRAS-C12 shRNA,Lung cancer cell line,Large cell carcinoma
+-,GSM8391928,H1299-KRAS-V12,H1299 with mutant KRAS-V12 shRNA,Lung cancer cell line,Large cell carcinoma
+-,GSM8398301,HBEC3,HBEC3,Bronchial epithelial cell line,Bronchial epithelial cells
+-,GSM8398302,HBEC3-K,HBEC3 with mutant KRAS,Bronchial epithelial cell line,Bronchial epithelial cells
+-,GSM8398303,HBEC3-p53,HBEC3 with p53 shRNA,Bronchial epithelial cell line,Bronchial epithelial cells
+-,GSM8398304,HBEC3-p53K,HBEC3 with mutant KRAS plus p53 shRNA,Bronchial epithelial cell line,Bronchial epithelial cells

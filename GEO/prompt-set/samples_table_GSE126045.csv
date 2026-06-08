@@ -1,0 +1,21 @@
+# TITLE: Genome-wide identification of differentially methylated promoters and enhancers associated with response to anti-PD-1 therapy in non-small cell lung cancer
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL21145_Group,GPL21145_Accession,GPL21145_Title,GPL21145_Source name,GPL21145_Tissue,GPL21145_Treatment status,GPL21145_Patient response,GPL16791_Group,GPL16791_Accession,GPL16791_Title,GPL16791_Source name,GPL16791_Tissue,GPL16791_Treatment status,GPL16791_Patient response,GPL16791_Sample
+-,GSM3589655,methylation_Dis_13,NSCLC biopsies,NSCLC,pre-treatment,responder,-,GSM3589673,RNA-seq_Dis_01,NSCLC biopsies,NSCLC,pre-treatment,non-responder,fresh
+-,GSM3589656,methylation_Dis_11,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589674,RNA-seq_Dis_02,NSCLC biopsies,NSCLC,pre-treatment,responder,fresh
+-,GSM3589657,methylation_Dis_12,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589675,RNA-seq_Dis_11,NSCLC biopsies,NSCLC,pre-treatment,non-responder,fresh
+-,GSM3589658,methylation_Dis_15,NSCLC biopsies,NSCLC,pre-treatment,responder,-,GSM3589676,RNA-seq_Dis_12,NSCLC biopsies,NSCLC,pre-treatment,non-responder,fresh
+-,GSM3589659,methylation_Dis_14,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589677,RNA-seq_Dis_15,NSCLC biopsies,NSCLC,pre-treatment,responder,fresh
+-,GSM3589660,methylation_Dis_16,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589678,RNA-seq_Dis_04,NSCLC biopsies,NSCLC,pre-treatment,responder,fresh
+-,GSM3589661,methylation_Dis_18,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589679,RNA-seq_Dis_16,NSCLC biopsies,NSCLC,pre-treatment,non-responder,fresh
+-,GSM3589662,methylation_Dis_17,NSCLC biopsies,NSCLC,pre-treatment,responder,-,GSM3589680,RNA-seq_Dis_17,NSCLC biopsies,NSCLC,pre-treatment,responder,fresh
+-,GSM3589663,methylation_Dis_09,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589681,RNA-seq_Dis_03,NSCLC biopsies,NSCLC,pre-treatment,non-responder,fresh
+-,GSM3589664,methylation_Dis_05,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589682,RNA-seq_Dis_10,NSCLC biopsies,NSCLC,pre-treatment,responder,fresh
+-,GSM3589665,methylation_Dis_06,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589683,RNA-seq_Dis_06,NSCLC biopsies,NSCLC,pre-treatment,non-responder,FFPE
+-,GSM3589666,methylation_Dis_08,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589684,RNA-seq_Dis_18,NSCLC biopsies,NSCLC,pre-treatment,non-responder,FFPE
+-,GSM3589667,methylation_Dis_04,NSCLC biopsies,NSCLC,pre-treatment,responder,-,GSM3589685,RNA-seq_Dis_09,NSCLC biopsies,NSCLC,pre-treatment,non-responder,FFPE
+-,GSM3589668,methylation_Dis_02,NSCLC biopsies,NSCLC,pre-treatment,responder,-,GSM3589686,RNA-seq_Dis_05,NSCLC biopsies,NSCLC,pre-treatment,non-responder,FFPE
+-,GSM3589669,methylation_Dis_01,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589687,RNA-seq_Dis_07,NSCLC biopsies,NSCLC,pre-treatment,non-responder,fresh
+-,GSM3589670,methylation_Dis_03,NSCLC biopsies,NSCLC,pre-treatment,non-responder,-,GSM3589688,RNA-seq_Dis_08,NSCLC biopsies,NSCLC,pre-treatment,non-responder,FFPE
+-,GSM3589671,methylation_Dis_10,NSCLC biopsies,NSCLC,pre-treatment,responder,,,,,,,,
+-,GSM3589672,methylation_Dis_07,NSCLC biopsies,NSCLC,pre-treatment,non-responder,,,,,,,,

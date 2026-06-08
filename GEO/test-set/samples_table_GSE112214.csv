@@ -1,0 +1,9 @@
+# TITLE: Genome-wide analysis of circRNA expression profile in non-small cell lung cancer (NSCLC) tissues and matched adjacent normal tissues
+# SUMMARY: Non-small cell lung cancer (NSCLC) is a common lung disorder.Recent studies have shown that circRNA plays critical roles in a myriad of biological processes and human diseases,Since the roles of circRNA in NSCLC remain unknown,they were investigated in the study.Our findings indicate that the expression profiles of circRNAs have changed in NSCLC as compared with normal lung, and may provide novel insight into the molecular mechanism underlying the disease and potential novel diagnostic or therapeutic targets for NSCLC.
+GPL19978_Group,GPL19978_Accession,GPL19978_Title,GPL19978_Source name,GPL19978_Tissue,GPL19978_Sex,GPL19978_Age
+-,GSM3061040,Patient 1 B3,normal lung samples,normal lung samples,Female,46 years
+-,GSM3061041,Patient 2 B4,normal lung samples,normal lung samples,Female,57 years
+-,GSM3061042,Patient 1 C3,NSCLC lung samples,NSCLC lung samples,Female,46 years
+-,GSM3061043,Patient 2 C4,NSCLC lung samples,NSCLC lung samples,Female,57years
+-,GSM3061044,Patient 3 C5,NSCLC lung samples,NSCLC lung samples,Female,59 years
+-,GSM3061045,Patient 3 B5,normal lung samples,normal lung samples,Female,59 years

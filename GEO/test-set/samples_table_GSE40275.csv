@@ -1,0 +1,87 @@
+# TITLE: Gene expression of samples derived from normal lung and patients with small cell lung cancer (SCLC) or non-small cell lung cancer (NSCLC)
+# SUMMARY: Differences in gene expression profiles regarding the expression of genes encoding for proteins with G protein-coupled receptor (GPCR) activity between SCLC and NSCLC and normal lung samples was successfully examined.
+GPL15974_Group,GPL15974_Accession,GPL15974_Title,GPL15974_Source name,GPL15974_Tissue,GPL15974_Histology,GPL15974_Characteristics,GPL15974_Sex,GPL15974_Stage,GPL15974_Tumor grade,GPL15974_Tnm
+-,GSM990169,V5307,normal lung,normal lung,normal,age [y]: 62,Female,Not applicable,Not applicable,Not applicable
+-,GSM990170,V5308,normal lung,normal lung,normal,age [y]: 62,Female,Not applicable,Not applicable,Not applicable
+-,GSM990171,V5309,normal lung,normal lung,normal,age [y]: 62,Female,Not applicable,Not applicable,Not applicable
+-,GSM990172,V5310,normal lung,normal lung,normal,age [y]: 38,Female,Not applicable,Not applicable,Not applicable
+-,GSM990173,V5311,normal lung,normal lung,normal,age [y]: 38,Female,Not applicable,Not applicable,Not applicable
+-,GSM990174,V5312,normal lung,normal lung,normal,age [y]: 38,Female,Not applicable,Not applicable,Not applicable
+-,GSM990175,V5313,normal lung,normal lung,normal,age [y]: 78,Male,Not applicable,Not applicable,Not applicable
+-,GSM990176,V5314,normal lung,normal lung,normal,age [y]: 78,Male,Not applicable,Not applicable,Not applicable
+-,GSM990177,V5315,normal lung,normal lung,normal,age [y]: 78,Male,Not applicable,Not applicable,Not applicable
+-,GSM990178,V5316,normal lung,normal lung,normal,age [y]: 80,Male,Not applicable,Not applicable,Not applicable
+-,GSM990179,V5317,normal lung,normal lung,normal,age [y]: 80,Male,Not applicable,Not applicable,Not applicable
+-,GSM990180,V5318,normal lung,normal lung,normal,age [y]: 80,Male,Not applicable,Not applicable,Not applicable
+-,GSM990181,V5319,normal lung,normal lung,normal,age [y]: 65,Male,Not applicable,Not applicable,Not applicable
+-,GSM990182,V5320,normal lung,normal lung,normal,age [y]: 65,Male,Not applicable,Not applicable,Not applicable
+-,GSM990183,V5321,normal lung,normal lung,normal,age [y]: 65,Male,Not applicable,Not applicable,Not applicable
+-,GSM990184,V5322,normal lung,normal lung,normal,age [y]: 49,Female,Not applicable,Not applicable,Not applicable
+-,GSM990185,V5361,normal lung,normal lung,normal,age [y]: 49,Female,Not applicable,Not applicable,Not applicable
+-,GSM990186,V5362,normal lung,normal lung,normal,age [y]: 49,Female,Not applicable,Not applicable,Not applicable
+-,GSM990187,V5363,normal lung,normal lung,normal,age [y]: 72,Female,Not applicable,Not applicable,Not applicable
+-,GSM990188,V5364,normal lung,normal lung,normal,age [y]: 72,Female,Not applicable,Not applicable,Not applicable
+-,GSM990189,V5365,normal lung,normal lung,normal,age [y]: 72,Female,Not applicable,Not applicable,Not applicable
+-,GSM990190,V5366,normal lung,normal lung,normal,age [y]: 66,Female,Not applicable,Not applicable,Not applicable
+-,GSM990191,V5367,normal lung,normal lung,normal,age [y]: 66,Female,Not applicable,Not applicable,Not applicable
+-,GSM990192,V5368,normal lung,normal lung,normal,age [y]: 66,Female,Not applicable,Not applicable,Not applicable
+-,GSM990193,V5369,normal lung,normal lung,normal,age [y]: 66,Male,Not applicable,Not applicable,Not applicable
+-,GSM990194,V5370,normal lung,normal lung,normal,age [y]: 66,Male,Not applicable,Not applicable,Not applicable
+-,GSM990195,V5371,normal lung,normal lung,normal,age [y]: 66,Male,Not applicable,Not applicable,Not applicable
+-,GSM990196,V5372,normal lung,normal lung,normal,age [y]: 61,Female,Not applicable,Not applicable,Not applicable
+-,GSM990197,V5373,normal lung,normal lung,normal,age [y]: 61,Female,Not applicable,Not applicable,Not applicable
+-,GSM990198,V5374,normal lung,normal lung,normal,age [y]: 61,Female,Not applicable,Not applicable,Not applicable
+-,GSM990199,V5375,normal lung,normal lung,normal,age [y]: 64,Male,Not applicable,Not applicable,Not applicable
+-,GSM990200,V5376,normal lung,normal lung,normal,age [y]: 64,Male,Not applicable,Not applicable,Not applicable
+-,GSM990201,V5377,normal lung,normal lung,normal,age [y]: 64,Male,Not applicable,Not applicable,Not applicable
+-,GSM990202,V5378,normal lung,normal lung,normal,age [y]: 65,Female,Not applicable,Not applicable,Not applicable
+-,GSM990203,V5379,normal lung,normal lung,normal,age [y]: 65,Female,Not applicable,Not applicable,Not applicable
+-,GSM990204,V5380,normal lung,normal lung,normal,age [y]: 65,Female,Not applicable,Not applicable,Not applicable
+-,GSM990205,V4070,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 54,Male,IIIA,Not Reported,pT2pN2pMX
+-,GSM990206,V4071,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 54,Male,IIIA,Not Reported,pT2pN2pMX
+-,GSM990207,V4072,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 54,Male,IIIA,Not Reported,pT2pN2pMX
+-,GSM990208,V4073,normal lung,normal lung,normal,age [y]: 76,Male,Not applicable,Not applicable,Not applicable
+-,GSM990209,V4074,normal lung,normal lung,normal,age [y]: 76,Male,Not applicable,Not applicable,Not applicable
+-,GSM990210,V4075,normal lung,normal lung,normal,age [y]: 76,Male,Not applicable,Not applicable,Not applicable
+-,GSM990211,V4076,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 76,Male,IIIB,Not Reported,pT4pN2pMX
+-,GSM990212,V4077,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 76,Male,IIIB,Not Reported,pT4pN2pMX
+-,GSM990213,V4078,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 76,Male,IIIB,Not Reported,pT4pN2pMX
+-,GSM990214,V4079,"Carcinoma of lung, small cell",primary tumor,Adeno and small cell carcinoma,age [y]: 61,Male,IIIB,AJCC G3: Poorly differentiated,pT4pN0pMX
+-,GSM990215,V4080,"Carcinoma of lung, small cell",primary tumor,Adeno and small cell carcinoma,age [y]: 61,Male,IIIB,AJCC G3: Poorly differentiated,pT4pN0pMX
+-,GSM990216,V4081,"Carcinoma of lung, small cell",primary tumor,Adeno and small cell carcinoma,age [y]: 61,Male,IIIB,AJCC G3: Poorly differentiated,pT4pN0pMX
+-,GSM990217,V4082,"Carcinoma of lung, small cell",primary tumor,Adenocarcinoma,age [y]: 68,Male,IIIA,Not Reported,pT1pN2pMX
+-,GSM990218,V4084,"Carcinoma of lung, small cell",primary tumor,Adenocarcinoma,age [y]: 68,Male,IIIA,Not Reported,pT1pN2pMX
+-,GSM990219,V4085,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 74,Male,IA,Not Reported,pT1pN0pMX
+-,GSM990220,V4086,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 74,Male,IA,Not Reported,pT1pN0pMX
+-,GSM990221,V4087,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 74,Male,IA,Not Reported,pT1pN0pMX
+-,GSM990222,V4088,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 71,Male,IB,Not Reported,pT2pN0pMX
+-,GSM990223,V4089,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 71,Male,IB,Not Reported,pT2pN0pMX
+-,GSM990224,V4090,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 71,Male,IB,Not Reported,pT2pN0pMX
+-,GSM990225,V4091,"Carcinoma of lung, small cell, lymph node metastatic",metastasis (LN),Carcinoma,age [y]: 63,Male,IIA,AJCC G3: Poorly differentiated,pT1pN1pMX
+-,GSM990226,V4092,"Carcinoma of lung, small cell, lymph node metastatic",metastasis (LN),Carcinoma,age [y]: 63,Male,IIA,AJCC G3: Poorly differentiated,pT1pN1pMX
+-,GSM990227,V4093,"Carcinoma of lung, small cell, lymph node metastatic",metastasis (LN),Carcinoma,age [y]: 63,Male,IIA,AJCC G3: Poorly differentiated,pT1pN1pMX
+-,GSM990228,V4094,normal lung,normal lung,normal,age [y]: 70,Female,Not applicable,Not applicable,Not applicable
+-,GSM990229,V4095,normal lung,normal lung,normal,age [y]: 70,Female,Not applicable,Not applicable,Not applicable
+-,GSM990230,V4096,normal lung,normal lung,normal,age [y]: 70,Female,Not applicable,Not applicable,Not applicable
+-,GSM990231,V4097,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 70,Female,IB,Not Reported,pT2pN0pMX
+-,GSM990232,V4098,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 70,Female,IB,Not Reported,pT2pN0pMX
+-,GSM990233,V4099,"Carcinoma of lung, small cell",primary tumor,"Small cell (oat, intermediate cell, combined oat)",age [y]: 70,Female,IB,Not Reported,pT2pN0pMX
+-,GSM990234,NSCLC_1_20111129,Adenocarcinoma of lung,primary tumor,"Adenocarcinoma of lung (acin,pap,bronchalv,solid w/mucus)",age [y]: 66,Male,IB,AJCC G3: Poorly differentiated,pT2pN0pMX
+-,GSM990235,NSCLC_2_20111129,Adenocarcinoma of lung,primary tumor,"Adenocarcinoma of lung (acin,pap,bronchalv,solid w/mucus)",age [y]: 48,Female,IB,AJCC G3: Poorly differentiated,pT2pN0pMX
+-,GSM990236,NSCLC_3_20111129,Adenocarcinoma of lung,primary tumor,"Adenocarcinoma of lung (acin,pap,bronchalv,solid w/mucus)",age [y]: 64,Male,IB,AJCC G3: Poorly differentiated,pT2pN0pMX
+-,GSM990237,NSCLC_4_20111129,Adenocarcinoma of lung,primary tumor,"Adenocarcinoma of lung (acin,pap,bronchalv,solid w/mucus)",age [y]: 72,Female,IIIA,AJCC G3: Poorly differentiated,pT1pN2pMX
+-,GSM990238,NSCLC_5_20111129,"Carcinoma of lung, large cell",primary tumor,"Carcinoma of lung, large cell (giant, clear)",age [y]: 56,Female,IIIA,AJCC G3: Poorly differentiated,pT2pN2pMX
+-,GSM990239,NSCLC_6_20111129,"Carcinoma of lung, neuroendocrine",primary tumor,"Carcinoma of lung, large cell, neuroendocrine",age [y]: 49,Female,IB,Not Reported,pT2pN0pMX
+-,GSM990240,NSCLC_7_20111129,"Carcinoma of lung, non-small cell",primary tumor,"Carcinoma of lung, squamous cell (spindle cell)",age [y]: 65,Male,IIB,AJCC G3: Poorly differentiated,pT2pN1pMX
+-,GSM990241,NSCLC_13_20111129,Adenocarcinoma of lung,primary tumor,"Adenocarcinoma of lung (acin,pap,bronchalv,solid w/mucus)",age [y]: 61,Female,IA,AJCC G2: Moderately differentiated,pT1pN0pMX
+-,GSM990242,NSCLC_14_20111129,Adenocarcinoma of lung,primary tumor,"Adenocarcinoma of lung (acin,pap,bronchalv,solid w/mucus)",age [y]: 65,Female,IA,AJCC G2: Moderately differentiated,pT1pN0pMX
+-,GSM990243,NSCLC_15_20111129,Adenocarcinoma of lung,primary tumor,"Adenocarcinoma of lung (acin,pap,bronchalv,solid w/mucus)",age [y]: 74,Male,IB,AJCC G3: Poorly differentiated,pT2pNXpMX
+-,GSM990244,NSCLC_17_20111129,Adenocarcinoma of lung,primary tumor,"Adenocarcinoma of lung (acin,pap,bronchalv,solid w/mucus)",age [y]: 59,Female,IB,AJCC G3: Poorly differentiated,pT2pN0pMX
+-,GSM990245,NSCLC_18_20111129,"Carcinoma of lung, large cell",primary tumor,"Carcinoma of lung, large cell (giant, clear)",age [y]: 79,Female,IIB,Not Reported,pT2pN1pMX
+-,GSM990246,SCLC_4_20111129,"Carcinoma of lung, small cell",primary tumor,Adenocarcinoma,age [y]: 68,Male,IIIA,Not Reported,pT1pN2pMX
+-,GSM990247,SCLC_7_20111129,"Carcinoma of lung, small cell, lymph node metastatic",metastasis (LN),Carcinoma,age [y]: 63,Male,IIA,AJCC G3: Poorly differentiated,pT1pN1pMX
+-,GSM990248,NSCLC_8_20111129,"Carcinoma of lung, squamous cell",primary tumor,"Carcinoma of lung, squamous cell (spindle cell)",age [y]: 38,Female,IB,Not Reported,pT2pN0pMX
+-,GSM990249,NSCLC_9_20111129,"Carcinoma of lung, squamous cell",primary tumor,"Carcinoma of lung, squamous cell (spindle cell)",age [y]: 59,Male,IB,AJCC G2: Moderately differentiated,pT2pN0pMX
+-,GSM990250,NSCLC_10_20111129,"Carcinoma of lung, squamous cell",primary tumor,"Carcinoma of lung, squamous cell (spindle cell)",age [y]: 80,Male,IB,Not Reported,pT2pN0pMX
+-,GSM990251,NSCLC_11_20111129,"Carcinoma of lung, squamous cell",primary tumor,"Carcinoma of lung, squamous cell (spindle cell)",age [y]: 78,Male,IIB,AJCC G2: Moderately differentiated,pT2pN1pMX
+-,GSM990252,normal_13_20111129,normal lung,normal lung,normal,age [y]: 76,Male,Not applicable,Not applicable,Not applicable

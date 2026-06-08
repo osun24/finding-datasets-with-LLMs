@@ -1,0 +1,822 @@
+{
+  "accno": "E-GEOD-68240",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "hiPSC-derived motor neurons: sporadic ALS patients vs. controls"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2015-04-25"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-68240"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-68240",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "hiPSC-derived motor neurons: sporadic ALS patients vs. controls"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Differentiated motor neurons from hiPSC derived from peripheral nerve fibroblasts of sporadic ALS patients and evaluated the gene expression profile by means microarray-linked to specific analysis tools. Two-condition experiment, ALS patients motor neurons vs. controls. Biological replicates: 3 ALS replicates, 3 control replicates."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE68240"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE68240-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE68240-1"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Agilent Feature Extraction Software (version 11.0.1.1) was used for extract data and GeneSpring v.13 software was used for background correction and normalization. ID_REF =  VALUE = normalized log2 ratio test/reference"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE68240-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE68240-5"
+            },
+            {
+              "name": "Type",
+              "value": "labelling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "RNA amplification and labeling following manufacturer's instructions (Agilent)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE68240-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE68240-6"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Hybridation following manufacturer's instructions (Agilent)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE68240-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE68240-2"
+            },
+            {
+              "name": "Type",
+              "value": "sample treatment protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The cells were collected at the differentiation day 20 for microarray experiments."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE68240-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE68240-3"
+            },
+            {
+              "name": "Type",
+              "value": "growth protocol"
+            },
+            {
+              "name": "Description",
+              "value": "hiPSC generation was performed based on the protocol described by Somers et al. (2010). Motor neuron differentiation was performed according to protocol described by Hu and Zhang (2009) and modified by our experience."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE68240-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE68240-4"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA extracted using RNeasy Lipid Tissue Mini Kit (Qiagen) following manufacturer's instructions"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE68240-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE68240-7"
+            },
+            {
+              "name": "Type",
+              "value": "array scanning protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Scanned on an Agilent scanner"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Chrystian Alves"
+          },
+          {
+            "name": "Email",
+            "value": "chrystianja@hotmail.com"
+          },
+          {
+            "name": "Phone",
+            "value": "551130617460"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Rafael Dariolli"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Matheus Monteiro"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Leonardo Jensen"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Frederico Jorge"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Jessica Maximino"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Roberto Martins"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Bryan Strauss"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "José Krieger"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Dagoberto Callegaro"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Gerson Chadi"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "School of Medicine of Sao Paulo University"
+          },
+          {
+            "name": "Address",
+            "value": "Neurology, School of Medicine of Sao Paulo University, Rua Dr Arnaldo 455, São Paulo, SP, Brazil"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-68240",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "12"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease state"
+              }
+            ],
+            "value": "disease state"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-68240",
+            "attributes": [
+              {
+                "name": "Disease state",
+                "value": "control"
+              },
+              {
+                "name": "Disease state",
+                "value": "ALS"
+              },
+              {
+                "name": "Disease state",
+                "value": "not specified"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease state",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1666181_ALS_patient_replicate_3.txt\" OR \"GSM1666180_ALS_patient_replicate_2.txt\" OR \"GSM1666179_ALS_patient_replicate_1.txt\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease state",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1666181_ALS_patient_replicate_3.txt\" OR \"GSM1666180_ALS_patient_replicate_2.txt\" OR \"GSM1666179_ALS_patient_replicate_1.txt\" OR \"GSM1666178_Control_patient_replicate_3.txt\" OR \"GSM1666177_Control_patient_replicate_2.txt\" OR \"GSM1666176_Control_patient_replicate_1.txt\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease state",
+                      "value": "control"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1666178_Control_patient_replicate_3.txt\" OR \"GSM1666177_Control_patient_replicate_2.txt\" OR \"GSM1666176_Control_patient_replicate_1.txt\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-68240",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell line",
+                "value": "HEK 293"
+              },
+              {
+                "name": "Cell type",
+                "value": "Fibroblasts from peripheral nerve"
+              },
+              {
+                "name": "Disease state",
+                "value": "control"
+              },
+              {
+                "name": "Disease state",
+                "value": "ALS"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "cell line"
+                    },
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts from peripheral nerve"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1666181_ALS_patient_replicate_3.txt\" OR \"GSM1666180_ALS_patient_replicate_2.txt\" OR \"GSM1666179_ALS_patient_replicate_1.txt\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "cell line",
+                      "value": "HEK 293"
+                    },
+                    {
+                      "name": "cell type"
+                    },
+                    {
+                      "name": "disease state"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1666181_ALS_patient_replicate_3.txt\" OR \"GSM1666180_ALS_patient_replicate_2.txt\" OR \"GSM1666179_ALS_patient_replicate_1.txt\" OR \"GSM1666178_Control_patient_replicate_3.txt\" OR \"GSM1666177_Control_patient_replicate_2.txt\" OR \"GSM1666176_Control_patient_replicate_1.txt\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "cell line"
+                    },
+                    {
+                      "name": "cell type",
+                      "value": "Fibroblasts from peripheral nerve"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "control"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1666178_Control_patient_replicate_3.txt\" OR \"GSM1666177_Control_patient_replicate_2.txt\" OR \"GSM1666176_Control_patient_replicate_1.txt\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-68240",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "6"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1666181 1, GSM1666181 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1666181_ALS_patient_replicate_3.txt",
+                  "size": 59376671,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1666180 1, GSM1666180 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1666180_ALS_patient_replicate_2.txt",
+                  "size": 59376728,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1666179 1, GSM1666179 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1666179_ALS_patient_replicate_1.txt",
+                  "size": 59337635,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1666178 1, GSM1666178 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1666178_Control_patient_replicate_3.txt",
+                  "size": 58936071,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1666177 1, GSM1666177 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1666177_Control_patient_replicate_2.txt",
+                  "size": 59049996,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1666176 1, GSM1666176 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1666176_Control_patient_replicate_1.txt",
+                  "size": 59370312,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1666177_sample_table.txt",
+                  "size": 1062905,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1666178_sample_table.txt",
+                  "size": 1065119,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1666176_sample_table.txt",
+                  "size": 1052956,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1666180_sample_table.txt",
+                  "size": 1054580,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1666179_sample_table.txt",
+                  "size": 1051671,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1666181_sample_table.txt",
+                  "size": 1052108,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-68240",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-68240.idf.txt",
+                  "size": 2910,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-68240.sdrf.txt",
+                  "size": 10003,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-68240",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-14550"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-68240",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

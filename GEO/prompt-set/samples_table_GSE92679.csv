@@ -1,0 +1,13 @@
+# TITLE: Εarly transcriptional effects of 17β-estradiol, 17β-estradiol-BSA and tamoxifen in human NSCLC cell lines A549 and H520
+# SUMMARY: Assessment of different subcellular localizations (membrane, cytosol, nucleus) of estrogen receptors by multi-epitope protein expression in 200 NSCLC specimens and matched non-cancerous tissues and ESR-1 probe mapping meta-analysis of Affymetrix 2.0 plus data in 1398 NSCLC tumors and normal lung tissues and 39 NSCLC cell lines led us to the conclusion that ERα extranuclear variants are the main ERs in NSCLC. In order to further analyze these effects we treated A549 and H520 cell lines with 17β-estradiol, 17β-estradiol-BSA (plasma membrane impermeable conjugate) and tamoxifen for 3h, in order to investigate early transcriptional effects and responsiveness to estrogen agonists and antagonists. The aim of this study was to demonstrate the functionality of NSCLC ERs and decipher which genes, canonical pathways and networks are affected by each treatment.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Tissue,GPL570_Cell line
+-,GSM2434446,HTB vehicle,HTB-182 cells in medium containing 0.1% Ethanol (vehicle),Non-Small Cell Lung Carcinoma (squamous cell),HTB-182
+-,GSM2434447,HTB E2,HTB-182 cells treated with 1μM 17-β-estradiol,Non-Small Cell Lung Carcinoma (squamous cell),HTB-182
+-,GSM2434448,HTB TAM,HTB-182 cells treated with 1μM 17-β-estradiol plus 10μM Tamoxifen,Non-Small Cell Lung Carcinoma (squamous cell),HTB-182
+-,GSM2434449,HTB E2BSA,HTB-182 cells treated with 1μM 17-β-estradiol-BSA,Non-Small Cell Lung Carcinoma (squamous cell),HTB-182
+-,GSM2434450,HTB E2BSA+TAM,HTB-182 cells treated with 1μM 17-β-estradiol-BSA plus 10μM Tamoxifen,Non-Small Cell Lung Carcinoma (squamous cell),HTB-182
+-,GSM2434451,A549 vehicle,A549-182 cells in medium containing 0.1% Ethanol (vehicle),Non-Small Cell Lung Carcinoma (adenocarcinoma),A549
+-,GSM2434452,A549 E2,A549-182 cells treated with 1μM 17-β-estradiol,Non-Small Cell Lung Carcinoma (adenocarcinoma),A549
+-,GSM2434453,A549 TAM,A549-182 cells treated with 1μM 17-β-estradiol plus 10μM Tamoxifen,Non-Small Cell Lung Carcinoma (adenocarcinoma),A549
+-,GSM2434454,A549 E2BSA,A549-182 cells treated with 1μM 17-β-estradiol-BSA,Non-Small Cell Lung Carcinoma (adenocarcinoma),A549
+-,GSM2434455,A549 E2BSA+TAM,A549-182 cells treated with 1μM 17-β-estradiol-BSA plus 10μM Tamoxifen,Non-Small Cell Lung Carcinoma (adenocarcinoma),A549

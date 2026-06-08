@@ -1,0 +1,19 @@
+# TITLE: The effect of crizotinib in A549 lung cancer cell
+# SUMMARY: TGFb and/or crizotinib were treated on A549 cell line to understand molecular mechanisms of action of crizotinib in TGF signaling pathway in lung cancer through gene expression profile data.
+GPL30971_Group,GPL30971_Accession,GPL30971_Title,GPL30971_Source name,GPL30971_Disease state,GPL30971_Treatment
+-,GSM5693819,A549_Smp1_Vehicle_Repeat1,Lung cancer cell line A549,Non-small cell lung carcinoma,vehicle
+-,GSM5693820,A549_Smp2_Vehicle_Repeat2,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,vehicle
+-,GSM5693821,A549_Smp3_Vehicle_Repeat3,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,vehicle
+-,GSM5693822,A549_Smp4_Vehicle_Repeat4,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,vehicle
+-,GSM5693823,A549_Smp5_TGFb_Repeat1,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,TGFb
+-,GSM5693824,A549_Smp6_TGFb_Repeat2,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,TGFb
+-,GSM5693825,A549_Smp7_TGFb_Repeat3,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,TGFb
+-,GSM5693826,A549_Smp8_TGFb_Repeat4,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,TGFb
+-,GSM5693827,A549_Smp9_Crizotinib_Repeat1,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,Crizotinib
+-,GSM5693828,A549_Smp10_Crizotinib_Repeat2,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,Crizotinib
+-,GSM5693829,A549_Smp11_Crizotinib_Repeat3,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,Crizotinib
+-,GSM5693830,A549_Smp12_Crizotinib_Repeat4,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,Crizotinib
+-,GSM5693831,A549_Smp13_TGFb_Crizotinib_Repeat1,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,TGFb_Crizotinib
+-,GSM5693832,A549_Smp14_TGFb_Crizotinib_Repeat2,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,TGFb_Crizotinib
+-,GSM5693833,A549_Smp15_TGFb_Crizotinib_Repeat3,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,TGFb_Crizotinib
+-,GSM5693834,A549_Smp16_TGFb_Crizotinib_Repeat4,Lung cancer cell line A549,Non-small cell lung carcinoma (A549) cell line,TGFb_Crizotinib

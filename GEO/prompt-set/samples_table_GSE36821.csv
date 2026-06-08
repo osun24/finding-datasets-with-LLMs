@@ -1,0 +1,11 @@
+# TITLE: A novel five-gene signature predicts overall and recurrence-free survival in NSCLC
+# SUMMARY: Earlier studies had shown that side population cells isolated from established non-small cell lung cancer (NSCLC) cell lines exhibit cancer stem cell properties. Microarray data from side population (SP) and main population (MP) cells isolated from 4 NSCLC lines (A549, H1650, H460, H1975) were used to examine gene expression profiles associated with stemness. Total RNA extracted from SP and MP samples were used to generate cRNA targets, which were hybridized to Human Genome U133 Plus 2.0 probe arrays. Raw data was processed and the mean center expression level for each gene was determined.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell line,GPL570_Population
+-,GSM902399,A549 SP,A549 side population,A549,side
+-,GSM902400,A549 MP,A549 main population,A549,main
+-,GSM902401,H1650 SP,H1650 side population,H1650,side
+-,GSM902402,H1650 MP,H1650 main population,H1650,main
+-,GSM902403,H460 SP,H460 side population,H460,side
+-,GSM902404,H460 MP,H460 main population,H460,main
+-,GSM902405,H1975 SP,H1975 side population,H1975,side
+-,GSM902406,H1975 MP,H1975 main population,H1975,main

@@ -1,0 +1,195 @@
+# TITLE: Multi-parametric profiling of non-small cell lung cancers reveals distinct immunophenotypes
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL19965_Group,GPL19965_Accession,GPL19965_Title,GPL19965_Source name,GPL19965_Tissue,GPL19965_Histology,GPL19965_Gender,GPL19965_Stage,GPL11154_Group,GPL11154_Accession,GPL11154_Title,GPL11154_Source name,GPL11154_Condition,GPL11154_Patient_id,GPL11154_Cell type
+-,GSM2251547,patient case 16,NSCLC,primary lung cancer,adenocarcinoma,M,IA,-,GSM2251214,single cell RNAseq normal B cells [1350A01_Normal_A01],1350A01_Normal_A01,Normal,patient_1,B cells
+-,GSM2251548,patient case 17,NSCLC,primary lung cancer,adenocarcinoma,F,IVA,-,GSM2251215,single cell RNAseq tumor B cells [1350A01_Tumor_A01],1350A01_Tumor_A01,Tumor,patient_1,B cells
+-,GSM2251549,patient case 18,NSCLC,primary lung cancer,adenocarcinoma,F,IVA,-,GSM2251216,single cell RNAseq normal B cells [1350A02_Normal_A02],1350A02_Normal_A02,Normal,patient_1,B cells
+-,GSM2251550,patient case 19,NSCLC,primary lung cancer,squamous,M,IIB,-,GSM2251217,single cell RNAseq tumor B cells [1350A02_Tumor_A02],1350A02_Tumor_A02,Tumor,patient_1,B cells
+-,GSM2251551,patient case 23,NSCLC,primary lung cancer,adenocarcinoma,F,IVB,-,GSM2251218,single cell RNAseq normal B cells [1350A03_Normal_A03],1350A03_Normal_A03,Normal,patient_1,B cells
+-,GSM2251552,patient case 24,NSCLC,primary lung cancer,adenocarcinoma,F,IIIB,-,GSM2251219,single cell RNAseq tumor B cells [1350A03_Tumor_A03],1350A03_Tumor_A03,Tumor,patient_1,B cells
+-,GSM2251553,patient case 25,NSCLC,primary lung cancer,squamous,F,IIIA,-,GSM2251220,single cell RNAseq normal B cells [1350A04_Normal_A04],1350A04_Normal_A04,Normal,patient_1,B cells
+-,GSM2251554,patient case 32,NSCLC,primary lung cancer,squamous,M,IIA,-,GSM2251221,single cell RNAseq tumor B cells [1350A04_Tumor_A04],1350A04_Tumor_A04,Tumor,patient_1,B cells
+-,GSM2251555,patient case 37,NSCLC,primary lung cancer,adenocarcinoma,M,IVB,-,GSM2251222,single cell RNAseq normal B cells [1350A05_Normal_A05],1350A05_Normal_A05,Normal,patient_1,B cells
+-,GSM2251556,patient case 52,NSCLC,primary lung cancer,adenocarcinoma,F,IA,-,GSM2251223,single cell RNAseq tumor B cells [1350A05_Tumor_A05],1350A05_Tumor_A05,Tumor,patient_1,B cells
+-,GSM2251557,patient case 53,NSCLC,primary lung cancer,adenocarcinoma,F,IIB,-,GSM2251224,single cell RNAseq normal B cells [1350A06_Normal_A06],1350A06_Normal_A06,Normal,patient_1,B cells
+-,GSM2251558,patient case 57,NSCLC,primary lung cancer,adenocarcinoma,M,IIB,-,GSM2251225,single cell RNAseq tumor B cells [1350A06_Tumor_A06],1350A06_Tumor_A06,Tumor,patient_1,B cells
+-,GSM2251559,patient case 65,NSCLC,primary lung cancer,adenocarcinoma,F,IA,-,GSM2251226,single cell RNAseq normal B cells [1350A07_Normal_A07],1350A07_Normal_A07,Normal,patient_1,B cells
+-,GSM2251560,patient case 77,NSCLC,primary lung cancer,adenocarcinoma,F,IIA,-,GSM2251227,single cell RNAseq tumor B cells [1350A07_Tumor_A07],1350A07_Tumor_A07,Tumor,patient_1,B cells
+-,GSM2251561,patient case 78,NSCLC,primary lung cancer,adenocarcinoma,M,IVB,-,GSM2251228,single cell RNAseq normal B cells [1350A08_Normal_A08],1350A08_Normal_A08,Normal,patient_1,B cells
+-,GSM2251562,patient case 85,NSCLC,primary lung cancer,adenocarcinoma,M,IB,-,GSM2251229,single cell RNAseq tumor B cells [1350A08_Tumor_A08],1350A08_Tumor_A08,Tumor,patient_1,B cells
+-,GSM2251563,patient case 86,NSCLC,primary lung cancer,adenocarcinoma,M,IIA,-,GSM2251230,single cell RNAseq normal B cells [1350A09_Normal_A09],1350A09_Normal_A09,Normal,patient_1,B cells
+-,GSM2251564,patient case 97,NSCLC,primary lung cancer,squamous,M,IA,-,GSM2251231,single cell RNAseq tumor B cells [1350A09_Tumor_A09],1350A09_Tumor_A09,Tumor,patient_1,B cells
+-,GSM2251565,patient case 100,NSCLC,primary lung cancer,adenocarcinoma,F,IB,-,GSM2251232,single cell RNAseq normal B cells [1350A10_Normal_A10],1350A10_Normal_A10,Normal,patient_1,B cells
+-,GSM2251566,patient case 101,NSCLC,primary lung cancer,adenocarcinoma,M,IIA,-,GSM2251233,single cell RNAseq tumor B cells [1350A10_Tumor_A10],1350A10_Tumor_A10,Tumor,patient_1,B cells
+-,GSM2251567,patient case 102,NSCLC,primary lung cancer,squamous,M,IIIA,-,GSM2251234,single cell RNAseq normal B cells [1350A11_Normal_A11],1350A11_Normal_A11,Normal,patient_1,B cells
+-,GSM2251568,patient case 145,NSCLC,primary lung cancer,adenocarcinoma,F,IA,-,GSM2251235,single cell RNAseq tumor B cells [1350A11_Tumor_A11],1350A11_Tumor_A11,Tumor,patient_1,B cells
+-,GSM2251569,patient case 148,NSCLC,primary lung cancer,squamous,M,IIIA,-,GSM2251236,single cell RNAseq normal B cells [1350A12_Normal_A12],1350A12_Normal_A12,Normal,patient_1,B cells
+-,GSM2251570,patient case 159,NSCLC,primary lung cancer,adenocarcinoma,F,IB,-,GSM2251237,single cell RNAseq tumor B cells [1350A12_Tumor_A12],1350A12_Tumor_A12,Tumor,patient_1,B cells
+-,GSM2251571,patient case 162,NSCLC,primary lung cancer,adenocarcinoma,F,IA,-,GSM2251238,single cell RNAseq normal B cells [1350B01_Normal_B01],1350B01_Normal_B01,Normal,patient_1,B cells
+-,GSM2251572,patient case 179,NSCLC,primary lung cancer,adenocarcinoma,F,IA,-,GSM2251239,single cell RNAseq tumor B cells [1350B01_Tumor_B01],1350B01_Tumor_B01,Tumor,patient_1,B cells
+-,GSM2251573,patient case 189,NSCLC,primary lung cancer,squamous,M,IIIA,-,GSM2251240,single cell RNAseq normal B cells [1350B02_Normal_B02],1350B02_Normal_B02,Normal,patient_1,B cells
+-,GSM2251574,patient case 190,NSCLC,primary lung cancer,adenocarcinoma,F,IIIA,-,GSM2251241,single cell RNAseq tumor B cells [1350B02_Tumor_B02],1350B02_Tumor_B02,Tumor,patient_1,B cells
+-,GSM2251575,patient case 195,NSCLC,primary lung cancer,adenocarcinoma,F,IIIA,-,GSM2251242,single cell RNAseq normal B cells [1350B03_Normal_B03],1350B03_Normal_B03,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251243,single cell RNAseq tumor B cells [1350B03_Tumor_B03],1350B03_Tumor_B03,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251244,single cell RNAseq normal B cells [1350B04_Normal_B04],1350B04_Normal_B04,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251245,single cell RNAseq tumor B cells [1350B04_Tumor_B04],1350B04_Tumor_B04,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251246,single cell RNAseq normal B cells [1350B05_Normal_B05],1350B05_Normal_B05,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251247,single cell RNAseq tumor B cells [1350B05_Tumor_B05],1350B05_Tumor_B05,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251248,single cell RNAseq normal B cells [1350B06_Normal_B06],1350B06_Normal_B06,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251249,single cell RNAseq tumor B cells [1350B06_Tumor_B06],1350B06_Tumor_B06,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251250,single cell RNAseq normal B cells [1350B07_Normal_B07],1350B07_Normal_B07,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251251,single cell RNAseq tumor B cells [1350B07_Tumor_B07],1350B07_Tumor_B07,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251252,single cell RNAseq normal B cells [1350B08_Normal_B08],1350B08_Normal_B08,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251253,single cell RNAseq tumor B cells [1350B08_Tumor_B08],1350B08_Tumor_B08,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251254,single cell RNAseq normal B cells [1350B09_Normal_B09],1350B09_Normal_B09,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251255,single cell RNAseq tumor B cells [1350B09_Tumor_B09],1350B09_Tumor_B09,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251256,single cell RNAseq normal B cells [1350B10_Normal_B10],1350B10_Normal_B10,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251257,single cell RNAseq tumor B cells [1350B10_Tumor_B10],1350B10_Tumor_B10,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251258,single cell RNAseq normal B cells [1350B11_Normal_B11],1350B11_Normal_B11,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251259,single cell RNAseq tumor B cells [1350B11_Tumor_B11],1350B11_Tumor_B11,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251260,single cell RNAseq normal B cells [1350B12_Normal_B12],1350B12_Normal_B12,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251261,single cell RNAseq tumor B cells [1350B12_Tumor_B12],1350B12_Tumor_B12,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251262,single cell RNAseq normal B cells [1350C01_Normal_C01],1350C01_Normal_C01,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251263,single cell RNAseq tumor B cells [1350C01_Tumor_C01],1350C01_Tumor_C01,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251264,single cell RNAseq normal B cells [1350C02_Normal_C02],1350C02_Normal_C02,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251265,single cell RNAseq tumor B cells [1350C02_Tumor_C02],1350C02_Tumor_C02,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251266,single cell RNAseq normal B cells [1350C03_Normal_C03],1350C03_Normal_C03,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251267,single cell RNAseq tumor B cells [1350C03_Tumor_C03],1350C03_Tumor_C03,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251268,single cell RNAseq normal B cells [1350C04_Normal_C04],1350C04_Normal_C04,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251269,single cell RNAseq tumor B cells [1350C04_Tumor_C04],1350C04_Tumor_C04,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251270,single cell RNAseq normal B cells [1350C05_Normal_C05],1350C05_Normal_C05,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251271,single cell RNAseq tumor B cells [1350C05_Tumor_C05],1350C05_Tumor_C05,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251272,single cell RNAseq normal B cells [1350C06_Normal_C06],1350C06_Normal_C06,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251273,single cell RNAseq tumor B cells [1350C06_Tumor_C06],1350C06_Tumor_C06,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251274,single cell RNAseq normal B cells [1350C07_Normal_C07],1350C07_Normal_C07,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251275,single cell RNAseq tumor B cells [1350C07_Tumor_C07],1350C07_Tumor_C07,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251276,single cell RNAseq normal B cells [1350C08_Normal_C08],1350C08_Normal_C08,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251277,single cell RNAseq tumor B cells [1350C08_Tumor_C08],1350C08_Tumor_C08,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251278,single cell RNAseq normal B cells [1350C09_Normal_C09],1350C09_Normal_C09,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251279,single cell RNAseq tumor B cells [1350C09_Tumor_C09],1350C09_Tumor_C09,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251280,single cell RNAseq normal B cells [1350C10_Normal_C10],1350C10_Normal_C10,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251281,single cell RNAseq tumor B cells [1350C10_Tumor_C10],1350C10_Tumor_C10,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251282,single cell RNAseq normal B cells [1350C11_Normal_C11],1350C11_Normal_C11,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251283,single cell RNAseq tumor B cells [1350C11_Tumor_C11],1350C11_Tumor_C11,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251284,single cell RNAseq normal B cells [1350C12_Normal_C12],1350C12_Normal_C12,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251285,single cell RNAseq tumor B cells [1350C12_Tumor_C12],1350C12_Tumor_C12,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251286,single cell RNAseq normal B cells [1350D01_Normal_D01],1350D01_Normal_D01,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251287,single cell RNAseq tumor B cells [1350D01_Tumor_D01],1350D01_Tumor_D01,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251288,single cell RNAseq normal B cells [1350D02_Normal_D02],1350D02_Normal_D02,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251289,single cell RNAseq tumor B cells [1350D02_Tumor_D02],1350D02_Tumor_D02,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251290,single cell RNAseq normal B cells [1350D03_Normal_D03],1350D03_Normal_D03,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251291,single cell RNAseq tumor B cells [1350D03_Tumor_D03],1350D03_Tumor_D03,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251292,single cell RNAseq normal B cells [1350D04_Normal_D04],1350D04_Normal_D04,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251293,single cell RNAseq tumor B cells [1350D04_Tumor_D04],1350D04_Tumor_D04,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251294,single cell RNAseq normal B cells [1350D05_Normal_D05],1350D05_Normal_D05,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251295,single cell RNAseq tumor B cells [1350D05_Tumor_D05],1350D05_Tumor_D05,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251296,single cell RNAseq normal B cells [1350D06_Normal_D06],1350D06_Normal_D06,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251297,single cell RNAseq tumor B cells [1350D06_Tumor_D06],1350D06_Tumor_D06,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251298,single cell RNAseq normal B cells [1350D07_Normal_D07],1350D07_Normal_D07,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251299,single cell RNAseq tumor B cells [1350D07_Tumor_D07],1350D07_Tumor_D07,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251300,single cell RNAseq normal B cells [1350D08_Normal_D08],1350D08_Normal_D08,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251301,single cell RNAseq tumor B cells [1350D08_Tumor_D08],1350D08_Tumor_D08,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251302,single cell RNAseq normal B cells [1350D09_Normal_D09],1350D09_Normal_D09,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251303,single cell RNAseq tumor B cells [1350D09_Tumor_D09],1350D09_Tumor_D09,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251304,single cell RNAseq normal B cells [1350D10_Normal_D10],1350D10_Normal_D10,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251305,single cell RNAseq tumor B cells [1350D10_Tumor_D10],1350D10_Tumor_D10,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251306,single cell RNAseq normal B cells [1350D11_Normal_D11],1350D11_Normal_D11,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251307,single cell RNAseq tumor B cells [1350D11_Tumor_D11],1350D11_Tumor_D11,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251308,single cell RNAseq normal B cells [1350D12_Normal_D12],1350D12_Normal_D12,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251309,single cell RNAseq tumor B cells [1350D12_Tumor_D12],1350D12_Tumor_D12,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251310,single cell RNAseq normal B cells [1350E01_Normal_E01],1350E01_Normal_E01,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251311,single cell RNAseq tumor B cells [1350E01_Tumor_E01],1350E01_Tumor_E01,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251312,single cell RNAseq normal B cells [1350E02_Normal_E02],1350E02_Normal_E02,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251313,single cell RNAseq tumor B cells [1350E02_Tumor_E02],1350E02_Tumor_E02,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251314,single cell RNAseq normal B cells [1350E03_Normal_E03],1350E03_Normal_E03,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251315,single cell RNAseq tumor B cells [1350E03_Tumor_E03],1350E03_Tumor_E03,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251316,single cell RNAseq normal B cells [1350E04_Normal_E04],1350E04_Normal_E04,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251317,single cell RNAseq tumor B cells [1350E04_Tumor_E04],1350E04_Tumor_E04,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251318,single cell RNAseq normal B cells [1350E05_Normal_E05],1350E05_Normal_E05,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251319,single cell RNAseq tumor B cells [1350E05_Tumor_E05],1350E05_Tumor_E05,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251320,single cell RNAseq normal B cells [1350E06_Normal_E06],1350E06_Normal_E06,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251321,single cell RNAseq tumor B cells [1350E06_Tumor_E06],1350E06_Tumor_E06,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251322,single cell RNAseq normal B cells [1350E07_Normal_E07],1350E07_Normal_E07,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251323,single cell RNAseq tumor B cells [1350E07_Tumor_E07],1350E07_Tumor_E07,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251324,single cell RNAseq normal B cells [1350E08_Normal_E08],1350E08_Normal_E08,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251325,single cell RNAseq tumor B cells [1350E08_Tumor_E08],1350E08_Tumor_E08,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251326,single cell RNAseq normal B cells [1350E09_Normal_E09],1350E09_Normal_E09,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251327,single cell RNAseq tumor B cells [1350E09_Tumor_E09],1350E09_Tumor_E09,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251328,single cell RNAseq normal B cells [1350E10_Normal_E10],1350E10_Normal_E10,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251329,single cell RNAseq tumor B cells [1350E10_Tumor_E10],1350E10_Tumor_E10,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251330,single cell RNAseq normal B cells [1350E11_Normal_E11],1350E11_Normal_E11,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251331,single cell RNAseq tumor B cells [1350E11_Tumor_E11],1350E11_Tumor_E11,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251332,single cell RNAseq normal B cells [1350E12_Normal_E12],1350E12_Normal_E12,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251333,single cell RNAseq tumor B cells [1350E12_Tumor_E12],1350E12_Tumor_E12,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251334,single cell RNAseq normal B cells [1350F01_Normal_F01],1350F01_Normal_F01,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251335,single cell RNAseq tumor B cells [1350F01_Tumor_F01],1350F01_Tumor_F01,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251336,single cell RNAseq normal B cells [1350F02_Normal_F02],1350F02_Normal_F02,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251337,single cell RNAseq tumor B cells [1350F02_Tumor_F02],1350F02_Tumor_F02,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251338,single cell RNAseq normal B cells [1350F03_Normal_F03],1350F03_Normal_F03,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251339,single cell RNAseq tumor B cells [1350F03_Tumor_F03],1350F03_Tumor_F03,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251340,single cell RNAseq normal B cells [1350F04_Normal_F04],1350F04_Normal_F04,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251341,single cell RNAseq tumor B cells [1350F04_Tumor_F04],1350F04_Tumor_F04,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251342,single cell RNAseq normal B cells [1350F05_Normal_F05],1350F05_Normal_F05,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251343,single cell RNAseq tumor B cells [1350F05_Tumor_F05],1350F05_Tumor_F05,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251344,single cell RNAseq normal B cells [1350F06_Normal_F06],1350F06_Normal_F06,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251345,single cell RNAseq tumor B cells [1350F06_Tumor_F06],1350F06_Tumor_F06,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251346,single cell RNAseq normal B cells [1350F07_Normal_F07],1350F07_Normal_F07,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251347,single cell RNAseq tumor B cells [1350F07_Tumor_F07],1350F07_Tumor_F07,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251348,single cell RNAseq normal B cells [1350F08_Normal_F08],1350F08_Normal_F08,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251349,single cell RNAseq tumor B cells [1350F08_Tumor_F08],1350F08_Tumor_F08,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251350,single cell RNAseq normal B cells [1350F09_Normal_F09],1350F09_Normal_F09,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251351,single cell RNAseq tumor B cells [1350F09_Tumor_F09],1350F09_Tumor_F09,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251352,single cell RNAseq normal B cells [1350F10_Normal_F10],1350F10_Normal_F10,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251353,single cell RNAseq tumor B cells [1350F10_Tumor_F10],1350F10_Tumor_F10,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251354,single cell RNAseq normal B cells [1350F11_Normal_F11],1350F11_Normal_F11,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251355,single cell RNAseq tumor B cells [1350F11_Tumor_F11],1350F11_Tumor_F11,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251356,single cell RNAseq normal B cells [1350F12_Normal_F12],1350F12_Normal_F12,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251357,single cell RNAseq tumor B cells [1350F12_Tumor_F12],1350F12_Tumor_F12,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251358,single cell RNAseq normal B cells [1350G01_Normal_G01],1350G01_Normal_G01,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251359,single cell RNAseq tumor B cells [1350G01_Tumor_G01],1350G01_Tumor_G01,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251360,single cell RNAseq normal B cells [1350G02_Normal_G02],1350G02_Normal_G02,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251361,single cell RNAseq tumor B cells [1350G02_Tumor_G02],1350G02_Tumor_G02,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251362,single cell RNAseq normal B cells [1350G03_Normal_G03],1350G03_Normal_G03,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251363,single cell RNAseq tumor B cells [1350G03_Tumor_G03],1350G03_Tumor_G03,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251364,single cell RNAseq normal B cells [1350G04_Normal_G04],1350G04_Normal_G04,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251365,single cell RNAseq tumor B cells [1350G04_Tumor_G04],1350G04_Tumor_G04,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251366,single cell RNAseq normal B cells [1350G05_Normal_G05],1350G05_Normal_G05,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251367,single cell RNAseq tumor B cells [1350G05_Tumor_G05],1350G05_Tumor_G05,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251368,single cell RNAseq normal B cells [1350G06_Normal_G06],1350G06_Normal_G06,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251369,single cell RNAseq tumor B cells [1350G06_Tumor_G06],1350G06_Tumor_G06,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251370,single cell RNAseq normal B cells [1350G07_Normal_G07],1350G07_Normal_G07,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251371,single cell RNAseq tumor B cells [1350G07_Tumor_G07],1350G07_Tumor_G07,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251372,single cell RNAseq normal B cells [1350G08_Normal_G08],1350G08_Normal_G08,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251373,single cell RNAseq tumor B cells [1350G08_Tumor_G08],1350G08_Tumor_G08,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251374,single cell RNAseq normal B cells [1350G09_Normal_G09],1350G09_Normal_G09,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251375,single cell RNAseq tumor B cells [1350G09_Tumor_G09],1350G09_Tumor_G09,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251376,single cell RNAseq normal B cells [1350G10_Normal_G10],1350G10_Normal_G10,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251377,single cell RNAseq tumor B cells [1350G10_Tumor_G10],1350G10_Tumor_G10,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251378,single cell RNAseq normal B cells [1350G11_Normal_G11],1350G11_Normal_G11,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251379,single cell RNAseq tumor B cells [1350G11_Tumor_G11],1350G11_Tumor_G11,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251380,single cell RNAseq normal B cells [1350G12_Normal_G12],1350G12_Normal_G12,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251381,single cell RNAseq tumor B cells [1350G12_Tumor_G12],1350G12_Tumor_G12,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251382,single cell RNAseq normal B cells [1350H01_Normal_H01],1350H01_Normal_H01,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251383,single cell RNAseq tumor B cells [1350H01_Tumor_H01],1350H01_Tumor_H01,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251384,single cell RNAseq normal B cells [1350H02_Normal_H02],1350H02_Normal_H02,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251385,single cell RNAseq tumor B cells [1350H02_Tumor_H02],1350H02_Tumor_H02,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251386,single cell RNAseq normal B cells [1350H03_Normal_H03],1350H03_Normal_H03,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251387,single cell RNAseq tumor B cells [1350H03_Tumor_H03],1350H03_Tumor_H03,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251388,single cell RNAseq normal B cells [1350H04_Normal_H04],1350H04_Normal_H04,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251389,single cell RNAseq tumor B cells [1350H04_Tumor_H04],1350H04_Tumor_H04,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251390,single cell RNAseq normal B cells [1350H05_Normal_H05],1350H05_Normal_H05,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251391,single cell RNAseq tumor B cells [1350H05_Tumor_H05],1350H05_Tumor_H05,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251392,single cell RNAseq normal B cells [1350H06_Normal_H06],1350H06_Normal_H06,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251393,single cell RNAseq tumor B cells [1350H06_Tumor_H06],1350H06_Tumor_H06,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251394,single cell RNAseq normal B cells [1350H07_Normal_H07],1350H07_Normal_H07,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251395,single cell RNAseq tumor B cells [1350H07_Tumor_H07],1350H07_Tumor_H07,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251396,single cell RNAseq normal B cells [1350H08_Normal_H08],1350H08_Normal_H08,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251397,single cell RNAseq tumor B cells [1350H08_Tumor_H08],1350H08_Tumor_H08,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251398,single cell RNAseq normal B cells [1350H09_Normal_H09],1350H09_Normal_H09,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251399,single cell RNAseq tumor B cells [1350H09_Tumor_H09],1350H09_Tumor_H09,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251400,single cell RNAseq normal B cells [1350H10_Normal_H10],1350H10_Normal_H10,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251401,single cell RNAseq tumor B cells [1350H10_Tumor_H10],1350H10_Tumor_H10,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251402,single cell RNAseq normal B cells [1350H11_Normal_H11],1350H11_Normal_H11,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251403,single cell RNAseq tumor B cells [1350H11_Tumor_H11],1350H11_Tumor_H11,Tumor,patient_1,B cells
+,,,,,,,,-,GSM2251404,single cell RNAseq normal B cells [1350H12_Normal_H12],1350H12_Normal_H12,Normal,patient_1,B cells
+,,,,,,,,-,GSM2251405,single cell RNAseq tumor B cells [1350H12_Tumor_H12],1350H12_Tumor_H12,Tumor,patient_1,B cells

@@ -1,0 +1,39 @@
+# TITLE: Whole genome analysis in A549 cells treated for short incubation periods with various concentrations of triptolide
+# SUMMARY: The purpose of this study was to identify the genes primarily affected by a short treatment of A549 cells with grading concentrations of the natural compound triptolide. The cells were exposed to this molecule before RNA was extracted, then used for whole human genome microarray experiments.
+GPL8755_Group,GPL8755_Accession,GPL8755_Title,GPL8755_Source name,GPL8755_Cell line,GPL8755_Gender,GPL8755_Age,GPL8755_Tissue
+-,GSM419930,"0,05_1h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419931,"0,05_1h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419932,"0,05_1h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419933,"0,15_1h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419934,"0,15_1h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419935,"0,15_1h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419936,"0,45_1h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419937,"0,45_1h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419938,"0,45_1h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419939,Control_1h_rep1,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419971,Control_1h_rep2,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419984,Control_1h_rep3,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419985,"0,05_2h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419986,"0,05_2h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419993,"0,05_2h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM419994,"0,15_2h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420002,"0,15_2h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420003,"0,15_2h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420004,"0,45_2h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420006,"0,45_2h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420107,"0,45_2h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420109,Control_2h_rep1,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420110,Control_2h_rep2,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420112,Control_2h_rep3,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420113,"0,05_4h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420115,"0,05_4h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420119,"0,05_4h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420120,"0,15_4h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420121,"0,15_4h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420122,"0,15_4h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420123,"0,45_4h_rep1","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420136,"0,45_4h_rep2","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420137,"0,45_4h_rep3","A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420139,Control_4h_rep1,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420140,Control_4h_rep2,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer
+-,GSM420142,Control_4h_rep3,"A549 cell line isolated from a human non small cell lung cancer, treated in vitro with various concentrations of triptolide",A549,male,58,lung cancer

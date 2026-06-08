@@ -1,0 +1,77 @@
+# TITLE: Combination of host immune metabolic biomarkers for the PD-1 blockade cancer immunotherapy
+# SUMMARY: Background. Current clinical biomarkers for the PD-1 blockade therapy are insufficient because they rely only on the tumor properties such as PD-L1 expression frequency and the amount of tumor mutation burden. Identifying reliable responsive biomarkers based on the host immunity is necessary to improve the predictive values. Methods. We investigated the levels of plasma metabolites and T cell properties including energy metabolism markers in the blood of patients with non-small cell lung cancer before and after treatment with nivolumab (N=53). Predictive value of combination markers statistically selected were evaluated by cross validation and linear discriminant analysis on discovery and validation cohorts, respectively. Correlation between plasma metabolites and T cell markers were investigated. Results. The four metabolites derived from microbiome (hippuric acid), fatty acid oxidation (butyrylcarnitine) and redox (cystine and glutathione disulfide) provided high response probability (AUC=0.91). Similarly, a combination of four T cell markers, those related to mitochondrial activation (PGC-1 expression and reactive oxygen species), and the frequencies of CD8+ PD-1high and CD4+ T cells demonstrated even higher prediction value (AUC=0.96). Among the pool of all selected markers, the four T cell markers were exclusively selected as the highest predictive combination probably due to their linkage to the above mentioned metabolite markers. In a prospective validation set (N=24) these four cellular markers showed a high accuracy rate for the clinical responses of the patients (AUC= 0.92). Conclusion. Combination of biomarkers reflecting host immune activity is quite valuable for the responder prediction.
+GPL23126_Group,GPL23126_Accession,GPL23126_Title,GPL23126_Source name,GPL23126_Diagnosis,GPL23126_Tissue,GPL23126_Cell type,GPL23126_Treatment,GPL23126_Individual
+-,GSM4204391,L10_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L10
+-,GSM4204392,L10_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L10
+-,GSM4204393,L11_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L11
+-,GSM4204394,L12_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L12
+-,GSM4204395,L12_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L12
+-,GSM4204396,L13_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L13
+-,GSM4204397,L13_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L13
+-,GSM4204398,L14_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L14
+-,GSM4204399,L14_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L14
+-,GSM4204400,L15_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L15
+-,GSM4204401,L16_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L16
+-,GSM4204402,L19_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L19
+-,GSM4204403,L19_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L19
+-,GSM4204404,L21_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L21
+-,GSM4204405,L21_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L21
+-,GSM4204406,L22_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L22
+-,GSM4204407,L22_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L22
+-,GSM4204408,L23_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L23
+-,GSM4204409,L23_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L23
+-,GSM4204410,L25_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L25
+-,GSM4204411,L25_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L25
+-,GSM4204412,L27_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L27
+-,GSM4204413,L27_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L27
+-,GSM4204414,L30_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L30
+-,GSM4204415,L30_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L30
+-,GSM4204416,L31_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L31
+-,GSM4204417,L31_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L31
+-,GSM4204418,L32_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L32
+-,GSM4204419,L32_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L32
+-,GSM4204420,L33_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L33
+-,GSM4204421,L33_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L33
+-,GSM4204422,L34_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L34
+-,GSM4204423,L35_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L35
+-,GSM4204424,L35_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L35
+-,GSM4204425,L36_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L36
+-,GSM4204426,L36_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L36
+-,GSM4204427,L37_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L37
+-,GSM4204428,L39_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L39
+-,GSM4204429,L41_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L41
+-,GSM4204430,L41_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L41
+-,GSM4204431,L42_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L42
+-,GSM4204432,L42_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L42
+-,GSM4204433,L44_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L44
+-,GSM4204434,L44_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L44
+-,GSM4204435,L45_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L45
+-,GSM4204436,L45_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L45
+-,GSM4204437,L46_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L46
+-,GSM4204438,L46_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L46
+-,GSM4204439,L47_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L47
+-,GSM4204440,L47_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L47
+-,GSM4204441,L48_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L48
+-,GSM4204442,L48_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L48
+-,GSM4204443,L49_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L49
+-,GSM4204444,L49_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L49
+-,GSM4204445,L50_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L50
+-,GSM4204446,L50_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L50
+-,GSM4204447,L51_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L51
+-,GSM4204448,L51_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L51
+-,GSM4204449,L52_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L52
+-,GSM4204450,L52_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L52
+-,GSM4204451,L53_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L53
+-,GSM4204452,L53_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L53
+-,GSM4204453,L54_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L54
+-,GSM4204454,L54_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L54
+-,GSM4204455,L55_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L55
+-,GSM4204456,L56_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L56
+-,GSM4204457,L56_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L56
+-,GSM4204458,L57_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L57
+-,GSM4204459,L57_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L57
+-,GSM4204460,L58_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L58
+-,GSM4204461,L59_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L59
+-,GSM4204462,L59_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L59
+-,GSM4204463,L60_1,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Pre-treatment,L60
+-,GSM4204464,L60_2,"Peripheral blood, CD8+ sorted",Non-small cell lung cancer,Blood,CD8+,Post-treatment (nivolumab),L60

@@ -1,0 +1,7 @@
+# TITLE: Identification of radiation-induced miRNAs in NSCLC cells
+# SUMMARY: To identify radiation-induced miRNAs, we initially profiled human miRNA expression in NSCLC A549 and H1299 cells treated with X-ray radiation using miRNA microarrays. Indeed, we observed multiple dysregulated miRNAs following radiation in NSCLC cell lines.
+GPL27938_Group,GPL27938_Accession,GPL27938_Title,GPL27938_Source name,GPL27938_Cell line,GPL27938_Cell type
+-,GSM4412505,A549-control,A549-control,A549,NSCLC
+-,GSM4412506,A549-radiation treatment,A549-radiation treatment,A549,NSCLC
+-,GSM4412507,H1299-control,H1299-control,H1299,NSCLC
+-,GSM4412508,H1299-radiation treatment,H1299-radiation treatment,H1299,NSCLC

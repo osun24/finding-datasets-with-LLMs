@@ -1,0 +1,73 @@
+# TITLE: Gene expression profiling of NSCLC tumors with high and low PAEP expression
+# SUMMARY: Gene expression profiling of NSCLC tumors with distinct PAEP expression suggested several pathways, which might be involved in the regulation of PAEP/glycodelin expression.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Gender,GPL570_Age,GPL570_Tissue,GPL570_Cell type,GPL570_Histology,GPL570_Tumor stage 7th edition tnm,GPL570_Paep expression
+-,GSM3178575,"1 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,76,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178576,"2 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,55,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178577,"3 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,81,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1A,high
+-,GSM3178578,"4 SCC patient, high PAEP expression","SCC patient, high PAEP expression",female,72,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178579,"5 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,68,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178580,"6 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,58,lung,human non-small cell lung cancer cells,squamous cell carcinoma,2B,high
+-,GSM3178581,"7 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,77,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178582,"8 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,74,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178583,"9 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,58,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178584,"10 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,70,lung,human non-small cell lung cancer cells,squamous cell carcinoma,2B,high
+-,GSM3178585,"11 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,72,lung,human non-small cell lung cancer cells,squamous cell carcinoma,2B,high
+-,GSM3178586,"12 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,52,lung,human non-small cell lung cancer cells,squamous cell carcinoma,3A,high
+-,GSM3178587,"13 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,42,lung,human non-small cell lung cancer cells,squamous cell carcinoma,3A,high
+-,GSM3178588,"14 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,71,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178589,"15 SCC patient, high PAEP expression","SCC patient, high PAEP expression",male,60,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,high
+-,GSM3178590,"16 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,57,lung,human non-small cell lung cancer cells,squamous cell carcinoma,3A,low
+-,GSM3178591,"17 SCC patient, low PAEP expression","SCC patient, low PAEP expression",female,49,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1A,low
+-,GSM3178592,"18 SCC patient, low PAEP expression","SCC patient, low PAEP expression",female,53,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,low
+-,GSM3178593,"19 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,69,lung,human non-small cell lung cancer cells,squamous cell carcinoma,2B,low
+-,GSM3178594,"20 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,52,lung,human non-small cell lung cancer cells,squamous cell carcinoma,2B,low
+-,GSM3178595,"21 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,55,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,low
+-,GSM3178596,"22 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,83,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,low
+-,GSM3178597,"23 SCC patient, low PAEP expression","SCC patient, low PAEP expression",female,58,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1A,low
+-,GSM3178598,"24 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,57,lung,human non-small cell lung cancer cells,squamous cell carcinoma,2B,low
+-,GSM3178599,"25 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,57,lung,human non-small cell lung cancer cells,squamous cell carcinoma,3A,low
+-,GSM3178600,"26 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,73,lung,human non-small cell lung cancer cells,squamous cell carcinoma,3A,low
+-,GSM3178601,"27 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,71,lung,human non-small cell lung cancer cells,squamous cell carcinoma,2B,low
+-,GSM3178602,"28 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,78,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1B,low
+-,GSM3178603,"29 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,68,lung,human non-small cell lung cancer cells,squamous cell carcinoma,1A,low
+-,GSM3178604,"30 SCC patient, low PAEP expression","SCC patient, low PAEP expression",male,52,lung,human non-small cell lung cancer cells,squamous cell carcinoma,3A,low
+-,GSM3178605,"31 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,67,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178606,"32 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,40,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178607,"33 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,58,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,high
+-,GSM3178608,"34 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,71,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178609,"35 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,74,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,high
+-,GSM3178610,"36 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,60,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,high
+-,GSM3178611,"37 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,65,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178612,"38 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,59,lung,human non-small cell lung cancer cells,adenocarcinoma,3A,high
+-,GSM3178613,"39 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,52,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178614,"40 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,68,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,high
+-,GSM3178615,"41 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,65,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178616,"42 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,75,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178617,"43 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,72,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178618,"44 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,59,lung,human non-small cell lung cancer cells,adenocarcinoma,1A,high
+-,GSM3178619,"45 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,67,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,high
+-,GSM3178620,"46 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,47,lung,human non-small cell lung cancer cells,adenocarcinoma,1A,high
+-,GSM3178621,"47 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,69,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178622,"48 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,50,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,high
+-,GSM3178623,"49 ADC patient, high PAEP expression","ADC patient, high PAEP expression",female,74,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,high
+-,GSM3178624,"50 ADC patient, high PAEP expression","ADC patient, high PAEP expression",male,81,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,high
+-,GSM3178625,"51 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,67,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178626,"52 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,57,lung,human non-small cell lung cancer cells,adenocarcinoma,3A,low
+-,GSM3178627,"53 ADC patient, low PAEP expression","ADC patient, low PAEP expression",female,74,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178628,"54 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,75,lung,human non-small cell lung cancer cells,adenocarcinoma,1A,low
+-,GSM3178629,"55 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,53,lung,human non-small cell lung cancer cells,adenocarcinoma,2B,low
+-,GSM3178630,"56 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,69,lung,human non-small cell lung cancer cells,adenocarcinoma,3A,low
+-,GSM3178631,"57 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,73,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178632,"58 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,74,lung,human non-small cell lung cancer cells,adenocarcinoma,1A,low
+-,GSM3178633,"59 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,56,lung,human non-small cell lung cancer cells,adenocarcinoma,3A,low
+-,GSM3178634,"60 ADC patient, low PAEP expression","ADC patient, low PAEP expression",female,48,lung,human non-small cell lung cancer cells,adenocarcinoma,3A,low
+-,GSM3178635,"61 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,69,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178636,"62 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,48,lung,human non-small cell lung cancer cells,adenocarcinoma,3A,low
+-,GSM3178637,"63 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,62,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178638,"64 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,56,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178639,"65 ADC patient, low PAEP expression","ADC patient, low PAEP expression",female,56,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178640,"66 ADC patient, low PAEP expression","ADC patient, low PAEP expression",female,60,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178641,"67 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,66,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178642,"68 ADC patient, low PAEP expression","ADC patient, low PAEP expression",male,69,lung,human non-small cell lung cancer cells,adenocarcinoma,1B,low
+-,GSM3178643,"69 ADC patient, low PAEP expression","ADC patient, low PAEP expression",female,46,lung,human non-small cell lung cancer cells,adenocarcinoma,3A,low
+-,GSM3178644,"70 ADC patient, low PAEP expression","ADC patient, low PAEP expression",female,58,lung,human non-small cell lung cancer cells,adenocarcinoma,3A,low

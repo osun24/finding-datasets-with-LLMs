@@ -1,0 +1,18 @@
+# TITLE: Transcriptomic Analysis of Non-small Cell Lung Cancer Stem Cells
+# SUMMARY: This study was designed to understand the transcriptomic composition and the biological functions of cancer stem cells isolated from non-small cell lung cancer line (NSCLC) Putative lung cancer stem cells were isolated from cancer cell lines based on expression of known stem cell surface markers: CD166, CD44 and EpCAM using the Fluorescence Activated Cell Sorter (FACS).
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Cell type,GPL6244_Cell line
+-,GSM1224868,normal stem cells_sample 1_rep 1,Normal putative stem cells,normal lung epithelial cell line,
+-,GSM1224869,normal stem cells_sample 1_rep 2,Normal putative stem cells,normal lung epithelial cell line,
+-,GSM1224870,normal stem cells_sample 1_rep 3,Normal putative stem cells,normal lung epithelial cell line,
+-,GSM1224871,normal stem cells_sample 2_rep 1,Normal putative stem cells,normal lung epithelial cell line,
+-,GSM1224872,normal stem cells_sample 2_rep 2,Normal putative stem cells,normal lung epithelial cell line,
+-,GSM1224873,normal stem cells_sample 2_rep 3,Normal putative stem cells,normal lung epithelial cell line,
+-,GSM1224874,cancer stem cells_sample 1_rep 1,putative cancer stem cells A549,lung adenocarcinoma cell line,A549
+-,GSM1224875,cancer stem cells_sample 1_rep 2,putative cancer stem cells A549,lung adenocarcinoma cell line,A549
+-,GSM1224876,cancer stem cells_sample 1_rep 3,putative cancer stem cells A549,lung adenocarcinoma cell line,A549
+-,GSM1224877,cancer stem cells_sample 2_rep 1,putative cancer stem cells A549,lung adenocarcinoma cell line,A549
+-,GSM1224878,cancer stem cells_sample 2_rep 2,putative cancer stem cells A549,lung adenocarcinoma cell line,A549
+-,GSM1224879,cancer stem cells_sample 2_rep 3,putative cancer stem cells A549,lung adenocarcinoma cell line,A549
+-,GSM1224880,cancer stem cells_sample 3_rep 1,putative cancer stem cells NCI-H2170,lung squamous cell carcinoma cell line,NCI-H2170
+-,GSM1224881,cancer stem cells_sample 3_rep 2,putative cancer stem cells NCI-H2170,lung squamous cell carcinoma cell line,NCI-H2170
+-,GSM1224882,cancer stem cells_sample 3_rep 3,putative cancer stem cells NCI-H2170,lung squamous cell carcinoma cell line,NCI-H2170

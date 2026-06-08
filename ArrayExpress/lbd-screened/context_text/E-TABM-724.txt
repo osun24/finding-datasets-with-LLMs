@@ -1,0 +1,37 @@
+Accession: E-TABM-724
+Source list: lbd-screened
+Title: Transcription profiling of neurosphere-derived cell lines from patients with brain disorders
+Study type: transcription profiling by array
+Description: Understanding the molecular bases of neurological and psychiatric conditions is hampered by a lack of suitable patient-derived cellular models. The olfactory mucosa is a continually regenerating neural tissue that contains multipotent neural stem cells which are accessible and expandable in vitro as neurospheres. Here we demonstrate disease-specific differences in neurosphere-derived cell lines from patients with two unrelated neurological conditions. Lines derived from donors with schizophrenia exhibited significant dysregulation of neurodevelopmental pathways whereas those obtained from donors with Parkinson's disease demonstrated significant dysgregulation in mitochondrial function, oxidative stress and xenobiotic metabolism. Our model supports the hypothesis that diseases with multiple genetic and environmental risk factors are revealed in convergent cellular and molecular pathways in olfactory neurosphere-derived cells taken from patient cohorts. These patient-derived cells provide informative models that provide insights into neurobiological correlates of neurological and psychiatric disorders that may be useful for many neuropsychiatric/neurodegenerative conditions and for drug discovery
+Sample count: 42
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: disease_state_design, transcription profiling by array
+  Experimental Factors:
+    Experimental Factors: CELLTYPE, DISEASESTATE
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: olfactory mucosa
+    Disease: Parkinson's disease, normal, schizophrenia
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Diseasestate: Parkinson's disease, normal, schizophrenia
+      DISEASESTATE: normal, Parkinson's disease, schizophrenia
+      DiseaseState: normal, Parkinson's disease, schizophrenia
+    Cell type/line:
+      Celltype: fibroblast, neurosphere
+      CELLTYPE: neurosphere, fibroblast
+      CellType: neurosphere, fibroblast
+    Clinical/familial:
+      Not found
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Quality Controls: biological_replicate
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

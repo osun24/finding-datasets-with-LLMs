@@ -1,0 +1,9 @@
+# TITLE: Noncoding RNA expression profiling of cisplatin-resistant cells derived from the A549 lung cell line (lncRNA and mRNA)
+# SUMMARY: To determine the signaling networks that are dysregulated in cisplatin-resistant non-small cell lung cancer, noncoding RNA expression data were obtained from, and compared between, the lung adenocarcinoma cell line, A549, and its cisplatin-resistant derivative, A549/CDDP.
+GPL15314_Group,GPL15314_Accession,GPL15314_Title,GPL15314_Source name,GPL15314_Cell line,GPL15314_Cell type,GPL15314_Cisplatin sensitivity
+-,GSM1064138,A549 cisplatin-sensitive non-small cell lung cancer cell line_lncRNA_rep1,parental A549 lung cancer cell line,A549 (parental),lung adenocarcinoma cells,sensitive
+-,GSM1064139,A549 cisplatin-sensitive non-small cell lung cancer cell line_lncRNA_rep2,parental A549 lung cancer cell line,A549 (parental),lung adenocarcinoma cells,sensitive
+-,GSM1064140,A549 cisplatin-sensitive non-small cell lung cancer cell line_lncRNA_rep3,parental A549 lung cancer cell line,A549 (parental),lung adenocarcinoma cells,sensitive
+-,GSM1064141,A549/CDDP cisplatin-resistant non-small cell lung cancer cell line_lncRNA_rep1,cisplatin-resistant A549/CDDP lung cancer cell line,A549/CDDP (A549 derivative),lung adenocarcinoma cells,resistant
+-,GSM1064142,A549/CDDP cisplatin-resistant non-small cell lung cancer cell line_lncRNA_rep2,cisplatin-resistant A549/CDDP lung cancer cell line,A549/CDDP (A549 derivative),lung adenocarcinoma cells,resistant
+-,GSM1064143,A549/CDDP cisplatin-resistant non-small cell lung cancer cell line_lncRNA_rep3,cisplatin-resistant A549/CDDP lung cancer cell line,A549/CDDP (A549 derivative),lung adenocarcinoma cells,resistant

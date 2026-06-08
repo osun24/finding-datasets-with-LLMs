@@ -1,0 +1,91 @@
+# TITLE: Plasma miRNA data from early NSCLC and HNSCC patients
+# SUMMARY: Plasma miRNA data from early NSCLC and HNSCC patients
+GPL31001_Group,GPL31001_Accession,GPL31001_Title,GPL31001_Source name,GPL31001_Condition,GPL31001_Histology,GPL31001_Tnm,GPL31001_Sex,GPL31001_Age
+-,GSM7823022,plasma_NSCLC_tumour presence [P1F0],plasma in tumour presence,tumour presence,Lung squamous cell carcinoma,T2aN0,Female,66
+-,GSM7823023,plasma_NSCLC_tumour free [P1F1],plasma tumour free,tumour free,-,-,Female,66
+-,GSM7823024,plasma_NSCLC_tumour presence [P5F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1bN0M0,Female,68
+-,GSM7823025,plasma_NSCLC_tumour free [P5F1],plasma tumour free,tumour free,-,-,Female,68
+-,GSM7823026,plasma_NSCLC_tumour presence [P7F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1bcN0Mx,Female,71
+-,GSM7823027,plasma_NSCLC_tumour free [P7F1],plasma tumour free,tumour free,-,-,Female,71
+-,GSM7823028,plasma_NSCLC_tumour presence [P8F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1bN0,Male,56
+-,GSM7823029,plasma_NSCLC_tumour free [P8F1],plasma tumour free,tumour free,-,-,Male,56
+-,GSM7823030,plasma_NSCLC_tumour presence [P9F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1N0M0,Female,64
+-,GSM7823031,plasma_NSCLC_tumour free [P9F1],plasma tumour free,tumour free,-,-,Female,64
+-,GSM7823032,plasma_NSCLC_tumour presence [P13F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1bcN0M0,Female,58
+-,GSM7823033,plasma_NSCLC_tumour free [P13F1],plasma tumour free,tumour free,-,,Female,58
+-,GSM7823034,plasma_NSCLC_tumour presence [P14F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1cN0M0,Male,67
+-,GSM7823035,plasma_NSCLC_tumour free [P14F1],plasma tumour free,tumour free,-,-,Male,67
+-,GSM7823036,plasma_NSCLC_tumour presence [P15F0],plasma in tumour presence,tumour presence,Lung squamous cell carcinoma,T2aN0M0,Male,77
+-,GSM7823037,plasma_NSCLC_tumour free [P15F1],plasma tumour free,tumour free,-,-,Male,77
+-,GSM7823038,plasma_NSCLC_tumour presence [P18F0],plasma in tumour presence,tumour presence,Lung squamous cell carcinoma,T1cN0M0,Female,60
+-,GSM7823039,plasma_NSCLC_tumour free [P18F1],plasma tumour free,tumour free,-,-,Female,60
+-,GSM7823040,plasma_NSCLC_tumour presence [P19F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,no information,Male,64
+-,GSM7823041,plasma_NSCLC_tumour free [P19F1],plasma tumour free,tumour free,-,-,Male,64
+-,GSM7823042,plasma_NSCLC_tumour presence [P20F0],plasma in tumour presence,tumour presence,Lung squamous cell carcinoma,T1bN0,Male,71
+-,GSM7823043,plasma_NSCLC_tumour free [P20F1],plasma tumour free,tumour free,-,-,Male,71
+-,GSM7823044,plasma_NSCLC_tumour presence [P21F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,no informtation,Female,77
+-,GSM7823045,plasma_NSCLC_tumour free [P21F1],plasma tumour free,tumour free,-,-,Female,77
+-,GSM7823046,plasma_NSCLC_tumour presence [P24F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1bN0M0,Male,57
+-,GSM7823047,plasma_NSCLC_tumour free [P24F1],plasma tumour free,tumour free,-,-,Male,57
+-,GSM7823048,plasma_NSCLC_tumour presence [P26F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T2aN0,Female,68
+-,GSM7823049,plasma_NSCLC_tumour free [P26F1],plasma tumour free,tumour free,-,-,Female,68
+-,GSM7823050,plasma_NSCLC_tumour presence [P27F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1ccN0,Female,61
+-,GSM7823051,plasma_NSCLC_tumour free [P27F1],plasma tumour free,tumour free,-,-,Female,61
+-,GSM7823052,plasma_NSCLC_tumour presence [P28F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T2aN0,Male,75
+-,GSM7823053,plasma_NSCLC_tumour free [P28F1],plasma tumour free,tumour free,-,-,Male,75
+-,GSM7823054,plasma_NSCLC_tumour presence [P30F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1bN0M0,Female,65
+-,GSM7823055,plasma_NSCLC_tumour free [P30F1],plasma tumour free,tumour free,-,-,Female,65
+-,GSM7823056,plasma_NSCLC_tumour presence [P31F0],plasma in tumour presence,tumour presence,Lung adenocarcinoma,T1N0M0,Female,69
+-,GSM7823057,plasma_NSCLC_tumour free [P31F1],plasma tumour free,tumour free,-,-,Female,69
+-,GSM7823058,plasma_HNSCC_tumour presence [C1F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T2N0M0,Male,45
+-,GSM7823059,plasma_HNSCC_tumour free [C1F1],plasma tumour free,tumour free,-,-,Male,45
+-,GSM7823060,plasma_HNSCC_tumour presence [C2F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T4N1M0,Female,50
+-,GSM7823061,plasma_HNSCC_tumour free [C2F1],plasma tumour free,tumour free,-,-,Female,50
+-,GSM7823062,plasma_HNSCC_tumour presence [C5F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T2N1M0,Male,70
+-,GSM7823063,plasma_HNSCC_tumour free [C5F1],plasma tumour free,tumour free,-,-,Male,70
+-,GSM7823064,plasma_HNSCC_tumour presence [C6F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T3N2M0,Male,65
+-,GSM7823065,plasma_HNSCC_tumour free [C6F1],plasma tumour free,tumour free,-,-,Male,65
+-,GSM7823066,plasma_HNSCC_tumour presence [C10F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T2N1M0,Male,57
+-,GSM7823067,plasma_HNSCC_tumour free [C10F1],plasma tumour free,tumour free,-,-,Male,57
+-,GSM7823068,plasma_HNSCC_tumour presence [C11F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T1N2M0,Male,55
+-,GSM7823069,plasma_HNSCC_tumour free [C11F1],plasma tumour free,tumour free,-,-,Male,55
+-,GSM7823070,plasma_HNSCC_tumour presence [C13F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T1N0M0,Male,68
+-,GSM7823071,plasma_HNSCC_tumour free [C13F1],plasma tumour free,tumour free,-,-,Male,68
+-,GSM7823072,plasma_HNSCC_tumour presence [C16F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T1N0M0,Male,48
+-,GSM7823073,plasma_HNSCC_tumour free [C16F1],plasma tumour free,tumour free,-,-,Male,48
+-,GSM7823074,plasma_HNSCC_tumour presence [C17F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T2N0M0,Male,72
+-,GSM7823075,plasma_HNSCC_tumour free [C17F1],plasma tumour free,tumour free,-,-,Male,72
+-,GSM7823076,plasma_HNSCC_tumour presence [C18F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T2N2M0,Female,44
+-,GSM7823077,plasma_HNSCC_tumour free [C18F1],plasma tumour free,tumour free,-,-,Female,44
+-,GSM7823078,plasma_HNSCC_tumour presence [C19F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T4N0M0,Male,54
+-,GSM7823079,plasma_HNSCC_tumour free [C19F1],plasma tumour free,tumour free,-,-,Male,54
+-,GSM7823080,plasma_HNSCC_tumour presence [C21F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T2N0M0,Male,47
+-,GSM7823081,plasma_HNSCC_tumour free [C21F1],plasma tumour free,tumour free,-,-,Male,47
+-,GSM7823082,plasma_HNSCC_tumour presence [C23F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T2N2aM0,Male,69
+-,GSM7823083,plasma_HNSCC_tumour free [C23F1],plasma tumour free,tumour free,-,-,Male,69
+-,GSM7823084,plasma_HNSCC_tumour presence [C26F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T2N3bM0,Male,43
+-,GSM7823085,plasma_HNSCC_tumour free [C26F1],plasma tumour free,tumour free,-,-,Male,43
+-,GSM7823086,plasma_HNSCC_tumour presence [C27F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T1N0M0,Female,57
+-,GSM7823087,plasma_HNSCC_tumour free [C27F1],plasma tumour free,tumour free,-,-,Female,57
+-,GSM7823088,plasma_HNSCC_tumour presence [C28F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T1N0M0,Male,53
+-,GSM7823089,plasma_HNSCC_tumour free [C28F1],plasma tumour free,tumour free,-,-,Male,53
+-,GSM7823090,plasma_HNSCC_tumour presence [C29F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T1N2M0,Male,45
+-,GSM7823091,plasma_HNSCC_tumour free [C29F1],plasma tumour free,tumour free,-,-,Male,45
+-,GSM7823092,plasma_HNSCC_tumour presence [C30F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T1N2M0,Female,46
+-,GSM7823093,plasma_HNSCC_tumour free [C30F1],plasma tumour free,tumour free,-,-,Female,46
+-,GSM7823094,plasma_HNSCC_tumour presence [C32F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T2N0M0,Female,56
+-,GSM7823095,plasma_HNSCC_tumour free [C32F1],plasma tumour free,tumour free,-,-,Female,56
+-,GSM7823096,plasma_HNSCC_tumour presence [C33F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T2N0M0,Male,67
+-,GSM7823097,plasma_HNSCC_tumour free [C33F1],plasma tumour free,tumour free,-,-,Male,67
+-,GSM7823098,plasma_HNSCC_tumour presence [C36F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T1N1M0,Female,70
+-,GSM7823099,plasma_HNSCC_tumour free [C36F1],plasma tumour free,tumour free,-,-,Female,70
+-,GSM7823100,plasma_HNSCC_tumour presence [C37F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T4N0M0,Male,61
+-,GSM7823101,plasma_HNSCC_tumour free [C37F1],plasma tumour free,tumour free,-,-,Male,61
+-,GSM7823102,plasma_HNSCC_tumour presence [C38F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T3N0M0,Male,68
+-,GSM7823103,plasma_HNSCC_tumour free [C38F1],plasma tumour free,tumour free,-,-,Male,68
+-,GSM7823104,plasma_HNSCC_tumour presence [C40F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T2N2aM0,Male,39
+-,GSM7823105,plasma_HNSCC_tumour free [C40F1],plasma tumour free,tumour free,-,-,Male,39
+-,GSM7823106,plasma_HNSCC_tumour presence [C44F0],plasma in tumour presence,tumour presence,Larynx_squamous_cell_carcinoma,T3N0M0,Male,61
+-,GSM7823107,plasma_HNSCC_tumour free [C44F1],plasma tumour free,tumour free,-,-,Male,61
+-,GSM7823108,plasma_HNSCC_tumour presence [C45F0],plasma in tumour presence,tumour presence,Orofaringynx_squamous_cell_carcinoma,T1N0M0,Male,48
+-,GSM7823109,plasma_HNSCC_tumour free [C45F1],plasma tumour free,tumour free,-,-,Male,48

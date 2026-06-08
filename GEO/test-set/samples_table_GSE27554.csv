@@ -1,0 +1,115 @@
+# TITLE: EARLY DETECTION OF LUNG CANCER BY MOLECULAR MARKERS IN ENDOBRONCHIAL LINING FLUID
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL2845_Group,GPL2845_Accession,GPL2845_Title,GPL2845_Source name,GPL2845_Site,GPL2845_Disease state,GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Cell type,GPL570_Site,GPL570_Patient,GPL570_Disease state
+-,GSM679256,ELF6IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679226,ELF9IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679257,ELF7IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679227,ELF9CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679258,ELF8IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679228,ELF18IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679259,ELF12IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679229,ELF18CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679260,ELF15IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679230,ELF22IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679261,ELF16IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679231,ELF22CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679262,ELF19IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679232,ELF32IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679263,ELF21IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679233,ELF32CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679264,ELF25IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679234,ELF39IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,adenocarcinoma
+-,GSM679265,ELF27IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679235,ELF39CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,adenocarcinoma
+-,GSM679266,ELF28IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679236,ELF34IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679267,ELF31IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679237,ELF34CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679268,ELF35IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679238,ELF36IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679269,ELF39IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679239,ELF36CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679270,ELF52IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679240,ELF38IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679271,ELF54IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679241,ELF38CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679272,ELF60IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679242,ELF41IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679273,ELF61IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679243,ELF41CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679274,ELF64IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679244,ELF56IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,tumor patient,squamous cell carcinoma
+-,GSM679275,ELF65IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679245,ELF56CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,tumor patient,squamous cell carcinoma
+-,GSM679276,ELF69IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679246,ELF2IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679277,ELF70IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679247,ELF2CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679278,ELF73IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679248,ELF23IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679279,ELF75IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679249,ELF23CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679280,ELF76IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679250,ELF51IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679281,ELF77IPN,"human endobronchial lining fluid, nodule site, adenocarcinoma",nodule site,adenocarcinoma,-,GSM679251,ELF51CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679282,ELF1IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,-,GSM679252,ELF53IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679283,ELF4IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,-,GSM679253,ELF53CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679284,ELF5IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,-,GSM679254,ELF59IPN_nodule_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,nodule site,control patient,benign diagnosis
+-,GSM679285,ELF10IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,-,GSM679255,ELF59CL_contralateral_site,human endobronchial epithelial lining fluid,endobronchial epithelial lining fluid,contralateral site,control patient,benign diagnosis
+-,GSM679286,ELF24IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,,,,,,,,
+-,GSM679287,ELF29IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,,,,,,,,
+-,GSM679288,ELF30IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,,,,,,,,
+-,GSM679289,ELF48IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,,,,,,,,
+-,GSM679290,ELF71IPN,"human endobronchial lining fluid, nodule site, squamous cell carcinoma",nodule site,squamous cell carcinoma,,,,,,,,
+-,GSM679291,ELF3IPN,"human endobronchial lining fluid, nodule site, large cell lung carcinoma",nodule site,large cell lung carcinoma,,,,,,,,
+-,GSM679292,ELF17IPN,"human endobronchial lining fluid, nodule site, carcinoid",nodule site,carcinoid,,,,,,,,
+-,GSM679293,ELF20IPN,"human endobronchial lining fluid, nodule site, large cell lung carcinoma",nodule site,large cell lung carcinoma,,,,,,,,
+-,GSM679294,ELF42IPN,"human endobronchial lining fluid, nodule site, large cell lung carcinoma",nodule site,large cell lung carcinoma,,,,,,,,
+-,GSM679295,ELF43IPN,"human endobronchial lining fluid, nodule site, large cell lung carcinoma",nodule site,large cell lung carcinoma,,,,,,,,
+-,GSM679296,ELF72IPN,"human endobronchial lining fluid, nodule site, NSCLC",nodule site,NSCLC,,,,,,,,
+-,GSM679297,ELF2IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679298,ELF11IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679299,ELF13IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679300,ELF14IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679301,ELF26IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679302,ELF37IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679303,ELF40IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679304,ELF50IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679305,ELF55IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679306,ELF57IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679307,ELF62IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679308,ELF66IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679309,ELF67IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679310,ELF68IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679311,ELF74IPN,"human endobronchial lining fluid, nodule site, benign",nodule site,benign,,,,,,,,
+-,GSM679312,ELF6CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679313,ELF7CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679314,ELF8CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679315,ELF12CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679316,ELF15CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679317,ELF16CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679318,ELF19CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679319,ELF21CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679320,ELF25CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679321,ELF27CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679322,ELF28CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679323,ELF31CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679324,ELF35CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679325,ELF39CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679326,ELF52CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679327,ELF54CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679328,ELF60CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679329,ELF61CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679330,ELF64CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679331,ELF65CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679332,ELF69CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679333,ELF70CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679334,ELF73CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679335,ELF75CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679336,ELF76CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679337,ELF77CL,"human endobronchial lining fluid, contralateral site, adenocarcinoma",contralateral site,adenocarcinoma,,,,,,,,
+-,GSM679338,ELF1CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679339,ELF4CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679340,ELF5CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679341,ELF10CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679342,ELF24CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679343,ELF29CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679344,ELF30CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679345,ELF48CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679346,ELF71CL,"human endobronchial lining fluid, contralateral site, squamous cell carcinoma",contralateral site,squamous cell carcinoma,,,,,,,,
+-,GSM679347,ELF3CL,"human endobronchial lining fluid, contralateral site, large cell lung carcinoma",contralateral site,large cell lung carcinoma,,,,,,,,
+-,GSM679348,ELF17CL,"human endobronchial lining fluid, contralateral site, carcinoid",contralateral site,carcinoid,,,,,,,,
+-,GSM679349,ELF20CL,"human endobronchial lining fluid, contralateral site, large cell lung carcinoma",contralateral site,large cell lung carcinoma,,,,,,,,
+-,GSM679350,ELF42CL,"human endobronchial lining fluid, contralateral site, large cell lung carcinoma",contralateral site,large cell lung carcinoma,,,,,,,,
+-,GSM679351,ELF43CL,"human endobronchial lining fluid, contralateral site, large cell lung carcinoma",contralateral site,large cell lung carcinoma,,,,,,,,
+-,GSM679352,ELF72CL,"human endobronchial lining fluid, contralateral site, NSCLC",contralateral site,NSCLC,,,,,,,,
+-,GSM679353,ELF2CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679354,ELF11CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679355,ELF13CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679356,ELF14CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679357,ELF26CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679358,ELF37CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679359,ELF40CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679360,ELF50CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679361,ELF55CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679362,ELF57CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679363,ELF62CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679364,ELF66CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679365,ELF67CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679366,ELF68CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,
+-,GSM679367,ELF74CL,"human endobronchial lining fluid, contralateral site, benign",contralateral site,benign,,,,,,,,

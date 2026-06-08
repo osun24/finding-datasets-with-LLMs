@@ -1,0 +1,27 @@
+# TITLE: Endothelial stromal cells enhance lung-tumor cell migration through TNFα and SDF-1α secretion
+# SUMMARY: Recent studies have noted the tumor-stroma interaction as an integral part of tumor growth and spread as well as novel avenues for effective treatment. However, the details by which tumor and stroma cells communicate remain poorly understood. Here we show that the migration speed of the non-small-cell lung tumor cell line H838 is significantly increased under the influence of human pulmonary endothelial cells, HPAEC, in a transfilter co-culture system. To elucidate the effect of cell communication on the increased tumor cell migration, we record the H838 transcriptome response after the induction of migration in a hetero- and homogenous co-culture conditions. Gene Set enrichment analysis indicates a migration response of H838 in heterogenous co-culture system. Moreover, computationally transcription factor analysis relates the specific gene expression response to the cytokine-induced up-stream receptor activity and subsequently linking these factors to the upstream receptors via shortest paths across a directed protein-protein interaction network. This analysis predicted TNF- and SDF-1 signaling as well as multiple receptors upstream of Stat3 as putative mediators of the transcriptome response. To close the signaling information path from transcription factors to the possible receptor activation, we determine secretome quantification using a cytokine array. The latter revealed the predicted TNFa, SDF-1a signaling molecules as well as other known migration cytokines, like IL8 and IL6, as possible candidates for increased migration. Addition through the recombinant proteins or respected inhibitions reveal TNFa as well as SDF-1a as an immediate and early-late secreted factors that cause the increase in H838 migration. Interestingly, both factors were not regulated on the gene level of the H838 in heterogenous co-culture conditions, consequential HPAEC produce TNFa and SDF1a as shown by qPCR technique. Concluding, our combined computational and experimental approach revealed a holistic overview on the migration enhancement of lung tumor cells due to endothelial derived factors. Increase in migration is caused by an early TNFa induced inflammation response followed by a SDF-1a activity to sustaining the phenotype of migration. This tumor-endothelial-communication give a new insight for tumor migration.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Treatment,GPL10558_Cell line 1,GPL10558_Time,GPL10558_Cell line 2,GPL10558_Co-culture,GPL10558_Tissue
+-,GSM1032077,H838 HPAEC 0h unscratched Rep1,Lung,unscratched,H838,0h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032078,H838 HPAEC 30min scratched,Lung,scratched,H838,0.5h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032079,H838 HPAEC 1h scratched,Lung,scratched,H838,1h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032080,H838 HPAEC 2h scratched,Lung,scratched,H838,2h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032081,H838 HPAEC 3h scratched,Lung,scratched,H838,3h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032082,H838 HPAEC 4h scratched,Lung,scratched,H838,4h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032083,H838 HPAEC 5h scratched,Lung,scratched,H838,5h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032084,H838 HPAEC 10h scratched,Lung,scratched,H838,10h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032085,H838 HPAEC 15h scratched,Lung,scratched,H838,15h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032086,H838 HPAEC 24h scratched Rep1,Lung,scratched,H838,24h,HPAEC,H838 with HPAEC,Lung
+-,GSM1032087,H838 H838 0h unscratched Rep1,Lung,unscratched,H838,0h,H838,H838 with H838,Lung
+-,GSM1032088,H838 H838 30min scratched,Lung,scratched,H838,0.5h,H838,H838 with H838,Lung
+-,GSM1032089,H838 H838 1h scratched,Lung,scratched,H838,1h,H838,H838 with H838,Lung
+-,GSM1032090,H838 H838 2h scratched,Lung,scratched,H838,2h,H838,H838 with H838,Lung
+-,GSM1032091,H838 H838 3h scratched,Lung,scratched,H838,3h,H838,H838 with H838,Lung
+-,GSM1032092,H838 H838 4h scratched,Lung,scratched,H838,4h,H838,H838 with H838,Lung
+-,GSM1032093,H838 H838 5h scratched,Lung,scratched,H838,5h,H838,H838 with H838,Lung
+-,GSM1032094,H838 H838 10h scratched,Lung,scratched,H838,10h,H838,H838 with H838,Lung
+-,GSM1032095,H838 H838 15h scratched,Lung,scratched,H838,15h,H838,H838 with H838,Lung
+-,GSM1032096,H838 H838 24h scratched Rep1,Lung,scratched,H838,24h,H838,H838 with H838,Lung
+-,GSM1032097,H838 HPAEC 0h unscratched Rep2,Lung,unscratched,H838,0h,H838,H838 with HPAEC,Lung
+-,GSM1032098,H838 HPAEC 24h scratched Rep2,Lung,scratched,H838,24h,H838,H838 with HPAEC,Lung
+-,GSM1032099,H838 H838 0h unscratched Rep2,Lung,unscratched,H838,0h,H838,H838 with H838,Lung
+-,GSM1032100,H838 H838 24h scratched Rep2,Lung,scratched,H838,24h,H838,H838 with H838,Lung

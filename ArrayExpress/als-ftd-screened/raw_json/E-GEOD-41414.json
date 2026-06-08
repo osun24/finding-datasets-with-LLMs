@@ -1,0 +1,1205 @@
+{
+  "accno": "E-GEOD-41414",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Gene expression analysis of ALS skeletal muscle"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2013-02-28"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-41414"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-41414",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Gene expression analysis of ALS skeletal muscle"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Objective: to focus on the molecular mechanisms involved in the ALS related atrophy process that leads to selective wasting  muscles . Design:  gene expression profiling and real time PCR were performed on muscle biopsies"
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE41414"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE41414-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE41414-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF =  VALUE = log2 RMA normalized signal intensity"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE41414-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE41414-5"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G2500A."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE41414-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE41414-4"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Following fragmentation, 10 microg of cRNA were hybridized for 16 hr at 45C on HG 133A Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE41414-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE41414-2"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Trizol extraction of total RNA was performed according to the manufacturer's instructions. Tot RNA was further purified using the RNAeasy mini purification kit (QIAGEN) according to the RNA cleanup protocol"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE41414-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE41414-3"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 5 microg total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE41414-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE41414-6"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "The data were analyzed with oneChannelGui using rma as probeset summarization algoritm"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "camilla bernardini"
+          },
+          {
+            "name": "Email",
+            "value": "camilla.bernardini@rm.unicatt.it"
+          },
+          {
+            "name": "Phone",
+            "value": "+390630154711"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "C Bernardini"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "E Ricci"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "UCSC"
+          },
+          {
+            "name": "Address",
+            "value": "Human Anatomy, UCSC, L.go F.Vito 1, Rome, Italy"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "23469062",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Mitochondrial network genes in the skeletal muscle of amyotrophic lateral sclerosis patients."
+          },
+          {
+            "name": "Authors",
+            "value": "Bernardini C, Censi F, Lattanzi W, Barba M, Calcagnini G, Giuliani A, Tasca G, Sabatelli M, Ricci E, Michetti F"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1371/journal.pone.0057739"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1371/journal.pone.0057739"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-41414",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "14"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "Sex"
+              }
+            ],
+            "value": "SEX"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease status"
+              }
+            ],
+            "value": "DISEASE STATUS"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "organism part"
+              }
+            ],
+            "value": "ORGANISM PART"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-41414",
+            "attributes": [
+              {
+                "name": "Disease status",
+                "value": "control"
+              },
+              {
+                "name": "Disease status",
+                "value": "ALS"
+              },
+              {
+                "name": "Organism part",
+                "value": "deltoid"
+              },
+              {
+                "name": "Organism part",
+                "value": "quadriceps"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "DISEASE STATUS",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "ORGANISM PART",
+                      "value": "quadriceps"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016782_a14.CEL\" OR \"GSM1016773_a8.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "DISEASE STATUS",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "ORGANISM PART",
+                      "value": "deltoid"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016780_a13.CEL\" OR \"GSM1016775_a10.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "DISEASE STATUS",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "ORGANISM PART",
+                      "value": "deltoid"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016778_a12.CEL\" OR \"GSM1016777_a11.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "DISEASE STATUS",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "ORGANISM PART",
+                      "value": "quadriceps"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016774_a9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "DISEASE STATUS",
+                      "value": "control"
+                    },
+                    {
+                      "name": "ORGANISM PART",
+                      "value": "deltoid"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016772_c7.CEL\" OR \"GSM1016768_c3.CEL\" OR \"GSM1016767_c2.CEL\" OR \"GSM1016766_c1.CEL\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "DISEASE STATUS",
+                      "value": "control"
+                    },
+                    {
+                      "name": "ORGANISM PART",
+                      "value": "deltoid"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016771_c6.CEL\" OR \"GSM1016770_c5.CEL\" OR \"GSM1016769_c4.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-41414",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Disease status",
+                "value": "control"
+              },
+              {
+                "name": "Disease status",
+                "value": "ALS"
+              },
+              {
+                "name": "Organism part",
+                "value": "deltoid"
+              },
+              {
+                "name": "Organism part",
+                "value": "quadriceps"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease status",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "organism part",
+                      "value": "quadriceps"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016782_a14.CEL\" OR \"GSM1016773_a8.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease status",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "organism part",
+                      "value": "deltoid"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016780_a13.CEL\" OR \"GSM1016775_a10.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease status",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "organism part",
+                      "value": "deltoid"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016778_a12.CEL\" OR \"GSM1016777_a11.CEL\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease status",
+                      "value": "ALS"
+                    },
+                    {
+                      "name": "organism part",
+                      "value": "quadriceps"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016774_a9.CEL\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "disease status",
+                      "value": "control"
+                    },
+                    {
+                      "name": "organism part",
+                      "value": "deltoid"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016772_c7.CEL\" OR \"GSM1016768_c3.CEL\" OR \"GSM1016767_c2.CEL\" OR \"GSM1016766_c1.CEL\""
+                        }
+                      ],
+                      "value": "4"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "Sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "disease status",
+                      "value": "control"
+                    },
+                    {
+                      "name": "organism part",
+                      "value": "deltoid"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1016771_c6.CEL\" OR \"GSM1016770_c5.CEL\" OR \"GSM1016769_c4.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-41414",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "14"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016782 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016782_a14.CEL",
+                  "size": 4892259,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016780 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016780_a13.CEL",
+                  "size": 4923453,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016778 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016778_a12.CEL",
+                  "size": 4925618,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016777 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016777_a11.CEL",
+                  "size": 4894015,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016775 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016775_a10.CEL",
+                  "size": 4925764,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016774 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016774_a9.CEL",
+                  "size": 4890906,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016773 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016773_a8.CEL",
+                  "size": 4980681,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016772 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016772_c7.CEL",
+                  "size": 4969478,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016771 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016771_c6.CEL",
+                  "size": 4861179,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016770 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016770_c5.CEL",
+                  "size": 4887274,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016769 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016769_c4.CEL",
+                  "size": 4919310,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016768 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016768_c3.CEL",
+                  "size": 4908229,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016767 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016767_c2.CEL",
+                  "size": 4890928,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1016766 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM1016766_c1.CEL",
+                  "size": 4884784,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016774_sample_table.txt",
+                  "size": 200128,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016767_sample_table.txt",
+                  "size": 200086,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016773_sample_table.txt",
+                  "size": 200107,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016772_sample_table.txt",
+                  "size": 200129,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016780_sample_table.txt",
+                  "size": 200166,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016766_sample_table.txt",
+                  "size": 200156,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016769_sample_table.txt",
+                  "size": 200103,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016775_sample_table.txt",
+                  "size": 200075,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016770_sample_table.txt",
+                  "size": 200087,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016778_sample_table.txt",
+                  "size": 200104,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016782_sample_table.txt",
+                  "size": 200160,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016777_sample_table.txt",
+                  "size": 200056,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016771_sample_table.txt",
+                  "size": 200038,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1016768_sample_table.txt",
+                  "size": 200087,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-41414",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-41414.idf.txt",
+                  "size": 2625,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-41414.sdrf.txt",
+                  "size": 14127,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-41414",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-41"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-41414",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

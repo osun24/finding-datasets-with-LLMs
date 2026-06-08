@@ -1,0 +1,36 @@
+Accession: E-MTAB-656
+Source list: alzheimer-screened
+Title: Alternative splicing in human temporal cortex
+Study type: transcription profiling by array
+Description: We analysed changes in transcript levels and alternative splicing in the temporal cortex of individuals of different ages that were cognitively normal, affected by frontotemporal lobar degeneration (FTLD), or affected by Alzheimer's disease (AD). Our experiment's purpose is to provide new insights into the gene expression changes that distinguish healthy aging from neurodegeneration and identify the candidate regulators of alternative splicing that are associated with both processes.
+Sample count: 25
+Assay count: Not found
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: disease_state_design, clinical_history_design, co-expression_design, transcript_identification_design
+  Experimental Factors:
+    Experimental Factors: DISEASESTATE, AGE
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: middle temporal gyrus
+    Disease: Alzheimer's disease, normal, Frontotemporal lobar degeneration
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Diseasestate: Alzheimer's disease, normal, Frontotemporal lobar degeneration
+      DISEASESTATE: normal, Frontotemporal lobar degeneration, Alzheimer's disease
+      DiseaseState: normal, Frontotemporal lobar degeneration, Alzheimer's disease
+    Cell type/line:
+      Not found
+    Clinical/familial:
+      Clinicalhistory: sporadic FTLD-TDP, Familial FTLD-TDP with PGRN mutations, cognitively normal, Alzheimer's disease, Familial FTLD with MAPT mutations
+      ClinicalHistory: cognitively normal, Familial FTLD with MAPT mutations, sporadic FTLD-TDP, Familial FTLD-TDP with PGRN mutations, Alzheimer's disease
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

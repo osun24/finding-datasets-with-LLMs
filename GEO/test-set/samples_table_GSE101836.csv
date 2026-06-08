@@ -1,0 +1,9 @@
+# TITLE: The LncRNA MetaLnc9 is Transcriptionally controlled by NONO/CRTC Complex and Facilitates Lung Cancer Metastasis through PGK1-Activated AKT/mTOR Pathway
+# SUMMARY: We discovered that elevated LINC00963, termed MetaLnc9 (Metastasis Associated LncRNA in chromosome 9q34), expression in NSCLC tissues correlated with poor prognosis and promoted NSCLC cell migration and invasion in vitro and lung metastasis formation in vivo
+GPL17843_Group,GPL17843_Accession,GPL17843_Title,GPL17843_Source name,GPL17843_Cell line,GPL17843_Cell type,GPL17843_Cell phenotype
+-,GSM2716957,SPC-A-1_rep1,SPC-A-1 cell line,SPC-A-1,non-small cell lung cancer (NSCLC) cell line,weakly metastatic
+-,GSM2716958,SPC-A-1_rep2,SPC-A-1 cell line,SPC-A-1,non-small cell lung cancer (NSCLC) cell line,weakly metastatic
+-,GSM2716959,SPC-A-1_rep3,SPC-A-1 cell line,SPC-A-1,non-small cell lung cancer (NSCLC) cell line,weakly metastatic
+-,GSM2716960,SPC_A-1sci_rep1,SPC-A-1sci cell line,SPC-A-1sci,non-small cell lung cancer (NSCLC) cell line,highly metastatic
+-,GSM2716961,SPC_A-1sci_rep2,SPC-A-1sci cell line,SPC-A-1sci,non-small cell lung cancer (NSCLC) cell line,highly metastatic
+-,GSM2716962,SPC_A-1sci_rep3,SPC-A-1sci cell line,SPC-A-1sci,non-small cell lung cancer (NSCLC) cell line,highly metastatic

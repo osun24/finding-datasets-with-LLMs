@@ -1,0 +1,49 @@
+# TITLE: Targeting Taxane-Platin Resistant Lung Cancers with JumonjiC Lysine Demethylase Inhibitors
+# SUMMARY: While taxane-platin standard chemotherapy provides benefit in advanced and localized non-small cell lung cancer (NSCLC), the majority of patients relapse with drug resistant tumors. Mechanisms underlying NSCLC resistance to this standard doublet chemotherapy are still not fully understood, and treatment options for chemoresistant lung tumors are limited. The goals of this work were to establish new preclinical NSCLC models of resistance to taxane-platin doublet chemotherapy, identify mechanisms of resistance, and develop new rational pharmacologic approaches to target drug resistant NSCLCs.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Treatment,GPL10558_Histology,GPL10558_Age,GPL10558_Gender,GPL10558_Race,GPL10558_Smoker,GPL10558_Pack-years
+-,GSM2046026,H1299_rep1,H1299_rep1,Untreated,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046027,H1299_T5_rep1,H1299_T5_rep1,5 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046028,H1299_T10_rep1,H1299_T10_rep1,10 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046029,H1355_rep1,H1355_rep1,Untreated,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046030,H1355_T4_rep1,H1355_T4_rep1,4 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046031,H1355_T8_rep1,H1355_T8_rep1,8 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046032,H1299_rep2,H1299_rep2,Untreated,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046033,H1299_T5_rep2,H1299_T5_rep2,5 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046034,H1299_T10_rep2,H1299_T10_rep2,10 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046035,H1355_rep2,H1355_rep2,Untreated,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046036,H1355_T4_rep2,H1355_T4_rep2,4 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046037,H1355_T8_rep2,H1355_T8_rep2,8 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046038,H1299_T15_rep1,H1299_T15_rep1,15 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046039,H1355_T13_rep1,H1355_T13_rep1,13 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046040,H1299_T15_rep2,H1299_T15_rep2,15 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046041,H1355_T13_rep2,H1355_T13_rep2,13 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046042,H1299_rep3,H1299_rep3,Untreated,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046043,H1299_rep4,H1299_rep4,Untreated,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046044,H1299_rep5,H1299_rep5,Untreated,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046045,H1299_T18_rep1,H1299_T18_rep1,18 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046046,H1299_T18_rep2,H1299_T18_rep2,18 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046047,H1299_T18_rep3,H1299_T18_rep3,18 cycles of paclitaxel+carboplatin,Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046048,H1355_rep3,H1355_rep3,Untreated,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046049,H1355_rep4,H1355_rep4,Untreated,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046050,H1355_rep5,H1355_rep5,Untreated,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046051,H1355_T16_rep1,H1355_T16_rep1,16 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046052,H1355_T16_rep2,H1355_T16_rep2,16 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046053,H1355_T16_rep3,H1355_T16_rep3,16 cycles of paclitaxel+carboplatin,Adenocarcinoma,53,M,Caucasian,Smoker,100
+-,GSM2046054,H1299_Xenograft_rep1,H1299_Xenograft_rep1,"H1299 mouse xenograft, untreated",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046055,H1299_Xenograft_rep2,H1299_Xenograft_rep2,"H1299 mouse xenograft, untreated",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046056,H1299_Xenograft_rep3,H1299_Xenograft_rep3,"H1299 mouse xenograft, untreated",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046057,H1299_T18_Xenograft_rep1,H1299_T18_Xenograft_rep1,"H1299_T18 mouse xenograft, untreated",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046058,H1299_T18_Xenograft_rep2,H1299_T18_Xenograft_rep2,"H1299_T18 mouse xenograft, untreated",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046059,H1299_T18_Xenograft_rep3,H1299_T18_Xenograft_rep3,"H1299_T18 mouse xenograft, untreated",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046060,H1299_DMSO_rep1,H1299_DMSO_rep1,"DMSO control, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046061,H1299_GSK-J4_rep1,H1299_GSK-J4_rep1,"1 µM GSK-J4, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046062,H1299_JIB-04_rep1,H1299_JIB-04_rep1,"0.2 µM JIB-04, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046063,H1299_T18_DMSO_rep1,H1299_T18_DMSO_rep1,"DMSO control, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046064,H1299_T18_GSK-J4_rep1,H1299_T18_GSK-J4_rep1,"1 µM GSK-J4, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046065,H1299_T18_JIB-04_rep1,H1299_T18_JIB-04_rep1,"0.2 µM JIB-04, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046066,H1299_DMSO_rep2,H1299_DMSO_rep2,"DMSO control, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046067,H1299_GSK-J4_rep2,H1299_GSK-J4_rep2,"1 µM GSK-J4, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046068,H1299_JIB-04_rep2,H1299_JIB-04_rep2,"0.2 µM JIB-04, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046069,H1299_T18_DMSO_rep2,H1299_T18_DMSO_rep2,"DMSO control, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046070,H1299_T18_GSK-J4_rep2,H1299_T18_GSK-J4_rep2,"1 µM GSK-J4, 24 h",Large Cell,43,M,Caucasian,Smoker,50
+-,GSM2046071,H1299_T18_JIB-04_rep2,H1299_T18_JIB-04_rep2,"0.2 µM JIB-04, 24 h",Large Cell,43,M,Caucasian,Smoker,50

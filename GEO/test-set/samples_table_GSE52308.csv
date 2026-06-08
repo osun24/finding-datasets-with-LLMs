@@ -1,0 +1,9 @@
+# TITLE: Expression data from H358
+# SUMMARY: Tumors that show evidence of epithelial to mesenchymal transition (EMT) have been associated with metastasis, drug resistance, and poor prognosis. EMT may alter the molecular requirements for growth and survival in different contexts, but the underlying mechanisms remain incomplete. Given the heterogeneity along the EMT spectrum between and within tumors it is important to define the requirements for growth and survival in cells with an epithelial or mesenchymal phenotype to maximize therapeutic efficacy. We have established an inducible cell line model in which a tamoxifen regulatable Twist-ER fusion protein is stably expressed in the H358 non-small cell lung cancer cell line. Upon tamoxifen addition, cells undergo EMT and provide a system in which we can compare the growth and survival requirements directly related to EMT, removing confounding factors present when comparing different cell lines.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Cell type,GPL6244_Cell line,GPL6244_Treatment
+-,GSM1262706,"before EMT, biological rep1",Cells expressing GFP treated with 4OHT,NSCLC cell line,H358,GFP
+-,GSM1262707,"before EMT, biological rep2",Cells expressing GFP treated with 4OHT,NSCLC cell line,H358,GFP
+-,GSM1262708,"before EMT, biological rep3",Cells expressing GFP treated with 4OHT,NSCLC cell line,H358,GFP
+-,GSM1262709,"after EMT, biological rep1",Cells expressing TwistER treated with 4OHT,NSCLC cell line,H358,TwistER
+-,GSM1262710,"after EMT, biological rep2",Cells expressing TwistER treated with 4OHT,NSCLC cell line,H358,TwistER
+-,GSM1262711,"after EMT, biological rep3",Cells expressing TwistER treated with 4OHT,NSCLC cell line,H358,TwistER

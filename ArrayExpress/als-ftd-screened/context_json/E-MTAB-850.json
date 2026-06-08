@@ -1,0 +1,93 @@
+{
+  "Accession": "E-MTAB-850",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "32"
+    ]
+  },
+  "Description": "In this study, we set the presence of smooth muscle actin (SMA)-positive cancer-associated fibroblasts (CAFs) in relation to galectin-1 and its in vivo competitor (galectin-3). In squamous cell carcinomas of head and neck, upregulation of galectin-1 presence is highly significantly correlated to presence of smooth muscle actin-positive cancer-associated fibroblasts in the tumor. In order to pinpoint correlations on the molecular level, we applied microarray analyses to the transcription profiles of the corresponding tumors. Significant correlations of several transcripts were detected with the protein level of galectin-1 in the cancer-associated fibroblasts.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {},
+      "Disease state/staging": {
+        "DiseaseStaging": [
+          "NA",
+          "II",
+          "IV",
+          "III",
+          "I"
+        ],
+        "DiseaseState": [
+          "normal",
+          "tumour"
+        ],
+        "Diseasestaging": [
+          "I",
+          "NA",
+          "II",
+          "IV",
+          "III"
+        ],
+        "Diseasestate": [
+          "tumour",
+          "normal"
+        ]
+      },
+      "Quality controls": {
+        "Quality Controls": [
+          "biological_replicate",
+          "technical_replicate"
+        ]
+      },
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "in_vivo_design",
+        "co-expression_design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "Galectin_1_abundance_in_CAF",
+        "SMA_Positive_CAF",
+        "DiseaseState"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "tumour",
+        "normal",
+        "I",
+        "NA",
+        "II",
+        "IV",
+        "III"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "oropharynx",
+        "larynx",
+        "tonsil",
+        "oral cavity"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcriptional profiling by array of human head and neck squamous cell carcinoma to study the correlation between galectin-1 upregulation and the presence of SMA positive cancer-associated fibroblasts"
+}

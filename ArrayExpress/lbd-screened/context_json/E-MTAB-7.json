@@ -1,0 +1,59 @@
+{
+  "Accession": "E-MTAB-7",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [],
+    "Sample count": [
+      "51"
+    ]
+  },
+  "Description": "A cell line comparison experiment for breat cancer 51 cancer cell lines",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {
+        "Cellline": [
+          "HS578T",
+          "SUM52PE",
+          "HCC3153",
+          "... 48 other values"
+        ]
+      },
+      "Clinical/familial": {},
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "in_vitro_design",
+        "cell_type_comparison_design",
+        "co-expression_design",
+        "transcription profiling by array"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "CELLLINE"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": []
+    }
+  },
+  "Source list": "lbd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Transcription profiling of 51 human breast cancer cell lines"
+}

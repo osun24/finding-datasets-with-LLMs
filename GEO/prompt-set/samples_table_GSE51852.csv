@@ -1,0 +1,56 @@
+# TITLE: Lung adenocarcinoma subtypes definable by lung development-related miRNA expression profiles in association with clinicopathologic features [mRNA analysis - Whole Human Genome 4 x 44K Microarray]
+# SUMMARY: Accumulation of genetic and epigenetic changes alters regulation of a web of interconnected genes including miRNAs, which confer hallmark capabilities and characteristic cancer features. In this study, the miRNA and mRNA expression profiles of 126 non-small cell lung cancer specimens were analyzed, with special attention given to the diversity of lung adenocarcinomas. Of those, 76 adenocarcinomas were classified into two major subtypes, developing lung-like and adult lung-like, based on their distinctive miRNA expression profiles resembling those of either developing or adult lungs, respectively. A systems biology-based approach using a Bayesian network and nonparametric regression was employed to estimate the gene regulatory circuitry functioning in patient tumors in order to identify subnetworks enriched for genes with differential expression between the two major subtypes. miR-30d and miR-195, identified as hub genes in such subnetworks, had lower levels of expression in the developing lung-like subtype, while introduction of miR-30d or miR-195 into the lung cancer cell lines evoked shifts of mRNA expression profiles towards the adult lung-like subtype. Conversely, the influence of miR-30d and miR-195 was significantly different between the developing lung- and adult lung-like subtypes in our analysis of the patient dataset. In addition, RRM2, a child gene of the miR-30d-centered subnetwork, was found to be a direct target of miR-30d. Together, our findings reveal the existence of two miRNA expression profile-defined lung adenocarcinoma subtypes with distinctive clinicopathologic features and also suggest the usefulness of a systems biology-based approach to gain insight into the altered regulatory circuitry involved in cancer development.
+GPL6480_Group,GPL6480_Accession,GPL6480_Title,GPL6480_Source name 1,GPL6480_Source name 2,GPL6480_Tissue type (Ch1),GPL6480_Histology (Ch1),GPL6480_Cell line (Ch2)
+-,GSM1253891,adenosquamous carcinoma 001,Primary lung tumor,20CL,Primary lung tumor,AS,mixture of 20 cell ines
+-,GSM1253892,adenosquamous carcinoma 002,Primary lung tumor,20CL,Primary lung tumor,AS,mixture of 20 cell ines
+-,GSM1253893,adenosquamous carcinoma 003,Primary lung tumor,20CL,Primary lung tumor,AS,mixture of 20 cell ines
+-,GSM1253894,adenosquamous carcinoma 004,Primary lung tumor,20CL,Primary lung tumor,AS,mixture of 20 cell ines
+-,GSM1253895,Large cell carcinoma 001,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253896,Large cell carcinoma 004,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253897,Large cell carcinoma 005,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253898,Large cell carcinoma 006,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253899,Large cell carcinoma 007,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253900,Large cell carcinoma 008,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253901,Large cell carcinoma 009,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253902,Large cell carcinoma 010,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253903,Large cell carcinoma 011,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253904,Large cell carcinoma 012,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253905,Large cell carcinoma 013,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253906,Large cell carcinoma 015,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253907,Large cell carcinoma 016,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253908,Large cell carcinoma 017,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253909,Large cell carcinoma 018,Primary lung tumor,20CL,Primary lung tumor,LA,mixture of 20 cell ines
+-,GSM1253910,Large cell neuroendocrine carcinoma 001,Primary lung tumor,20CL,Primary lung tumor,LCNEC,mixture of 20 cell ines
+-,GSM1253911,Large cell neuroendocrine carcinoma 002,Primary lung tumor,20CL,Primary lung tumor,LCNEC,mixture of 20 cell ines
+-,GSM1253912,Squamous cell carcinoma 004,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253913,Squamous cell carcinoma 006,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253914,Squamous cell carcinoma 007,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253915,Squamous cell carcinoma 008,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253916,Squamous cell carcinoma 009,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253917,Squamous cell carcinoma 010,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253918,Squamous cell carcinoma 011,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253919,Squamous cell carcinoma 013,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253920,Squamous cell carcinoma 014,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253921,Squamous cell carcinoma 015,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253922,Squamous cell carcinoma 016,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253923,Squamous cell carcinoma 017,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253924,Squamous cell carcinoma 018,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253925,Squamous cell carcinoma 019,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253926,Squamous cell carcinoma 020,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253927,Squamous cell carcinoma 021,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253928,Squamous cell carcinoma 022,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253929,Squamous cell carcinoma 023,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253930,Squamous cell carcinoma 024,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253931,Squamous cell carcinoma 025,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253932,Squamous cell carcinoma 026,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253933,Squamous cell carcinoma 028,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253934,Squamous cell carcinoma 029,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253935,Squamous cell carcinoma 030,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253936,Squamous cell carcinoma 031,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253937,Squamous cell carcinoma 032,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253938,Squamous cell carcinoma 033,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253939,Squamous cell carcinoma 035,Primary lung tumor,20CL,Primary lung tumor,SQ,mixture of 20 cell ines
+-,GSM1253940,RNA mix 1 of nomarl lungs,Normal lung,20CL,Normal lung,Normal lung,mixture of 20 cell ines
+-,GSM1253941,RNA mix 2 of nomarl lungs,Normal lung,20CL,Normal lung,Normal lung,mixture of 20 cell ines
+-,GSM1253942,RNA mix 3 of nomarl lungs,Normal lung,20CL,Normal lung,Normal lung,mixture of 20 cell ines
+-,GSM1253943,RNA mix 5 of nomarl lungs,Normal lung,20CL,Normal lung,Normal lung,mixture of 20 cell ines

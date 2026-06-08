@@ -1,0 +1,2 @@
+Title: Integrated proteomics and metabolomics analysis reveals impaired glucose metabolism and oxidative phosphorylation in visceral adipose tissue of women with polycystic ovary syndrome
+Description: This project use the Isotope-labeled relative and absolute quantitative TMT (Tandem Mass Tag) technology, a peptide in vitro labeling technology developed by Thermo Fisher Scientific to identify the protein levels in visceral adipose tissue of women with polycystic ovary syndrome and control.

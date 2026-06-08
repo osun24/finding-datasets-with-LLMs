@@ -1,0 +1,2 @@
+Title: Proteomic analysis of gynecologic cancer tissue
+Description: Using iTRAQ technology, we performed shotgun proteomics of gynecological cancer tissues, which tumor cells were captured by laser microdissection to identify biomarker candidate proteins, for gynecological cancer.

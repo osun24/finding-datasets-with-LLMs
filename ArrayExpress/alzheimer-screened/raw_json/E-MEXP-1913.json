@@ -1,0 +1,1088 @@
+{
+  "accno": "E-MEXP-1913",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Transcription profiling of human neuroblastoma cell line SH-SY5Y transfected to produce phenotypes with low, medium or high levels of beta-amyloid peptides with 40 or 42 amino acids"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2009-06-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MEXP-1913"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MEXP-1913",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Transcription profiling of human neuroblastoma cell line SH-SY5Y transfected to produce phenotypes with low, medium or high levels of beta-amyloid peptides with 40 or 42 amino acids"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Alzheimer's disease (AD) is characterized by massive neurodegeneration and multiple changes in cellular processes, including neurogenesis. Proteolytic processing of the amyloid precursor protein (APP) plays a central role in AD. Due to varying APP processing, several beta-amyloid peptides are generated. In contrast to the form with 40 amino acids, the variant with 42 amino acids is thought to be the pathogenic form triggering the pathophysiological cascade in AD. Here, we studied the transcriptomic response to increased or decreased Abeta42 levels generated in human neuroblastoma cells. Genome-wide expression profiles (Affymetrix)were used to analyze the cellular response to the changed Abeta42 and Abeta40-levels. <br><br>Human neuroblastoma cell line SH-SY5Y is a thrice cloned (SK-N-SH -> SH-SY -> SH-SY5 -> SH-SY5Y) subline of the neuroblastoma cell line SK-N-SH which was isolated and established in 1970. This cell line has 47 chromosomes. The cells possess a unique marker comprised of a chromosome 1 with a complex insertion of an additional copy of a 1q segment into the long arm, resulting in trisomy of 1q. The cell lines used in this study are SHSY5Y transfected with the constructs pCEP-C99I45F, pCEP-C99V50F, pCEP-C99 wildtype or mock transfected with an empty vector. Independent cell clones of each transfected line were used to provide biological replicates.<br> Overexpressed C99 I45F is intracellularly cleaved resulting in high Abeta42, but low Abeta40 levels.<br> Overexpressed C99V50F is intracellularly cleaved resulting in low Abeta42, but high Abeta40 levels.<br>Overexpressed C99 wildtype is intracellularly cleaved resulting in medium Abeta42 and Abeta40 levels<br>Mock is the SHSY5Y cell line transfected with the empty vector pCEP (Invitrogen) as a negative control"
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "gxa"
+            }
+          ],
+          "url": "E-MEXP-1913"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-2362",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-2362"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Whole genome oligonucleotide microarray analysis (Gene Chips®, Affymetrix). Gene Chip analysis was performed according to the instructions of the Expression Analysis Technical Manual (Affymetrix) with minor modifications:<br><br>Total RNA preparation from cultured cells. Total RNA was extracted using the Qiashredder-Kit, RNeasy Midi-columns and the RNase-free DNase set (all from Qiagen). Human neuroblastoma cells (SH-SY5Y) were grown in one to six 10 cm cell culture dishes until they reached 70% confluency. The cells were then lysed according to the manufacturers recommendations and total-RNA was extracted using RNeasy Midi-columns. Remaining DNA was digested directly on the columns by using the RNase-free DNase set. Total-RNA was eluted with 250-500 µl RNase-free water. 20 µg total-RNA was precipitated by adding 10% (v/v) sodium-acetate (3 M, pH 5.2) and 2.5 volumes of absolute ethanol. The remaining precipitate was air-dried and dissolved in 9 µl of RNase-free water.<br><br><br><br>Reverse transcription of total RNA into cDNA by oligo(dT) primers. Total RNA was used to generate first-strand cDNA by using the SuperscriptTM Double-Stranded cDNA Synthesis Kit (Invitrogen). Briefly, 20 µg of total RNA was used to generate first-strand cDNA by using a T7-linked oligo(dT)24 primer: 5-GGCCAGTGAATTGTAATACGACTCACT<br><br>ATAGGGAGGCGG(dT)24 -3 (Proligo). After second-strand synthesis cDNA was purified using the GeneChip® Sample Clean up Module (Affymetrix) by following the manufacturers instructions. <br><br><br><br> <br><br><br>(Parameters: Extracted product = total_RNA, Amplification = none)"
+            },
+            {
+              "name": "Software"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-2393",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-2393"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "In vitro transcription of cDNA into cRNA. Purified cDNA was in vitro transcribed using the BioArrayTM High YieldTM RNA Labeling Kit (Enzo Life Sciences). 3.3 µl of purified cDNA was mixed with appropriate volumes of reaction buffer, biotin-labeled ribonucleotides, DTT, RNase inhibitor and T7 RNA polymerase in a total volume of 40 µl according to the manufacturers instructions. This mixture was incubated for 5 h at 37°C and purified using the GeneChip® Sample Clean up Module (Affymetrix) by following the manufacturers instructions.<br>(Parameters: Amplification = RNA polymerases, Mass unit = Micro gram)"
+            },
+            {
+              "name": "Software"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "Affymetrix:Protocol:Hybridization-Midi_Euk2v3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Affymetrix:Protocol:Hybridization-Midi_Euk2v3"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "mo"
+                }
+              ],
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "Title: Affymetrix Midi_Euk2v3 Hybridization. Description:"
+            },
+            {
+              "name": "Software",
+              "value": "MicroArraySuite 5.0"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-AFFY-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-AFFY-6"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Title: Affymetrix CEL analysis. Description:"
+            },
+            {
+              "name": "Software",
+              "value": "MicroArraySuite 5.0"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "Affymetrix:Protocol:ExpressionStat",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Affymetrix:Protocol:ExpressionStat"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology"
+                }
+              ],
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "Title: Affymetrix CHP Analysis (ExpressionStat). Description:"
+            },
+            {
+              "name": "Software",
+              "value": "MicroArraySuite 5.0"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Markus Uhrig"
+          },
+          {
+            "name": "Email",
+            "value": "markus.uhrig@web.de"
+          },
+          {
+            "name": "Phone",
+            "value": "0049 (0)1741752839"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "University of Heidelberg"
+          },
+          {
+            "name": "Address",
+            "value": "INF282, Heidelberg, Baden-Württemberg, 69120, Germany"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "19707560",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "New Alzheimer amyloid beta responsive genes identified in human neuroblastoma cells by hierarchical clustering."
+          },
+          {
+            "name": "Authors",
+            "value": "Uhrig M, Ittrich C, Wiedmann V, Knyazev Y, Weninger A, Riemenschneider M, Hartmann T."
+          },
+          {
+            "name": "DOI",
+            "value": "10.1371/journal.pone.0006779"
+          }
+        ],
+        "links": [
+          {
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "DOI"
+              }
+            ],
+            "url": "10.1371/journal.pone.0006779"
+          }
+        ],
+        "type": "Publication"
+      },
+      {
+        "accno": "s-samples-factors-E-MEXP-1913",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "12"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "transcript_identification_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "in_vitro_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "co-expression_design"
+          },
+          {
+            "name": "Experimental Designs",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "EFO"
+              }
+            ],
+            "value": "transcription profiling by array"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "phenotype"
+              }
+            ],
+            "value": "phenotype"
+          },
+          {
+            "name": "Quality Controls",
+            "valqual": [
+              {
+                "name": "TermId",
+                "value": "The MGED Ontology"
+              }
+            ],
+            "value": "biological_replicate"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MEXP-1913",
+            "attributes": [
+              {
+                "name": "Phenotype",
+                "value": "high Abeta42, low Abeta40 levels"
+              },
+              {
+                "name": "Phenotype",
+                "value": "low Abeta42, high Abeta40 levels"
+              },
+              {
+                "name": "Phenotype",
+                "value": "medium Abeta42 and Abeta40 levels"
+              },
+              {
+                "name": "Phenotype",
+                "value": "control"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "phenotype",
+                      "value": "control"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A133_mock_2_67_1._06.05.04.CEL\" OR \"B133_mock_2_67_2._01.07.04.CEL\" OR \"A133_mock_2_67_3._27.10.04.CEL\" OR \"B133_mock_2_67_1._07.05.04.CEL\" OR \"A133_mock_2_67_2._30.06.04.CEL\" OR \"B133_mock_2_67_3._28.10.04.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "phenotype",
+                      "value": "high Abeta42, low Abeta40 levels"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"B133_C99I45F_4-25a_28.10.04.CEL\" OR \"B133_C99I45F_4-17_07.05.04.CEL\" OR \"B133_C99I45F_4-13_01.07.04.CEL\" OR \"A133_C99I45F_4-17_06.05.04.CEL\" OR \"A133_C99I45F_4-25a_27.10.04.CEL\" OR \"A133_C99I45F_4-13_30.06.04.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "phenotype",
+                      "value": "low Abeta42, high Abeta40 levels"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A133_C99V50F_4-52_06.05.04.CEL\" OR \"A133_C99V50F_5-43_2.ansatz_30.06.04.CEL\" OR \"B133_C99V50F_5-43-2.-01.07.04.CEL\" OR \"B133_C99V50F_4-52_07.05.04.CEL\" OR \"B133_C99V50F_5-59a_28.10.04.CEL\" OR \"A133_C99V50F_5-59a_27.10.04.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "phenotype",
+                      "value": "medium Abeta42 and Abeta40 levels"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A133_C99wt_5-12_27.10.04.CEL\" OR \"B133_C99wt_5-12_28.10.04.CEL\" OR \"B133_C99wt_4-2_01.07.04.CEL\" OR \"B133_C99wt_5-23_07.05.04.CEL\" OR \"A133_C99wt_4-2_30.06.04.CEL\" OR \"A133_C99wt_5-23_06.05.04.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MEXP-1913",
+            "attributes": [
+              {
+                "name": "Genetic modification",
+                "value": "transfection"
+              },
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Cell line",
+                "value": "SH-SY5Y"
+              },
+              {
+                "name": "Genotype",
+                "value": "pCEP-C99 wildtype transfected"
+              },
+              {
+                "name": "Genotype",
+                "value": "pCEP-C99V50F transfected"
+              },
+              {
+                "name": "Genotype",
+                "value": "empty vector transfected"
+              },
+              {
+                "name": "Genotype",
+                "value": "pCEP-C99I45F transfected"
+              },
+              {
+                "name": "Phenotype",
+                "value": "high Abeta42, low Abeta40 levels"
+              },
+              {
+                "name": "Phenotype",
+                "value": "low Abeta42, high Abeta40 levels"
+              },
+              {
+                "name": "Phenotype",
+                "value": "medium Abeta42 and Abeta40 levels"
+              },
+              {
+                "name": "Phenotype",
+                "value": "control"
+              },
+              {
+                "name": "Individual",
+                "value": "mock 2-67_1"
+              },
+              {
+                "name": "Individual",
+                "value": "mock 2-67_2"
+              },
+              {
+                "name": "Individual",
+                "value": "mock 2-67_3"
+              },
+              {
+                "name": "Individual",
+                "value": "... 9 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "genotype",
+                      "value": "empty vector transfected"
+                    },
+                    {
+                      "name": "phenotype",
+                      "value": "control"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A133_mock_2_67_1._06.05.04.CEL\" OR \"B133_mock_2_67_2._01.07.04.CEL\" OR \"A133_mock_2_67_3._27.10.04.CEL\" OR \"B133_mock_2_67_1._07.05.04.CEL\" OR \"A133_mock_2_67_2._30.06.04.CEL\" OR \"B133_mock_2_67_3._28.10.04.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "genotype",
+                      "value": "pCEP-C99I45F transfected"
+                    },
+                    {
+                      "name": "phenotype",
+                      "value": "high Abeta42, low Abeta40 levels"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"B133_C99I45F_4-25a_28.10.04.CEL\" OR \"B133_C99I45F_4-17_07.05.04.CEL\" OR \"B133_C99I45F_4-13_01.07.04.CEL\" OR \"A133_C99I45F_4-17_06.05.04.CEL\" OR \"A133_C99I45F_4-25a_27.10.04.CEL\" OR \"A133_C99I45F_4-13_30.06.04.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "genotype",
+                      "value": "pCEP-C99V50F transfected"
+                    },
+                    {
+                      "name": "phenotype",
+                      "value": "low Abeta42, high Abeta40 levels"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A133_C99V50F_4-52_06.05.04.CEL\" OR \"A133_C99V50F_5-43_2.ansatz_30.06.04.CEL\" OR \"B133_C99V50F_5-43-2.-01.07.04.CEL\" OR \"B133_C99V50F_4-52_07.05.04.CEL\" OR \"B133_C99V50F_5-59a_28.10.04.CEL\" OR \"A133_C99V50F_5-59a_27.10.04.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "genotype",
+                      "value": "pCEP-C99 wildtype transfected"
+                    },
+                    {
+                      "name": "phenotype",
+                      "value": "medium Abeta42 and Abeta40 levels"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"A133_C99wt_5-12_27.10.04.CEL\" OR \"B133_C99wt_5-12_28.10.04.CEL\" OR \"B133_C99wt_4-2_01.07.04.CEL\" OR \"B133_C99wt_5-23_07.05.04.CEL\" OR \"A133_C99wt_4-2_30.06.04.CEL\" OR \"A133_C99wt_5-23_06.05.04.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MEXP-1913",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "mock 2-67_1. Negative control"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_mock_2_67_1._06.05.04.CEL",
+                  "size": 12100270,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "mock 2-67_2. Negative control"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_mock_2_67_2._01.07.04.CEL",
+                  "size": 11998946,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "mock 2-67_3. Negative control"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_mock_2_67_3._27.10.04.CEL",
+                  "size": 12095952,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "mock 2-67_1. Negative control"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_mock_2_67_1._07.05.04.CEL",
+                  "size": 11763759,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "mock 2-67_2. Negative control"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_mock_2_67_2._30.06.04.CEL",
+                  "size": 12239005,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "mock 2-67_3. Negative control"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_mock_2_67_3._28.10.04.CEL",
+                  "size": 11831319,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99I45F 4-25a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99I45F_4-25a_28.10.04.CEL",
+                  "size": 11888089,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99I45F 4-17"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99I45F_4-17_07.05.04.CEL",
+                  "size": 11690529,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99I45F 4-13"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99I45F_4-13_01.07.04.CEL",
+                  "size": 12028386,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99I45F 4-17"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99I45F_4-17_06.05.04.CEL",
+                  "size": 12041041,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99I45F 4-25a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99I45F_4-25a_27.10.04.CEL",
+                  "size": 12100543,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99I45F 4-13"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99I45F_4-13_30.06.04.CEL",
+                  "size": 12194766,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99V50F 4-52"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99V50F_4-52_06.05.04.CEL",
+                  "size": 12183623,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99V50F 5-43"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99V50F_5-43_2.ansatz_30.06.04.CEL",
+                  "size": 12157916,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99V50F 5-43"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99V50F_5-43-2.-01.07.04.CEL",
+                  "size": 12009481,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99V50F 4-52"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99V50F_4-52_07.05.04.CEL",
+                  "size": 12204667,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99V50F 5-59a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99V50F_5-59a_28.10.04.CEL",
+                  "size": 11844029,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99V50F 5-59a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99V50F_5-59a_27.10.04.CEL",
+                  "size": 12112151,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99WT 5-12"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99wt_5-12_27.10.04.CEL",
+                  "size": 12161252,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99WT 5-12"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99wt_5-12_28.10.04.CEL",
+                  "size": 11937427,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99WT 4-2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99wt_4-2_01.07.04.CEL",
+                  "size": 11963162,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99WT 5-23"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "B133_C99wt_5-23_07.05.04.CEL",
+                  "size": 11869008,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99WT 4-2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99wt_4-2_30.06.04.CEL",
+                  "size": 12185537,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "C99WT 5-23"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "A133_C99wt_5-23_06.05.04.CEL",
+                  "size": 12133039,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "mt-E-MEXP-1913",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MEXP-1913.idf.txt",
+                  "size": 7324,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MEXP-1913.sdrf.txt",
+                  "size": 18442,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MEXP-1913",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-33"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-AFFY-34"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MEXP-1913",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

@@ -1,0 +1,2 @@
+Title: Differential histone deacetylase inhibitor-induced perturbations of the global proteomic landscape in the setting of high-grade serous ovarian cancer
+Description: this project carried out a global mass spectrometry analysis in a panel of HGSOC cell lines analyzing proteomic perturbations following HDACi treatment

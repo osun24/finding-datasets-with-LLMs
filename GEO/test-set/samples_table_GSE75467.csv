@@ -1,0 +1,12 @@
+# TITLE: Establishment of Afatinib-Resistant Non-Small Cell Lung Cancer Cells Derived from Tumor Xenograft Model [Afatinib treatment]
+# SUMMARY: This experiment aimed to indentify signifcant expression genes in afatinib-resistant HCC827 cell lines under different treatment conditions. All the expression profiles of BR16-1 and BR16-2 cells were comapared to parental HCC827 cells.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Tissue,GPL10558_Cell line origin
+-,GSM1955571,Parental HCC827,parental cell,parental HCC827 NSCLC cell line,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955572,BR16-1(0),BR16-1 resistant cell_0,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955573,BR16-1(10),BR16-1 resistant cell_10,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955574,BR16-1(100),BR16-1 resistant cell_100,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955575,BR16-1(1000),BR16-1 resistant cell_1000,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955576,BR16-2(0),BR16-2 resistant cell_0,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955577,BR16-2(10),BR16-2 resistant cell_10,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955578,BR16-2(100),BR16-2 resistant cell_100,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female
+-,GSM1955579,BR16-2(1000),BR16-2 resistant cell_1000,xenograft tumors isolated from nude mice,Adenocarcinoma from lung of 38 year-old caucasian female

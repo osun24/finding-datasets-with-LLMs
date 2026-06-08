@@ -1,0 +1,7 @@
+# TITLE: Hypoxia and lymphatic endothelial cells
+# SUMMARY: Lymphatic endothelial cells were grown under normoxia, hypoxia (1% 0xygen) and conditioned medio from NSLCN growth under normoxia or hypoxia. Gene expression was measured and comparition between samples performed Keywords: Comparative genomic hybridization
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_RNA Pooled from 6 different individuals
+-,GSM130277,Lymphatic endothelial in normoxia,"Dermal microvascular cells, commercially available",
+-,GSM130278,Lymphatic endothelial cells upon hypoxia,"Dermal microvascular cells, commercially available",
+-,GSM130280,Lymphatic endothelial cells upon conditioned medium from NSCLC 24 h,"Dermal microvascular cells, commercially available",
+-,GSM130281,Lymphatic endothelial cells upon conditioned medium from NSCLC hypoxia 24 h,"Dermal microvascular cells, commercially available",

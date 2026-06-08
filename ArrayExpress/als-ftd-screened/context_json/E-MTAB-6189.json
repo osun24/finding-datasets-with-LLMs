@@ -1,0 +1,104 @@
+{
+  "Accession": "E-MTAB-6189",
+  "Assays and Data": {
+    "Assay by Molecule": [
+      "RNA assay"
+    ],
+    "Technology": [
+      "Array assay"
+    ]
+  },
+  "BioStudies section type": "Study",
+  "Counts": {
+    "Assay count": [
+      "30"
+    ],
+    "Sample count": [
+      "30"
+    ]
+  },
+  "Description": "RNA extracted from human frontal cortex area 8, the main area afected in FTLD, of controls (n=10), sporadic FTLD-TDP (sFTLD) (n=10) and C9ORF72-familial FTLD (fFTLD) (n=10) samples were analyzed using the Affymetrix Clariom™ D Assay, human (Affymetrix ref.902923). The present study identifies the main gene deregulation between sporadic forms of FTLD-TDP (sFTLD) and the major and most common genetic cause of FTLD, the C9ORF72 repeat expansion (fFTLD), when compare with control samples.",
+  "Samples": {
+    "Additional screening-relevant attributes": {
+      "Cell type/line": {},
+      "Clinical/familial": {
+        "Clinical information": [
+          "postmortem delay 05 h 00 min",
+          "postmortem delay 12 h 00 min",
+          "postmortem delay 16 h 00 min",
+          "postmortem delay 07 h 15 min",
+          "postmortem delay 05 h 20 min",
+          "postmortem delay 18 h 00 min",
+          "postmortem delay 06 h 40 min",
+          "postmortem delay 03 h 45 min",
+          "postmortem delay 11 h 00 min",
+          "postmortem delay 04 h 40 min",
+          "postmortem delay 08 h 05 min",
+          "postmortem delay 03 h 15 min",
+          "postmortem delay 11 h 30 min",
+          "postmortem delay 17 h 30 min",
+          "postmortem delay 03 h 40 min",
+          "... 11 other values"
+        ],
+        "clinical information": [
+          "postmortem delay 18 h 00 min",
+          "postmortem delay 02 h 45 min",
+          "postmortem delay 03 h 40 min",
+          "postmortem delay 06 h 40 min",
+          "postmortem delay 05 h 15 min",
+          "postmortem delay 08 h 05 min",
+          "postmortem delay 03 h 35 min",
+          "postmortem delay 05 h 20 min",
+          "postmortem delay 03 h 45 min",
+          "postmortem delay 04 h 40 min",
+          "postmortem delay 05 h 00 min",
+          "postmortem delay 07 h 39 min",
+          "postmortem delay 13 h 00 min",
+          "postmortem delay 08 h 00 min",
+          "postmortem delay 04 h 00 min",
+          "postmortem delay 15 h 15 min",
+          "postmortem delay 03 h 15 min",
+          "postmortem delay 07 h 15 min",
+          "postmortem delay 17 h 30 min",
+          "postmortem delay 11 h 00 min",
+          "postmortem delay 09 h 15 min",
+          "postmortem delay 11 h 30 min",
+          "postmortem delay 16 h 00 min",
+          "postmortem delay 12 h 00 min",
+          "postmortem delay 15 h 00 min",
+          "postmortem delay 05 h 45 min"
+        ]
+      },
+      "Disease state/staging": {},
+      "Quality controls": {},
+      "Treatment/compound": {}
+    },
+    "Experimental Designs": {
+      "Experimental Designs": [
+        "disease state design"
+      ]
+    },
+    "Experimental Factors": {
+      "Experimental Factors": [
+        "disease"
+      ]
+    },
+    "Experimental Factors > Source Characteristics": {
+      "Developmental stage": [],
+      "Disease": [
+        "normal",
+        "sporadic frontotemporal lobar degeneration",
+        "familial frontotemporal lobar degeneration"
+      ],
+      "Organism": [
+        "Homo sapiens"
+      ],
+      "Organism part": [
+        "Brodman (1909) area 8"
+      ]
+    }
+  },
+  "Source list": "als-ftd-screened",
+  "Study type": "transcription profiling by array",
+  "Title": "Differential gene expression study in brain samples from patients suffering distinct frontotemporal lobar degeneration (FTLD) conditions."
+}

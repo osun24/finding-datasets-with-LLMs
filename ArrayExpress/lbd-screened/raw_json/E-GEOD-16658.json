@@ -1,0 +1,4275 @@
+{
+  "accno": "E-GEOD-16658",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "microRNA (miRNA) expression profiling of PBMCs of Parkinson's disease (PD) patients and controls"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2011-09-29"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-16658"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-16658",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "microRNA (miRNA) expression profiling of PBMCs of Parkinson's disease (PD) patients and controls"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "To investigate the role of miRNAs in the etiology of idiopathic PD, we conducted global miRNA expression profiling in peripheral blood mononuclear cells (PBMCs) of PD patients and controls. Total RNA was extracted from the PBMCs of 19 PD patients and 13 controls, labeled and hybridized to Exiqon microarrays spotted with probes for 733 human miRNAs."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE16658"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE16658-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16658-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF = <br>VALUE = log 2 (sample / common reference pool)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16658-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16658-7"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "Arrays were scanned with an Agilent G2565BA Microarray Scanner System (Agilent Technologies, Inc., USA) and stored in an ozone-free environment in order to prevent potential bleaching of the fluorescent dyes."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16658-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16658-6"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "RNA samples were sent to Exiqon (Vedbaek, Denmark) for miRNA profiling. Briefly, the Hy3-labeled sample and the Hy5-labeled common reference pool were co-hybridized to the miRCURYTM locked nucleic acid (LNA) array (version 10.0) using a Tecan (Austria) HS4800 hybridization station."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16658-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16658-2"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Approximately 16 ml of whole blood was collected by venipuncture into two BD Vacutainer CPT glass tubes (Becton-Dickinson, Franklin Lakes, USA). Whithin two hours of blood collection, peripheral blood mononuclear cells (PBMCs) were isolated from the CPT tubes by centrifugation (30 min, 2800 rpm, room temperature) and washed twice with PBS (15 min, 1300 rpm, 4ºC). Total RNA containing small RNAs was extracted from PBMCs using the miRNeasy Mini kit (Qiagen, Hilden, Germany) according to the manufacturer’s instructions, aliquoted and stored at -80ºC. All samples passed extensive quality controls (e.g. OD260/OD280 between 1.8 and 2.1 in the Nanodrop ND1000 and RIN (RNA Integrity Number) > 7 in the Agilent 2100 Bioanalyser)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16658-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16658-4"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Same protocol as channel 1"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16658-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16658-5"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "RNA samples were sent to Exiqon (Vedbaek, Denmark) for miRNA profiling. 1µg of total RNA from each of the 39 samples was pooled and labeled with the miRCURY Hy5 power labeling kit."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16658-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16658-3"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "RNA sample was sent to Exiqon (Vedbaek, Denmark) for miRNA profiling. 1µg of total RNA was labeled with the miRCURY Hy3 power labeling kit."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE16658-8",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE16658-8"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Background correction was performed using the normexp method (with offset=10). Intensities of good quality spots were then subjected to within-array (loess method) normalization. Intensities lower than 1.5 times the median signal intensity of the respective slide and label were discarded. The calling of a miRNA on a particular array fails if two or more of the four replicated capture probes for this miRNA are flagged as bad quality spots by the image analysis software. Differential expression between controls and PD patients was assessed using linear regression analysis and empirical Bayes methods implemented in the Limma package."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Sofia Oliveira"
+          },
+          {
+            "name": "Email",
+            "value": "soliveira@igc.gulbenkian.pt"
+          },
+          {
+            "name": "Phone",
+            "value": "+351 217 999 411"
+          },
+          {
+            "name": "Fax",
+            "value": "+351 217 999 412"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Joaquim Ferreira"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Madalena Martins"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Alexandra Rosa"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Instituto de Medicina Molecular"
+          },
+          {
+            "name": "Address",
+            "value": "Edificio Egas Moniz, Instituto de Medicina Molecular, Av. Prof Egas Moniz, Lisbon, Portugal, Portugal"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-16658",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "64"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "updrs score"
+              }
+            ],
+            "value": "UPDRS SCORE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease state"
+              }
+            ],
+            "value": "DISEASE STATE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "age"
+              }
+            ],
+            "value": "AGE"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sex"
+              }
+            ],
+            "value": "SEX"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-16658",
+            "attributes": [
+              {
+                "name": "Age",
+                "value": "65 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "62 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "61 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "not specified"
+              },
+              {
+                "name": "Age",
+                "value": "67 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "57 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "68 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "71 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "60 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "73 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "64 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "66 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "69 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "58 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "63 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "... 2 other values"
+              },
+              {
+                "name": "Disease state",
+                "value": "not specified"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor, rigidity, bradykinesia, and postural disturbance)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor, bradykinesia, and postural disturbance)"
+              },
+              {
+                "name": "Disease state",
+                "value": "unaffected with parkinson´s disease"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with rigidity and postural disturbance)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor and bradykinesia)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor and rigidity)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor, rigidity, and postural disturbance)"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "not specified"
+              },
+              {
+                "name": "Updrs score",
+                "value": "111"
+              },
+              {
+                "name": "Updrs score",
+                "value": "78"
+              },
+              {
+                "name": "Updrs score",
+                "value": "not specified"
+              },
+              {
+                "name": "Updrs score",
+                "value": "123"
+              },
+              {
+                "name": "Updrs score",
+                "value": "115"
+              },
+              {
+                "name": "Updrs score",
+                "value": "80"
+              },
+              {
+                "name": "Updrs score",
+                "value": "96"
+              },
+              {
+                "name": "Updrs score",
+                "value": "129"
+              },
+              {
+                "name": "Updrs score",
+                "value": "70"
+              },
+              {
+                "name": "Updrs score",
+                "value": "87"
+              },
+              {
+                "name": "Updrs score",
+                "value": "92"
+              },
+              {
+                "name": "Updrs score",
+                "value": "76"
+              },
+              {
+                "name": "Updrs score",
+                "value": "169"
+              },
+              {
+                "name": "Updrs score",
+                "value": "65"
+              },
+              {
+                "name": "Updrs score",
+                "value": "83"
+              },
+              {
+                "name": "Updrs score",
+                "value": "... 2 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417656_P19_Hy5.txt\" OR \"GSM417656_P19_Hy3.txt\" OR \"GSM417655_P18_Hy5.txt\" OR \"GSM417655_P18_Hy3.txt\" OR \"GSM417654_P17_Hy5.txt\" OR \"GSM417654_P17_Hy3.txt\" OR \"GSM417653_P16_Hy5.txt\" OR \"GSM417653_P16_Hy3.txt\" OR \"GSM417652_P15_Hy5.txt\" OR \"GSM417652_P15_Hy3.txt\" OR \"GSM417651_P14_Hy5.txt\" OR \"GSM417651_P14_Hy3.txt\" OR \"GSM417650_P13_Hy5.txt\" OR \"GSM417650_P13_Hy3.txt\" OR \"GSM417649_P12_Hy5.txt\" OR \"GSM417649_P12_Hy3.txt\" OR \"GSM417648_P11_Hy5.txt\" OR \"GSM417648_P11_Hy3.txt\" OR \"GSM417647_P10_Hy5.txt\" OR \"GSM417647_P10_Hy3.txt\" OR \"GSM417646_P9_Hy5.txt\" OR \"GSM417646_P9_Hy3.txt\" OR \"GSM417645_P8_Hy5.txt\" OR \"GSM417645_P8_Hy3.txt\" OR \"GSM417644_P7_Hy5.txt\" OR \"GSM417644_P7_Hy3.txt\" OR \"GSM417643_P6_Hy5.txt\" OR \"GSM417643_P6_Hy3.txt\" OR \"GSM417642_P5_Hy5.txt\" OR \"GSM417642_P5_Hy3.txt\" OR \"GSM417641_P4_Hy5.txt\" OR \"GSM417641_P4_Hy3.txt\" OR \"GSM417640_P3_Hy5.txt\" OR \"GSM417640_P3_Hy3.txt\" OR \"GSM417639_P2_Hy5.txt\" OR \"GSM417639_P2_Hy3.txt\" OR \"GSM417638_P1_Hy5.txt\" OR \"GSM417638_P1_Hy3.txt\" OR \"GSM417345_C13_Hy5.txt\" OR \"GSM417345_C13_Hy3.txt\" OR \"GSM417344_C12_Hy5.txt\" OR \"GSM417344_C12_Hy3.txt\" OR \"GSM417343_C11_Hy5.txt\" OR \"GSM417343_C11_Hy3.txt\" OR \"GSM417342_C10_Hy5.txt\" OR \"GSM417342_C10_Hy3.txt\" OR \"GSM417341_C9_Hy5.txt\" OR \"GSM417341_C9_Hy3.txt\" OR \"GSM417340_C8_Hy5.txt\" OR \"GSM417340_C8_Hy3.txt\" OR \"GSM417339_C7_Hy5.txt\" OR \"GSM417339_C7_Hy3.txt\" OR \"GSM417338_C6_Hy5.txt\" OR \"GSM417338_C6_Hy3.txt\" OR \"GSM417337_C5_Hy5.txt\" OR \"GSM417337_C5_Hy3.txt\" OR \"GSM417336_C4_Hy5.txt\" OR \"GSM417336_C4_Hy3.txt\" OR \"GSM417335_C3_Hy5.txt\" OR \"GSM417335_C3_Hy3.txt\" OR \"GSM417334_C2_Hy5.txt\" OR \"GSM417334_C2_Hy3.txt\" OR \"GSM417333_C1_Hy5.txt\" OR \"GSM417333_C1_Hy3.txt\""
+                        }
+                      ],
+                      "value": "32"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "70 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "169"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417656_P19_Hy5.txt\" OR \"GSM417656_P19_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "69 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with tremor and bradykinesia)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "129"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417655_P18_Hy5.txt\" OR \"GSM417655_P18_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "68 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "83"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417654_P17_Hy5.txt\" OR \"GSM417654_P17_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "68 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "72"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417653_P16_Hy5.txt\" OR \"GSM417653_P16_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "67 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "80"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417652_P15_Hy5.txt\" OR \"GSM417652_P15_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "64 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with tremor, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "87"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417651_P14_Hy5.txt\" OR \"GSM417651_P14_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "62 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "115"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417650_P13_Hy5.txt\" OR \"GSM417650_P13_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "61 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with tremor and rigidity)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "96"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417649_P12_Hy5.txt\" OR \"GSM417649_P12_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_9",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "58 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "111"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417648_P11_Hy5.txt\" OR \"GSM417648_P11_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_10",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "71 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "92"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417647_P10_Hy5.txt\" OR \"GSM417647_P10_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_11",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "71 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "123"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417646_P9_Hy5.txt\" OR \"GSM417646_P9_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_12",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "70 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "76"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417645_P8_Hy5.txt\" OR \"GSM417645_P8_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_13",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "68 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "115"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417644_P7_Hy5.txt\" OR \"GSM417644_P7_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_14",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "65 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "70"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417643_P6_Hy5.txt\" OR \"GSM417643_P6_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_15",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "64 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "78"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417642_P5_Hy5.txt\" OR \"GSM417642_P5_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_16",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "62 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "87"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417641_P4_Hy5.txt\" OR \"GSM417641_P4_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_17",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "61 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "70"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417640_P3_Hy5.txt\" OR \"GSM417640_P3_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_18",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "60 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "65"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417639_P2_Hy5.txt\" OR \"GSM417639_P2_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_19",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "58 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "67"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417638_P1_Hy5.txt\" OR \"GSM417638_P1_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_20",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "70 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417345_C13_Hy5.txt\" OR \"GSM417345_C13_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_21",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "67 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417344_C12_Hy5.txt\" OR \"GSM417344_C12_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_22",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "66 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417343_C11_Hy5.txt\" OR \"GSM417343_C11_Hy3.txt\" OR \"GSM417342_C10_Hy5.txt\" OR \"GSM417342_C10_Hy3.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_23",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "63 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417341_C9_Hy5.txt\" OR \"GSM417341_C9_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_24",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "60 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417340_C8_Hy5.txt\" OR \"GSM417340_C8_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_25",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "57 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417339_C7_Hy5.txt\" OR \"GSM417339_C7_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_26",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "51 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "female"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417338_C6_Hy5.txt\" OR \"GSM417338_C6_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_27",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "73 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417337_C5_Hy5.txt\" OR \"GSM417337_C5_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_28",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "71 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417336_C4_Hy5.txt\" OR \"GSM417336_C4_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_29",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "66 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417335_C3_Hy5.txt\" OR \"GSM417335_C3_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_30",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "64 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417334_C2_Hy5.txt\" OR \"GSM417334_C2_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_31",
+                  "attributes": [
+                    {
+                      "name": "AGE",
+                      "value": "63 yrs"
+                    },
+                    {
+                      "name": "DISEASE STATE",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "SEX",
+                      "value": "male"
+                    },
+                    {
+                      "name": "UPDRS SCORE",
+                      "value": "not specified"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417333_C1_Hy5.txt\" OR \"GSM417333_C1_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-16658",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Sample",
+                "value": "Pool composed of 39 samples (the 32 samples under study and 7 additional samples which were later excluded from differential expression analysis due to array quality control problems)."
+              },
+              {
+                "name": "Age",
+                "value": "65 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "62 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "61 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "67 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "57 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "68 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "71 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "60 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "73 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "64 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "66 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "69 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "58 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "63 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "51 yrs"
+              },
+              {
+                "name": "Age",
+                "value": "... 1 other values"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor, rigidity, bradykinesia, and postural disturbance)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor, bradykinesia, and postural disturbance)"
+              },
+              {
+                "name": "Disease state",
+                "value": "unaffected with parkinson´s disease"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with rigidity and postural disturbance)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor and bradykinesia)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor and rigidity)"
+              },
+              {
+                "name": "Disease state",
+                "value": "parkinson´s disease patient (with tremor, rigidity, and postural disturbance)"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Tissue",
+                "value": "PBMCs"
+              },
+              {
+                "name": "Updrs score",
+                "value": "111"
+              },
+              {
+                "name": "Updrs score",
+                "value": "78"
+              },
+              {
+                "name": "Updrs score",
+                "value": "123"
+              },
+              {
+                "name": "Updrs score",
+                "value": "115"
+              },
+              {
+                "name": "Updrs score",
+                "value": "80"
+              },
+              {
+                "name": "Updrs score",
+                "value": "96"
+              },
+              {
+                "name": "Updrs score",
+                "value": "129"
+              },
+              {
+                "name": "Updrs score",
+                "value": "70"
+              },
+              {
+                "name": "Updrs score",
+                "value": "87"
+              },
+              {
+                "name": "Updrs score",
+                "value": "92"
+              },
+              {
+                "name": "Updrs score",
+                "value": "76"
+              },
+              {
+                "name": "Updrs score",
+                "value": "169"
+              },
+              {
+                "name": "Updrs score",
+                "value": "65"
+              },
+              {
+                "name": "Updrs score",
+                "value": "83"
+              },
+              {
+                "name": "Updrs score",
+                "value": "67"
+              },
+              {
+                "name": "Updrs score",
+                "value": "... 1 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "sample",
+                      "value": "Pool composed of 39 samples (the 32 samples under study and 7 additional samples which were later excluded from differential expression analysis due to array quality control problems)."
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417656_P19_Hy5.txt\" OR \"GSM417656_P19_Hy3.txt\" OR \"GSM417655_P18_Hy5.txt\" OR \"GSM417655_P18_Hy3.txt\" OR \"GSM417654_P17_Hy5.txt\" OR \"GSM417654_P17_Hy3.txt\" OR \"GSM417653_P16_Hy5.txt\" OR \"GSM417653_P16_Hy3.txt\" OR \"GSM417652_P15_Hy5.txt\" OR \"GSM417652_P15_Hy3.txt\" OR \"GSM417651_P14_Hy5.txt\" OR \"GSM417651_P14_Hy3.txt\" OR \"GSM417650_P13_Hy5.txt\" OR \"GSM417650_P13_Hy3.txt\" OR \"GSM417649_P12_Hy5.txt\" OR \"GSM417649_P12_Hy3.txt\" OR \"GSM417648_P11_Hy5.txt\" OR \"GSM417648_P11_Hy3.txt\" OR \"GSM417647_P10_Hy5.txt\" OR \"GSM417647_P10_Hy3.txt\" OR \"GSM417646_P9_Hy5.txt\" OR \"GSM417646_P9_Hy3.txt\" OR \"GSM417645_P8_Hy5.txt\" OR \"GSM417645_P8_Hy3.txt\" OR \"GSM417644_P7_Hy5.txt\" OR \"GSM417644_P7_Hy3.txt\" OR \"GSM417643_P6_Hy5.txt\" OR \"GSM417643_P6_Hy3.txt\" OR \"GSM417642_P5_Hy5.txt\" OR \"GSM417642_P5_Hy3.txt\" OR \"GSM417641_P4_Hy5.txt\" OR \"GSM417641_P4_Hy3.txt\" OR \"GSM417640_P3_Hy5.txt\" OR \"GSM417640_P3_Hy3.txt\" OR \"GSM417639_P2_Hy5.txt\" OR \"GSM417639_P2_Hy3.txt\" OR \"GSM417638_P1_Hy5.txt\" OR \"GSM417638_P1_Hy3.txt\" OR \"GSM417345_C13_Hy5.txt\" OR \"GSM417345_C13_Hy3.txt\" OR \"GSM417344_C12_Hy5.txt\" OR \"GSM417344_C12_Hy3.txt\" OR \"GSM417343_C11_Hy5.txt\" OR \"GSM417343_C11_Hy3.txt\" OR \"GSM417342_C10_Hy5.txt\" OR \"GSM417342_C10_Hy3.txt\" OR \"GSM417341_C9_Hy5.txt\" OR \"GSM417341_C9_Hy3.txt\" OR \"GSM417340_C8_Hy5.txt\" OR \"GSM417340_C8_Hy3.txt\" OR \"GSM417339_C7_Hy5.txt\" OR \"GSM417339_C7_Hy3.txt\" OR \"GSM417338_C6_Hy5.txt\" OR \"GSM417338_C6_Hy3.txt\" OR \"GSM417337_C5_Hy5.txt\" OR \"GSM417337_C5_Hy3.txt\" OR \"GSM417336_C4_Hy5.txt\" OR \"GSM417336_C4_Hy3.txt\" OR \"GSM417335_C3_Hy5.txt\" OR \"GSM417335_C3_Hy3.txt\" OR \"GSM417334_C2_Hy5.txt\" OR \"GSM417334_C2_Hy3.txt\" OR \"GSM417333_C1_Hy5.txt\" OR \"GSM417333_C1_Hy3.txt\""
+                        }
+                      ],
+                      "value": "32"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "169"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417656_P19_Hy5.txt\" OR \"GSM417656_P19_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "69 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with tremor and bradykinesia)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "129"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417655_P18_Hy5.txt\" OR \"GSM417655_P18_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "83"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417654_P17_Hy5.txt\" OR \"GSM417654_P17_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "72"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417653_P16_Hy5.txt\" OR \"GSM417653_P16_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "67 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "80"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417652_P15_Hy5.txt\" OR \"GSM417652_P15_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "64 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with tremor, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "87"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417651_P14_Hy5.txt\" OR \"GSM417651_P14_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "62 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "115"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417650_P13_Hy5.txt\" OR \"GSM417650_P13_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with tremor and rigidity)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "96"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417649_P12_Hy5.txt\" OR \"GSM417649_P12_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "58 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "111"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417648_P11_Hy5.txt\" OR \"GSM417648_P11_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "71 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "92"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417647_P10_Hy5.txt\" OR \"GSM417647_P10_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "71 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "123"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417646_P9_Hy5.txt\" OR \"GSM417646_P9_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "76"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417645_P8_Hy5.txt\" OR \"GSM417645_P8_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "68 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "115"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417644_P7_Hy5.txt\" OR \"GSM417644_P7_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "65 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "70"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417643_P6_Hy5.txt\" OR \"GSM417643_P6_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "64 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "78"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417642_P5_Hy5.txt\" OR \"GSM417642_P5_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "62 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "87"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417641_P4_Hy5.txt\" OR \"GSM417641_P4_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "61 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity, bradykinesia, and postural disturbance)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "70"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417640_P3_Hy5.txt\" OR \"GSM417640_P3_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "60 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with tremor, rigidity, and bradykinesia)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "65"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417639_P2_Hy5.txt\" OR \"GSM417639_P2_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "58 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "parkinson´s disease patient (with rigidity and bradykinesia)"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "updrs score",
+                      "value": "67"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417638_P1_Hy5.txt\" OR \"GSM417638_P1_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417345_C13_Hy5.txt\" OR \"GSM417345_C13_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "67 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417344_C12_Hy5.txt\" OR \"GSM417344_C12_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "66 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417343_C11_Hy5.txt\" OR \"GSM417343_C11_Hy3.txt\" OR \"GSM417342_C10_Hy5.txt\" OR \"GSM417342_C10_Hy3.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "63 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417341_C9_Hy5.txt\" OR \"GSM417341_C9_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "60 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417340_C8_Hy5.txt\" OR \"GSM417340_C8_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "57 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417339_C7_Hy5.txt\" OR \"GSM417339_C7_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "51 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417338_C6_Hy5.txt\" OR \"GSM417338_C6_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417337_C5_Hy5.txt\" OR \"GSM417337_C5_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "71 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417336_C4_Hy5.txt\" OR \"GSM417336_C4_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "66 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417335_C3_Hy5.txt\" OR \"GSM417335_C3_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_30",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "64 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417334_C2_Hy5.txt\" OR \"GSM417334_C2_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_31",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "63 yrs"
+                    },
+                    {
+                      "name": "disease state",
+                      "value": "unaffected with parkinson´s disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "tissue",
+                      "value": "PBMCs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM417333_C1_Hy5.txt\" OR \"GSM417333_C1_Hy3.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-16658",
+        "attributes": [
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417656 1, GSM417656 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417656_P19_Hy5.txt",
+                  "size": 1615570,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417656 1, GSM417656 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417656_P19_Hy3.txt",
+                  "size": 1617293,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417655 1, GSM417655 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417655_P18_Hy5.txt",
+                  "size": 1613429,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417655 1, GSM417655 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417655_P18_Hy3.txt",
+                  "size": 1618411,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417654 1, GSM417654 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417654_P17_Hy5.txt",
+                  "size": 1612774,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417654 1, GSM417654 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417654_P17_Hy3.txt",
+                  "size": 1613145,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417653 1, GSM417653 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417653_P16_Hy5.txt",
+                  "size": 1612296,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417653 1, GSM417653 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417653_P16_Hy3.txt",
+                  "size": 1612253,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417652 1, GSM417652 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417652_P15_Hy5.txt",
+                  "size": 1606506,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417652 1, GSM417652 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417652_P15_Hy3.txt",
+                  "size": 1613643,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417651 1, GSM417651 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417651_P14_Hy5.txt",
+                  "size": 1608754,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417651 1, GSM417651 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417651_P14_Hy3.txt",
+                  "size": 1611242,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417650 1, GSM417650 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417650_P13_Hy5.txt",
+                  "size": 1614335,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417650 1, GSM417650 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417650_P13_Hy3.txt",
+                  "size": 1614759,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417649 1, GSM417649 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417649_P12_Hy5.txt",
+                  "size": 1612544,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417649 1, GSM417649 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417649_P12_Hy3.txt",
+                  "size": 1614268,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417648 1, GSM417648 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417648_P11_Hy5.txt",
+                  "size": 1613904,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417648 1, GSM417648 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417648_P11_Hy3.txt",
+                  "size": 1618134,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417647 1, GSM417647 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417647_P10_Hy5.txt",
+                  "size": 1609521,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417647 1, GSM417647 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417647_P10_Hy3.txt",
+                  "size": 1608863,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417646 1, GSM417646 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417646_P9_Hy5.txt",
+                  "size": 1612470,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417646 1, GSM417646 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417646_P9_Hy3.txt",
+                  "size": 1610426,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417645 1, GSM417645 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417645_P8_Hy5.txt",
+                  "size": 1610894,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417645 1, GSM417645 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417645_P8_Hy3.txt",
+                  "size": 1616449,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417644 1, GSM417644 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417644_P7_Hy5.txt",
+                  "size": 1624352,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417644 1, GSM417644 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417644_P7_Hy3.txt",
+                  "size": 1610855,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417643 1, GSM417643 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417643_P6_Hy5.txt",
+                  "size": 1611626,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417643 1, GSM417643 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417643_P6_Hy3.txt",
+                  "size": 1609833,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417642 1, GSM417642 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417642_P5_Hy5.txt",
+                  "size": 1611735,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417642 1, GSM417642 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417642_P5_Hy3.txt",
+                  "size": 1618567,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417641 1, GSM417641 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417641_P4_Hy5.txt",
+                  "size": 1609429,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417641 1, GSM417641 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417641_P4_Hy3.txt",
+                  "size": 1615203,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417640 1, GSM417640 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417640_P3_Hy5.txt",
+                  "size": 1606183,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417640 1, GSM417640 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417640_P3_Hy3.txt",
+                  "size": 1611995,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417639 1, GSM417639 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417639_P2_Hy5.txt",
+                  "size": 1615914,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417639 1, GSM417639 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417639_P2_Hy3.txt",
+                  "size": 1612738,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417638 1, GSM417638 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417638_P1_Hy5.txt",
+                  "size": 1608594,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417638 1, GSM417638 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417638_P1_Hy3.txt",
+                  "size": 1612946,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417345 1, GSM417345 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417345_C13_Hy5.txt",
+                  "size": 1609801,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417345 1, GSM417345 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417345_C13_Hy3.txt",
+                  "size": 1611493,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417344 1, GSM417344 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417344_C12_Hy5.txt",
+                  "size": 1614769,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417344 1, GSM417344 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417344_C12_Hy3.txt",
+                  "size": 1620927,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417343 1, GSM417343 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417343_C11_Hy5.txt",
+                  "size": 1612327,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417343 1, GSM417343 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417343_C11_Hy3.txt",
+                  "size": 1614371,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417342 1, GSM417342 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417342_C10_Hy5.txt",
+                  "size": 1607546,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417342 1, GSM417342 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417342_C10_Hy3.txt",
+                  "size": 1615045,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417341 1, GSM417341 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417341_C9_Hy5.txt",
+                  "size": 1608442,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417341 1, GSM417341 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417341_C9_Hy3.txt",
+                  "size": 1613284,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417340 1, GSM417340 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417340_C8_Hy5.txt",
+                  "size": 1615182,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417340 1, GSM417340 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417340_C8_Hy3.txt",
+                  "size": 1615217,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417339 1, GSM417339 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417339_C7_Hy5.txt",
+                  "size": 1610464,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417339 1, GSM417339 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417339_C7_Hy3.txt",
+                  "size": 1613219,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417338 1, GSM417338 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417338_C6_Hy5.txt",
+                  "size": 1611976,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417338 1, GSM417338 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417338_C6_Hy3.txt",
+                  "size": 1617148,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417337 1, GSM417337 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417337_C5_Hy5.txt",
+                  "size": 1608197,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417337 1, GSM417337 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417337_C5_Hy3.txt",
+                  "size": 1616196,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417336 1, GSM417336 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417336_C4_Hy5.txt",
+                  "size": 1609897,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417336 1, GSM417336 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417336_C4_Hy3.txt",
+                  "size": 1615971,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417335 1, GSM417335 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417335_C3_Hy5.txt",
+                  "size": 1612180,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417335 1, GSM417335 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417335_C3_Hy3.txt",
+                  "size": 1611643,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417334 1, GSM417334 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417334_C2_Hy5.txt",
+                  "size": 1610971,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417334 1, GSM417334 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417334_C2_Hy3.txt",
+                  "size": 1615418,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417333 1, GSM417333 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417333_C1_Hy5.txt",
+                  "size": 1612654,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM417333 1, GSM417333 2"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM417333_C1_Hy3.txt",
+                  "size": 1614120,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417649_sample_table.txt",
+                  "size": 11809,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417643_sample_table.txt",
+                  "size": 11705,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417345_sample_table.txt",
+                  "size": 11694,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417655_sample_table.txt",
+                  "size": 11869,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417344_sample_table.txt",
+                  "size": 11889,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417336_sample_table.txt",
+                  "size": 11812,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417646_sample_table.txt",
+                  "size": 11761,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417341_sample_table.txt",
+                  "size": 11847,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417650_sample_table.txt",
+                  "size": 11784,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417640_sample_table.txt",
+                  "size": 11786,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417653_sample_table.txt",
+                  "size": 11747,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417654_sample_table.txt",
+                  "size": 11924,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417645_sample_table.txt",
+                  "size": 11810,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417648_sample_table.txt",
+                  "size": 11894,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417639_sample_table.txt",
+                  "size": 11829,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417638_sample_table.txt",
+                  "size": 11682,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417337_sample_table.txt",
+                  "size": 11803,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417644_sample_table.txt",
+                  "size": 11765,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417338_sample_table.txt",
+                  "size": 11923,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417340_sample_table.txt",
+                  "size": 11828,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417641_sample_table.txt",
+                  "size": 11824,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417334_sample_table.txt",
+                  "size": 11914,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417342_sample_table.txt",
+                  "size": 11788,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417656_sample_table.txt",
+                  "size": 11731,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417651_sample_table.txt",
+                  "size": 11550,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417647_sample_table.txt",
+                  "size": 11833,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417339_sample_table.txt",
+                  "size": 11761,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417343_sample_table.txt",
+                  "size": 11797,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417335_sample_table.txt",
+                  "size": 11967,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417642_sample_table.txt",
+                  "size": 11734,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417652_sample_table.txt",
+                  "size": 11781,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM417333_sample_table.txt",
+                  "size": 11777,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-16658",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-16658.idf.txt",
+                  "size": 5270,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-16658.sdrf.txt",
+                  "size": 139055,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-16658",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-1469"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-16658",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

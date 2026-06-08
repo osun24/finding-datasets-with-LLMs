@@ -1,0 +1,11 @@
+# TITLE: APE1 controls DICER expression through functional regulation of miRNA33a: a novel hypothesis for NSCLC cancer progression
+# SUMMARY: This SuperSeries is composed of the SubSeries listed below.
+GPL16791_Group,GPL16791_Accession,GPL16791_Title,GPL16791_Source name,GPL16791_Cell line,GPL16791_Treatment,GPL28943_Group,GPL28943_Accession,GPL28943_Title,GPL28943_Source name,GPL28943_Treatment
+-,GSM5077610,N1_a549_siCTRL_rep1,A549  treated with siCTRL condition,A549,siCTRL,-,GSM5082113,"A549 cells transiently transfected with 100 pmol scramble control siRNA, replicate 1",A549 adenocarcinomic human alveolar basal epithelial cell line,siCTRL
+-,GSM5077611,N2_a549_siCTRL_rep2,A549  treated with siCTRL condition,A549,siCTRL,-,GSM5082114,"A549 cells transiently transfected with 100 pmol scramble control siRNA, replicate 2",A549 adenocarcinomic human alveolar basal epithelial cell line,siCTRL
+-,GSM5077612,N2_a549_siCTRL_rep3,A549  treated with siCTRL condition,A549,siCTRL,-,GSM5082115,"A549 cells transiently transfected with 100 pmol scramble control siRNA, replicate 3",A549 adenocarcinomic human alveolar basal epithelial cell line,siCTRL
+-,GSM5077613,N4_a549_siCTRL_rep4,A549  treated with siCTRL condition,A549,siCTRL,-,GSM5082116,"A549 cells transiently transfected with 100 pmol siRNA APEX1, replicate 1",A549 adenocarcinomic human alveolar basal epithelial cell line,siAPEX1
+-,GSM5077614,N5_a549_siAPEX1_rep1,A549  treated with siAPEX1 condition,A549,siAPEX1,-,GSM5082117,"A549 cells transiently transfected with 100 pmol siRNA APEX1, replicate 2",A549 adenocarcinomic human alveolar basal epithelial cell line,siAPEX1
+-,GSM5077615,N6_a549_siAPEX1_rep2,A549  treated with siAPEX1 condition,A549,siAPEX1,-,GSM5082118,"A549 cells transiently transfected with 100 pmol siRNA APEX1, replicate 3",A549 adenocarcinomic human alveolar basal epithelial cell line,siAPEX1
+-,GSM5077616,N7_a549_siAPEX1_rep3,A549  treated with siAPEX1 condition,A549,siAPEX1,,,,,
+-,GSM5077617,N8_a549_siAPEX1_rep4,A549  treated with siAPEX1 condition,A549,siAPEX1,,,,,

@@ -1,0 +1,9 @@
+# TITLE: Gene expression profiling of lung cancer cells transfected with scrambled siRNA and siRNA targeting the ETS2 gene
+# SUMMARY: ETS2 is a canonical transcriptional factor and member of the ETS family of genes. ETS2 binds to consensus ERE binding sites in a broad spectrum of genes thus affecting many intracellular molecular functions. However, the role of ETS2 in the biology and pathogenesis of lung cancers is still not known. We have found that ETS2 is down-regulated in lung tumors compared to normal lung tissue and the expression of the coding protein of the gene was a significant independent predictor of favorable outcome in NSCLC patients pinpointing to a potential tumor suppressor role for this gene. To better understand its molecular function in NSCLC, we compared and contrasted the transcriptome of lung cancer cells transfected with control siRNA and siRNA targeting ETS2.
+GPL6244_Group,GPL6244_Accession,GPL6244_Title,GPL6244_Source name,GPL6244_Treatment,GPL6244_Cell line
+-,GSM1062875,H441 transfected with scrambled siRNA 1,H441 lung cancer cells,control scrambled siRNA,H441
+-,GSM1062876,H441 transfected with scrambled siRNA 2,H441 lung cancer cells,control scrambled siRNA,H441
+-,GSM1062877,H441 transfected with scrambled siRNA 3,H441 lung cancer cells,control scrambled siRNA,H441
+-,GSM1062878,H441 transfected with ETS2-specific siRNA 1,H441 lung cancer cells,siRNA against ETS2,H441
+-,GSM1062879,H441 transfected with ETS2-specific siRNA 2,H441 lung cancer cells,siRNA against ETS2,H441
+-,GSM1062880,H441 transfected with ETS2-specific siRNA 3,H441 lung cancer cells,siRNA against ETS2,H441

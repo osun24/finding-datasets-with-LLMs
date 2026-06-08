@@ -1,0 +1,9 @@
+# TITLE: Expression data of A549 Fra-2 overexpressing cells
+# SUMMARY: Fra-2 belongs to the activated protein-1 (AP-1) family and is involved in the mechanisms of resistance to platinum in ovarian cancer and to anti-EGFR therapy in NSCLC. We used microarrays to identify genes potentially regulated by Fra-2 transciptional activity.
+GPL23159_Group,GPL23159_Accession,GPL23159_Title,GPL23159_Source name,GPL23159_Cell line,GPL23159_Treatment
+-,GSM6594778,A549 empty rep 1,Lung Cancer Cell Line,A549,transfected with empty vector
+-,GSM6594779,A549 empty rep 2,Lung Cancer Cell Line,A549,transfected with empty vector
+-,GSM6594780,A549 empty rep 3,Lung Cancer Cell Line,A549,transfected with empty vector
+-,GSM6594781,A549 Fra-2 rep 1,Lung Cancer Cell Line,A549,transfected with Fra-2 overexpressing vector
+-,GSM6594782,A549 Fra-2 rep 2,Lung Cancer Cell Line,A549,transfected with Fra-2 overexpressing vector
+-,GSM6594783,A549 Fra-2 rep 3,Lung Cancer Cell Line,A549,transfected with Fra-2 overexpressing vector

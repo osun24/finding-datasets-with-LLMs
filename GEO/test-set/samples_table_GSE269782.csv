@@ -1,0 +1,12 @@
+# TITLE: Defective N-Glycosylation of IL6 Induces Metastasis and Tyrosine Kinase Inhibitor Resistance in Lung Cancer
+# SUMMARY: The biological consequences of various IL-6 glycoforms are unknown. To uncover the function of N-glycosylation of IL-6 in lung cancer, we compare the gene expression profiles in NSCLC cells induced by conditioned medium containing IL-6 with complete N-glycosylation (NG-IL6) or defective N-glycosylation (deNG-IL6).
+GPL14550_Group,GPL14550_Accession,GPL14550_Title,GPL14550_Source name,GPL14550_Cell line,GPL14550_Cell type,GPL14550_Treatment
+-,GSM8327194,"AS2-Vec cells, control medium, 3h, replicate 1","AS2-Vec cells, control medium, 3h",AS2-vec,lung adenocarcinoma cell,"control medium, 3h"
+-,GSM8327195,"AS2-Vec cells, control medium, 3h, replicate 2","AS2-Vec cells, control medium, 3h",AS2-vec,lung adenocarcinoma cell,"control medium, 3h"
+-,GSM8327196,"AS2-Vec cells, control medium, 3h, replicate 3","AS2-Vec cells, control medium, 3h",AS2-vec,lung adenocarcinoma cell,"control medium, 3h"
+-,GSM8327197,"AS2-Vec cells, NG-IL6, 3h, replicate 1","AS2-Vec cells, NG-IL6, 3h",AS2-vec,lung adenocarcinoma cell,"NG-IL6, 3h"
+-,GSM8327198,"AS2-Vec cells, NG-IL6, 3h, replicate 2","AS2-Vec cells, NG-IL6, 3h",AS2-vec,lung adenocarcinoma cell,"NG-IL6, 3h"
+-,GSM8327199,"AS2-Vec cells, NG-IL6, 3h, replicate 3","AS2-Vec cells, NG-IL6, 3h",AS2-vec,lung adenocarcinoma cell,"NG-IL6, 3h"
+-,GSM8327200,"AS2-Vec cells, deNG-IL6, 3h, replicate 1","AS2-Vec cells, deNG-IL6, 3h",AS2-vec,lung adenocarcinoma cell,"deNG-IL6, 3h"
+-,GSM8327201,"AS2-Vec cells, deNG-IL6, 3h, replicate 2","AS2-Vec cells, deNG-IL6, 3h",AS2-vec,lung adenocarcinoma cell,"deNG-IL6, 3h"
+-,GSM8327202,"AS2-Vec cells, deNG-IL6, 3h, replicate 3","AS2-Vec cells, deNG-IL6, 3h",AS2-vec,lung adenocarcinoma cell,"deNG-IL6, 3h"

@@ -1,0 +1,42 @@
+# TITLE: Respones to treatment of H209 and H838 cell lines to treatment with the non-covalent inhibitor of TRXR1, DKFZ-608
+# SUMMARY: DKFZ-608 induces oxidative stress in the cytoplasm of treated cancer cell lines. The molecular reason for this is the inhibition of the cytoplamic thioredoxin reductase TRXR1. The EC50 of cytotoxicity differes substantialy in SCLC (hypersensitive) and NSCLC (resistant). The experiment aims to identify stress response pathways induced by the compound which could explain the cytotoxic activity of the compound and its differential effect.
+GPL10558_Group,GPL10558_Accession,GPL10558_Title,GPL10558_Source name,GPL10558_Cell line,GPL10558_Treatment,GPL10558_Time point
+-,GSM3501195,H209 C1_0h,tissue culture,NCI-H209,cyclodextrin alone,0h
+-,GSM3501196,H209 C1_4h,tissue culture,NCI-H209,cyclodextrin alone,4h
+-,GSM3501197,H209 C1_8h,tissue culture,NCI-H209,cyclodextrin alone,8h
+-,GSM3501198,H209 C1_24h,tissue culture,NCI-H209,cyclodextrin alone,24h
+-,GSM3501199,H209 608.1_4h,tissue culture,NCI-H209,100nM DKFZ-608 formulated in cycodextrin,4h
+-,GSM3501200,H209 608.1_8h,tissue culture,NCI-H209,100nM DKFZ-608 formulated in cycodextrin,8h
+-,GSM3501201,H209 608.1_24h,tissue culture,NCI-H209,100nM DKFZ-608 formulated in cycodextrin,24h
+-,GSM3501202,H209 C2_0h,tissue culture,NCI-H209,cyclodextrin alone,0h
+-,GSM3501203,H209 C2_4h,tissue culture,NCI-H209,cyclodextrin alone,4h
+-,GSM3501204,H209 C2_8h,tissue culture,NCI-H209,cyclodextrin alone,8h
+-,GSM3501205,H209 C2_24h,tissue culture,NCI-H209,cyclodextrin alone,
+-,GSM3501206,H209 608.2_4h,tissue culture,NCI-H209,100nM DKFZ-608 formulated in cycodextrin,4h
+-,GSM3501207,H209 608.2_8h,tissue culture,NCI-H209,100nM DKFZ-608 formulated in cycodextrin,8h
+-,GSM3501208,H209 608.2_24h,tissue culture,NCI-H209,100nM DKFZ-608 formulated in cycodextrin,24h
+-,GSM3501209,H209 C3_0h,tissue culture,NCI-H209,cyclodextrin alone,0h
+-,GSM3501210,H209 C3_4h,tissue culture,NCI-H209,cyclodextrin alone,4h
+-,GSM3501211,H209 C3_24h,tissue culture,NCI-H209,cyclodextrin alone,8h
+-,GSM3501212,H209 608.3_4h,tissue culture,NCI-H209,100nM DKFZ-608 formulated in cycodextrin,4h
+-,GSM3501213,H209 608.3_24h,tissue culture,NCI-H209,100nM DKFZ-608 formulated in cycodextrin,24h
+-,GSM3501214,H838 C1_0h,tissue culture,NCI-H838,cyclodextrin alone,0h
+-,GSM3501215,H838 C1_4h,tissue culture,NCI-H838,cyclodextrin alone,4h
+-,GSM3501216,H838 C1_8h,tissue culture,NCI-H838,cyclodextrin alone,8h
+-,GSM3501217,H838 C1_24h,tissue culture,NCI-H838,cyclodextrin alone,24h
+-,GSM3501218,H838 H838.1_4h,tissue culture,NCI-H838,100nM DKFZ-608 formulated in cycodextrin,4h
+-,GSM3501219,H838 H838.1_8h,tissue culture,NCI-H838,100nM DKFZ-608 formulated in cycodextrin,8h
+-,GSM3501220,H838 H838.1_24h,tissue culture,NCI-H838,100nM DKFZ-608 formulated in cycodextrin,24h
+-,GSM3501221,H838 C2_0h,tissue culture,NCI-H838,cyclodextrin alone,0h
+-,GSM3501222,H838 C2_4h,tissue culture,NCI-H838,cyclodextrin alone,4h
+-,GSM3501223,H838 C2_8h,tissue culture,NCI-H838,cyclodextrin alone,8h
+-,GSM3501224,H838 C2_24h,tissue culture,NCI-H838,cyclodextrin alone,24h
+-,GSM3501225,H838 608.2_4h,tissue culture,NCI-H838,100nM DKFZ-608 formulated in cycodextrin,4h
+-,GSM3501226,H838 608.2_8h,tissue culture,NCI-H838,100nM DKFZ-608 formulated in cycodextrin,8h
+-,GSM3501227,H838 C3_0h,tissue culture,NCI-H838,cyclodextrin alone,0h
+-,GSM3501228,H838 C3_4h,tissue culture,NCI-H838,cyclodextrin alone,4h
+-,GSM3501229,H838 C3_8h,tissue culture,NCI-H838,cyclodextrin alone,8h
+-,GSM3501230,H838 C3_24h,tissue culture,NCI-H838,cyclodextrin alone,24h
+-,GSM3501231,H838 608.3_4h,tissue culture,NCI-H838,100nM DKFZ-608 formulated in cycodextrin,4h
+-,GSM3501232,H838 608.3_8h,tissue culture,NCI-H838,100nM DKFZ-608 formulated in cycodextrin,8h
+-,GSM3501233,H838 608.3_24h,tissue culture,NCI-H838,100nM DKFZ-608 formulated in cycodextrin,24h

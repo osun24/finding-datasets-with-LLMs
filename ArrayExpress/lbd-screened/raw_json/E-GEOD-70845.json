@@ -1,0 +1,722 @@
+{
+  "accno": "E-GEOD-70845",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Gene expression profiling of SHSY5Y cells exposed to manganese"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2016-07-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-70845"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-70845",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Gene expression profiling of SHSY5Y cells exposed to manganese"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "The trace element manganese is essential for normal development for all the organisms. Overexposure of manganese may leads to multiple neuronal disorders such as Parkinson, manganism. To explore the molecular mechanism of manganese induced neurotoxicity, gene expression profiling was performed on human neuroblastoma SHSY-5Y cells. Cells were exposed to sub-lethal concentration of manganese (100 Î¼M) for 24 hrs. Our result demonstrates that manganese alter multiple biological pathways including chromatin assembly, neurogenesis and apoptotic pathways.Cells grown in  75mm2 flask. three replicates for each sample SHSY5Y cells grown in MEM:F12 media (1:1) were treated with manganese and total RNA was isolated from cells after 24 hour exposure Three replicate were used for the experiment"
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE70845"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE70845-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE70845-1"
+            },
+            {
+              "name": "Type",
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The data were analyzed with Expression Console  using Affymetrix default analysis settings and RMA as normalization method used. The probes of   intensities less than the 20.0 percentile in the raw data were excluded. ID_REF =  VALUE = RMA Signal Intensity"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE70845-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE70845-5"
+            },
+            {
+              "name": "Type",
+              "value": "labelling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Biotinylated cRNA were prepared according to the standard Affymetrix protocol from 6 ug total RNA (Expression Analysis Technical Manual, 2001, Affymetrix)"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE70845-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE70845-6"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Following fragmentation, 10 ug of cRNA were hybridized for 16 hr at 45C on GeneChip Human PrimeView Array. GeneChips were washed and stained in the Affymetrix Fluidics Station 400."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE70845-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE70845-2"
+            },
+            {
+              "name": "Type",
+              "value": "sample treatment protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Treated with 100 Î¼M of manganese (1/5of LC50) for 24hrs."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE70845-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE70845-3"
+            },
+            {
+              "name": "Type",
+              "value": "growth protocol"
+            },
+            {
+              "name": "Description",
+              "value": "SHSY5Y cells grown in MEM:F12 (1:1) media cointaning 10 % Fetal bovin serum"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE70845-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE70845-4"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA prepared using Rneasy mini kit"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE70845-7",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE70845-7"
+            },
+            {
+              "name": "Type",
+              "value": "array scanning protocol"
+            },
+            {
+              "name": "Description",
+              "value": "GeneChips were scanned using the Hewlett-Packard GeneArray Scanner G3000."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Dr. saravana devi"
+          },
+          {
+            "name": "Email",
+            "value": "ss_devi@neeri.res.in"
+          },
+          {
+            "name": "Phone",
+            "value": "+91-9822261609"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Deepa Gandhi"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Prashant Tarale"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Amit Bafana"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Pravin Naoghare"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "S Devi"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "K Krishnamurthi"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "CSIR-National Environmental Engineering Research Institute"
+          },
+          {
+            "name": "Address",
+            "value": "Environmental Health Division, CSIR-National Environmental Engineering Research Institute, Nagpur-20,, Nagpur, Maharashtra, India"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-70845",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "6"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "treated with"
+              }
+            ],
+            "value": "treated with"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-70845",
+            "attributes": [
+              {
+                "name": "Treated with",
+                "value": "100 ?M of manganese (1/5of LC50) for 24hrs"
+              },
+              {
+                "name": "Treated with",
+                "value": "none (untreated control)"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "treated with",
+                      "value": "100 ?M of manganese (1/5of LC50) for 24hrs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1820445_MNCL_3.CEL\" OR \"GSM1820444_MNCL_2.CEL\" OR \"GSM1820443_MNCL_1.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "treated with",
+                      "value": "none (untreated control)"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1820442_C3.CEL\" OR \"GSM1820441_C2.CEL\" OR \"GSM1820440_C1.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-70845",
+            "attributes": [
+              {
+                "name": "Cell line",
+                "value": "SHSY5Y"
+              },
+              {
+                "name": "Cell type",
+                "value": "neuroblastoma cell line"
+              },
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Treated with",
+                "value": "100 ?M of manganese (1/5of LC50) for 24hrs"
+              },
+              {
+                "name": "Treated with",
+                "value": "none (untreated control)"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "treated with",
+                      "value": "100 ?M of manganese (1/5of LC50) for 24hrs"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1820445_MNCL_3.CEL\" OR \"GSM1820444_MNCL_2.CEL\" OR \"GSM1820443_MNCL_1.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "treated with",
+                      "value": "none (untreated control)"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM1820442_C3.CEL\" OR \"GSM1820441_C2.CEL\" OR \"GSM1820440_C1.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-70845",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "6"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1820445 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1820445_MNCL_3.CEL",
+                  "size": 5376466,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1820444 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1820444_MNCL_2.CEL",
+                  "size": 5376602,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1820443 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1820443_MNCL_1.CEL",
+                  "size": 5376662,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1820442 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1820442_C3.CEL",
+                  "size": 5376266,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1820441 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1820441_C2.CEL",
+                  "size": 5376346,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM1820440 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw Data"
+                    }
+                  ],
+                  "path": "GSM1820440_C1.CEL",
+                  "size": 5376346,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1820440_sample_table.txt",
+                  "size": 1107455,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1820441_sample_table.txt",
+                  "size": 1107628,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1820445_sample_table.txt",
+                  "size": 1107458,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1820444_sample_table.txt",
+                  "size": 1107519,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1820443_sample_table.txt",
+                  "size": 1107405,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM1820442_sample_table.txt",
+                  "size": 1107653,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-70845",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-70845.idf.txt",
+                  "size": 3260,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-70845.sdrf.txt",
+                  "size": 5699,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-70845",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-15207"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-70845",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "-"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

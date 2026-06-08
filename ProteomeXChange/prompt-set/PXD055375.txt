@@ -1,0 +1,2 @@
+Title: Targets of histone deacetylase inhibitors in ovarian cancer identified using proteome integral solubility alteration
+Description: Using proteome integral solubility alteration (PISA) to assess HDAC inhibitor targets across ovarian cancer and acute lymphoblastic leukemia cell types

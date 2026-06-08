@@ -1,0 +1,35 @@
+# TITLE: Genomic and transcriptomic profiling expands precision cancer medicine: the WINTHER trial (Lung patients)
+# SUMMARY: Transcriptomic profiling of metastatic NSCLC cancer patients from tumor tissue and organ-matched normal tissue as reference which were taken as part of the WINTHER clinical trial. The organ-matched normal tissues were used in order to eliminate host gene expression variability while discarding most genetic variability between individuals. The goal was to trial was to navigate patients to therapy on the basis of fresh biopsy-derived DNA sequencing or RNA expression
+GPL14550_Group,GPL14550_Accession,GPL14550_Title,GPL14550_Source name 1,GPL14550_Source name 2,GPL14550_Tissue (Ch1),GPL14550_Gender (Ch1),GPL14550_Histology (Ch1),GPL14550_Stage (Ch1),GPL14550_Age (Ch1),GPL14550_Tissue (Ch2)
+-,GSM5231056,Tumor vs Normal patient ID 005,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,52,Bronchial mucosa
+-,GSM5231057,Tumor vs Normal patient ID 007,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,1,Bronchial mucosa
+-,GSM5231058,Tumor vs Normal patient ID 066,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,54,Bronchial mucosa
+-,GSM5231059,Tumor vs Normal patient ID 085,Cancer tissue,Organ-matched normal tissue,Lung,Male,Large cell neuroendocrine carcinoma,3B,57,Bronchial mucosa
+-,GSM5231060,Tumor vs Normal patient ID 088,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,56,Bronchial mucosa
+-,GSM5231061,Tumor vs Normal patient ID 089,Cancer tissue,Organ-matched normal tissue,Lung,Male,Undifferentiated large cell carcinoma,4,43,Bronchial mucosa
+-,GSM5231062,Tumor vs Normal patient ID 096,Cancer tissue,Organ-matched normal tissue,Lung,Male,Squamous undifferentiated cell carcinoma,2B,74,Bronchial mucosa
+-,GSM5231063,Tumor vs Normal patient ID 098,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,2B,70,Bronchial mucosa
+-,GSM5231064,Tumor vs Normal patient ID 100,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,43,Bronchial mucosa
+-,GSM5231065,Tumor vs Normal patient ID 101,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,47,Bronchial mucosa
+-,GSM5231066,Tumor vs Normal patient ID 106,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,61,Bronchial mucosa
+-,GSM5231067,Tumor vs Normal patient ID 118,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,1A,78,Bronchial mucosa
+-,GSM5231068,Tumor vs Normal patient ID 130,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,3A,75,Bronchial mucosa
+-,GSM5231069,Tumor vs Normal patient ID 131,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,50,Bronchial mucosa
+-,GSM5231070,Tumor vs Normal patient ID 133,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,1,Bronchial mucosa
+-,GSM5231071,Tumor vs Normal patient ID 136,Cancer tissue,Organ-matched normal tissue,Lung,Male,Squamous undifferentiated cell carcinoma,3B,79,Bronchial mucosa
+-,GSM5231072,Tumor vs Normal patient ID 150,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,3A,52,Bronchial mucosa
+-,GSM5231073,Tumor vs Normal patient ID 154,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,66,Bronchial mucosa
+-,GSM5231074,Tumor vs Normal patient ID 156,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,71,Bronchial mucosa
+-,GSM5231075,Tumor vs Normal patient ID 165,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,69,Bronchial mucosa
+-,GSM5231076,Tumor vs Normal patient ID 188,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,80,Bronchial mucosa
+-,GSM5231077,Tumor vs Normal patient ID 190,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,50,Bronchial mucosa
+-,GSM5231078,Tumor vs Normal patient ID 209,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,66,Bronchial mucosa
+-,GSM5231079,Tumor vs Normal patient ID 212,Cancer tissue,Organ-matched normal tissue,Lung,Male,NON-MICROCYTIC INDIFFERENTIATED CARCINOMA,4,55,Bronchial mucosa
+-,GSM5231080,Tumor vs Normal patient ID 220,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,68,Bronchial mucosa
+-,GSM5231081,Tumor vs Normal patient ID 235,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,60,Bronchial mucosa
+-,GSM5231082,Tumor vs Normal patient ID 240,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,79,Bronchial mucosa
+-,GSM5231083,Tumor vs Normal patient ID 241,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,59,Bronchial mucosa
+-,GSM5231084,Tumor vs Normal patient ID 284,Cancer tissue,Organ-matched normal tissue,Lung,Male,Adenocarcinoma,4,62,Bronchial mucosa
+-,GSM5231085,Tumor vs Normal patient ID 285,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,66,Bronchial mucosa
+-,GSM5231086,Tumor vs Normal patient ID 291,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,26,Bronchial mucosa
+-,GSM5231087,Tumor vs Normal patient ID 303,Cancer tissue,Organ-matched normal tissue,Lung,Female,Adenocarcinoma,4,44,Bronchial mucosa

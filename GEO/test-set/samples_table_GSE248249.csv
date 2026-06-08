@@ -1,0 +1,45 @@
+# TITLE: Clinical and molecular features of acquired resistance to immunotherapy in non-small cell lung cancer
+# SUMMARY: Although immunotherapy with PD-(L)1 blockade is routine for lung cancer, little is known about acquired resistance. Among 1,201 patients with non-small cell lung cancer (NSCLC) treated with PD-(L)1 blockade, acquired resistance is common, occurring in >60% of initial responders. Acquired resistance shows differential expression of inflammation and interferon (IFN) signaling. Relapsed tumors can be separated by upregulated or stable expression of IFNγ response genes. Upregulation of IFNγ response genes is associated with putative routes of resistance characterized by signatures of persistent IFN signaling, immune dysfunction, and mutations in antigen presentation genes which can be recapitulated in multiple murine models of acquired resistance to PD-(L)1 blockade after in vitro IFNγ treatment. Acquired resistance to PD-(L)1 blockade in NSCLC is associated with an ongoing, but altered IFN response. The persistently inflamed, rather than excluded or deserted, tumor microenvironment of acquired resistance informs therapeutic strategies to effectively reprogram and reverse acquired resistance.
+GPL23126_Group,GPL23126_Accession,GPL23126_Title,GPL23126_Source name,GPL23126_Gender,GPL23126_Tumor site,GPL23126_Tumor type,GPL23126_Timepoint,GPL23126_Sample type
+-,GSM7908985,"Tumor sample from Patient 01, pre-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7908986,"Tumor sample from Patient 01, post-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908987,"Tumor sample from Patient 02, post-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908988,"Tumor sample from Patient 03, post-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908989,"Tumor sample from Patient 04, post-immunotherapy treatment",NSCLC patient,Female,Brain,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908990,"Tumor sample from Patient 05, post-immunotherapy treatment",NSCLC patient,Female,Adrenal,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908991,"Tumor sample from Patient 06, pre-immunotherapy treatment",NSCLC patient,Male,Bone,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7908992,"Tumor sample from Patient 06, post-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908993,"Tumor sample from Patient 07, post-immunotherapy treatment",NSCLC patient,Female,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908994,"Tumor sample from Patient 08, pre-immunotherapy treatment",NSCLC patient,Female,Lung,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7908995,"Tumor sample from Patient 08, post-immunotherapy treatment",NSCLC patient,Female,Liver,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908996,"Tumor sample from Patient 09, pre-immunotherapy treatment",NSCLC patient,Male,Liver,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7908997,"Tumor sample from Patient 09, post-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908998,"Tumor sample from Patient 10, post-immunotherapy treatment",NSCLC patient,Female,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7908999,"Tumor sample from Patient 11, post-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909000,"Tumor sample from Patient 12, pre-immunotherapy treatment",NSCLC patient,Male,Adrenal,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7909001,"Tumor sample from Patient 12, post-immunotherapy treatment",NSCLC patient,Male,Adrenal,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909002,"Tumor sample from Patient 13, post-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909003,"Tumor sample from Patient 14, pre-immunotherapy treatment",NSCLC patient,Male,Brain,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7909004,"Tumor sample from Patient 14, post-immunotherapy treatment",NSCLC patient,Male,Adrenal,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909005,"Tumor sample from Patient 15, post-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909006,"Tumor sample from Patient 16, post-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909007,"Tumor sample from Patient 17, post-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909008,"Tumor sample from Patient 18, post-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909009,"Tumor sample from Patient 19, pre-immunotherapy treatment",NSCLC patient,Female,Adrenal,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7909010,"Tumor sample from Patient 19, post-immunotherapy treatment",NSCLC patient,Female,Adrenal,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909011,"Tumor sample from Patient 20, pre-immunotherapy treatment",NSCLC patient,Female,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7909012,"Tumor sample from Patient 20, post-immunotherapy treatment",NSCLC patient,Female,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909013,"Tumor sample from Patient 21, post-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909014,"Tumor sample from Patient 22, post-immunotherapy treatment",NSCLC patient,Female,Kidney,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909015,"Tumor sample from Patient 23, post-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909016,"Tumor sample from Patient 24, post-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909017,"Tumor sample from Patient 25, pre-immunotherapy treatment",NSCLC patient,Female,Lung,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7909018,"Tumor sample from Patient 25, post-immunotherapy treatment",NSCLC patient,Female,Sternum,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909019,"Tumor sample from Patient 26, pre-immunotherapy treatment",NSCLC patient,Male,Lung,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7909020,"Tumor sample from Patient 26, post-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909021,"Tumor sample from Patient 27, pre-immunotherapy treatment",NSCLC patient,Female,Lung,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7909022,"Tumor sample from Patient 27, post-immunotherapy treatment",NSCLC patient,Female,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909023,"Tumor sample from Patient 28, post-immunotherapy treatment",NSCLC patient,Female,Femor,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7909024,"Tumor sample from Patient 29, pre-immunotherapy treatment",NSCLC patient,Female,Lung,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE
+-,GSM7909025,"Tumor sample from Patient 29, post-immunotherapy treatment",NSCLC patient,Female,Spine,Non-Small Cell Lung Cancer (NSCLC),Post-treatment,FFPE
+-,GSM7911924,"Tumor sample from Patient 23, pre-immunotherapy treatment",NSCLC patient,Male,Lymph node,Non-Small Cell Lung Cancer (NSCLC),Pre-treatment,FFPE

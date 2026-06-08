@@ -1,0 +1,20 @@
+# TITLE: Microarray gene expression profiles of peripheral blood mononuclear cells in patients with advanced stage non-small cell lung cancer treated with first line combination chemotherapy with or without Rikkunshito treatment
+# SUMMARY: We have extended our investigation to advanced-stage NSCLC by analyzing gene expression in peripheral blood mononuclear cells (PBMC) from patients with newly-diagnosed NSCLC and histopathology of either AC or SCC. Furthermore, to establish a direct link between gene expression and chemotherapy treatment, PBMC from patients who have received 4 courses of combination chemotherapy with CDDP and GEM, or combination chemotherapy plus Rikkunshito were obtained, and the effects of Rikkunshito during chemotherapy on global gene expression were evaluated using microarray analyses.
+GPL6104_Group,GPL6104_Accession,GPL6104_Title,GPL6104_Source name,GPL6104_Tumor stage,GPL6104_Sex,GPL6104_Age,GPL6104_Treatment group
+-,GSM1517353,4165638020D patient after chemotherapy alone (CT group),PBMC,3B,M,76,CT
+-,GSM1517354,4165638020E patient after chemotherapy alone (CT group),PBMC,3B,M,35,CT
+-,GSM1517355,4200270040E patient after chemotherapy alone (CT group),PBMC,4,M,48,CT
+-,GSM1517356,4200270040F patient after chemotherapy alone (CT group),PBMC,4,F,52,CT
+-,GSM1517357,4200270050C patient after chemotherapy alone (CT group),PBMC,3B,F,69,CT
+-,GSM1517358,4200270050D patient after chemotherapy alone (CT group),PBMC,3B,M,47,CT
+-,GSM1517359,4200270050F patient after chemotherapy alone (CT group),PBMC,3B,M,51,CT
+-,GSM1517360,4200270050H patient after chemotherapy alone (CT group),PBMC,3B,M,76,CT
+-,GSM1517361,4165638020A patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,4,M,85,CT+R
+-,GSM1517362,4165638020B patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,4,M,66,CT+R
+-,GSM1517363,4165638020C patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,4,F,69,CT+R
+-,GSM1517364,4165638020F patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,3B,M,61,CT+R
+-,GSM1517365,4165638020G patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,3B,M,68,CT+R
+-,GSM1517366,4200270040G patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,4,M,77,CT+R
+-,GSM1517367,4200270040H patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,3B,M,57,CT+R
+-,GSM1517368,4200270050E patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,4,F,60,CT+R
+-,GSM1517369,4200270050G patient after chemotherapy with Chinese herbal Rikkunshito (CT+R group),PBMC,4,F,65,CT+R

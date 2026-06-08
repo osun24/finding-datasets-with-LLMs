@@ -1,0 +1,233 @@
+# TITLE: Modulation of Cystatin A Expression in Human Airway Epithelium Related to Genotype, Smoking COPD and Lung Cancer
+# SUMMARY: Cystatin A (gene: CSTA), is up-regulated in non-small-cell lung cancer (NSCLC) and dysplastic vs normal human bronchial epithelium. In the context that chronic obstructive pulmonary disease (COPD), a small airway epithelium (SAE) disorder, is independently associated with NSCLC (especially squamous cell carcinoma, SCC), but only occurs in a subset of smokers, we hypothesized that genetic variation, smoking and COPD modulate CSTA gene expression levels in SAE, with further up-regulation in SCC. Gene expression was assessed by microarray in SAE of 178 individuals [healthy nonsmokers (n=60), healthy smokers (n=82), and COPD smokers (n=36)], with corresponding large airway epithelium (LAE) data in a subset (n=52). Blood DNA was genotyped by SNP microarray. Twelve SNPs upstream of the CSTA gene were all significantly associated with CSTA SAE gene expression (p<0.04 to 5 x 10-4). CSTA gene expression levels in SAE were higher in COPD smokers (28.4 ± 2.0) than healthy smokers (19.9 ± 1.4, p<10-3), who in turn had higher levels than nonsmokers (16.1 ± 1.1, p<0.04). CSTA LAE gene expression was also smoking-responsive (p<10-3). Using comparable publicly available NSCLC expression data, CSTA was up-regulated in SCC vs LAE (p<10-2) and down-regulated in adenocarcinoma vs SAE (p<10-7). All phenotypes were associated with significantly different proportional gene expression of CSTA to cathepsins. The data demonstrate that regulation of CSTA expression in human airway epithelium is influenced by genetic variability, smoking, and COPD, and is further up-regulated in SCC, all of which should be taken into account when considering the role of CSTA in NSCLC pathogenesis.
+GPL570_Group,GPL570_Accession,GPL570_Title,GPL570_Source name,GPL570_Department of genetic medicine id,GPL570_Smoking status,GPL570_Copd status,GPL570_Ethnicity,GPL570_Serum 25-oh-d,GPL6804_Group,GPL6804_Accession,GPL6804_Title,GPL6804_Source name,GPL6804_Department of genetic medicine id,GPL6804_Smoking status,GPL6804_Ethnicity
+-,GSM549645,DGM-00028 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00028,S,yes,,,-,GSM549823,DGM-00028_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00028,S,
+-,GSM549646,DGM-00038 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00038,S,yes,Afr,,-,GSM549824,DGM-00038_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00038,S,Afr
+-,GSM549647,DGM-00060 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00060,S,yes,,,-,GSM549825,DGM-00060_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00060,S,
+-,GSM549648,DGM-00061 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00061,S,yes,,,-,GSM549826,DGM-00061_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00061,S,
+-,GSM549649,DGM-00104 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00104,S,yes,,,-,GSM549827,DGM-00104 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00104,S,
+-,GSM549650,DGM-10131 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10131,S,yes,,,-,GSM549828,DGM-10131_gt,Blood from healthy nonsmokers or healthy smokers,DGM-10131,S,
+-,GSM549651,DGM-00167 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00167,S,yes,,,-,GSM549829,DGM-00171_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00171,S,
+-,GSM549652,DGM-00171 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00171,S,yes,,,-,GSM549830,DGM-00262_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00262,S,
+-,GSM549653,DGM-00262 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00262,S,yes,,,-,GSM549831,DGM-00313_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00313,S,
+-,GSM549654,DGM-00313 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00313,S,yes,,,-,GSM549832,DGM-10287 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-10287,S,
+-,GSM549655,DGM-10287 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10287,S,yes,,,-,GSM549833,DGM-00382 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00382,S,
+-,GSM549656,DGM-00382 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00382,S,yes,,,-,GSM549834,DGM-10139_gt,Blood from healthy nonsmokers or healthy smokers,DGM-10139,S,
+-,GSM549657,DGM-10139 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10139,S,yes,,,-,GSM549835,DGM-00471_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00471,S,
+-,GSM549658,DGM-00471 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00471,S,yes,,,-,GSM549836,DGM-00512 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00512,S,
+-,GSM549659,DGM-00512 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00512,S,yes,,,-,GSM549837,DGM-10152_gt,Blood from healthy nonsmokers or healthy smokers,DGM-10152,S,
+-,GSM549660,DGM-02088 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-02088,S,yes,,,-,GSM549838,DGM-00632_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00632,S,
+-,GSM549661,DGM-10152 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10152,S,yes,,,-,GSM549839,DGM-00683 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00683,S,
+-,GSM549662,DGM-00632 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00632,S,yes,,,-,GSM549840,DGM-10404_gt,Blood from healthy nonsmokers or healthy smokers,DGM-10404,S,
+-,GSM549663,DGM-00683 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00683,S,yes,,,-,GSM549841,DGM-00791_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00791,S,
+-,GSM549664,DGM-10404 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10404,S,yes,,,-,GSM549842,DGM-10132_gt,Blood from healthy nonsmokers or healthy smokers,DGM-10132,S,
+-,GSM549665,DGM-00791 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-00791,S,yes,,,-,GSM549843,DGM-00029_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00029,NS,Afr
+-,GSM549666,DGM-10132 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10132,S,yes,,,-,GSM549844,DGM-00030_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00030,NS,Eur
+-,GSM549667,DGM-10135 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10135,S,yes,,,-,GSM549845,DGM-00035_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00035,NS,Afr
+-,GSM549668,DGM-01275 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-01275,S,yes,,,-,GSM549846,DGM-00036_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00036,NS,Afr
+-,GSM549669,DGM-10144 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10144,S,yes,,,-,GSM549847,DGM-00041_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00041,NS,Afr
+-,GSM549670,DGM-10130 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10130,S,yes,,,-,GSM549848,DGM-00044_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00044,NS,Afr
+-,GSM549671,DGM-10406 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-10406,S,yes,,,-,GSM549849,DGM-00052_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00052,NS,Eur
+-,GSM549672,DGM-01607 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-01607,S,yes,,,-,GSM549850,DGM-00073_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00073,NS,Eur
+-,GSM549673,DGM-01737 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-01737,S,yes,,,-,GSM549851,DGM-00069_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00069,NS,Eur
+-,GSM549674,DGM-01749 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-01749,S,yes,,,-,GSM549852,DGM-00072_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00072,NS,Afr
+-,GSM549675,DGM-01772 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-01772,S,yes,,,-,GSM549853,DGM-00078_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00078,NS,Eur
+-,GSM549676,DGM-01081 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-01081,S,yes,,,-,GSM549854,DGM-00080 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00080,NS,
+-,GSM549677,DGM-01827 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-01827,S,yes,,,-,GSM549855,DGM-00123 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00123,NS,Afr
+-,GSM549678,DGM-02093 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-02093,S,yes,,,-,GSM549856,DGM-00244_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00244,NS,Afr
+-,GSM549679,DGM-02109 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-02109,S,yes,,,-,GSM549857,DGM-00249_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00249,NS,Eur
+-,GSM549680,DGM-02124 [gene_expr],small airway epithelium from healthy nonsmokers or smokers with COPD,DGM-02124,S,yes,,,-,GSM549858,DGM-00268 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00268,NS,
+-,GSM549681,DGM-00029 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00029,NS,,Afr,,-,GSM549859,DGM-00416_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00416,NS,Eur
+-,GSM549682,DGM-00030,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00030,NS,,Eur,mid vitamin D,-,GSM549860,DGM-00342_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00342,NS,
+-,GSM549683,DGM-00035 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00035,NS,,Afr,,-,GSM549861,DGM-00465_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00465,NS,Afr
+-,GSM549684,DGM-00036 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00036,NS,,Afr,,-,GSM549862,DGM-00530_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00530,NS,Eur
+-,GSM549685,DGM-00041 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00041,NS,,Afr,,-,GSM549863,DGM-00529_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00529,NS,
+-,GSM549686,DGM-00044 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00044,NS,,Afr,,-,GSM549864,DGM-00548_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00548,NS,Eur
+-,GSM549687,DGM-00052 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00052,NS,,Eur,,-,GSM549865,DGM-00551_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00551,NS,Eur
+-,GSM549688,DGM-00073 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00073,NS,,Eur,,-,GSM549866,DGM-00553_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00553,NS,Eur
+-,GSM549689,DGM-00069 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00069,NS,,Eur,,-,GSM549867,DGM-00568 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00568,NS,
+-,GSM549690,DGM-00072 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00072,NS,,Afr,,-,GSM549868,DGM-00625_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00625,NS,Eur
+-,GSM549691,DGM-00078 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00078,NS,,Eur,,-,GSM549869,DGM-00661_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00661,NS,Afr
+-,GSM549692,DGM-00080 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00080,NS,,,,-,GSM549870,DGM-00685_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00685,NS,Afr
+-,GSM549693,DGM-00082 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00082,NS,,,,-,GSM549871,DGM-00696_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00696,NS,Afr
+-,GSM549694,DGM-00123 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00123,NS,,Afr,,-,GSM549872,DGM-00757_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00757,NS,Afr
+-,GSM549695,DGM-00244,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00244,NS,,Afr,mid vitamin D,-,GSM549873,DGM-00751_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00751,NS,Afr
+-,GSM549696,DGM-00249,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00249,NS,,Eur,high vitamin D,-,GSM549874,DGM-00774 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00774,NS,
+-,GSM549697,DGM-00268_sm,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00268,NS,,,low vitamin D,-,GSM549875,DGM-00778_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00778,NS,Eur
+-,GSM549698,DGM-00416,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00416,NS,,Eur,high vitamin D,-,GSM549876,DGM-00785 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00785,NS,
+-,GSM549699,DGM-00342_sm,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00342,NS,,,mid vitamin D,-,GSM549877,DGM-00795_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00795,NS,Afr
+-,GSM549700,DGM-00465,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00465,NS,,Afr,low vitamin D,-,GSM549878,DGM-00814_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00814,NS,Eur
+-,GSM549701,DGM-00530,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00530,NS,,Eur,high vitamin D,-,GSM549879,DGM-00936_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00936,NS,Afr
+-,GSM549702,DGM-00529 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00529,NS,,,,-,GSM549880,DGM-01141_gt,Blood from healthy nonsmokers or healthy smokers,DGM-01141,NS,Eur
+-,GSM549703,DGM-00548,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00548,NS,,Eur,mid vitamin D,-,GSM549881,DGM-01150_gt,Blood from healthy nonsmokers or healthy smokers,DGM-01150,NS,Afr
+-,GSM549704,DGM-00551 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00551,NS,,Eur,,-,GSM549882,DGM-01283 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-01283,NS,
+-,GSM549705,DGM-00553 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00553,NS,,Eur,,-,GSM549883,DGM-01330_gt,Blood from healthy nonsmokers or healthy smokers,DGM-01330,NS,Afr
+-,GSM549706,DGM-00568_sm,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00568,NS,,,low vitamin D,-,GSM549884,DGM-01521_gt,Blood from healthy nonsmokers or healthy smokers,DGM-01521,NS,
+-,GSM549707,DGM-00625,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00625,NS,,Eur,high vitamin D,-,GSM549885,DGM-01540_gt,Blood from healthy nonsmokers or healthy smokers,DGM-01540,NS,Afr
+-,GSM549708,DGM-00661,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00661,NS,,Afr,low vitamin D,-,GSM549886,DGM-01561_gt,Blood from healthy nonsmokers or healthy smokers,DGM-01561,NS,Afr
+-,GSM549709,DGM-00685,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00685,NS,,Afr,mid vitamin D,-,GSM549887,DGM-00004_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00004,S,Afr
+-,GSM549710,DGM-00696 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00696,NS,,Afr,,-,GSM549888,DGM-00013_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00013,S,Eur
+-,GSM549711,DGM-00757,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00757,NS,,Afr,low vitamin D,-,GSM549889,DGM-00205_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00205,S,Afr
+-,GSM549712,DGM-00751 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00751,NS,,Afr,,-,GSM549890,DGM-00206_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00206,S,Eur
+-,GSM549713,DGM-00774 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00774,NS,,,,-,GSM549891,DGM-00216_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00216,S,Eur
+-,GSM549714,DGM-00778,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00778,NS,,Eur,high vitamin D,-,GSM549892,DGM-00193_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00193,S,Afr
+-,GSM549715,DGM-00785_sm,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00785,NS,,,low vitamin D,-,GSM549893,DGM-00224_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00224,S,Afr
+-,GSM549716,DGM-00795,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00795,NS,,Afr,high vitamin D,-,GSM549894,DGM-00273_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00273,S,Afr
+-,GSM549717,DGM-00814 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00814,NS,,Eur,,-,GSM549895,DGM-00278_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00278,S,Afr
+-,GSM549718,DGM-00906 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00906,NS,,,,-,GSM549896,DGM-00300_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00300,S,Eur
+-,GSM549719,DGM-00936,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00936,NS,,Afr,low vitamin D,-,GSM549897,DGM-00332_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00332,S,Afr
+-,GSM549720,DGM-01141,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01141,NS,,Eur,high vitamin D,-,GSM549898,DGM-00413 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00413,S,
+-,GSM549721,DGM-01150,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01150,NS,,Afr,low vitamin D,-,GSM549899,DGM-00446_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00446,S,Afr
+-,GSM549722,DGM-01270,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01270,NS,,,,-,GSM549900,DGM-00447_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00447,S,Afr
+-,GSM549723,DGM-01283_sm,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01283,NS,,,low vitamin D,-,GSM549901,DGM-00451_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00451,S,Afr
+-,GSM549724,DGM-01330,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01330,NS,,Afr,mid vitamin D,-,GSM549902,DGM-00464_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00464,S,Afr
+-,GSM549725,DGM-01505 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01505,NS,,,,-,GSM549903,DGM-00469_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00469,S,Eur
+-,GSM549726,DGM-01521 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01521,NS,,,,-,GSM549904,DGM-00474_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00474,S,Afr
+-,GSM549727,DGM-01539_sm,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01539,NS,,,high vitamin D,-,GSM549905,DGM-00537_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00537,S,Afr
+-,GSM549728,DGM-01540,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01540,NS,,Afr,mid vitamin D,-,GSM549906,DGM-00552_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00552,S,Eur
+-,GSM549729,DGM-01558 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01558,NS,,,,-,GSM549907,DGM-00567_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00567,S,Afr
+-,GSM549730,DGM-01561,small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01561,NS,,Afr,mid vitamin D,-,GSM549908,DGM-00583 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00583,S,
+-,GSM549731,DGM-01585 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01585,NS,,,,-,GSM549909,DGM-00593_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00593,S,Afr
+-,GSM549732,DGM-01590 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01590,NS,,,,-,GSM549910,DGM-00612_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00612,S,Afr
+-,GSM549733,DGM-01589 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01589,NS,,,,-,GSM549911,DGM-00613_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00613,S,
+-,GSM549734,DGM-01602 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01602,NS,,,,-,GSM549912,DGM-00626_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00626,S,Eur
+-,GSM549735,DGM-00564 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00564,NS,,,,-,GSM549913,DGM-00641 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00641,S,
+-,GSM549736,DGM-01635 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01635,NS,,,,-,GSM549914,DGM-00663 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00663,S,
+-,GSM549737,DGM-01644 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01644,NS,,,,-,GSM549915,DGM-00703_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00703,S,Eur
+-,GSM549738,DGM-01682 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01682,NS,,,,-,GSM549916,DGM-00708_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00708,S,Afr
+-,GSM549739,DGM-01717 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01717,NS,,,,-,GSM549917,DGM-00732_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00732,S,
+-,GSM549740,DGM-01774 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01774,NS,,,,-,GSM549918,DGM-00752_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00752,S,Afr
+-,GSM549741,DGM-00004 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00004,S,,Afr,,-,GSM549919,DGM-00743_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00743,S,Afr
+-,GSM549742,DGM-00013 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00013,S,,Eur,,-,GSM549920,DGM-00761_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00761,S,Afr
+-,GSM549743,DGM-00205 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00205,S,,Afr,,-,GSM549921,DGM-00764_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00764,S,Afr
+-,GSM549744,DGM-00206 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00206,S,,Eur,,-,GSM549922,DGM-00797_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00797,S,Afr
+-,GSM549745,DGM-00216 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00216,S,,Eur,,-,GSM549923,DGM-00798_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00798,S,Afr
+-,GSM549746,DGM-00193 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00193,S,,Afr,,-,GSM549924,DGM-00889_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00889,S,Afr
+-,GSM549747,DGM-00224 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00224,S,,Afr,,-,GSM549925,DGM-00914_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00914,S,Eur
+-,GSM549748,DGM-00273 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00273,S,,Afr,,-,GSM549926,DGM-00544 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00544,S,
+-,GSM549749,DGM-00278 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00278,S,,Afr,,-,GSM549927,DGM-01089_gt,Blood from healthy nonsmokers or healthy smokers,DGM-01089,S,Afr
+-,GSM549750,DGM-00300 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00300,S,,Eur,,-,GSM549928,DGM-00136_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00136,S,Eur
+-,GSM549751,DGM-00332 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00332,S,,Afr,,-,GSM549929,DGM-00231_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00231,S,Eur
+-,GSM549752,DGM-00413 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00413,S,,,,-,GSM549930,DGM-00428 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00428,S,
+-,GSM549753,DGM-00446 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00446,S,,Afr,,-,GSM549931,DGM-00601_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00601,S,Afr
+-,GSM549754,DGM-00447 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00447,S,,Afr,,-,GSM549932,DGM-00668_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00668,S,
+-,GSM549755,DGM-00451 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00451,S,,Afr,,-,GSM549933,DGM-00702 [genotype],Blood from healthy nonsmokers or healthy smokers,DGM-00702,S,
+-,GSM549756,DGM-00464 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00464,S,,Afr,,-,GSM549934,DGM-00776_gt,Blood from healthy nonsmokers or healthy smokers,DGM-00776,S,Afr
+-,GSM549757,DGM-00469 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00469,S,,Eur,,,,,,,,
+-,GSM549758,DGM-00474 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00474,S,,Afr,,,,,,,,
+-,GSM549759,DGM-00515 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00515,S,,,,,,,,,,
+-,GSM549760,DGM-00537 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00537,S,,Afr,,,,,,,,
+-,GSM549761,DGM-00552 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00552,S,,Eur,,,,,,,,
+-,GSM549762,DGM-00567 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00567,S,,Afr,,,,,,,,
+-,GSM549763,DGM-00583 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00583,S,,,,,,,,,,
+-,GSM549764,DGM-00593 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00593,S,,Afr,,,,,,,,
+-,GSM549765,DGM-00599 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00599,S,,,,,,,,,,
+-,GSM549766,DGM-00612 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00612,S,,Afr,,,,,,,,
+-,GSM549767,DGM-00613 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00613,S,,,,,,,,,,
+-,GSM549768,DGM-00626 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00626,S,,Eur,,,,,,,,
+-,GSM549769,DGM-00641 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00641,S,,,,,,,,,,
+-,GSM549770,DGM-00663 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00663,S,,,,,,,,,,
+-,GSM549771,DGM-00703 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00703,S,,Eur,,,,,,,,
+-,GSM549772,DGM-00708 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00708,S,,Afr,,,,,,,,
+-,GSM549773,DGM-00732 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00732,S,,,,,,,,,,
+-,GSM549774,DGM-00752 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00752,S,,Afr,,,,,,,,
+-,GSM549775,DGM-00743 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00743,S,,Afr,,,,,,,,
+-,GSM549776,DGM-00761 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00761,S,,Afr,,,,,,,,
+-,GSM549777,DGM-00764 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00764,S,,Afr,,,,,,,,
+-,GSM549778,DGM-00797 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00797,S,,Afr,,,,,,,,
+-,GSM549779,DGM-00798 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00798,S,,Afr,,,,,,,,
+-,GSM549780,DGM-00889 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00889,S,,Afr,,,,,,,,
+-,GSM549781,DGM-00914 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00914,S,,Eur,,,,,,,,
+-,GSM549782,DGM-00544 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00544,S,,,,,,,,,,
+-,GSM549783,DGM-01011 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01011,S,,,,,,,,,,
+-,GSM549784,DGM-01015 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01015,S,,,,,,,,,,
+-,GSM549785,DGM-01022 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01022,S,,,,,,,,,,
+-,GSM549786,DGM-01025 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01025,S,,,,,,,,,,
+-,GSM549787,DGM-01050 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01050,S,,,,,,,,,,
+-,GSM549788,DGM-01089 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01089,S,,Afr,,,,,,,,
+-,GSM549789,DGM-01090 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01090,S,,,,,,,,,,
+-,GSM549790,DGM-01107 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01107,S,,,,,,,,,,
+-,GSM549791,DGM-01111 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01111,S,,,,,,,,,,
+-,GSM549792,DGM-01135 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01135,S,,,,,,,,,,
+-,GSM549793,DGM-01172 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01172,S,,,,,,,,,,
+-,GSM549794,DGM-01254 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01254,S,,,,,,,,,,
+-,GSM549795,DGM-01266 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01266,S,,,,,,,,,,
+-,GSM549796,DGM-01267 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01267,S,,,,,,,,,,
+-,GSM549797,DGM-01273 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01273,S,,,,,,,,,,
+-,GSM549798,DGM-01284 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01284,S,,,,,,,,,,
+-,GSM549799,DGM-01349 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01349,S,,,,,,,,,,
+-,GSM549800,DGM-01353 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01353,S,,,,,,,,,,
+-,GSM549801,DGM-01525 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01525,S,,,,,,,,,,
+-,GSM549802,DGM-01530 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01530,S,,,,,,,,,,
+-,GSM549803,DGM-01547 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01547,S,,,,,,,,,,
+-,GSM549804,DGM-01616 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01616,S,,,,,,,,,,
+-,GSM549805,DGM-01634 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01634,S,,,,,,,,,,
+-,GSM549806,DGM-01642 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01642,S,,,,,,,,,,
+-,GSM549807,DGM-01698 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01698,S,,,,,,,,,,
+-,GSM549808,DGM-01556 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01556,S,,,,,,,,,,
+-,GSM549809,DGM-01775 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01775,S,,,,,,,,,,
+-,GSM549810,DGM-01790 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01790,S,,,,,,,,,,
+-,GSM549811,DGM-01910 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01910,S,,,,,,,,,,
+-,GSM549812,DGM-01973 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01973,S,,,,,,,,,,
+-,GSM549813,DGM-01980 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01980,S,,,,,,,,,,
+-,GSM549814,DGM-01242 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01242,S,,,,,,,,,,
+-,GSM549815,DGM-00136 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00136,S,,Eur,,,,,,,,
+-,GSM549816,DGM-00231 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00231,S,,Eur,,,,,,,,
+-,GSM549817,DGM-00428 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00428,S,,,,,,,,,,
+-,GSM549818,DGM-00601 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00601,S,,Afr,,,,,,,,
+-,GSM549819,DGM-00668 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00668,S,,,,,,,,,,
+-,GSM549820,DGM-00702 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00702,S,,,,,,,,,,
+-,GSM549821,DGM-00776 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-00776,S,,Afr,,,,,,,,
+-,GSM549822,DGM-01142 [gene_expr],small airway epithelium from healthy nonsmokers or healthy smokers,DGM-01142,S,,,,,,,,,,
+-,GSM631340,DGM-00041_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631341,DGM-00044_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631342,DGM-00052_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631343,DGM-00073_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631344,DGM-00192_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631345,DGM-00249_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631346,DGM-00268_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631347,DGM-00314_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631348,DGM-00342_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631349,DGM-00433_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631350,DGM-00465_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631351,DGM-00530_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631352,DGM-00529_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631353,DGM-00551_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631354,DGM-00568_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631355,DGM-00661_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631356,DGM-00685_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631357,DGM-00696_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631358,DGM-00757_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631359,DGM-00751_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631360,DGM-00778_lg,large airway epithelium brushing,,nonsmoker,,,,,,,,,,
+-,GSM631361,DGM-00013_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631362,DGM-00019_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631363,DGM-00127_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631364,DGM-00205_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631365,DGM-00273_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631366,DGM-00278_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631367,DGM-00300_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631368,DGM-00321_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631369,DGM-00332_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631370,DGM-00413_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631371,DGM-00446_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631372,DGM-00447_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631373,DGM-00451_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631374,DGM-00464_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631375,DGM-00469_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631376,DGM-00515_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631377,DGM-00537_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631378,DGM-00552_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631379,DGM-00567_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631380,DGM-00583_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631381,DGM-00599_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631382,DGM-00612_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631383,DGM-00613_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631384,DGM-00626_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631385,DGM-00641_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631386,DGM-00663_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631387,DGM-00708_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631388,DGM-00732_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631389,DGM-00752_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631390,DGM-00761_lg,large airway epithelium brushing,,smoker,,,,,,,,,,
+-,GSM631391,DGM-00764_lg,large airway epithelium brushing,,smoker,,,,,,,,,,

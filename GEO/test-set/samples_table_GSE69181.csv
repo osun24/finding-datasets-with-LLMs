@@ -1,0 +1,15 @@
+# TITLE: Expression data for EGFR TKI resistant EGFR-mutated Cells
+# SUMMARY: Intratumoral heterogeneity in EGFR mutant NSCLC results in divergent resistance mechanisms in response to EGFR tyrosine kinase inhibition We used microarrays to investigate the gene expression underlying EGFR TKI resistance with a mesenchymal phenotype.
+GPL571_Group,GPL571_Accession,GPL571_Title,GPL571_Source name,GPL571_Resistance,GPL571_Cell line,GPL571_Cell type
+-,GSM1694864,HCC827_Rep1,NSCLC cells,EGFR TKI resistant,HCC827,Parental Cells
+-,GSM1694865,HCC827_Rep2,NSCLC cells,EGFR TKI resistant,HCC827,Parental Cells
+-,GSM1694866,HCC827_Rep3,NSCLC cells,EGFR TKI resistant,HCC827,Parental Cells
+-,GSM1694867,ERC4_Rep1,NSCLC cells,EGFR TKI resistant,ERC4,erlotinib resistant
+-,GSM1694868,ERC4_Rep2,NSCLC cells,EGFR TKI resistant,ERC4,erlotinib resistant
+-,GSM1694869,ERC4_Rep3,NSCLC cells,EGFR TKI resistant,ERC4,erlotinib resistant
+-,GSM1694870,HCC827NT_Rep1,NSCLC cells,EGFR TKI resistant,HCC827,HCC827 Cells transduced with lentivirus coding for non-target shRNA (control)
+-,GSM1694871,HCC827NT_Rep2,NSCLC cells,EGFR TKI resistant,HCC827,HCC827 Cells transduced with lentivirus coding for non-target shRNA (control)
+-,GSM1694872,HCC827NT_Rep3,NSCLC cells,EGFR TKI resistant,HCC827,HCC827 Cells transduced with lentivirus coding for non-target shRNA (control)
+-,GSM1694873,HCC827_Esh9-1_Rep1,NSCLC cells,EGFR TKI resistant,HCC827,HCC827 Cells transduced with lentivirus coding for shRNA targeting EGFR
+-,GSM1694874,HCC827_Esh9-1_Rep2,NSCLC cells,EGFR TKI resistant,HCC827,HCC827 Cells transduced with lentivirus coding for shRNA targeting EGFR
+-,GSM1694875,HCC827_Esh9-1_Rep3,NSCLC cells,EGFR TKI resistant,HCC827,HCC827 Cells transduced with lentivirus coding for shRNA targeting EGFR

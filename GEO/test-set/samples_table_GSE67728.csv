@@ -1,0 +1,7 @@
+# TITLE: Antagonizing miR-128 abrogates chemoresistance-associated metastasis and is therapeutic in non-small cell lung cancer [mRNA]
+# SUMMARY: This experiment is designed to evaluate gene expression alteration and significant pathway(s) following miR-128 transduction in A549 lung cancer cells. We find several significant pathways, including the Wnt/β-catenin signaling and TGF-β signaling activated by miR-128 overexpression.
+GPL6480_Group,GPL6480_Accession,GPL6480_Title,GPL6480_Source name,GPL6480_Cell line,GPL6480_Stable transduction,GPL6480_Cell type
+-,GSM1654880,A549_Vector Rep_1,A549 with retroviral vector stably transduced,A549,retroviral vector,non-small cell lung cancer (NSCLC) cell line
+-,GSM1654881,A549_Vector Rep_2,A549 with retroviral vector stably transduced,A549,retroviral vector,non-small cell lung cancer (NSCLC) cell line
+-,GSM1654882,A549_miR-128 Rep_1,A549 with miR-128 precursor stably transduced,A549,miR-128 precursor,highly aggressive NSCLC cell line
+-,GSM1654883,A549_miR-128 Rep_2,A549 with miR-128 precursor stably transduced,A549,miR-128 precursor,highly aggressive NSCLC cell line

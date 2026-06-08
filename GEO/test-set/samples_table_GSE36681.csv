@@ -1,0 +1,209 @@
+# TITLE: Increased miR-708 expression in NSCLC and its association with poor survival in lung adenocarcinoma from Never Smokers
+# SUMMARY: We demonstrate that miR-708 is one of the most highly overexpressed miRNAs in non-small cell lung cancer. High level of miR-708 in tumor is also associated with a reduced overall survival in lung adenocarcinomas from never smokers. Functionally, miR-708 overexpression increases the proliferation, migration, and invasion in cultured cells and down regulates TMEM88, a negative regulator of Wnt signaling. Jointly, our results support an oncogenic role of miR-708 by activating Wnt signaling pathway to promote lung cancer progression.
+GPL8179_Group,GPL8179_Accession,GPL8179_Title,GPL8179_Source name,GPL8179_Tissue origin,GPL8179_Cancer type,GPL8179_Tissue type,GPL8179_Sample type
+-,GSM898517,SAMPLE 1_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898518,SAMPLE 2_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898519,SAMPLE 3_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898520,SAMPLE 4_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898521,SAMPLE 5_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898522,SAMPLE 6_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898523,SAMPLE 7_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898524,SAMPLE 8_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898525,SAMPLE 9_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898526,SAMPLE 10_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898527,SAMPLE 11_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898528,SAMPLE 12_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898529,SAMPLE 13_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898530,SAMPLE 14_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898531,SAMPLE 15_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898532,SAMPLE 16_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898533,SAMPLE 17_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898534,SAMPLE 18_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898535,SAMPLE 19_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898536,SAMPLE 20_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898537,SAMPLE 21_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898538,SAMPLE 22_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898539,SAMPLE 23_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898540,SAMPLE 24_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898541,SAMPLE 25_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898542,SAMPLE 26_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898543,SAMPLE 27_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898544,SAMPLE 28_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898545,SAMPLE 29_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898546,SAMPLE 30_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898547,SAMPLE 31_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898548,SAMPLE 32_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898549,SAMPLE 33_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898550,SAMPLE 34_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898551,SAMPLE 35_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898552,SAMPLE 36_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898553,SAMPLE 37_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898554,SAMPLE 38_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898555,SAMPLE 39_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898556,SAMPLE 40_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898557,SAMPLE 41_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898558,SAMPLE 42_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898559,SAMPLE 43_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898560,SAMPLE 44_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898561,SAMPLE 45_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898562,SAMPLE 46_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898563,SAMPLE 47_miRNA_tumor [FFPE],miRNA_FFPE_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),"formalin-fixed, paraffin-embedded (FFPE) tumor tissues",
+-,GSM898564,SAMPLE 48_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898565,SAMPLE 49_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898566,SAMPLE 50_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898567,SAMPLE 51_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898568,SAMPLE 52_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898569,SAMPLE 53_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898570,SAMPLE 54_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898571,SAMPLE 55_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898572,SAMPLE 56_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898573,SAMPLE 57_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898574,SAMPLE 58_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898575,SAMPLE 59_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898576,SAMPLE 60_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898577,SAMPLE 61_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898578,SAMPLE 62_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898579,SAMPLE 63_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898580,SAMPLE 64_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898581,SAMPLE 65_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898582,SAMPLE 66_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898583,SAMPLE 67_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898584,SAMPLE 68_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898585,SAMPLE 69_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898586,SAMPLE 70_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898587,SAMPLE 71_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898588,SAMPLE 72_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898589,SAMPLE 73_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898590,SAMPLE 74_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898591,SAMPLE 75_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898592,SAMPLE 76_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898593,SAMPLE 77_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898594,SAMPLE 78_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898595,SAMPLE 79_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898596,SAMPLE 80_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898597,SAMPLE 81_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898598,SAMPLE 82_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898599,SAMPLE 83_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898600,SAMPLE 84_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898601,SAMPLE 85_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898602,SAMPLE 86_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898603,SAMPLE 87_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898604,SAMPLE 88_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898605,SAMPLE 89_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898606,SAMPLE 90_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898607,SAMPLE 91_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898608,SAMPLE 92_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898609,SAMPLE 93_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM898610,SAMPLE 94_miRNA_normal [FFPE],miRNA_FFPE_normal,uninvolved lung,,"formalin-fixed, paraffin-embedded (FFPE) normal tissues",
+-,GSM900209,SAMPLE 1_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900210,SAMPLE 2_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900211,SAMPLE 3_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900212,SAMPLE 4_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900213,SAMPLE 5_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900214,SAMPLE 6_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900215,SAMPLE 7_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900216,SAMPLE 8_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900217,SAMPLE 9_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900218,SAMPLE 10_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900219,SAMPLE 11_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900220,SAMPLE 12_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900221,SAMPLE 13_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900222,SAMPLE 14_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900223,SAMPLE 15_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900224,SAMPLE 16_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900225,SAMPLE 17_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900226,SAMPLE 18_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900227,SAMPLE 19_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900228,SAMPLE 20_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900229,SAMPLE 21_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900230,SAMPLE 22_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900231,SAMPLE 23_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900232,SAMPLE 24_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900233,SAMPLE 25_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900234,SAMPLE 26_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900235,SAMPLE 27_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900236,SAMPLE 28_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900237,SAMPLE 29_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900238,SAMPLE 30_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900239,SAMPLE 31_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900240,SAMPLE 32_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900241,SAMPLE 33_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900242,SAMPLE 34_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900243,SAMPLE 35_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900244,SAMPLE 36_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900245,SAMPLE 37_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900246,SAMPLE 38_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900247,SAMPLE 39_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900248,SAMPLE 40_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900249,SAMPLE 41_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900250,SAMPLE 42_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900251,SAMPLE 43_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900252,SAMPLE 44_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900253,SAMPLE 45_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900254,SAMPLE 46_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900255,SAMPLE 47_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900256,SAMPLE 48_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900257,SAMPLE 49_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900258,SAMPLE 50_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900259,SAMPLE 51_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900260,SAMPLE 52_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900261,SAMPLE 53_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900262,SAMPLE 54_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900263,SAMPLE 55_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900264,SAMPLE 56_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900265,SAMPLE 57_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900266,SAMPLE 58_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900267,SAMPLE 59_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900268,SAMPLE 60_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900269,SAMPLE 61_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900270,SAMPLE 62_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900271,SAMPLE 63_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900272,SAMPLE 64_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900273,SAMPLE 65_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900274,SAMPLE 66_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900275,SAMPLE 67_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900276,SAMPLE 68_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900277,SAMPLE 69_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900278,SAMPLE 70_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900279,SAMPLE 71_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900280,SAMPLE 72_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900281,SAMPLE 73_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900282,SAMPLE 74_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900283,SAMPLE 75_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900284,SAMPLE 76_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900285,SAMPLE 77_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900286,SAMPLE 78_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900287,SAMPLE 79_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900288,SAMPLE 80_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900289,SAMPLE 81_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900290,SAMPLE 82_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900291,SAMPLE 83_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900292,SAMPLE 84_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900293,SAMPLE 85_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900294,SAMPLE 86_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900295,SAMPLE 87_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900296,SAMPLE 88_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900297,SAMPLE 89_miRNA_Tumor [FF],miRNA_FF_tumor,lung adenocarcinoma,non-small-cell lung cancer (NSCLC),,fresh-frozen (FF) tumor tissue
+-,GSM900298,SAMPLE 90_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900299,SAMPLE 91_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900300,SAMPLE 92_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900301,SAMPLE 93_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900302,SAMPLE 94_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900303,SAMPLE 95_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900304,SAMPLE 96_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900305,SAMPLE 97_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900306,SAMPLE 98_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900307,SAMPLE 99_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900308,SAMPLE 100_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900309,SAMPLE 101_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900310,SAMPLE 102_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900311,SAMPLE 103_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900312,SAMPLE 104_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900313,SAMPLE 105_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900314,SAMPLE 106_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900315,SAMPLE 107_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900316,SAMPLE 108_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900317,SAMPLE 109_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900318,SAMPLE 110_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900319,SAMPLE 111_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue
+-,GSM900320,SAMPLE 112_miRNA_Normal [FF],miRNA_FF_normal,uninvolved lung,,,fresh-frozen (FF) normal tissue

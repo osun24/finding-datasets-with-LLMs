@@ -1,0 +1,1996 @@
+{
+  "accno": "E-GEOD-29889",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Gene expression of a variety of Huh-7 derived hepatoma cells and their susceptibility to infection by JHF1 HCV in the HCV cell culture system."
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2011-06-11"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-GEOD-29889"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-GEOD-29889",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Gene expression of a variety of Huh-7 derived hepatoma cells and their susceptibility to infection by JHF1 HCV in the HCV cell culture system."
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Hepatitis C virus (HCV) is a global problem. To better understand HCV infection researchers employ in vitro HCV cell-culture (HCVcc) systems that use Huh-7 derived hepatoma cells that are particularly permissive to HCV infection. A variety of hyper-permissive cells have been subcloned for this purpose. In addition, subclones of Huh-7 which have evolved resistance to HCV are available. However, the mechanisms of susceptibility or resistance to infection among these cells have not been fully determined.   In order to elucidate mechanisms by which hepatoma cells are susceptible or resistant to HCV infection we performed genome-wide expression analyses of six Huh-7 derived cell cultures (Huh-7, Huh-7.5.1, Huh-7.5.1c2, R1.09, R1.10 and R2.1) R that have different levels of permissiveness to infection. A great number of genes, representing a wide spectrum of functions are differentially expressed between cells. To focus our investigation, we identify host proteins from HCV replicase complexes, perform gene expression analysis of three HCV infected cells (infected Huh-7, Huh-7.5.1 and Huh-7.5.1c2) and conduct a detailed analysis of differentially expressed host factors by integrating a variety of data sources. Our results demonstrate that changes relating to susceptibility to HCV infection in hepatoma cells are linked to the innate immune response, secreted signal peptides and host factors that have a role in virus entry and replication. This work identifies both known and novel host factors that may influence HCV infection.   Our findings build upon current knowledge of the complex interplay between HCV and the host cell, which could aid development of new antiviral strategies. Six Huh-7 derived hepatoma cell types that have different levels of susceptibility to HCV infection in cell culture are used: Huh-7, Huh-7.5.1, Huh-7.5.1c2, R1.09, R1.10 and R2.1. Of these the first three (label starting Huh are susceptible to HCV infection and the latter three (label starting R are resistant to HCV infection. All cell types are derived from Huh-7. Huh-7.5.1 is a subclone of Huh-7.5 that in turn is a subclone of Huh-7. Huh-7.5.1c2 is a subclone of Huh-7.5.1. R1.09 and R1.10 are subclones of R1 that is inturn a sublone of Huh-7.5,1. R2.1 is a subclone of Huh-7.5.1. 39 samples are used. In every case there are 3 biological replicates, i.e., there are 13 unique conditions (39/3=13). These samples are subdivided between two studies: (1) A comparison of HCV infection resistant cells R1.09, R1.10 and R2 against HCV susceptible Huh-7.5.1. (2) A comparison of JFH1 HCV infected Huh-7, Huh-7.5.1 and Huh-7.5.1c2 cells versus their uninfected counterparts. In each case there are two uninfected counterparts, cells that were harvested after being in culture for 20 hours and cells that were harvested at the same time point as the infected cells, that is, at the peak time of infection. Peak times for infection vary between cells, depending on their susceptibility to infection: 168 hours for Huh-7, 120 hours for Huh-7.5.1 and 96 hours for Huh-7.5.1c2."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "GEO"
+            }
+          ],
+          "url": "GSE29889"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-GSE29889-1",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE29889-1"
+            },
+            {
+              "name": "Type",
+              "value": "bioassay_data_transformation"
+            },
+            {
+              "name": "Description",
+              "value": "ID_REF =  VALUE = RMA normalized signal intensity ABS_CALL ="
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE29889-5",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE29889-5"
+            },
+            {
+              "name": "Type",
+              "value": "image_aquisition"
+            },
+            {
+              "name": "Description",
+              "value": "The probe arrays were scanned at 560 nm using a confocal laser-scanning microscope (Affymetrix Scanner 3000 7G). CEL files were generated and used for further analysis. All microarray procedures were done at AROS, Denmark."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE29889-4",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE29889-4"
+            },
+            {
+              "name": "Type",
+              "value": "hybridization"
+            },
+            {
+              "name": "Description",
+              "value": "100ng of RNA from each sample was used to prepare cDNA with the Affymetrix GeneChip 3’ IVT Express Kit and hybridised to Affymetrix U133 Plus 2 microarrays following the manufacturer's instructions. The washing and staining procedure was performed in the Affymetrix Fluidics Station 450. The probe array was exposed to 10 washes in 6xSSPE-T at 250C followed by 4 washes in 0.5xSSPE-T at 500C. The biotinylated cRNA was stained with a streptavidin-phycoerythrin conjugate, final concentration 2 mg/ml (Molecular Probes, Eugene, OR) in 6xSSPE-T for 30 min at 250C followed by 10 washes in 6xSSPE-T at 250C An antibody amplification step followed using normal goat IgG as blocking reagent, final concentration 0.1 mg/ml (Sigma) and biotinylated anti-streptavidin antibody (goat), final concentration 3 mg/ml (Vector Laboratories). This was followed by a staining step with a streptavidin-phycoerythrin conjugate, final concentration 2 mg/ml (Molecular Probes, Eugene, OR) in 6xSSPE-T for 30 min at 250C and 10 washes in 6xSSPE-T at 250C."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE29889-2",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE29889-2"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic_acid_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "Cell cultures were centrifuged at 1000rpm for 5 minutes and the cell pellet was resuspent in 350 microlitre lysis buffer (Qiagen). Each lysate was homogenised with a Qiashedder column (Qiagen) and the RNA was extracted using the RNeasy Mini Kit following the manufactures instructions. On-column DNA digestion was carried out by means of the RNase-Free DNase Set (Qiagen) and the integrity of the RNA was confirmed via Agilent (RIN of 9.7-10)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE29889-3",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE29889-3"
+            },
+            {
+              "name": "Type",
+              "value": "labeling"
+            },
+            {
+              "name": "Description",
+              "value": "100ng of RNA from each sample was used to prepare cDNA with the Affymetrix GeneChip 3’ IVT Express Kit and hybridised to Affymetrix U133 Plus 2 microarrays following the manufacturer's instructions"
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-GSE29889-6",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-GSE29889-6"
+            },
+            {
+              "name": "Type",
+              "value": "feature_extraction"
+            },
+            {
+              "name": "Description",
+              "value": "All analysis of microarray intensity data was carried out using R statistical software including Bioconductor packages. GeneChip probe sets definitions were assigned using Entrez gene version 12.1 of a custom chip description file (CDF) from Psychiatry/MBNI Microarray Lab. This CDF included 17726 probe sets that correspond to an NCBI gene. Initial quality checks of each chip were carried out using Bioconductor core tools and package affyQCReport. Quality checks and visual inspection of array intensities showed that the quality of the array data was good. Robust Multichip Average (RMA) expression values were computed using the Bioconductor affy package. Genes that were called not present on all 39 GeneChip array data sets using Microarray Suite version 5.0 (MAS5) presence calls were removed from the analysis, leaving a total of 13760 genes. Probability, false discovery rate (FDR) and fold-change values for differential expression of genes between cells, using three biological replicates from each, were calculated in a pairwise manner using the limma method in the R limma package. Genes were defined to be significantly differentially expressed if they achieved an FDR of <0.01 and a minimum fold-change of >1.5."
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "David Robertson"
+          },
+          {
+            "name": "Email",
+            "value": "david.robertson@manchester.ac.uk"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Jamie MacPherson"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Ben Sidders"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Stefan Wieland"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Paul Targett-Adams"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Volker Lohmann"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Perdita Backes"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Oona Delpuech-Adams"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Francis Chisari"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Marilyn Lewis"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Tanya Parkinson"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "University of Manchester"
+          },
+          {
+            "name": "Address",
+            "value": "Faculty of Life Sciences, University of Manchester, Michael Smith Building, Manchester, United Kingdom"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-GEOD-29889",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "39"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "hcv infection susceptibility"
+              }
+            ],
+            "value": "HCV INFECTION SUSCEPTIBILITY"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "hcv infected"
+              }
+            ],
+            "value": "HCV INFECTED"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-GEOD-29889",
+            "attributes": [
+              {
+                "name": "Hcv infected",
+                "value": "no"
+              },
+              {
+                "name": "Hcv infected",
+                "value": "yes"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "susceptible to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "very susceptible to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "resistant to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "extremely resistant to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "extremely susceptible to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "very resistant to HCV infection"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "no"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "very susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740197.CEL\" OR \"GSM740196.CEL\" OR \"GSM740195.CEL\" OR \"GSM740182.CEL\" OR \"GSM740181.CEL\" OR \"GSM740180.CEL\" OR \"GSM740164.CEL\" OR \"GSM740163.CEL\" OR \"GSM740162.CEL\""
+                        }
+                      ],
+                      "value": "9"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "no"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "resistant to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740194.CEL\" OR \"GSM740193.CEL\" OR \"GSM740192.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "no"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "very resistant to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740191.CEL\" OR \"GSM740190.CEL\" OR \"GSM740189.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_3",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "no"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "extremely resistant to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740188.CEL\" OR \"GSM740187.CEL\" OR \"GSM740186.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_4",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "no"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740185.CEL\" OR \"GSM740184.CEL\" OR \"GSM740183.CEL\" OR \"GSM740167.CEL\" OR \"GSM740166.CEL\" OR \"GSM740165.CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_5",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "no"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "extremely susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740179.CEL\" OR \"GSM740178.CEL\" OR \"GSM740177.CEL\" OR \"GSM740161.CEL\" OR \"GSM740160.CEL\" OR \"GSM740159.CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_6",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740176.CEL\" OR \"GSM740175.CEL\" OR \"GSM740174.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_7",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "very susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740173.CEL\" OR \"GSM740172.CEL\" OR \"GSM740171.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_8",
+                  "attributes": [
+                    {
+                      "name": "HCV INFECTED",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "HCV INFECTION SUSCEPTIBILITY",
+                      "value": "extremely susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740170.CEL\" OR \"GSM740169.CEL\" OR \"GSM740168.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-GEOD-29889",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Hcv infected",
+                "value": "no"
+              },
+              {
+                "name": "Hcv infected",
+                "value": "yes"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "susceptible to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "very susceptible to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "resistant to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "extremely resistant to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "extremely susceptible to HCV infection"
+              },
+              {
+                "name": "Hcv infection susceptibility",
+                "value": "very resistant to HCV infection"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "no"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "very susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740197.CEL\" OR \"GSM740196.CEL\" OR \"GSM740195.CEL\" OR \"GSM740182.CEL\" OR \"GSM740181.CEL\" OR \"GSM740180.CEL\" OR \"GSM740164.CEL\" OR \"GSM740163.CEL\" OR \"GSM740162.CEL\""
+                        }
+                      ],
+                      "value": "9"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "no"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "resistant to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740194.CEL\" OR \"GSM740193.CEL\" OR \"GSM740192.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "no"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "very resistant to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740191.CEL\" OR \"GSM740190.CEL\" OR \"GSM740189.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "no"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "extremely resistant to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740188.CEL\" OR \"GSM740187.CEL\" OR \"GSM740186.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "no"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740185.CEL\" OR \"GSM740184.CEL\" OR \"GSM740183.CEL\" OR \"GSM740167.CEL\" OR \"GSM740166.CEL\" OR \"GSM740165.CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "no"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "extremely susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740179.CEL\" OR \"GSM740178.CEL\" OR \"GSM740177.CEL\" OR \"GSM740161.CEL\" OR \"GSM740160.CEL\" OR \"GSM740159.CEL\""
+                        }
+                      ],
+                      "value": "6"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740176.CEL\" OR \"GSM740175.CEL\" OR \"GSM740174.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "very susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740173.CEL\" OR \"GSM740172.CEL\" OR \"GSM740171.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "hcv infected",
+                      "value": "yes"
+                    },
+                    {
+                      "name": "hcv infection susceptibility",
+                      "value": "extremely susceptible to HCV infection"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"GSM740170.CEL\" OR \"GSM740169.CEL\" OR \"GSM740168.CEL\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-GEOD-29889",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "39"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740197 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740197.CEL",
+                  "size": 13567028,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740196 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740196.CEL",
+                  "size": 13567152,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740195 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740195.CEL",
+                  "size": 13566824,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740194 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740194.CEL",
+                  "size": 13567084,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740193 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740193.CEL",
+                  "size": 13567140,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740192 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740192.CEL",
+                  "size": 13567520,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740191 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740191.CEL",
+                  "size": 13567056,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740190 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740190.CEL",
+                  "size": 13567196,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740189 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740189.CEL",
+                  "size": 13566944,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740188 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740188.CEL",
+                  "size": 13567060,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740187 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740187.CEL",
+                  "size": 13566644,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740186 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740186.CEL",
+                  "size": 13566904,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740185 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740185.CEL",
+                  "size": 13552928,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740184 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740184.CEL",
+                  "size": 13552428,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740183 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740183.CEL",
+                  "size": 13553588,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740182 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740182.CEL",
+                  "size": 13553669,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740181 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740181.CEL",
+                  "size": 13554109,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740180 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740180.CEL",
+                  "size": 13555129,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740179 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740179.CEL",
+                  "size": 13553329,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740178 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740178.CEL",
+                  "size": 13552345,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740177 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740177.CEL",
+                  "size": 13552425,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740176 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740176.CEL",
+                  "size": 13552177,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740175 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740175.CEL",
+                  "size": 13552141,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740174 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740174.CEL",
+                  "size": 13552057,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740173 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740173.CEL",
+                  "size": 13552597,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740172 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740172.CEL",
+                  "size": 13551453,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740171 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740171.CEL",
+                  "size": 13552593,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740170 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740170.CEL",
+                  "size": 13552125,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740169 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740169.CEL",
+                  "size": 13552905,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740168 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740168.CEL",
+                  "size": 13551989,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740167 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740167.CEL",
+                  "size": 13556649,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740166 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740166.CEL",
+                  "size": 13550801,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740165 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740165.CEL",
+                  "size": 13552593,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740164 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740164.CEL",
+                  "size": 13554469,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740163 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740163.CEL",
+                  "size": 13551801,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740162 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740162.CEL",
+                  "size": 13552929,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740161 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740161.CEL",
+                  "size": 13551296,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740160 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740160.CEL",
+                  "size": 13552353,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "GSM740159 1"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "GSM740159.CEL",
+                  "size": 13554309,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740179_sample_table.txt",
+                  "size": 403530,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740180_sample_table.txt",
+                  "size": 403442,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740185_sample_table.txt",
+                  "size": 403476,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740170_sample_table.txt",
+                  "size": 403472,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740165_sample_table.txt",
+                  "size": 403421,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740172_sample_table.txt",
+                  "size": 403419,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740175_sample_table.txt",
+                  "size": 403432,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740191_sample_table.txt",
+                  "size": 403400,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740187_sample_table.txt",
+                  "size": 403469,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740181_sample_table.txt",
+                  "size": 403534,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740188_sample_table.txt",
+                  "size": 403424,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740196_sample_table.txt",
+                  "size": 403457,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740166_sample_table.txt",
+                  "size": 403448,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740162_sample_table.txt",
+                  "size": 403371,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740189_sample_table.txt",
+                  "size": 403378,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740164_sample_table.txt",
+                  "size": 403407,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740195_sample_table.txt",
+                  "size": 403468,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740176_sample_table.txt",
+                  "size": 403474,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740194_sample_table.txt",
+                  "size": 403402,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740163_sample_table.txt",
+                  "size": 403456,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740168_sample_table.txt",
+                  "size": 403422,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740184_sample_table.txt",
+                  "size": 403459,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740160_sample_table.txt",
+                  "size": 403463,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740169_sample_table.txt",
+                  "size": 403531,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740178_sample_table.txt",
+                  "size": 403389,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740190_sample_table.txt",
+                  "size": 403493,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740171_sample_table.txt",
+                  "size": 403438,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740183_sample_table.txt",
+                  "size": 403484,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740192_sample_table.txt",
+                  "size": 403451,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740159_sample_table.txt",
+                  "size": 403406,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740186_sample_table.txt",
+                  "size": 403479,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740174_sample_table.txt",
+                  "size": 403464,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740167_sample_table.txt",
+                  "size": 403427,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740193_sample_table.txt",
+                  "size": 403534,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740177_sample_table.txt",
+                  "size": 403405,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740173_sample_table.txt",
+                  "size": 403500,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740197_sample_table.txt",
+                  "size": 403591,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740182_sample_table.txt",
+                  "size": 403477,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "GSM740161_sample_table.txt",
+                  "size": 403406,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-GEOD-29889",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-GEOD-29889.idf.txt",
+                  "size": 8129,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-GEOD-29889.sdrf.txt",
+                  "size": 33517,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-GEOD-29889",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-GEOD-10526"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-GEOD-29889",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}

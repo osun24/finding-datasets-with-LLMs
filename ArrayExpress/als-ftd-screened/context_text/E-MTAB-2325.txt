@@ -1,0 +1,33 @@
+Accession: E-MTAB-2325
+Source list: als-ftd-screened
+Title: Gene expression profiles in motor cortex of Control and Sporadic Amyotrphic Lateral Sclerosis patients
+Study type: transcription profiling by array
+Description: Threshold: 1.0 . Logbase: 2 . Technology: Generic.SingleColor.014850. Normalization: Shift to 75 percentile . Baseline Transformation: median of all samples .
+Sample count: 41
+Assay count: 41
+
+Samples:
+  Experimental Designs:
+    Experimental Designs: case control design, clinical history design
+  Experimental Factors:
+    Experimental Factors: age at death, disease, Survival characteristics, Survival time from date of onset (months), Post-mortem interval in hours, Location of onset, Occupation (job), Smoker or non smoker, Alchool use or not, Other pathologies, Therapy used, Vaccination boost, Familial anamnesis
+  Experimental Factors > Source Characteristics:
+    Organism: Homo sapiens
+    Developmental stage: Not found
+    Organism part: v4 cortex
+    Disease: normal, Sporadic Amyotrophic Lateral Sclerosis
+  Additional screening-relevant attributes:
+    Disease state/staging:
+      Not found
+    Cell type/line:
+      Not found
+    Clinical/familial:
+      Familial anamnesis: Mother died of cancer, Husband died in 13-03-1986 in Switserland of ALS. A nephew of mother's side was paralyzed, Father died of heart attack., father died at the age of 49 of hart disease and mother suffered of hypertension, Several cases of Alzheimer in his mother's family, A son with asthma bronchiale. Brother with back problems., "brother MS, daughter handicapped", "Mother died of cancer, father of consequences tentamen suicidii", father died in 1987 of brain tumor and had spinal cord tumors and intestine polyps, A sister of her mother had MS and died after an ilness period of 10 years at the age of 68, n/a, sister with morbus Reckinhhausen, "A sister had leukemia, whereas an uncle had Parkinson"
+    Treatment/compound:
+      Not found
+    Quality controls:
+      Not found
+
+Assays and Data:
+  Technology: Array assay
+  Assay by Molecule: RNA assay

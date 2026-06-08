@@ -1,0 +1,2012 @@
+{
+  "accno": "E-MTAB-6094",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Whole genome transcriptional analysis of Alzheimer's disease patients compared with age-matched non-demented controls"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2017-12-01"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-6094"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-6094",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Whole genome transcriptional analysis of Alzheimer's disease patients compared with age-matched non-demented controls"
+      },
+      {
+        "name": "Study type",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0002768"
+          }
+        ],
+        "value": "transcription profiling by array"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Alzheimer’s disease (AD) is an aging related neurodegenerative pathology that affects millions of people worldwide. This pathology has been related to a range of features such as deposition of proteins in the brain, alterations in cell cycle, accumulation of DNA damage, DNA repair deficiency and mitochondrial dysfunction, however the molecular mechanisms implicated in its pathogenesis are still uncertain.  Thereby, the present study aimed to evaluate whether peripheral blood mononuclear cells (PBMCs) of AD patients display alterations in gene expression profilescompared to age-matched controls. Blood samples were collected from 25 AD patients and 15 age-matched controls in order to perform genome-wide mRNA expression (microarray). In blood cells, Rank products bioinformatics analysis indicated 593 mRNAs adifferentially expressed in AD compared to controls. Our results demonstrated that PBMCs have alterations in cell cycle and DNA repair as proposed for AD neurons, reinforcing the idea that AD blood cells can provide information about AD status and also can be import as source of studies to better understand the disease."
+      }
+    ],
+    "links": [
+      [
+        {
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "gxa"
+            }
+          ],
+          "url": "E-MTAB-6094"
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-68506",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68506"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003813"
+                }
+              ],
+              "value": "nucleic acid labeling protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The labeling process was performed using the kit QuickAmp Labeling (monocolor system-Cy3) (Agilent technologies, Santa Clara, CA), according to manufacturer’s protocol. Briefly, 200 ng of total RNA samples were initially submitted to cDNA synthesis by reverse transcription followed by generation of fluorescent complementary RNA Anti-sense (cRNA).  The amplification of the cRNAs was performed using the enzyme T7 RNA Polymerase Blend and nucleotides labeled with cyanine 3 (Cy3). Amplified samples were then purified and quantified."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68507",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68507"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003815"
+                }
+              ],
+              "value": "nucleic acid hybridization to array protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Samples were added to specific slides and hybridization occurred in a special oven at 65 Celsius degrees for 17h."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68504",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68504"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ],
+              "value": "sample collection protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Peripheral blood from all volunteers was collected by venipuncture in vacuum blood tubes containing EDTA (0.054 mL/tube) (BD Vacutainer). The PBMCs were then separated by density gradient using Ficoll-Hypaque (Sigma, St. Louis, MO).All Ad patients were diagnosed based on the criteria established by the Diagnostic and Statistical Manual of Mental Disorders 4th edition and the National Institute of Neurological and Communicative Disorders and Stroke and The Alzheimer's disease Related disorders Association. Since neuropathological exams were not performed, patients were classified as probable Alzheimer's disease (AD). AD patients were considered at late onset since the onset of symptoms was later then 65 years old. AD patients were subdivided into two groups according to the clinical Dementia Rate (CDR) that is the cognitive impairment scale most used to determine the clinical phase of dementia. CDR 1 is considered mild AD, CDR2 is moderate AD and CDR3 is severe AD."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68505",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68505"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ],
+              "value": "nucleic acid extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "Total RNA isolation was performed using Trizol reagent (Invitrogen, Carlsbad, CA), according to manufacturer’s protocol. Samples were quantified using NanoDrop ND-1000 ((NanoDrop Products, Wilmington, DE). RNA integrity was evaluated by electrophoresis in a nanofluidic device, Bioanalyzer 2100 (Agilent Technologies, Santa Clara, CA). RNA samples used for microarrays analysis got the RNA integrity number (RIN) higher than 7.0."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68508",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68508"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003814"
+                }
+              ],
+              "value": "array scanning and feature extraction protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The slides were scanned in a high-resolution scanner Surescan (Agilent Techonologies). The results from scanning were extracted using Feature Extraction Software version 10.7 (Agilent Technologies)."
+            }
+          ],
+          "type": "Protocols"
+        },
+        {
+          "accno": "P-MTAB-68509",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-68509"
+            },
+            {
+              "name": "Type",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0003816"
+                }
+              ],
+              "value": "normalization data transformation protocol"
+            },
+            {
+              "name": "Description",
+              "value": "The raw data was submitted to R environment v. 3.3.0 (https://www.r-project.org/) for further analysis. The median signals (gMedianSignal and gBGMedianSignal) were used. Following background subtraction and log2 scale transformation, normalization was performed using the quantile method with the aroma light package (http://www.bioconductor.org/packages/release/bioc/ html/aroma.light.html). Differentially expressed mRNAs were obtained by rank product analysis using the RankProd package (Hong, 2016), considering p-values and positive false predictions (pfp) ≤ 0.05"
+            }
+          ],
+          "type": "Protocols"
+        }
+      ],
+      {
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Giovana Leandro"
+          },
+          {
+            "name": "Email",
+            "value": "giovanabiousp@gmail.com"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "reference": true,
+            "value": "o1"
+          }
+        ],
+        "type": "Author"
+      },
+      {
+        "accno": "o1",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Department of Genetics, Ribeirao Preto Medical School, University of Sao Paulo"
+          },
+          {
+            "name": "Address",
+            "value": "Department of Genetics, Ribeirao Preto Medical School, University of Sao Paulo Avenida Bandeirantes, 3900 Monte Alegre, 14049-900 Ribeirão Preto, Sao Paulo, Brazil"
+          }
+        ],
+        "type": "Organization"
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-6094",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "35"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease"
+              }
+            ],
+            "value": "disease"
+          },
+          {
+            "name": "Experimental Factors",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "disease staging"
+              }
+            ],
+            "value": "disease staging"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-6094",
+            "attributes": [
+              {
+                "name": "Disease",
+                "value": "Alzheimers disease"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Disease staging",
+                "value": "clinical dementia rate 1"
+              },
+              {
+                "name": "Disease staging",
+                "value": "clinical dementia rate 3"
+              },
+              {
+                "name": "Disease staging",
+                "value": "not applicable"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "not applicable"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222962_S01_GE1_107_Sep09_1_1_cda02.txt\" OR \"US09523754_252665222964_S01_GE1_107_Sep09_1_2_cda07.txt\" OR \"US09523754_252665222964_S01_GE1_107_Sep09_1_4_cda08.txt\" OR \"US09523754_252665222965_S01_GE1_107_Sep09_1_1_cda10.txt\" OR \"US09523754_252665222985_S01_GE1_107_Sep09_1_1_cda18.txt\" OR \"US09523754_252665222985_S01_GE1_107_Sep09_1_3_cda19.txt\" OR \"US09523754_252665222988_S01_GE1_107_Sep09_1_2_cda20.txt\" OR \"US09523754_252665222966_S01_GE1_107_Sep09_1_2_cda21.txt\" OR \"US09523754_252665222966_S01_GE1_107_Sep09_1_4_cda22.txt\" OR \"US09523754_252665222984_S01_GE1_107_Sep09_1_1_cda23.txt\" OR \"US09523754_252665222984_S01_GE1_107_Sep09_1_3_cda24.txt\" OR \"US09523754_252665222987_S01_GE1_107_Sep09_1_3_cda25.txt\" OR \"US09523754_252665222986_S01_GE1_107_Sep09_1_4_cda26.txt\""
+                        }
+                      ],
+                      "value": "13"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_1",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "clinical dementia rate 3"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222964_S01_GE1_107_Sep09_1_3_pda06.txt\" OR \"US09523754_252665222966_S01_GE1_107_Sep09_1_1_pda13.txt\" OR \"US09523754_252665222984_S01_GE1_107_Sep09_1_4_pda41.txt\" OR \"US09523754_252665222963_S01_GE1_107_Sep09_1_1_pda43.txt\" OR \"US09523754_252665222987_S01_GE1_107_Sep09_1_4_pda45.txt\" OR \"US09523754_252665222963_S01_GE1_107_Sep09_1_3_pda46.txt\" OR \"US09523754_252665222986_S01_GE1_107_Sep09_1_1_pda48.txt\""
+                        }
+                      ],
+                      "value": "7"
+                    }
+                  ],
+                  "type": "Factors Table"
+                },
+                {
+                  "accno": "factors_2",
+                  "attributes": [
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "disease staging",
+                      "value": "clinical dementia rate 1"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222965_S01_GE1_107_Sep09_1_2_pda09.txt\" OR \"US09523754_252665222985_S01_GE1_107_Sep09_1_2_pda11.txt\" OR \"US09523754_252665222965_S01_GE1_107_Sep09_1_4_pda12.txt\" OR \"US09523754_252665222962_S01_GE1_107_Sep09_1_2_pda26.txt\" OR \"US09523754_252665222962_S01_GE1_107_Sep09_1_3_pda30.txt\" OR \"US09523754_252665222962_S01_GE1_107_Sep09_1_4_pda33.txt\" OR \"US09523754_252665222988_S01_GE1_107_Sep09_1_3_pda35.txt\" OR \"US09523754_252665222988_S01_GE1_107_Sep09_1_4_PDA36.txt\" OR \"US09523754_252665222987_S01_GE1_107_Sep09_1_1_pda37.txt\" OR \"US09523754_252665222966_S01_GE1_107_Sep09_1_3_pda39.txt\" OR \"US09523754_252665222984_S01_GE1_107_Sep09_1_2_pda40.txt\" OR \"US09523754_252665222987_S01_GE1_107_Sep09_1_2_pda42.txt\" OR \"US09523754_252665222963_S01_GE1_107_Sep09_1_4_pda47.txt\" OR \"US09523754_252665222986_S01_GE1_107_Sep09_1_2_pda50.txt\" OR \"US09523754_252665222986_S01_GE1_107_Sep09_1_3_pda51.txt\""
+                        }
+                      ],
+                      "value": "15"
+                    }
+                  ],
+                  "type": "Factors Table"
+                }
+              ]
+            ],
+            "type": "Experimental Factors"
+          },
+          {
+            "accno": "source_chars-E-MTAB-6094",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "blood"
+              },
+              {
+                "name": "Cell type",
+                "value": "mononuclear cell"
+              },
+              {
+                "name": "Age",
+                "value": "71 year"
+              },
+              {
+                "name": "Age",
+                "value": "74 year"
+              },
+              {
+                "name": "Age",
+                "value": "78 year"
+              },
+              {
+                "name": "Age",
+                "value": "79 year"
+              },
+              {
+                "name": "Age",
+                "value": "87 year"
+              },
+              {
+                "name": "Age",
+                "value": "84 year"
+              },
+              {
+                "name": "Age",
+                "value": "72 year"
+              },
+              {
+                "name": "Age",
+                "value": "91 year"
+              },
+              {
+                "name": "Age",
+                "value": "73 year"
+              },
+              {
+                "name": "Age",
+                "value": "76 year"
+              },
+              {
+                "name": "Age",
+                "value": "80 year"
+              },
+              {
+                "name": "Age",
+                "value": "89 year"
+              },
+              {
+                "name": "Age",
+                "value": "82 year"
+              },
+              {
+                "name": "Age",
+                "value": "85 year"
+              },
+              {
+                "name": "Age",
+                "value": "65 year"
+              },
+              {
+                "name": "Age",
+                "value": "... 4 other values"
+              },
+              {
+                "name": "Disease",
+                "value": "Alzheimers disease"
+              },
+              {
+                "name": "Disease",
+                "value": "normal"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "69 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222962_S01_GE1_107_Sep09_1_1_cda02.txt\" OR \"US09523754_252665222964_S01_GE1_107_Sep09_1_2_cda07.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_1",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "76 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222964_S01_GE1_107_Sep09_1_4_cda08.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_2",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "78 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222965_S01_GE1_107_Sep09_1_1_cda10.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_3",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "83 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222985_S01_GE1_107_Sep09_1_1_cda18.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_4",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222985_S01_GE1_107_Sep09_1_3_cda19.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_5",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "72 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222988_S01_GE1_107_Sep09_1_2_cda20.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_6",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "83 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222966_S01_GE1_107_Sep09_1_2_cda21.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_7",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "85 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222966_S01_GE1_107_Sep09_1_4_cda22.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_8",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "84 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222984_S01_GE1_107_Sep09_1_1_cda23.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_9",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "84 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222984_S01_GE1_107_Sep09_1_3_cda24.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_10",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "70 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222987_S01_GE1_107_Sep09_1_3_cda25.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_11",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "79 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "normal"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222986_S01_GE1_107_Sep09_1_4_cda26.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_12",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "83 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222964_S01_GE1_107_Sep09_1_3_pda06.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_13",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "91 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222965_S01_GE1_107_Sep09_1_2_pda09.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_14",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "80 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222985_S01_GE1_107_Sep09_1_2_pda11.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_15",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "73 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222965_S01_GE1_107_Sep09_1_4_pda12.txt\" OR \"US09523754_252665222988_S01_GE1_107_Sep09_1_4_PDA36.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_16",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "76 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222966_S01_GE1_107_Sep09_1_1_pda13.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_17",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "84 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222962_S01_GE1_107_Sep09_1_2_pda26.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_18",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "77 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222962_S01_GE1_107_Sep09_1_3_pda30.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_19",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "91 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222962_S01_GE1_107_Sep09_1_4_pda33.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_20",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222988_S01_GE1_107_Sep09_1_3_pda35.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_21",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "82 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222987_S01_GE1_107_Sep09_1_1_pda37.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_22",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "77 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222966_S01_GE1_107_Sep09_1_3_pda39.txt\" OR \"US09523754_252665222963_S01_GE1_107_Sep09_1_1_pda43.txt\""
+                        }
+                      ],
+                      "value": "2"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_23",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "87 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222984_S01_GE1_107_Sep09_1_2_pda40.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_24",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "71 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222984_S01_GE1_107_Sep09_1_4_pda41.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_25",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "76 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222987_S01_GE1_107_Sep09_1_2_pda42.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_26",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "74 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222987_S01_GE1_107_Sep09_1_4_pda45.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_27",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "79 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222963_S01_GE1_107_Sep09_1_3_pda46.txt\" OR \"US09523754_252665222963_S01_GE1_107_Sep09_1_4_pda47.txt\" OR \"US09523754_252665222986_S01_GE1_107_Sep09_1_1_pda48.txt\""
+                        }
+                      ],
+                      "value": "3"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_28",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "89 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222986_S01_GE1_107_Sep09_1_2_pda50.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                },
+                {
+                  "accno": "source_29",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "83 year"
+                    },
+                    {
+                      "name": "disease",
+                      "value": "Alzheimers disease"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "valqual": [
+                        {
+                          "name": "search",
+                          "value": "\"US09523754_252665222986_S01_GE1_107_Sep09_1_3_pda51.txt\""
+                        }
+                      ],
+                      "value": "1"
+                    }
+                  ],
+                  "type": "Characteristics Table"
+                }
+              ]
+            ],
+            "type": "Source Characteristics"
+          }
+        ],
+        "type": "Samples"
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-6094",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "35"
+          },
+          {
+            "name": "Technology",
+            "value": "Array assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA02"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222962_S01_GE1_107_Sep09_1_1_cda02.txt",
+                  "size": 25683284,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA07"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222964_S01_GE1_107_Sep09_1_2_cda07.txt",
+                  "size": 25704792,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA08"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222964_S01_GE1_107_Sep09_1_4_cda08.txt",
+                  "size": 25705962,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA10"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222965_S01_GE1_107_Sep09_1_1_cda10.txt",
+                  "size": 25695452,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA18"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222985_S01_GE1_107_Sep09_1_1_cda18.txt",
+                  "size": 25689481,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA19"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222985_S01_GE1_107_Sep09_1_3_cda19.txt",
+                  "size": 25681752,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA20"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222988_S01_GE1_107_Sep09_1_2_cda20.txt",
+                  "size": 25710485,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA21"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222966_S01_GE1_107_Sep09_1_2_cda21.txt",
+                  "size": 25690122,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA22"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222966_S01_GE1_107_Sep09_1_4_cda22.txt",
+                  "size": 25696161,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA23"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222984_S01_GE1_107_Sep09_1_1_cda23.txt",
+                  "size": 25686140,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA24"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222984_S01_GE1_107_Sep09_1_3_cda24.txt",
+                  "size": 25682916,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA25"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222987_S01_GE1_107_Sep09_1_3_cda25.txt",
+                  "size": 25689510,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "CDA26"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222986_S01_GE1_107_Sep09_1_4_cda26.txt",
+                  "size": 25687595,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA06"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222964_S01_GE1_107_Sep09_1_3_pda06.txt",
+                  "size": 25701688,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA09"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222965_S01_GE1_107_Sep09_1_2_pda09.txt",
+                  "size": 25714918,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA11"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222985_S01_GE1_107_Sep09_1_2_pda11.txt",
+                  "size": 25687771,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA12"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222965_S01_GE1_107_Sep09_1_4_pda12.txt",
+                  "size": 25697205,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA13"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222966_S01_GE1_107_Sep09_1_1_pda13.txt",
+                  "size": 25679945,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA26"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222962_S01_GE1_107_Sep09_1_2_pda26.txt",
+                  "size": 25668707,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA30"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222962_S01_GE1_107_Sep09_1_3_pda30.txt",
+                  "size": 25668175,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA33"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222962_S01_GE1_107_Sep09_1_4_pda33.txt",
+                  "size": 25647457,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA35"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222988_S01_GE1_107_Sep09_1_3_pda35.txt",
+                  "size": 25721775,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA36"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222988_S01_GE1_107_Sep09_1_4_PDA36.txt",
+                  "size": 25705350,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA37"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222987_S01_GE1_107_Sep09_1_1_pda37.txt",
+                  "size": 25706388,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA39"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222966_S01_GE1_107_Sep09_1_3_pda39.txt",
+                  "size": 25709637,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA40"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222984_S01_GE1_107_Sep09_1_2_pda40.txt",
+                  "size": 25705879,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA41"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222984_S01_GE1_107_Sep09_1_4_pda41.txt",
+                  "size": 25663518,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA42"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222987_S01_GE1_107_Sep09_1_2_pda42.txt",
+                  "size": 25693440,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA43"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222963_S01_GE1_107_Sep09_1_1_pda43.txt",
+                  "size": 25703943,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA45"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222987_S01_GE1_107_Sep09_1_4_pda45.txt",
+                  "size": 25697691,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA46"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222963_S01_GE1_107_Sep09_1_3_pda46.txt",
+                  "size": 25692950,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA47"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222963_S01_GE1_107_Sep09_1_4_pda47.txt",
+                  "size": 25694014,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA48"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222986_S01_GE1_107_Sep09_1_1_pda48.txt",
+                  "size": 25699949,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA50"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222986_S01_GE1_107_Sep09_1_2_pda50.txt",
+                  "size": 25694620,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "PDA51"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Raw data file"
+                    }
+                  ],
+                  "path": "US09523754_252665222986_S01_GE1_107_Sep09_1_3_pda51.txt",
+                  "size": 25689583,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Raw Data"
+          },
+          {
+            "accno": "processed-data",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Description",
+                      "value": "Processed Data"
+                    }
+                  ],
+                  "path": "Norm_NR.txt",
+                  "size": 19041271,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "Processed Data"
+          },
+          {
+            "accno": "mt-E-MTAB-6094",
+            "files": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "path": "E-MTAB-6094.idf.txt",
+                  "size": 6783,
+                  "type": "file"
+                },
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "path": "E-MTAB-6094.sdrf.txt",
+                  "size": 21214,
+                  "type": "file"
+                }
+              ]
+            ],
+            "type": "MAGE-TAB Files"
+          },
+          {
+            "accno": "ad-E-MTAB-6094",
+            "links": [
+              [
+                {
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "Array Design"
+                    }
+                  ],
+                  "url": "A-MEXP-2183"
+                }
+              ]
+            ],
+            "type": "Array Designs"
+          }
+        ],
+        "type": "Assays and Data"
+      },
+      {
+        "accno": "score-E-MTAB-6094",
+        "attributes": [
+          {
+            "name": "Platforms",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "*"
+          }
+        ],
+        "type": "MIAME Score"
+      }
+    ],
+    "type": "Study"
+  },
+  "type": "submission"
+}
